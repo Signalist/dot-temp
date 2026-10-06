@@ -1,0 +1,102 @@
+{
+  "checks": {
+    "source_freeze": 276,
+    "namespace_hash": 108,
+    "identity": 108,
+    "event_binding": 108,
+    "terminal_count": 108,
+    "EOS_excluded_count": 108,
+    "token_hash": 108,
+    "text_hash": 108,
+    "counter_binding": 108,
+    "energy_replay": 108,
+    "cycle_replay": 108,
+    "TTFT_replay": 108,
+    "e2e_replay": 108,
+    "TPOT_replay": 108,
+    "ITL_replay": 108,
+    "closure_state": 108,
+    "closure_clock": 108,
+    "boundary": 108,
+    "idle_window": 216,
+    "natural_EOS": 108,
+    "GPU_cap_unchanged": 12,
+    "job_counter": 12,
+    "job_energy_replay": 12,
+    "serial_admission": 96
+  },
+  "scheduled_sessions": 12,
+  "attempts": [
+    {
+      "session": "e01",
+      "job_id": "job-b1d040c5-f358-4bc9-a4b2-a4c4f079e508",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e02",
+      "job_id": "job-0c472798-b571-45af-8834-93c67a400da7",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e03",
+      "job_id": "job-f0a72e41-b10a-4478-a1c2-f108ec79cccf",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e04",
+      "job_id": "job-c01bd3a5-5179-4ddc-b0c1-4782814eb3f2",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e05",
+      "job_id": "job-ed086884-8605-4a32-8365-0b83c2fabde0",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e06",
+      "job_id": "job-200f4e5e-1c8c-4039-bf1a-448050761f81",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e07",
+      "job_id": "job-22ef6119-9efe-4309-80dd-ca98cc0217a1",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e08",
+      "job_id": "job-4d494845-f65f-4cc1-8f48-eb29733e4a67",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e09",
+      "job_id": "job-b55e1535-0fbd-43c1-b5cb-9801b4e3bf5a",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e10",
+      "job_id": "job-62aabb2c-103f-450f-830a-904aceccb9dd",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e11",
+      "job_id": "job-5f94aebc-31fb-4157-bf79-22ecaae7f7df",
+      "status": "job_succeeded"
+    },
+    {
+      "session": "e12",
+      "job_id": "job-8f9c06e8-54dd-4c0e-9c98-7769c4fcb3bd",
+      "status": "job_succeeded"
+    }
+  ],
+  "completed_sessions": 12,
+  "completed_requests": 108,
+  "MAIN_requests": 72,
+  "partial_requests": [],
+  "all_attempts_retained": true,
+  "quality_failures_not_excluded": true,
+  "missing_sessions_not_replaced": true,
+  "batch_terminal": true,
+  "new_physical_controls": 0,
+  "J_W6": null,
+  "full_original_W6_complete": false
+}

@@ -1,0 +1,122 @@
+{
+  "files": [
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/AUDIT.json",
+      "bytes": 2554,
+      "sha256": "42b93f5f0bb4cc9991437579d74def3685ce3cc50042257568ee39b14f419f88",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/CURRENT_GATE_STATE.json",
+      "bytes": 987,
+      "sha256": "b9239fa1c02a52791d36ee2c91a56543ef3f8ee40bbeac0863b4229ebea3edbf",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/DELIVERY_INDEX.json",
+      "bytes": 4616,
+      "sha256": "da778b3bcfa674d8e361db8318587a263f958f0d2c934293a2546ed9d74d2b35",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/DELIVERY_INDEX_IN_PROGRESS.json",
+      "bytes": 1015,
+      "sha256": "2e756fece928970f0629d111da150d83da04e9b09e56a126b65ccd5b82f8c8a3",
+      "status": "SUPERSEDED_DO_NOT_USE"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/ENERGY_LATENCY.pdf",
+      "bytes": 19092,
+      "sha256": "6704e823140a66216a9f6955525b3acaac682001396edff18e8c17784d51f272",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/ENERGY_LATENCY.png",
+      "bytes": 56201,
+      "sha256": "5685397c0891dd671e5189ee1877de9d1a67d31b0e255d64fed335c4644a5d8c",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/ESTIMATES.json",
+      "bytes": 25389,
+      "sha256": "3ff5531056b29dff6f16c6a51e8937dff88529b440c6df48340ad2e8609fa73c",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/ESTIMATION_PROTOCOL.json",
+      "bytes": 4661,
+      "sha256": "68616f735d3985e58936d3dfd3f44789b5661f804c729fb72c323d6ae17fe71b",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/FINAL_COMPLETION_CHECK.json",
+      "bytes": 3535,
+      "sha256": "bdafcb8885df7381982f52a2a026dcb26f1d48132ce063535d72f01d46fae50d",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/GPU_ONLY_Fixed_Task_Estimation.zip",
+      "bytes": 5448966,
+      "sha256": "d6587e07adee680116f85dd088f84a57b7cae1515da11b00e63fef17e35c542d",
+      "status": "SUPERSEDED_DO_NOT_USE"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/GPU_ONLY_Fixed_Task_Estimation_v2.zip",
+      "bytes": 5460137,
+      "sha256": "0751550ba4976ac610f7ca2f6020b0e281e187be22ef0ee8283beb5291816356",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/MANIFEST.json",
+      "bytes": 269158,
+      "sha256": "f49140cef72af96c23b18dc77690d08a023073bb3b7f2c8120a8e5e930e2276b",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/OFFLINE_VALIDATION.json",
+      "bytes": 460,
+      "sha256": "106e54647baf6ac44d46c75b0e05302b22e91a3c33bfb496a6568c8f16ab1d00",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/PLANNING_CLARIFICATION.json",
+      "bytes": 368,
+      "sha256": "fcc2b9f45c6ba59d7d625d1eacff5e2ade27db2d36ef6b6c3133e8d0ed32332b",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/QUALITY.json",
+      "bytes": 63099,
+      "sha256": "41bb167bfc7ccdaea5f86b373ef20ab2e3ddaaf70c828bb9689ef813a9bdb5d5",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/REPORT_ZH.md",
+      "bytes": 4379,
+      "sha256": "bc5da82369987d92df93ff47a60dd96257ad134abd225476f28a5b4538a54454",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/SAMPLE_SIZE_SENSITIVITY.json",
+      "bytes": 3170,
+      "sha256": "f97574b718e147781f64b719f436f74ba1114de29edbdeea875c60543eea8eed",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/SESSION_RESOURCES.json",
+      "bytes": 10132,
+      "sha256": "90ee1673a652405fe7d844798d5b58f3a5adf5d58856081f8eb14a69ced7218d",
+      "status": "CURRENT"
+    },
+    {
+      "absolute_path": "/inspire/hdd/global_user/wangxiyun-240108080030/DOT-AIGRID/delivery/GPU_ONLY_Estimation_20261006/STAGE_STATUS.json",
+      "bytes": 142,
+      "sha256": "ef479c50ceec3863d42f406d175a23b69d7d9407b8f76c3c2a861791bbb5b1fb",
+      "status": "CURRENT"
+    }
+  ],
+  "preferred_zip": "GPU_ONLY_Fixed_Task_Estimation_v2.zip",
+  "upload_status": "PROJECT_DELIVERY_DIRECTORY_FALLBACK_NO_THIRD_PARTY",
+  "J_W6": null,
+  "full_original_W6_complete": false
+}

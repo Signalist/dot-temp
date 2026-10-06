@@ -1,0 +1,27 @@
+{
+  "source_zip": "DOT-AIGRID_Code_and_Delivery_20261006.zip",
+  "source_sha256": "fce18cfad136328c9143e0c07f07885e38c06694d3c0d48fc017b06595d89068",
+  "parts": [
+    {
+      "part": 1,
+      "filename": "DOT-AIGRID_Code_and_Delivery_20261006_Part_01.zip",
+      "bytes": 19052906,
+      "sha256": "dc487cdb1efd094e99126f70d2c6de7b477b14efb1436b0dea5b44578db1cfad",
+      "files": 580,
+      "required": true
+    },
+    {
+      "part": 2,
+      "filename": "DOT-AIGRID_Code_and_Delivery_20261006_Part_02.zip",
+      "bytes": 19005869,
+      "sha256": "530d4ba329cf69bb6ce7c4a9dc045fbd98d3a85b0b624abd8521436b8746ecbc",
+      "files": 304,
+      "required": true
+    }
+  ],
+  "format": "Two independent ordinary ZIPs; extract both into the same directory. No binary split or cat concatenation.",
+  "limit_bytes_exclusive": 20000000,
+  "CRC_hash_safe_path_and_merged_exact_match": "PASS",
+  "merged_files": 884,
+  "original_zip_preserved": true
+}
