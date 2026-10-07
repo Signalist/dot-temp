@@ -1,0 +1,535 @@
+{
+  "scope": "abstract positive-work DAG and two-world source-of-high-task label; NOT exposed-PCC-source label or AI label",
+  "contract": {
+    "task_energy": {
+      "A": 6,
+      "B": 6,
+      "H": 18,
+      "D": 6,
+      "E": 6,
+      "F": 6
+    },
+    "task_duration_seconds": 1,
+    "task_count": 6,
+    "task_work_energy_total": 48,
+    "all_tasks_completed_within_seconds": 6,
+    "eta_c": 0.95,
+    "eta_d": 0.95,
+    "capacity": 18,
+    "known_initial_energy": 9,
+    "ac_charge_and_discharge_limit": 12,
+    "PCC_schedule": [
+      6.0,
+      12.30749014454665,
+      12.30749014454665,
+      6.0,
+      6.0,
+      6.0
+    ],
+    "qpair": 12.30749014454665,
+    "Qpair": 5.992115637319317,
+    "controller": "p is public clock schedule; local realized battery observes current load and uses p-d; no future private task order",
+    "grid_worlds": "same physical grid, initial state, all nodal P/Q histories and measurement kernels; task order only swaps at two candidate sites"
+  },
+  "dags": [
+    {
+      "name": "all_orders",
+      "edges": [],
+      "number_topological_task_orders": 720,
+      "number_distinct_power_orders": 6,
+      "task_orders": null,
+      "power_worlds": [
+        {
+          "high_slot_1indexed": 6,
+          "task_power": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            18
+          ],
+          "state": [
+            9.0,
+            9.0,
+            14.992115637319317,
+            20.984231274638635,
+            20.984231274638635,
+            20.984231274638635,
+            8.352652327270214
+          ],
+          "recovery_error": -0.6473476727297864,
+          "within_capacity": false,
+          "battery_ac_peak": 12.0,
+          "consistent_exact_recovery": false
+        },
+        {
+          "high_slot_1indexed": 5,
+          "task_power": [
+            6,
+            6,
+            6,
+            6,
+            18,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            14.992115637319317,
+            20.984231274638635,
+            20.984231274638635,
+            8.352652327270214,
+            8.352652327270214
+          ],
+          "recovery_error": -0.6473476727297864,
+          "within_capacity": false,
+          "battery_ac_peak": 12.0,
+          "consistent_exact_recovery": false
+        },
+        {
+          "high_slot_1indexed": 4,
+          "task_power": [
+            6,
+            6,
+            6,
+            18,
+            6,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            14.992115637319317,
+            20.984231274638635,
+            8.352652327270214,
+            8.352652327270214,
+            8.352652327270214
+          ],
+          "recovery_error": -0.6473476727297864,
+          "within_capacity": false,
+          "battery_ac_peak": 12.0,
+          "consistent_exact_recovery": false
+        },
+        {
+          "high_slot_1indexed": 3,
+          "task_power": [
+            6,
+            6,
+            18,
+            6,
+            6,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            14.992115637319317,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "recovery_error": 0.0,
+          "within_capacity": true,
+          "battery_ac_peak": 6.30749014454665,
+          "consistent_exact_recovery": true
+        },
+        {
+          "high_slot_1indexed": 2,
+          "task_power": [
+            6,
+            18,
+            6,
+            6,
+            6,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            3.0078843626806835,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "recovery_error": 0.0,
+          "within_capacity": true,
+          "battery_ac_peak": 6.30749014454665,
+          "consistent_exact_recovery": true
+        },
+        {
+          "high_slot_1indexed": 1,
+          "task_power": [
+            18,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "state": [
+            9.0,
+            -3.6315789473684212,
+            2.360536689950896,
+            8.352652327270214,
+            8.352652327270214,
+            8.352652327270214,
+            8.352652327270214
+          ],
+          "recovery_error": -0.6473476727297864,
+          "within_capacity": false,
+          "battery_ac_peak": 12.0,
+          "consistent_exact_recovery": false
+        }
+      ],
+      "residual_power_equivalence_class": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "wide_partial_order",
+      "edges": [
+        [
+          "A",
+          "H"
+        ],
+        [
+          "H",
+          "F"
+        ]
+      ],
+      "number_topological_task_orders": 120,
+      "number_distinct_power_orders": 4,
+      "task_orders": null,
+      "power_worlds": [
+        {
+          "high_slot_1indexed": 5,
+          "task_power": [
+            6,
+            6,
+            6,
+            6,
+            18,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            14.992115637319317,
+            20.984231274638635,
+            20.984231274638635,
+            8.352652327270214,
+            8.352652327270214
+          ],
+          "recovery_error": -0.6473476727297864,
+          "within_capacity": false,
+          "battery_ac_peak": 12.0,
+          "consistent_exact_recovery": false
+        },
+        {
+          "high_slot_1indexed": 4,
+          "task_power": [
+            6,
+            6,
+            6,
+            18,
+            6,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            14.992115637319317,
+            20.984231274638635,
+            8.352652327270214,
+            8.352652327270214,
+            8.352652327270214
+          ],
+          "recovery_error": -0.6473476727297864,
+          "within_capacity": false,
+          "battery_ac_peak": 12.0,
+          "consistent_exact_recovery": false
+        },
+        {
+          "high_slot_1indexed": 3,
+          "task_power": [
+            6,
+            6,
+            18,
+            6,
+            6,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            14.992115637319317,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "recovery_error": 0.0,
+          "within_capacity": true,
+          "battery_ac_peak": 6.30749014454665,
+          "consistent_exact_recovery": true
+        },
+        {
+          "high_slot_1indexed": 2,
+          "task_power": [
+            6,
+            18,
+            6,
+            6,
+            6,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            3.0078843626806835,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "recovery_error": 0.0,
+          "within_capacity": true,
+          "battery_ac_peak": 6.30749014454665,
+          "consistent_exact_recovery": true
+        }
+      ],
+      "residual_power_equivalence_class": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "diamond",
+      "edges": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "H"
+        ],
+        [
+          "B",
+          "D"
+        ],
+        [
+          "H",
+          "D"
+        ],
+        [
+          "D",
+          "E"
+        ],
+        [
+          "E",
+          "F"
+        ]
+      ],
+      "number_topological_task_orders": 2,
+      "number_distinct_power_orders": 2,
+      "task_orders": [
+        [
+          "A",
+          "B",
+          "H",
+          "D",
+          "E",
+          "F"
+        ],
+        [
+          "A",
+          "H",
+          "B",
+          "D",
+          "E",
+          "F"
+        ]
+      ],
+      "power_worlds": [
+        {
+          "high_slot_1indexed": 3,
+          "task_power": [
+            6,
+            6,
+            18,
+            6,
+            6,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            14.992115637319317,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "recovery_error": 0.0,
+          "within_capacity": true,
+          "battery_ac_peak": 6.30749014454665,
+          "consistent_exact_recovery": true
+        },
+        {
+          "high_slot_1indexed": 2,
+          "task_power": [
+            6,
+            18,
+            6,
+            6,
+            6,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            3.0078843626806835,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "recovery_error": 0.0,
+          "within_capacity": true,
+          "battery_ac_peak": 6.30749014454665,
+          "consistent_exact_recovery": true
+        }
+      ],
+      "residual_power_equivalence_class": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "fully_serial",
+      "edges": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "B",
+          "H"
+        ],
+        [
+          "H",
+          "D"
+        ],
+        [
+          "D",
+          "E"
+        ],
+        [
+          "E",
+          "F"
+        ]
+      ],
+      "number_topological_task_orders": 1,
+      "number_distinct_power_orders": 1,
+      "task_orders": [
+        [
+          "A",
+          "B",
+          "H",
+          "D",
+          "E",
+          "F"
+        ]
+      ],
+      "power_worlds": [
+        {
+          "high_slot_1indexed": 3,
+          "task_power": [
+            6,
+            6,
+            18,
+            6,
+            6,
+            6
+          ],
+          "state": [
+            9.0,
+            9.0,
+            14.992115637319317,
+            9.0,
+            9.0,
+            9.0,
+            9.0
+          ],
+          "recovery_error": 0.0,
+          "within_capacity": true,
+          "battery_ac_peak": 6.30749014454665,
+          "consistent_exact_recovery": true
+        }
+      ],
+      "residual_power_equivalence_class": [
+        3
+      ]
+    }
+  ],
+  "continuous_1000block_check": [
+    {
+      "min": 3.0078843626806835,
+      "max": 9.000000000000888,
+      "max_checkpoint_error": 8.881784197001252e-13,
+      "completed_jobs": 6000,
+      "compute_task_energy": 48000.0,
+      "grid_energy": 48614.9802890933
+    },
+    {
+      "min": 9.0,
+      "max": 14.992115637320204,
+      "max_checkpoint_error": 8.881784197001252e-13,
+      "completed_jobs": 6000,
+      "compute_task_energy": 48000.0,
+      "grid_energy": 48614.9802890933
+    }
+  ],
+  "source_label": {
+    "world1": "site A high task at slot2",
+    "world2": "site B high task at slot2",
+    "PCC_source_label_both_worlds": "same two site-resolved PCC traces; no different exposed electrical source",
+    "same_total_task_work": true
+  },
+  "measurement_increment": {
+    "identical_complete_labelled_PCC": true,
+    "identical_total_buffer_energy_trace": true,
+    "identical_block_end_SOC": true,
+    "siteA_SOC_after_slot2_worlds": [
+      3.0078843626806835,
+      14.992115637319317
+    ],
+    "SOC_threshold": 9,
+    "energy_sensor_error": 0.1,
+    "time_error_seconds": 0.01,
+    "total_energy_error_allowance": 0.15992115637319318,
+    "robust_bit_margin": 5.832194480946124,
+    "site_label_required": true,
+    "cost_superiority_claim": false
+  },
+  "equivalence_size_under_exact_recovery": {
+    "single_block_all_order_observer": 2,
+    "K_blocks": "2^K distinct task power histories remain compatible with the complete PCC trace",
+    "two_site_swapped_label": "two physically different source-of-high-task worlds remain compatible forever"
+  },
+  "tests": {
+    "diamond_has2_orders": true,
+    "all_work_positive": true,
+    "same_work_energy": true,
+    "power_limit": true,
+    "1000block_soc": true,
+    "same_aggregate_energy": true,
+    "SOC_bit_robust": true,
+    "allorder_residual_exact_class_2": true
+  }
+}

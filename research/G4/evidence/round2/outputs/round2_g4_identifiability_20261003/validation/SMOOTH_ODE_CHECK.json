@@ -1,0 +1,44 @@
+{
+  "scope": "independent differential-equation integration of lossy smooth DAG pair, no analytic energy trajectory substituted",
+  "segmentation": "every task and ramp boundary; full numerical state passed unchanged between segments",
+  "rows": [
+    {
+      "max_step": 0.01,
+      "high_slot": 2,
+      "max_PCC_error": 5.607958541986591e-12,
+      "max_buffer_error": 5.607958541986591e-12,
+      "terminal_SOC_error": -1.7763568394002505e-15,
+      "SOC_min": 3.007884362680672,
+      "SOC_max": 9.0
+    },
+    {
+      "max_step": 0.01,
+      "high_slot": 3,
+      "max_PCC_error": 4.870770453635487e-12,
+      "max_buffer_error": 4.872546810474887e-12,
+      "terminal_SOC_error": 1.5987211554602254e-14,
+      "SOC_min": 9.0,
+      "SOC_max": 14.992115637319289
+    },
+    {
+      "max_step": 0.005,
+      "high_slot": 2,
+      "max_PCC_error": 5.432099214885966e-12,
+      "max_buffer_error": 5.432099214885966e-12,
+      "terminal_SOC_error": 0.0,
+      "SOC_min": 3.007884362680723,
+      "SOC_max": 9.0
+    },
+    {
+      "max_step": 0.005,
+      "high_slot": 3,
+      "max_PCC_error": 3.860023412016744e-12,
+      "max_buffer_error": 3.860023412016744e-12,
+      "terminal_SOC_error": -3.552713678800501e-15,
+      "SOC_min": 8.999999999999996,
+      "SOC_max": 14.992115637319376
+    }
+  ],
+  "max_world_difference_fine": 7.187139772213413e-12,
+  "all_pass": true
+}

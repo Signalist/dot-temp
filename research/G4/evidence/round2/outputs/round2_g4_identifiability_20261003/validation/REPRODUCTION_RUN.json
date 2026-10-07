@@ -1,0 +1,96 @@
+{
+  "utc": "2026-10-03T10:39:40.934740+00:00",
+  "runs": [
+    {
+      "script": "experiments/recovery_frontier.py",
+      "exit_code": 0,
+      "seconds": 1.1048552989959717,
+      "log": "validation/reproduction_logs/recovery_frontier.log"
+    },
+    {
+      "script": "experiments/causal_horizon_design.py",
+      "exit_code": 0,
+      "seconds": 1.7215807437896729,
+      "log": "validation/reproduction_logs/causal_horizon_design.log"
+    },
+    {
+      "script": "experiments/fixed_initial_compare.py",
+      "exit_code": 0,
+      "seconds": 1.3602747917175293,
+      "log": "validation/reproduction_logs/fixed_initial_compare.log"
+    },
+    {
+      "script": "experiments/dag_equivalence.py",
+      "exit_code": 0,
+      "seconds": 0.0776209831237793,
+      "log": "validation/reproduction_logs/dag_equivalence.log"
+    },
+    {
+      "script": "experiments/smooth_dag_pair.py",
+      "exit_code": 0,
+      "seconds": 0.14301443099975586,
+      "log": "validation/reproduction_logs/smooth_dag_pair.log"
+    },
+    {
+      "script": "experiments/timing_ablation.py",
+      "exit_code": 0,
+      "seconds": 0.13208818435668945,
+      "log": "validation/reproduction_logs/timing_ablation.log"
+    },
+    {
+      "script": "experiments/measurement_ablation.py",
+      "exit_code": 0,
+      "seconds": 1.1829626560211182,
+      "log": "validation/reproduction_logs/measurement_ablation.log"
+    },
+    {
+      "script": "experiments/heldout_transfer.py",
+      "exit_code": 0,
+      "seconds": 0.06955194473266602,
+      "log": "validation/reproduction_logs/heldout_transfer.log"
+    },
+    {
+      "script": "experiments/two_site_measurement_design.py",
+      "exit_code": 0,
+      "seconds": 0.13239645957946777,
+      "log": "validation/reproduction_logs/two_site_measurement_design.log"
+    },
+    {
+      "script": "experiments/grid_service_decision.py",
+      "exit_code": 0,
+      "seconds": 0.11702990531921387,
+      "log": "validation/reproduction_logs/grid_service_decision.log"
+    },
+    {
+      "script": "validation/exact_dual_certificate.py",
+      "exit_code": 0,
+      "seconds": 0.6765797138214111,
+      "log": "validation/reproduction_logs/exact_dual_certificate.log"
+    },
+    {
+      "script": "validation/exact_feasible_witness.py",
+      "exit_code": 0,
+      "seconds": 0.38155150413513184,
+      "log": "validation/reproduction_logs/exact_feasible_witness.log"
+    },
+    {
+      "script": "validation/integrate_smooth_witness.py",
+      "exit_code": 0,
+      "seconds": 1.0274007320404053,
+      "log": "validation/reproduction_logs/integrate_smooth_witness.log"
+    },
+    {
+      "script": "experiments/grid_transfer/run_transfer_study.py",
+      "exit_code": 0,
+      "seconds": 0.8286268711090088,
+      "log": "validation/reproduction_logs/run_transfer_study.log"
+    },
+    {
+      "script": "experiments/grid_transfer/validate_and_witness.py",
+      "exit_code": 0,
+      "seconds": 0.5230011940002441,
+      "log": "validation/reproduction_logs/validate_and_witness.log"
+    }
+  ],
+  "all_pass": true
+}

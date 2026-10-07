@@ -1,0 +1,469 @@
+{
+  "parameters": {
+    "L": 1.0,
+    "H": 3.0,
+    "eta_c": 0.5,
+    "eta_d": 0.5,
+    "delta": 1.0
+  },
+  "scope": "independent exact rational identities, exhaustive tiny DAGs, numerical LP cross-checks",
+  "T1_tiny_family_count": 23,
+  "T1_tiny_families": [
+    {
+      "words": [
+        "0"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "1"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "00"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "01"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "10"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "01",
+        "10"
+      ],
+      "B_star": 1.5999999999999999,
+      "horizon_1_2_4_8": [
+        1.0,
+        1.5999999999999999,
+        1.5999999999999999,
+        1.5999999999999999
+      ]
+    },
+    {
+      "words": [
+        "11"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "000"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "001"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "010"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "001",
+        "010"
+      ],
+      "B_star": 1.5999999999999999,
+      "horizon_1_2_4_8": [
+        1.0,
+        1.5999999999999999,
+        1.6000000000000008,
+        1.5999999999999996
+      ]
+    },
+    {
+      "words": [
+        "100"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "001",
+        "100"
+      ],
+      "B_star": 1.5999999999999999,
+      "horizon_1_2_4_8": [
+        1.0,
+        1.5999999999999999,
+        1.5999999999999999,
+        1.5999999999999999
+      ]
+    },
+    {
+      "words": [
+        "010",
+        "100"
+      ],
+      "B_star": 1.5999999999999999,
+      "horizon_1_2_4_8": [
+        1.0,
+        1.5999999999999999,
+        1.5999999999999999,
+        1.5999999999999999
+      ]
+    },
+    {
+      "words": [
+        "001",
+        "010",
+        "100"
+      ],
+      "B_star": 2.6666666666666665,
+      "horizon_1_2_4_8": [
+        1.75,
+        2.5205479452054798,
+        2.645161290322581,
+        2.666136408828793
+      ]
+    },
+    {
+      "words": [
+        "011"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "101"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "011",
+        "101"
+      ],
+      "B_star": 1.0,
+      "horizon_1_2_4_8": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "words": [
+        "110"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "words": [
+        "011",
+        "110"
+      ],
+      "B_star": 1.5999999999999999,
+      "horizon_1_2_4_8": [
+        1.0,
+        1.5999999999999999,
+        1.5999999999999999,
+        1.5999999999999999
+      ]
+    },
+    {
+      "words": [
+        "101",
+        "110"
+      ],
+      "B_star": 1.0,
+      "horizon_1_2_4_8": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "words": [
+        "011",
+        "101",
+        "110"
+      ],
+      "B_star": 1.7777777777777772,
+      "horizon_1_2_4_8": [
+        1.0,
+        1.6774193548387086,
+        1.7655982383166122,
+        1.7776185018360326
+      ]
+    },
+    {
+      "words": [
+        "111"
+      ],
+      "B_star": 0.0,
+      "horizon_1_2_4_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "T1_positive_width_equality": {
+    "first_p": [
+      "14/5",
+      "12/5"
+    ],
+    "later_p": [
+      "13/5",
+      "13/5"
+    ],
+    "initial": "11/10",
+    "B_star": "8/5",
+    "W_infinity": "3/5",
+    "B": "11/5",
+    "verified": true
+  },
+  "T1_infeasible_reset_example": {
+    "p": [
+      1,
+      3
+    ],
+    "horizons": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "capacities": [
+      4.0,
+      7.0,
+      13.0,
+      25.0
+    ],
+    "exact_formula": "3 M + 1"
+  },
+  "T2_exhaustive": {
+    "natural_order_DAGs": 74,
+    "DAG_label_cases": 948,
+    "connected_cases": 168,
+    "all_exact_rank_and_component_assertions_passed": true
+  },
+  "T3_formula_LP_checks": 168,
+  "T3_first_strict_restriction_example": {
+    "N": 4,
+    "edges": [
+      [
+        0,
+        1
+      ]
+    ],
+    "task_labels": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "words": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "B": 2.4,
+    "full_permutations_B": 3.2,
+    "slot_edges": [
+      0,
+      1,
+      2
+    ]
+  },
+  "T4_correlated_nonzero_residual_example": {
+    "edge_A_B_word": "LH",
+    "edge_B_A_word": "HL",
+    "p": [
+      "14/5",
+      "12/5"
+    ],
+    "edge_residuals": [
+      "-3/10",
+      "3/10"
+    ],
+    "potential_A": "0",
+    "potential_B": "-3/10",
+    "B": "8/5",
+    "initial_energy": "7/10",
+    "verified": true
+  },
+  "T5_rational_example": {
+    "rho": "9/10",
+    "p": [
+      "27/10",
+      "27/10"
+    ],
+    "residual_LH": "33/200",
+    "residual_HL": "31/100",
+    "stationary_l": "33/38",
+    "stationary_u": "31/19",
+    "W_infinity": "29/38",
+    "B": "881/380",
+    "100_block_exact_checks_for_three_initial_states": true
+  },
+  "T5_invariant_interval_LP": {
+    "fixed_p_capacity": 2.3184210526315816,
+    "unrestricted_p_optimum": 1.5800415800415792,
+    "optimal_p": [
+      2.613305613305614,
+      2.7186417186417184
+    ],
+    "optimal_interval": [
+      0.8593208593208581,
+      0.8593208593208581
+    ]
+  },
+  "T5_grid_hull_vs_LP": {
+    "feasible": 8,
+    "infeasible": 161,
+    "all_match": true
+  },
+  "outside_contract_nonconvex_P": {
+    "P": [
+      "(5/2,5/2)",
+      "(27/10,27/10)"
+    ],
+    "B_star": "infinity",
+    "alternating_schedule_B": "7/4",
+    "common_e0": "1",
+    "verified": true
+  },
+  "outside_contract_private_initial_state": {
+    "first_p": [
+      "12/5",
+      "14/5"
+    ],
+    "later_p": [
+      "13/5",
+      "13/5"
+    ],
+    "e0_LH": "3/5",
+    "e0_HL": "6/5",
+    "B": "17/10",
+    "B_star_plus_W": "11/5",
+    "verified": true
+  },
+  "all_checks_passed": true
+}

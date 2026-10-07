@@ -1,0 +1,167 @@
+{
+  "retrieval_policy": "Download only from the cited public author/publisher URL; no access bypass. Historical hashes identify versions, not availability or permission.",
+  "sources": [
+    {
+      "id": "R3-A",
+      "title": "Universal Mutual Information Privacy Guarantees for Smart Meters",
+      "url": "https://arxiv.org/pdf/1905.00111",
+      "sha256": "13c5a5a4ca0546d785170487067a8f9d49d1d26c26d560fb3e36f49ffc84a5eb",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Definition 5 and Lemma 1, PDF p.3; previously downloaded full primary text re-inspected"
+    },
+    {
+      "id": "R3-B",
+      "title": "Privacy-preserving smart meter control strategy including energy storage losses",
+      "url": "https://arxiv.org/pdf/1803.07864",
+      "sha256": "fbf87aab87b77119d229ef5f245831b165565e9f843e0c1c20d13717db7f8be5",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Section II-A Eqs.(1)-(2), II-C Eq.(4), II-D Eq.(5), PDF p.2; Proposition 2 p.4; Section IV-B p.5"
+    },
+    {
+      "id": "R3-C",
+      "title": "The Linear-Extension-Diameter of a Poset",
+      "url": "https://page.math.tu-berlin.de/~felsner/Paper/lin-ext-diam.pdf",
+      "sha256": "ebe74c89062f1d2e625fbbc58df37a448d29c84db0e5f4e332b0b1d5d0435bde",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Section 1, PDF pp.1-2; manuscript dated June 5, 1997"
+    },
+    {
+      "id": "R3-C2",
+      "title": "The Graph of Linear Extensions Revisited",
+      "url": "https://doi.org/10.1137/S0895480199352609",
+      "sha256": null,
+      "hash_status": "No verified local full-source hash",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Publisher abstract and record only; journal Volume13 Issue3 pp.354-369, not 2006 online-hosting date"
+    },
+    {
+      "id": "R3-C3",
+      "title": "The constant objective value property for combinatorial optimization problems",
+      "url": "https://arxiv.org/pdf/1405.6096",
+      "sha256": "dab939ade1a1207a43a670be47377f25a9500a31548f04fff045b5a3f081c222",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Section 1, pp.2-3; local full primary text"
+    },
+    {
+      "id": "R3-D",
+      "title": "Closed-Form Solutions for Robust Inventory Management",
+      "url": "https://faculty.washington.edu/mrwagner/MNW.pdf",
+      "sha256": "44f4b5976debcb7b45087797d75d17dcf0f1e635862dfd30584dd6d98aa2da1c",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Section2.3 Eq.(1) p.1629; Lemma1 p.1630; Section3.4.1 pp.1636-1637; Theorem5 p.1639"
+    },
+    {
+      "id": "R3-D2",
+      "title": "A Robust Optimization Approach to Inventory Theory",
+      "url": "https://web.mit.edu/dbertsim/www/papers/Robust%20Optimization/A%20Robust%20Optimization%20Approach%20to%20Inventory%20Theory.pdf",
+      "sha256": "edab262e49f33a44ed2a773898d271583b3ea0f6836947666c1dc1fe7c62bb04",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Sections3.1 and3.2.2, cumulative inventory and capacity constraints; full text available"
+    },
+    {
+      "id": "R3-E",
+      "title": "Efficient Reachability Analysis for Linear Systems using Support Functions",
+      "url": "https://skoge.folk.ntnu.no/prost/proceedings/ifac2008/data/papers/0569.pdf",
+      "sha256": "6cd88ff867cde89b2eb7b41b8b7c4d90b1176c94266e33b122f85268a09868ba",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Proposition2 p.8967; Section3 Eqs.(4)-(7), p.8968"
+    },
+    {
+      "id": "R3-E2",
+      "title": "On the Minimal Robust Positively Invariant Set for Linear Difference Inclusions",
+      "url": "https://skoge.folk.ntnu.no/prost/proceedings/cdc-ecc05/pdffiles/papers/1964.pdf",
+      "sha256": "f8932c911c8bd265c4599d28cd5766c3976d865f5e241e099282ad32fdb71279",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "SectionII Eqs.(9)-(10), SectionIII Theorems1-2, pp.2297-2298"
+    },
+    {
+      "id": "R3-E3",
+      "title": "Robust Multi-stage Power Grid Operations with Energy Storage",
+      "url": "https://staff.ie.cuhk.edu.hk/~xjlin/paper/infocom18-robust-storage-tech.pdf",
+      "sha256": "2d30f8cde13eafc7532b5c29f9a0ea50f3511090a470db4b7d20f7778dbe1e2e",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Theorem7 and SectionIII-C; SectionIII-D Eqs.(31)-(35), PDF pp.7-8"
+    },
+    {
+      "id": "R3-F",
+      "title": "On Approximate Opacity of Cyber-Physical Systems",
+      "url": "https://arxiv.org/pdf/1902.09411",
+      "sha256": "f1c33093227f864e0aee908432dea93d0b5421cdb779fdf2da94b9155d499e95",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Definitions3.1 and3.3, PDF pp.5-6"
+    },
+    {
+      "id": "R3-F2",
+      "title": "Information-Theoretic Privacy for Smart Metering Systems with a Rechargeable Battery",
+      "url": "https://arxiv.org/pdf/1510.07170",
+      "sha256": "6685eb46f5c98d020baa26c15e665ffe312f8f9c0fe11b99b2762b353e9ae23c",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Theorems1-3; previously verified primary text available locally"
+    },
+    {
+      "id": "R3-G",
+      "title": "A characterization of the minimum cycle mean in a digraph",
+      "url": "https://doi.org/10.1016/0012-365X(78)90011-0",
+      "sha256": null,
+      "hash_status": "No verified local full-source hash",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Primary scanned PDF via web; Theorem1 and final-page path recurrence; OCR imperfect; no verbatim formula relied upon"
+    },
+    {
+      "id": "R3-H",
+      "title": "Robust Dynamic Programming",
+      "url": "https://doi.org/10.1287/moor.1040.0129",
+      "sha256": null,
+      "hash_status": "No verified local full-source hash",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Primary publisher abstract/record only"
+    },
+    {
+      "id": "R3-I",
+      "title": "Smart Meter Privacy via the Trapdoor Channel",
+      "url": "https://arxiv.org/pdf/1708.04429",
+      "sha256": "118bae08c147ff0382891ae7082c8d66d765405218d7dec39f1a14b636259b5e",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Prior round verified full text; copied as supporting corpus"
+    },
+    {
+      "id": "R3-J",
+      "title": "RepEL: A Utility-preserving Privacy System for IoT-based Energy Meters",
+      "url": "https://lass.cs.umass.edu/papers/pdf/iotdi20-repel.pdf",
+      "sha256": "4845638b064b359d7e666fa4b6403f9923031a1bf66b4a0833a67b994649ec11",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Prior round verified full text; copied as supporting corpus"
+    },
+    {
+      "id": "R3-K",
+      "title": "Task Bench: A Parameterized Benchmark for Evaluating Parallel Runtime Performance",
+      "url": "https://legion.stanford.edu/pdfs/taskbench2020.pdf",
+      "sha256": "b07bc41ce0c65866b2e9ac7b9c89750889b02a8c129a5bada28b7029060f7993",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "SectionII pp.2-3, Figure1 and Table2 p.3; text and local page rendering inspected"
+    },
+    {
+      "id": "R3-L",
+      "title": "Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM",
+      "url": "https://arxiv.org/pdf/2104.04473",
+      "sha256": "7d78344f7fd322c901ad14046eeeaa9fd798416ad35190ffc6a6ecca0f7f79b0",
+      "hash_status": "Recovered downloaded PDF bytes",
+      "license_status": "Third-party paper not bundled; redistribution license not established",
+      "inspection": "Section2.2 and Figure3 p.3, Figure4; text and local page rendering inspected"
+    }
+  ]
+}

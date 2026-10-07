@@ -1,0 +1,35 @@
+{
+  "direction": "G4",
+  "paper_ready": false,
+  "status": "bounded research closure accepted",
+  "date_utc": "2026-10-02",
+  "further_experiments_running": false,
+  "conclusion": "Conditional measurement-design value and transient source-class ambiguity verified; no new-method or same-cost advantage established. Closure is this research round, not a universal impossibility result.",
+  "executed_gate_c": {
+    "dynamic_cases": 9,
+    "normalized_buffer_trajectories": 3,
+    "cycles_each": 200,
+    "samples_each": 160001,
+    "source_class_windows": 45,
+    "distinct_source_class_windows": 9,
+    "tests_passed": 11
+  },
+  "verified": {
+    "min_energy_MWs": 1.4181311934065793e-11,
+    "max_energy_balance_residual_MWs": 4.206412995699793e-12,
+    "max_PMU_world_equivalence_error_Hz": 6.361068356081079e-15
+  },
+  "artifact_entries": [
+    "GATE_C_REPORT_ZH.md",
+    "G4_HYPOTHESIS_LEDGER_ZH.md",
+    "BUFFER_MODEL_AUDIT_ZH.md",
+    "HIDDEN_STATE_PRIOR_ART_ZH.md"
+  ],
+  "not_established": [
+    "high methodological novelty",
+    "strict same-information same-cost superiority",
+    "persistent positive-margin initial-state-specific FO in tested controllers",
+    "real AI-PCC joint validation",
+    "public-grid unknown-frequency performance"
+  ]
+}

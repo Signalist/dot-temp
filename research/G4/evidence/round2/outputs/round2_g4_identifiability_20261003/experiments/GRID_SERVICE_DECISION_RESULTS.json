@@ -1,0 +1,121 @@
+{
+  "scope": "fixed-site short-duration grid import-curtailment decision from identicalpastPCC; samefuturetasks and exact recovery, syntheticdeclaredphysicalmodel",
+  "parameters": {
+    "eta": "19/20",
+    "capacity": "18",
+    "initial_energy": "9",
+    "task_work_total": 48,
+    "jobs_completed": 6,
+    "high_task_peak": 21,
+    "PCS_tau": 0.01,
+    "rate_and_command_limit": 12,
+    "slew_limit": 100,
+    "recovery_deadline": 6,
+    "recovery_PCC_cap": 18
+  },
+  "exact_energy_certificate": {
+    "SOC_low": "7299/760",
+    "SOC_high": "966/95",
+    "service_required_energy": "247/25",
+    "low_allcontrol_deficit": "1049/3800",
+    "high_energy_margin": "137/475",
+    "remaining_high": "137/475",
+    "recovery_AC_energy": "16552/1805",
+    "final_energy_exact": "9",
+    "allcontrol_exclusion": "For3<=t<=5, identicalcontinuingd=6 and P<=P_req imply b=d-P>=b_req>=0; e_dot<=-b_req/eta. Integratedneed=247/25 exceedselow. No allowedcontrolor charging split canavoid this withoutviolatingcap/work/energyphysics."
+  },
+  "prehistory": [
+    {
+      "high_task_slot": 2,
+      "decision_SOC": 9.603947368421053,
+      "min_SOC_beforedecision": 0.5789473684210531,
+      "max_SOC_beforedecision": 9.603947368421053,
+      "buffer_at_decision": 0.0,
+      "max_realized_buffer": 11.875,
+      "max_command_sampled": 11.947804345039872
+    },
+    {
+      "high_task_slot": 3,
+      "decision_SOC": 10.16842105263158,
+      "min_SOC_beforedecision": 9.0,
+      "max_SOC_beforedecision": 12.8,
+      "buffer_at_decision": 0.0,
+      "max_realized_buffer": 5.0,
+      "max_command_sampled": 5.03065446106942
+    }
+  ],
+  "service": {
+    "start": 3,
+    "end": 5,
+    "AC_import_reduction_energy": 9.386,
+    "stored_energy_required": 9.88,
+    "PCC_target": "6-4.693h((t-3)/2)",
+    "samefuture_compute_power": 6,
+    "highworld_implementation": "first-orderPCS feedforward u=b_req+tau*bdot; thennegativebuffer recoverypulse; currentknownfuturetasks afterDAGjoin only",
+    "energy_afterservice": 0.28842105263157897,
+    "recovery_charge_average": 9.170083102493075,
+    "finalSOC": 9.0,
+    "finalbuffer": 0.0,
+    "minSOC_service_and_recovery": 0.2884210526315787
+  },
+  "analytic_bounds": {
+    "pre_command_bound": 11.947804611307273,
+    "service_command_bound": 5.875282586845958,
+    "recovery_command_bound": 11.532880124003965,
+    "pre_slew_bound": 93.26603190344696,
+    "service_slew_bound": 23.0367098801514,
+    "recovery_slew_bound": 90.02708033625044,
+    "service_PCC_min": 0.13375000000000092,
+    "recovery_PCC_max": 17.462603878116344,
+    "generic_accepted_state_worst_recovery_command": 11.9147081996416,
+    "generic_accepted_state_worst_recovery_PCC": 17.842105263157894
+  },
+  "matched_measurement": {
+    "known_site": "A",
+    "time": 3,
+    "one_bit_both_methods": true,
+    "SOC_threshold": 9.9676875,
+    "query_time": 2.995,
+    "timestamp_error": 0.001,
+    "delivery_guaranteed_by": 2.999,
+    "commitment_start": 3,
+    "generic_safe_accept_rule": "bit1 when measuredE>=requiredEnergy+totalStateError; bit0 meansabstain unlessotherwise resolved",
+    "SOC_error": 0.02,
+    "maximum_state_age_at_commitment": 0.006,
+    "state_slope_bound": 11.28125,
+    "total_state_error": 0.0876875,
+    "low_true_energy_exclusion_margin": 0.2760526315789474,
+    "low_noaccept_bit_margin": 0.2760526315789474,
+    "high_accept_bit_worst_error_margin": 0.11304605263157896,
+    "continuous_SOC_safe_accept_for_all_states_above_requirement": true,
+    "PCC_prefix_same_entirely": true,
+    "PCC_even_zero_error_and_unlimited_bandwidth_adds_nothing": true,
+    "decision_without_extra_info": "abstain from guaranteeing specifiedsite service; exactsameinfo robustbaseline alsoabstains",
+    "with_SOCbit": "accepthighworld/rejectlowworld underdeclaredcontract; sameinformationbaseline obtains sameanswer",
+    "sensor_cost_advantage_claim": false
+  },
+  "same_information_conservative_service": {
+    "maximum_uniform_scaled_service_from_energy_bound": 0.9720594502450458,
+    "guaranteed_AC_energy": 9.12375,
+    "requested_AC_energy": 9.386,
+    "relative_uplift_for_high_state_full_accept": 0.028743663515550074,
+    "meaning": "PCC-only robustbaselinecanofferashrunkenservice; forfixedfullcommitmentitmustabstain. Recoveryatenergyboundaryisstillfeasible under samebounds."
+  },
+  "no_service_baseline": {
+    "low_excess_energy_to_discharge": 0.6039473684210527,
+    "high_excess_energy_to_discharge": 1.168421052631579,
+    "causal_continuation": "over3..6 releaseexcessvia smoothpositivebattery pulse, allremainingtasks6, endenergy9andpower0; amplitudes eta*(E3-9)/3, wellbelowlimits"
+  },
+  "tests": {
+    "prefix_both_feasible": true,
+    "exact_low_impossible": true,
+    "exact_high_available": true,
+    "exact_recovery": true,
+    "all_commands_under12": true,
+    "all_slews_under100": true,
+    "recoveryPunder18": true,
+    "noexport_service": true,
+    "matched_SOC_robust": true,
+    "same_PCSstate_atdecision": true
+  }
+}

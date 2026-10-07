@@ -1,0 +1,9 @@
+{
+  "command": "python -S -B <disposable-copy>/validation/independent_saved_certificate_check.py",
+  "site_packages_disabled": true,
+  "exit_code": 0,
+  "records_checked": 89,
+  "output_byte_identical_to_saved": true,
+  "output_sha256": "fb6fa45063d5e4afcbf454c68bd113d6358b08ca95293add33892c77d6157a3f",
+  "note": "No scientific dependency packages are loaded in this exact-only check."
+}

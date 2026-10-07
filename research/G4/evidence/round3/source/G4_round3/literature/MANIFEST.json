@@ -1,0 +1,185 @@
+{
+  "generated_utc": "2026-10-04T04:52:29.789608+00:00",
+  "files": [
+    {
+      "path": "G4_DAG_CORRELATION_LEAKAGE_PRIOR_ART_AUDIT.md",
+      "bytes": 19284,
+      "sha256": "3d9f35cdba9e9ff5c3ce27e5daaf721f8370bb3cdda6280b3af6d9b61e7d180d"
+    },
+    {
+      "path": "SOURCE_LEDGER.json",
+      "bytes": 13405,
+      "sha256": "72990c74ab2a67ab254fc8a2386a4720ed00d72c67f31ddd69597619f45bd04c"
+    },
+    {
+      "path": "download_provenance.json",
+      "bytes": 7879,
+      "sha256": "a8d7e1461c228439293d29001a2c860dcab0f7fdb1c37ce250924b99ab6c0584"
+    },
+    {
+      "path": "source_figures/narayanan2021_p3.png",
+      "bytes": 436135,
+      "sha256": "352733fdbe5aaa4940abe37c21fd84111df680cd710db56985353c50060e54eb"
+    },
+    {
+      "path": "source_figures/taskbench2020_p3.png",
+      "bytes": 654367,
+      "sha256": "99cc3f4c0f41e2eb8ba60824c783326f55842754c207327debe92c273bb43e09"
+    },
+    {
+      "path": "source_pdf/arrieta2017.pdf",
+      "bytes": 451129,
+      "sha256": "118bae08c147ff0382891ae7082c8d66d765405218d7dec39f1a14b636259b5e"
+    },
+    {
+      "path": "source_pdf/arrieta2019.pdf",
+      "bytes": 416188,
+      "sha256": "13c5a5a4ca0546d785170487067a8f9d49d1d26c26d560fb3e36f49ffc84a5eb"
+    },
+    {
+      "path": "source_pdf/avula2018.pdf",
+      "bytes": 791720,
+      "sha256": "fbf87aab87b77119d229ef5f245831b165565e9f843e0c1c20d13717db7f8be5"
+    },
+    {
+      "path": "source_pdf/bertsimas_thiele2006.pdf",
+      "bytes": 307569,
+      "sha256": "edab262e49f33a44ed2a773898d271583b3ea0f6836947666c1dc1fe7c62bb04"
+    },
+    {
+      "path": "source_pdf/custic2014.pdf",
+      "bytes": 235633,
+      "sha256": "dab939ade1a1207a43a670be47377f25a9500a31548f04fff045b5a3f081c222"
+    },
+    {
+      "path": "source_pdf/felsner_reuter1997.pdf",
+      "bytes": 315418,
+      "sha256": "ebe74c89062f1d2e625fbbc58df37a448d29c84db0e5f4e332b0b1d5d0435bde"
+    },
+    {
+      "path": "source_pdf/girard2008.pdf",
+      "bytes": 300537,
+      "sha256": "6cd88ff867cde89b2eb7b41b8b7c4d90b1176c94266e33b122f85268a09868ba"
+    },
+    {
+      "path": "source_pdf/kouramas2005.pdf",
+      "bytes": 200463,
+      "sha256": "f8932c911c8bd265c4599d28cd5766c3976d865f5e241e099282ad32fdb71279"
+    },
+    {
+      "path": "source_pdf/li2015.pdf",
+      "bytes": 567199,
+      "sha256": "6685eb46f5c98d020baa26c15e665ffe312f8f9c0fe11b99b2762b353e9ae23c"
+    },
+    {
+      "path": "source_pdf/mamani2017.pdf",
+      "bytes": 761763,
+      "sha256": "44f4b5976debcb7b45087797d75d17dcf0f1e635862dfd30584dd6d98aa2da1c"
+    },
+    {
+      "path": "source_pdf/narayanan2021.pdf",
+      "bytes": 1035739,
+      "sha256": "7d78344f7fd322c901ad14046eeeaa9fd798416ad35190ffc6a6ecca0f7f79b0"
+    },
+    {
+      "path": "source_pdf/repel2020.pdf",
+      "bytes": 1163960,
+      "sha256": "4845638b064b359d7e666fa4b6403f9923031a1bf66b4a0833a67b994649ec11"
+    },
+    {
+      "path": "source_pdf/taskbench2020.pdf",
+      "bytes": 1665259,
+      "sha256": "b07bc41ce0c65866b2e9ac7b9c89750889b02a8c129a5bada28b7029060f7993"
+    },
+    {
+      "path": "source_pdf/yin2019.pdf",
+      "bytes": 2197548,
+      "sha256": "f1c33093227f864e0aee908432dea93d0b5421cdb779fdf2da94b9155d499e95"
+    },
+    {
+      "path": "source_pdf/zou2018tech.pdf",
+      "bytes": 712999,
+      "sha256": "2d30f8cde13eafc7532b5c29f9a0ea50f3511090a470db4b7d20f7778dbe1e2e"
+    },
+    {
+      "path": "source_text/arrieta2017.txt",
+      "bytes": 59065,
+      "sha256": "0fa67315446fdf5dd33651c9bea1c45d3ec0dded4dfa08f3656af0130b11cf8d"
+    },
+    {
+      "path": "source_text/arrieta2019.txt",
+      "bytes": 59834,
+      "sha256": "173776f294d82a54f9e35a24e7b37941cd26050c638d4ebb7b076b1730add66d"
+    },
+    {
+      "path": "source_text/avula2018.txt",
+      "bytes": 59287,
+      "sha256": "af83204d02b954793f0a91e631499a3929834025cc7413adb82ba4a8b9631149"
+    },
+    {
+      "path": "source_text/bertsimas_thiele2006.txt",
+      "bytes": 170908,
+      "sha256": "8120727152f565aa0d9328b5dead7c1096f41e5c3525707a4633040e8263275f"
+    },
+    {
+      "path": "source_text/custic2014.txt",
+      "bytes": 68146,
+      "sha256": "5856da0a2476b853388c514c18ded0ae6f97607852440c21f151191821e6d8c0"
+    },
+    {
+      "path": "source_text/felsner_reuter1997.txt",
+      "bytes": 46355,
+      "sha256": "0ef508e37135231eb9c2b5f4c67453addc6bad1c47c410959b809cb42ceab913"
+    },
+    {
+      "path": "source_text/girard2008.txt",
+      "bytes": 46191,
+      "sha256": "65baaf592079825e49ef63cac951736b829654dde3d054f9a371dcdb72561b0e"
+    },
+    {
+      "path": "source_text/kouramas2005.txt",
+      "bytes": 50415,
+      "sha256": "66eb90e3b567a6cee24605c5b90b1fca8fbb52164bfe5369937b3329291577f2"
+    },
+    {
+      "path": "source_text/li2015.txt",
+      "bytes": 140687,
+      "sha256": "87f77a84166ee2513d066913d5a95621d29f533c0caeb01f26331356a5c64aee"
+    },
+    {
+      "path": "source_text/mamani2017.txt",
+      "bytes": 372360,
+      "sha256": "e1a9c5f790d6b45eaeef7a5b1f4222b00701a70f5ca79ff1de225bc46aff3f87"
+    },
+    {
+      "path": "source_text/mamani2017_reading.txt",
+      "bytes": 100008,
+      "sha256": "1eb82198a264c7fa47463fa589e623356847b793912635bb663e167c40a9c3e8"
+    },
+    {
+      "path": "source_text/narayanan2021.txt",
+      "bytes": 141616,
+      "sha256": "e7727bcbb3eceb0c24c2c5b02bc33a74ab44b78711fced6bddb32539b5e0337b"
+    },
+    {
+      "path": "source_text/repel2020.txt",
+      "bytes": 110291,
+      "sha256": "9824ab958226cbb89f83f351c22847c4451f9f1b5bb14ba1b28e78e49b97b6d3"
+    },
+    {
+      "path": "source_text/taskbench2020.txt",
+      "bytes": 121036,
+      "sha256": "0165dc8f630cce518c48a86862d082cf621cbb852bd6626c3fc27fbc3a938b7b"
+    },
+    {
+      "path": "source_text/yin2019.txt",
+      "bytes": 129888,
+      "sha256": "ee22b03bc1378e8422a20dee5c7db21c9b7348b998d4a462aff5befefc3159d2"
+    },
+    {
+      "path": "source_text/zou2018tech.txt",
+      "bytes": 135949,
+      "sha256": "9fb523042d70c85976776dceb0458dd29700ef55375ebc74058ffa117b4349b6"
+    }
+  ]
+}

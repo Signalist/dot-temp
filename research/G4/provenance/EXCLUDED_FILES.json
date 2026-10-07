@@ -1,0 +1,501 @@
+{
+  "files": [
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/source_destination_rejected.log",
+      "sha256": "90c9d17aa63ee5f16004364ab1bce0882b5f4c14d1a37fdd211d088d4d03c00c",
+      "bytes": 209,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/existing_destination_rejected.log",
+      "sha256": "90c9d17aa63ee5f16004364ab1bce0882b5f4c14d1a37fdd211d088d4d03c00c",
+      "bytes": 209,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/tamper_detected.log",
+      "sha256": "0d90c45cacccf17c25ce5516e8260735f6b09b79fe190f90b572f6c5985a975b",
+      "bytes": 688,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/stdlib_only_replay.log",
+      "sha256": "409aa61c779b742cbb76ccdb876ab5a4cc806f70ab4552a664df5698146cef91",
+      "bytes": 1702,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/recorded_logs/07_figures.log",
+      "sha256": "36f3f5d968df38947c2c1c38e1fc8029688b7b322e68f2ac6695783b35cc236d",
+      "bytes": 119,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/recorded_logs/01_saved_exact_certificates.log",
+      "sha256": "409aa61c779b742cbb76ccdb876ab5a4cc806f70ab4552a664df5698146cef91",
+      "bytes": 1702,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/recorded_logs/06_rebuilt_exact_certificates.log",
+      "sha256": "9cc56822dfee07c15247f74333ada8fe338364df7ddf504a3c6a6801fc12cdec",
+      "bytes": 1702,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/recorded_logs/03_independent_t6_threshold.log",
+      "sha256": "fdda1a4b3e5d8f6142eff3565531716d4012488171ca95cb140f0a713be1d6d5",
+      "bytes": 165,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/recorded_logs/04_produce_workloads.log",
+      "sha256": "8f93c18bc5e0c5eef6bb6a1a3593dff503896467241aa89c8565b9f7f1f48cd3",
+      "bytes": 8527,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/recorded_logs/05_produce_boundaries.log",
+      "sha256": "4049bc01f74c3106230b406e09a0d00ec35ca55e04aec50a26813f97b858b475",
+      "bytes": 60156,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/recorded_logs/02_independent_theory.log",
+      "sha256": "662a8625f9837b492ae1c58d918e3a701aa577257d9d7784f8f6a82ce6054dd5",
+      "bytes": 3058,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/historical_logs/08_optional_historical_and_producer_checker.log",
+      "sha256": "035301d9f51b69ca2b6ea76d20a19fd6ca40a6b67c04bf80fde0d42702fdb66f",
+      "bytes": 129,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "verification/historical_logs/01_saved_exact_certificates.log",
+      "sha256": "409aa61c779b742cbb76ccdb876ab5a4cc806f70ab4552a664df5698146cef91",
+      "bytes": 1702,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "source/G4_round3/validation/independent_saved_certificate_check.log",
+      "sha256": "409aa61c779b742cbb76ccdb876ab5a4cc806f70ab4552a664df5698146cef91",
+      "bytes": 1702,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "source/G4_round3/validation/independent_t6_threshold_check.log",
+      "sha256": "fdda1a4b3e5d8f6142eff3565531716d4012488171ca95cb140f0a713be1d6d5",
+      "bytes": 165,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_round3_evidence",
+      "source_relative_path": "source/G4_round3/validation/independent_theory_checks.log",
+      "sha256": "662a8625f9837b492ae1c58d918e3a701aa577257d9d7784f8f6a82ce6054dd5",
+      "bytes": 3058,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "index.html",
+      "sha256": "d75e168a58125ae6fd962294ae352eb61f996bda1fb9579a48cf3acd24fac7a8",
+      "bytes": 38596,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/exact_dual_certificate.log",
+      "sha256": "96c0f5a9af27cd2c6c0b684cb08e92cf86e907dcfcec7b87b8527a068538be11",
+      "bytes": 527,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/recovery_frontier.log",
+      "sha256": "bf5f5374e3cd18660a1c46d7b57f983f7eac4c6085dfc0e93ae3fa774f441b83",
+      "bytes": 1362,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/measurement_ablation.log",
+      "sha256": "11434a74ce478d0447903117294c06867be3a2910295559f1fafda771e22fff5",
+      "bytes": 2152,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/validate_and_witness.log",
+      "sha256": "beb40fadd70bdc3b7470a0b7d2b10e4abfe0f8ed9cab442c466b622d35376ed9",
+      "bytes": 2187,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/check_service_decision.log",
+      "sha256": "1138d00791beba425598ffcb17b7ae67cb4be7230ac871644a91dfd8fab4eb5e",
+      "bytes": 1830,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/run_transfer_study.log",
+      "sha256": "bfd172ad703e40e9e45cf6990817ac0c1360d9b80ee3e701586546a53bdfb39b",
+      "bytes": 8029,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/grid_service_decision.log",
+      "sha256": "4b372d2b0e86e62d83eca920e596a1e01cd3e22725faf980cb3d54f6c5e2caea",
+      "bytes": 2604,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/causal_horizon_design.log",
+      "sha256": "ab4d0c3c55bda55e9b91913a2d3376c1f6485c37966d2b12a319308ec2ffebca",
+      "bytes": 1705,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/make_service_figure.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/check_fixed_initial_schedules.log",
+      "sha256": "9fe24e0e891121aaf733c44c8d4f4b2b0a4cbcbca5ce2c6432f5818c4b3cc6e1",
+      "bytes": 382,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/exact_feasible_witness.log",
+      "sha256": "38eb1c988f0343f1112fae1ee96f2474fd69863738d4018622c2e08185c968d3",
+      "bytes": 539,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/independent_theory_checks.log",
+      "sha256": "279a619822d0f25cfbee146484138895c0350c513e765f5ae75551ff6a6ed349",
+      "bytes": 2338,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/integrate_smooth_witness.log",
+      "sha256": "04ae230a2d86abfa153c8bef1322b799a1ce499ffa476bf04f909fdd0a01a27f",
+      "bytes": 1379,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/smooth_dag_pair.log",
+      "sha256": "b3c76629ffa6ff7206e1aba12249162cc8783111f4f5a814b82e9b2670304d9e",
+      "bytes": 2326,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/timing_ablation.log",
+      "sha256": "cdae552bd48ebde51c29bfe9afc7a9ef3eb86af5e6f5f7514f2338fa0fcec64c",
+      "bytes": 1611,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/two_site_measurement_design.log",
+      "sha256": "243a0e8f5ca7545e10886e509cc11b04c071a93d6d11b8cc13d5c001d08442cb",
+      "bytes": 503,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/dag_equivalence.log",
+      "sha256": "4135626c3e45d7cf83db15686dd3a654e0e1c45f73c345cb8c2cfb369fd6d6e5",
+      "bytes": 1203,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/heldout_transfer.log",
+      "sha256": "24a95e781ab3ab7f3a726b12119a33dff775d100ab95e2b1c5ab9bd3270000a9",
+      "bytes": 3748,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/fixed_initial_compare.log",
+      "sha256": "06fa1cf76416542d0e6ffab686015fda4ac4a0653ed79defe00a63ca7b5306de",
+      "bytes": 1360,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/make_figures.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "portable_verification_logs/check_smooth_physical_witness.log",
+      "sha256": "5d6d8f5d2d6861e5148b5b3e6390bf9dd49d15e2687de7c672a420f298d17178",
+      "bytes": 1783,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/experiments/dag_equivalence.log",
+      "sha256": "4135626c3e45d7cf83db15686dd3a654e0e1c45f73c345cb8c2cfb369fd6d6e5",
+      "bytes": 1203,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/experiments/grid_transfer/validation.log",
+      "sha256": "beb40fadd70bdc3b7470a0b7d2b10e4abfe0f8ed9cab442c466b622d35376ed9",
+      "bytes": 2187,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/experiments/grid_transfer/run.log",
+      "sha256": "bfd172ad703e40e9e45cf6990817ac0c1360d9b80ee3e701586546a53bdfb39b",
+      "bytes": 8029,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/report/figures/capacity_tolerance_horizon.pdf",
+      "sha256": "bb8c411aa350814a94c06221ff60a82c539aacee75fad8954e16d584d88e142c",
+      "bytes": 22211,
+      "reason": "PDF presentation derivative omitted; source figures or citation/download provenance retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/report/figures/grid_service_decision.pdf",
+      "sha256": "7734e3b5e60bbcb5ba64f5ce575d63f18ecb8113fc7764f62e23b4286a7359a3",
+      "bytes": 22439,
+      "reason": "PDF presentation derivative omitted; source figures or citation/download provenance retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/report/figures/smooth_dag_equivalence.pdf",
+      "sha256": "e20009a4d55f0c3402cc57682b5480630834889be17cf38734291e98bbbc6870",
+      "bytes": 22095,
+      "reason": "PDF presentation derivative omitted; source figures or citation/download provenance retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/exact_dual_certificate.log",
+      "sha256": "96c0f5a9af27cd2c6c0b684cb08e92cf86e907dcfcec7b87b8527a068538be11",
+      "bytes": 527,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/recovery_frontier.log",
+      "sha256": "bf5f5374e3cd18660a1c46d7b57f983f7eac4c6085dfc0e93ae3fa774f441b83",
+      "bytes": 1362,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/measurement_ablation.log",
+      "sha256": "11434a74ce478d0447903117294c06867be3a2910295559f1fafda771e22fff5",
+      "bytes": 2152,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/validate_and_witness.log",
+      "sha256": "beb40fadd70bdc3b7470a0b7d2b10e4abfe0f8ed9cab442c466b622d35376ed9",
+      "bytes": 2187,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/check_service_decision.log",
+      "sha256": "1138d00791beba425598ffcb17b7ae67cb4be7230ac871644a91dfd8fab4eb5e",
+      "bytes": 1830,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/run_transfer_study.log",
+      "sha256": "bfd172ad703e40e9e45cf6990817ac0c1360d9b80ee3e701586546a53bdfb39b",
+      "bytes": 8029,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/grid_service_decision.log",
+      "sha256": "4b372d2b0e86e62d83eca920e596a1e01cd3e22725faf980cb3d54f6c5e2caea",
+      "bytes": 2604,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/causal_horizon_design.log",
+      "sha256": "ab4d0c3c55bda55e9b91913a2d3376c1f6485c37966d2b12a319308ec2ffebca",
+      "bytes": 1705,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/check_fixed_initial_schedules.log",
+      "sha256": "9fe24e0e891121aaf733c44c8d4f4b2b0a4cbcbca5ce2c6432f5818c4b3cc6e1",
+      "bytes": 382,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/exact_feasible_witness.log",
+      "sha256": "38eb1c988f0343f1112fae1ee96f2474fd69863738d4018622c2e08185c968d3",
+      "bytes": 539,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/independent_theory_checks.log",
+      "sha256": "279a619822d0f25cfbee146484138895c0350c513e765f5ae75551ff6a6ed349",
+      "bytes": 2338,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/integrate_smooth_witness.log",
+      "sha256": "04ae230a2d86abfa153c8bef1322b799a1ce499ffa476bf04f909fdd0a01a27f",
+      "bytes": 1379,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/smooth_dag_pair.log",
+      "sha256": "b3c76629ffa6ff7206e1aba12249162cc8783111f4f5a814b82e9b2670304d9e",
+      "bytes": 2326,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/timing_ablation.log",
+      "sha256": "cdae552bd48ebde51c29bfe9afc7a9ef3eb86af5e6f5f7514f2338fa0fcec64c",
+      "bytes": 1611,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/two_site_measurement_design.log",
+      "sha256": "243a0e8f5ca7545e10886e509cc11b04c071a93d6d11b8cc13d5c001d08442cb",
+      "bytes": 503,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/dag_equivalence.log",
+      "sha256": "4135626c3e45d7cf83db15686dd3a654e0e1c45f73c345cb8c2cfb369fd6d6e5",
+      "bytes": 1203,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/heldout_transfer.log",
+      "sha256": "24a95e781ab3ab7f3a726b12119a33dff775d100ab95e2b1c5ab9bd3270000a9",
+      "bytes": 3748,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/fixed_initial_compare.log",
+      "sha256": "06fa1cf76416542d0e6ffab686015fda4ac4a0653ed79defe00a63ca7b5306de",
+      "bytes": 1360,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_g4_identifiability_20261003/validation/reproduction_logs/check_smooth_physical_witness.log",
+      "sha256": "5d6d8f5d2d6861e5148b5b3e6390bf9dd49d15e2687de7c672a420f298d17178",
+      "bytes": 1783,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_20261003/grid_transfer/wecc_verified_descriptor_K.npz",
+      "sha256": "e03c0bf4806f86756de28d7015b815d1af9a1aa876590ff1003cb07caab35f21",
+      "bytes": 44203,
+      "reason": "Third-party-derived grid prerequisite withheld pending redistribution/source-scope review"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_20261003/grid_transfer/kundur_reduced51.npz",
+      "sha256": "31e798abc23bdcb6c3b46aeb488caf96636127390935eac4d9f0e2fdd5601828",
+      "bytes": 15314,
+      "reason": "Third-party-derived grid prerequisite withheld pending redistribution/source-scope review"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_20261003/grid_transfer/wecc_descriptor_aux.npz",
+      "sha256": "f136d2b50eb0dc14f9e2bea308b83390217085ab65881408d47a02bd34821569",
+      "bytes": 19132,
+      "reason": "Third-party-derived grid prerequisite withheld pending redistribution/source-scope review"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_20261003/grid_transfer/kundur_descriptor_aux.npz",
+      "sha256": "ef8f537a53fc2e7e2fa46cd753795eaeb50c7b5188e7e0746f206fbf4ff67899",
+      "bytes": 3061,
+      "reason": "Third-party-derived grid prerequisite withheld pending redistribution/source-scope review"
+    },
+    {
+      "source_collection": "G4_core_evidence_20261003",
+      "source_relative_path": "outputs/round2_20261003/grid_transfer/kundur_descriptor_K.npz",
+      "sha256": "3a28172d20269da7465afb401d20d5e8da003281c0b1fdb7c7814f3711fedd97",
+      "bytes": 3851,
+      "reason": "Third-party-derived grid prerequisite withheld pending redistribution/source-scope review"
+    },
+    {
+      "source_collection": "G4",
+      "source_relative_path": "GateC/run_gate_c.log",
+      "sha256": "780e5ddc4c22ab38f9125c83e67163cd10db0c69bba4aaf2eb8d8e6cffdf5606",
+      "bytes": 13930,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4",
+      "source_relative_path": "GateC/tests.log",
+      "sha256": "5cda5c127ee39dd3ddf1961492f026a89f61e82743050ffe29fbe821488a148c",
+      "bytes": 988,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "G4",
+      "source_relative_path": "GateC/buffer_model_audit_check.log",
+      "sha256": "5ff199def45ea1dd0850372a76df58b576c63e9b7a3a116b7b85c779fa31b0d0",
+      "bytes": 6700,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    }
+  ]
+}

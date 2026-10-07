@@ -1,0 +1,349 @@
+{
+  "scope": "Portable copy rerun verification only; frozen scientific originals and public snapshot were not overwritten by scientific reruns. This is packaging verification, not a new scientific experiment.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "blas_threads": 1
+  },
+  "runs": [
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/recovery_frontier.py",
+      "exit_code": 0,
+      "seconds": 1.242,
+      "log": "portable_verification_logs/recovery_frontier.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/causal_horizon_design.py",
+      "exit_code": 0,
+      "seconds": 1.861,
+      "log": "portable_verification_logs/causal_horizon_design.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/fixed_initial_compare.py",
+      "exit_code": 0,
+      "seconds": 1.45,
+      "log": "portable_verification_logs/fixed_initial_compare.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/dag_equivalence.py",
+      "exit_code": 0,
+      "seconds": 0.078,
+      "log": "portable_verification_logs/dag_equivalence.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/smooth_dag_pair.py",
+      "exit_code": 0,
+      "seconds": 0.138,
+      "log": "portable_verification_logs/smooth_dag_pair.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/timing_ablation.py",
+      "exit_code": 0,
+      "seconds": 0.133,
+      "log": "portable_verification_logs/timing_ablation.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/measurement_ablation.py",
+      "exit_code": 0,
+      "seconds": 1.192,
+      "log": "portable_verification_logs/measurement_ablation.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/heldout_transfer.py",
+      "exit_code": 0,
+      "seconds": 0.081,
+      "log": "portable_verification_logs/heldout_transfer.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/two_site_measurement_design.py",
+      "exit_code": 0,
+      "seconds": 0.134,
+      "log": "portable_verification_logs/two_site_measurement_design.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/grid_service_decision.py",
+      "exit_code": 0,
+      "seconds": 0.116,
+      "log": "portable_verification_logs/grid_service_decision.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/validation/exact_dual_certificate.py",
+      "exit_code": 0,
+      "seconds": 0.769,
+      "log": "portable_verification_logs/exact_dual_certificate.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/validation/exact_feasible_witness.py",
+      "exit_code": 0,
+      "seconds": 0.365,
+      "log": "portable_verification_logs/exact_feasible_witness.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/validation/integrate_smooth_witness.py",
+      "exit_code": 0,
+      "seconds": 1.023,
+      "log": "portable_verification_logs/integrate_smooth_witness.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/grid_transfer/run_transfer_study.py",
+      "exit_code": 0,
+      "seconds": 0.815,
+      "log": "portable_verification_logs/run_transfer_study.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/experiments/grid_transfer/validate_and_witness.py",
+      "exit_code": 0,
+      "seconds": 0.541,
+      "log": "portable_verification_logs/validate_and_witness.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/theory/independent_theory_checks.py",
+      "exit_code": 0,
+      "seconds": 1.932,
+      "log": "portable_verification_logs/independent_theory_checks.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/theory/check_fixed_initial_schedules.py",
+      "exit_code": 0,
+      "seconds": 0.385,
+      "log": "portable_verification_logs/check_fixed_initial_schedules.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/theory/check_smooth_physical_witness.py",
+      "exit_code": 0,
+      "seconds": 3.246,
+      "log": "portable_verification_logs/check_smooth_physical_witness.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/theory/check_service_decision.py",
+      "exit_code": 0,
+      "seconds": 2.845,
+      "log": "portable_verification_logs/check_service_decision.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/report/make_figures.py",
+      "exit_code": 0,
+      "seconds": 1.43,
+      "log": "portable_verification_logs/make_figures.log"
+    },
+    {
+      "script": "outputs/round2_g4_identifiability_20261003/report/make_service_figure.py",
+      "exit_code": 0,
+      "seconds": 0.813,
+      "log": "portable_verification_logs/make_service_figure.log"
+    }
+  ],
+  "all_exit_codes_zero": true,
+  "source_scientific_files_checked": 114,
+  "source_scientific_files_changed": [],
+  "external_input_checks": [
+    {
+      "file": "kundur_reduced51.npz",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "kundur_reduced51.npz",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "kundur_reduced51.npz",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "kundur_descriptor_K.npz",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "kundur_descriptor_K.npz",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "kundur_descriptor_K.npz",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "kundur_descriptor_aux.npz",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "kundur_descriptor_aux.npz",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "kundur_descriptor_aux.npz",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "wecc_verified_descriptor_K.npz",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "wecc_verified_descriptor_K.npz",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "wecc_verified_descriptor_K.npz",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "wecc_descriptor_aux.npz",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "wecc_descriptor_aux.npz",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "wecc_descriptor_aux.npz",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "grid_adapter.py",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "grid_adapter.py",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "grid_adapter.py",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "README_qualification.md",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "README_qualification.md",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "README_qualification.md",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "DO_NOT_USE_WECC_EIG_AS.txt",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "DO_NOT_USE_WECC_EIG_AS.txt",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "DO_NOT_USE_WECC_EIG_AS.txt",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "chainrule_audit.json",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "chainrule_audit.json",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "chainrule_audit.json",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "verified_descriptor_ports.json",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "verified_descriptor_ports.json",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "verified_descriptor_ports.json",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "PROVENANCE_LOCK.json",
+      "copy": "original",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "PROVENANCE_LOCK.json",
+      "copy": "packaged",
+      "matches_locked_sha256": true
+    },
+    {
+      "file": "PROVENANCE_LOCK.json",
+      "copy": "after_portable_rerun",
+      "matches_locked_sha256": true
+    }
+  ],
+  "external_inputs_all_match": true,
+  "numeric_comparison": {
+    "rtol": 1e-10,
+    "atol": 1e-12,
+    "ignored_metadata_keys": [
+      "audit_utc",
+      "created_utc",
+      "elapsed_s",
+      "generated_at",
+      "generated_utc",
+      "run_utc",
+      "runtime_s",
+      "seconds",
+      "timestamp_utc",
+      "utc"
+    ],
+    "only_changed_json_npz_files_listed": true,
+    "results": [
+      {
+        "path": "outputs/round2_g4_identifiability_20261003/experiments/grid_transfer/results.json",
+        "format": "JSON",
+        "equivalent_after_ignoring_timestamp_metadata": true,
+        "differences": []
+      }
+    ],
+    "mismatches": []
+  },
+  "limitations": [
+    "Core reruns require installed NumPy/SciPy/SymPy; figure reruns also require Matplotlib.",
+    "All 11 locked earlier grid dependencies are bundled; this verifies the current G4 grid study, not regeneration of original ANDES matrices or historical qualification experiments.",
+    "Machine-dependent solver and floating-point differences can arise; exact rational certificates remain separately inspectable.",
+    "Historical retained failed ODE implementation is intentionally preserved and is not expected to pass the repaired-check criteria.",
+    "Figure code was executed successfully; PDF metadata and font rendering are not required to be byte-identical."
+  ],
+  "public_launcher_validation": {
+    "command": "python reproduce.py --include-grid --figures --destination <new-separate-directory>",
+    "commands": 21,
+    "all_exit_codes_zero": true,
+    "frozen_package_overwritten": false,
+    "verification_mode": "Public launcher ran its payload-hash precheck and all 21 commands in a second fresh copy."
+  }
+}

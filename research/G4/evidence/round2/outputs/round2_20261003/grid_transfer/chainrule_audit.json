@@ -1,0 +1,38 @@
+{
+  "correction_scope": "Analytical chain rule for ESST3A VE VarService in analysis Jacobian only; original nonlinear model unchanged",
+  "entries_changed": 32,
+  "max_added_entry": 4.18743747775037,
+  "checks": [
+    {
+      "relative_fd_step": 1e-05,
+      "corrected_max_abs_entry_error": 7.877964947056171e-11,
+      "original_max_abs_entry_error": 4.187437477746375,
+      "corrected_relative_Fro_error": 1.6928044100556652e-11
+    },
+    {
+      "relative_fd_step": 1e-06,
+      "corrected_max_abs_entry_error": 1.651934589119719e-09,
+      "original_max_abs_entry_error": 4.187437476098435,
+      "corrected_relative_Fro_error": 2.805677903958205e-10
+    },
+    {
+      "relative_fd_step": 1e-07,
+      "corrected_max_abs_entry_error": 8.688466834883002e-09,
+      "original_max_abs_entry_error": 4.187437480435119,
+      "corrected_relative_Fro_error": 1.7967664694684514e-09
+    }
+  ],
+  "verified_descriptor": {
+    "finite_count": 565,
+    "max_real": 6.56678162981681e-12,
+    "max_nonzero_real": -0.03333333333333333,
+    "positive_real_count": 0,
+    "nearzero_count": 1,
+    "finite_beta_min": 0.003110146845594028,
+    "finite_counts_at_thresholds": {
+      "1e-08": 565,
+      "1e-10": 565,
+      "1e-12": 565
+    }
+  }
+}

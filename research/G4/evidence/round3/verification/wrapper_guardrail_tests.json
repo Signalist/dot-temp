@@ -1,0 +1,23 @@
+{
+  "all_passed": true,
+  "tests": [
+    {
+      "test": "tamper_detected",
+      "expected_nonzero_exit": true,
+      "exit_code": 1,
+      "blocked_before_execution": true
+    },
+    {
+      "test": "source_destination_rejected",
+      "expected_nonzero_exit": true,
+      "exit_code": 2,
+      "blocked_before_execution": true
+    },
+    {
+      "test": "existing_destination_rejected",
+      "expected_nonzero_exit": true,
+      "exit_code": 2,
+      "blocked_before_execution": true
+    }
+  ]
+}

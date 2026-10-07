@@ -1,0 +1,148 @@
+{
+  "units": "MW, seconds, MJ; a1=(2/T) integral p(t) exp(-i omega t) dt",
+  "loss_compensated_reference_MW": 10.102496714848883,
+  "charge_MW": 2.1024967148488827,
+  "discharge_MW": 1.8975032851511173,
+  "stored_rate_MW": 1.9973718791064394,
+  "required_energy_MJ": 9.986859395532196,
+  "required_energy_kWh": 2.7741276098700545,
+  "sufficient_capacity_MJ": 19.973718791064393,
+  "initial_energy_pair_MJ": [
+    1.9973718791064394,
+    14.980289093298294
+  ],
+  "first_saturation_time_s": 1.0,
+  "balanced_pair_cycles": [
+    {
+      "cycle": 1,
+      "low_end_MJ": 9.986859395532193,
+      "high_end_MJ": 14.98028909329829,
+      "low_harmonic_MW": 1.1488649631086578,
+      "high_harmonic_MW": 7.876253626388689e-16
+    },
+    {
+      "cycle": 2,
+      "low_end_MJ": 9.986859395532193,
+      "high_end_MJ": 14.980289093298287,
+      "low_harmonic_MW": 1.8605343327152757e-15,
+      "high_harmonic_MW": 7.876253626388689e-16
+    },
+    {
+      "cycle": 3,
+      "low_end_MJ": 9.986859395532193,
+      "high_end_MJ": 14.980289093298284,
+      "low_harmonic_MW": 1.8605343327152757e-15,
+      "high_harmonic_MW": 7.876253626388689e-16
+    },
+    {
+      "cycle": 4,
+      "low_end_MJ": 9.986859395532193,
+      "high_end_MJ": 14.98028909329828,
+      "low_harmonic_MW": 1.8605343327152757e-15,
+      "high_harmonic_MW": 7.876253626388689e-16
+    },
+    {
+      "cycle": 5,
+      "low_end_MJ": 9.986859395532193,
+      "high_end_MJ": 14.980289093298277,
+      "low_harmonic_MW": 1.8605343327152757e-15,
+      "high_harmonic_MW": 7.876253626388689e-16
+    }
+  ],
+  "threshold_MW": 0.5,
+  "threshold_initial_energy_MJ": 7.273676232920135,
+  "threshold_time_s": 3.6416234297711982,
+  "late_energy_alias_pair": {
+    "initial_MJ": [
+      1.9973718791064394,
+      9.487516425755587
+    ],
+    "first_cycle_harmonic_MW": [
+      1.1488649631086578,
+      0.09477765471819355
+    ],
+    "shared_end_MJ": 9.986859395532196
+  },
+  "insufficient_capacity_MJ": 4.993429697766098,
+  "insufficient_capacity_steady_harmonic_MW": 1.8006326323142126,
+  "phase_map_cases_passed": 900,
+  "uncompensated_reference_MW": 10,
+  "uncompensated_H_MJ": 10.526315789473683,
+  "uncompensated_L_MJ": 9.5,
+  "uncompensated_worst_case_state_washout_cycles": 11,
+  "uncompensated_cycles": [
+    {
+      "cycle": 1,
+      "start_MJ": 19.973718791064393,
+      "end_MJ": 18.947403001590708,
+      "harmonic_MW": 7.796343665038751e-16
+    },
+    {
+      "cycle": 2,
+      "start_MJ": 18.947403001590708,
+      "end_MJ": 17.921087212117023,
+      "harmonic_MW": 7.796343665038751e-16
+    },
+    {
+      "cycle": 3,
+      "start_MJ": 17.921087212117023,
+      "end_MJ": 16.894771422643338,
+      "harmonic_MW": 7.796343665038751e-16
+    },
+    {
+      "cycle": 4,
+      "start_MJ": 16.894771422643338,
+      "end_MJ": 15.868455633169654,
+      "harmonic_MW": 7.796343665038751e-16
+    },
+    {
+      "cycle": 5,
+      "start_MJ": 15.868455633169654,
+      "end_MJ": 14.842139843695971,
+      "harmonic_MW": 7.796343665038751e-16
+    },
+    {
+      "cycle": 6,
+      "start_MJ": 14.842139843695971,
+      "end_MJ": 13.815824054222288,
+      "harmonic_MW": 7.796343665038751e-16
+    },
+    {
+      "cycle": 7,
+      "start_MJ": 13.815824054222288,
+      "end_MJ": 12.789508264748605,
+      "harmonic_MW": 7.796343665038751e-16
+    },
+    {
+      "cycle": 8,
+      "start_MJ": 12.789508264748605,
+      "end_MJ": 11.763192475274922,
+      "harmonic_MW": 7.796343665038751e-16
+    },
+    {
+      "cycle": 9,
+      "start_MJ": 11.763192475274922,
+      "end_MJ": 10.736876685801239,
+      "harmonic_MW": 7.796343665038751e-16
+    },
+    {
+      "cycle": 10,
+      "start_MJ": 10.736876685801239,
+      "end_MJ": 9.710560896327555,
+      "harmonic_MW": 7.796343665038751e-16
+    },
+    {
+      "cycle": 11,
+      "start_MJ": 9.710560896327555,
+      "end_MJ": 9.5,
+      "harmonic_MW": 0.15461091635315405
+    },
+    {
+      "cycle": 12,
+      "start_MJ": 9.5,
+      "end_MJ": 9.5,
+      "harmonic_MW": 0.19423858224876175
+    }
+  ],
+  "evidence_status": "synthetic exact-event model diagnostic; not field validation"
+}

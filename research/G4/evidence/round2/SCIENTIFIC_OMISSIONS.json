@@ -1,0 +1,355 @@
+{
+  "current_frozen_114_file_set_omitted": 0,
+  "scientific_omitted_file_count": 57,
+  "files": [
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/anguluri2022.pdf",
+      "bytes": 1214556,
+      "sha256": "c196a0f947ed8753c42a28f9122da66439f798b43ce3c47f8ddb339bdbc9e29b",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/arrieta2017.pdf",
+      "bytes": 451129,
+      "sha256": "118bae08c147ff0382891ae7082c8d66d765405218d7dec39f1a14b636259b5e",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/arrieta2019.pdf",
+      "bytes": 416188,
+      "sha256": "13c5a5a4ca0546d785170487067a8f9d49d1d26c26d560fb3e36f49ffc84a5eb",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/custic2014.pdf",
+      "bytes": 235633,
+      "sha256": "dab939ade1a1207a43a670be47377f25a9500a31548f04fff045b5a3f081c222",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/harirchi2017.pdf",
+      "bytes": 904753,
+      "sha256": "bd1211cdcd503271ab9019e95e3527b1d7c234676a46ba980b801ef371252835",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/li2015.pdf",
+      "bytes": 567199,
+      "sha256": "6685eb46f5c98d020baa26c15e665ffe312f8f9c0fe11b99b2762b353e9ae23c",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/pasqualetti2012.pdf",
+      "bytes": 1148869,
+      "sha256": "27d3ccda1b028dfa8b0b9f938e64ac08ee4633729184a327807633309fe2162c",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/repel2020.pdf",
+      "bytes": 1163960,
+      "sha256": "4845638b064b359d7e666fa4b6403f9923031a1bf66b4a0833a67b994649ec11",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/sun2026.pdf",
+      "bytes": 669527,
+      "sha256": "8539e55a413e1a1aff8cd519a036902d2894fa4fac92675c75287eff7a2f5a40",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/1708.04429.txt",
+      "bytes": 59065,
+      "sha256": "0fa67315446fdf5dd33651c9bea1c45d3ec0dded4dfa08f3656af0130b11cf8d",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/1905.00111.txt",
+      "bytes": 59834,
+      "sha256": "173776f294d82a54f9e35a24e7b37941cd26050c638d4ebb7b076b1730add66d",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/anguluri2022.txt",
+      "bytes": 148241,
+      "sha256": "7b0a557755a7996269b7267857e419598c7147092ad02f4c24e72bedf52b76e1",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/arrieta2017.txt",
+      "bytes": 59065,
+      "sha256": "0fa67315446fdf5dd33651c9bea1c45d3ec0dded4dfa08f3656af0130b11cf8d",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/arrieta2019.txt",
+      "bytes": 59834,
+      "sha256": "173776f294d82a54f9e35a24e7b37941cd26050c638d4ebb7b076b1730add66d",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/custic2014.txt",
+      "bytes": 68146,
+      "sha256": "5856da0a2476b853388c514c18ded0ae6f97607852440c21f151191821e6d8c0",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/harirchi2017.txt",
+      "bytes": 68748,
+      "sha256": "be6b1a14162f7bd8ca75c851380994df99a78025812c722e46fbae96d0970125",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/hyo17.txt",
+      "bytes": 68748,
+      "sha256": "be6b1a14162f7bd8ca75c851380994df99a78025812c722e46fbae96d0970125",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/li2015.txt",
+      "bytes": 140687,
+      "sha256": "87f77a84166ee2513d066913d5a95621d29f533c0caeb01f26331356a5c64aee",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/pasqualetti2012.txt",
+      "bytes": 116594,
+      "sha256": "075586066a71c143915b025ef2fae12731760090d4424cf501a4e150c869cadb",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/repel2020.txt",
+      "bytes": 110291,
+      "sha256": "9824ab958226cbb89f83f351c22847c4451f9f1b5bb14ba1b28e78e49b97b6d3",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/literature/source_text/sun2026.txt",
+      "bytes": 86759,
+      "sha256": "e66b4ada0a2dabbd35d81c9e0ff6dde1893f5b07ce0a1fbc06289a70c9c474ae",
+      "reason": "Copyrighted third-party full text is not redistributed. Original publication URLs and inspection depth remain in literature/sources_index.json; original-byte hashes are preserved here."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/BUFFER_MODEL_AUDIT_CHECKS.json",
+      "bytes": 4079,
+      "sha256": "ddab0a4e5d2ab503ccc57de773232c122db5b37b48c7c360f7a4403922a79029",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/BUFFER_MODEL_AUDIT_ZH.md",
+      "bytes": 24864,
+      "sha256": "2d39df656d9c2471a802752376cee9999696c387b873b94a9bb9bec3d1db3a63",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/FROZEN_GATEC_PROTOCOL_ZH.md",
+      "bytes": 5118,
+      "sha256": "cb854a7d1080111d639d4a8613584582914f67fe0783e15d91abaaa8f9a4ce33",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/G4_FINAL_STATUS.json",
+      "bytes": 1260,
+      "sha256": "e56bbb15f73f1f66605e27dd2a5f0c86a9ab0d41a52b57b1558d9f5b1393449a",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/G4_HYPOTHESIS_LEDGER_ZH.md",
+      "bytes": 6362,
+      "sha256": "75b619dfceab2933835e81f4968b5ccd2cc53ac70d9c07f83b23b9ba02b5e438",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/GATE_C_REPORT_ZH.md",
+      "bytes": 12361,
+      "sha256": "3079f0c59248c9e1ea1ce1ce3a8906d188814f613f0b64e981a5197e2fc68988",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/GATE_C_RESULTS.json",
+      "bytes": 13930,
+      "sha256": "780e5ddc4c22ab38f9125c83e67163cd10db0c69bba4aaf2eb8d8e6cffdf5606",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/HIDDEN_STATE_PRIOR_ART_ZH.md",
+      "bytes": 17997,
+      "sha256": "3591af7fb3b8bfa693eb208b45d42b55666f078121dd49f0e41372fd64191f9a",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/MANIFEST.json",
+      "bytes": 10639,
+      "sha256": "919daf32315ad0a854a269822f583ac51cff850c10a472e9710198d8d29c9795",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/NUMERICAL_REPAIR_RECORD_ZH.md",
+      "bytes": 1751,
+      "sha256": "b7f96c08df9bfafabaae59058c3802a88ce0697861165329ddee4d33b1fae0e7",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/RAW_TRACES_INDEX.json",
+      "bytes": 3809,
+      "sha256": "51ae2d3484d8071e8786d01b8c376c8ccb180fae46d501b2a832f583c784df16",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/README.md",
+      "bytes": 2062,
+      "sha256": "090edf530bc1a0733bc9f7b68c88ad0b7be3a25ce3fbfa8e297ac3c2ea8cb1bd",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/SOFT_BUFFER_BOUND_CHECKS.json",
+      "bytes": 1151,
+      "sha256": "887bff1376f76b27a9693422cee77958e66d3747240e88c942052e325e6c43f4",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/SOFT_BUFFER_FIRST_CYCLE_AUDIT.json",
+      "bytes": 1470,
+      "sha256": "f58506599b73c9f8e4b28cbefd3c6b180f4797927b49c893bc105c314913e5d4",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/analyze_gate_c.py",
+      "bytes": 2985,
+      "sha256": "8be1d32cd49034a7872e67bca50d1dad717241e6ce501c9a2afd2e55511b0141",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/archived_pre_domain_refinement/GATE_C_RESULTS.json",
+      "bytes": 13507,
+      "sha256": "f8332fcf77a3da8a977213eb6bb70ddb7d147bf936625b3b9eb5f3e87cd6228d",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/archived_pre_domain_refinement/failed_tight_refinement.py",
+      "bytes": 9852,
+      "sha256": "70c5e671413b136904ac8083c025dfcc356cf9cfa8472bf52b5f2ec236d50490",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/archived_pre_domain_refinement/physical_validation.csv",
+      "bytes": 5823,
+      "sha256": "8b55c9687965bf890293842656704f7f6572556959d987499136798199969a63",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/archived_pre_domain_refinement/run_gate_c.py",
+      "bytes": 9180,
+      "sha256": "3335801aea7b2cd0cc8686c99b9dd7cf7eba5a29f75ba37da5d4eb118a3da681",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/buffer_model_audit_check.log",
+      "bytes": 6700,
+      "sha256": "5ff199def45ea1dd0850372a76df58b576c63e9b7a3a116b7b85c779fa31b0d0",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/buffer_model_audit_check.py",
+      "bytes": 9648,
+      "sha256": "1039eaeba4a84c6737a87d3d9fea0e02a11ce991da38762be29995ed81096502",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/energy_gap_accounting.csv",
+      "bytes": 628,
+      "sha256": "db3bdd264b92904a6ffa2b60e9684e8e6571fc66221e6d6ab636656e95bb42c2",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/extra_bit_witnesses.csv",
+      "bytes": 1388,
+      "sha256": "024a5fb5d982f94fe0e71fa268612b6f3b38c88651c782338ad3877d4b48cdf4",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/gate_c_continuous_witness.png",
+      "bytes": 213393,
+      "sha256": "895bf408260089fb54668e90d53c4c2b9fbdd04a3cb64d4b8c54acdf08396307",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/gate_c_source_classes.png",
+      "bytes": 115048,
+      "sha256": "93b3477766ddb4bab4d3b277b31ce3f3740cce0cd294c0408ec2da21cb79a01b",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/guard_integration_precheck.json",
+      "bytes": 1218,
+      "sha256": "b0b4c97d26cf60c783b632e593665e985bc764c86f3b775d253c2f640a7b51e4",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/hard_comparator.csv",
+      "bytes": 3064,
+      "sha256": "8d3adf44da5a1deeab0778f2a4649341ef5089f2eb30d52881078874cc7badc8",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/numerical_sentinel.json",
+      "bytes": 347,
+      "sha256": "64f0efa97650ccd216ce9faa74f4eac3515fd9e11ec394d68d305cef5eefb1a5",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/per_cycle_harmonics.csv",
+      "bytes": 107859,
+      "sha256": "3e8809143924d9ae145bfad2b5e57e7cdc2d4af0806f4f13b5a717cd2141a60b",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/physical_validation.csv",
+      "bytes": 5905,
+      "sha256": "2e53846d1bde5451c9993d14914bbeac853ff301e3ee31cd446795c7f8e5a437",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/run_gate_c.log",
+      "bytes": 13930,
+      "sha256": "780e5ddc4c22ab38f9125c83e67163cd10db0c69bba4aaf2eb8d8e6cffdf5606",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/run_gate_c.py",
+      "bytes": 10705,
+      "sha256": "f3ca64a8c1a25d93e4efc5fbd181067ddece5fa0f79249a14baee1a2403e57e1",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/source_class_windows.csv",
+      "bytes": 5342,
+      "sha256": "4db892cf8a7a0f99005b15cbe0515070111323314b73a21100d5e5d3e0eaa7df",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/test_gate_c.py",
+      "bytes": 3164,
+      "sha256": "64333fe021b3a75158f55908447ebf2a61163a18aad718edf8cae4e73cd5219f",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/unpacked/G4/GateC/tests.log",
+      "bytes": 988,
+      "sha256": "5cda5c127ee39dd3ddf1961492f026a89f61e82743050ffe29fbe821488a148c",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    },
+    {
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/recovery/original/算力电网_G4隐藏状态验证与全路线结论.zip",
+      "bytes": 412066,
+      "sha256": "a03004a1acc59e38fea6b6963eedc1ecd901f3d5cbbe65abfd162de69fd28513",
+      "reason": "Historical pre-G4-refinement evidence, outside the frozen 114-file current G4 scientific set. Historical conclusions are summarized in recovery/OLD_G4_INDEX_EXTRACT.json; no claim of reproducing this earlier archive is made."
+    }
+  ],
+  "non_scientific_excluded_categories": [
+    "Private coordination and delivery records",
+    "Authentication/download transport metadata and signed URLs",
+    "Download helpers and environment caches",
+    "Prior whole-workspace statistical snapshots and delivery-comparison details"
+  ],
+  "non_scientific_exclusion_note": "Private metadata is intentionally neither reproduced nor identified by private account or environment identifiers. SCIENTIFIC_INPUT_INTEGRITY.json is included for the original non-delivery scientific integrity statement."
+}

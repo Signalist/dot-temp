@@ -1,0 +1,128 @@
+[
+  {
+    "name": "antichain_6",
+    "blocks": 1,
+    "capacity": 25.023000000000007,
+    "infinite_capacity": 32.513368983957264
+  },
+  {
+    "name": "antichain_6",
+    "blocks": 2,
+    "capacity": 25.23994168096678,
+    "infinite_capacity": 32.513368983957264
+  },
+  {
+    "name": "antichain_6",
+    "blocks": 4,
+    "capacity": 27.01856384048844,
+    "infinite_capacity": 32.513368983957264
+  },
+  {
+    "name": "antichain_6",
+    "blocks": 8,
+    "capacity": 29.501636283822474,
+    "infinite_capacity": 32.513368983957264
+  },
+  {
+    "name": "antichain_6",
+    "blocks": 16,
+    "capacity": 31.577049214614608,
+    "infinite_capacity": 32.513368983957264
+  },
+  {
+    "name": "antichain_6",
+    "blocks": 32,
+    "capacity": 32.42001527817606,
+    "infinite_capacity": 32.513368983957264
+  },
+  {
+    "name": "antichain_6",
+    "blocks": 64,
+    "capacity": 32.51243195274113,
+    "infinite_capacity": 32.513368983957264
+  },
+  {
+    "name": "connected_restricted_6",
+    "blocks": 1,
+    "capacity": 13.541869882804662,
+    "infinite_capacity": 20.320855614973276
+  },
+  {
+    "name": "connected_restricted_6",
+    "blocks": 2,
+    "capacity": 14.478553813815164,
+    "infinite_capacity": 20.320855614973276
+  },
+  {
+    "name": "connected_restricted_6",
+    "blocks": 4,
+    "capacity": 16.25395539823646,
+    "infinite_capacity": 20.320855614973276
+  },
+  {
+    "name": "connected_restricted_6",
+    "blocks": 8,
+    "capacity": 18.047778769313815,
+    "infinite_capacity": 20.320855614973276
+  },
+  {
+    "name": "connected_restricted_6",
+    "blocks": 16,
+    "capacity": 19.61096447601897,
+    "infinite_capacity": 20.320855614973276
+  },
+  {
+    "name": "connected_restricted_6",
+    "blocks": 32,
+    "capacity": 20.251620495149705,
+    "infinite_capacity": 20.320855614973276
+  },
+  {
+    "name": "connected_restricted_6",
+    "blocks": 64,
+    "capacity": 20.320197054835266,
+    "infinite_capacity": 20.320855614973276
+  },
+  {
+    "name": "barriers_3plus3",
+    "blocks": 1,
+    "capacity": 12.619970840483386,
+    "infinite_capacity": 16.256684491978618
+  },
+  {
+    "name": "barriers_3plus3",
+    "blocks": 2,
+    "capacity": 13.50928192024423,
+    "infinite_capacity": 16.256684491978618
+  },
+  {
+    "name": "barriers_3plus3",
+    "blocks": 4,
+    "capacity": 14.750818141911259,
+    "infinite_capacity": 16.256684491978618
+  },
+  {
+    "name": "barriers_3plus3",
+    "blocks": 8,
+    "capacity": 15.788524607307322,
+    "infinite_capacity": 16.256684491978618
+  },
+  {
+    "name": "barriers_3plus3",
+    "blocks": 16,
+    "capacity": 16.210007639088012,
+    "infinite_capacity": 16.256684491978618
+  },
+  {
+    "name": "barriers_3plus3",
+    "blocks": 32,
+    "capacity": 16.25621597637058,
+    "infinite_capacity": 16.256684491978618
+  },
+  {
+    "name": "barriers_3plus3",
+    "blocks": 64,
+    "capacity": 16.256684436165543,
+    "infinite_capacity": 16.256684491978618
+  }
+]

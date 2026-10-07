@@ -1,0 +1,47 @@
+{
+  "precedence": "2026-10-04 third-round dossier and matching evidence supersede earlier results; 2026-10-07 handoff adds packaging and fresh checks, not new scientific discoveries.",
+  "sources": [
+    {
+      "source_filename": "G4_round3_code_evidence_20261004.zip",
+      "bytes": 376563,
+      "sha256": "24597e88af40ed6e834d93946d29b7d270fc660ec7b8aa9024ea1f81c0669458",
+      "role": "Recovered source/evidence archive"
+    },
+    {
+      "source_filename": "G4_core_evidence_20261003.zip",
+      "bytes": 4190243,
+      "sha256": "771a089b26166aa38eeb33be82c74505c9d750cbbdb4e6a65fc97de6bb20a338",
+      "role": "Recovered source/evidence archive"
+    },
+    {
+      "source_filename": "算力电网_G4隐藏状态验证与全路线结论.zip",
+      "bytes": 412066,
+      "sha256": "a03004a1acc59e38fea6b6963eedc1ecd901f3d5cbbe65abfd162de69fd28513",
+      "role": "Recovered source/evidence archive"
+    },
+    {
+      "source_filename": "G4_第三轮研究档案_20261004.docx",
+      "bytes": 258620,
+      "sha256": "6fa36136a8384b7721e4f53cb58dbb273d9f00d22e6f1ebafc04d0a4f1bc82dd",
+      "role": "Authoritative supplied third-round dossier"
+    }
+  ],
+  "catalog_sha256": "538b326b73eabc532905bd95f6af4ada71c8cb5530931458ffacd27c1a97e782",
+  "catalog_row": {
+    "优先级": "4",
+    "候选": "G4",
+    "当前处置": "条件保留并加强",
+    "拟论文主线": "有损储能下DAG顺序公共输出与长期容量",
+    "第二轮基线": "全排列两级任务的长期2Q容量；PCC相同隐藏任务顺序，不等于暴露振荡源定位",
+    "第三轮真正新增": "共同可选初态、[L,H]输出及固定紧致多面体动作下，全非周期无限输出归约单块恢复；DAG槽交换图/前缀公式；跨块支持及自放电边界",
+    "最强结果": "B≥Bₛ*+W∞，最优B=Bₛ*；同六任务容量32.5134→20.3209或16.2567",
+    "同信息基线": "同信息全场景LP给相同最优值；终端图结构压缩不形成优化器性能优势",
+    "证据层级": "解析定理；89配置精确有理原始/对偶零gap；漏损测试为浮点",
+    "关键反例": "相关性只有改变允许历史支持才有效；耗散改变能量预算可使B=0；连续slew/漏电另论",
+    "创新未决": "核心平均化/交换图/循环势/可达工具经典；组合定理优先权与真实并行工作负载仍待确认",
+    "最小下一步": "围绕无限期到DAG容量等价写稿；排重调度多面体/电池隐私近邻，部署另补功率与时长",
+    "算力区别": "同有标签任务的DAG依赖是真计算语义；等时串行H/L功率及PCC映射仍人为",
+    "收益口径": "改变可执行任务顺序合同的容量价值；不是LP新算法节省",
+    "来源": "G4 第三轮研究档案 第三至九节"
+  }
+}

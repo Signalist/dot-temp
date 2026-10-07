@@ -1,0 +1,249 @@
+{
+  "core_archive": {
+    "name": "G4_round3_core_evidence_20261004.zip",
+    "bytes": 344909,
+    "sha256": "c6a3121232d1f5834d23657a297c8ac5a9a055c62d79a1ce16593d60e63dfe31",
+    "member_count": 39,
+    "zip_crc_passed": true
+  },
+  "source_science_manifest_files_checked": 71,
+  "source_science_manifest_mismatches": [],
+  "preserved_core_members": [
+    {
+      "path": "FINAL_SCIENTIFIC_STATUS.json",
+      "bytes": 4737,
+      "sha256": "392b95c066636f3fc579577cf14232e637709e405a894290ae75aa461ae62d1b",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "PROTOCOL.json",
+      "bytes": 2677,
+      "sha256": "e8863ee49d6ac204fd77d256d159c459fd93f60799e40bc5858f3e2b50186408",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 5222,
+      "sha256": "7c01a70e2ac07456615c70214d9342467e0d4cea8b83d0dc0ba4a12919c7168c",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "SCIENCE_MANIFEST.json",
+      "bytes": 12550,
+      "sha256": "9e3c23eef95faa6dd5cd8a06b49cfee5d04b3b302b9040d1d3a54a02629e4e2c",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "experiments/SUMMARY.json",
+      "bytes": 538,
+      "sha256": "6013d1ce2e6834d60ed8a37f9c2beaadff7b0dcc8f7011cf904aa55cdeb4179e",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "experiments/boundaries.stdout.txt",
+      "bytes": 60159,
+      "sha256": "6375c48b8a3523c1a9d9033879952921b9ccb984e0d7042b274276bf77b669cd",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "experiments/boundary_results.json",
+      "bytes": 60159,
+      "sha256": "6375c48b8a3523c1a9d9033879952921b9ccb984e0d7042b274276bf77b669cd",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "experiments/dag_results.csv",
+      "bytes": 10845,
+      "sha256": "6187cbae56a1fda0e6efc62c6087932f05ee1593100796d41422a67860eba508",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "experiments/dag_results.json",
+      "bytes": 163932,
+      "sha256": "9b3e9deba2546647fa910e1e90d8ebca9c082526dec1edd0ccf840c25aa8a4cb",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "experiments/finite_horizons.json",
+      "bytes": 2902,
+      "sha256": "29ab3555f6cba6f8348d331c865d16771a5dd9e158c60fcf9aa4634e2b00083f",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "experiments/leakage_results.json",
+      "bytes": 4770,
+      "sha256": "d6e3dd13204070b3af84e028aefbca9cd24f5beacd67ea42f3a94c44c806ded0",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "experiments/run.stdout.txt",
+      "bytes": 8527,
+      "sha256": "8f93c18bc5e0c5eef6bb6a1a3593dff503896467241aa89c8565b9f7f1f48cd3",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "experiments/run_boundaries.py",
+      "bytes": 3808,
+      "sha256": "60a92482f4929566abb98a4fbcae6c91403040d17e4146050c8ce768e4c4dc8e",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "experiments/run_workload_study.py",
+      "bytes": 11895,
+      "sha256": "824ddc2f8230b8007aa437ae59dd9d4cc3fec2e7793969b03aad9b94db2d9292",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "literature/G4_DAG_CORRELATION_LEAKAGE_PRIOR_ART_AUDIT.md",
+      "bytes": 19284,
+      "sha256": "3d9f35cdba9e9ff5c3ce27e5daaf721f8370bb3cdda6280b3af6d9b61e7d180d",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "literature/MANIFEST.json",
+      "bytes": 5995,
+      "sha256": "4b507b4442ae8e6c171f6c666e86144b3d5b3caf32f90e4334dccc38a5fc9526",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "literature/SOURCE_LEDGER.json",
+      "bytes": 13405,
+      "sha256": "72990c74ab2a67ab254fc8a2386a4720ed00d72c67f31ddd69597619f45bd04c",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "literature/download_provenance.json",
+      "bytes": 7879,
+      "sha256": "a8d7e1461c228439293d29001a2c860dcab0f7fdb1c37ce250924b99ab6c0584",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "report/CLAIM_EVIDENCE_LEDGER.json",
+      "bytes": 2491,
+      "sha256": "088bb85d41a1656e214db64a2c7350454c96601eaf082407ae29d142dccc8574",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "report/G4_ROUND3_DOSSIER_ZH.md",
+      "bytes": 17283,
+      "sha256": "ba0d1467f3f69de0277206d8191285aa5951404fd7221862787ddfe5bca8673e",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "report/figures/dag_capacity_and_horizon.pdf",
+      "bytes": 20701,
+      "sha256": "19a7673db5caf06bc6bdca5cabada3a5fd8ecea6c138c12e48a8cc1b01fac0db",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "report/figures/dag_capacity_and_horizon.png",
+      "bytes": 113286,
+      "sha256": "bcc7398e834dced8bfdf74f48971f6e05a5ee9b9a4ad33c750947b478a2aaa70",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "report/figures/leakage_and_action_boundary.pdf",
+      "bytes": 20781,
+      "sha256": "98c48125fff5e02769717ee5412d7755fa0db91ff38bbb3754b616b6fc9f27e6",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "report/figures/leakage_and_action_boundary.png",
+      "bytes": 109432,
+      "sha256": "2c271febf3c1dfccc25561f9cb2039f2a2026d3fe12600643f1ac63013cf5b89",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "report/make_figures.py",
+      "bytes": 3058,
+      "sha256": "9da519fd57ae781c619502eceb69a9ec3704b7145b866257754157d44e0ee00a",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "theory/THEOREMS.md",
+      "bytes": 13457,
+      "sha256": "6bbf81c7c3aaf79f5142af4e61667a4358abdefae3969ce6e465da26db10cafe",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/CERTIFICATE_RECONSTRUCTION_RECORD.json",
+      "bytes": 812,
+      "sha256": "6dcfc6109f8fe5f2769eee8e2406703ca061880ca9b87bcebce23310e2b399d8",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/INDEPENDENT_THEORY_REVIEW.md",
+      "bytes": 17287,
+      "sha256": "02b10f2f05784193d4e0a1d183afa66c380afcb065a1423db181791d066fe520",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/SAVED_CERTIFICATE_CHECKS.json",
+      "bytes": 11779,
+      "sha256": "dbef9debacdc7ee86eb42bd70774fc71ce7c4731196e5c721d987e44df0b3be4",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/check_saved_certificates.py",
+      "bytes": 2765,
+      "sha256": "f9613df18bf7e385237137ab60148ecd73dc227e5be9ad9ca5b6d708dc5770a1",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/independent_saved_certificate_check.json",
+      "bytes": 50060,
+      "sha256": "fb6fa45063d5e4afcbf454c68bd113d6358b08ca95293add33892c77d6157a3f",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/independent_saved_certificate_check.log",
+      "bytes": 1702,
+      "sha256": "409aa61c779b742cbb76ccdb876ab5a4cc806f70ab4552a664df5698146cef91",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/independent_saved_certificate_check.py",
+      "bytes": 5109,
+      "sha256": "2ef7d9a5e7ce8781bd3c86b1cef9a6db9a1e7a07957129d9c09bb097e94e9e8c",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/independent_t6_threshold_check.json",
+      "bytes": 23650,
+      "sha256": "7e2c0046701b86dde53a0b6fd0d4be23b884a3e9d42e78eca95308d990d7c6cb",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/independent_t6_threshold_check.log",
+      "bytes": 165,
+      "sha256": "fdda1a4b3e5d8f6142eff3565531716d4012488171ca95cb140f0a713be1d6d5",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/independent_t6_threshold_check.py",
+      "bytes": 1781,
+      "sha256": "d2e07e8086ab14262904dd9a11cabc6ffdfbfe4b3d3ee4e9ecda2c6f4d02ab46",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/independent_theory_checks.json",
+      "bytes": 7340,
+      "sha256": "8842918ab89dea2df234a0e71147c3795853a0c95833d06005d4942b5315f676",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/independent_theory_checks.log",
+      "bytes": 3058,
+      "sha256": "662a8625f9837b492ae1c58d918e3a701aa577257d9d7784f8f6a82ce6054dd5",
+      "byte_identical_to_archived_member": true
+    },
+    {
+      "path": "validation/independent_theory_checks.py",
+      "bytes": 12111,
+      "sha256": "126f49f4c441d3754e00f3dd58a95fe639dd9647879fb1a7dda46006d1667296",
+      "byte_identical_to_archived_member": true
+    }
+  ],
+  "source_fulltexts_and_historical_round2_distributed": false,
+  "note": "The source SCIENCE_MANIFEST.json covers more original research inputs than this intentionally compact portable package."
+}

@@ -1,0 +1,301 @@
+{
+  "stage": "G4 Gate C and whole-G4 bounded closure",
+  "paper_ready": false,
+  "status": "complete",
+  "date_utc": "2026-10-02",
+  "freeze_sha256": "cb854a7d1080111d639d4a8613584582914f67fe0783e15d91abaaa8f9a4ce33",
+  "tests_passed": 11,
+  "raw_archives": [
+    {
+      "file": "G4_GATE_C_RAW_01_20261002.zip",
+      "bytes": 16935502,
+      "sha256": "1b9f6ba3657f147706445a95a32e8a89fe4cde2d38f5b90e5a920e7fa712242e"
+    },
+    {
+      "file": "G4_GATE_C_RAW_02_20261002.zip",
+      "bytes": 20398125,
+      "sha256": "f9a7c18f8794c94b28d206e5ce1c77885bcf34bb5785e1e96766c400884004c9"
+    },
+    {
+      "file": "G4_GATE_C_RAW_03_20261002.zip",
+      "bytes": 21580608,
+      "sha256": "44598ed71dc38408a42fa19f00f923eee19a1ba5bb9820c1e154535e6866d0f6"
+    },
+    {
+      "file": "G4_GATE_C_RAW_04_20261002.zip",
+      "bytes": 19119519,
+      "sha256": "682f4a7b30d77b38a81721c5aa74310c0b86e6d4484fb540b3dd9829b713a77b"
+    },
+    {
+      "file": "G4_GATE_C_RAW_05_20261002.zip",
+      "bytes": 20535238,
+      "sha256": "1c7d74d149e43558b21908fe8f1cfe1a5e6fd336649619953ecbea1e41b413a5"
+    }
+  ],
+  "files": [
+    {
+      "path": "BUFFER_MODEL_AUDIT_CHECKS.json",
+      "bytes": 4079,
+      "sha256": "ddab0a4e5d2ab503ccc57de773232c122db5b37b48c7c360f7a4403922a79029",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "BUFFER_MODEL_AUDIT_ZH.md",
+      "bytes": 24864,
+      "sha256": "2d39df656d9c2471a802752376cee9999696c387b873b94a9bb9bec3d1db3a63",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "FROZEN_GATEC_PROTOCOL_ZH.md",
+      "bytes": 5118,
+      "sha256": "cb854a7d1080111d639d4a8613584582914f67fe0783e15d91abaaa8f9a4ce33",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "G4_FINAL_STATUS.json",
+      "bytes": 1260,
+      "sha256": "e56bbb15f73f1f66605e27dd2a5f0c86a9ab0d41a52b57b1558d9f5b1393449a",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "G4_HYPOTHESIS_LEDGER_ZH.md",
+      "bytes": 6362,
+      "sha256": "75b619dfceab2933835e81f4968b5ccd2cc53ac70d9c07f83b23b9ba02b5e438",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "GATE_C_REPORT_ZH.md",
+      "bytes": 12361,
+      "sha256": "3079f0c59248c9e1ea1ce1ce3a8906d188814f613f0b64e981a5197e2fc68988",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "GATE_C_RESULTS.json",
+      "bytes": 13930,
+      "sha256": "780e5ddc4c22ab38f9125c83e67163cd10db0c69bba4aaf2eb8d8e6cffdf5606",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "HIDDEN_STATE_PRIOR_ART_ZH.md",
+      "bytes": 17997,
+      "sha256": "3591af7fb3b8bfa693eb208b45d42b55666f078121dd49f0e41372fd64191f9a",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "NUMERICAL_REPAIR_RECORD_ZH.md",
+      "bytes": 1751,
+      "sha256": "b7f96c08df9bfafabaae59058c3802a88ce0697861165329ddee4d33b1fae0e7",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "RAW_TRACES_INDEX.json",
+      "bytes": 3809,
+      "sha256": "51ae2d3484d8071e8786d01b8c376c8ccb180fae46d501b2a832f583c784df16",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2062,
+      "sha256": "090edf530bc1a0733bc9f7b68c88ad0b7be3a25ce3fbfa8e297ac3c2ea8cb1bd",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "SOFT_BUFFER_BOUND_CHECKS.json",
+      "bytes": 1151,
+      "sha256": "887bff1376f76b27a9693422cee77958e66d3747240e88c942052e325e6c43f4",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "SOFT_BUFFER_FIRST_CYCLE_AUDIT.json",
+      "bytes": 1470,
+      "sha256": "f58506599b73c9f8e4b28cbefd3c6b180f4797927b49c893bc105c314913e5d4",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "analyze_gate_c.py",
+      "bytes": 2985,
+      "sha256": "8be1d32cd49034a7872e67bca50d1dad717241e6ce501c9a2afd2e55511b0141",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "archived_pre_domain_refinement/GATE_C_RESULTS.json",
+      "bytes": 13507,
+      "sha256": "f8332fcf77a3da8a977213eb6bb70ddb7d147bf936625b3b9eb5f3e87cd6228d",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "archived_pre_domain_refinement/f0.75_cap0.5.npz",
+      "bytes": 8397875,
+      "sha256": "11028a4c23c61c739a792f404adbf43cc56c08fb734e5966f52427cb08bed541",
+      "archive": "G4_GATE_C_RAW_05_20261002.zip"
+    },
+    {
+      "path": "archived_pre_domain_refinement/failed_tight_refinement.py",
+      "bytes": 9852,
+      "sha256": "70c5e671413b136904ac8083c025dfcc356cf9cfa8472bf52b5f2ec236d50490",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "archived_pre_domain_refinement/physical_validation.csv",
+      "bytes": 5823,
+      "sha256": "8b55c9687965bf890293842656704f7f6572556959d987499136798199969a63",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "archived_pre_domain_refinement/run_gate_c.py",
+      "bytes": 9180,
+      "sha256": "3335801aea7b2cd0cc8686c99b9dd7cf7eba5a29f75ba37da5d4eb118a3da681",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "buffer_model_audit_check.log",
+      "bytes": 6700,
+      "sha256": "5ff199def45ea1dd0850372a76df58b576c63e9b7a3a116b7b85c779fa31b0d0",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "buffer_model_audit_check.py",
+      "bytes": 9648,
+      "sha256": "1039eaeba4a84c6737a87d3d9fea0e02a11ce991da38762be29995ed81096502",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "energy_gap_accounting.csv",
+      "bytes": 628,
+      "sha256": "db3bdd264b92904a6ffa2b60e9684e8e6571fc66221e6d6ab636656e95bb42c2",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "extra_bit_witnesses.csv",
+      "bytes": 1388,
+      "sha256": "024a5fb5d982f94fe0e71fa268612b6f3b38c88651c782338ad3877d4b48cdf4",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "gate_c_continuous_witness.png",
+      "bytes": 213393,
+      "sha256": "895bf408260089fb54668e90d53c4c2b9fbdd04a3cb64d4b8c54acdf08396307",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "gate_c_source_classes.png",
+      "bytes": 115048,
+      "sha256": "93b3477766ddb4bab4d3b277b31ce3f3740cce0cd294c0408ec2da21cb79a01b",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "guard_integration_precheck.json",
+      "bytes": 1218,
+      "sha256": "b0b4c97d26cf60c783b632e593665e985bc764c86f3b775d253c2f640a7b51e4",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "hard_comparator.csv",
+      "bytes": 3064,
+      "sha256": "8d3adf44da5a1deeab0778f2a4649341ef5089f2eb30d52881078874cc7badc8",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "numerical_sentinel.json",
+      "bytes": 347,
+      "sha256": "64f0efa97650ccd216ce9faa74f4eac3515fd9e11ec394d68d305cef5eefb1a5",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "per_cycle_harmonics.csv",
+      "bytes": 107859,
+      "sha256": "3e8809143924d9ae145bfad2b5e57e7cdc2d4af0806f4f13b5a717cd2141a60b",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "physical_validation.csv",
+      "bytes": 5905,
+      "sha256": "2e53846d1bde5451c9993d14914bbeac853ff301e3ee31cd446795c7f8e5a437",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "run_gate_c.log",
+      "bytes": 13930,
+      "sha256": "780e5ddc4c22ab38f9125c83e67163cd10db0c69bba4aaf2eb8d8e6cffdf5606",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "run_gate_c.py",
+      "bytes": 10705,
+      "sha256": "f3ca64a8c1a25d93e4efc5fbd181067ddece5fa0f79249a14baee1a2403e57e1",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "source_class_windows.csv",
+      "bytes": 5342,
+      "sha256": "4db892cf8a7a0f99005b15cbe0515070111323314b73a21100d5e5d3e0eaa7df",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "test_gate_c.py",
+      "bytes": 3164,
+      "sha256": "64333fe021b3a75158f55908447ebf2a61163a18aad718edf8cae4e73cd5219f",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "tests.log",
+      "bytes": 988,
+      "sha256": "5cda5c127ee39dd3ddf1961492f026a89f61e82743050ffe29fbe821488a148c",
+      "archive": "G4_GATE_C_CLOSURE_CORE_20261002.zip"
+    },
+    {
+      "path": "traces/f0.25_cap0.5.npz",
+      "bytes": 7782303,
+      "sha256": "e7f7eabc710fa97846ca86fa910ed97bfd1f6c66086166368fbd34ef4a6e2a16",
+      "archive": "G4_GATE_C_RAW_01_20261002.zip"
+    },
+    {
+      "path": "traces/f0.25_cap2.npz",
+      "bytes": 9152901,
+      "sha256": "3f939eb16774ce7b85267525a95f27df84e2de0fc07fdc0dd75e957254fde5b7",
+      "archive": "G4_GATE_C_RAW_01_20261002.zip"
+    },
+    {
+      "path": "traces/f0.25_cap20.npz",
+      "bytes": 12031179,
+      "sha256": "3910e695d67cf98087bc85e2c21394fb7bc2612f55179c823739559de540b098",
+      "archive": "G4_GATE_C_RAW_02_20261002.zip"
+    },
+    {
+      "path": "traces/f0.5_cap0.5.npz",
+      "bytes": 8366648,
+      "sha256": "2c860794b0653f261c955383a517e4a4b7a7e1ff6d901bd18f3230a93ec9c541",
+      "archive": "G4_GATE_C_RAW_02_20261002.zip"
+    },
+    {
+      "path": "traces/f0.5_cap2.npz",
+      "bytes": 9541698,
+      "sha256": "bc7264cef174ed4b915e9ef39550a9efa3f152c559c4b434d41094098f0deb05",
+      "archive": "G4_GATE_C_RAW_03_20261002.zip"
+    },
+    {
+      "path": "traces/f0.5_cap20.npz",
+      "bytes": 12038618,
+      "sha256": "6d2eb631b8301cabea105a69c6be3c561a9d0a124b16c312789402dce63a58ee",
+      "archive": "G4_GATE_C_RAW_03_20261002.zip"
+    },
+    {
+      "path": "traces/f0.75_cap0.5.npz",
+      "bytes": 9029224,
+      "sha256": "13d8d763a2a67c69205209d136824153a65404f793bcc8424dd65ed1709e19f4",
+      "archive": "G4_GATE_C_RAW_04_20261002.zip"
+    },
+    {
+      "path": "traces/f0.75_cap2.npz",
+      "bytes": 10089997,
+      "sha256": "8c6dad0bfed02e27622bc8e9cb714e132d1de5154f810ae2783b7254b0ca9389",
+      "archive": "G4_GATE_C_RAW_04_20261002.zip"
+    },
+    {
+      "path": "traces/f0.75_cap20.npz",
+      "bytes": 12137015,
+      "sha256": "55efad2869817beb21026712c99154d27dc19f517bb454be3d280ab79ed24553",
+      "archive": "G4_GATE_C_RAW_05_20261002.zip"
+    }
+  ]
+}

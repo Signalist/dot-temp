@@ -1,0 +1,70 @@
+{
+  "scope": "synthetic analytic smooth task DAG, lossy storage and first-order PCS; supports persistent pair ambiguity, NOT the step-task capacity frontier",
+  "parameters": {
+    "ramp_fraction": 0.2,
+    "eta_c": 0.95,
+    "eta_d": 0.95,
+    "slot_seconds": 1,
+    "low_task_power": 6,
+    "high_task_increment_energy": 12,
+    "high_task_peak_power": 21.0,
+    "capacity": 18,
+    "initial_energy": 9,
+    "initial_realized_buffer_power": 0,
+    "PCS_time_constant_seconds": 0.01,
+    "command_limit": 12,
+    "realized_buffer_limit": 12,
+    "slew_limit": 75
+  },
+  "continuous_analytic_bounds": {
+    "command_peak_bound": 8.503599077580118,
+    "slew_bound": 61.92363968968054,
+    "known_periodic_energy_reset": true,
+    "input_current_task_only": true,
+    "future_task_order_used": false,
+    "minimum_state": 3.0078843626806826,
+    "maximum_state": 14.992115637319317
+  },
+  "worlds": [
+    {
+      "high_slot_1indexed": 2,
+      "minimum_compute_power": 6.0,
+      "maximum_compute_power": 21.0,
+      "completed_task_energy": 48,
+      "PCC_energy": 48.614980289093296,
+      "battery_energy_min": 3.0078843626806826,
+      "battery_energy_max": 9.0,
+      "terminal_SOC_error": 0.0,
+      "realized_buffer_peak": 7.884362680683312,
+      "command_peak_sampled": 7.932700858453751,
+      "realized_slew_peak_sampled": 61.92363968968055,
+      "actuator_identity_max_residual": 4.973799150320701e-14,
+      "PCC_identity_residual": 0.0,
+      "loss_energy_analytic": 0.6149802890932996
+    },
+    {
+      "high_slot_1indexed": 3,
+      "minimum_compute_power": 6.0,
+      "maximum_compute_power": 21.0,
+      "completed_task_energy": 48,
+      "PCC_energy": 48.614980289093296,
+      "battery_energy_min": 9.0,
+      "battery_energy_max": 14.992115637319317,
+      "terminal_SOC_error": 0.0,
+      "realized_buffer_peak": 7.884362680683312,
+      "command_peak_sampled": 7.932700858453751,
+      "realized_slew_peak_sampled": 61.92363968968055,
+      "actuator_identity_max_residual": 4.973799150320701e-14,
+      "PCC_identity_residual": 0.0,
+      "loss_energy_analytic": 0.6149802890932996
+    }
+  ],
+  "tests": {
+    "power_balance": true,
+    "actuator_equation": true,
+    "continuous_command_bound": true,
+    "continuous_slew_bound": true,
+    "capacity": true,
+    "exact_work_and_recovery": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "route": "G4",
+  "created_utc": "2026-10-04T04:42:00Z",
+  "scope": "Task-DAG and history restrictions and self-discharge boundaries for lossy deterministic common-output hiding",
+  "primary_model": "Positive equal-slot two-level task DAG, no disposal, common initial state and public repeated block output, exact internal state accounting",
+  "primary_questions": [
+    "Does a DAG replace flatness by a computable adjacent-swap graph?",
+    "Can capacity fall strictly below the unrestricted full-permutation theorem while substantial hidden order freedom remains?",
+    "How does a bounded-reordering automaton change cumulative drift?",
+    "Does leakage invalidate linear uncertainty accumulation and admit nonflat perpetual outputs?"
+  ],
+  "baseline": "Direct all-linear-extension scenario LP given identical task DAG, timing, efficiency, observation, public waveform class, and initial-state freedom",
+  "nonclaims": [
+    "No new LP or reachability algorithm",
+    "No actual AI workload calibration",
+    "No source-location identification",
+    "No sensor-noise immunity",
+    "No hardware validation"
+  ],
+  "experiments": {
+    "dag_families": [
+      "full antichain",
+      "barrier stages",
+      "two alternating pipelines",
+      "bounded lead pipelines",
+      "seeded random DAGs"
+    ],
+    "losses": [
+      1.0,
+      0.999,
+      0.95,
+      0.8
+    ],
+    "leakage_retention": [
+      1.0,
+      0.999,
+      0.99,
+      0.9
+    ],
+    "transfer": "DAG structure and size families withheld from worked examples"
+  },
+  "reporting": "Exploratory theorem development; no preregistered hypothesis test. Record failed hypotheses and changed contracts. Exact rational validation where feasible, numerical solver tolerance otherwise. Independent skeptical review required before closure.",
+  "amendments": [
+    {
+      "time_utc": "2026-10-04T04:52:45Z",
+      "reason": "Public graph transfer originally used periodic synthetic labels whose stencil/sweep power languages sometimes coincide; preserved those and added a fixed-seed marking ablation rather than replacing them",
+      "extra_cases": 6
+    },
+    {
+      "time_utc": "2026-10-04T05:00:30Z",
+      "reason": "Independent proof review supplied sound Cesaro extension of retained-state invariant LP optimality to nonstationary common schedules, now T5a",
+      "new_experiments": 0
+    },
+    {
+      "time_utc": "2026-10-04T04:50:00Z",
+      "reason": "Initial bounded-denominator rounding did not close11 exact certificate checks; exact active-face/dual-support reconstruction added and all89 final certificates independently verified",
+      "changed_scientific_targets": false
+    }
+  ]
+}

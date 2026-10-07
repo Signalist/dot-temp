@@ -1,0 +1,181 @@
+{
+  "scope": "independent exact energy inequalities, analytic finite-PCS limits, causal guarded-bit arithmetic, and ODE integration; no primary scenario-builder imports",
+  "exact": {
+    "eta": "19/20",
+    "E_low": "7299/760",
+    "E_high": "966/95",
+    "required": "247/25",
+    "low_allcontrol_deficit": "1049/3800",
+    "high_remaining": "137/475",
+    "service_amplitude": "4693/1000",
+    "recharge_AC_amplitude": "16552/1805",
+    "final_energy": "9",
+    "measurement_error_bound": "1403/16000",
+    "guard_threshold": "159483/16000",
+    "high_worst_accept_margin": "17183/152000",
+    "low_worst_reject_margin": "1049/3800"
+  },
+  "analytic_bounds": {
+    "prefix_0": {
+      "power": 10.0,
+      "command": 10.06130914636402,
+      "slew": 78.53981633974482
+    },
+    "prefix_1": {
+      "power": 11.875,
+      "command": 11.947804611307273,
+      "slew": 93.26603190344696
+    },
+    "prefix_2": {
+      "power": 5.0,
+      "command": 5.03065457318201,
+      "slew": 39.26990816987241
+    },
+    "prefix_3": {
+      "power": 3.125,
+      "command": 3.144159108238756,
+      "slew": 24.543692606170254
+    },
+    "service": {
+      "power": 5.866249999999999,
+      "command": 5.875282586845958,
+      "slew": 23.0367098801514
+    },
+    "high_recovery": {
+      "power": 11.462603878116344,
+      "command": 11.532880124003965,
+      "slew": 90.02708033625044
+    },
+    "generic_worst_recovery": {
+      "power": 11.842105263157894,
+      "command": 11.9147081996416,
+      "slew": 93.00767724443465
+    }
+  },
+  "prefix_ODE": [
+    {
+      "high_slot": 2,
+      "tracking_error": 6.572520305780927e-14,
+      "pcc_error": 6.572520305780927e-14,
+      "state_min": 0.5789473684211259,
+      "state_max": 9.603947368421112,
+      "E_at_3": 9.603947368421112,
+      "exact_state_error": 5.861977570020827e-14,
+      "b_at_3": -4.8329124990170724e-15,
+      "completed_work": 30.00000000000075
+    },
+    {
+      "high_slot": 3,
+      "tracking_error": 2.6645352591003757e-14,
+      "pcc_error": 2.6645352591003757e-14,
+      "state_min": 9.0,
+      "state_max": 12.800000000000066,
+      "E_at_3": 10.168421052631361,
+      "exact_state_error": 2.184918912462308e-13,
+      "b_at_3": -1.578327313431163e-16,
+      "completed_work": 30.000000000000462
+    }
+  ],
+  "service_recovery_ODE": [
+    {
+      "label": "high_world",
+      "initial_SOC": "966/95",
+      "recovery_amplitude": "16552/1805",
+      "tracking_error": 2.0161650127192843e-13,
+      "pcc_error": 2.0250467969162855e-13,
+      "state_min": 0.2884210526317651,
+      "state_max": 10.16842105263158,
+      "SOC_after_service": 0.2884210526317651,
+      "service_state_error": 1.861288900784075e-13,
+      "final_SOC": 9.00000000000022,
+      "final_buffer": 1.0794215185312012e-14,
+      "total_task_work": 47.999999999997385,
+      "max_service_cap_violation": 5.1958437552457326e-14,
+      "max_recovery_PCC": 17.462603878116344
+    },
+    {
+      "label": "generic_threshold",
+      "initial_SOC": "247/25",
+      "recovery_amplitude": "180/19",
+      "tracking_error": 2.0872192862952943e-13,
+      "pcc_error": 2.0961010704922955e-13,
+      "state_min": 2.0677703162935658e-13,
+      "state_max": 9.88,
+      "SOC_after_service": 2.0677703162935658e-13,
+      "service_state_error": 2.0677703162935658e-13,
+      "final_SOC": 9.000000000000236,
+      "final_buffer": 7.538484810346024e-15,
+      "total_task_work": 47.9999999999974,
+      "max_service_cap_violation": 5.1958437552457326e-14,
+      "max_recovery_PCC": 17.842105263157897
+    },
+    {
+      "label": "generic_midpoint",
+      "initial_SOC": "697/50",
+      "recovery_amplitude": "26/5",
+      "tracking_error": 1.141309269314661e-13,
+      "pcc_error": 1.1368683772161603e-13,
+      "state_min": 4.060000000000004,
+      "state_max": 13.94,
+      "SOC_after_service": 4.060000000000004,
+      "service_state_error": 4.440892098500626e-15,
+      "final_SOC": 9.000000000000243,
+      "final_buffer": 1.9949456028400434e-15,
+      "total_task_work": 47.999999999997364,
+      "max_service_cap_violation": 5.1958437552457326e-14,
+      "max_recovery_PCC": 12.500000000000002
+    },
+    {
+      "label": "generic_full",
+      "initial_SOC": "18",
+      "recovery_amplitude": "88/95",
+      "tracking_error": 5.1958437552457326e-14,
+      "pcc_error": 5.1958437552457326e-14,
+      "state_min": 8.119999999999997,
+      "state_max": 18.0,
+      "SOC_after_service": 8.119999999999997,
+      "service_state_error": 1.7763568394002505e-15,
+      "final_SOC": 9.00000000000037,
+      "final_buffer": 1.547969651766179e-16,
+      "total_task_work": 47.99999999999735,
+      "max_service_cap_violation": 5.1958437552457326e-14,
+      "max_recovery_PCC": 7.157894736842105
+    }
+  ],
+  "query_extremes": [
+    {
+      "high_slot": 2,
+      "min_measured": 9.583897287005406,
+      "max_measured": 9.623932525821214,
+      "all_bits_accept": false,
+      "all_bits_abstain": true,
+      "max_staleness_change": 5.008141564744051e-05
+    },
+    {
+      "high_slot": 3,
+      "min_measured": 10.148425380551055,
+      "max_measured": 10.18843565575613,
+      "all_bits_accept": true,
+      "all_bits_abstain": false,
+      "max_staleness_change": 1.4603124551371138e-05
+    }
+  ],
+  "source_sha256": {
+    "SERVICE_DECISION_FREEZE.json": "9da8d27c9a0fe9c184480593e012360b2d45c9a2866c4908cb4830ce12b5243f",
+    "SERVICE_CAUSAL_MEASUREMENT_AMENDMENT.json": "ae07a4cb960e5389430b18f2c64cafa740afc797755e499ec8a7bf58ec46281b",
+    "experiments/GRID_SERVICE_DECISION_RESULTS.json": "b9730b33893a317c4d32cae4fc12c3f9d08d0bfb78e3b74cf72ee5cd701dd599"
+  },
+  "tests": {
+    "exact_low_allcontrol_exclusion": true,
+    "exact_high_and_recovery": true,
+    "finite_power_command_slew": true,
+    "generic_recovery_PCC_cap": true,
+    "safe_guarded_acceptance": true,
+    "strictly_causal_delivery": true,
+    "identical_complete_prefix": true,
+    "prefix_states_and_work": true,
+    "ODE_tracking": true,
+    "generic_service_recovery": true,
+    "actual_query_separates_worlds": true
+  }
+}

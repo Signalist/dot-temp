@@ -1,0 +1,93 @@
+{
+  "route": "G4",
+  "science_frozen_utc": "2026-10-04T05:05:22.124104+00:00",
+  "scientific_status": "RETAIN_STRENGTHENED_NARROW_WORKLOAD_CONDITIONED_CAPACITY_THEORY; HIGH_ORIGINALITY_AND_DEPLOYMENT_BENEFIT_NOT_ESTABLISHED",
+  "strongest_new_result": {
+    "main": "For every finite two-level workload word family with independent block support, any infinite common public schedule has B>=B_S_star+W_infinity; optimal B equals standard one-block exact-reset LP optimum, even allowing nonperiodic public outputs",
+    "DAG": "Mixed incomparable adjacent-task swaps define a slot-position graph; endpoint invariance is exactly equality of p on each component. Connected graph gives sharp prefix-count formula",
+    "leaky": "Under discrete affine retention, stationary invariant-interval LP is capacity-optimal also among all nonstationary common schedules",
+    "threshold": "Full-permutation endpoint invariance in output cube exists iff eta_c*eta_d<=rho**(N-1)",
+    "sharpness": "Zero-width optimum sharp generally; one independent exact positive-width equality witness. Not every prescribed positive width claimed"
+  },
+  "decisive_same_multiset_examples": {
+    "parameters": {
+      "N": 6,
+      "high_count": 2,
+      "L": 6,
+      "H": 18,
+      "eta_c": "19/20",
+      "eta_d": "19/20",
+      "delta": 1
+    },
+    "common_PCC_each_slot": "1922/187",
+    "full_order_B": "6080/187",
+    "connected_DAG_B": "3800/187",
+    "barrier_DAG_B": "3040/187",
+    "meaning": "Different admissible workload languages; not algorithm gains. Last two each have9 distinct power words."
+  },
+  "matched_baseline": {
+    "name": "Direct all-allowed-word scenario LP with same information and action set",
+    "cases": 89,
+    "primary_max_difference": 8.348877145181177e-13,
+    "advantage": "No optimizer advantage; exact structural characterization and contract effect only"
+  },
+  "validation": {
+    "producer_primary_cases": 77,
+    "public_graph_synthetic_power_transfer_cases": 12,
+    "independent_exact_primal_dual_certificates": 89,
+    "independent_DAG_label_cases": 948,
+    "independent_connected_formula_cases": 168,
+    "independent_leakage_grid_cases": 169,
+    "independent_threshold_cases": 90,
+    "finite_horizon_cases": 21,
+    "leakage_synthesis_cases": 9,
+    "ideal_exact_cases": 5,
+    "PCC_step_exact_cases": 5,
+    "old_manifest_sha256_matches": 114,
+    "old_manifest_mismatches": [],
+    "reviewed_theory_sha256": "6bbf81c7c3aaf79f5142af4e61667a4358abdefae3969ce6e465da26db10cafe",
+    "figure_visual_QA": "Both final figure PNGs inspected; no clipping or unreadable labels"
+  },
+  "novelty": {
+    "primary_source_records": 18,
+    "full_combined_antecedent_found": false,
+    "priority_established": false,
+    "classical_components": [
+      "ideal arbitrary-family battery shared-output geometry",
+      "linear-extension adjacent swaps",
+      "robust inventory cumulative support",
+      "weighted-graph zero-cycle potentials",
+      "stable reachability and RPI",
+      "standard robust LP and Cesaro averaging"
+    ],
+    "remaining_gap": "Exhaustive scheduling-polytope and storage-privacy theorem-priority comparison not established"
+  },
+  "boundaries": [
+    "Fixed equal-slot two-level serial task power model; positive power synthetic",
+    "Public action set compact convex; LP only polyhedral; nonconvex action set counterexample supplied",
+    "Common freely chosen initial state; private initialization breaks width bound",
+    "No arbitrary word-histories unless explicitly allowed; probabilistic correlation with unchanged support does not help",
+    "Continuous leakage requires weighted integrals and within-slot physical checks",
+    "PCC-step constraints are not finite continuous converter slew",
+    "No disposal in principal theorem; ballast counterexample changes energy budget",
+    "Internal task labels are not necessarily nonzero exposed PCC forcing sources"
+  ],
+  "not_established": [
+    "AI-specific physical mechanism",
+    "Actual workload power/duration calibration",
+    "Parallel GPU runtime or throughput benefit",
+    "Real UPS/PCS or continuous leakage validation",
+    "Real PCC-PMU task attribution",
+    "Superior algorithm over matched-information robust LP",
+    "High originality or publication priority"
+  ],
+  "entrypoints": {
+    "report": "report/G4_ROUND3_DOSSIER_ZH.md",
+    "proofs": "theory/THEOREMS.md",
+    "independent_review": "validation/INDEPENDENT_THEORY_REVIEW.md",
+    "literature": "literature/G4_DAG_CORRELATION_LEAKAGE_PRIOR_ART_AUDIT.md",
+    "source_ledger": "literature/SOURCE_LEDGER.json",
+    "reproduction": "README.md"
+  },
+  "closure": "All declared scientific work completed; no unreported pending model runs. Does not initiate G6."
+}

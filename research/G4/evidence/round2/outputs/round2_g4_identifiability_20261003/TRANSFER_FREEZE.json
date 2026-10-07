@@ -1,0 +1,50 @@
+{
+  "frozen_at": "2026-10-03T10:23:34.962956+00:00",
+  "purpose": "Held-out algebraic/model transfer, not independent physical samples",
+  "cases": [
+    {
+      "N": 4,
+      "k": 2,
+      "L": 2,
+      "H": 10,
+      "delta": 0.25,
+      "ec": 0.9,
+      "ed": 0.95
+    },
+    {
+      "N": 8,
+      "k": 3,
+      "L": 5,
+      "H": 15,
+      "delta": 0.5,
+      "ec": 0.97,
+      "ed": 0.93
+    },
+    {
+      "N": 8,
+      "k": 7,
+      "L": 1,
+      "H": 9,
+      "delta": 2,
+      "ec": 0.85,
+      "ed": 0.99
+    },
+    {
+      "N": 5,
+      "k": 1,
+      "L": 7,
+      "H": 13,
+      "delta": 0.2,
+      "ec": 0.99,
+      "ed": 0.99
+    }
+  ],
+  "tests": [
+    "all distinct high-position subsets",
+    "exact reset and sharp flat capacity",
+    "lossy endpoint assignment range",
+    "one multiblock positive-tolerance sharp witness",
+    "homogeneous power/time scaling"
+  ],
+  "timestamp_basis": "observed file mtime before metadata correction; see PROTOCOL_RECORD_CORRECTIONS.json"
+}

@@ -1,0 +1,112 @@
+{
+  "route": "G4",
+  "original_sequence": 4,
+  "science_frozen_utc": "2026-10-03T10:47:10.997997+00:00",
+  "scientific_status": "NARROW_THEORETICAL_CANDIDATE_WITH_SHARP_INFINITE_HORIZON_CAPACITY_AND_MATCHED_CAUSAL_GRID_SERVICE_CERTIFICATE; HIGH_ORIGINALITY_NOT_ESTABLISHED",
+  "strongest_candidate": {
+    "statement": "B>=2Q+W_infinity for universal hiding of independent block task permutations with strict two-slope efficiency loss and range-constrained slot outputs; optimum2Q is attained",
+    "general_multiset": true,
+    "two_level_intraslot_extension": "exact slotmean reduction under commonACrateR=H-L",
+    "sharpness_limit": "minimum2Q is sharp; equality for every prescribedpositiveW_infinity is not established",
+    "not_an_identification_horizon": true
+  },
+  "classical_components": [
+    "ideal batteryprivacy cumulative envelopes",
+    "unknowninputobservability and source signature projection",
+    "setmembership/LP/abstention",
+    "assignment constantvalue and rearrangement",
+    "Minkowski endpointinterval propagation",
+    "energy-based service feasibility and standardfeedforward"
+  ],
+  "novelty_audit": {
+    "primary_sources": 22,
+    "exact_combined_antecedent_found": false,
+    "priority_established": false,
+    "remaining_gap": "formal comparison with broader lossy universal batteryprivacy, nonlinearopacity and robuststorage theorems; noAI-specific mechanism established"
+  },
+  "finite_capacity_certificate": {
+    "C": 18,
+    "E0": 9,
+    "eta": "19/20",
+    "R": 12,
+    "tau": 0.5,
+    "K4": "exact rational feasiblewitness",
+    "K5_lower_bound": "4413038513769794080/239362481131915869",
+    "K5_float": 18.436634233155818,
+    "meaning": "allorders commonoutput feasibility only"
+  },
+  "persistent_DAG_pair": {
+    "two_site_extension": true,
+    "label": "site executinghigh task in slot2, notdifferent exposedPCCsource",
+    "samecompletePCC": true,
+    "lossy_smooth_finitePCS": true,
+    "sameinitialE": 9,
+    "capacity": 18,
+    "eta": 0.95,
+    "PCS_tau": 0.01,
+    "exactrecovery_per6s": true
+  },
+  "grid_service_decision": {
+    "decision_time": 3,
+    "samePCCprefix": true,
+    "samefuturetasks": true,
+    "required_stored_energy": 9.88,
+    "E_low": "7299/760",
+    "E_high": "966/95",
+    "low_allcontrol_deficit": "1049/3800",
+    "high_margin": "137/475",
+    "actual_scalar_actuator_model": "tau bdot+b=u; tau.01; notfullswitching/currentcircle model",
+    "matched_query": {
+      "site": "A",
+      "querytime": 2.995,
+      "deliveryby": 2.999,
+      "commitmentstart": 3,
+      "bits": 1,
+      "sensor_energy_error": 0.02,
+      "sensor_error_percent_usablecapacity": 0.1111111111111111,
+      "total_noise_age_bound": 0.0876875,
+      "total_bound_percent_usablecapacity": 0.4871527777777778,
+      "guard": 9.9676875,
+      "worstacceptmargin": 0.11304605263157896,
+      "worstacceptmargin_percent_usablecapacity": 0.6280336257309942,
+      "uncalibrated_research_bounds": true
+    },
+    "PCC_only_guaranteed_fraction": 0.9720594502450458,
+    "high_fullservice_relative_uplift": 0.028743663515550074,
+    "bit0": "abstain generally, notuniversal infeasibility",
+    "local_recovery_state": "exactcurrentlocal state/model allowed equally tobothcontrollers; externalbitnoisy/stale",
+    "sameinfo_baseline": "standard robustfeasibility achieves samedecision withsamebit"
+  },
+  "validation": {
+    "producer_scripts_passed": 15,
+    "independent_audit_suites_passed": 4,
+    "random_corridor_cases": 1000,
+    "assignment_enumerations": 48395,
+    "initial_schedules_independently_checked": 78,
+    "primary_fixedinitial_feasible_witnesses_checked": 42,
+    "infeasible_rows_excluded_from_feasibilitycheck": 6,
+    "grid_harmonic_cases": 60,
+    "causal_lockin_cases": 30,
+    "grid_input_sha256_checked": 11,
+    "prior_nondelivery_scientific_stat_checks": 5460,
+    "smooth_service_independent_max_tracking_error": 2.09e-13
+  },
+  "not_established": [
+    "highoriginality/priority",
+    "AI-label inference",
+    "real synchronized AI-PCC-PMU validation",
+    "newlocalizer performanceadvantage",
+    "samehardwarecost superiority",
+    "fullPCS physical validation",
+    "generalfinite source-identification horizon"
+  ],
+  "entrypoints": {
+    "report": "report/G4_RESEARCH_REPORT_ZH.md",
+    "ledger": "report/HYPOTHESIS_ASSUMPTION_LEDGER.md",
+    "theory": "theory/LOSS_TOLERANCE_TASK_ORDER_THEOREMS.md",
+    "serviceproof": "theory/SERVICE_DECISION_CERTIFICATE_ADDENDUM.md",
+    "novelty": "literature/CONTINUOUS_TOLERANCE_DAG_ADDENDUM.md",
+    "reproduction": "README.md"
+  },
+  "no_further_scientific_runs_planned": true
+}

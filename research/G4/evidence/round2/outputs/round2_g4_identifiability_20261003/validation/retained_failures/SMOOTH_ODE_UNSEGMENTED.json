@@ -1,0 +1,43 @@
+{
+  "scope": "independent differential-equation integration of lossy smooth DAG pair, no analytic energy trajectory substituted",
+  "rows": [
+    {
+      "max_step": 0.01,
+      "high_slot": 2,
+      "max_PCC_error": 2.775715124414546e-08,
+      "max_buffer_error": 2.7757148579610202e-08,
+      "terminal_SOC_error": -3.1681501866387407e-10,
+      "SOC_min": 3.0078843623699223,
+      "SOC_max": 9.0
+    },
+    {
+      "max_step": 0.01,
+      "high_slot": 3,
+      "max_PCC_error": 3.737193665642735e-09,
+      "max_buffer_error": 3.7371927774643154e-09,
+      "terminal_SOC_error": 1.9607426793299965e-11,
+      "SOC_min": 9.0,
+      "SOC_max": 14.992115637301149
+    },
+    {
+      "max_step": 0.005,
+      "high_slot": 2,
+      "max_PCC_error": 9.86437775907234e-09,
+      "max_buffer_error": 9.8643804236076e-09,
+      "terminal_SOC_error": 5.3923088216834e-11,
+      "SOC_min": 3.0078843627799743,
+      "SOC_max": 9.000000000054055
+    },
+    {
+      "max_step": 0.005,
+      "high_slot": 3,
+      "max_PCC_error": 4.770139513610161e-06,
+      "max_buffer_error": 4.770139513302532e-06,
+      "terminal_SOC_error": 5.1872191875190765e-08,
+      "SOC_min": 9.0,
+      "SOC_max": 14.992115637382737
+    }
+  ],
+  "max_world_difference_fine": 4.770129713449478e-06,
+  "all_pass": false
+}

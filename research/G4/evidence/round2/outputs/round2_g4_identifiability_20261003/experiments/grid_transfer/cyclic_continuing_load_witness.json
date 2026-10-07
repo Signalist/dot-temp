@@ -1,0 +1,40 @@
+{
+  "classification": "Exact boundary-equivalence construction; explicitly synthetic and lossless. No grid replay or hardware validation.",
+  "period_s": 10.0,
+  "continuing_load_baseline_MW": 10.0,
+  "internal_peak_to_peak_MW": 2.0,
+  "efficiencies_charge_discharge": [
+    1.0,
+    1.0
+  ],
+  "buffer_realized_power_limit_MW": 1.0,
+  "buffer_command_limit_MW": 1.1,
+  "buffer_slew_limit_MW_per_s": 1.0,
+  "PCS_tau_s": 0.05,
+  "E0_MWh": 0.01,
+  "capacity_MWh": 0.02,
+  "max_PCC_world_difference_MW": 0.0,
+  "max_PCC_deviation_from_constant_MW": 0.0,
+  "min_load_MW": 9.0,
+  "SOC_minmax_MWh": [
+    0.009115805871711694,
+    0.010884194128288307
+  ],
+  "cycle_boundary_energy_errors_MWh": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_command_MW": 1.0004933584653668,
+  "max_slew_MW_per_s": 0.6283185307179586,
+  "same_initial_realized_buffer_MW": [
+    0.0,
+    -0.0
+  ],
+  "same_initial_energy_MWh": [
+    0.01,
+    0.01
+  ],
+  "meaning": "Distinct internal phase histories remain invisible even to exact direct PCC sensing when P/Q at every nodal boundary coincide. To turn this into hidden location at paired buses, assign one oscillation/buffer pair to bus1 of the configured pair in world1 and bus2 in world2, keeping identical positive baseline aggregates at both buses. This is a conceptual internal decomposition, not a newly calibrated benchmark load model. First-order PCS feasibility is analytic: command=b+tau*db/dt. Losses would require extra recharge; this witness does not apply unchanged with efficiency below1."
+}

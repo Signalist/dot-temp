@@ -1,0 +1,147 @@
+{
+  "scope": "two-site label swap for source of high compute task, NOT different exposedPCCsource; fully synthetic smooth lossy finitePCS pair",
+  "world0": {
+    "siteA_high_slot": 2,
+    "siteB_high_slot": 3
+  },
+  "world1": {
+    "siteA_high_slot": 3,
+    "siteB_high_slot": 2
+  },
+  "site_contracts_identical": true,
+  "same_grid_initial_state_required": true,
+  "same_complete_nodal_PQ": true,
+  "Q_in_both_worlds": "same fixed trajectory",
+  "same_PCS_initial_state": 0,
+  "same_initial_buffer_energy_each_site": 9,
+  "same_work_total_each_site": 48,
+  "deterministic_grid_corollary": "same complete nodalP/Q and same initial condition imply same solution and every downstream causal measurement under a well-posed grid model",
+  "measurement_comparison": {
+    "site_identity": "siteA fixed and known to both methods",
+    "time_grid": [
+      0,
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3,
+      6
+    ],
+    "communication_budget": "one bit at same selected time; no private task metadata",
+    "PCC_noise": "even exact noiseless completePCC cannot distinguish; any equal noise law or same bounded-error witness preserves the overlap",
+    "SOC_energy_error": 0.1,
+    "clock_error_seconds": 0.01,
+    "worst_energy_slope": 7.490144546649146,
+    "no_total_sensor_cost_claim": true
+  },
+  "queries": [
+    {
+      "time_seconds": 0,
+      "same_site_same_clock_same_onebit_budget": true,
+      "SOC_world0": 9.0,
+      "SOC_world1": 9.0,
+      "SOC_bit_threshold": 9.0,
+      "SOC_robust_margin": -0.17490144546649147,
+      "PCC_world0": 6.0,
+      "PCC_world1": 6.0,
+      "PCC_best_possible_bit_margin": 0
+    },
+    {
+      "time_seconds": 0.5,
+      "same_site_same_clock_same_onebit_budget": true,
+      "SOC_world0": 9.0,
+      "SOC_world1": 9.0,
+      "SOC_bit_threshold": 9.0,
+      "SOC_robust_margin": -0.17490144546649147,
+      "PCC_world0": 6.0,
+      "PCC_world1": 6.0,
+      "PCC_best_possible_bit_margin": 0
+    },
+    {
+      "time_seconds": 1,
+      "same_site_same_clock_same_onebit_budget": true,
+      "SOC_world0": 9.0,
+      "SOC_world1": 9.0,
+      "SOC_bit_threshold": 9.0,
+      "SOC_robust_margin": -0.17490144546649147,
+      "PCC_world0": 6.0,
+      "PCC_world1": 6.0,
+      "PCC_best_possible_bit_margin": 0
+    },
+    {
+      "time_seconds": 1.5,
+      "same_site_same_clock_same_onebit_budget": true,
+      "SOC_world0": 6.003942181340341,
+      "SOC_world1": 11.996057818659658,
+      "SOC_bit_threshold": 9.0,
+      "SOC_robust_margin": 2.821156373193167,
+      "PCC_world0": 13.884362680683312,
+      "PCC_world1": 13.884362680683312,
+      "PCC_best_possible_bit_margin": 0
+    },
+    {
+      "time_seconds": 2,
+      "same_site_same_clock_same_onebit_budget": true,
+      "SOC_world0": 3.0078843626806826,
+      "SOC_world1": 14.992115637319317,
+      "SOC_bit_threshold": 9.0,
+      "SOC_robust_margin": 5.817214191852826,
+      "PCC_world0": 6.0,
+      "PCC_world1": 6.0,
+      "PCC_best_possible_bit_margin": 0
+    },
+    {
+      "time_seconds": 2.5,
+      "same_site_same_clock_same_onebit_budget": true,
+      "SOC_world0": 6.003942181340341,
+      "SOC_world1": 11.996057818659658,
+      "SOC_bit_threshold": 9.0,
+      "SOC_robust_margin": 2.821156373193167,
+      "PCC_world0": 13.884362680683312,
+      "PCC_world1": 13.884362680683312,
+      "PCC_best_possible_bit_margin": 0
+    },
+    {
+      "time_seconds": 3,
+      "same_site_same_clock_same_onebit_budget": true,
+      "SOC_world0": 9.0,
+      "SOC_world1": 9.0,
+      "SOC_bit_threshold": 9.0,
+      "SOC_robust_margin": -0.17490144546649147,
+      "PCC_world0": 6.0,
+      "PCC_world1": 6.0,
+      "PCC_best_possible_bit_margin": 0
+    },
+    {
+      "time_seconds": 6,
+      "same_site_same_clock_same_onebit_budget": true,
+      "SOC_world0": 9.0,
+      "SOC_world1": 9.0,
+      "SOC_bit_threshold": 9.0,
+      "SOC_robust_margin": -0.17490144546649147,
+      "PCC_world0": 6.0,
+      "PCC_world1": 6.0,
+      "PCC_best_possible_bit_margin": 0
+    }
+  ],
+  "selected_query": {
+    "time_seconds": 2,
+    "same_site_same_clock_same_onebit_budget": true,
+    "SOC_world0": 3.0078843626806826,
+    "SOC_world1": 14.992115637319317,
+    "SOC_bit_threshold": 9.0,
+    "SOC_robust_margin": 5.817214191852826,
+    "PCC_world0": 6.0,
+    "PCC_world1": 6.0,
+    "PCC_best_possible_bit_margin": 0
+  },
+  "unknown_mapping_ablation": "swapping site identity leaves unlabelled SOC multiset and totalSOC identical, so no distinction",
+  "tests": {
+    "all_nodalPCC_equal": true,
+    "all_totalSOC_equal": true,
+    "best_SOC_query_robust": true,
+    "best_time2": true,
+    "allPCC_margins0": true
+  }
+}

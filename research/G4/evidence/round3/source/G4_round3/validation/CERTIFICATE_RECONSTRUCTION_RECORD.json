@@ -1,0 +1,12 @@
+{
+  "recorded_retrospectively_utc": "2026-10-04T05:05:22.124454+00:00",
+  "initial_run_exact_passes": 66,
+  "initial_run_exact_failures": 11,
+  "cause": "Simple denominator-limited rounding of floating optimizer primal/dual coordinates did not recover exact rational active-face points",
+  "repair": "Exact linear solve on identified active primal face and dual nonzero support, followed by exact feasibility, sign, stationarity, objective and zero-gap verification",
+  "final_exact_primary_passes": 77,
+  "final_exact_with_transfer_passes": 89,
+  "independent_imports_producer_code": false,
+  "initial_stdout_retention": "Initial stdout was observed in execution results but overwritten by final run; this record does not claim an archived first-run source snapshot",
+  "objective_or_contract_changed": false
+}

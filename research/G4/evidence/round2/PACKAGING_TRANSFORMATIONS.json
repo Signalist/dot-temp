@@ -1,0 +1,49 @@
+{
+  "source_manifest_sha256": "1a791e1b6f554b9324f15f70e2c04b1cda92ffeccc198eb83a12164916d6c65b",
+  "frozen_set_size": 114,
+  "all_frozen_scientific_files_included": true,
+  "scientific_originals_modified": false,
+  "numerical_arrays_modified": false,
+  "scientific_algorithm_changes": false,
+  "transformed_files": [
+    {
+      "public_path": "outputs/round2_g4_identifiability_20261003/README.md",
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/README.md",
+      "origin_scope": "frozen_G4_scientific_set",
+      "original_bytes": 2893,
+      "original_sha256": "640a4cbbaf414c8ba74bd24f371c6cf83d6d18aa74d57d79f8dc3e32a0a2bb27",
+      "public_bytes": 3475,
+      "public_sha256": "53db5beb2e754684d608679366446bbee8191a40a201ec11efc4443c81698a42",
+      "transformations": [
+        "Removed delivery-platform wording without changing scientific claims.",
+        "Replaced unavailable historical-archive location with explicit omission index.",
+        "Added public package entry and reproduction-scope clarification."
+      ]
+    },
+    {
+      "public_path": "outputs/round2_g4_identifiability_20261003/report/make_figures.py",
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/report/make_figures.py",
+      "origin_scope": "frozen_G4_scientific_set",
+      "original_bytes": 2399,
+      "original_sha256": "4dcba7c0d56eebccac227d11ef843d7880ad76c9f5082b0efb6992793ada8d56",
+      "public_bytes": 2487,
+      "public_sha256": "15849f44fb9d9e333e05cd82a53a1ce2c34058ccee0d2567beba6cec3c317356",
+      "transformations": [
+        "Changed only fixed temporary-cache paths to platform temporary-directory lookup; plotting data and numerical code unchanged."
+      ]
+    },
+    {
+      "public_path": "outputs/round2_g4_identifiability_20261003/report/make_service_figure.py",
+      "original_relative_path": "outputs/round2_g4_identifiability_20261003/report/make_service_figure.py",
+      "origin_scope": "frozen_G4_scientific_set",
+      "original_bytes": 1750,
+      "original_sha256": "8a437186978642cc13c5d846ef918f285ffe5ee6122dc64fd1d322b3eac29324",
+      "public_bytes": 1838,
+      "public_sha256": "73cc653a1eff48289f954c9ea001e1644b308bd9128463cd2722f61ef469de84",
+      "transformations": [
+        "Changed only fixed temporary-cache paths to platform temporary-directory lookup; plotting data and numerical code unchanged."
+      ]
+    }
+  ],
+  "note": "Original nested manifest hashes are retained as historical source-byte hashes. They may differ from public-copy hashes only for the three explicitly transformed files. Package-root manifest is authoritative for public-copy bytes."
+}

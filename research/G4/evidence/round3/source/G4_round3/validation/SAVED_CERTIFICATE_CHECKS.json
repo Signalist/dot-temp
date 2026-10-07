@@ -1,0 +1,632 @@
+{
+  "optimization_invoked": false,
+  "cases": 89,
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "antichain_6",
+      "eta": 0.8,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "antichain_6",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "antichain_6",
+      "eta": 0.999,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "connected_restricted_6",
+      "eta": 0.8,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "connected_restricted_6",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "connected_restricted_6",
+      "eta": 0.999,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "barriers_3plus3",
+      "eta": 0.8,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "barriers_3plus3",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "barriers_3plus3",
+      "eta": 0.999,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "heterogeneous_barriers",
+      "eta": 0.8,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "heterogeneous_barriers",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "heterogeneous_barriers",
+      "eta": 0.999,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "alternating_pipelines_8",
+      "eta": 0.8,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "alternating_pipelines_8",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "alternating_pipelines_8",
+      "eta": 0.999,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_00",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_01",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_02",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_03",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_04",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_05",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_06",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_07",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_08",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_09",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_10",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n4_11",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_00",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_01",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_02",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_03",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_04",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_05",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_06",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_07",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_08",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_09",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_10",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n5_11",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_00",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_01",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_02",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_03",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_04",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_05",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_06",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_07",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_08",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_09",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_10",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n6_11",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_00",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_01",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_02",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_03",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_04",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_05",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_06",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_07",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_08",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_09",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_10",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n7_11",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_00",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_01",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_02",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_03",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_04",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_05",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_06",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_07",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_08",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_09",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_10",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "random_n8_11",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "transfer_barriers_3",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "transfer_barriers_4",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_stencil_3x3_periodic",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_stencil_3x3_seeded",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_stencil_3x4_periodic",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_stencil_3x4_seeded",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_stencil_4x3_periodic",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_stencil_4x3_seeded",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_sweep_3x3_periodic",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_sweep_3x3_seeded",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_sweep_3x4_periodic",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_sweep_3x4_seeded",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_sweep_4x3_periodic",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    },
+    {
+      "name": "task_shape_sweep_4x3_seeded",
+      "eta": 0.95,
+      "primal": true,
+      "dual": true,
+      "zero_gap": true
+    }
+  ],
+  "old_manifest_files_checked": 114,
+  "old_manifest_mismatches": []
+}

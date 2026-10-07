@@ -1,0 +1,164 @@
+[
+  {
+    "id": "avula2018",
+    "url": "https://arxiv.org/pdf/1803.07864",
+    "accessed_utc": "2026-10-04T04:39:41.591763+00:00",
+    "bytes": 791720,
+    "sha256": "fbf87aab87b77119d229ef5f245831b165565e9f843e0c1c20d13717db7f8be5",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/avula2018.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/avula2018.txt",
+    "status": "downloaded"
+  },
+  {
+    "id": "mamani2017",
+    "url": "https://faculty.washington.edu/mrwagner/MNW.pdf",
+    "accessed_utc": "2026-10-04T04:39:46.369348+00:00",
+    "bytes": 761763,
+    "sha256": "44f4b5976debcb7b45087797d75d17dcf0f1e635862dfd30584dd6d98aa2da1c",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/mamani2017.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/mamani2017.txt",
+    "status": "downloaded"
+  },
+  {
+    "id": "girard2008",
+    "url": "https://skoge.folk.ntnu.no/prost/proceedings/ifac2008/data/papers/0569.pdf",
+    "accessed_utc": "2026-10-04T04:39:51.594769+00:00",
+    "bytes": 300537,
+    "sha256": "6cd88ff867cde89b2eb7b41b8b7c4d90b1176c94266e33b122f85268a09868ba",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/girard2008.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/girard2008.txt",
+    "status": "downloaded"
+  },
+  {
+    "id": "yin2019",
+    "url": "https://arxiv.org/pdf/1902.09411",
+    "accessed_utc": "2026-10-04T04:39:57.679818+00:00",
+    "bytes": 2197548,
+    "sha256": "f1c33093227f864e0aee908432dea93d0b5421cdb779fdf2da94b9155d499e95",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/yin2019.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/yin2019.txt",
+    "status": "downloaded"
+  },
+  {
+    "id": "felsner_reuter1997",
+    "url": "https://page.math.tu-berlin.de/~felsner/Paper/lin-ext-diam.pdf",
+    "accessed_utc": "2026-10-04T04:42:10.323311+00:00",
+    "bytes": 315418,
+    "sha256": "ebe74c89062f1d2e625fbbc58df37a448d29c84db0e5f4e332b0b1d5d0435bde",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/felsner_reuter1997.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/felsner_reuter1997.txt",
+    "status": "downloaded"
+  },
+  {
+    "id": "karp1978",
+    "url": "https://courses.e-ce.uth.gr/CE664/papers/Timing/Karp-min-cycle-mean.pdf",
+    "accessed_utc": "2026-10-04T04:42:10.323818+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "kouramas2005",
+    "url": "https://skoge.folk.ntnu.no/prost/proceedings/cdc-ecc05/pdffiles/papers/1964.pdf",
+    "accessed_utc": "2026-10-04T04:42:10.324198+00:00",
+    "bytes": 200463,
+    "sha256": "f8932c911c8bd265c4599d28cd5766c3976d865f5e241e099282ad32fdb71279",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/kouramas2005.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/kouramas2005.txt",
+    "status": "downloaded"
+  },
+  {
+    "id": "rakovic2005",
+    "url": "https://citeseerx.ist.psu.edu/document?doi=bdb09e03b9e7ce15b07e056797a39d2b57b56496&repid=rep1&type=pdf",
+    "accessed_utc": "2026-10-04T04:42:10.324588+00:00",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "id": "zou2018tech",
+    "url": "https://staff.ie.cuhk.edu.hk/~xjlin/paper/infocom18-robust-storage-tech.pdf",
+    "accessed_utc": "2026-10-04T04:42:10.325081+00:00",
+    "bytes": 712999,
+    "sha256": "2d30f8cde13eafc7532b5c29f9a0ea50f3511090a470db4b7d20f7778dbe1e2e",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/zou2018tech.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/zou2018tech.txt",
+    "status": "downloaded"
+  },
+  {
+    "id": "bertsimas_thiele2006",
+    "url": "https://web.mit.edu/dbertsim/www/papers/Robust%20Optimization/A%20Robust%20Optimization%20Approach%20to%20Inventory%20Theory.pdf",
+    "accessed_utc": "2026-10-04T04:42:10.325953+00:00",
+    "bytes": 307569,
+    "sha256": "edab262e49f33a44ed2a773898d271583b3ea0f6836947666c1dc1fe7c62bb04",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/bertsimas_thiele2006.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/bertsimas_thiele2006.txt",
+    "status": "downloaded"
+  },
+  {
+    "id": "arrieta2019",
+    "status": "copied previously downloaded primary source",
+    "source_local": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/arrieta2019.pdf",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/arrieta2019.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/arrieta2019.txt",
+    "bytes": 416188,
+    "sha256": "13c5a5a4ca0546d785170487067a8f9d49d1d26c26d560fb3e36f49ffc84a5eb",
+    "source_provenance": "outputs/round2_g4_identifiability_20261003/literature/download_provenance.json"
+  },
+  {
+    "id": "custic2014",
+    "status": "copied previously downloaded primary source",
+    "source_local": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/custic2014.pdf",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/custic2014.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/custic2014.txt",
+    "bytes": 235633,
+    "sha256": "dab939ade1a1207a43a670be47377f25a9500a31548f04fff045b5a3f081c222",
+    "source_provenance": "outputs/round2_g4_identifiability_20261003/literature/download_provenance.json"
+  },
+  {
+    "id": "li2015",
+    "status": "copied previously downloaded primary source",
+    "source_local": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/li2015.pdf",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/li2015.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/li2015.txt",
+    "bytes": 567199,
+    "sha256": "6685eb46f5c98d020baa26c15e665ffe312f8f9c0fe11b99b2762b353e9ae23c",
+    "source_provenance": "outputs/round2_g4_identifiability_20261003/literature/download_provenance.json"
+  },
+  {
+    "id": "arrieta2017",
+    "status": "copied previously downloaded primary source",
+    "source_local": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/arrieta2017.pdf",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/arrieta2017.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/arrieta2017.txt",
+    "bytes": 451129,
+    "sha256": "118bae08c147ff0382891ae7082c8d66d765405218d7dec39f1a14b636259b5e",
+    "source_provenance": "outputs/round2_g4_identifiability_20261003/literature/download_provenance.json"
+  },
+  {
+    "id": "repel2020",
+    "status": "copied previously downloaded primary source",
+    "source_local": "outputs/round2_g4_identifiability_20261003/literature/source_pdf/repel2020.pdf",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/repel2020.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/repel2020.txt",
+    "bytes": 1163960,
+    "sha256": "4845638b064b359d7e666fa4b6403f9923031a1bf66b4a0833a67b994649ec11",
+    "source_provenance": "outputs/round2_g4_identifiability_20261003/literature/download_provenance.json"
+  },
+  {
+    "id": "taskbench2020",
+    "url": "https://legion.stanford.edu/pdfs/taskbench2020.pdf",
+    "accessed_utc": "2026-10-04T04:50:32.657059+00:00",
+    "status": "downloaded",
+    "bytes": 1665259,
+    "sha256": "b07bc41ce0c65866b2e9ac7b9c89750889b02a8c129a5bada28b7029060f7993",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/taskbench2020.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/taskbench2020.txt"
+  },
+  {
+    "id": "narayanan2021",
+    "url": "https://arxiv.org/pdf/2104.04473",
+    "accessed_utc": "2026-10-04T04:50:32.657866+00:00",
+    "status": "downloaded",
+    "bytes": 1035739,
+    "sha256": "7d78344f7fd322c901ad14046eeeaa9fd798416ad35190ffc6a6ecca0f7f79b0",
+    "pdf": "outputs/round3_g4_20261004/literature/source_pdf/narayanan2021.pdf",
+    "text": "outputs/round3_g4_20261004/literature/source_text/narayanan2021.txt"
+  }
+]

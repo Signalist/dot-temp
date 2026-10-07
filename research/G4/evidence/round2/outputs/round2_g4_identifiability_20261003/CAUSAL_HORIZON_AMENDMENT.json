@@ -1,0 +1,36 @@
+{
+  "date_utc": "2026-10-03T10:04:21.236158+00:00",
+  "why": "Eliminate artificial restriction to repeated PCC schedule; root requests joint positive-tolerance transition and causal interface",
+  "frozen_grid": {
+    "eta": [
+      0.999,
+      0.99,
+      0.95,
+      0.8
+    ],
+    "blocks": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      100
+    ],
+    "tau": 0.5,
+    "charge_and_discharge_power_limit": 12,
+    "N": 6,
+    "L": 6,
+    "H": 18
+  },
+  "PCC_schedule": "arbitrary fixed public per-slot values in[6,18] across entire horizon, causally realizable from time/current task only",
+  "states": "exact robust lower/upper envelopes, arbitrary independent task-order sequence, no reset",
+  "checks": [
+    "periodic strong baseline",
+    "independent reachability recomputation",
+    "LP primal/dual optimality",
+    "each checkpoint vs final only",
+    "one-way power limit ablation"
+  ],
+  "not_claimed": "new LP or new observer; cannot infer positive localization rates from universal-hiding capacity",
+  "timestamp_basis": "observed file mtime before metadata correction; see PROTOCOL_RECORD_CORRECTIONS.json"
+}

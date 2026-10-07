@@ -1,0 +1,9 @@
+{
+  "scope": "pre-existing non-delivery scientific files only",
+  "checked_files": 5460,
+  "changed_files": [],
+  "missing_files": [],
+  "method": "file size and nanosecond mtime compared to initial snapshot; not a content-hash claim",
+  "separate_grid_validation": "11 locked input SHA256 values checked before and after each transfer run",
+  "all_checked_scientific_files_unchanged": true
+}

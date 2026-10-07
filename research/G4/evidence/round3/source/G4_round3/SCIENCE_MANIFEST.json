@@ -1,0 +1,363 @@
+{
+  "created_utc": "2026-10-04T05:05:22.141715+00:00",
+  "scope": "All new G4 scientific files and local primary-source snapshots, excluding caches, this self-referential manifest, and archive wrappers",
+  "file_count": 71,
+  "total_bytes": 14850504,
+  "files": [
+    {
+      "path": "FINAL_SCIENTIFIC_STATUS.json",
+      "bytes": 4737,
+      "sha256": "392b95c066636f3fc579577cf14232e637709e405a894290ae75aa461ae62d1b"
+    },
+    {
+      "path": "PROTOCOL.json",
+      "bytes": 2677,
+      "sha256": "e8863ee49d6ac204fd77d256d159c459fd93f60799e40bc5858f3e2b50186408"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5222,
+      "sha256": "7c01a70e2ac07456615c70214d9342467e0d4cea8b83d0dc0ba4a12919c7168c"
+    },
+    {
+      "path": "experiments/SUMMARY.json",
+      "bytes": 538,
+      "sha256": "6013d1ce2e6834d60ed8a37f9c2beaadff7b0dcc8f7011cf904aa55cdeb4179e"
+    },
+    {
+      "path": "experiments/boundaries.stdout.txt",
+      "bytes": 60159,
+      "sha256": "6375c48b8a3523c1a9d9033879952921b9ccb984e0d7042b274276bf77b669cd"
+    },
+    {
+      "path": "experiments/boundary_results.json",
+      "bytes": 60159,
+      "sha256": "6375c48b8a3523c1a9d9033879952921b9ccb984e0d7042b274276bf77b669cd"
+    },
+    {
+      "path": "experiments/dag_results.csv",
+      "bytes": 10845,
+      "sha256": "6187cbae56a1fda0e6efc62c6087932f05ee1593100796d41422a67860eba508"
+    },
+    {
+      "path": "experiments/dag_results.json",
+      "bytes": 163932,
+      "sha256": "9b3e9deba2546647fa910e1e90d8ebca9c082526dec1edd0ccf840c25aa8a4cb"
+    },
+    {
+      "path": "experiments/finite_horizons.json",
+      "bytes": 2902,
+      "sha256": "29ab3555f6cba6f8348d331c865d16771a5dd9e158c60fcf9aa4634e2b00083f"
+    },
+    {
+      "path": "experiments/leakage_results.json",
+      "bytes": 4770,
+      "sha256": "d6e3dd13204070b3af84e028aefbca9cd24f5beacd67ea42f3a94c44c806ded0"
+    },
+    {
+      "path": "experiments/run.stdout.txt",
+      "bytes": 8527,
+      "sha256": "8f93c18bc5e0c5eef6bb6a1a3593dff503896467241aa89c8565b9f7f1f48cd3"
+    },
+    {
+      "path": "experiments/run_boundaries.py",
+      "bytes": 3808,
+      "sha256": "60a92482f4929566abb98a4fbcae6c91403040d17e4146050c8ce768e4c4dc8e"
+    },
+    {
+      "path": "experiments/run_workload_study.py",
+      "bytes": 11895,
+      "sha256": "824ddc2f8230b8007aa437ae59dd9d4cc3fec2e7793969b03aad9b94db2d9292"
+    },
+    {
+      "path": "literature/G4_DAG_CORRELATION_LEAKAGE_PRIOR_ART_AUDIT.md",
+      "bytes": 19284,
+      "sha256": "3d9f35cdba9e9ff5c3ce27e5daaf721f8370bb3cdda6280b3af6d9b61e7d180d"
+    },
+    {
+      "path": "literature/MANIFEST.json",
+      "bytes": 5995,
+      "sha256": "4b507b4442ae8e6c171f6c666e86144b3d5b3caf32f90e4334dccc38a5fc9526"
+    },
+    {
+      "path": "literature/SOURCE_LEDGER.json",
+      "bytes": 13405,
+      "sha256": "72990c74ab2a67ab254fc8a2386a4720ed00d72c67f31ddd69597619f45bd04c"
+    },
+    {
+      "path": "literature/download_provenance.json",
+      "bytes": 7879,
+      "sha256": "a8d7e1461c228439293d29001a2c860dcab0f7fdb1c37ce250924b99ab6c0584"
+    },
+    {
+      "path": "literature/source_figures/narayanan2021_p3.png",
+      "bytes": 436135,
+      "sha256": "352733fdbe5aaa4940abe37c21fd84111df680cd710db56985353c50060e54eb"
+    },
+    {
+      "path": "literature/source_figures/taskbench2020_p3.png",
+      "bytes": 654367,
+      "sha256": "99cc3f4c0f41e2eb8ba60824c783326f55842754c207327debe92c273bb43e09"
+    },
+    {
+      "path": "literature/source_pdf/arrieta2017.pdf",
+      "bytes": 451129,
+      "sha256": "118bae08c147ff0382891ae7082c8d66d765405218d7dec39f1a14b636259b5e"
+    },
+    {
+      "path": "literature/source_pdf/arrieta2019.pdf",
+      "bytes": 416188,
+      "sha256": "13c5a5a4ca0546d785170487067a8f9d49d1d26c26d560fb3e36f49ffc84a5eb"
+    },
+    {
+      "path": "literature/source_pdf/avula2018.pdf",
+      "bytes": 791720,
+      "sha256": "fbf87aab87b77119d229ef5f245831b165565e9f843e0c1c20d13717db7f8be5"
+    },
+    {
+      "path": "literature/source_pdf/bertsimas_thiele2006.pdf",
+      "bytes": 307569,
+      "sha256": "edab262e49f33a44ed2a773898d271583b3ea0f6836947666c1dc1fe7c62bb04"
+    },
+    {
+      "path": "literature/source_pdf/custic2014.pdf",
+      "bytes": 235633,
+      "sha256": "dab939ade1a1207a43a670be47377f25a9500a31548f04fff045b5a3f081c222"
+    },
+    {
+      "path": "literature/source_pdf/felsner_reuter1997.pdf",
+      "bytes": 315418,
+      "sha256": "ebe74c89062f1d2e625fbbc58df37a448d29c84db0e5f4e332b0b1d5d0435bde"
+    },
+    {
+      "path": "literature/source_pdf/girard2008.pdf",
+      "bytes": 300537,
+      "sha256": "6cd88ff867cde89b2eb7b41b8b7c4d90b1176c94266e33b122f85268a09868ba"
+    },
+    {
+      "path": "literature/source_pdf/kouramas2005.pdf",
+      "bytes": 200463,
+      "sha256": "f8932c911c8bd265c4599d28cd5766c3976d865f5e241e099282ad32fdb71279"
+    },
+    {
+      "path": "literature/source_pdf/li2015.pdf",
+      "bytes": 567199,
+      "sha256": "6685eb46f5c98d020baa26c15e665ffe312f8f9c0fe11b99b2762b353e9ae23c"
+    },
+    {
+      "path": "literature/source_pdf/mamani2017.pdf",
+      "bytes": 761763,
+      "sha256": "44f4b5976debcb7b45087797d75d17dcf0f1e635862dfd30584dd6d98aa2da1c"
+    },
+    {
+      "path": "literature/source_pdf/narayanan2021.pdf",
+      "bytes": 1035739,
+      "sha256": "7d78344f7fd322c901ad14046eeeaa9fd798416ad35190ffc6a6ecca0f7f79b0"
+    },
+    {
+      "path": "literature/source_pdf/repel2020.pdf",
+      "bytes": 1163960,
+      "sha256": "4845638b064b359d7e666fa4b6403f9923031a1bf66b4a0833a67b994649ec11"
+    },
+    {
+      "path": "literature/source_pdf/taskbench2020.pdf",
+      "bytes": 1665259,
+      "sha256": "b07bc41ce0c65866b2e9ac7b9c89750889b02a8c129a5bada28b7029060f7993"
+    },
+    {
+      "path": "literature/source_pdf/yin2019.pdf",
+      "bytes": 2197548,
+      "sha256": "f1c33093227f864e0aee908432dea93d0b5421cdb779fdf2da94b9155d499e95"
+    },
+    {
+      "path": "literature/source_pdf/zou2018tech.pdf",
+      "bytes": 712999,
+      "sha256": "2d30f8cde13eafc7532b5c29f9a0ea50f3511090a470db4b7d20f7778dbe1e2e"
+    },
+    {
+      "path": "literature/source_text/arrieta2017.txt",
+      "bytes": 59065,
+      "sha256": "0fa67315446fdf5dd33651c9bea1c45d3ec0dded4dfa08f3656af0130b11cf8d"
+    },
+    {
+      "path": "literature/source_text/arrieta2019.txt",
+      "bytes": 59834,
+      "sha256": "173776f294d82a54f9e35a24e7b37941cd26050c638d4ebb7b076b1730add66d"
+    },
+    {
+      "path": "literature/source_text/avula2018.txt",
+      "bytes": 59287,
+      "sha256": "af83204d02b954793f0a91e631499a3929834025cc7413adb82ba4a8b9631149"
+    },
+    {
+      "path": "literature/source_text/bertsimas_thiele2006.txt",
+      "bytes": 170908,
+      "sha256": "8120727152f565aa0d9328b5dead7c1096f41e5c3525707a4633040e8263275f"
+    },
+    {
+      "path": "literature/source_text/custic2014.txt",
+      "bytes": 68146,
+      "sha256": "5856da0a2476b853388c514c18ded0ae6f97607852440c21f151191821e6d8c0"
+    },
+    {
+      "path": "literature/source_text/felsner_reuter1997.txt",
+      "bytes": 46355,
+      "sha256": "0ef508e37135231eb9c2b5f4c67453addc6bad1c47c410959b809cb42ceab913"
+    },
+    {
+      "path": "literature/source_text/girard2008.txt",
+      "bytes": 46191,
+      "sha256": "65baaf592079825e49ef63cac951736b829654dde3d054f9a371dcdb72561b0e"
+    },
+    {
+      "path": "literature/source_text/kouramas2005.txt",
+      "bytes": 50415,
+      "sha256": "66eb90e3b567a6cee24605c5b90b1fca8fbb52164bfe5369937b3329291577f2"
+    },
+    {
+      "path": "literature/source_text/li2015.txt",
+      "bytes": 140687,
+      "sha256": "87f77a84166ee2513d066913d5a95621d29f533c0caeb01f26331356a5c64aee"
+    },
+    {
+      "path": "literature/source_text/mamani2017.txt",
+      "bytes": 372360,
+      "sha256": "e1a9c5f790d6b45eaeef7a5b1f4222b00701a70f5ca79ff1de225bc46aff3f87"
+    },
+    {
+      "path": "literature/source_text/mamani2017_reading.txt",
+      "bytes": 100008,
+      "sha256": "1eb82198a264c7fa47463fa589e623356847b793912635bb663e167c40a9c3e8"
+    },
+    {
+      "path": "literature/source_text/narayanan2021.txt",
+      "bytes": 141616,
+      "sha256": "e7727bcbb3eceb0c24c2c5b02bc33a74ab44b78711fced6bddb32539b5e0337b"
+    },
+    {
+      "path": "literature/source_text/repel2020.txt",
+      "bytes": 110291,
+      "sha256": "9824ab958226cbb89f83f351c22847c4451f9f1b5bb14ba1b28e78e49b97b6d3"
+    },
+    {
+      "path": "literature/source_text/taskbench2020.txt",
+      "bytes": 121036,
+      "sha256": "0165dc8f630cce518c48a86862d082cf621cbb852bd6626c3fc27fbc3a938b7b"
+    },
+    {
+      "path": "literature/source_text/yin2019.txt",
+      "bytes": 129888,
+      "sha256": "ee22b03bc1378e8422a20dee5c7db21c9b7348b998d4a462aff5befefc3159d2"
+    },
+    {
+      "path": "literature/source_text/zou2018tech.txt",
+      "bytes": 135949,
+      "sha256": "9fb523042d70c85976776dceb0458dd29700ef55375ebc74058ffa117b4349b6"
+    },
+    {
+      "path": "report/CLAIM_EVIDENCE_LEDGER.json",
+      "bytes": 2491,
+      "sha256": "088bb85d41a1656e214db64a2c7350454c96601eaf082407ae29d142dccc8574"
+    },
+    {
+      "path": "report/G4_ROUND3_DOSSIER_ZH.md",
+      "bytes": 17283,
+      "sha256": "ba0d1467f3f69de0277206d8191285aa5951404fd7221862787ddfe5bca8673e"
+    },
+    {
+      "path": "report/figures/dag_capacity_and_horizon.pdf",
+      "bytes": 20701,
+      "sha256": "19a7673db5caf06bc6bdca5cabada3a5fd8ecea6c138c12e48a8cc1b01fac0db"
+    },
+    {
+      "path": "report/figures/dag_capacity_and_horizon.png",
+      "bytes": 113286,
+      "sha256": "bcc7398e834dced8bfdf74f48971f6e05a5ee9b9a4ad33c750947b478a2aaa70"
+    },
+    {
+      "path": "report/figures/leakage_and_action_boundary.pdf",
+      "bytes": 20781,
+      "sha256": "98c48125fff5e02769717ee5412d7755fa0db91ff38bbb3754b616b6fc9f27e6"
+    },
+    {
+      "path": "report/figures/leakage_and_action_boundary.png",
+      "bytes": 109432,
+      "sha256": "2c271febf3c1dfccc25561f9cb2039f2a2026d3fe12600643f1ac63013cf5b89"
+    },
+    {
+      "path": "report/make_figures.py",
+      "bytes": 3058,
+      "sha256": "9da519fd57ae781c619502eceb69a9ec3704b7145b866257754157d44e0ee00a"
+    },
+    {
+      "path": "theory/THEOREMS.md",
+      "bytes": 13457,
+      "sha256": "6bbf81c7c3aaf79f5142af4e61667a4358abdefae3969ce6e465da26db10cafe"
+    },
+    {
+      "path": "validation/CERTIFICATE_RECONSTRUCTION_RECORD.json",
+      "bytes": 812,
+      "sha256": "6dcfc6109f8fe5f2769eee8e2406703ca061880ca9b87bcebce23310e2b399d8"
+    },
+    {
+      "path": "validation/INDEPENDENT_THEORY_REVIEW.md",
+      "bytes": 17287,
+      "sha256": "02b10f2f05784193d4e0a1d183afa66c380afcb065a1423db181791d066fe520"
+    },
+    {
+      "path": "validation/SAVED_CERTIFICATE_CHECKS.json",
+      "bytes": 11779,
+      "sha256": "dbef9debacdc7ee86eb42bd70774fc71ce7c4731196e5c721d987e44df0b3be4"
+    },
+    {
+      "path": "validation/check_saved_certificates.py",
+      "bytes": 2765,
+      "sha256": "f9613df18bf7e385237137ab60148ecd73dc227e5be9ad9ca5b6d708dc5770a1"
+    },
+    {
+      "path": "validation/independent_saved_certificate_check.json",
+      "bytes": 50060,
+      "sha256": "fb6fa45063d5e4afcbf454c68bd113d6358b08ca95293add33892c77d6157a3f"
+    },
+    {
+      "path": "validation/independent_saved_certificate_check.log",
+      "bytes": 1702,
+      "sha256": "409aa61c779b742cbb76ccdb876ab5a4cc806f70ab4552a664df5698146cef91"
+    },
+    {
+      "path": "validation/independent_saved_certificate_check.py",
+      "bytes": 5109,
+      "sha256": "2ef7d9a5e7ce8781bd3c86b1cef9a6db9a1e7a07957129d9c09bb097e94e9e8c"
+    },
+    {
+      "path": "validation/independent_t6_threshold_check.json",
+      "bytes": 23650,
+      "sha256": "7e2c0046701b86dde53a0b6fd0d4be23b884a3e9d42e78eca95308d990d7c6cb"
+    },
+    {
+      "path": "validation/independent_t6_threshold_check.log",
+      "bytes": 165,
+      "sha256": "fdda1a4b3e5d8f6142eff3565531716d4012488171ca95cb140f0a713be1d6d5"
+    },
+    {
+      "path": "validation/independent_t6_threshold_check.py",
+      "bytes": 1781,
+      "sha256": "d2e07e8086ab14262904dd9a11cabc6ffdfbfe4b3d3ee4e9ecda2c6f4d02ab46"
+    },
+    {
+      "path": "validation/independent_theory_checks.json",
+      "bytes": 7340,
+      "sha256": "8842918ab89dea2df234a0e71147c3795853a0c95833d06005d4942b5315f676"
+    },
+    {
+      "path": "validation/independent_theory_checks.log",
+      "bytes": 3058,
+      "sha256": "662a8625f9837b492ae1c58d918e3a701aa577257d9d7784f8f6a82ce6054dd5"
+    },
+    {
+      "path": "validation/independent_theory_checks.py",
+      "bytes": 12111,
+      "sha256": "126f49f4c441d3754e00f3dd58a95fe639dd9647879fb1a7dda46006d1667296"
+    }
+  ]
+}

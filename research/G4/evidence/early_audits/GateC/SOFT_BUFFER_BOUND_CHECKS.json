@@ -1,0 +1,44 @@
+{
+  "Pref_MW": 10.086716832222592,
+  "u0_MW": 11.990109507373461,
+  "maximum_abs_command_MW": 2.076826339596053,
+  "ideal_R_MJ_by_frequency": {
+    "0.25": 3.3797329481625513,
+    "0.5": 1.6898664740812757,
+    "0.75": 1.1265776493875173
+  },
+  "pcc_low_initial_MW": 11.672877394848316,
+  "pcc_high_initial_MW": 10.259752529963581,
+  "PCC_bit_threshold_MW": 10.586716832222592,
+  "PCC_bit_minimum_margin_MW": 0.32696430225901096,
+  "energy_bit_initial_values": [
+    true,
+    false
+  ],
+  "PCC_bit_initial_values": [
+    true,
+    false
+  ],
+  "PCC_bit_equivalent_energy_fraction": 0.14033926751508688,
+  "exactly_matched_PCC_threshold_for_E_point1C_MW": 10.721181057272881,
+  "contraction_bounds": [
+    {
+      "C_over_R": 0.5,
+      "K": 0.18140589569160998,
+      "q_bound": 0.8340967337066291,
+      "q_power_200": 1.7509917638039356e-16
+    },
+    {
+      "C_over_R": 2,
+      "K": 0.045351473922902494,
+      "q_bound": 0.9556615326900152,
+      "q_power_200": 0.00011503262380393144
+    },
+    {
+      "C_over_R": 20,
+      "K": 0.0045351473922902496,
+      "q_bound": 0.9954751208601006,
+      "q_power_200": 0.40372170860859763
+    }
+  ]
+}

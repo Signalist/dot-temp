@@ -1,0 +1,56 @@
+{
+  "mode": "exact",
+  "started_utc": "2026-10-04T05:13:09Z",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "sympy": "1.14.0",
+      "matplotlib": "3.10.8"
+    }
+  },
+  "archive_files_verified_before": 43,
+  "source_code_modified": false,
+  "stages": [
+    {
+      "name": "01_saved_exact_certificates",
+      "script": "validation/independent_saved_certificate_check.py",
+      "exit_code": 0,
+      "elapsed_seconds": 4.597,
+      "log": "logs/01_saved_exact_certificates.log",
+      "log_sha256": "409aa61c779b742cbb76ccdb876ab5a4cc806f70ab4552a664df5698146cef91"
+    },
+    {
+      "name": "08_optional_historical_and_producer_checker",
+      "script": "validation/check_saved_certificates.py",
+      "exit_code": 0,
+      "elapsed_seconds": 4.232,
+      "log": "logs/08_optional_historical_and_producer_checker.log",
+      "log_sha256": "035301d9f51b69ca2b6ea76d20a19fd6ca40a6b67c04bf80fde0d42702fdb66f"
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "validation/independent_saved_certificate_check.json",
+      "byte_identical": true,
+      "scientific_json_identical": true,
+      "ignored_for_semantic_comparison": [
+        "seconds",
+        "python",
+        "numpy",
+        "scipy"
+      ],
+      "saved_sha256": "fb6fa45063d5e4afcbf454c68bd113d6358b08ca95293add33892c77d6157a3f",
+      "replayed_sha256": "fb6fa45063d5e4afcbf454c68bd113d6358b08ca95293add33892c77d6157a3f"
+    }
+  ],
+  "historical_round2": {
+    "manifest_files_copied_and_checked": 114,
+    "all_passed": true
+  },
+  "note": "Work is a disposable copy. Certificate verification is exact rational arithmetic. Theory/threshold suites mix exact witnesses with finite numerical LP checks, not a replacement for theorem proofs.",
+  "archive_files_verified_after": 43,
+  "all_requested_stages_passed": true
+}

@@ -1,0 +1,70 @@
+{
+  "frozen_utc": "2026-10-03T10:47:10.997997+00:00",
+  "files": [
+    {
+      "file": "FIXED_INITIAL_INDEPENDENT_AUDIT.json",
+      "bytes": 33036,
+      "sha256": "d4b04cbbd4883f410d6bd52564e36ec77d82c2d9aae8a7e82497afc011c87ddb"
+    },
+    {
+      "file": "IDEAL_BUFFER_AND_MEASUREMENT_BOUNDARY.md",
+      "bytes": 19171,
+      "sha256": "653415872ac94bf914c0a544da48456b94fa814a347639e2d90e26ec20f96fba"
+    },
+    {
+      "file": "INDEPENDENT_THEORY_CHECKS.json",
+      "bytes": 47392,
+      "sha256": "9684e97e14f395953e38e39756ee1c5d4fcb6de81d2126e630ad6fe8a9ed3f99"
+    },
+    {
+      "file": "INDEPENDENT_THEORY_CHECKS.stdout.txt",
+      "bytes": 2338,
+      "sha256": "279a619822d0f25cfbee146484138895c0350c513e765f5ae75551ff6a6ed349"
+    },
+    {
+      "file": "LOSS_TOLERANCE_TASK_ORDER_THEOREMS.md",
+      "bytes": 33196,
+      "sha256": "4990fc92d8ee177b171aa7bc9d5dbf7a30394428e936332259a21317ece18be5"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6525,
+      "sha256": "8e1735e86ffebfdbc206b80830c8129313dbd2ac1453241eec50936cf53b2a21"
+    },
+    {
+      "file": "SERVICE_DECISION_CERTIFICATE_ADDENDUM.md",
+      "bytes": 11394,
+      "sha256": "ba0ce27a13f8747a135723e8b5d8653e8a62149b091f0d7b822fc7ba5627e423"
+    },
+    {
+      "file": "SERVICE_DECISION_INDEPENDENT_AUDIT.json",
+      "bytes": 6017,
+      "sha256": "40d9c52dbf0af08fd17c8404a9727a2b39ecd2346211b5d292bdb493915e283d"
+    },
+    {
+      "file": "SMOOTH_PHYSICAL_WITNESS_AUDIT.json",
+      "bytes": 1782,
+      "sha256": "b302ca2a10478f720a826a67efe55cda3fe38001f297b35e5fc1217318eeb8ba"
+    },
+    {
+      "file": "check_fixed_initial_schedules.py",
+      "bytes": 2420,
+      "sha256": "f85ac7b202eb787ee1a989136d4633108765fae16ce42e0c1065fc27f96991ca"
+    },
+    {
+      "file": "check_service_decision.py",
+      "bytes": 7344,
+      "sha256": "fb91131f8ecf3435fd308ab68abc8594991deaeb574a23eadbc1a3505255c130"
+    },
+    {
+      "file": "check_smooth_physical_witness.py",
+      "bytes": 3688,
+      "sha256": "eb5ee70bd84cf0ac99f77c0ddf291f9d0e7b6c43cae24153be6dada05f888952"
+    },
+    {
+      "file": "independent_theory_checks.py",
+      "bytes": 12892,
+      "sha256": "bcbfa9f2a00b80827ce768bd5be0bd72204e7445d55212fa303aa07337bcb875"
+    }
+  ]
+}

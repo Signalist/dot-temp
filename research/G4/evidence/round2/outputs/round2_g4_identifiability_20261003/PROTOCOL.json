@@ -1,0 +1,180 @@
+{
+  "route": "G4 / original sequence4 / sparse measurement source localization and principled abstention",
+  "frozen_at_utc": "2026-10-03T09:57:27.792258+00:00",
+  "research_question": "Which bounded-buffer recovery obligations make workload/source hypotheses distinguishable, and which admit infinite indistinguishability?",
+  "epistemic_scope": "Exact declared mathematical models plus synthetic verification/qualified grid transfer, never real coupled measurements",
+  "old_question_not_silently_repaired": "Changing task order is a new contract-level information question, not a solution of the old same-input same-controller initial-state-only persistent separation problem",
+  "labels": [
+    "exposed PCC source bus",
+    "PCC source waveform",
+    "behind-buffer task realization/cause",
+    "measurement asset mapping"
+  ],
+  "common_information": [
+    "same physical grid and initial-state contract",
+    "same noise and sensor metadata",
+    "same public task-energy contract and buffer parameters",
+    "unknown actual task order absent extra telemetry",
+    "local buffer sees current task power, observer never gets oracle true task label"
+  ],
+  "baseline_methods": [
+    "exact classical set-membership feasibility / LP",
+    "full hypothesis enumeration on tiny contracts",
+    "same-information constant PCC schedule",
+    "direct PCC sensing",
+    "source phasor least squares with correct abstention and nuisance amplitude"
+  ],
+  "experiments": {
+    "pairwise_corridor": {
+      "seed": 20261003,
+      "cases": 1000,
+      "N_range": [
+        2,
+        30
+      ],
+      "capacity_range": [
+        0.2,
+        8
+      ],
+      "charge_discharge_rate_range": [
+        0.2,
+        4
+      ],
+      "random_recovery_deadline_probability": 0.25,
+      "independent_lp_comparison": true
+    },
+    "task_permutation": {
+      "energy_vectors": [
+        [
+          6,
+          6,
+          6,
+          10,
+          10,
+          10
+        ],
+        [
+          6,
+          7,
+          7,
+          8,
+          12,
+          14
+        ],
+        [
+          6,
+          6,
+          6,
+          6,
+          6,
+          18
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      ],
+      "slot_seconds": 1,
+      "all_unique_permutations": true,
+      "baselines": [
+        "constant mean PCC",
+        "minimax envelope PCC",
+        "capacity LP across all cumulative scenarios"
+      ],
+      "fixed_initial_soc": "half capacity",
+      "periods_repeated_without_reset": 1000
+    },
+    "lossy_permutation": {
+      "energy_vectors": [
+        [
+          6,
+          6,
+          6,
+          10,
+          10,
+          10
+        ],
+        [
+          6,
+          7,
+          7,
+          8,
+          12,
+          14
+        ],
+        [
+          6,
+          6,
+          6,
+          6,
+          6,
+          18
+        ]
+      ],
+      "eta_pairs": [
+        [
+          1,
+          1
+        ],
+        [
+          0.95,
+          0.95
+        ],
+        [
+          0.9,
+          0.95
+        ],
+        [
+          0.8,
+          0.8
+        ]
+      ],
+      "unique_flat_reference_by_energy_balance": true,
+      "sensitivity": [
+        "capacity",
+        "one-way rate",
+        "known vs unknown initial energy",
+        "timing",
+        "noise",
+        "recovery tolerance"
+      ]
+    },
+    "static_horizon": {
+      "known_initial_energy": 2,
+      "capacity": 4,
+      "load_offsets": [
+        0.1,
+        0.25,
+        0.5,
+        1
+      ],
+      "noise_bounds": [
+        0,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "recovery_periods": [
+        null,
+        4,
+        8,
+        16
+      ],
+      "same_information_lp": true
+    },
+    "sensor_transfer": "Separate frozen grid-transfer protocol under experiments/grid_transfer"
+  },
+  "decision_outputs": [
+    "singleton correct label",
+    "multiple compatible labels => abstain",
+    "empty set => contract/model inconsistency"
+  ],
+  "novelty_gate": "rank, LP, cumulative energy identity, set-valued abstention and observer relabeling count as classical; contribution requires exact specialized boundary or demonstrable decision value and primary-source gap audit",
+  "timestamp_basis": "observed file mtime before metadata correction; see PROTOCOL_RECORD_CORRECTIONS.json"
+}

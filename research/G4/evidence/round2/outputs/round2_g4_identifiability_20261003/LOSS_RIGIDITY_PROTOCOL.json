@@ -1,0 +1,76 @@
+{
+  "frozen_at_utc": "2026-10-03T10:01:54.332265+00:00",
+  "origin": "Alternative narrowed hypothesis after direct prior-art falsification of ideal capacity/LP novelty",
+  "candidate": "Loss-induced rigidity of universal task-order hiding under exact SOC recovery",
+  "task": "N=6 equal 1-second slots, five positive task powers6 and one18; work total48 units, all six positions admissible; no deferred/dropped tasks",
+  "unit_interpretation": "power arbitrary normalized physical units, energy=power*seconds; no facility/device calibration",
+  "efficiency_pairs": [
+    [
+      1,
+      1
+    ],
+    [
+      0.999,
+      0.999
+    ],
+    [
+      0.99,
+      0.99
+    ],
+    [
+      0.95,
+      0.95
+    ],
+    [
+      0.9,
+      0.95
+    ],
+    [
+      0.8,
+      0.8
+    ]
+  ],
+  "single_block_recovery_tolerances": [
+    0,
+    0.01,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "fixed_tolerance_multiblock": {
+    "tolerance": 0.5,
+    "blocks": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      100
+    ]
+  },
+  "PCC_output": "one common deterministic public clocked sequence, fixed across all task orders; no future private workload metadata",
+  "buffer_controller": "current load sampled before slot action; actual local p-d determines charge/discharge; no simultaneous charging/discharging, no deliberate shunt dissipation, no leakage",
+  "recovery": "relative to one common known initial E0, never reset SOC numerically; terminal band at each actual block deadline",
+  "design_variables": [
+    "common per-slot p within[6,18]",
+    "common E0",
+    "capacityC"
+  ],
+  "baselines": [
+    "full exact classical robust LP over task scenarios",
+    "flat PCC/reference forced by theorem",
+    "ideal cumulative-envelope schedule",
+    "all direct PCC measurements have same trace in feasible common-output worlds"
+  ],
+  "separate_mutation_tests": [
+    "remove exact recovery",
+    "allow bounded nonzero terminal tolerance",
+    "propagate100 blocks without reset",
+    "allow simultaneous charge-discharge/dump (theorem exclusion)",
+    "same mean but unequal task durations (theorem exclusion)"
+  ],
+  "timestamp_basis": "observed file mtime before metadata correction; see PROTOCOL_RECORD_CORRECTIONS.json"
+}

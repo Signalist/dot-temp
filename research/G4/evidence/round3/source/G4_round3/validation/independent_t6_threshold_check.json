@@ -1,0 +1,1083 @@
+{
+  "cases": 90,
+  "all_passed": true,
+  "notes": "Exact rational feasible witnesses and independent scenario LP feasibility comparison; endpoint invariance only",
+  "results": [
+    {
+      "N": 2,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "5/3",
+        "8/3"
+      ]
+    },
+    {
+      "N": 2,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "53/27",
+        "32/15"
+      ]
+    },
+    {
+      "N": 2,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "593/297",
+        "151/75"
+      ]
+    },
+    {
+      "N": 2,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 2,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 2,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "7361/3861",
+        "82/39"
+      ]
+    },
+    {
+      "N": 3,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "1",
+        "7/3",
+        "3"
+      ]
+    },
+    {
+      "N": 3,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "467/243",
+        "283/135",
+        "169/75"
+      ]
+    },
+    {
+      "N": 3,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "58607/29403",
+        "14924/7425",
+        "15199/7500"
+      ]
+    },
+    {
+      "N": 3,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 3,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 3,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "692639/382239",
+        "7757/3861",
+        "2149/975"
+      ]
+    },
+    {
+      "N": 3,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "1",
+        "7/3",
+        "3"
+      ]
+    },
+    {
+      "N": 3,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "467/243",
+        "283/135",
+        "169/75"
+      ]
+    },
+    {
+      "N": 3,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "58607/29403",
+        "14924/7425",
+        "15199/7500"
+      ]
+    },
+    {
+      "N": 3,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 3,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 3,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "692639/382239",
+        "7757/3861",
+        "2149/975"
+      ]
+    },
+    {
+      "N": 4,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 4,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "4103/2187",
+        "2497/1215",
+        "1496/675",
+        "1771/750"
+      ]
+    },
+    {
+      "N": 4,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "5792093/2910897",
+        "1474976/735075",
+        "1502201/742500",
+        "1529701/750000"
+      ]
+    },
+    {
+      "N": 4,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 4,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 4,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "64961261/37841661",
+        "731843/382239",
+        "203726/96525",
+        "224701/97500"
+      ]
+    },
+    {
+      "N": 4,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 4,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "4103/2187",
+        "2497/1215",
+        "1496/675",
+        "1771/750"
+      ]
+    },
+    {
+      "N": 4,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "5792093/2910897",
+        "1474976/735075",
+        "1502201/742500",
+        "1529701/750000"
+      ]
+    },
+    {
+      "N": 4,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 4,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 4,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "64961261/37841661",
+        "731843/382239",
+        "203726/96525",
+        "224701/97500"
+      ]
+    },
+    {
+      "N": 4,
+      "k": 3,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 4,
+      "k": 3,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "4103/2187",
+        "2497/1215",
+        "1496/675",
+        "1771/750"
+      ]
+    },
+    {
+      "N": 4,
+      "k": 3,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "5792093/2910897",
+        "1474976/735075",
+        "1502201/742500",
+        "1529701/750000"
+      ]
+    },
+    {
+      "N": 4,
+      "k": 3,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 4,
+      "k": 3,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 4,
+      "k": 3,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "64961261/37841661",
+        "731843/382239",
+        "203726/96525",
+        "224701/97500"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "35927/19683",
+        "21973/10935",
+        "13214/6075",
+        "15689/6750",
+        "18439/7500"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "572417207/288178803",
+        "145772624/72772425",
+        "148467899/73507500",
+        "151190399/74250000",
+        "153940399/75000000"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "6070164839/3746324439",
+        "68842457/37841661",
+        "19266374/9555975",
+        "21342899/9652500",
+        "23440399/9750000"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "35927/19683",
+        "21973/10935",
+        "13214/6075",
+        "15689/6750",
+        "18439/7500"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "572417207/288178803",
+        "145772624/72772425",
+        "148467899/73507500",
+        "151190399/74250000",
+        "153940399/75000000"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "6070164839/3746324439",
+        "68842457/37841661",
+        "19266374/9555975",
+        "21342899/9652500",
+        "23440399/9750000"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 3,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 3,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "35927/19683",
+        "21973/10935",
+        "13214/6075",
+        "15689/6750",
+        "18439/7500"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 3,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "572417207/288178803",
+        "145772624/72772425",
+        "148467899/73507500",
+        "151190399/74250000",
+        "153940399/75000000"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 3,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 3,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 3,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "6070164839/3746324439",
+        "68842457/37841661",
+        "19266374/9555975",
+        "21342899/9652500",
+        "23440399/9750000"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 4,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 4,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "35927/19683",
+        "21973/10935",
+        "13214/6075",
+        "15689/6750",
+        "18439/7500"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 4,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "572417207/288178803",
+        "145772624/72772425",
+        "148467899/73507500",
+        "151190399/74250000",
+        "153940399/75000000"
+      ]
+    },
+    {
+      "N": 5,
+      "k": 4,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 4,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 5,
+      "k": 4,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "6070164839/3746324439",
+        "68842457/37841661",
+        "19266374/9555975",
+        "21342899/9652500",
+        "23440399/9750000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "313343/177147",
+        "192757/98415",
+        "116426/54675",
+        "138701/60750",
+        "163451/67500",
+        "190951/75000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 1,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "56569303493/28529701497",
+        "14406489776/7204470075",
+        "14673322001/7277242500",
+        "14942849501/7350750000",
+        "15215099501/7425000000",
+        "15490099501/7500000000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 1,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "564846319061/370886119461",
+        "6454403243/3746324439",
+        "1817121026/946041525",
+        "155592077/73507500",
+        "2230349501/965250000",
+        "2440099501/975000000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "313343/177147",
+        "192757/98415",
+        "116426/54675",
+        "138701/60750",
+        "163451/67500",
+        "190951/75000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 2,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "56569303493/28529701497",
+        "14406489776/7204470075",
+        "14673322001/7277242500",
+        "14942849501/7350750000",
+        "15215099501/7425000000",
+        "15490099501/7500000000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 2,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "564846319061/370886119461",
+        "6454403243/3746324439",
+        "1817121026/946041525",
+        "155592077/73507500",
+        "2230349501/965250000",
+        "2440099501/975000000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 3,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 3,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "313343/177147",
+        "192757/98415",
+        "116426/54675",
+        "138701/60750",
+        "163451/67500",
+        "190951/75000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 3,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "56569303493/28529701497",
+        "14406489776/7204470075",
+        "14673322001/7277242500",
+        "14942849501/7350750000",
+        "15215099501/7425000000",
+        "15490099501/7500000000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 3,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 3,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 3,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "564846319061/370886119461",
+        "6454403243/3746324439",
+        "1817121026/946041525",
+        "155592077/73507500",
+        "2230349501/965250000",
+        "2440099501/975000000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 4,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 4,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "313343/177147",
+        "192757/98415",
+        "116426/54675",
+        "138701/60750",
+        "163451/67500",
+        "190951/75000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 4,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "56569303493/28529701497",
+        "14406489776/7204470075",
+        "14673322001/7277242500",
+        "14942849501/7350750000",
+        "15215099501/7425000000",
+        "15490099501/7500000000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 4,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 4,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 4,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "564846319061/370886119461",
+        "6454403243/3746324439",
+        "1817121026/946041525",
+        "155592077/73507500",
+        "2230349501/965250000",
+        "2440099501/975000000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 5,
+      "eta": "1/2",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 5,
+      "eta": "1/2",
+      "rho": "9/10",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "313343/177147",
+        "192757/98415",
+        "116426/54675",
+        "138701/60750",
+        "163451/67500",
+        "190951/75000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 5,
+      "eta": "1/2",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "56569303493/28529701497",
+        "14406489776/7204470075",
+        "14673322001/7277242500",
+        "14942849501/7350750000",
+        "15215099501/7425000000",
+        "15490099501/7500000000"
+      ]
+    },
+    {
+      "N": 6,
+      "k": 5,
+      "eta": "19/20",
+      "rho": "1/2",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 5,
+      "eta": "19/20",
+      "rho": "9/10",
+      "threshold_feasible": false,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": null
+    },
+    {
+      "N": 6,
+      "k": 5,
+      "eta": "19/20",
+      "rho": "99/100",
+      "threshold_feasible": true,
+      "scenario_LP_matches": true,
+      "exact_constructive_witness": [
+        "564846319061/370886119461",
+        "6454403243/3746324439",
+        "1817121026/946041525",
+        "155592077/73507500",
+        "2230349501/965250000",
+        "2440099501/975000000"
+      ]
+    }
+  ]
+}

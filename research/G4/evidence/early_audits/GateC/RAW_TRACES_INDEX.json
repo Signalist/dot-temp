@@ -1,0 +1,114 @@
+{
+  "final_cases": 9,
+  "samples_per_case": 160001,
+  "units": {
+    "time_s": "s",
+    "energy_MWs": "MW*s = MJ",
+    "load_MW": "MW",
+    "charge_MW": "MW",
+    "discharge_MW": "MW",
+    "PCC_MW": "MW",
+    "PMU_Hz": "Hz",
+    "PMU_swapped_Hz": "Hz",
+    "energy_balance_residual_MWs": "MW*s"
+  },
+  "files": [
+    {
+      "path": "traces/f0.25_cap0.5.npz",
+      "bytes": 7782303,
+      "sha256": "e7f7eabc710fa97846ca86fa910ed97bfd1f6c66086166368fbd34ef4a6e2a16",
+      "status": "final_complete_200_cycle_trace",
+      "archive": "G4_GATE_C_RAW_01_20261002.zip"
+    },
+    {
+      "path": "traces/f0.25_cap2.npz",
+      "bytes": 9152901,
+      "sha256": "3f939eb16774ce7b85267525a95f27df84e2de0fc07fdc0dd75e957254fde5b7",
+      "status": "final_complete_200_cycle_trace",
+      "archive": "G4_GATE_C_RAW_01_20261002.zip"
+    },
+    {
+      "path": "traces/f0.25_cap20.npz",
+      "bytes": 12031179,
+      "sha256": "3910e695d67cf98087bc85e2c21394fb7bc2612f55179c823739559de540b098",
+      "status": "final_complete_200_cycle_trace",
+      "archive": "G4_GATE_C_RAW_02_20261002.zip"
+    },
+    {
+      "path": "traces/f0.5_cap0.5.npz",
+      "bytes": 8366648,
+      "sha256": "2c860794b0653f261c955383a517e4a4b7a7e1ff6d901bd18f3230a93ec9c541",
+      "status": "final_complete_200_cycle_trace",
+      "archive": "G4_GATE_C_RAW_02_20261002.zip"
+    },
+    {
+      "path": "traces/f0.5_cap2.npz",
+      "bytes": 9541698,
+      "sha256": "bc7264cef174ed4b915e9ef39550a9efa3f152c559c4b434d41094098f0deb05",
+      "status": "final_complete_200_cycle_trace",
+      "archive": "G4_GATE_C_RAW_03_20261002.zip"
+    },
+    {
+      "path": "traces/f0.5_cap20.npz",
+      "bytes": 12038618,
+      "sha256": "6d2eb631b8301cabea105a69c6be3c561a9d0a124b16c312789402dce63a58ee",
+      "status": "final_complete_200_cycle_trace",
+      "archive": "G4_GATE_C_RAW_03_20261002.zip"
+    },
+    {
+      "path": "traces/f0.75_cap0.5.npz",
+      "bytes": 9029224,
+      "sha256": "13d8d763a2a67c69205209d136824153a65404f793bcc8424dd65ed1709e19f4",
+      "status": "final_complete_200_cycle_trace",
+      "archive": "G4_GATE_C_RAW_04_20261002.zip"
+    },
+    {
+      "path": "traces/f0.75_cap2.npz",
+      "bytes": 10089997,
+      "sha256": "8c6dad0bfed02e27622bc8e9cb714e132d1de5154f810ae2783b7254b0ca9389",
+      "status": "final_complete_200_cycle_trace",
+      "archive": "G4_GATE_C_RAW_04_20261002.zip"
+    },
+    {
+      "path": "traces/f0.75_cap20.npz",
+      "bytes": 12137015,
+      "sha256": "55efad2869817beb21026712c99154d27dc19f517bb454be3d280ab79ed24553",
+      "status": "final_complete_200_cycle_trace",
+      "archive": "G4_GATE_C_RAW_05_20261002.zip"
+    },
+    {
+      "path": "archived_pre_domain_refinement/f0.75_cap0.5.npz",
+      "bytes": 8397875,
+      "sha256": "11028a4c23c61c739a792f404adbf43cc56c08fb734e5966f52427cb08bed541",
+      "status": "pre_repair_numerical_audit_only",
+      "archive": "G4_GATE_C_RAW_05_20261002.zip"
+    }
+  ],
+  "raw_archives": [
+    {
+      "file": "G4_GATE_C_RAW_01_20261002.zip",
+      "bytes": 16935502,
+      "sha256": "1b9f6ba3657f147706445a95a32e8a89fe4cde2d38f5b90e5a920e7fa712242e"
+    },
+    {
+      "file": "G4_GATE_C_RAW_02_20261002.zip",
+      "bytes": 20398125,
+      "sha256": "f9a7c18f8794c94b28d206e5ce1c77885bcf34bb5785e1e96766c400884004c9"
+    },
+    {
+      "file": "G4_GATE_C_RAW_03_20261002.zip",
+      "bytes": 21580608,
+      "sha256": "44598ed71dc38408a42fa19f00f923eee19a1ba5bb9820c1e154535e6866d0f6"
+    },
+    {
+      "file": "G4_GATE_C_RAW_04_20261002.zip",
+      "bytes": 19119519,
+      "sha256": "682f4a7b30d77b38a81721c5aa74310c0b86e6d4484fb540b3dd9829b713a77b"
+    },
+    {
+      "file": "G4_GATE_C_RAW_05_20261002.zip",
+      "bytes": 20535238,
+      "sha256": "1c7d74d149e43558b21908fe8f1cfe1a5e6fd336649619953ecbea1e41b413a5"
+    }
+  ]
+}

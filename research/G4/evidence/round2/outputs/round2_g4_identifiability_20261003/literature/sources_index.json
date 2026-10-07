@@ -1,0 +1,207 @@
+{
+  "audit_date_utc": "2026-10-03",
+  "primary_sources_only": true,
+  "priority_clearance_exhaustive": false,
+  "sources": [
+    {
+      "id": "P1",
+      "authors": "Arrieta, Esnaola, Effros",
+      "year": "2019",
+      "title": "Universal Mutual Information Privacy Guarantees for Smart Meters",
+      "url": "https://arxiv.org/pdf/1905.00111",
+      "inspection": "Definition 5, Lemma 1, Theorems 1–2; full text",
+      "overlap": "Exact shared-output cumulative-distance geometry; ideal permutation theorem is a specialization"
+    },
+    {
+      "id": "P2",
+      "authors": "Ćustić, Klinz",
+      "year": "2014/2016",
+      "title": "The constant objective value property for combinatorial optimization problems",
+      "url": "https://arxiv.org/pdf/1405.6096",
+      "inspection": "Section 1 pp. 2–3; full text",
+      "overlap": "All-permutation equal assignment costs iff a sum matrix; lossy exchange engine is classical"
+    },
+    {
+      "id": "P3",
+      "authors": "Harirchi, Yong, Ozay",
+      "year": "2017",
+      "title": "Guaranteed Fault Detection and Isolation for Switched Affine Models",
+      "url": "https://arxiv.org/pdf/1704.05947",
+      "inspection": "Definitions 3–4; Prop. 1–3; Thm. 1–2; Remark 2; full text",
+      "overlap": "Behavior-set intersection, finite-time isolation and set-valued diagnosis directly established"
+    },
+    {
+      "id": "P4",
+      "authors": "Pasqualetti, Dörfler, Bullo",
+      "year": "2012/2013",
+      "title": "Attack Detection and Identification in Cyber-Physical Systems — Part I",
+      "url": "https://arxiv.org/pdf/1202.6144",
+      "inspection": "Part I Theorems 4.5–4.7; full text",
+      "overlap": "Zero-output pairwise source ambiguity, invariant zeros, known probe limits"
+    },
+    {
+      "id": "P5",
+      "authors": "Hautus",
+      "year": "1983",
+      "title": "Strong detectability and observers",
+      "url": "https://doi.org/10.1016/0024-3795(83)90061-7",
+      "inspection": "Publisher abstract/record",
+      "overlap": "Foundational unknown-input observability; no unverified theorem numbering"
+    },
+    {
+      "id": "P6",
+      "authors": "Anguluri, Kosut, Sankar",
+      "year": "2022/2023",
+      "title": "Localization and Estimation of Unknown Forced Inputs: A Group LASSO Approach",
+      "url": "https://arxiv.org/html/2201.07907v1",
+      "inspection": "Theorems 4,6,7; full text",
+      "overlap": "Sparse forced-input localization jointly with unknown initial state"
+    },
+    {
+      "id": "P7",
+      "authors": "Sun",
+      "year": "2026-09-30",
+      "title": "Identifiability Limits of Forced Oscillation Sources in Power Systems",
+      "url": "https://arxiv.org/html/2610.00356v1",
+      "inspection": "Theorem 1, Prop.2, Eq.20, Algorithm 1, Prop.4; full text",
+      "overlap": "Direct harmonic information limits and fallback sets; explicitly excludes nonlinear/hybrid finite-transient cases"
+    },
+    {
+      "id": "P8",
+      "authors": "Li, Khisti, Mahajan",
+      "year": "2015/2018",
+      "title": "Information-Theoretic Privacy for Smart Metering Systems with a Rechargeable Battery",
+      "url": "https://arxiv.org/html/1510.07170",
+      "inspection": "Theorems 1–3; full text",
+      "overlap": "Causal finite-battery statistical privacy and optimal policies"
+    },
+    {
+      "id": "P9",
+      "authors": "Arrieta, Esnaola",
+      "year": "2017",
+      "title": "Smart Meter Privacy via the Trapdoor Channel",
+      "url": "https://arxiv.org/pdf/1708.04429",
+      "inspection": "Theorems 1–4; full text",
+      "overlap": "Universal finite-battery privacy and permuting-channel bounds"
+    },
+    {
+      "id": "P10",
+      "authors": "Backes, Meiser",
+      "year": "2013",
+      "title": "Differentially Private Smart Metering with Battery Recharging",
+      "url": "https://eprint.iacr.org/2012/183.pdf",
+      "inspection": "Section 5, Theorem 2; browser full text; shell fetch blocked",
+      "overlap": "Recharge leakage accounted under approximate DP and secondary-resource assumptions"
+    },
+    {
+      "id": "P11",
+      "authors": "Bovornkeeratiroj, Iyengar, Lee, Irwin, Shenoy",
+      "year": "2020",
+      "title": "RepEL: A Utility-preserving Privacy System for IoT-based Energy Meters",
+      "url": "https://lass.cs.umass.edu/papers/pdf/iotdi20-repel.pdf",
+      "inspection": "Full text; record/replay construction",
+      "overlap": "Battery-aided actual-load timing permutation already an application"
+    },
+    {
+      "id": "P12",
+      "authors": "Le Boudec, Tomozei",
+      "year": "2012",
+      "title": "A Demand-Response Calculus with Perfect Batteries",
+      "url": "https://infoscience.epfl.ch/bitstreams/e96b189e-7314-4494-8a71-77bd1970ec51/download",
+      "inspection": "Original abstract and indexed original excerpts; direct PDF rate-limited",
+      "overlap": "Causal cumulative-envelope storage feasibility under service contracts"
+    },
+    {
+      "id": "P13",
+      "authors": "Zhang, Kumar, Xie",
+      "year": "2025",
+      "title": "An Average Power-Based Planning Framework of Transmission Expansion: A New Role for Energy Storage",
+      "url": "https://doi.org/10.1109/OAJPE.2025.3548911",
+      "inspection": "Theorem 1 and Equation 14 verified in indexed publisher text",
+      "overlap": "Cumulative range as minimum storage capacity"
+    },
+    {
+      "id": "P14",
+      "authors": "John, Katewa",
+      "year": "2022",
+      "title": "Opacity and its Trade-offs with Security in Linear Systems",
+      "url": "https://cps.iisc.ac.in/faculty/vaibhav/Papers/2022CDCOpacitySecurityTradeoff.pdf",
+      "inspection": "Browser full primary text; shell fetch blocked",
+      "overlap": "Opacity/attack-detection duality through weakly unobservable subspaces"
+    },
+    {
+      "id": "P15",
+      "authors": "Avula, Oechtering, Mansson",
+      "year": "2018",
+      "title": "Privacy-preserving smart meter control strategy including energy storage losses",
+      "url": "https://arxiv.org/pdf/1803.07864",
+      "inspection": "Section II-C Eq. (4) p.2; Section III Proposition 2 p.4; Section IV-B p.5; browser full text",
+      "overlap": "Exact signed efficiency map already used for battery privacy, plus horizon-to-horizon SOC discussion; no all-permutation terminal spread theorem located"
+    },
+    {
+      "id": "P16",
+      "authors": "Girard, Le Guernic",
+      "year": "2008",
+      "title": "Efficient Reachability Analysis for Linear Systems using Support Functions",
+      "url": "https://skoge.folk.ntnu.no/prost/proceedings/ifac2008/data/papers/0569.pdf",
+      "inspection": "Section 2 Proposition 2 p.8967; Section 3.1 Proposition 3 and Eq.(6) p.8968; browser full text",
+      "overlap": "Support-function Minkowski additivity directly subsumes accumulated scalar residual extrema and widths"
+    },
+    {
+      "id": "P17",
+      "authors": "Bertsimas, Thiele",
+      "year": "2006",
+      "title": "A Robust Optimization Approach to Inventory Theory",
+      "url": "https://web.mit.edu/dbertsim/www/papers/Robust%20Optimization/A%20Robust%20Optimization%20Approach%20to%20Inventory%20Theory.pdf",
+      "inspection": "Section 3.1 Eqs.(5)-(6),(13) pp.153-154; Section 3.2.2 Eqs.(25)-(26) p.156; browser full text",
+      "overlap": "Additive inventory uncertainty and robust cumulative/capacity bounds; full-box specialization yields same deviation-radius primitive"
+    },
+    {
+      "id": "P18",
+      "authors": "Yin, Zamani",
+      "year": "2019",
+      "title": "On Approximate Opacity of Cyber-Physical Systems",
+      "url": "https://arxiv.org/pdf/1902.09411",
+      "inspection": "Definition 3.3 p.6; Theorem 5.2 p.11; browser full text",
+      "overlap": "Output-metric approximate opacity, distinct from hidden SOC recovery tolerance with exactly identical PCC"
+    },
+    {
+      "id": "P19",
+      "authors": "Bryans, Koutny, Ryan",
+      "year": "2005",
+      "title": "Modelling Opacity Using Petri Nets",
+      "url": "https://pure.coventry.ac.uk/ws/files/11728068/1_s2.0_S1571066105000277_main.pdf",
+      "inspection": "Introduction p.102; Section 3.2 definitions and Theorems 3.3-3.5 pp.106-109; browser full text",
+      "overlap": "Secret-specific alternative executions and language inclusion; universal hiding failure need not imply secret identification"
+    },
+    {
+      "id": "P20",
+      "authors": "Arrieta",
+      "year": "2020",
+      "title": "Universal Privacy Gurantees for Smart Meters",
+      "url": "https://etheses.whiterose.ac.uk/id/eprint/26256/1/marrieta_phd_thesis.pdf",
+      "inspection": "Original research model Section 3.1 Eq.(3.2) printed p.52, Chapter5 shared-output geometry, Section6.2 p.120; browser full text",
+      "overlap": "Universal privacy and common-output geometry in ideal additive battery model; not lossy 2Q plus cumulative-width theorem"
+    },
+    {
+      "id": "P21",
+      "authors": "Sun, Lampe, Wong",
+      "year": "2017/2018",
+      "title": "Smart Meter Privacy: Exploiting the Potential of Household Energy Storage Units",
+      "url": "https://people.ece.ubc.ca/vincentw/J/SLW-IoT-2017.pdf",
+      "inspection": "SectionII-B Eqs.(4)-(10); SectionsIII-C andIV; browser full text",
+      "overlap": "Storage efficiency/rate/SOC and EV terminal SOC already used in privacy design; expected flatness optimization, not universal lossy task-order capacity"
+    },
+    {
+      "id": "P22",
+      "authors": "Zou, Lin, Aliprantis, Chen",
+      "year": "2018",
+      "title": "Robust Multi-stage Power Grid Operations with Energy Storage",
+      "url": "https://www.mhchen.com/papers/robust.grid.operation.with.storage.INFOCOM.18.pdf",
+      "inspection": "Theorem7; end of SectionIII-B efficiency discussion; SectionIII-C p.7; browser full text; technical report SectionIII-D pp.7-8 Eqs.(31)-(34) loss extension, sufficient not necessary",
+      "overlap": "Persistent uncertainty can require storage linear in horizon; sharp infinite-horizon capacity in adaptive-dispatch model, not same-PCC task-order bound",
+      "additional_url": "https://staff.ie.cuhk.edu.hk/~xjlin/paper/infocom18-robust-storage-tech.pdf"
+    }
+  ],
+  "last_update_utc": "2026-10-03T10:26:00Z"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "C_over_R": 0.5,
+    "first_cycle_amplitude_MW": [
+      1.5397513043431827,
+      1.1698178571961004
+    ],
+    "support_world_A": [
+      0,
+      1
+    ],
+    "end_E_MJ": [
+      0.09315402663663168,
+      0.0931540266372312
+    ],
+    "solver_success": true,
+    "complex_Fourier_difference_MW": 0.381066416754776,
+    "Fourier_difference_energy_budget_bound_MW": 0.4358076696308558,
+    "unclipped_energy_range_MJ": [
+      2.1271183701350992e-11,
+      0.8449332352999305
+    ]
+  },
+  {
+    "C_over_R": 2,
+    "first_cycle_amplitude_MW": [
+      0.8143052162911312,
+      0.23658479004384522
+    ],
+    "support_world_A": [
+      0
+    ],
+    "end_E_MJ": [
+      0.8446156558984323,
+      1.6866735654893945
+    ],
+    "solver_success": true,
+    "complex_Fourier_difference_MW": 0.5929629976368094,
+    "Fourier_difference_energy_budget_bound_MW": 0.8568539315880925,
+    "unclipped_energy_range_MJ": [
+      0.00027768679295637355,
+      2.4673280787657172
+    ]
+  },
+  {
+    "C_over_R": 20,
+    "first_cycle_amplitude_MW": [
+      0.8697670220466741,
+      0.21967658033776102
+    ],
+    "support_world_A": [
+      0
+    ],
+    "end_E_MJ": [
+      1.4143487014285316,
+      16.89863865387986
+    ],
+    "solver_success": true,
+    "complex_Fourier_difference_MW": 0.6545542057597423,
+    "Fourier_difference_energy_budget_bound_MW": 1.1330542037317597,
+    "unclipped_energy_range_MJ": [
+      0.21983489456317434,
+      17.66830631082483
+    ]
+  }
+]

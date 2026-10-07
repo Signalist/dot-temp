@@ -1,0 +1,26 @@
+{
+  "software": "ANDES 2.0.0",
+  "install_recipe": "python3 -m pip install andes==2.0.0 in a new environment, subject to access and license review",
+  "upstream_license_url": "https://github.com/CURENT/andes/blob/v2.0.0/LICENSE",
+  "raw_case_inputs": [
+    {
+      "case": "kundur",
+      "upstream_url": "https://raw.githubusercontent.com/CURENT/andes/v2.0.0/andes/cases/kundur/kundur_full.xlsx",
+      "sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "included": false
+    },
+    {
+      "case": "npcc",
+      "upstream_url": "https://raw.githubusercontent.com/CURENT/andes/v2.0.0/andes/cases/npcc/npcc.xlsx",
+      "sha256": "f85a46d5f4b4910b09c7b141b85504fc060b812f5f940f266db8c9784f755b21",
+      "included": false
+    },
+    {
+      "case": "wecc",
+      "upstream_url": "https://raw.githubusercontent.com/CURENT/andes/v2.0.0/andes/cases/wecc/wecc_full.xlsx",
+      "sha256": "038cf6732389f7d691232b7548cfa3dea2dc6a01304cc5918ad63ad55fdf23ec",
+      "included": false
+    }
+  ],
+  "derived_matrix_recipe_status": "Incomplete qualifier not recovered. Retained adapter/provenance are necessary but not sufficient to promise byte-identical matrix rebuild. Main round3 theorem replay does not use these inputs."
+}

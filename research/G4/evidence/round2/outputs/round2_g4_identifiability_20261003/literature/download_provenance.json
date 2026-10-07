@@ -1,0 +1,80 @@
+[
+  {
+    "id": "arrieta2019",
+    "url": "https://arxiv.org/pdf/1905.00111",
+    "bytes": 416188,
+    "sha256": "13c5a5a4ca0546d785170487067a8f9d49d1d26c26d560fb3e36f49ffc84a5eb",
+    "read_status": "full text downloaded"
+  },
+  {
+    "id": "arrieta2017",
+    "url": "https://arxiv.org/pdf/1708.04429",
+    "bytes": 451129,
+    "sha256": "118bae08c147ff0382891ae7082c8d66d765405218d7dec39f1a14b636259b5e",
+    "read_status": "full text downloaded"
+  },
+  {
+    "id": "harirchi2017",
+    "url": "https://arxiv.org/pdf/1704.05947",
+    "bytes": 904753,
+    "sha256": "bd1211cdcd503271ab9019e95e3527b1d7c234676a46ba980b801ef371252835",
+    "read_status": "full text downloaded"
+  },
+  {
+    "id": "custic2014",
+    "url": "https://arxiv.org/pdf/1405.6096",
+    "bytes": 235633,
+    "sha256": "dab939ade1a1207a43a670be47377f25a9500a31548f04fff045b5a3f081c222",
+    "read_status": "full text downloaded"
+  },
+  {
+    "id": "pasqualetti2012",
+    "url": "https://arxiv.org/pdf/1202.6144",
+    "bytes": 1148869,
+    "sha256": "27d3ccda1b028dfa8b0b9f938e64ac08ee4633729184a327807633309fe2162c",
+    "read_status": "full text downloaded"
+  },
+  {
+    "id": "sun2026",
+    "url": "https://arxiv.org/pdf/2610.00356",
+    "bytes": 669527,
+    "sha256": "8539e55a413e1a1aff8cd519a036902d2894fa4fac92675c75287eff7a2f5a40",
+    "read_status": "full text downloaded"
+  },
+  {
+    "id": "repel2020",
+    "url": "https://lass.cs.umass.edu/papers/pdf/iotdi20-repel.pdf",
+    "bytes": 1163960,
+    "sha256": "4845638b064b359d7e666fa4b6403f9923031a1bf66b4a0833a67b994649ec11",
+    "read_status": "full text downloaded"
+  },
+  {
+    "id": "le_boudec2012",
+    "url": "https://infoscience.epfl.ch/bitstreams/e96b189e-7314-4494-8a71-77bd1970ec51/download",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "backes2013",
+    "url": "https://eprint.iacr.org/2012/183.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "li2015",
+    "url": "https://arxiv.org/pdf/1510.07170",
+    "bytes": 567199,
+    "sha256": "6685eb46f5c98d020baa26c15e665ffe312f8f9c0fe11b99b2762b353e9ae23c",
+    "read_status": "full text downloaded"
+  },
+  {
+    "id": "anguluri2022",
+    "url": "https://arxiv.org/pdf/2201.07907",
+    "bytes": 1214556,
+    "sha256": "c196a0f947ed8753c42a28f9122da66439f798b43ce3c47f8ddb339bdbc9e29b",
+    "read_status": "full text downloaded"
+  },
+  {
+    "id": "john2022",
+    "url": "https://cps.iisc.ac.in/faculty/vaibhav/Papers/2022CDCOpacitySecurityTradeoff.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

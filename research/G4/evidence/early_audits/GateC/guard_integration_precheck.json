@@ -1,0 +1,31 @@
+{
+  "frequency_Hz": 0.75,
+  "period_s": 1.3333333333333333,
+  "cap_ratio": 0.5,
+  "capacity_MWs": 0.5632888246750789,
+  "capacity_MWh": 0.0001564691179652997,
+  "energy_initial_MWs": [
+    0.005632888246750789,
+    0.28164441233753945
+  ],
+  "pref_MW": 10.086716832219716,
+  "energy_min_MWs": 1.4181311934065793e-11,
+  "energy_max_MWs": 0.5632888235135197,
+  "energy_balance_max_MWs": 4.121147867408581e-13,
+  "max_charge_MW": 1.8765530638927133,
+  "max_discharge_MW": 1.7303569774124952,
+  "min_PCC_MW": 8.03363940986754,
+  "max_buffer_slew_MW_per_s": 26.922222081169007,
+  "buffer_slew_bound_MW_per_s": 364.6447284482223,
+  "PMU_swap_max_error_Hz": 1.8342532354109764e-15,
+  "PMU_peak_Hz": 0.00430163603973947,
+  "state_gap_initial_MWs": 0.27601152409078866,
+  "state_gap_end_MWs": 0.0,
+  "max_state_gap_increase_MWs": 1.1102230246251565e-16,
+  "period_contraction_bound": 0.8340967337066291,
+  "initial_difference_end_bound_MWs": 4.8329390539794295e-17,
+  "model_cycles": 200,
+  "samples_per_cycle": 800,
+  "nfev": 386565,
+  "physical_scope": "Continuous energy and buffer power, finite energy/power/slew within this analyst-defined soft-derating model; not hardware calibration or battery chemistry validation."
+}

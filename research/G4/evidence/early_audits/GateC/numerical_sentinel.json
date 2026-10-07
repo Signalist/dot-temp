@@ -1,0 +1,10 @@
+{
+  "frequency_Hz": 0.5,
+  "cap_ratio": 20,
+  "refinement_samples_per_cycle": 1600,
+  "reference_rtol": 1e-12,
+  "max_energy_difference_MWs": 1.0864198429771932e-11,
+  "max_PCC_difference_MW": 3.0020430585864233e-13,
+  "max_PMU_difference_Hz": 8.175955631701398e-09,
+  "scope": "Numerical sensitivity check, not independent physical validation"
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "bus": 1,
+    "type": "P",
+    "scale_local_P": 0.001,
+    "dt": 0.0078125,
+    "tds_return": true,
+    "end_time": 8.0,
+    "peak_frequency_Hz": 0.0006696158306707112,
+    "frequency_relative_L2_error": 0.0003994208231328168,
+    "voltage_relative_L2_error": 0.0006741967667529368
+  },
+  {
+    "bus": 1,
+    "type": "P",
+    "scale_local_P": 0.0001,
+    "dt": 0.0078125,
+    "tds_return": true,
+    "end_time": 8.0,
+    "peak_frequency_Hz": 6.696099556169344e-05,
+    "frequency_relative_L2_error": 3.981976674313289e-05,
+    "voltage_relative_L2_error": 6.734261445529689e-05
+  },
+  {
+    "bus": 1,
+    "type": "Q",
+    "scale_local_P": 0.001,
+    "dt": 0.0078125,
+    "tds_return": true,
+    "end_time": 8.0,
+    "peak_frequency_Hz": 0.00043558075984773126,
+    "frequency_relative_L2_error": 0.00035216000178903405,
+    "voltage_relative_L2_error": 0.0003877758524535662
+  },
+  {
+    "bus": 1,
+    "type": "Q",
+    "scale_local_P": 0.0001,
+    "dt": 0.0078125,
+    "tds_return": true,
+    "end_time": 8.0,
+    "peak_frequency_Hz": 4.3548509758295495e-05,
+    "frequency_relative_L2_error": 3.5352245447418354e-05,
+    "voltage_relative_L2_error": 3.8828648497403165e-05
+  },
+  {
+    "bus": 4,
+    "type": "P",
+    "scale_local_P": 0.001,
+    "dt": 0.0078125,
+    "tds_return": true,
+    "end_time": 8.0,
+    "peak_frequency_Hz": 0.0011873878039470043,
+    "frequency_relative_L2_error": 0.0014099770515073437,
+    "voltage_relative_L2_error": 0.0017193991226463002
+  },
+  {
+    "bus": 4,
+    "type": "P",
+    "scale_local_P": 0.0001,
+    "dt": 0.0078125,
+    "tds_return": true,
+    "end_time": 8.0,
+    "peak_frequency_Hz": 0.00011882713222721719,
+    "frequency_relative_L2_error": 0.000141219890187348,
+    "voltage_relative_L2_error": 0.00017217562796455806
+  },
+  {
+    "bus": 4,
+    "type": "Q",
+    "scale_local_P": 0.001,
+    "dt": 0.0078125,
+    "tds_return": true,
+    "end_time": 8.0,
+    "peak_frequency_Hz": 0.0008119627321501177,
+    "frequency_relative_L2_error": 0.001184385438909887,
+    "voltage_relative_L2_error": 0.0011879422681704637
+  },
+  {
+    "bus": 4,
+    "type": "Q",
+    "scale_local_P": 0.0001,
+    "dt": 0.0078125,
+    "tds_return": true,
+    "end_time": 8.0,
+    "peak_frequency_Hz": 8.113049594138388e-05,
+    "frequency_relative_L2_error": 0.00011837074011994342,
+    "voltage_relative_L2_error": 0.0001187153388804634
+  }
+]

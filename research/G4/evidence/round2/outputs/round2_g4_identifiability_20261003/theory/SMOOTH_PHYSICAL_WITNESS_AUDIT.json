@@ -1,0 +1,48 @@
+{
+  "scope": "independent quadrature plus numerical integration of first-order PCS and lossy SOC; smooth contract is distinct from step-task capacity frontier",
+  "pulse_area": 1.0,
+  "quadrature_error": 1.1102230246251565e-14,
+  "bounds": {
+    "command_bound": 8.503599077580118,
+    "actual_power_bound": 7.884362680683312,
+    "actual_slew_bound": 61.92363968968054,
+    "state_min": 3.0078843626806826,
+    "state_max": 14.992115637319317,
+    "work_energy": 48.0,
+    "pcc_energy": 48.614980289093296,
+    "loss_energy": 0.6149802890932996
+  },
+  "worlds": [
+    {
+      "high_slot": 2,
+      "success": true,
+      "max_tracking_error": 6.927791673660977e-14,
+      "max_PCC_error": 6.750155989720952e-14,
+      "min_energy": 3.007884362680311,
+      "max_energy": 9.0,
+      "endpoint_error": 7.958078640513122e-13,
+      "max_actual_power": 7.884362680683313,
+      "max_command_sampled": 7.932700858453754
+    },
+    {
+      "high_slot": 3,
+      "success": true,
+      "max_tracking_error": 6.306066779870889e-14,
+      "max_PCC_error": 6.394884621840902e-14,
+      "min_energy": 8.999999999999824,
+      "max_energy": 14.992115637318712,
+      "endpoint_error": 1.758593271006248e-13,
+      "max_actual_power": 7.884362680683314,
+      "max_command_sampled": 7.932700858453754
+    }
+  ],
+  "causal_requirement": "The current task selection and its smooth shape/phase must be available locally before ramp execution; feedforward uses this current task and public PCC target. No future task order is required. This does not certify delayed/uncertain derivative sensing or a real hardware converter.",
+  "tests": {
+    "area_one": true,
+    "command_bound": true,
+    "actual_slew_bound": true,
+    "state_bounds": true,
+    "ode_tracking": true,
+    "endpoint": true
+  }
+}

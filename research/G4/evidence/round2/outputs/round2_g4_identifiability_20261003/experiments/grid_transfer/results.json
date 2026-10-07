@@ -1,0 +1,3853 @@
+{
+  "generated_utc": "2026-10-03T10:39:40.339766+00:00",
+  "protocol_sha256": "d70678c27d393141c9ead63a0db5e33f3123363bc74b07404c7b4b7a71dc92f3",
+  "harmonic": [
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.6345110268245074,
+        0.8049063305976252
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 4.374325179900385e-17,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        2.7755575615628914e-17,
+        1.1443916996305594e-16
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        0.7879149703807478,
+        0.024768596823976
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.6198584884039673,
+        1.2736988211938018
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 3.4269136241618546e-17,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        5.551115123125783e-17,
+        2.2591401799415137e-16
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        1.2585854507532441,
+        0.18268731051697515
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.7831213037025607,
+        1.2536448545148713
+      ],
+      "correlation": 0.9695433480693896,
+      "sin_principal_angle": 0.24491977505787232,
+      "normalized_column_condition": 8.041585648214824,
+      "residual_per_MW": [
+        0.1918018935458589,
+        0.30704241577024133
+      ],
+      "critical_amplitude_MW": [
+        10.427425730923819,
+        6.51375802585071
+      ],
+      "complex_alias_source2_over_source1": [
+        0.6052459503732631,
+        0.02212024298312493
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        2.2871350927762584,
+        1.8020103598799184
+      ],
+      "correlation": 0.9998992886902107,
+      "sin_principal_angle": 0.014191986358897042,
+      "normalized_column_condition": 140.9175035907822,
+      "residual_per_MW": [
+        0.03245899003763538,
+        0.02557410644600698
+      ],
+      "critical_amplitude_MW": [
+        61.61621164679032,
+        78.20410086360106
+      ],
+      "complex_alias_source2_over_source1": [
+        1.258357631511735,
+        0.16466153442346282
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.739697032708936,
+        1.5067126096726653
+      ],
+      "correlation": 0.980967268122679,
+      "sin_principal_angle": 0.19417316722948194,
+      "normalized_column_condition": 10.202064973176697,
+      "residual_per_MW": [
+        0.33780248286082576,
+        0.29256315952473966
+      ],
+      "critical_amplitude_MW": [
+        5.9206195971744755,
+        6.8361307119083
+      ],
+      "complex_alias_source2_over_source1": [
+        1.1242635584445702,
+        0.13761981353393116
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.836513834606119,
+        1.024547733579164
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 4.45157160087412e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        3.7238012298709097e-16,
+        1.2412670766236366e-16
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        0.8156737261039474,
+        -0.03608018335137438
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.813129300486398,
+        1.5235244857564243
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 3.463828990602215e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        6.280369834735101e-16,
+        1.1102230246251565e-16
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        1.1197554239431544,
+        0.40306196142397294
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.0201863481209434,
+        1.5730398292879058
+      ],
+      "correlation": 0.96730917876145,
+      "sin_principal_angle": 0.2535999855754118,
+      "normalized_column_condition": 7.757528748661706,
+      "residual_per_MW": [
+        0.2587192431677033,
+        0.398922878016961
+      ],
+      "critical_amplitude_MW": [
+        7.730387486885112,
+        5.013500378674611
+      ],
+      "complex_alias_source2_over_source1": [
+        0.6249598469861557,
+        -0.05463060909710507
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        2.57930207965612,
+        2.1284688689252023
+      ],
+      "correlation": 0.9997040297232201,
+      "sin_principal_angle": 0.024328028180578096,
+      "normalized_column_condition": 82.19753836521993,
+      "residual_per_MW": [
+        0.06274933368009777,
+        0.05178145062469561
+      ],
+      "critical_amplitude_MW": [
+        31.8728484065854,
+        38.623869665137576
+      ],
+      "complex_alias_source2_over_source1": [
+        1.1462899867076957,
+        0.3919644653364931
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.9967957471333238,
+        1.8359806418046947
+      ],
+      "correlation": 0.973795436537344,
+      "sin_principal_angle": 0.22742569727065443,
+      "normalized_column_condition": 8.678858458938226,
+      "residual_per_MW": [
+        0.4541226650988735,
+        0.4175491776378563
+      ],
+      "critical_amplitude_MW": [
+        4.404096412066444,
+        4.789854961071473
+      ],
+      "complex_alias_source2_over_source1": [
+        1.0250622922429966,
+        0.2663100778157381
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.107804880055912,
+        1.6544158556069892
+      ],
+      "correlation": 0.9999999999999999,
+      "sin_principal_angle": 0.0,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        0.0,
+        3.1401849173675503e-16
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        0.6613675371488944,
+        -0.10470737949847762
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.6788233441691113,
+        0.5353617425046537
+      ],
+      "correlation": 0.9999999999999999,
+      "sin_principal_angle": 4.088777419639583e-17,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        2.7755575615628914e-17,
+        7.850462293418876e-17
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        0.5640575598239025,
+        1.1356013294549563
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.3364416520481655,
+        2.517219944136793
+      ],
+      "correlation": 0.9661970650220352,
+      "sin_principal_angle": 0.25780463832678635,
+      "normalized_column_condition": 7.626693909710553,
+      "residual_per_MW": [
+        0.3445408567511301,
+        0.6489509772871593
+      ],
+      "critical_amplitude_MW": [
+        5.8048268030071295,
+        3.0818968920590817
+      ],
+      "complex_alias_source2_over_source1": [
+        0.5052023096641185,
+        -0.08894931261894617
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.0082368461204607,
+        0.7223262666272023
+      ],
+      "correlation": 0.9941290220205684,
+      "sin_principal_angle": 0.10820114406247311,
+      "normalized_column_condition": 18.429833060445286,
+      "residual_per_MW": [
+        0.1090923802361735,
+        0.07815652843543829
+      ],
+      "critical_amplitude_MW": [
+        18.33308610253265,
+        25.589672929909025
+      ],
+      "complex_alias_source2_over_source1": [
+        0.5544080610328908,
+        1.2720585733044611
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.2992431584829027,
+        1.7388801047287377
+      ],
+      "correlation": 0.8729852483039048,
+      "sin_principal_angle": 0.48774661069429215,
+      "normalized_column_condition": 3.840078449008118,
+      "residual_per_MW": [
+        0.6337014470177829,
+        0.8481328774851777
+      ],
+      "critical_amplitude_MW": [
+        3.1560603331617076,
+        2.3581210599101587
+      ],
+      "complex_alias_source2_over_source1": [
+        0.6521436759317882,
+        0.012859551583482811
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.47943188425952915,
+        2.071815685200668
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 1.193487268163281e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        5.721958498152797e-17,
+        4.440892098500626e-16
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        0.22392003036705208,
+        0.05838534138003725
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.15190819815652534,
+        0.2340689714307634
+      ],
+      "correlation": 0.9999999999999999,
+      "sin_principal_angle": 1.8271282229962156e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        2.7755575615628914e-17,
+        2.7755575615628914e-17
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        0.6485278496747588,
+        0.024462385457347687
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.7558422103767329,
+        2.7455879998037096
+      ],
+      "correlation": 0.9834930409525259,
+      "sin_principal_angle": 0.18094595435641384,
+      "normalized_column_condition": 10.961798223162205,
+      "residual_per_MW": [
+        0.13676659009947925,
+        0.4968030408939995
+      ],
+      "critical_amplitude_MW": [
+        14.623454445601588,
+        4.025740253926365
+      ],
+      "complex_alias_source2_over_source1": [
+        0.2662461356789967,
+        0.04917402760127657
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.5734340678645222,
+        0.3535442587634216
+      ],
+      "correlation": 0.5650642523725631,
+      "sin_principal_angle": 0.8250469021156532,
+      "normalized_column_condition": 1.8969397356190247,
+      "residual_per_MW": [
+        0.47311000125920133,
+        0.2916905954535359
+      ],
+      "critical_amplitude_MW": [
+        4.227346694588826,
+        6.856580332630522
+      ],
+      "complex_alias_source2_over_source1": [
+        -0.7785508559041817,
+        -0.4835808217871092
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.5029224913560784,
+        2.0849960471977327
+      ],
+      "correlation": 0.980404214434925,
+      "sin_principal_angle": 0.19699638656137164,
+      "normalized_column_condition": 10.052997666624481,
+      "residual_per_MW": [
+        0.0990739135175901,
+        0.4107366872926964
+      ],
+      "critical_amplitude_MW": [
+        20.18694860221616,
+        4.869299631310445
+      ],
+      "complex_alias_source2_over_source1": [
+        0.22927140319454722,
+        0.0579578071324368
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.5568751264323384,
+        0.69687540097268
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 3.565549368012871e-17,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        5.551115123125783e-17,
+        1.2412670766236366e-16
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        2.182418744782709,
+        0.4776611159417207
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.40360009780854117,
+        0.041186912917419646
+      ],
+      "correlation": 0.9999999999999998,
+      "sin_principal_angle": 1.417729710478704e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        5.721958498152797e-17,
+        0.0
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        -9.461007994358994,
+        2.552306274781612
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.6841188252381747,
+        1.7358485190292297
+      ],
+      "correlation": 0.7076858430905251,
+      "sin_principal_angle": 0.706527244690007,
+      "normalized_column_condition": 2.417013435681142,
+      "residual_per_MW": [
+        1.189875833326099,
+        1.2264242713489508
+      ],
+      "critical_amplitude_MW": [
+        1.680847651480856,
+        1.6307570281532255
+      ],
+      "complex_alias_source2_over_source1": [
+        0.686216614171398,
+        0.02282855272913119
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.40412121942673745,
+        0.37643422388381514
+      ],
+      "correlation": 0.07870607178624964,
+      "sin_principal_angle": 0.9968978655128006,
+      "normalized_column_condition": 1.0820627760411217,
+      "residual_per_MW": [
+        0.4028675810549447,
+        0.375266474295743
+      ],
+      "critical_amplitude_MW": [
+        4.9644103771339,
+        5.329546167835456
+      ],
+      "complex_alias_source2_over_source1": [
+        -0.08323479645967127,
+        -0.014538448416588157
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.6083386453899482,
+        0.6980914598220641
+      ],
+      "correlation": 0.9532008720597425,
+      "sin_principal_angle": 0.30233772094223804,
+      "normalized_column_condition": 6.46032809261304,
+      "residual_per_MW": [
+        0.48626144055052334,
+        0.21105938097184282
+      ],
+      "critical_amplitude_MW": [
+        4.113013768345872,
+        9.476006187409492
+      ],
+      "complex_alias_source2_over_source1": [
+        2.141888927315182,
+        0.48488278628684367
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.1549913583133768,
+        0.6992160078314601
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 2.4030981198127858e-17,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        2.7755575615628914e-17,
+        2.7755575615628914e-17
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        1.6387927838681362,
+        0.20718585959529623
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.05909875723779944,
+        0.007762041797707157
+      ],
+      "correlation": 0.9999999999999999,
+      "sin_principal_angle": 1.2102535581097304e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        7.152448122690996e-18,
+        1.939479807224432e-18
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        -6.674021618605358,
+        -3.664372791907867
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.255094207181814,
+        1.5105236309342154
+      ],
+      "correlation": 0.7701632665565732,
+      "sin_principal_angle": 0.6378468020198178,
+      "normalized_column_condition": 2.7752169658155244,
+      "residual_per_MW": [
+        0.8005578262845188,
+        0.963482667366753
+      ],
+      "critical_amplitude_MW": [
+        2.4982580075223684,
+        2.0758027806209545
+      ],
+      "complex_alias_source2_over_source1": [
+        0.6391228289541403,
+        0.032105713501372854
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.05967493491867287,
+        0.05113653187655583
+      ],
+      "correlation": 0.07897181620610337,
+      "sin_principal_angle": 0.9968768490867412,
+      "normalized_column_condition": 1.0823521653598147,
+      "residual_per_MW": [
+        0.05948856109118296,
+        0.05097682477032467
+      ],
+      "critical_amplitude_MW": [
+        33.619908824730814,
+        39.23351462181041
+      ],
+      "complex_alias_source2_over_source1": [
+        0.005949209269857048,
+        -0.09196572632357106
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.1565023566277899,
+        0.6992590899663971
+      ],
+      "correlation": 0.9981044243668441,
+      "sin_principal_angle": 0.061543139823463544,
+      "normalized_column_condition": 32.4667287060492,
+      "residual_per_MW": [
+        0.07117478624010917,
+        0.043034599946629844
+      ],
+      "critical_amplitude_MW": [
+        28.099838519401676,
+        46.47423241950284
+      ],
+      "complex_alias_source2_over_source1": [
+        1.6377684918298334,
+        0.20670881217061451
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.6697570421124355,
+        0.10042365609493795
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 1.6705505914488365e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        1.1188630228279524e-16,
+        1.3877787807814457e-17
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        -6.613880945698684,
+        -0.8581069496089436
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.044115828486962286,
+        0.04879670989940706
+      ],
+      "correlation": 0.9999999999999999,
+      "sin_principal_angle": 7.864403936058806e-17,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        3.469446951953614e-18,
+        9.813077866773595e-18
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        0.858556911667192,
+        0.28324816392238455
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.6707212090873004,
+        0.2830527999526321
+      ],
+      "correlation": 0.4000049160421762,
+      "sin_principal_angle": 0.9165129934387682,
+      "normalized_column_condition": 1.5275341714353008,
+      "residual_per_MW": [
+        0.6147247031034716,
+        0.25942156898581165
+      ],
+      "critical_amplitude_MW": [
+        3.2534889030860312,
+        7.709459193461992
+      ],
+      "complex_alias_source2_over_source1": [
+        -0.9319386917816805,
+        -0.1729483532049232
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.049336032338786445,
+        0.06725915673550273
+      ],
+      "correlation": 0.9328061041856467,
+      "sin_principal_angle": 0.3603786508576726,
+      "normalized_column_condition": 5.36326472055357,
+      "residual_per_MW": [
+        0.017779652772922365,
+        0.024238764162165215
+      ],
+      "critical_amplitude_MW": [
+        112.48813604762364,
+        82.51245759145762
+      ],
+      "complex_alias_source2_over_source1": [
+        0.674923785417053,
+        0.11248572737233263
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.6712083892371205,
+        0.11165137527357762
+      ],
+      "correlation": 0.8693012877516436,
+      "sin_principal_angle": 0.4942825822475783,
+      "normalized_column_condition": 3.781847378177168,
+      "residual_per_MW": [
+        0.33176661585836154,
+        0.05518733008171735
+      ],
+      "critical_amplitude_MW": [
+        6.028334089087022,
+        36.24020218116272
+      ],
+      "complex_alias_source2_over_source1": [
+        -5.186581030720408,
+        -0.6400983040238273
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.6910467524923992,
+        0.10533414182350768
+      ],
+      "correlation": 0.9999999999999999,
+      "sin_principal_angle": 1.0041135247189442e-17,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        6.938893903907228e-18,
+        3.469446951953614e-18
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        -6.437264865114337,
+        -1.2657190723787008
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.07307002624114198,
+        0.06875306707477029
+      ],
+      "correlation": 0.9999999999999999,
+      "sin_principal_angle": 1.89924494648677e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        1.3877787807814457e-17,
+        6.938893903907228e-18
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        0.988854662552701,
+        0.38947095004052157
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.6924033570406876,
+        0.312521536160183
+      ],
+      "correlation": 0.38727490297453393,
+      "sin_principal_angle": 0.921964288639243,
+      "normalized_column_condition": 1.504694834788078,
+      "residual_per_MW": [
+        0.6383711685254413,
+        0.2881336957703666
+      ],
+      "critical_amplitude_MW": [
+        3.1329735718167746,
+        6.941222180393425
+      ],
+      "complex_alias_source2_over_source1": [
+        -0.8254618474251716,
+        -0.23412599582288313
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.07783784285934374,
+        0.09280436685340654
+      ],
+      "correlation": 0.8964326445051687,
+      "sin_principal_angle": 0.44318000165335725,
+      "normalized_column_condition": 4.279147609166048,
+      "residual_per_MW": [
+        0.03449617532709772,
+        0.04112903945553148
+      ],
+      "critical_amplitude_MW": [
+        57.97744187683738,
+        48.627442470724134
+      ],
+      "complex_alias_source2_over_source1": [
+        0.7321283031349014,
+        0.17114198840357234
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.6948991602133165,
+        0.1257865877821745
+      ],
+      "correlation": 0.7762951309228028,
+      "sin_principal_angle": 0.6303696294282812,
+      "normalized_column_condition": 2.81786280302531,
+      "residual_per_MW": [
+        0.4380433261136922,
+        0.07929204472729731
+      ],
+      "critical_amplitude_MW": [
+        4.5657584096622195,
+        25.22321131808919
+      ],
+      "complex_alias_source2_over_source1": [
+        -4.218672998760023,
+        -0.7712224369113019
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.7185467411315072,
+        0.1101653132459978
+      ],
+      "correlation": 0.9999999999999999,
+      "sin_principal_angle": 0.0,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        0.0,
+        1.5515838457795457e-17
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        -5.634444369826043,
+        -3.2856158469633425
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.1540605323550112,
+        0.1650527201168089
+      ],
+      "correlation": 0.9999999999999998,
+      "sin_principal_angle": 0.0,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        0.0,
+        2.7755575615628914e-17
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        0.8627517925613845,
+        0.35622824448998647
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.7228756120923479,
+        0.3690505210212176
+      ],
+      "correlation": 0.3819968392638762,
+      "sin_principal_angle": 0.924163629879692,
+      "normalized_column_condition": 1.495402756158869,
+      "residual_per_MW": [
+        0.6680553496227684,
+        0.34106306911596
+      ],
+      "critical_amplitude_MW": [
+        2.9937639166116137,
+        5.864018069103836
+      ],
+      "complex_alias_source2_over_source1": [
+        -0.5691335513637413,
+        -0.48573792122025433
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.16542075662196817,
+        0.21951167531455193
+      ],
+      "correlation": 0.9074886080959987,
+      "sin_principal_angle": 0.4200766908267906,
+      "normalized_column_condition": 4.540810403790077,
+      "residual_per_MW": [
+        0.0694894040358203,
+        0.09221173816398186
+      ],
+      "critical_amplitude_MW": [
+        28.78136642198058,
+        21.689212673156238
+      ],
+      "complex_alias_source2_over_source1": [
+        0.6643831941230923,
+        0.16208999224690127
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.7348769058966398,
+        0.19844091478459394
+      ],
+      "correlation": 0.3708257086563958,
+      "sin_principal_angle": 0.9287024786224498,
+      "normalized_column_condition": 1.4760655217478797,
+      "residual_per_MW": [
+        0.6824820039886061,
+        0.18429256942055874
+      ],
+      "critical_amplitude_MW": [
+        2.9304802006667847,
+        10.8523094896787
+      ],
+      "complex_alias_source2_over_source1": [
+        -1.1396594992890712,
+        -0.7661743349644339
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.788911765814122,
+        0.32192391266539966
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 4.2227685544453545e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        3.331391796911832e-16,
+        0.0
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        -0.2786887778087731,
+        -2.434717526984444
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.19532008642878013,
+        0.30133659047923944
+      ],
+      "correlation": 0.9999999999999999,
+      "sin_principal_angle": 3.1775202932757296e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        6.206335383118183e-17,
+        2.7755575615628914e-17
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        -0.35491658020614336,
+        0.5423747729831897
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.8119712125833519,
+        1.0848824158521333
+      ],
+      "correlation": 0.5131429878364169,
+      "sin_principal_angle": 0.858303136446742,
+      "normalized_column_condition": 1.7629470563286322,
+      "residual_per_MW": [
+        0.6969174384647553,
+        0.9311579802018047
+      ],
+      "critical_amplitude_MW": [
+        2.869780392360127,
+        2.1478632439648435
+      ],
+      "complex_alias_source2_over_source1": [
+        -0.02117088231674224,
+        -0.38347363904222903
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.23166231356730269,
+        0.8189022095113353
+      ],
+      "correlation": 0.19558555260387533,
+      "sin_principal_angle": 0.9806866429255764,
+      "normalized_column_condition": 1.2191310662060353,
+      "residual_per_MW": [
+        0.22718813658469028,
+        0.8030864587300083
+      ],
+      "critical_amplitude_MW": [
+        8.803276570977323,
+        2.4903918852806672
+      ],
+      "complex_alias_source2_over_source1": [
+        0.04306437932267786,
+        -0.03473989558305166
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.8127310197122429,
+        0.4409520907167271
+      ],
+      "correlation": 0.5917475846693238,
+      "sin_principal_angle": 0.8061233131711434,
+      "normalized_column_condition": 1.9745708363248746,
+      "residual_per_MW": [
+        0.6551614223273952,
+        0.35546176031831067
+      ],
+      "critical_amplitude_MW": [
+        3.052682792120453,
+        5.6264842615110835
+      ],
+      "complex_alias_source2_over_source1": [
+        -0.3142874932868928,
+        -1.0444024660021138
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.9845729629879212,
+        0.03485294055843397
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 2.2727884369940367e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        2.237726045655905e-16,
+        3.469446951953614e-18
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        16.42444177514475,
+        -22.983984932489452
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.40218719958752114,
+        0.06878783000997672
+      ],
+      "correlation": 0.9999999999999999,
+      "sin_principal_angle": 0.0,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        0.0,
+        1.5515838457795457e-17
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        -1.1888465848299965,
+        -5.72463637359035
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.9899907324120866,
+        0.48732698622690984
+      ],
+      "correlation": 0.13498735489195057,
+      "sin_principal_angle": 0.9908473212454453,
+      "normalized_column_condition": 1.1454714874389815,
+      "residual_per_MW": [
+        0.9809296652683324,
+        0.48286663887354964
+      ],
+      "critical_amplitude_MW": [
+        2.0388821653720726,
+        4.14193037784859
+      ],
+      "complex_alias_source2_over_source1": [
+        -0.06701372123727665,
+        -0.2659085789230909
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.4027786854986256,
+        0.07087292787775999
+      ],
+      "correlation": 0.9588742941287479,
+      "sin_principal_angle": 0.2838310907196309,
+      "normalized_column_condition": 6.901549400955972,
+      "residual_per_MW": [
+        0.1143211136236941,
+        0.02011594042203835
+      ],
+      "critical_amplitude_MW": [
+        17.494581154827745,
+        99.42363906630321
+      ],
+      "complex_alias_source2_over_source1": [
+        -1.0635661946909125,
+        -5.344591981726771
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        1.0635499343984123,
+        0.07711350739689635
+      ],
+      "correlation": 0.6930739292657009,
+      "sin_principal_angle": 0.720866512311539,
+      "normalized_column_condition": 2.3486649752069497,
+      "residual_per_MW": [
+        0.7666775318789495,
+        0.05558854512931072
+      ],
+      "critical_amplitude_MW": [
+        2.608658682221275,
+        35.97863544274413
+      ],
+      "complex_alias_source2_over_source1": [
+        2.409130415550453,
+        -9.250311868552691
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "sensors": "V_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.40233754749288575,
+        0.0009116449446381135
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 1.422178599489021e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        5.721958498152797e-17,
+        3.3881317890172014e-20
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        -130.28856970452068,
+        -421.66135791180676
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "sensors": "F_first",
+      "channel_count": 1,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.4157078354197391,
+        0.001309847707242381
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 2.6706810168833294e-16,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        1.1102230246251565e-16,
+        2.34051006103887e-19
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        -99.93187069867454,
+        301.2275714079694
+      ],
+      "residual_is_numerically_zero": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "sensors": "V_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.40243569840820653,
+        0.17818340423628926
+      ],
+      "correlation": 0.023108901979777635,
+      "sin_principal_angle": 0.9997329536677726,
+      "normalized_column_condition": 1.0233821924407354,
+      "residual_per_MW": [
+        0.4023282294309892,
+        0.1781358210117242
+      ],
+      "critical_amplitude_MW": [
+        4.971065547223942,
+        11.227388116780666
+      ],
+      "complex_alias_source2_over_source1": [
+        0.04274180987316609,
+        -0.029953304920203337
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "sensors": "F_pair",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.41570786621948075,
+        0.0017593678410084091
+      ],
+      "correlation": 0.7444075689356272,
+      "sin_principal_angle": 0.6677255209375701,
+      "normalized_column_condition": 2.612462028538704,
+      "residual_per_MW": [
+        0.2775787515292485,
+        0.001174774808158148
+      ],
+      "critical_amplitude_MW": [
+        7.205162459235501,
+        1702.4539393517198
+      ],
+      "complex_alias_source2_over_source1": [
+        -55.437177025834835,
+        166.92568994084507
+      ],
+      "residual_is_numerically_zero": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "sensors": "V_first_F_first",
+      "channel_count": 2,
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        0.5785226932039529,
+        0.0015958688922503475
+      ],
+      "correlation": 0.35253107344656714,
+      "sin_principal_angle": 0.9358001080650777,
+      "normalized_column_condition": 1.4453204929022183,
+      "residual_per_MW": [
+        0.5413815988183589,
+        0.001493414281825571
+      ],
+      "critical_amplitude_MW": [
+        3.6942518998896157,
+        1339.2131201230857
+      ],
+      "complex_alias_source2_over_source1": [
+        -109.83817311931081,
+        65.32720724147846
+      ],
+      "residual_is_numerically_zero": false
+    }
+  ],
+  "descriptor_numerical_audits": [
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "descriptor_backward_relative_residual": 9.432656905907626e-18,
+      "relative_output_refinement": 2.7772886082479403e-13,
+      "relative_output_equilibration_difference": 2.0305023135411526e-13,
+      "reduced_descriptor_output_relative_difference": 1.0981022013450712e-13,
+      "numerical_warning": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "descriptor_backward_relative_residual": 8.814279369584183e-18,
+      "relative_output_refinement": 3.139871763918956e-13,
+      "relative_output_equilibration_difference": 1.371481601076468e-13,
+      "reduced_descriptor_output_relative_difference": 7.724557523356751e-14,
+      "numerical_warning": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "descriptor_backward_relative_residual": 8.846524663126654e-18,
+      "relative_output_refinement": 6.606719446986801e-14,
+      "relative_output_equilibration_difference": 1.7572088870357798e-14,
+      "reduced_descriptor_output_relative_difference": 1.8612333622193884e-14,
+      "numerical_warning": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "descriptor_backward_relative_residual": 1.6914632425248342e-18,
+      "relative_output_refinement": 4.362307020229798e-15,
+      "relative_output_equilibration_difference": 8.867917723769362e-15,
+      "reduced_descriptor_output_relative_difference": 1.0568775381327508e-14,
+      "numerical_warning": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "descriptor_backward_relative_residual": 4.2175798749057135e-19,
+      "relative_output_refinement": 3.4479287172880507e-15,
+      "relative_output_equilibration_difference": 4.0624095291408095e-15,
+      "reduced_descriptor_output_relative_difference": 5.794337402597018e-15,
+      "numerical_warning": false
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "descriptor_backward_relative_residual": 1.9078027842768804e-19,
+      "relative_output_refinement": 2.2291523044187053e-15,
+      "relative_output_equilibration_difference": 3.2322215669958583e-15,
+      "reduced_descriptor_output_relative_difference": 6.3148669963871414e-15,
+      "numerical_warning": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "descriptor_backward_relative_residual": 2.5372026272204092e-18,
+      "relative_output_refinement": 7.958936793840652e-14,
+      "relative_output_equilibration_difference": 7.974779175787401e-14,
+      "numerical_warning": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "descriptor_backward_relative_residual": 1.0170498411184162e-18,
+      "relative_output_refinement": 6.883373590790448e-14,
+      "relative_output_equilibration_difference": 2.971822767693631e-14,
+      "numerical_warning": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "descriptor_backward_relative_residual": 4.894532453456033e-19,
+      "relative_output_refinement": 1.2698600111078394e-13,
+      "relative_output_equilibration_difference": 4.382515495735951e-14,
+      "numerical_warning": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "descriptor_backward_relative_residual": 2.112625765623171e-19,
+      "relative_output_refinement": 3.334781926453835e-14,
+      "relative_output_equilibration_difference": 1.9845571602300966e-14,
+      "numerical_warning": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "descriptor_backward_relative_residual": 1.733829889847333e-20,
+      "relative_output_refinement": 7.806858126163398e-15,
+      "relative_output_equilibration_difference": 1.2730545643154334e-14,
+      "numerical_warning": false
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "descriptor_backward_relative_residual": 8.283948786857286e-21,
+      "relative_output_refinement": 4.330782097954855e-15,
+      "relative_output_equilibration_difference": 8.21885272209329e-16,
+      "numerical_warning": false
+    }
+  ],
+  "causal_lockin_kundur": [
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "V_first",
+      "horizon_s": 400.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        6.556881449863406e-15,
+        6.556881449863406e-15
+      ],
+      "worst_phase_residual_per_MW": [
+        1.0624372933709385e-16,
+        1.1402771571135615e-16
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.7879293832889764,
+        -0.024306914693805314
+      ],
+      "source1_cos_alias_residual": 2.237726045655905e-16
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "F_first",
+      "horizon_s": 400.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        5.963540027744094e-16,
+        1.987846675914698e-16
+      ],
+      "worst_phase_residual_per_MW": [
+        9.036560719766055e-16,
+        2.271723376970576e-16
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        1.261593848669278,
+        -0.18347466302126664
+      ],
+      "source1_cos_alias_residual": 8.95090418262362e-16
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "V_pair",
+      "horizon_s": 400.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        14.197246096499216,
+        14.192135706328415
+      ],
+      "worst_phase_residual_per_MW": [
+        0.1918190675602218,
+        0.3073042381758821
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        10.426492138859437,
+        6.5082083210818675
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.6051330387366096,
+        -0.02155652056540334
+      ],
+      "source1_cos_alias_residual": 0.19275985677681523
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "F_pair",
+      "horizon_s": 400.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        0.8250705996577578,
+        0.8121736499241469
+      ],
+      "worst_phase_residual_per_MW": [
+        0.0322118440588458,
+        0.025348641014560525
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        62.08896318839509,
+        78.89969323606654
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        1.2611893856780254,
+        -0.16530636665447934
+      ],
+      "source1_cos_alias_residual": 0.032464598762947695
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "V_first_F_first",
+      "horizon_s": 400.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        11.32425763536829,
+        11.26208526703473
+      ],
+      "worst_phase_residual_per_MW": [
+        0.33748896964725583,
+        0.29256376649261007
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        5.926119606487893,
+        6.836116529319151
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        1.124229422445195,
+        -0.1377104532587312
+      ],
+      "source1_cos_alias_residual": 0.3400822902678638
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "V_first",
+      "horizon_s": 200.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        7.205751576494994e-15,
+        5.615474235763237e-15
+      ],
+      "worst_phase_residual_per_MW": [
+        2.0938816639774842e-16,
+        1.5550339408858632e-16
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.8140891524484234,
+        0.03586841416260058
+      ],
+      "source1_cos_alias_residual": 2.2887833992611187e-16
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "F_first",
+      "horizon_s": 200.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        6.3611093629270335e-15,
+        0.0
+      ],
+      "worst_phase_residual_per_MW": [
+        4.440892098500626e-16,
+        7.788904174037818e-17
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        1.1271677689740305,
+        -0.4059748523618223
+      ],
+      "source1_cos_alias_residual": 2.220446049250313e-16
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "V_pair",
+      "horizon_s": 200.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        14.72857675439473,
+        14.687863652016315
+      ],
+      "worst_phase_residual_per_MW": [
+        0.2578369699168025,
+        0.3981727781440439
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        7.756839527882094,
+        5.022945087613387
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.6232685238216867,
+        0.053979347657700384
+      ],
+      "source1_cos_alias_residual": 0.2598174639861237
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "F_pair",
+      "horizon_s": 200.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        1.4209563061775048,
+        1.4057485514877481
+      ],
+      "worst_phase_residual_per_MW": [
+        0.062315216095319904,
+        0.05122554843465138
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        32.09488990523146,
+        39.04301781271131
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        1.1539436998617343,
+        -0.3943614077909313
+      ],
+      "source1_cos_alias_residual": 0.06278613576377232
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "V_first_F_first",
+      "horizon_s": 200.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        13.414264686654743,
+        13.307491743307434
+      ],
+      "worst_phase_residual_per_MW": [
+        0.45414603410647575,
+        0.4172161691851318
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        4.403869790330691,
+        4.7936780683889015
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        1.0254127901965326,
+        -0.26546741108905486
+      ],
+      "source1_cos_alias_residual": 0.45687817876382597
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "V_first",
+      "horizon_s": 100.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        1.282122581225823e-14,
+        0.0
+      ],
+      "worst_phase_residual_per_MW": [
+        2.2833184781750864e-16,
+        2.1673268057446072e-17
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.6614173783318225,
+        0.10203033095624149
+      ],
+      "source1_cos_alias_residual": 2.220446049250313e-16
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "F_first",
+      "horizon_s": 100.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        1.3113762899726813e-14,
+        0.0
+      ],
+      "worst_phase_residual_per_MW": [
+        1.116109903800785e-16,
+        3.288253820601386e-17
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.5919249467299458,
+        -1.148614728518955
+      ],
+      "source1_cos_alias_residual": 1.4752290795525882e-16
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "V_pair",
+      "horizon_s": 100.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        14.955179769813997,
+        14.938394195630089
+      ],
+      "worst_phase_residual_per_MW": [
+        0.34240987013271756,
+        0.6437202482983063
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        5.840953122130513,
+        3.1069397075625003
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.5050832338187745,
+        0.08731758123882903
+      ],
+      "source1_cos_alias_residual": 0.3437875522046291
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "F_pair",
+      "horizon_s": 100.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        6.342257386541457,
+        6.298060954831692
+      ],
+      "worst_phase_residual_per_MW": [
+        0.11016233634508406,
+        0.0774937852267294
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        18.155025268663422,
+        25.80852121429415
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.5877642454340324,
+        -1.2894598533396124
+      ],
+      "source1_cos_alias_residual": 0.11049413852301934
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "V_first_F_first",
+      "horizon_s": 100.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        29.220776417485812,
+        28.878888001325137
+      ],
+      "worst_phase_residual_per_MW": [
+        0.6246732465150271,
+        0.8353163858963731
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        3.201673852942713,
+        2.394302367065159
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.6545985382827489,
+        -0.0139671340393699
+      ],
+      "source1_cos_alias_residual": 0.6262380453316487
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "V_first",
+      "horizon_s": 40.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        6.556881449863406e-15,
+        0.0
+      ],
+      "worst_phase_residual_per_MW": [
+        6.6004112192819e-17,
+        0.0
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.22606925691260776,
+        -0.07044935899458511
+      ],
+      "source1_cos_alias_residual": 1.3877787807814457e-17
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "F_first",
+      "horizon_s": 40.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        8.995967132789892e-15,
+        8.995967132789887e-15
+      ],
+      "worst_phase_residual_per_MW": [
+        1.923462689581133e-17,
+        4.0030822763384e-18
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.6611231002860712,
+        -0.06987681749819827
+      ],
+      "source1_cos_alias_residual": 3.469446951953614e-17
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "V_pair",
+      "horizon_s": 40.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        10.71662222739273,
+        10.656244040045776
+      ],
+      "worst_phase_residual_per_MW": [
+        0.14121526216923522,
+        0.5056376990845723
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        14.16277510856553,
+        3.955401275697765
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.2686949483626453,
+        -0.056268518574831165
+      ],
+      "source1_cos_alias_residual": 0.1412668557233407
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "F_pair",
+      "horizon_s": 40.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        55.87726197970223,
+        55.50102725774671
+      ],
+      "worst_phase_residual_per_MW": [
+        0.4684950371157561,
+        0.28924722187994656
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        4.268988658477163,
+        6.914500291484596
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        -0.7814571755723758,
+        0.48695616412184795
+      ],
+      "source1_cos_alias_residual": 0.47090830687187857
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "V_first_F_first",
+      "horizon_s": 40.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        11.360912700496993,
+        11.200876338490348
+      ],
+      "worst_phase_residual_per_MW": [
+        0.09937694173273978,
+        0.40377480902164103
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        20.12539292443429,
+        4.953256011305069
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.2314718713346429,
+        -0.07036416540408348
+      ],
+      "source1_cos_alias_residual": 0.10000455677393194
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "V_first",
+      "horizon_s": 20.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        0.0,
+        0.0
+      ],
+      "worst_phase_residual_per_MW": [
+        2.1866686920506914e-16,
+        0.0
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        2.165755273295426,
+        -0.5072635752071504
+      ],
+      "source1_cos_alias_residual": 9.155133597044475e-16
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "F_first",
+      "horizon_s": 20.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        8.99596713278989e-15,
+        0.0
+      ],
+      "worst_phase_residual_per_MW": [
+        9.62657636697247e-17,
+        4.738219834945907e-18
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        -8.835348411977657,
+        -2.880802430617355
+      ],
+      "source1_cos_alias_residual": 2.3592239273284576e-16
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "V_pair",
+      "horizon_s": 20.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        45.04995445312575,
+        44.92134611304055
+      ],
+      "worst_phase_residual_per_MW": [
+        1.179829791374594,
+        1.220286094117329
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        1.695159771876792,
+        1.6389599206624266
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.6825128785415256,
+        -0.028011406994176483
+      ],
+      "source1_cos_alias_residual": 1.1798374607271649
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "F_pair",
+      "horizon_s": 20.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        85.13809396789928,
+        85.06521277383305
+      ],
+      "worst_phase_residual_per_MW": [
+        0.38878226116386283,
+        0.36508686791867223
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        5.1442676268530825,
+        5.478148286740145
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        -0.08913215850114373,
+        0.016741641096725962
+      ],
+      "source1_cos_alias_residual": 0.3925534506325751
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "V_first_F_first",
+      "horizon_s": 20.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        17.462392279537777,
+        17.20222183674602
+      ],
+      "worst_phase_residual_per_MW": [
+        0.4708090269264582,
+        0.2060518841152562
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        4.248006910692488,
+        9.706293192064622
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        2.125120698507958,
+        -0.5163587297063535
+      ],
+      "source1_cos_alias_residual": 0.47488401256293605
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "V_first",
+      "horizon_s": 10.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        4.8978560363598225e-14,
+        2.0653788120113522e-15
+      ],
+      "worst_phase_residual_per_MW": [
+        8.602567319149888e-19,
+        2.177998717587066e-16
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        1.6388891650888306,
+        -0.2094485449861335
+      ],
+      "source1_cos_alias_residual": 4.443059973708341e-16
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "F_first",
+      "horizon_s": 10.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        6.3611093629270335e-15,
+        0.0
+      ],
+      "worst_phase_residual_per_MW": [
+        6.992893892674703e-18,
+        5.360590346180142e-19
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        null,
+        null
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        -6.869182247010073,
+        3.6169472362848563
+      ],
+      "source1_cos_alias_residual": 2.5018537765542006e-17
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "V_pair",
+      "horizon_s": 10.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        39.64307560922693,
+        39.58668953332545
+      ],
+      "worst_phase_residual_per_MW": [
+        0.8003133190784709,
+        0.9632644133870927
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        2.499021261201701,
+        2.0762731106897956
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.6390583021651163,
+        -0.03257360913410746
+      ],
+      "source1_cos_alias_residual": 0.8004601558865031
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "F_pair",
+      "horizon_s": 10.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        85.5841016044779,
+        85.30954147684244
+      ],
+      "worst_phase_residual_per_MW": [
+        0.059099574060307476,
+        0.05056591657525188
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        33.84119144342941,
+        39.55233357678017
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        0.003517245465518906,
+        0.08992913408218249
+      ],
+      "source1_cos_alias_residual": 0.059683669653176716
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "V_first_F_first",
+      "horizon_s": 10.0,
+      "zero_initial_state": true,
+      "real_source_subspace_ranks": [
+        2,
+        2
+      ],
+      "principal_angles_degrees": [
+        3.5680202759002917,
+        3.49657464918052
+      ],
+      "worst_phase_residual_per_MW": [
+        0.07054028997158962,
+        0.042685413325077595
+      ],
+      "critical_worst_phase_amplitude_MW": [
+        28.352591133457317,
+        46.85441335119986
+      ],
+      "source2_cos_sin_matching_source1_cos": [
+        1.6378579790856105,
+        -0.20901847894588785
+      ],
+      "source1_cos_alias_residual": 0.07134837869155405
+    }
+  ],
+  "PQ_nuisance": [
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.9952694855145234
+        ],
+        [
+          0.8058461847132902
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          2.004165985767468
+        ],
+        [
+          1.758766892641095
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          2.0314643250434026,
+          0.3531906599268148
+        ],
+        [
+          1.9314771232349037,
+          0.6884533082882535
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          2.8320746255346685,
+          0.005758011816337655
+        ],
+        [
+          2.4860596605572343,
+          0.007406242561384418
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.05,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          2.329795182167931,
+          1.603070811748432
+        ],
+        [
+          1.8696365211185886,
+          0.4970999245292245
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          2.5379968111144535
+        ],
+        [
+          1.0391838039357926
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          2.591154063647136
+        ],
+        [
+          2.3723527263759334
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          2.5949928862409624,
+          0.4734902366580607
+        ],
+        [
+          2.3776702234742726,
+          0.9433740186432549
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          3.6908204097488966,
+          0.007992446700346493
+        ],
+        [
+          3.316585896595845,
+          0.006337386733985215
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.1,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          3.1746823483506685,
+          1.754109227457882
+        ],
+        [
+          2.47793522284779,
+          0.7535233692965754
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          4.844827923967669
+        ],
+        [
+          1.7708693034708891
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          2.3673941097061557
+        ],
+        [
+          1.8312395875804006
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          5.233924701943907,
+          0.3899405496453968
+        ],
+        [
+          4.1086735674903165,
+          1.3216121159514551
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          3.443154099104638,
+          0.020739891448153375
+        ],
+        [
+          2.4808130922188103,
+          0.05641659972193618
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.2,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          5.291422514909622,
+          1.038152326123587
+        ],
+        [
+          1.946037993204774,
+          1.6438834040468453
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          5.132035485291251
+        ],
+        [
+          2.1077130191907907
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.5411865732266529
+        ],
+        [
+          0.8603396071322381
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          5.408587473726258,
+          0.405370686582212
+        ],
+        [
+          3.7883739237769762,
+          1.9478399669434288
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.3837744790674615,
+          0.093227434263716
+        ],
+        [
+          0.8715781944047423,
+          0.26802324401048183
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 0.5,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          5.156685292141179,
+          0.19816136642712393
+        ],
+        [
+          2.1468796476611853,
+          0.7573283233347331
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          3.099821435180287
+        ],
+        [
+          1.1449465623181694
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.6270252636806066
+        ],
+        [
+          0.13015198565297037
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          3.3046562333138128,
+          0.07810794596853843
+        ],
+        [
+          3.269854467979071,
+          0.1424670891492375
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.6328791832419922,
+          0.046919667711287506
+        ],
+        [
+          0.6645631412752272,
+          0.10010673315191489
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 1.0,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          3.10741480624926,
+          0.5882404552559953
+        ],
+        [
+          1.1510001992134142,
+          0.05514264542335461
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          2.9593487765911872
+        ],
+        [
+          0.9381769570818647
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.14135986265067327
+        ],
+        [
+          0.047051800129221874
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          3.1139058772601524,
+          0.11780376523772068
+        ],
+        [
+          2.976206989564488,
+          0.30732988168166153
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.14853925232910276,
+          0.011518572693181763
+        ],
+        [
+          0.14861029648315374,
+          0.02235690044031476
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "kundur",
+      "frequency_Hz": 2.0,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          2.9608824083059497,
+          0.10441818071930345
+        ],
+        [
+          0.9388897644502898,
+          0.02959535276468638
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.5516554527806556
+        ],
+        [
+          0.11727406539063029
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.05349191888187865
+        ],
+        [
+          0.05418639111501695
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.5516960322953333,
+          0.03607071962934182
+        ],
+        [
+          1.0607815550499553,
+          0.08181402177807477
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.06052636724522431,
+          0.002085969564047169
+        ],
+        [
+          0.07471743681906645,
+          0.00010068342594526532
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.05,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.5516781067989103,
+          0.05283069572279488
+        ],
+        [
+          0.12910507886695236,
+          0.004609772887403106
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.5914981134175639
+        ],
+        [
+          0.12638600854838977
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.08963089636871684
+        ],
+        [
+          0.07789145444393952
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.5915551335293678,
+          0.044584435237892066
+        ],
+        [
+          1.178395740717693,
+          0.08424035237601464
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.09625630828692569,
+          0.0030472652007707325
+        ],
+        [
+          0.10521361198086615,
+          0.00023278844353152197
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.1,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.591571968710299,
+          0.08830974471227351
+        ],
+        [
+          0.14831630830051074,
+          0.006540223566041994
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.6106117921904999
+        ],
+        [
+          0.13513113014625047
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.1928976256405432
+        ],
+        [
+          0.1909868046283062
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.6107624317574425,
+          0.08938319258717936
+        ],
+        [
+          1.305285519975537,
+          0.08534256606230302
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.2088032311980185,
+          0.006504093739195449
+        ],
+        [
+          0.25418828565354556,
+          0.0005696240761240693
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.2,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.611016670945941,
+          0.18948647723547304
+        ],
+        [
+          0.23367424145945678,
+          0.011520883433191905
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.6230565850393375
+        ],
+        [
+          0.38765045596207304
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.23105611907635495
+        ],
+        [
+          0.3618124827934888
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.6238051140110357,
+          0.23379566514417344
+        ],
+        [
+          1.7678561773483539,
+          0.19543645918691632
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.2855969135058021,
+          0.03766805133887931
+        ],
+        [
+          0.9828507411368155,
+          0.001595652923711957
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 0.5,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.6231224217226132,
+          0.23059317531857162
+        ],
+        [
+          0.5301475371736936,
+          0.011168596217028249
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.683027911295222
+        ],
+        [
+          0.04320441816217164
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.5029343645356215
+        ],
+        [
+          0.10537445111680288
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.683435649538681,
+          0.14448546592306724
+        ],
+        [
+          0.938685471037626,
+          0.04058538794167327
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.5036749995230291,
+          0.0084807649930212
+        ],
+        [
+          0.10842153723504572,
+          0.000567146293004221
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 1.0,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.694466152846794,
+          0.4629366933892733
+        ],
+        [
+          0.11281038300671967,
+          0.015627353671574758
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "sensors": "V_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.7384737157243642
+        ],
+        [
+          0.01808716741185504
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "sensors": "F_first",
+      "complex_channel_count": 1,
+      "PQ_complex_ranks": [
+        1,
+        1
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.4831083113266294
+        ],
+        [
+          0.0018047653993649422
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "sensors": "V_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.738598018723596,
+          0.006317393334068508
+        ],
+        [
+          1.0359191233959026,
+          0.0035503207131783276
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "sensors": "F_pair",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          0.48310831550207556,
+          0.00020887197159398182
+        ],
+        [
+          0.0020910107707032377,
+          0.0012096380924048735
+        ]
+      ],
+      "both_fill_observation_space": true
+    },
+    {
+      "case": "wecc",
+      "frequency_Hz": 2.0,
+      "sensors": "V_first_F_first",
+      "complex_channel_count": 2,
+      "PQ_complex_ranks": [
+        2,
+        2
+      ],
+      "PQ_block_singular_values": [
+        [
+          1.7455079547893066,
+          0.4570410052769857
+        ],
+        [
+          0.01812563095536948,
+          0.0013653957671560626
+        ]
+      ],
+      "both_fill_observation_space": true
+    }
+  ],
+  "causal_single_sensor_alias": {
+    "case": "kundur",
+    "sensor": "V bus7",
+    "same_zero_grid_state": true,
+    "source_generator_states_zero": true,
+    "drive_scale": 5905.783722543693,
+    "max_source_MW": [
+      1.0,
+      0.66714255217065
+    ],
+    "max_voltage_alias_difference_pu": 1.4230153513872246e-18,
+    "relative_voltage_alias_L2_difference": 1.0453761500931724e-14,
+    "distinct_source_trace_L2": 11.038308619213135,
+    "source_tail_at_40s_MW": [
+      0.0021617348683627253,
+      -0.0019762110457507464
+    ],
+    "input_interpretation": "Continuous piecewise-linear interpolation of the sampled drive; equality theorem holds for any common admissible causal drive. 40s truncates reported arrays, not the filter evolution. Incremental signals may be signed about a common positive background."
+  },
+  "direct_PCC": {
+    "resolved_two_port_P": {
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        10.0,
+        10.0
+      ],
+      "correlation": 0.0,
+      "sin_principal_angle": 1.0,
+      "normalized_column_condition": 1.0,
+      "residual_per_MW": [
+        10.0,
+        10.0
+      ],
+      "critical_amplitude_MW": [
+        0.2,
+        0.2
+      ],
+      "complex_alias_source2_over_source1": [
+        0.0,
+        0.0
+      ],
+      "residual_is_numerically_zero": false
+    },
+    "one_aggregate_P": {
+      "degenerate_zero_column": false,
+      "norms_per_MW": [
+        10.0,
+        10.0
+      ],
+      "correlation": 1.0,
+      "sin_principal_angle": 0.0,
+      "normalized_column_condition": null,
+      "residual_per_MW": [
+        0.0,
+        0.0
+      ],
+      "critical_amplitude_MW": [
+        null,
+        null
+      ],
+      "complex_alias_source2_over_source1": [
+        1.0,
+        0.0
+      ],
+      "residual_is_numerically_zero": true
+    }
+  }
+}

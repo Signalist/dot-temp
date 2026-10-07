@@ -1,0 +1,218 @@
+{
+  "mode": "full",
+  "started_utc": "2026-10-07T04:03:49Z",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "sympy": "1.14.0",
+      "matplotlib": "3.10.8"
+    }
+  },
+  "archive_files_verified_before": 45,
+  "source_code_modified": false,
+  "stages": [
+    {
+      "name": "01_saved_exact_certificates",
+      "script": "validation/independent_saved_certificate_check.py",
+      "exit_code": 0,
+      "elapsed_seconds": 18.066,
+      "log": "logs/01_saved_exact_certificates.log",
+      "log_sha256": "409aa61c779b742cbb76ccdb876ab5a4cc806f70ab4552a664df5698146cef91"
+    },
+    {
+      "name": "02_independent_theory",
+      "script": "validation/independent_theory_checks.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.954,
+      "log": "logs/02_independent_theory.log",
+      "log_sha256": "662a8625f9837b492ae1c58d918e3a701aa577257d9d7784f8f6a82ce6054dd5"
+    },
+    {
+      "name": "03_independent_t6_threshold",
+      "script": "validation/independent_t6_threshold_check.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.428,
+      "log": "logs/03_independent_t6_threshold.log",
+      "log_sha256": "fdda1a4b3e5d8f6142eff3565531716d4012488171ca95cb140f0a713be1d6d5"
+    },
+    {
+      "name": "04_produce_workloads",
+      "script": "experiments/run_workload_study.py",
+      "exit_code": 0,
+      "elapsed_seconds": 7.554,
+      "log": "logs/04_produce_workloads.log",
+      "log_sha256": "8f93c18bc5e0c5eef6bb6a1a3593dff503896467241aa89c8565b9f7f1f48cd3"
+    },
+    {
+      "name": "05_produce_boundaries",
+      "script": "experiments/run_boundaries.py",
+      "exit_code": 0,
+      "elapsed_seconds": 8.882,
+      "log": "logs/05_produce_boundaries.log",
+      "log_sha256": "34260afb034216e97f4fb9dd4e5960123af0b4f3bf93f69df771e7c06a096912"
+    },
+    {
+      "name": "06_rebuilt_exact_certificates",
+      "script": "validation/independent_saved_certificate_check.py",
+      "exit_code": 0,
+      "elapsed_seconds": 6.987,
+      "log": "logs/06_rebuilt_exact_certificates.log",
+      "log_sha256": "cc3eab37a4ec91e8ea695f667dad9ee09849d75517c0810dfb52f0ad835e4083"
+    },
+    {
+      "name": "07_figures",
+      "script": "report/make_figures.py",
+      "exit_code": 0,
+      "elapsed_seconds": 4.061,
+      "log": "logs/07_figures.log",
+      "log_sha256": "8612cee6d14370786a81d2e4875f36bc25ab303931fc2f94880fb176dad80d0a"
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "validation/independent_saved_certificate_check.json",
+      "byte_identical": true,
+      "scientific_json_identical": true,
+      "ignored_for_semantic_comparison": [
+        "seconds",
+        "python",
+        "numpy",
+        "scipy"
+      ],
+      "saved_sha256": "fb6fa45063d5e4afcbf454c68bd113d6358b08ca95293add33892c77d6157a3f",
+      "replayed_sha256": "fb6fa45063d5e4afcbf454c68bd113d6358b08ca95293add33892c77d6157a3f"
+    },
+    {
+      "file": "validation/independent_theory_checks.json",
+      "byte_identical": true,
+      "scientific_json_identical": true,
+      "ignored_for_semantic_comparison": [
+        "seconds",
+        "python",
+        "numpy",
+        "scipy"
+      ],
+      "saved_sha256": "8842918ab89dea2df234a0e71147c3795853a0c95833d06005d4942b5315f676",
+      "replayed_sha256": "8842918ab89dea2df234a0e71147c3795853a0c95833d06005d4942b5315f676"
+    },
+    {
+      "file": "validation/independent_t6_threshold_check.json",
+      "byte_identical": true,
+      "scientific_json_identical": true,
+      "ignored_for_semantic_comparison": [
+        "seconds",
+        "python",
+        "numpy",
+        "scipy"
+      ],
+      "saved_sha256": "7e2c0046701b86dde53a0b6fd0d4be23b884a3e9d42e78eca95308d990d7c6cb",
+      "replayed_sha256": "7e2c0046701b86dde53a0b6fd0d4be23b884a3e9d42e78eca95308d990d7c6cb"
+    },
+    {
+      "file": "experiments/dag_results.json",
+      "byte_identical": false,
+      "scientific_json_identical": true,
+      "ignored_for_semantic_comparison": [
+        "seconds",
+        "python",
+        "numpy",
+        "scipy"
+      ],
+      "saved_sha256": "9b3e9deba2546647fa910e1e90d8ebca9c082526dec1edd0ccf840c25aa8a4cb",
+      "replayed_sha256": "97fb061a360b3d515e657751a24667adc4c4d5f593bf12ca081db683eb754fda"
+    },
+    {
+      "file": "experiments/finite_horizons.json",
+      "byte_identical": true,
+      "scientific_json_identical": true,
+      "ignored_for_semantic_comparison": [
+        "seconds",
+        "python",
+        "numpy",
+        "scipy"
+      ],
+      "saved_sha256": "29ab3555f6cba6f8348d331c865d16771a5dd9e158c60fcf9aa4634e2b00083f",
+      "replayed_sha256": "29ab3555f6cba6f8348d331c865d16771a5dd9e158c60fcf9aa4634e2b00083f"
+    },
+    {
+      "file": "experiments/leakage_results.json",
+      "byte_identical": true,
+      "scientific_json_identical": true,
+      "ignored_for_semantic_comparison": [
+        "seconds",
+        "python",
+        "numpy",
+        "scipy"
+      ],
+      "saved_sha256": "d6e3dd13204070b3af84e028aefbca9cd24f5beacd67ea42f3a94c44c806ded0",
+      "replayed_sha256": "d6e3dd13204070b3af84e028aefbca9cd24f5beacd67ea42f3a94c44c806ded0"
+    },
+    {
+      "file": "experiments/SUMMARY.json",
+      "byte_identical": true,
+      "scientific_json_identical": true,
+      "ignored_for_semantic_comparison": [
+        "seconds",
+        "python",
+        "numpy",
+        "scipy"
+      ],
+      "saved_sha256": "6013d1ce2e6834d60ed8a37f9c2beaadff7b0dcc8f7011cf904aa55cdeb4179e",
+      "replayed_sha256": "6013d1ce2e6834d60ed8a37f9c2beaadff7b0dcc8f7011cf904aa55cdeb4179e"
+    },
+    {
+      "file": "experiments/boundary_results.json",
+      "byte_identical": false,
+      "scientific_json_identical": true,
+      "ignored_for_semantic_comparison": [
+        "seconds",
+        "python",
+        "numpy",
+        "scipy"
+      ],
+      "saved_sha256": "6375c48b8a3523c1a9d9033879952921b9ccb984e0d7042b274276bf77b669cd",
+      "replayed_sha256": "34260afb034216e97f4fb9dd4e5960123af0b4f3bf93f69df771e7c06a096912"
+    },
+    {
+      "file": "experiments/dag_results.csv",
+      "byte_identical": true
+    }
+  ],
+  "historical_round2": "not requested; excluded from portable archive",
+  "note": "Work is a disposable copy. Certificate verification is exact rational arithmetic. Theory/threshold suites mix exact witnesses with finite numerical LP checks, not a replacement for theorem proofs.",
+  "rebuilt_exact_certificates": {
+    "records_checked": 89,
+    "all_passed": true
+  },
+  "figure_replay": [
+    {
+      "file": "report/figures/dag_capacity_and_horizon.pdf",
+      "bytes": 20701,
+      "sha256": "2c6c9869308fa0116c19c066b845a1b4542d8693c124e8a803751d5a710f6b1f",
+      "byte_identical_to_saved": false
+    },
+    {
+      "file": "report/figures/dag_capacity_and_horizon.png",
+      "bytes": 113286,
+      "sha256": "bcc7398e834dced8bfdf74f48971f6e05a5ee9b9a4ad33c750947b478a2aaa70",
+      "byte_identical_to_saved": true
+    },
+    {
+      "file": "report/figures/leakage_and_action_boundary.pdf",
+      "bytes": 20781,
+      "sha256": "6665c8e9b7860a851a96ef33c735083c8ba32492da5e74fa1ff287aee2a7fcaa",
+      "byte_identical_to_saved": false
+    },
+    {
+      "file": "report/figures/leakage_and_action_boundary.png",
+      "bytes": 109432,
+      "sha256": "2c271febf3c1dfccc25561f9cb2039f2a2026d3fe12600643f1ac63013cf5b89",
+      "byte_identical_to_saved": true
+    }
+  ],
+  "archive_files_verified_after": 45,
+  "all_requested_stages_passed": true
+}

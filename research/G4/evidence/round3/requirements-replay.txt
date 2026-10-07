@@ -1,0 +1,7 @@
+# Validated scientific replay environment: CPython 3.12.14
+# Exact saved-certificate mode uses Python standard library only.
+# Checks mode requires numpy and scipy; full mode also uses sympy and matplotlib.
+numpy==2.3.5
+scipy==1.17.0
+sympy==1.14.0
+matplotlib==3.10.8

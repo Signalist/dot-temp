@@ -1,0 +1,485 @@
+{
+  "scope": "exact small-model piecewise-linear set-membership, all6 candidate high-task slots, actual world highslot2; not exposedPCC-source inference",
+  "state_contract": {
+    "initial_energy": 9,
+    "capacity": 18,
+    "eta_c": 0.95,
+    "eta_d": 0.95,
+    "battery_ac_limit": 12,
+    "exact_recovery": true
+  },
+  "observed_PCC": [
+    6.0,
+    12.30749014454665,
+    12.30749014454665,
+    6.0,
+    6.0,
+    6.0
+  ],
+  "energy_observation": 3.0078843626806826,
+  "energy_error": 0.1,
+  "PCC_fit": [
+    {
+      "high_slot_1indexed": 1,
+      "minimum_PCC_Linf_error": 3.4499999999999993,
+      "candidate_PCC": [
+        9.45,
+        15.757490144546649,
+        8.85749014454665,
+        6.0,
+        3.1649802890933008,
+        6.0
+      ],
+      "candidate_energy": [
+        9.0,
+        -1.7763568394002505e-15,
+        9.269615637319314,
+        11.984231274638631,
+        11.984231274638631,
+        9.0,
+        9.0
+      ],
+      "mode": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terminal_error": 0.0
+    },
+    {
+      "high_slot_1indexed": 2,
+      "minimum_PCC_Linf_error": 0.0,
+      "candidate_PCC": [
+        6.0,
+        12.30749014454665,
+        12.30749014454665,
+        6.0,
+        6.0000000000000036,
+        6.0
+      ],
+      "candidate_energy": [
+        9.0,
+        9.0,
+        3.0078843626806835,
+        9.0,
+        9.0,
+        9.000000000000004,
+        9.000000000000004
+      ],
+      "mode": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terminal_error": 3.552713678800501e-15
+    },
+    {
+      "high_slot_1indexed": 3,
+      "minimum_PCC_Linf_error": 0.0,
+      "candidate_PCC": [
+        6.0,
+        12.30749014454665,
+        12.307490144546652,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "candidate_energy": [
+        9.0,
+        9.0,
+        14.992115637319317,
+        9.000000000000004,
+        9.000000000000004,
+        9.000000000000004,
+        9.000000000000004
+      ],
+      "mode": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "terminal_error": 3.552713678800501e-15
+    },
+    {
+      "high_slot_1indexed": 4,
+      "minimum_PCC_Linf_error": 1.22994652406417,
+      "candidate_PCC": [
+        4.77005347593583,
+        11.758962223355937,
+        11.07754362048248,
+        7.22994652406417,
+        7.22994652406417,
+        7.22994652406417
+      ],
+      "candidate_energy": [
+        9.0,
+        7.705319448353506,
+        13.176333560541647,
+        18.0,
+        6.663101604278074,
+        7.831550802139035,
+        8.999999999999996
+      ],
+      "mode": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "terminal_error": -3.552713678800501e-15
+    },
+    {
+      "high_slot_1indexed": 5,
+      "minimum_PCC_Linf_error": 1.8134034165571582,
+      "candidate_PCC": [
+        4.186596583442842,
+        12.988908747420107,
+        10.494086727989492,
+        6.0,
+        7.813403416557158,
+        7.813403416557158
+      ],
+      "candidate_energy": [
+        9.0,
+        7.091154298360887,
+        13.730617608409988,
+        18.000000000000007,
+        18.000000000000007,
+        7.277266754270697,
+        8.999999999999996
+      ],
+      "mode": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "terminal_error": -3.552713678800501e-15
+    },
+    {
+      "high_slot_1indexed": 6,
+      "minimum_PCC_Linf_error": 3.4499999999999966,
+      "candidate_PCC": [
+        2.5500000000000034,
+        15.757490144546647,
+        8.857490144546652,
+        6.681418602873459,
+        6.0,
+        9.449999999999996
+      ],
+      "candidate_energy": [
+        9.0,
+        5.368421052631582,
+        14.638036689950896,
+        17.352652327270214,
+        18.0,
+        18.0,
+        8.999999999999996
+      ],
+      "mode": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "terminal_error": -3.552713678800501e-15
+    }
+  ],
+  "PCC_plus_SOC_fit": [
+    {
+      "high_slot_1indexed": 1,
+      "minimum_PCC_Linf_error": 3.4499999999999993,
+      "candidate_PCC": [
+        9.45,
+        9.271457223874402,
+        12.202226986651922,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "candidate_energy": [
+        9.0,
+        -1.7763568394002505e-15,
+        3.1078843626806796,
+        9.000000000000005,
+        9.000000000000005,
+        9.000000000000005,
+        9.000000000000005
+      ],
+      "mode": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terminal_error": 5.329070518200751e-15
+    },
+    {
+      "high_slot_1indexed": 2,
+      "minimum_PCC_Linf_error": 0.0,
+      "candidate_PCC": [
+        6.0,
+        12.30749014454665,
+        12.30749014454665,
+        6.0,
+        6.0000000000000036,
+        6.0
+      ],
+      "candidate_energy": [
+        9.0,
+        9.0,
+        3.0078843626806835,
+        9.0,
+        9.0,
+        9.000000000000004,
+        9.000000000000004
+      ],
+      "mode": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "terminal_error": 3.552713678800501e-15
+    },
+    {
+      "high_slot_1indexed": 3,
+      "minimum_PCC_Linf_error": 5.93430733819012,
+      "candidate_PCC": [
+        0.06569266180987965,
+        6.37318280635653,
+        18.0,
+        6.0,
+        11.93430733819012,
+        6.267919648461797
+      ],
+      "candidate_energy": [
+        9.0,
+        2.7533606966419786,
+        3.1078843626806822,
+        3.1078843626806822,
+        3.1078843626806822,
+        8.745476333961296,
+        9.000000000000004
+      ],
+      "mode": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "terminal_error": 3.552713678800501e-15
+    },
+    {
+      "high_slot_1indexed": 4,
+      "minimum_PCC_Linf_error": 5.93430733819012,
+      "candidate_PCC": [
+        0.06569266180987965,
+        6.37318280635653,
+        18.0,
+        11.93430733819012,
+        6.0,
+        6.923216085610237
+      ],
+      "candidate_energy": [
+        9.0,
+        2.7533606966419786,
+        3.1078843626806822,
+        14.50788436268068,
+        8.12294471867028,
+        8.12294471867028,
+        9.000000000000005
+      ],
+      "mode": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "terminal_error": 5.329070518200751e-15
+    },
+    {
+      "high_slot_1indexed": 5,
+      "minimum_PCC_Linf_error": 5.93430733819012,
+      "candidate_PCC": [
+        0.06569266180987965,
+        6.37318280635653,
+        18.0,
+        6.0,
+        11.93430733819012,
+        6.923216085610237
+      ],
+      "candidate_energy": [
+        9.0,
+        2.7533606966419786,
+        3.1078843626806822,
+        14.50788436268068,
+        14.50788436268068,
+        8.12294471867028,
+        9.000000000000005
+      ],
+      "mode": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "terminal_error": 5.329070518200751e-15
+    },
+    {
+      "high_slot_1indexed": 6,
+      "minimum_PCC_Linf_error": 5.93430733819012,
+      "candidate_PCC": [
+        0.06569266180987965,
+        6.37318280635653,
+        15.741603858988105,
+        6.0,
+        11.93430733819012,
+        9.45
+      ],
+      "candidate_energy": [
+        9.0,
+        2.7533606966419786,
+        3.1078843626806822,
+        12.362408028719381,
+        12.362408028719381,
+        17.999999999999993,
+        8.999999999999993
+      ],
+      "mode": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "terminal_error": -7.105427357601002e-15
+    }
+  ],
+  "noise_ablation": [
+    {
+      "PCC_error": 0,
+      "PCC_only_candidates": [
+        2,
+        3
+      ],
+      "plus_identity_bound_SOC_candidates": [
+        2
+      ],
+      "PCC_only_decision": "abstain",
+      "plus_SOC_decision": "singleton"
+    },
+    {
+      "PCC_error": 0.05,
+      "PCC_only_candidates": [
+        2,
+        3
+      ],
+      "plus_identity_bound_SOC_candidates": [
+        2
+      ],
+      "PCC_only_decision": "abstain",
+      "plus_SOC_decision": "singleton"
+    },
+    {
+      "PCC_error": 0.1,
+      "PCC_only_candidates": [
+        2,
+        3
+      ],
+      "plus_identity_bound_SOC_candidates": [
+        2
+      ],
+      "PCC_only_decision": "abstain",
+      "plus_SOC_decision": "singleton"
+    },
+    {
+      "PCC_error": 0.25,
+      "PCC_only_candidates": [
+        2,
+        3
+      ],
+      "plus_identity_bound_SOC_candidates": [
+        2
+      ],
+      "PCC_only_decision": "abstain",
+      "plus_SOC_decision": "singleton"
+    },
+    {
+      "PCC_error": 0.5,
+      "PCC_only_candidates": [
+        2,
+        3
+      ],
+      "plus_identity_bound_SOC_candidates": [
+        2
+      ],
+      "PCC_only_decision": "abstain",
+      "plus_SOC_decision": "singleton"
+    },
+    {
+      "PCC_error": 1,
+      "PCC_only_candidates": [
+        2,
+        3
+      ],
+      "plus_identity_bound_SOC_candidates": [
+        2
+      ],
+      "PCC_only_decision": "abstain",
+      "plus_SOC_decision": "singleton"
+    },
+    {
+      "PCC_error": 2,
+      "PCC_only_candidates": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "plus_identity_bound_SOC_candidates": [
+        2
+      ],
+      "PCC_only_decision": "abstain",
+      "plus_SOC_decision": "singleton"
+    }
+  ],
+  "mapping_ablation": {
+    "labelled_site_SOC": "distinguishes source-of-high-task swapped worlds",
+    "unlabelled_SOC_multiset": "same in swapped worlds; still abstain",
+    "block_end_SOC": "identical; still abstain",
+    "total_SOC": "identical; still abstain"
+  },
+  "tests": {
+    "noise0_retains_two": true,
+    "noise0_SOC_selects2": true,
+    "all_models_preserve_recovery": true,
+    "candidate_sets_nested": true
+  }
+}

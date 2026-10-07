@@ -1,0 +1,33 @@
+{
+  "scope": "Publication packaging QA, not an additional scientific result",
+  "all_current_frozen_scientific_files_preserved": true,
+  "frozen_scientific_files_checked": 114,
+  "scientific_original_content_changed": false,
+  "zip_excludes_private_delivery_and_transport_metadata": true,
+  "text_binary_and_npz_string_privacy_pattern_scan": "pass",
+  "privacy_scan_scope": "Absolute environment paths, signed query credentials, private account/thread/file identifiers, download/coordination helper identifiers; not a claim of formal privacy certification.",
+  "npz_string_arrays_scanned": 9,
+  "offline_html_links_total": 158,
+  "offline_html_local_links_checked": 135,
+  "offline_html_missing_local_links": [],
+  "offline_html_external_links": "23 original-publication links only; no remotely loaded assets or scripts",
+  "offline_html_mobile_support": "Viewport metadata, responsive typography and container widths, wrapped long links, collapsible source/file indexes; no fixed wide tables.",
+  "png_metadata_checks": [
+    {
+      "path": "outputs/round2_g4_identifiability_20261003/report/figures/smooth_dag_equivalence.png",
+      "sensitive_metadata_pattern_found": false
+    },
+    {
+      "path": "outputs/round2_g4_identifiability_20261003/report/figures/grid_service_decision.png",
+      "sensitive_metadata_pattern_found": false
+    },
+    {
+      "path": "outputs/round2_g4_identifiability_20261003/report/figures/capacity_tolerance_horizon.png",
+      "sensitive_metadata_pattern_found": false
+    }
+  ],
+  "source_transformations": 3,
+  "unchanged_scientific_numeric_payloads": true,
+  "generated_launcher_test": "21/21 commands exited zero in a second fresh copy",
+  "public_checksum_controls": "Manifest itself is checked by SHA256SUMS.txt; external ZIP SHA256 covers SHA256SUMS.txt and all members."
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "audit": "SERVICE_DECISION_INDEPENDENT_AUDIT.json",
+    "source": "SERVICE_DECISION_FREEZE.json",
+    "match": true
+  },
+  {
+    "audit": "SERVICE_DECISION_INDEPENDENT_AUDIT.json",
+    "source": "SERVICE_CAUSAL_MEASUREMENT_AMENDMENT.json",
+    "match": true
+  },
+  {
+    "audit": "SERVICE_DECISION_INDEPENDENT_AUDIT.json",
+    "source": "experiments/GRID_SERVICE_DECISION_RESULTS.json",
+    "match": true
+  },
+  {
+    "audit": "INDEPENDENT_THEORY_CHECKS.json",
+    "source": "experiments/RECOVERY_FRONTIER_RESULTS.json",
+    "match": true
+  },
+  {
+    "audit": "INDEPENDENT_THEORY_CHECKS.json",
+    "source": "experiments/CAUSAL_HORIZON_RESULTS.json",
+    "match": true
+  }
+]

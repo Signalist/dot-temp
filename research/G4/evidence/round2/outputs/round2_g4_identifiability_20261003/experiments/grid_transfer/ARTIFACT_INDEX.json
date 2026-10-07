@@ -1,0 +1,70 @@
+{
+  "PROTOCOL_FREEZE.json": {
+    "bytes": 5928,
+    "sha256": "d70678c27d393141c9ead63a0db5e33f3123363bc74b07404c7b4b7a71dc92f3"
+  },
+  "PROTOCOL_FREEZE.sha256": {
+    "bytes": 87,
+    "sha256": "ce56da06bda6b8568aa284a2a75d5f5b3745aadd986b7dc8d78ae8c48416615f"
+  },
+  "REPORT.md": {
+    "bytes": 16618,
+    "sha256": "9b95d6acb5f1a310e8ef0fe2cd3ed41be3d5afa8d4c325cc2c33c5ec1fe66e4d"
+  },
+  "causal_lockin_arrays.npz": {
+    "bytes": 9125,
+    "sha256": "bf3760d6bd271d7e527f85b5f2de89f57c7763e1901ecd9f84954b9572b4b277"
+  },
+  "causal_single_sensor_alias.npz": {
+    "bytes": 138950,
+    "sha256": "f74d16630d4f236576427fdd209992923fb8c1d75ed7da4b3766be3a853aa845"
+  },
+  "cyclic_continuing_load_same_PCC.npz": {
+    "bytes": 1177626,
+    "sha256": "47ba1a48784aafbb59f3225d2d72b2af80f82f27fe9fd2b7babb8bd24d2fcc41"
+  },
+  "cyclic_continuing_load_witness.json": {
+    "bytes": 1535,
+    "sha256": "24ecb10757cd34f1e3757f91c6bd7073771963b59eb1584c2be8358ef7d5b68c"
+  },
+  "freeze_protocol.py": {
+    "bytes": 5213,
+    "sha256": "6d20b68edef52e7f3b024d9874ec96eb6462f4919e7ffe5cb7462baf150c0d38"
+  },
+  "harmonic_summary.csv": {
+    "bytes": 5657,
+    "sha256": "c9ff06c08860f2524ed7bf34d3af2a5a133bc72807da697b06efe54da9a14b9b"
+  },
+  "harmonic_transfer_arrays.npz": {
+    "bytes": 4297,
+    "sha256": "1dbec1602dc58c99abd3083aeb3f6c6cc206b118dac28dc03e5cf01d9f09f860"
+  },
+  "input_integrity_after.json": {
+    "bytes": 1150,
+    "sha256": "611139f40184f45d0e8c4c363dec6c248746a74087cda32835acfb8b6ef99bde"
+  },
+  "results.json": {
+    "bytes": 94323,
+    "sha256": "0817565e2394614d1c1daefe9c362fbe216063051dd00f129989def65a86a8e8"
+  },
+  "run.log": {
+    "bytes": 8029,
+    "sha256": "bfd172ad703e40e9e45cf6990817ac0c1360d9b80ee3e701586546a53bdfb39b"
+  },
+  "run_transfer_study.py": {
+    "bytes": 9305,
+    "sha256": "176d34c472f9105c6402d24a0c52f843801e8a0e810461678990c4df7db6b739"
+  },
+  "validate_and_witness.py": {
+    "bytes": 5212,
+    "sha256": "b9c1efbf4c1890bc9ccd6691f353bd24a86cfdf3dda3875256c480aaf1ae0589"
+  },
+  "validation.json": {
+    "bytes": 652,
+    "sha256": "beeb2db6eebe9ce8760ad43d6184d118553a2a306e8a622d2b2dda4049e17a26"
+  },
+  "validation.log": {
+    "bytes": 2187,
+    "sha256": "beb40fadd70bdc3b7470a0b7d2b10e4abfe0f8ed9cab442c466b622d35376ed9"
+  }
+}

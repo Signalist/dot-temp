@@ -1,0 +1,119 @@
+{
+  "directions": [
+    {
+      "sequence": 4,
+      "direction": "G4",
+      "title": "远端观测能辨认负荷来源吗",
+      "status": "本轮已完成",
+      "engineering_judgment": "可辨识边界",
+      "paper_ready": false,
+      "conclusion": "隐藏能量可造成有限窗来源歧义；直接PCC信息基线有竞争力，未证明持续差异。",
+      "key_unclosed_condition": "真实同步观测及未知映射下的信息增量。",
+      "evidence_type": "可辨识性模型与有限歧义反例",
+      "data_source_ids": [
+        "SYNTHETIC_ROUTE_OUTPUTS",
+        "GRID_FO_EXTERNAL_CANDIDATES"
+      ],
+      "report_path": "G4/GateC/GATE_C_REPORT_ZH.md",
+      "archived_readable_filenames": [
+        "算力电网_G4隐藏状态验证与全路线结论.zip"
+      ],
+      "reproduction_limit": "已归档本轮报告、代码、结果与审查；来源受限的文件按相应许可及依赖说明使用。",
+      "original_direction_title": "稀疏测量下的定位与弃权"
+    }
+  ],
+  "evidence": [
+    {
+      "direction": "G4",
+      "question": "稀疏远端测量、阶段遥测与隐藏供电状态下，什么时候可以定位显著PCC振荡源，什么时候必须弃权？",
+      "evidence_type": "可辨识性模型与有限歧义反例",
+      "scope": [
+        "Gate A稀疏集合与结构误差；Gate B未知资产映射、PCC身份锚及同成本基线；Gate C两站同作业/同控制，仅交换隐藏缓冲初能量的200周期连续守恒模型。"
+      ],
+      "strongest_result": [
+        "跨窗阶段信息有条件提高覆盖；Gate B未知映射稀疏集合132/180，成熟直接PCC基线180/180。",
+        "有限窗口同输出异源见证成立：C/R=2首周期低/高初能量PCC基频约0.814/0.237MW，交换后源类不同而远端PMU一致。",
+        "连续软模型周期收缩与能量差预算说明本自然控制族没有持续非零初态分离；这是有效的边界结果。"
+      ],
+      "failure_and_repair": [
+        "合同错标签可导致严重错定位，残差不能自证合同；结构化Neumann界修复部分保守性但属成熟扰动理论。",
+        "三身份锚不是普遍下界；generic网络可以0锚，直接PCC在同预算强。",
+        "能量1bit与同站同刻PCC1bit都区分二元世界，无已证硬件/通信成本优势。",
+        "数值能量微负未截断掩盖；按解析充放分支分段积分修复，保留原失败；最后5周期标签均相同。"
+      ],
+      "same_information_baselines": [
+        "同信息稀疏集合/映射枚举、经典集合观察；generic2点及对称3点直接PCC；二元世界1bit能量与1bitPCC同身份/精度条件对照。"
+      ],
+      "ablation": [
+        "同步/多样阶段、错误映射/误差界、身份锚查询、容量和初态交换、无身份总能量、PCC摘要与连续/硬截断控制对照。"
+      ],
+      "transfer": [
+        "仅自建4/6节点与已知频率；无IEEE39/68、未知频率/近频源、完整PMU链或真实阶段—PCC—PMU联合验证。"
+      ],
+      "independent_unit": "9频率/容量例仅3种归一化缓冲轨道；45窗口和9个异类窗口不是45/9个独立机制。零错计数不认证<1%现实风险。",
+      "measurement_scope": [
+        [
+          "synthetic_GPU_or_service",
+          "synthetic_PCC",
+          "synthetic_grid_side"
+        ],
+        [
+          "grid_side_PMU",
+          "synthetic_grid_side"
+        ]
+      ],
+      "reopen_conditions": [
+        "同一有据供电链控制律的持续非零间隔新见证，或合法同步阶段/状态/PCC/远端PMU数据及明确权限成本，使同信息成熟方法存在可证缺口。"
+      ],
+      "science_paths": [
+        "G4/GateC/GATE_C_REPORT_ZH.md",
+        "G4/GateC/G4_HYPOTHESIS_LEDGER_ZH.md",
+        "G4/GATE_A_REPORT_ZH.md",
+        "G4/GateB/GATE_B_REPORT_ZH.md",
+        "G4/GateC/MANIFEST.json"
+      ],
+      "public_sources": [
+        "https://arxiv.org/abs/2512.16497",
+        "https://arxiv.org/abs/2201.07907",
+        "https://arxiv.org/abs/2201.07910",
+        "https://ieeexplore.ieee.org/document/11183666/",
+        "https://aisel.aisnet.org/hicss-50/es/monitoring/7/",
+        "https://doi.org/10.1109/TPWRD.2023.3284418",
+        "https://arxiv.org/abs/2609.20943",
+        "https://arxiv.org/abs/1501.06120",
+        "https://arxiv.org/abs/1507.01308",
+        "https://arxiv.org/abs/2508.14318",
+        "https://docs.nvidia.com/datacenter/dcgm/latest/dcgm-api/dcgm-api-field-ids.html",
+        "https://docs.nvidia.com/deploy/nvidia-smi/index.html",
+        "https://developer.nvidia.com/blog/how-new-gb300-nvl72-features-provide-steady-power-for-ai",
+        "https://arxiv.org/abs/2505.16575",
+        "https://arxiv.org/abs/2604.06624",
+        "https://www.ercot.com/files/docs/2026/04/24/Dynamic-Modeling-of-AI-Data-Center-Load-in-PSCAD-Manual.pdf",
+        "https://www.rfc-editor.org/rfc/rfc1628.html",
+        "https://ieee-dataport.org/documents/test-cases-library-forcedsustained-power-system-oscillations"
+      ],
+      "reproduction_limit": "已归档本轮报告、代码、结果与审查；来源受限的文件按相应许可及依赖说明使用。",
+      "original_direction_title": "稀疏测量下的定位与弃权"
+    }
+  ],
+  "research_decisions": [
+    {
+      "priority": "证据门满足后再投入实证",
+      "directions": [
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "W4",
+        "W5",
+        "W6",
+        "W7",
+        "M1",
+        "A2",
+        "A3"
+      ],
+      "judgment": "若未来考虑投入资源，先确认独立硬件或配对测量能补齐关键缺口，再决定是否继续；仅靠同数据多调算法不足以闭合物理主张。",
+      "basis": "关键缺口集中在真实到达/时钟、传感器增益与核、供电链内部状态、任务完成与恢复、同次PCC及独立capture。这里不是已获授权的采集计划。"
+    }
+  ]
+}

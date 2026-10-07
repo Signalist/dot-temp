@@ -1,0 +1,44 @@
+{
+  "scope": "fixed delayed-feedforward ablation on smooth DAG pair; does not prove impossibility for all preview-capable local controllers",
+  "same_initial_PCS_state": 0,
+  "sample_step": 0.0001,
+  "horizon6.1s": "includes delayed power recovery tails, no truncation",
+  "rows": [
+    {
+      "actuation_transport_delay": 0,
+      "max_world_PCC_difference_sampled": 3.552713678800501e-15,
+      "time_of_max": 1.1217000000000001,
+      "direct_PCC_linf_noise_separates_if_below": 1.7763568394002505e-15,
+      "each_task_energy_unchanged": true,
+      "battery_waveform_only_delayed": true
+    },
+    {
+      "actuation_transport_delay": 0.001,
+      "max_world_PCC_difference_sampled": 0.11780851333065989,
+      "time_of_max": 1.1005,
+      "direct_PCC_linf_noise_separates_if_below": 0.058904256665329946,
+      "each_task_energy_unchanged": true,
+      "battery_waveform_only_delayed": true
+    },
+    {
+      "actuation_transport_delay": 0.01,
+      "max_world_PCC_difference_sampled": 1.176886435917675,
+      "time_of_max": 1.105,
+      "direct_PCC_linf_noise_separates_if_below": 0.5884432179588375,
+      "each_task_energy_unchanged": true,
+      "battery_waveform_only_delayed": true
+    },
+    {
+      "actuation_transport_delay": 0.05,
+      "max_world_PCC_difference_sampled": 5.740251485476353,
+      "time_of_max": 1.125,
+      "direct_PCC_linf_noise_separates_if_below": 2.8701257427381766,
+      "each_task_energy_unchanged": true,
+      "battery_waveform_only_delayed": true
+    }
+  ],
+  "tests": {
+    "zero_delay_identical": true,
+    "positive_delays_expose_this_controller": true
+  }
+}

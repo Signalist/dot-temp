@@ -1,0 +1,89 @@
+{
+  "tests": {
+    "corridor_1000_exact_agreements": true,
+    "rearrangement_100_exhaustive_cases": true,
+    "sharp_exact_capacity": true,
+    "all_saved_schedules_direct_physics_feasible": true,
+    "all_extreme_histories_physically_realized": true,
+    "all_short_horizons_fully_enumerated": true,
+    "one_high_width_identity": true,
+    "periodic_independent_closed_form": true,
+    "full_history_LP_matches_compressed": true,
+    "sharp_positive_tolerance_budget": true,
+    "persistent_pairwise_counterexample": true,
+    "intraslot_extension": true
+  },
+  "full_history_optimization": [
+    {
+      "K": 1,
+      "periodic": false,
+      "complete_histories": 6,
+      "inequalities": 96,
+      "success": true,
+      "capacity": 12.631488570412099,
+      "reported_capacity_error": 1.7763568394002505e-15
+    },
+    {
+      "K": 1,
+      "periodic": true,
+      "complete_histories": 6,
+      "inequalities": 96,
+      "success": true,
+      "capacity": 12.631488570412099,
+      "reported_capacity_error": 0.0
+    },
+    {
+      "K": 2,
+      "periodic": false,
+      "complete_histories": 36,
+      "inequalities": 1080,
+      "success": true,
+      "capacity": 14.381188661165918,
+      "reported_capacity_error": 3.907985046680551e-14
+    },
+    {
+      "K": 2,
+      "periodic": true,
+      "complete_histories": 36,
+      "inequalities": 1080,
+      "success": true,
+      "capacity": 14.62289958718533,
+      "reported_capacity_error": 1.0658141036401503e-14
+    },
+    {
+      "K": 3,
+      "periodic": false,
+      "complete_histories": 216,
+      "inequalities": 9504,
+      "success": true,
+      "capacity": 16.625763557780232
+    },
+    {
+      "K": 3,
+      "periodic": true,
+      "complete_histories": 216,
+      "inequalities": 9504,
+      "success": true,
+      "capacity": 16.97535709440475
+    }
+  ],
+  "corridors": {
+    "cases": 1000,
+    "feasible": 435,
+    "mismatches": []
+  },
+  "rearrangement": {
+    "cases": 100,
+    "total_assignments": 48395,
+    "max_error": 2.1316282072803006e-14
+  },
+  "max_periodic_algebra_error": 1.9100809822703013e-10,
+  "pairwise": {
+    "q_pair": 12.30749014454665,
+    "Q_pair": 5.992115637319317,
+    "state_min": 3.0078843626806835,
+    "state_max": 14.992115637319317,
+    "endpoint_error": 8.881784197001252e-16,
+    "peak_converter_power": 6.30749014454665
+  }
+}

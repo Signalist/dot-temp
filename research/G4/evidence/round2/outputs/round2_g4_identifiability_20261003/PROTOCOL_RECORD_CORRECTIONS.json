@@ -1,0 +1,42 @@
+[
+  {
+    "file": "PROTOCOL.json",
+    "original_handwritten_time_fields": {
+      "frozen_at_utc": "2026-10-03T09:57:00Z"
+    },
+    "file_mtime_before_correction": "2026-10-03T09:57:27.792258+00:00",
+    "reason": "Replace manually rounded planned timestamps with observed filesystem chronology; content was written before associated first numerical run, not a preregistered statistical study"
+  },
+  {
+    "file": "LOSS_RIGIDITY_PROTOCOL.json",
+    "original_handwritten_time_fields": {
+      "frozen_at_utc": "2026-10-03T10:00:00Z"
+    },
+    "file_mtime_before_correction": "2026-10-03T10:01:54.332265+00:00",
+    "reason": "Replace manually rounded planned timestamps with observed filesystem chronology; content was written before associated first numerical run, not a preregistered statistical study"
+  },
+  {
+    "file": "CAUSAL_HORIZON_AMENDMENT.json",
+    "original_handwritten_time_fields": {
+      "date_utc": "2026-10-03T10:04:00Z"
+    },
+    "file_mtime_before_correction": "2026-10-03T10:04:21.236158+00:00",
+    "reason": "Replace manually rounded planned timestamps with observed filesystem chronology; content was written before associated first numerical run, not a preregistered statistical study"
+  },
+  {
+    "file": "TRANSFER_FREEZE.json",
+    "original_handwritten_time_fields": {
+      "frozen_at": "2026-10-03T10:23:00Z"
+    },
+    "file_mtime_before_correction": "2026-10-03T10:23:34.962956+00:00",
+    "reason": "Replace manually rounded planned timestamps with observed filesystem chronology; content was written before associated first numerical run, not a preregistered statistical study"
+  },
+  {
+    "file": "SERVICE_DECISION_FREEZE.json",
+    "original_handwritten_time_fields": {
+      "time_utc": "2026-10-03T10:35:00Z"
+    },
+    "file_mtime_before_correction": "2026-10-03T10:33:25.784168+00:00",
+    "reason": "Replace manually rounded planned timestamps with observed filesystem chronology; content was written before associated first numerical run, not a preregistered statistical study"
+  }
+]

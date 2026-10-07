@@ -1,0 +1,33 @@
+{
+  "time_utc": "2026-10-03T10:33:25.784168+00:00",
+  "origin": "Analytic construction for additional grid-service decision; constants fixed before numerical validation, not a blind statistical benchmark",
+  "primary": "smooth finitePCS variant; step variant separately retained",
+  "task_DAG": "A->{B,H}->D->E->F; H atslot2or3; all6 tasks complete by6s",
+  "task_shape": "high6+12h(s), low6, h area1, sine-squared rampfraction.2, highpeak21",
+  "parameters": {
+    "eta_c": 0.95,
+    "eta_d": 0.95,
+    "capacity": 18,
+    "initial_energy": 9,
+    "initial_buffer_power": 0,
+    "PCS_tau_s": 0.01,
+    "command_limit": 12,
+    "realized_battery_limit": 12,
+    "slew_limit": 100
+  },
+  "same_PCC_before_decision": "slot1=6,slot2=6+4h,slot3=6+9.5h",
+  "decision_time": 3,
+  "requested_service": "fixed siteA: importP(t)<=6-4.693h((t-3)/2) for3<=t<=5; at least9.386ACenergy reduction, requiring9.88storedenergy",
+  "later_contract": "continue allremaininglowtasks6, restoreenergy9andbufferpower0 at6s; recoveryPCC<=18; noextraresource",
+  "measurement_comparison": {
+    "same_site_identity": "A",
+    "same_time": 3,
+    "same_bandwidth": "onebit",
+    "SOC_error": 0.05,
+    "clock_error_s": 0.001,
+    "PCC": "even noiseless fullprefix identical; sameonebitcannotdistinguish"
+  },
+  "all_control_impossibility": "servicecaprequiresb>=b_req>=0, soSOCdecrease>=9.88 independentofallallowedbuffercontrols",
+  "not_claimed": "noempiricalerrorrate, no hardwarecostsuperiority, noAIlabelinference, noactivationonrealgrid",
+  "timestamp_basis": "observed file mtime before metadata correction; see PROTOCOL_RECORD_CORRECTIONS.json"
+}
