@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+scratch/
+local_cache/
+continuation/quality/legacy_inputs/

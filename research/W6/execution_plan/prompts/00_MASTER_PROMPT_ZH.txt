@@ -1,0 +1,146 @@
+W6 完整实验与可审计交付：Codex 总提示词（中文版，直接完整复制）
+版本：2026-10-05 / w6-plan-1
+性质：后续执行任务的指令；本提示词包本身没有运行新 GPU 实验。
+
+请在当前获准的实验环境中接手 W6 研究。先确认实际输入、设备、权限和已有结果，补齐缺失适配器与执行桥，再用“识别→标定→冻结→独立确认→必要消融/迁移→主张审计”的顺序，尽可能一次采齐所需证据。目标是完整、诚实、可复算的研究结论，结果为负或硬件不满足条件也要交付。不要以跑完脚本、合成测试成功或文件齐全替代科学关卡。不要为追求阳性结果扩大网格、删除失败或重用确认集。
+
+本提示词是独立任务规范。若同时提供 W6_Codex_Execution_Plan_20261005 计划目录，先读取 experiment_design/EXPERIMENT_MATRIX.json、experiment_design/EXPERIMENT_MATRIX.csv、experiment_design/DESIGN_REPORT_ZH.md 及 prompts/contracts；从本 prompts/ 目录看分别为 ../experiment_design/ 对应文件。若缺少其中某文件，按已提供文件索引核实，不猜内容。矩阵中的稳定 ID 见下文。引用文件用于详化，不是让我再手工拼接八段。若没有计划目录，仍按本文建立同等规范；若原始研究包缺失则仅做清单、代码准备和明确的 BLOCKED 报告，不凭记忆重建证据。
+
+一、不可跨越的边界
+1. 原交付只做了 CPU 软件/模型检查。原 gpu_handoff 是采集/分析脚手架，不是已完成的真实 W6 控制器。localhost SSE 客户端的 finish_reason=stop 不能证明自然 EOS；host token callback 不能自动代表 device completion；cap-session 仅下发有界 cap、无工作负载，也不是实际功率轨迹执行器。你必须实现并测试所选 engine revision 的真实事件适配器、取消/排空检查和 policy→actuator 执行桥，才能进入相应硬件确认。
+2. 不存在 GPU、模型、本地引擎、仪表、权限或同步证据时，准确标为 BLOCKED/NOT_RUN。mock、模拟波形、旧公开资料、CPU replay 不得改成 MEASURED。不同来源不得拼成“同次实测”；历史已看数据不能重新标为新 holdout。
+3. 不购买或租用资源，不创建账号，不任意下载权重/大数据，不假设可用 API key/远程服务；不发送私有 prompt、模型输出、硬件序列号或日志到第三方。不自动 sudo、装驱动/CUDA、改固件、锁频/电压/风扇/网络/安全配置或写电源设置。缺依赖先列出当前已装版本和最小安装方案；未获授权不做环境变更。
+4. cap/其他物理控制默认关闭。先取得操作者对“具体设备、独占条件、动作、支持范围内的上下限、温度/错误/时间/冷却阈值、人工急停与恢复”的明确批准并记录引用；不能自行把 operator_reviewed 改 true。任何普通 cap 均不得超过会话原始 cap；恢复原始 cap 是唯一允许的回升例外。权限不足停止，不提权。危险实验、未批准 burn、生产设施激励及带电接线一律不自行做。
+5. 保持原始保护机制；“移除 guard”消融不是关闭设备/设施安全保护。越界策略只在明确 SIMULATED 模型测试；物理消融仍受统一外层硬件安全边界约束。
+6. 在 finally 中恢复已修改设置并 readback；每次会话开始与结束记录原值。恢复失败立即停止、通知操作者、保持 BLOCKED，不开启下轮。断电、SIGKILL、驱动失联的恢复不能承诺，须有人工恢复路径。不能用新增软件温控轮询冒充独立硬件联锁。
+7. 不伪造签字、批准、时间戳、标定证书或原始数据。SHA256 证明字节一致，不证明数据真实/事前冻结/人的批准。冻结需可验证的时间与操作者确认；无外部时间锚时如实标 LOCAL_TIMESTAMP_ONLY，不能写独立时间戳认证。
+
+二、先核对输入，再动代码
+默认应收到两个普通 ZIP，解压到同一个新目标目录，形成共同根目录 W6_CPU_Research_and_GPU_Handoff_20261004/：
+- W6_CPU_GPU_Handoff_01_Main.zip；13,935,770 bytes；SHA256 479e86f32000396b0a096371152848a0667087ecccd747ab57ada6dd9c5d66a6
+- W6_CPU_GPU_Handoff_02_NetworkData.zip；8,712,402 bytes；SHA256 5e810a51ee4462cbd95c3062fcd5c8b2a88d2343e7b1402024eaf5bd36fe017e
+这是逻辑拆包，不是二进制分卷，不能 cat 拼接。先列成员、验证 CRC、拒绝绝对路径/.. 越界/异常链接，重名文件必须 hash 一致，否则停止。不要覆盖用户已有研究目录。若文件已合法改版，先确认来源/新回执；不要为通过旧 hash 改文件。原始两个 ZIP、合并后清单和输入回执保持只读。
+
+在合并根目录读取并核对：README_START_HERE_ZH.md、PACKAGE_SCOPE.json、EVIDENCE_CHECKPOINTS_A_E.json、GPU_TASK_CHECKLIST.md、PACKAGE_MANIFEST.json、verify_package.py、run_cpu_checks.py；novelty/ 的核心贡献/新意 gate；measurement/MEASUREMENT_FEASIBILITY_REPORT.md、measurement/protocol/；theory_grid/GRID_EXTENSION_REPORT_ZH.md、theory_grid/CLAIM_EVIDENCE.csv、相关 REPRODUCE.md；gpu_handoff/README_ZH.md、docs/DATA_CONTRACT_AND_ADAPTERS_ZH.md、docs/GPU_EXPERIMENT_CHECKLIST_ZH.md、schemas/、w6kit/、tests/、verification/STATUS.json；prior_w6/ 的原论文合同、权威更正/撤回、负结果和旧代码。读取 AGENTS.md 与适用的本地技能。新工作仅在明确工作副本中完成，不改写冻结原包。
+
+先列 OS、Python、CPU/RAM/可用磁盘、GPU 型号/UUID hash/显存/驱动/CUDA/NVML/MIG/vGPU/独占状态、模型/tokenizer/revision/precision、engine revision/启动参数/本地端点、已有仪表/边界/同步方法/权限。只读检查不得泄漏环境变量或完整序列号；不要把目录名推断成硬件存在。没有 GPU 可以做软件和模型复算，不得静默把任务迁移到付费机器。
+
+三、科学合同与允许的结论
+资源层级 GPU_ONLY：可记录 NVML 读数域功率/能量、温度/clock、host 可见进度、客户端时延，以及经验证的任务/状态返回。不能由 cap 推 actual p，不能由 NVML 相邻差分推连续 slew，不能给未经标定的 device EOS/物理 burn/PCC 安全发证。此分支仍可报告受限的实测 cap-policy 对比，必须与完整 W6 物理确认分开。
+资源层级 GPU_DC：经标定、覆盖所有必要 rails 的同步外部 DC 参考；真实进度/EOS、控制效果、完整恢复的证据齐备，才可评估相应 W6 实现合同。结构 validator 通过不是仪器真实、安全或确定性包络认证。
+资源层级 PCC：在 GPU_DC 之外需设施人员确认的真实 PCC、电气拓扑、背景负载、时钟/误差、P/Q/V/I/f、设施许可和阈值，才可做实际 GPU→PCC→网侧研究。GPU、整机 AC、机架 AC 均不自动等于 PCC。没有 PCC 资源则 G01–G04 明确 BLOCKED；模型重放可以继续，但标签为 SIMULATED。
+
+保留原A–E研究检查点，不用它们给硬件层级重新编号：A=新意/先例（F02/F03）；B=理论合同/证明/数值（N01/N02/N03，O01可选）；C=网侧价值合同（N04/G01–G05）；D=执行与真实测量（I01–I11/C04）；E=公平冻结/独立确认/消融迁移（C01/F04/C02/C03/C05/A01/A02/X01–X04）。这些检查点与GPU_ONLY/GPU_DC/PCC资源层级是两套不同维度。
+
+旧理论保留条件边界：完整回零投影可在合同下给实际功率逐时支配；有记忆、变号网核不保证频率峰值下降；精确网侧约束一般会破坏原凸域。固定 actual-power cap 仅是充分安全子类，非全局精确最优。0.05 Hz 是旧模型研究预算，不是监管标准、设施许可或硬件阈值。保留旧 hard-deadline 失败、负收益、网格不足和适用范围；不把成熟 Bellman/凸优化器/支持函数 LP 宣称为新算法。
+
+四、实现缺口，先通过适配器门禁
+在工作副本中新建明确版本的 adapters/、controller/、runner/、analysis/、tests/；文件组织可随仓库调整，但最终入口和数据合同须稳定。
+1. Engine bridge：固定 engine commit、模型/tokenizer hash、n=1、单请求/单并发及输出语义；读取累计 token IDs，delta 输出须查重累计；保存 request_id、prefill/decode、context/KV 位置、stop token/rule、finish_reason、max_tokens、sampling seed。自然 EOS 须核验真实 EOS token 与停止规则；length/cancel/timeout/error/stop_rule/unknown 属不同删失类别。服务端超时不等于已取消，实现官方支持的 request cancel hook 和 queue drain 验证，失败后不能立即运行下一请求。
+2. Device timing：按实际 engine 执行路径记录 useful token/kernel 完成，在正确 CUDA stream/event 域建立到 host monotonic 的变换；分别保存 true_eos、engine/controller 可见、客户端可见、命令 issue/return、physical effect。不要用 host callback 冒充 device。逐 token 同步可能扰动性能，应做有/无插桩 A/B；无法达到需用的时间界，就降级为 host-visible 描述，不能强行通过门禁。
+3. Controller bridge：从已交付理论/CPU实现提取 W6 policy 状态、工作坐标与终态，定义只读取当下已知信息的 observe→decide→actuate 接口；落地到已批准动作，记录 target actual p、requested/configured/enforced cap、实测 actual p 和命令延迟，说明离散更新/饱和/滞后/跟踪误差。不能把 W6 p(t) 数列直接写进 cap 字段当作物理实现。若只有 cap actuator，先识别 cap→actual-power 可达域及响应，再判定是否存在满足合同的可执行策略；失败应报告 REALIZABILITY_FAIL。
+4. Burn/recovery：确认终端后额外功率能否以批准、隔离、可量化的方式实现；不能自动启动 dummy/stress load，不得把下一个真实任务计为前一任务恢复。无物理 burn 时，原依赖 burn 的合同不可部署；可另建明确受限/近似策略合同，但必须新冻结、降低主张。
+5. 时间/计量：同 boot monotonic ns 算间隔，UTC 仅锚点；保存 sensor 原始时间、query_begin、arrival、clock_id、boot_id、同步前后 marker、slope/offset/drift/latency 误差与 max_gap。禁止为最佳相关性事后平移并称无延迟；保留 reset/乱序/丢样，不能全局排序掩盖故障。
+6. 单元/集成/故障测试：无 GPU 的 fake 必须标 SIMULATED/CPU_TEST；覆盖重复/缺失 token、自然 EOS 与截断、迟报、慢流/绝对超时、取消失败、时钟 reset、混 run_id、丢 rail、sensor gap、日志写满/中断、恢复 readback 失败、重复运行/恢复续跑、禁用执行标志时零 NVML/HTTP/写 cap。必须确认新 controller 与真实采集同时运行在同一 acquisition，而非两次数据拼接。
+
+
+现有接口兼容性不得假定：旧validate_registry强制transfer_axis为device或model_family，且按整设备/模型族拒绝泄漏；没有workload/phase/context或none轴。无transfer研究可以保留真实的device/model_family轴并使用空transfer角色集合，明确不声称迁移；仅字面none轴需扩展。X01或X04等同设备workload/phase/context迁移须使用经过测试的版本化registry扩展/独立协议映射，不伪填新device/model_family标签。旧selected_folders只找root/run_*，evaluate-service要求registry内所有confirmation/ablation/transfer都存在；本计划的嵌套session/run/attempt raw树需实现安全索引/只读派生扁平视图或版本化path registry，核对每个run/attempt身份与hash。扁平视图不得筛掉失败来让原evaluate“通过”；all_attempts始终包含所有失败/缺失。旧evaluate不能处理的缺失只能明确受限，或事前实现经过测试的缺失处理扩展。按阶段评估应显式冻结必需集合和依赖，不能默默忽略缺失run。所有扩展保留旧结构/泄漏/完整性门禁，新增角色冻结、父子hash链接、无transfer、workload-transfer及嵌套路径/一侧失败测试。
+
+五、全面但不浪费的实验 ID 与先后关系
+每个 ID 必须出现在 EXPERIMENT_STATUS.csv/json；运行、受限、失败或无资源都给具体证据。全面是问题覆盖全面，不是无条件跑全笛卡尔积。
+F01 包/冻结 hash；F02 旧证据与负结果复核；F03 声明/协议范围。
+I01 硬件与安全清单；I02 engine/device/采集/policy bridge；I03 最小只读烟测；I04 时钟与计量；I05 插桩扰动；I06 单 stratum 30-episode pilot；I07 EOS/删失/错误；I08 actuator/恢复/burn；I09 phase/context/热态反例；I10 自然工作量分布；I11 admission。
+N01 新参数求解精度/网格收敛/可行残差；N02 同信息全局参照；N03 理论失效边界；N04 模型不确定性重放。
+C01 独立 calibration；F04 冻结确认；C02 主配对确认；C03 匹配 QoS 前沿；C04 控制/求解及全成本；C05 全尝试统计审计。
+A01 同 raw 会计/观测消融；A02 实体控制消融。
+X01 新工作负载；X02 新模型族；X03 新物理设备；X04 队列/并发/连续任务适用边界。
+G01 PCC 边界准入；G02 同步 GPU→PCC 识别；G03 初态/零输入尾部；G04 冻结网侧确认；G05 非线性/网络模型条件检验。
+Z01 主张审计与交付。
+O01 严格向外舍入机器证书；O02 已声明范围以外的额外独立复现：均为 OPTIONAL，不阻塞本轮限定主线，只有相应额外主张需要时再安排。
+
+GPU_ONLY 若无法达到 DC gate，I11 可结为 GO_DESCRIPTIVE；不强制执行依赖 DC 的 C01/C02。若另开展 GPU-only cap-policy 描述比较，使用独立命名并冻结的描述协议和同等统计纪律，不能借用 W6-DC 的 PASS。
+
+按路线解释依赖，不能把所有ID串成一条必须有DC的链：GPU_ONLY描述路线的I11只要求已满足I03/I05/I07及其相应安全前置，不因I09→I06的DC分支缺资源而阻塞GO_DESCRIPTIVE。DC/W6路线的I11在此之外要求I04/I06/I08/I09；自然工作量law主张另要求I10。纯理论/模型N01/N02/N04可由F03及合格模型输入启动，无硬件I11依赖；使用新硬件标定参数的版本必须先通过其I11。主C01/F04/C02是DC/W6路线；GPU-only描述比较需独立命名的限定冻结协议，不能借用DC PASS。Z01须核对全部已选必要ID均有最终状态和依据，允许准确的FAIL/BLOCKED/NOT_RUN，但不能靠跳过未审项宣告完成。
+
+推荐执行层次：F/I 核心先行；I11 不通过则停止受影响的硬件主张并完成可做的软件/模型与失败分析；C/N 为准入后的主线；A01 优先用同 raw 复算而非重跑；A02、X、G 按对应主张和资源触发。想声称跨模型/跨设备/队列/PCC/真实网侧收益就必须完成相应分支，缺资源则缩小论文主张，不能默认为通过。既有 CPU 证明只需复核哈希与关键独立检查；只有变更依赖或新参数引入的问题才重算受影响模型，不机械重跑全历史。
+
+六、pilot、预算、统计与事前冻结
+1. 先一条短而完整的只读 smoke；确认采集覆盖 idle→warmup→request→EOS/错误→实际返回→matched-state→cooldown 后，才扩大。warmup 单独记录；primary inference 能量边界预先定，whole-capture/加载/warmup 成本另报。
+2. I06 起步为一个已选 stratum：3 个独立初始化 session × 至少 5 个安全且实际可区分的功率区域 × 每档每 session 2 次独立 episode，共 30 episodes。安排随机顺序、反向/不同顺序及重新初始化，避免温度/顺序混淆；“3 clusters/30 episodes”如实写，不作 30 iid。达不到五个可达功率区域是可识别性限制，不通过改变 workload 来凑五档。I09 只用预设少量 context/phase/温度 sentinel 证伪标量服务假设；不做巨大全因子扫描。
+3. pilot 永久属 development；自然 EOS、固定输出长度、max-token 截断、取消、超时、错误分别保存。预设自然工作量分布/有界支持 M 的来源与适用范围；观察到最大 token 不证明自然有界，截断不等于 EOS。只有条件模型、误差来源和适用域被数据支持，才用来生成 policy；OLS 区间均值/最大残差不等于点态服务下包络或未来 supremum 证书。
+4. 从 pilot 的成对 session/cluster 差异、工程最小有意义效应 MDE、QoS/quality 非劣界、计量不确定度、失败预算和可用总时长，制定一次冻结的主确认预算；写明独立单位、每 session block/pair 数、策略数、strata 数、calibration 与 confirmation 数、冷却/标定/失败重试上限、总 GPU 小时/日志量。预算不足应诚实为探索或不确定，不能靠把 token/window 计作独立样本补 N。
+5. iid 零失败的 59/299 或多端点 Bonferroni 数字只能在该二元事件与独立性条件成立时用；不是配对节能试验样本量，也不是硬件安全证书。连续主 endpoint 用 cluster-aware CI/预定配对随机化或 cluster bootstrap；请求配对在 cluster 内，重复 prompt/seed 不自动提供独立 session。p95/p99 样本稀少需给不确定度，不能用漂亮分位数掩盖尾部不足。
+6. Calibration、confirmation、ablation、transfer 按完整 session/device/model_family 划分。冻结注册含未来 run slots，不能 outcome 出来后换标签；完整设备/模型族留出不是随机拆行。Transfer 无调参评估和 adaptation 后重标定/重新确认分开。
+7. 注意旧 kit 的 frozen service model 绑定整个 frozen split 的 SHA256。C01 拟合之前须冻结完整前瞻角色 registry，含确定将全部采集的确认 slots；F04 只冻结最终算法/分析，不覆写既有 split。若确认预算确需随 calibration 结果确定，显式实现 parent/child 的多阶段 registry/hash 链（基础角色划分与只允许使用 calibration 的 N 选择规则先冻结），以新测试证明 evaluate 的版本/角色兼容；不得删 hash 校验或事后覆盖 split 来适配。未实现链接适配器时，只能事前冻结预算内实际将完整执行的run集合，并执行其全部必需run；不能冻结宽松superset后只跑选中的N。未使用预留名额在原evaluate中就是missing，不能删掉或藏起来。无法完整执行则保留失败/缺失并暂停相应评价。
+8. 冻结前写 protocol、实验/运行 quota、工作负载 hash/来源/许可、种子清单、策略/超参数、基线搜索预算、拟合/误差模型、相对 request_start 的服务窗口与异步端点规则、primary/secondary endpoint、排除/缺失/删失/重试规则、多重比较、CI/样本量、停止条件、边界、代码 hash/git diff、环境锁及已知偏差；保存 canonical SHA256 和时间锚/操作者确认。confirmation outcomes 不可用于调参、选图、挑窗口或模型选择。
+9. 默认固定 N；若确需序贯方案，事前定义 alpha spending 或有效 confidence sequence 与停止条件。不得“显著就停”，不得看测试失败后悄悄修代码/加样本仍称原确认。修正建立 amendment、新 protocol/hash 和未触及的新确认样本；旧结果原样保留。
+10. 政策之间采用同任务/同初始状态/同模型与质量合同的随机 block crossover，平衡 AB/BA 或多策略顺序；每 arm 完整 reset，记录温度/clock/KV/cache/队列与 carryover。carryover 不满足时延长或另会话，不能仅随机顺序便宣称消除。保存 pair_id/block_id/session_id/workload_id/seed；相同 seed 不能保证跨异步执行同一随机轨迹，需核对实际 token/质量或按冻结办法处理差异。
+11. 所有尝试进入 ITT 风格的全尝试清单，保留启动前失败、超时、OOM、截断、取消及安全终止。完成成功、可用数据、物理准入、统计纳入是不同字段。配对一侧失败不默默整对删除；按预规则报质量/完成率、缺失和敏感性分析。重试分配新 attempt_id，关联旧尝试并计成本；不能把重试当原尝试覆盖。
+
+七、比较策略、数值精度与消融
+C03先回答实际部署主SLA/QoS档位；只有论文确需前沿主张时，才预先选最多三档有意义QoS并计入预算，不因“全面”无上限扩展。
+
+在准入范围内比较：W6 可执行候选、nominal/fixed-cap、预先求优的 constant-target+完整恢复、同信息有限状态 Bellman/已定义离散动作参考（规模允许），以及必要的 guard 版本。实际硬件用可执行 baseline；连续/理想/clairvoyant oracle 仅诊断，不能做同合同胜负对手。相同工作量分布信息、EOS 可见延迟、动作/更新频率、实际 cap/slew/初态、终态成本和 guard；不得让候选偷看未来 EOS 或让 baseline 更苛刻。
+
+N01/N02 记录离散分辨率、拐点处理、容差、可行残差、多起点/界、失败状态、编译/求解 wall 与 CPU 时间；同 cap、同可行域比较。网格候选输给解析 baseline 必须保留并定位误差，不选最好 seed 洗掉。Bellman 只对声明的离散类全局；普通浮点数值不是向外舍入严格证书。
+
+A01 用同 raw 比较 productive-only / full-cycle、host-visible / device-aligned EOS（只能为观测偏差分析，不能倒灌控制）、不同合理 baseline/积分/同步误差处理；不得把这种重算当新独立实验。A02 依次隔离 recovery 处理、EOS delay 处理、模型误差/guard 组件，保持共同安全外壳；burn/unsafe guard 无权限只能模型消融。X01–X04 限定迁移轴，一轴少量 sentinel 先判可迁移性，再按冻结预算确认；并发/连续队列不是单任务 iid 的机械推广。G01–G04 先仪表/设施准入再识别/独立确认；必须覆盖 p 返回后的网侧零输入尾部，有限观测不足以证明全未来安全。G05 模型失配/非线性/网络级重放写明模型假设和来源，不升级为设施实测。
+
+八、必需指标与时窗，避免返工漏采
+每次原始采集至少涵盖稳定 idle、warmup、请求、真实/各层可见 EOS、物理返回、matched thermal/clock/queue state、必要 PCC tail 和 cooldown；采集 duration 是上限，不是恢复判据。不同边界不得相互代替。逐请求/逐run表若每个边界一行，其行数不等于请求/run数；计数必须按对应唯一身份去重。
+所有秒/纳秒/瓦/焦耳/Hz 明确标字段单位；原时间用 int64 ns。保存下列原始事件时刻及缺失理由：request_start、first_token、逐 token 累计完成、true_eos、engine_eos_visible、controller_eos_visible、client_eos_visible、command_issue/return、physical_effect、power_return、matched_state、grid_tail_end、capture_end。
+
+request_metrics.csv/jsonl：标识/分层/种子/生成参数/stop与删失/成功和质量、输入与输出 token、TTFT、useful latency、ITL p50/p95/p99、tokens/s、EOS 各层延迟、命令与物理执行延迟、实际返回/状态复位/网尾时间，以及不同窗口/测量边界的 gross/dynamic/productive/recovery/cooldown/whole-capture 能量。J_W6_J 仅在冻结的理论电气边界（通常为 GPU 全rail DC 动态功率）计算；其他NVML/节点AC/PCC行必须null并写reason，PCC等相似目标另起不同字段名，不能冒充原W6目标。policy 的 E+cT 必须声明 c 的单位 W 和 T 至实际功率返回；它不是默认 matched-QoS 节能或完整网态复位周期。
+
+run_metrics.csv：每 run/attempt/electrical_boundary 的窗口覆盖、采样丢失、积分误差、同步/标定/baseline误差、可用/失败状态、设备温度/clock/KV/队列起终态、cap/actual-power 跟踪、描述性 sampled slew（不是连续硬界）、controller 计算和日志开销、CPU/GPU/内存峰值、文件体积。若一次 run 单请求，与 request_metrics 一对一仍分别建表，不凭重复两表把 N 翻倍。
+
+Primary 必须在冻结中选一个命名电气边界与明确窗口的 full-cycle energy（可选 gross 或 dynamic），配以质量/完成率/QoS 非劣门禁。建议同时报告 request→power_return 与 request→matched_state 的 gross/dynamic；比较策略完成相同有用工作与可接受质量，保存 matched QoS 前沿。不因结果更显著而改 primary。DC 动态功率=实测绝对功率−独立估计 baseline，不截负；负噪声有不确定度，不能悄悄截零。unknown 字段用 null/空值和 reason，不填 0。命令 cap 不能作能量积分输入。
+
+PCC 分支另报 ΔP/Q/V/I/f、背景负荷、拓扑/初态、PCC映射 gain/residual/uncertainty、峰值/越限持续、return 后峰值、完整 tail 与尾部模型剩余界。有限样本/普通浮点/经验误差仅给其实际可支持的统计或条件模型结论，不能自动发确定性全时域证书。
+
+九、输出目录和不可变性
+在新的 W6_Experiment_Results_<UTC日期>_<study_id>/ 中输出，不覆写原包：
+README_START_HERE_ZH.txt
+00_inventory/：INPUT_RECEIPT.json、archive_merge.json、hardware.json、software.json、capabilities.json、source_status.csv、permission_scope.json
+01_protocol/：protocol.json、protocol.txt、experiment_matrix.csv/json、run_registry.json、randomization.csv、seed_registry.csv、budget.json、freeze_receipt.json、amendments/
+02_code/：源码、engine/policy/instrument adapters、测试、git_commit.txt、git_status.txt、git_diff.patch、dependency锁/版本、licenses、reproduce_cpu.py、replay_gpu.py、verify_delivery.py
+03_calibration/：所有标定原始记录引用、变换/误差/仪器证书引用、拟合和 admit/reject 证据；区分 identification/calibration
+04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/：manifest.json、power.jsonl、events.jsonl、commands.jsonl、telemetry/engine/meter 原件、stderr/stdout（脱敏）、failure.json；原件不覆盖
+05_derived/：版本化 normalized records、request_metrics.csv/jsonl、run_metrics.csv/jsonl、paired_effects.csv、summary_metrics.csv、uncertainty.csv、exclusions.csv、schema/units、analysis_config.json
+06_figures/：可编辑 SVG/PDF 与 PNG 预览、每图 figure_data.csv/json、plot_config.json 与生成脚本
+07_audit/：EXPERIMENT_STATUS.csv/json、RUN_STATUS.csv/jsonl、ADAPTER_STATUS.json、claim_evidence.csv/json、safety_restore.json、attrition.json、data_flow.json、reproduction_report.json、tests/、FAILURES.jsonl、FINAL_STATUS.json
+08_delivery/：PACKAGE_MANIFEST.json、FILE_INDEX.csv、SHA256SUMS.txt、PARTS.json、PRIVACY_REPORT.json、MERGE_README_ZH.txt、最终 ZIP 与解压校验报告
+
+矩阵required_outputs若采用provenance/protocol/raw等逻辑路径，先生成OUTPUT_PATH_MAP.csv/json，逐项映射到本编号根目录中的实际文件；该映射与manifest一起验证存在性，不能输出两套互相矛盾的清单。保留logical_name与canonical_relative_path供溯源。
+
+采用提供的 prompts/contracts 的字段/模板，缺失时按本文生成版本化 schema。JSON UTF-8 严格有限数值，NaN/Infinity 禁用；CSV UTF-8 RFC4180，首行固定字段，null 为空并在字典说明；整数字段不写浮点指数，bool 固定 true/false，类别枚举校验；时间 UTC ISO8601 加原 clock ns，文件路径为根相对 POSIX，防越界。每张表含 schema_version 和 data_dictionary；单位不可只在图标题写。保留 event 原 source timestamp，不以派生 t_ns 覆盖。
+
+采集日志 append-only，单 writer 或明确分片；有序 sequence_no、acquisition/run/request/clock/source 身份。周期性 flush/fsync；先写临时文件，完成后 atomic rename，并计算 hash。不要在活跃日志未关闭时当作封存原件。崩溃恢复保留 .partial 与失败标记；分析只消耗 manifest 已封存的文件/已声明 partial，不静默修剪坏尾。新增重算另建 derived revision，记录 source hashes/transform version。所有失败尝试和修正历史保留，改动研究不改原件。
+
+privacy：默认只保存 input hash、字节/token数、workload_id、公开数据索引；prompt/生成文本仅在许可明确且确有必要时选择性保存。低熵内容 hash 不是绝对匿名；hash算法/可选 keyed-HMAC 的标识可记，密钥绝不能打包。token IDs 也可能还原内容，默认不放 review 包，必要时仅在批准的受限原始数据层保存；公开可再获取语料以版本/记录键支撑复算。绝不记录 credentials、Authorization/cookie、私钥、令牌、完整 env dump、带签名 URL；硬件UUID用 hash，日志错误信息避免泄漏 prompt。若需脱敏衍生副本，保留私有原件不变与转换/hash映射，不能改原始数据冒充原件。
+
+十、恢复续跑、一次完整采齐和节省重跑
+先构建 DAG 与 run slots，把已有合格冻结结果按 hash/protocol/code/dependency/tier 验证后复用；同一 raw 能派生的指标/图/会计消融一次统一生成。长任务逐 run checkpoint，恢复先校验 GPU 原设置、queue/cancel/时钟 boot/仪表状态和 last sealed run，不能从半个物理 run 接着当原 run。partial 作失败，新 attempt_id 重启；物理独立性/冻结角色不能因续跑被破坏。
+不因图画错/表列缺少而重采 GPU；只有原始信号缺失、门禁失败或合法新协议确需新采集时重跑，给 rerun_reason 与受影响 ID。仪表、温度状态或模型 revision 改变须新 session/校准适用域审查。危险/无权限动作和未确认的必需问题暂停，其他独立安全步骤继续。批量汇总询问硬件权限与预算，别每步重复问已明确批准的同一动作；本提示词并不代替具体操作者授权。
+
+十一、复现和包装验收
+交付一条默认离线/无GPU/无网络/无写电源命令：python 02_code/reproduce_cpu.py --root . --output <新的校验目录>。这是你须实现并实际测试的最终入口，不是假设原包已自带。它校验输入/manifest、跑软件与故障测试、重算所交付派生指标/统计/表图、比较容差，记录依赖缺失；模型全量再优化单独开关，不把 smoke 当全面重优化。现成原包的 python verify_package.py 与 python run_cpu_checks.py 可在副本中纳入，但不得将其单独 PASS 升级成新硬件 PASS。
+
+另给 GPU replay 入口及硬件 gate：python 02_code/replay_gpu.py --protocol 01_protocol/protocol.json --inventory 00_inventory/hardware.json --dry-run；实际执行必须额外明确执行开关、匹配设备/权限/仪表/冻结协议/软件版本/空队列/安全配置。dry-run 只读取所给文件，必须零真实请求/零NVML调用/零物理动作；实时只读硬件核验另用显式 preflight，不能悄悄藏在 dry-run 中；不能默认“缺GPU就模拟后返回成功”。实际重放生成新 study/run IDs，不覆盖原证据，并说明随机/硬件差异容差。若 adapters 仍 BLOCKED，命令应清楚拒绝，不交假可运行演示。
+
+按最小可读审查包、代码复现包、原始数据逻辑分包组织。所有 ZIP 都是普通独立 ZIP，每个成品严格小于 18,000,000 bytes（保留压缩余量，检查实际 bytes），共同研究根目录一致；绝不采用 .z01/二进制 split，不能要求 cat 拼接。每份可单独打开，完整复算须按 PARTS.json 收齐必需包。同一 payload 默认只在一个 part，重名仅允许必要说明且 hash 一致；一份原始文件过大应由采集阶段按完整记录块滚动分片，保留顺序/行数/time range/hash。封存后的大原件不改写，导出有审计映射的逻辑块；压缩或分片不是丢失采样理由。
+
+PACKAGE_MANIFEST 对每个 payload 给相对路径、字节数、SHA256、role/evidence、schema/unit引用、source/run/experiment IDs、part、许可/隐私分类；FILE_INDEX 可读；外层 PARTS 给 ZIP名字/大小/hash/必要性/共同root/依赖。避免自引用 hash 悖论：payload manifest 不 hash 自己；单独 checksum覆盖最终 manifest，外层part receipt生成在ZIP封存后。说明哪个回执是外置的。不得打包模型权重、虚拟环境、驱动、巨大缓存、无授权数据/论文、凭证；需要再获取的输入记公开合法来源/版本/hash和明确范围。
+
+打包后在新目录检查所有 ZIP CRC/安全路径/hash、无缺漏/冲突、manifest全覆盖；执行一命令CPU复算和仅dry-run的GPU门禁；确认失败/负结果/未运行证据存在、无隐私泄漏、路径可移植。报告 zip_merge_validation.json 与 reproduction_report.json，不写未经运行的 PASS。最终提供每包用途/bytes/SHA256、入口、运行状态矩阵和阅读顺序，不能只给巨大 raw 而没摘要。
+
+十二、最终研究报告与停止条件
+所有 ID 使用 NOT_RUN/RUNNING/PASS/FAIL/BLOCKED；可另有 applicability/blocked_reason，不能把跳过写 PASS。区分软件通过、数据契约通过、物理准入、统计结论、论文主张。FINAL_STATUS 写事实计数：真实GPU requests、cap writes、DC/PCC acquisitions、独立 sessions/subjects、失败/删失/排除/重试、CPU测试/模拟数、耗时与预算、恢复结果；有时间戳与作者/操作者确认状态，无批准就是 UNCONFIRMED。
+
+claim_evidence 对每个主张给支持层级、实际数据/代码/图路径与hash、适用条件、反例、缺口及允许/禁止的措辞。报告关键效应大小和CI、匹配QoS/quality/完成率、全周期和恢复成本、负结果/无效/不确定结果、所需下一步；没有实测就明确硬件仍阻塞。不得承诺“一次肯定全过”或“已经证明能降低真实电网振荡”。
+
+开始后先输出简短的实际清单、会阻塞哪条分支及需要我一次确认的最小事项，然后执行所有已授权的安全步骤。只有对应关卡满足且参数已冻结才进入下个硬件阶段。完成条件是所有必要ID有可审计最终状态、主张与证据一致、原始/派生/代码/文档齐全、可复算包装通过；若关键资源或批准缺失，交付已完成部分与精确 BLOCKED 清单，然后等待，不编造结果。
+
+PCC接口补充：旧kit的power_W/baseline_W要求非负，含pcc_active，因此原接口只适合其非负输入语义；存在回送/有符号净PCC功率的设施须先明确正负方向并实现版本化且测试过的adapter/schema，不得abs、截零或删除门禁来冒充支持。旧meter import也未提供完整Q/V/I/f适配，须显式补齐。
+
+F04最终参数一致性：若C01独立calibration改变最终模型或policy参数，F04前必须刷新受影响的N01/N02/N04 development版本，验证最终参数的数值精度、同信息参照与模型重放并绑定最终hash；C01之前的暂定参数检查不能作为已变更最终参数的资格证明。仍不得读取confirmation来完成这些选择。

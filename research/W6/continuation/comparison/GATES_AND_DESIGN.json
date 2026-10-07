@@ -1,0 +1,502 @@
+{
+  "schema": "w6-next-comparison-design-v1",
+  "status": "DESIGN_ONLY_NOT_EXECUTED",
+  "date_utc": "2026-10-07",
+  "evidence_repository": "Signalist/dot-temp",
+  "evidence_commit": "f3cb19f0ffe4ecfdb72a7e57b93e512851bcad50",
+  "new_gpu_acquisitions": 0,
+  "new_physical_controls": 0,
+  "J_W6": null,
+  "full_original_W6_complete": false,
+  "scope": {
+    "allowed_now": "Offline analysis/design of frozen local evidence; no remote code execution or publication",
+    "launch_permission": "Must be verified by the authorized server executor; this file grants no authority",
+    "resources": "Existing authorized allocation only; no newly purchased resources or physical-control writes",
+    "business_SLO": null,
+    "business_MDE": null
+  },
+  "recommendation": "Q quality/completion baseline, O observer-overhead diagnosis, then conditional R native eager-versus-graph runtime comparison",
+  "claim_class": "GPU_REPORTED_FINITE_WORKLOAD_RUNTIME_COST_ONLY",
+  "quality": {
+    "pool_path": "../quality/benchmark.json",
+    "pool_integration": "ACTUAL_SCHEMA_BYTES_AND_FINAL_REVIEWED_VALIDATOR_PINNED",
+    "required_task_fields": [
+      "task_id",
+      "domain",
+      "source_family_id",
+      "split_role",
+      "prompt_sha256",
+      "validator_id",
+      "validator_sha256",
+      "quality_contract"
+    ],
+    "roles": [
+      "development",
+      "calibration",
+      "heldout"
+    ],
+    "seen_outputs_remain_seen": true,
+    "family_disjoint_required": true,
+    "same_generator_not_external_benchmark": true,
+    "natural_eos_is_not_quality_pass": true,
+    "unsupported_validation": "UNJUDGED, never automatic PASS",
+    "failure_exclusion_allowed": false,
+    "posthoc_pass_intersection_primary_allowed": false,
+    "strict_quality_matched_claim": "All scheduled tasks in the predeclared finite set must complete and satisfy their predeclared quality contract in both arms",
+    "heldout_policy": "Q uses development/calibration only. Six heldout tasks are first run in R after candidate/protocol freeze, in baseline and candidate arms together. If accidentally exposed earlier, mark seen and remove blinded-generalization language, never secretly replace.",
+    "source_files": {
+      "benchmark.json": {
+        "path": "../quality/benchmark.json",
+        "sha256": "99ee2267b4d64f15f447fb4ce0efdac962d749144135978735001c8815a3c63d"
+      },
+      "BENCHMARK_FREEZE.json": {
+        "path": "../quality/BENCHMARK_FREEZE.json",
+        "sha256": "715f0dc905e4654410b31b584f57367edf0c8d60c002f0097b84788c34d1d0a0"
+      },
+      "reference_fixtures.json": {
+        "path": "../quality/reference_fixtures.json",
+        "sha256": "4dac1023330eef6be5b3aab5e97700fd0fd162cb9b47d52267c21101f2d13bdb"
+      },
+      "validator.py": {
+        "path": "../quality/validator.py",
+        "sha256": "14066cae918a6af30486de406aabd0ec3add22ed80006e1276e9d8362254e439"
+      },
+      "prepare_requests.py": {
+        "path": "../quality/prepare_requests.py",
+        "sha256": "008f2895891cd6d01642480344ee68eaed31b3d235ef52e477dd78158ebc3aca"
+      }
+    },
+    "source_field_mapping": {
+      "task_id": "id",
+      "domain": "domain",
+      "source_family_id": "family",
+      "split_role": "split",
+      "prompt": "prompt",
+      "prompt_sha256": "derived SHA256 of exact UTF-8 prompt bytes",
+      "task_contract_sha256": "BENCHMARK_FREEZE.json.task_hashes[id]",
+      "validator_id": "validator.py domain dispatch",
+      "validator_sha256": "source_files.validator.py.sha256",
+      "quality_contract": "prompt plus domain validator and recorded limits"
+    },
+    "source_required_fields": [
+      "id",
+      "domain",
+      "family",
+      "split",
+      "prompt"
+    ],
+    "required_task_fields_are_target_record_schema": true,
+    "task_count": 18,
+    "family_count": 9,
+    "split_counts": {
+      "development": 6,
+      "calibration": 6,
+      "heldout": 6
+    },
+    "reference_fixtures_are_model_outputs": false,
+    "writing_completion": "MACHINE_GATE_PASS_HUMAN_PENDING is not full quality PASS; predeclared content/genre review blinded to arm is required",
+    "code_completion": "Bounded interpreter-supported subset only; unsupported is UNKNOWN, never automatic failure or pass",
+    "math_completion": "Exact answer and stated inverse/counting equality only; not chain-of-thought reasoning certification",
+    "records": [
+      {
+        "task_id": "code_count_positive",
+        "domain": "code",
+        "source_family_id": "code_sign_count",
+        "split_role": "development",
+        "prompt_sha256": "7a0678c33e0a601851842455cb46e8f24cb21d15909d3644a8daa7935ebe212c",
+        "task_contract_sha256": "113b2074ba59ecaf2cccc45d05096c0d9c780fe432e0db1a8d7d3753a627dc2b"
+      },
+      {
+        "task_id": "code_count_negative",
+        "domain": "code",
+        "source_family_id": "code_sign_count",
+        "split_role": "development",
+        "prompt_sha256": "d5a38b649aa9d8f012678dd00424d4ac0241552c7dffaae246e196a9bddd2d29",
+        "task_contract_sha256": "170ff9b56f5ef26019aaa9118e7f19b8f1a6427ce2d658a66a7ec4f5e0faa004"
+      },
+      {
+        "task_id": "code_prefix_sums",
+        "domain": "code",
+        "source_family_id": "code_cumulative_scan",
+        "split_role": "calibration",
+        "prompt_sha256": "f6643b7c5e7b73affc5425d15a9c1fb085ffb07fb1ebd8ee6f6a6e63d9b72c87",
+        "task_contract_sha256": "8d872aac8fe4cc08d634f8dae9201e578da616ab3a8429efdc428c1a6c48398d"
+      },
+      {
+        "task_id": "code_suffix_sums",
+        "domain": "code",
+        "source_family_id": "code_cumulative_scan",
+        "split_role": "calibration",
+        "prompt_sha256": "cdfcd296bdb5717046d08f5ff4b1b761aa39d599f9549ed15b7dfd57dd7df185",
+        "task_contract_sha256": "29aed9d12a23e254451aea2a6f589e5b6fb9e88426c11183555157a73b1adad8"
+      },
+      {
+        "task_id": "code_consecutive_runs",
+        "domain": "code",
+        "source_family_id": "code_contiguous_segmentation",
+        "split_role": "heldout",
+        "prompt_sha256": "976e5cce40162003d9cd655168ed59e98e90b9837dfbf5f5efa7ba3105d42dc8",
+        "task_contract_sha256": "15216971033be663e5691a47755b8fb456f5eb4196851f7f884ca0e2c6917905"
+      },
+      {
+        "task_id": "code_equal_runs",
+        "domain": "code",
+        "source_family_id": "code_contiguous_segmentation",
+        "split_role": "heldout",
+        "prompt_sha256": "8626c970960c678e1787dbfdb4026886561421ca3fccf119950a13837e890510",
+        "task_contract_sha256": "8fd44169e034d600b94df8b3e019250cf055047774808cb8fb6487f366577734"
+      },
+      {
+        "task_id": "math_book_stock",
+        "domain": "math",
+        "source_family_id": "math_stock_flow",
+        "split_role": "development",
+        "prompt_sha256": "0817b8c897a1acd0eaea28e2fccd7a8dcb100c362e086056c9728e894e1efa3f",
+        "task_contract_sha256": "e871d46e70f1bf3f575b81a56a25ac905d31d51d71586f7e0868a282e166bbed"
+      },
+      {
+        "task_id": "math_seed_stock",
+        "domain": "math",
+        "source_family_id": "math_stock_flow",
+        "split_role": "development",
+        "prompt_sha256": "a88cf73597b1aba2afbb8ce294bf722f9792f73a4e6939bf7ae7ecbe73a738dc",
+        "task_contract_sha256": "d57bdff47341a1b388fb7708048ab174a7bafea7d72598ec94684507aba2ec25"
+      },
+      {
+        "task_id": "math_perimeter",
+        "domain": "math",
+        "source_family_id": "math_rectangle_geometry",
+        "split_role": "calibration",
+        "prompt_sha256": "06e15ff0e60dda0b16423cd81dc08f9ea8470a35539fa7b36f293a63270305e1",
+        "task_contract_sha256": "7b7d1f21aef489f9373421b0bd610a61a85ad6c45949790b0ac7e4e0e2a9ee62"
+      },
+      {
+        "task_id": "math_area",
+        "domain": "math",
+        "source_family_id": "math_rectangle_geometry",
+        "split_role": "calibration",
+        "prompt_sha256": "e7f389323ee84708161c6b4f096bb959b67e941be5341c7a1e8b8e787a84fb09",
+        "task_contract_sha256": "3810632a0df75a847fb6dabbfbc632b34a4501c23972f09687ceaf2abb6e22c1"
+      },
+      {
+        "task_id": "math_pairs",
+        "domain": "math",
+        "source_family_id": "math_unordered_pairs",
+        "split_role": "heldout",
+        "prompt_sha256": "de437864d9f13012c40cdc1cdbaae99118a393a78b014d219de4b4162b473911",
+        "task_contract_sha256": "4638b085a324bd36e67cd2c4b8d57b433693f88ea2963e61cb56d7b180650a2f"
+      },
+      {
+        "task_id": "math_handshakes",
+        "domain": "math",
+        "source_family_id": "math_unordered_pairs",
+        "split_role": "heldout",
+        "prompt_sha256": "63f4237ac1acf04ae36210768e13e89b87edb93d39d78cf1d65de7c242deb6a3",
+        "task_contract_sha256": "f22f75ce3e981473e0cf29b859d6e4fb95a96b6aabca4f72974da37e472d35be"
+      },
+      {
+        "task_id": "writing_library_notice",
+        "domain": "writing",
+        "source_family_id": "writing_public_notice",
+        "split_role": "development",
+        "prompt_sha256": "9657fc312fb8d135368ee9018029eb7e30264ffd5479f8cd2be966c4437c2344",
+        "task_contract_sha256": "ee020311501a63c37c2620fe365bb600eb3925801c5ba7d346e224acc5cf871b"
+      },
+      {
+        "task_id": "writing_garden_notice",
+        "domain": "writing",
+        "source_family_id": "writing_public_notice",
+        "split_role": "development",
+        "prompt_sha256": "5b4191f0c15ed79b32505696fc0aeb030acb72e1c188951034057e85e0de6734",
+        "task_contract_sha256": "f2b44301385e9ab9cf67d1865b55c3607bc840ea9f46fe3187e23caab40cce4b"
+      },
+      {
+        "task_id": "writing_sorting_steps",
+        "domain": "writing",
+        "source_family_id": "writing_procedure",
+        "split_role": "calibration",
+        "prompt_sha256": "9117b1f347f995c6672ccdd0ee34be2d4fdbe31588f562a453dab02e75a2dfcc",
+        "task_contract_sha256": "76d811b6dff7494d454cd19ad73b1cb5f8bd2e85abf2638f9cc163f5492d2e80"
+      },
+      {
+        "task_id": "writing_seed_steps",
+        "domain": "writing",
+        "source_family_id": "writing_procedure",
+        "split_role": "calibration",
+        "prompt_sha256": "08abe85e943351684e8d0d21a2638341352c995f64878925c856171898a0419d",
+        "task_contract_sha256": "4a846817b185ee575ef585a93b5b857d2057ca940eeb214cb87d7760da9f61f3"
+      },
+      {
+        "task_id": "writing_room_comparison",
+        "domain": "writing",
+        "source_family_id": "writing_comparison",
+        "split_role": "heldout",
+        "prompt_sha256": "10a129afcfb2b51ff4dcc21caab76c689b9d98348397a55ab1b197cd0deb9a15",
+        "task_contract_sha256": "7e88b5e5df69820cee8e84b77a8a8af36283ab0c99a645445fd27f54fc06d597"
+      },
+      {
+        "task_id": "writing_shelf_comparison",
+        "domain": "writing",
+        "source_family_id": "writing_comparison",
+        "split_role": "heldout",
+        "prompt_sha256": "63438104f4a3d184b9298c9c1887d33bfcc8ae7a5786c82db177ad069aea3c1c",
+        "task_contract_sha256": "50ef3c72726912c4cea0e19792e0891919d2a1589dfc28c61253293c270cbf23"
+      }
+    ],
+    "model_input_is_prompt_only": true,
+    "never_send_to_model": [
+      "answer",
+      "check oracle beyond template already in prompt",
+      "cases/expected values",
+      "reference_fixtures",
+      "validator internals"
+    ],
+    "request_export_adapter": {
+      "path": "../quality/prepare_requests.py",
+      "phase_mapping": {
+        "Q": "Q_quality with development/calibration only",
+        "O": "calibration prompt export; observation mode/order added by server runner",
+        "R0": "calibration prompt export; paired feasibility assignment added by server runner",
+        "R": "R_paired, heldout, actual reviewed protocol/candidate freeze id"
+      },
+      "scope": "Only CPU request preparation, never GPU launch",
+      "freeze_id_is_not_authorization": true,
+      "launch_must_verify_freeze_artifacts": true
+    },
+    "pure_execution_efficiency_claim": "Require identical complete generated token sequences/hashes as well as task-quality completion across each baseline/candidate pair; otherwise label whole-configuration quality-cost comparison, not equal-computation runtime savings",
+    "quality_equivalent_but_different_output": "Report all outputs and lengths; never discard discrepant pairs or silently switch the primary claim"
+  },
+  "common_contract": {
+    "model": "Pinned local Qwen2.5-0.5B-Instruct checkpoint and tokenizer hashes",
+    "engine": "Pinned installed vLLM 0.20.2; full source/config hashes verified before launch",
+    "dtype": "bfloat16",
+    "temperature": 0,
+    "seed": 17,
+    "max_new_tokens": 1536,
+    "request_timeout_seconds": 120,
+    "maxima_are_safety_limits_not_SLO": true,
+    "concurrency": 1,
+    "prefix_caching": false,
+    "custom_stop_rules": false,
+    "ignore_eos": false,
+    "same_prompts_input_order_and_validators": true,
+    "byte_identity_assumed": false,
+    "length_timeout_cancel_error_or_unknown": "Retain as separate incomplete/failure state; never silently replace"
+  },
+  "phases": [
+    {
+      "id": "Q",
+      "state": "NOT_RUN",
+      "purpose": "Establish task-level completion and supported quality with the current model",
+      "fixed_plan": "One pass of six development and six calibration tasks; do not run heldout before R freeze",
+      "change_rule": "Edits only on development data before freezing later phases",
+      "outputs": [
+        "all_task_quality_components",
+        "completion_and_censoring",
+        "source_family_coverage",
+        "energy_latency_joint_results"
+      ],
+      "no_quality_business_cutoff_invented": true
+    },
+    {
+      "id": "O",
+      "state": "NOT_RUN",
+      "purpose": "Incremental MIN observer cost, not candidate energy saving",
+      "fresh_sessions_planned": 4,
+      "tasks": "Frozen calibration set",
+      "arms": [
+        "COMMON",
+        "MIN"
+      ],
+      "requests_per_task_arm_session": 1,
+      "order": "Balanced and preregistered COMMON/MIN versus MIN/COMMON",
+      "common_measurement": [
+        "same NVML energy endpoints",
+        "in-memory output and EOS validation",
+        "same host clocks",
+        "same closure and pre/post idle windows"
+      ],
+      "MIN_increment": [
+        "requested 50ms periodic NVML",
+        "per-event persistent host logs"
+      ],
+      "absolute_observer_bias_identified": false,
+      "subtract_overhead_from_R": false
+    },
+    {
+      "id": "R0",
+      "state": "BLOCKED_ACCESS_AND_COMPATIBILITY",
+      "purpose": "One bounded calibration compatibility comparison",
+      "paired_blocks_planned": 1,
+      "arms": [
+        "eager",
+        "graph_enabled"
+      ],
+      "requires": [
+        "installed support verified",
+        "actual capture/replay evidence",
+        "no hidden precision/concurrency/cache changes",
+        "all-stream closure requalified",
+        "identical measurement"
+      ],
+      "stop_if_no_treatment": true,
+      "included_in_R_confirmation": false
+    },
+    {
+      "id": "R",
+      "state": "BLOCKED_Q_O_R0_AND_ACCESS",
+      "purpose": "Finite-workload net runtime-cost comparison",
+      "paired_blocks_planned": 12,
+      "engine_episodes_per_block": 2,
+      "arm_order_counts": {
+        "eager_then_graph": 6,
+        "graph_then_eager": 6
+      },
+      "order_seed": 20261007,
+      "order_hash_frozen_before_results": true,
+      "same_gpu_within_block_required": true,
+      "each_arm": "Fresh worker/engine and declared cold cache state; one pass through identical frozen H",
+      "primary_horizon_H": "One complete six-task heldout set, including any failures",
+      "same_MIN_both_arms": true,
+      "sample_size_basis": "Bounded exploratory fixed-N design, not a power or precision guarantee",
+      "no_replacement_of_failed_attempts": true,
+      "extension_to_significance_or_precision": false,
+      "requests_per_arm_episode": 6,
+      "scheduled_task_requests": 144,
+      "paired_order_path": "PAIRED_ORDER.json",
+      "paired_order_sha256": "b9621784fc0ffa1d6bb14194adaa8d99c76fde54df854c502a4205376154332b"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1_native_graph",
+      "priority": 1,
+      "scope_distance_from_W6": "Adjacent inference-runtime efficiency; no controlled physical power trajectory or PCC claim",
+      "baseline": "Pinned enforce_eager=True configuration",
+      "candidate": "enforce_eager=False with one inspected and frozen native resolved compilation/cudagraph/backend configuration",
+      "support_in_docs": "Available as a documented option, not proof of installed compatibility",
+      "runtime_treatment_proof": "Capture and actual replay evidence on planned task shapes; fallback rates retained",
+      "causal_attribution": "Whole resolved runtime configuration if compilation also changes; no graph-only mechanism claim",
+      "mandatory_costs": [
+        "loading",
+        "compilation",
+        "graph capture",
+        "warmup",
+        "tasks",
+        "failures",
+        "recovery",
+        "logging",
+        "shutdown"
+      ],
+      "reconfigure_until_pass": false
+    },
+    {
+      "id": "C2_native_batching",
+      "priority": 2,
+      "state": "DEFERRED_NO_AUTOLAUNCH",
+      "scope_distance_from_W6": "Changes service contract to multi-request scheduling; not the current single-request estimand",
+      "requires_new_contract": [
+        "arrival trace",
+        "concurrency",
+        "queue delay",
+        "deadlines or descriptive service objective",
+        "complete batch horizon",
+        "same task quality",
+        "actual native scheduling effect"
+      ],
+      "client_stream_throttling_is_gpu_control": false
+    }
+  ],
+  "energy": {
+    "boundary": "GPU_REPORTED_NVML_NOT_DC_ALL_RAILS_OR_PCC",
+    "primary": "Paired difference in full engine-episode GPU energy for fixed H",
+    "cycle": "Existing pre 2s + execution/closure/logging + post 2s window; report separately",
+    "request_time": "From prompt receipt/template start to final output availability, alongside existing engine-visible metrics",
+    "baseline_draw_subtracted": false,
+    "job_total_separate": true,
+    "init_warmup_compile_shutdown_and_failures_included": true,
+    "counter_uncovered_intervals": "Unknown, never zero",
+    "formal_billing_cost_known": false,
+    "postEOS_recovery": "Frozen common state/observation rule; include its cost",
+    "fixed_idle_proves_state_equality": false,
+    "if_state_not_reset": "Limited order-conditioned boundary estimate, no regenerative-cycle closure claim",
+    "ratio_total_energy_per_success": "Secondary empirical ratio including all failures in numerator; not expected retry-to-success energy",
+    "amortization": "Only primary H measured; other horizons are labeled model-based sensitivity"
+  },
+  "statistics": {
+    "primary_weighting": "Fixed design-weighted mean of complete paired-block energy differences; retain scheduled failures and missingness",
+    "unit": "Within-device paired block; dependency may persist across blocks on reused GPU",
+    "cluster_id": "hashed physical GPU UUID",
+    "primary_task_population": "The frozen finite task set",
+    "new_task_generalization": "Requires genuinely untouched whole source families; generated family holdout is not external validation",
+    "hardware_generalization": "Not supported merely by allocation/session count",
+    "small_cluster_output": "Block differences, device counts/reuse, order sensitivity; model intervals only with explicit assumptions",
+    "per_request_or_token_iid": false,
+    "device_equal_weight_sensitivity": "Label as different weighting/estimand, not a repaired primary CI",
+    "incomplete_pairs": "Retain missingness/failure; report observed differences with denominator; no overall saving claim when complete-cost contrasts are not identifiable",
+    "effect_reporting": [
+      "quality differences",
+      "completion differences",
+      "output identity",
+      "energy difference",
+      "host latency difference",
+      "uncertainty/limitations"
+    ],
+    "claim_without_SLO_MDE": "Descriptive effects only, no business noninferiority/SLA conclusion"
+  },
+  "gates": [
+    {
+      "id": "G_access",
+      "pass_evidence": "Connected authorized existing GPU executor and readable pinned environment",
+      "current": "UNVERIFIED_UNAVAILABLE_TO_THIS_WORKER"
+    },
+    {
+      "id": "G_pool",
+      "pass_evidence": "Final pool, validators, split provenance, selected IDs, hashes and order frozen",
+      "current": "POOL_SPLIT_AND_FINAL_VALIDATOR_HASHES_VERIFIED; CANDIDATE_AND_SERVER_FREEZE_STILL_REQUIRED"
+    },
+    {
+      "id": "G_measurement",
+      "pass_evidence": "Endpoint identity/clock/coverage, no foreign compute, complete arm cost ledger and requalified closure",
+      "current": "REQUIRES_SERVER_PREFLIGHT"
+    },
+    {
+      "id": "G_treatment",
+      "pass_evidence": "One native graph configuration actually captures/replays; no unplanned confounding config differences",
+      "current": "REQUIRES_R0"
+    },
+    {
+      "id": "G_quality",
+      "pass_evidence": "Predeclared finite task quality/completion contract for all scheduled tasks; no outcome-driven exclusions",
+      "current": "NOT_ESTABLISHED"
+    },
+    {
+      "id": "G_W6_physical",
+      "pass_evidence": "Approved actual actuator and response, named calibrated electrical boundary, synchronized useful progress, EOS/return and burn costs, state closure, and DC/PCC transfer evidence appropriate to claim",
+      "current": "BLOCKED_NOT_SATISFIED_BY_GPU_ONLY"
+    }
+  ],
+  "stop_rules": [
+    "End at the fixed scheduled attempt count, not significance",
+    "Stop affected phase on source/model/config drift, corrupt counters, foreign compute or closure/safety failure",
+    "Preserve every scheduled attempt and reason; no quality-based replacement",
+    "If candidate not supported or no actual treatment, end R with a negative feasibility result",
+    "No client sleep/slow-read inferred as GPU actuation",
+    "No new resources, installs/upgrades, power settings, burn or external publication without applicable authority"
+  ],
+  "official_sources": [
+    {
+      "url": "https://docs.vllm.ai/en/v0.20.2/configuration/engine_args/",
+      "supports": "enforce_eager controls eager versus permitted hybrid graph execution"
+    },
+    {
+      "url": "https://docs.vllm.ai/en/v0.20.2/design/cuda_graphs/",
+      "supports": "Graph dispatch modes, backend compatibility and possible eager fallback"
+    },
+    {
+      "url": "https://docs.vllm.ai/en/v0.20.2/usage/reproducibility/",
+      "supports": "Seed alone is not a cross-configuration reproduction guarantee"
+    }
+  ],
+  "phase_namespace": "Continuation Q/O/R0/R; distinct from original W6 A-E branches"
+}

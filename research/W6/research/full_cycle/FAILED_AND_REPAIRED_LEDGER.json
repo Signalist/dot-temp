@@ -1,0 +1,40 @@
+[
+  {
+    "issue": "nonzero_free_node_offset_counted_twice",
+    "detected_by": "primary run failure check and independent review",
+    "effect": "Four nonzero SLSQP runs failed; idle-source results unchanged",
+    "repair": "Set free components of fixed-offset base to zero; recompute six nonzero and independent Bellman comparisons",
+    "old_evidence": "evidence/NONZERO_INITIAL.failed_v1.json",
+    "status": "REPAIRED_INDEPENDENTLY_VERIFIED"
+  },
+  {
+    "issue": "nodal_recovery_clip_not_exact_pointwise_clip",
+    "detected_by": "independent review",
+    "effect": "Feasible nodal approximation was mislabeled exact dominance transform",
+    "repair": "Insert every within-cell crossing, then integrate exact piecewise-linear minimum",
+    "old_evidence": "evidence/ACCOUNTING_ABLATION.nodal_clip_v1.json",
+    "status": "REPAIRED_INDEPENDENTLY_VERIFIED"
+  },
+  {
+    "issue": "bounded_target_search_flat_unreachable_region",
+    "detected_by": "parent-worker baseline stress check",
+    "effect": "Four primary simple-baseline objectives materially overstated; one trace comparator overstated; previous maximum primary gain6.85% withdrawn",
+    "repair": "Uniform monotone stationary root and exact expectation; atomic all-breakpoint/per-branch unique-root global enumeration",
+    "old_evidence": "evidence/TARGET_BASELINE_REPAIR_EFFECTS.json",
+    "status": "REPAIRED_INDEPENDENTLY_VERIFIED"
+  },
+  {
+    "issue": "nonzero_critical_prefix_off_grid_contract",
+    "detected_by": "primary and independent review",
+    "effect": "Uniform nodal caps alone do not make a crossing segment a convex residual",
+    "repair": "Reject nonaligned forced-prefix interface; all tested forced prefixes exactly.25",
+    "status": "GUARDED_SCOPE_LIMITATION"
+  },
+  {
+    "issue": "large_repeated_trace_prefix_ledgers",
+    "effect": "Redundant development JSON grew267MB; no science defect",
+    "repair": "Shared bridge segments plus all623EOS total ledgers, exact same represented paths; raw1024ledger gzip retained",
+    "old_evidence": "evidence/TRACE_COMPACTION.json",
+    "status": "COMPACT_EQUIVALENT_REPRESENTATION"
+  }
+]

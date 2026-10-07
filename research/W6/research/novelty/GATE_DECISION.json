@@ -1,0 +1,28 @@
+{
+  "gate": "CONDITIONAL",
+  "scope": "Narrow theoretical article; exact recovery-domain reduction plus sharp power-law hazard convexity",
+  "core_claims": [
+    "C03",
+    "C06"
+  ],
+  "support_only": [
+    "C04",
+    "C05",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11"
+  ],
+  "broad_novelty": "FAIL",
+  "priority_certification": false,
+  "engineering_validation": false,
+  "no_new_experiments": true,
+  "required_scope_changes": [
+    "C03 and C06 form one combined main contribution",
+    "Critical speed, nonzero initial, maximal bridge and Bellman are supporting results with citations",
+    "Regenerative average-power ratios must not be equated to the weighted per-cycle objective",
+    "Grid extension must retain positivity/order assumptions and undergo independent proof review"
+  ],
+  "assessment": "Distinct model-specific theorem candidate, moderate technical increment; not a novel general stochastic-control or convexification method"
+}

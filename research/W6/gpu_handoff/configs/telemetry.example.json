@@ -1,0 +1,10 @@
+{
+  "schema_version": "w6-1",
+  "evidence": "MEASURED",
+  "acquisition_id": "REPLACE_ACQUISITION",
+  "run_id": "REPLACE_RUN",
+  "clock_id": "REPLACE_SHARED_HOST_BOOT_CLOCK_ID",
+  "gpu_index": 0,
+  "poll_s": 0.05,
+  "duration_s": 120
+}

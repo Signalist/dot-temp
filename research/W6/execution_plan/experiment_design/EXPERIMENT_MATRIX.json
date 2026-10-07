@@ -1,0 +1,1208 @@
+{
+  "version": "2026-10-05",
+  "status": "PLANNING_ONLY_NO_NEW_SCIENCE_OR_HARDWARE_RUNS",
+  "purpose_zh": "按声明分层的最小充分实验设计，避免盲目全乘积及后补关键原始通道",
+  "priority_semantics": {
+    "MUST": "对后缀指定的声明/阶段必需；并非要求现在执行或所有路线都执行",
+    "CONDITIONAL": "只有对应更广声明或前级证据触发才做；未选路线写NOT_APPLICABLE_BY_SCOPE而非PASS"
+  },
+  "experiment_count": 38,
+  "experiments": [
+    {
+      "id": "F01",
+      "title_zh": "核验两个交付包及只读源",
+      "priority": "MUST_ALL",
+      "hardware_tier": "CPU",
+      "current_status": "已有结果 只核验",
+      "depends_on": [],
+      "inputs_zh": "两个 ZIP、PACKAGE_MANIFEST.json、SPLIT_DELIVERY_QA.json",
+      "design_and_budget_zh": "先校验 ZIP 哈希与合并路径，再核验主包 manifest；保留只读原始副本。CPU 软件 smoke 在新机器做一次，已有科学参数扫描不默认重跑。",
+      "required_outputs": [
+        "provenance/input_receipt.json",
+        "provenance/package_verification.json",
+        "software/smoke.log"
+      ],
+      "metrics_zh": "路径安全、文件数、hash、原文件不变、硬件调用数为零",
+      "gate_zh": "两个普通 ZIP 正确合并；科学来源可定位；软件失败先修好",
+      "failure_or_pivot_zh": "缺失或 hash 不符则隔离并报告；不从记忆重建数值或复用坏包",
+      "implementation_zh": "已有 verify_package.py、run_cpu_checks.py、gpu_handoff/verify_bundle.py/check_static.py/tests；新的总调度器未实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "00_inventory/input_receipt.json",
+        "00_inventory/package_verification.json",
+        "07_audit/tests/smoke.log"
+      ]
+    },
+    {
+      "id": "F02",
+      "title_zh": "冻结既有正负证据与更正",
+      "priority": "MUST_ALL",
+      "hardware_tier": "CPU",
+      "current_status": "已有结果 只核验",
+      "depends_on": [
+        "F01"
+      ],
+      "inputs_zh": "prior_w6、theory_grid、novelty、measurement 的状态和原始结果",
+      "design_and_budget_zh": "逐 claim 标注 theorem/model/simulated/measured，抄取已验证的聚合值；检查 authoritative erratum 与失败账本保留。既有 12+12+6+8+2 模型和 8 个网模确认不是独立样本。",
+      "required_outputs": [
+        "evidence/frozen_claims.csv",
+        "evidence/negative_results.csv",
+        "evidence/source_hashes.json"
+      ],
+      "metrics_zh": "claim 来源与限制、旧 hard-deadline 失败、未取得的物理参数",
+      "gate_zh": "没有把既有曝光数据变成新 holdout，没有把模拟/声明性 gate 升格为实测",
+      "failure_or_pivot_zh": "冲突取权威更正且保留冲突原件；论文缩小声明",
+      "implementation_zh": "已有 FINAL_SCIENTIFIC_STATUS.json、FINAL_THEORY_GRID_STATUS.json、FAILED_AND_REPAIRED_LEDGER.json 和 REVIEW_CLOSURE",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "07_audit/evidence/frozen_claims.csv",
+        "07_audit/evidence/negative_results.csv",
+        "07_audit/evidence/source_hashes.json"
+      ]
+    },
+    {
+      "id": "F03",
+      "title_zh": "确定论文声明与实验边界",
+      "priority": "MUST_ALL",
+      "hardware_tier": "CPU",
+      "current_status": "新规划 尚未执行",
+      "depends_on": [
+        "F02"
+      ],
+      "inputs_zh": "目标论文类型、可用设备、模型、仪表、预算、场景与 SLA",
+      "design_and_budget_zh": "选择理论、GPU 记录域、DC 完整周期、PCC 网侧之一或组合；建立每个 claim 的必需条件。一次独占任务为默认核心，持续服务/并发另开 X04。",
+      "required_outputs": [
+        "protocol/claim_scope.json",
+        "protocol/claim_evidence_matrix.csv",
+        "protocol/operator_inputs.json"
+      ],
+      "metrics_zh": "范围可识别性、必要通道、主 endpoint、次 endpoint、许可与预算",
+      "gate_zh": "所有阈值标为工程来源/操作人输入/统计设计，未知不填零；不预设胜利幅度",
+      "failure_or_pivot_zh": "只有 GPU 则限于记录域结论；无有效执行合同则保留理论论文",
+      "implementation_zh": "已有三层资源 checklist；细化 claim registry 与预算账本待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/claim_scope.json",
+        "01_protocol/claim_evidence_matrix.csv",
+        "01_protocol/operator_inputs.json"
+      ]
+    },
+    {
+      "id": "I01",
+      "title_zh": "检查硬件身份与安全许可",
+      "priority": "MUST_REAL",
+      "hardware_tier": "GPU",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "F03"
+      ],
+      "inputs_zh": "GPU/主机身份、驱动/engine/model/tokenizer revision、既有 cap 与设备约束",
+      "design_and_budget_zh": "只读盘点；声明独占、MIG/vGPU、热阈值、最长运行时间、人工恢复。不得自动租机、下载权重、改电压或提权；真实 cap 写入独立获批。",
+      "required_outputs": [
+        "hardware/inventory.json",
+        "hardware/operator_approval.json",
+        "hardware/safety_plan.json"
+      ],
+      "metrics_zh": "UUID hash、能力/权限、所有者、设备原 cap、监控/恢复路径",
+      "gate_zh": "设备与批准范围匹配，独占和恢复可行",
+      "failure_or_pivot_zh": "权限/设备/安全范围不明则不执行；返回具体缺项",
+      "implementation_zh": "已有 telemetry 的 inventory 查询及 cap validate_plan；硬件支持未测试",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "00_inventory/hardware/inventory.json",
+        "00_inventory/hardware/operator_approval.json",
+        "00_inventory/hardware/safety_plan.json"
+      ]
+    },
+    {
+      "id": "I02",
+      "title_zh": "补齐引擎事件与策略执行桥",
+      "priority": "MUST_REAL",
+      "hardware_tier": "GPU 或 GPU_DC",
+      "current_status": "缺实现及真实验证",
+      "depends_on": [
+        "I01"
+      ],
+      "inputs_zh": "固定 engine revision、设备事件机制、EventSink、现有模拟策略文件",
+      "design_and_budget_zh": "实现 request/token/phase/device useful-completion、controller-visible EOS、取消确认和幂等 run orchestration；保留 command/实际生效双时钟。先 mock/fixture，后最小真实验证。绝不把 host 回调标成 device 时间。 GPU_ONLY 仅实现与其描述性声明相符的事件/日志桥；缺device hook保留host语义，真实W6策略桥仅在GPU_DC/PCC控制分支要求。",
+      "required_outputs": [
+        "software/engine_adapter_version.json",
+        "software/controller_adapter_version.json",
+        "software/contract_tests.json",
+        "calibration/event_timing_audit.json"
+      ],
+      "metrics_zh": "事件身份、递增 token、重复/丢失、CUDA/stream 语义、取消后队列、时间误差",
+      "gate_zh": "与 engine revision 对应的测试证据；不支持项明确 unknown；真实策略桥在接电前通过 dry-run",
+      "failure_or_pivot_zh": "只能 host-output 时间则保留 descriptive；没有 W6 actual-power 执行器就不跑名义 W6 硬件获益比较",
+      "implementation_zh": "EventSink、record_engine_progress 仅 host 可见；SSE client 仅 chunk/stop_rule；device hook、真实在线 W6 控制桥、取消适配尚缺",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "02_code/engine_adapter_version.json",
+        "02_code/controller_adapter_version.json",
+        "07_audit/tests/contract_tests.json",
+        "03_calibration/event_timing_audit.json"
+      ]
+    },
+    {
+      "id": "I03",
+      "title_zh": "完成最小只读采集烟测",
+      "priority": "MUST_REAL",
+      "hardware_tier": "GPU",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "I01",
+        "I02"
+      ],
+      "inputs_zh": "本地已启动且获准使用的服务、一个小请求、NVML 日志",
+      "design_and_budget_zh": "先 dry-run，再一个最小 idle→请求→返回 smoke；同时保留失败路径日志。无 cap 写入，无 burn。",
+      "required_outputs": [
+        "pilot/smoke/raw/",
+        "pilot/smoke/admission.json",
+        "pilot/smoke/all_attempts.csv"
+      ],
+      "metrics_zh": "NVML API 支持、时间连续性、单位、缺样、日志落盘、服务端真实结束",
+      "gate_zh": "全渠道同一 acquisition，服务队列恢复；日志错误能使 runner 失败关闭",
+      "failure_or_pivot_zh": "超时后先验证取消/队列与恢复，不能立刻启动下一任务",
+      "implementation_zh": "已有 telemetry/request dry-run 与执行入口；联合编排、服务清理检查待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/<source>/",
+        "03_calibration/pilot/smoke/admission.json",
+        "03_calibration/pilot/smoke/all_attempts.csv"
+      ]
+    },
+    {
+      "id": "I04",
+      "title_zh": "校准时钟计量边界与采样",
+      "priority": "MUST_DC_PCC",
+      "hardware_tier": "GPU_DC 或 GPU_DC_PCC",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "I03"
+      ],
+      "inputs_zh": "全 rails DC 仪表证书、带宽/抗混叠、NVML、前后同步 marker、PCC（如有）",
+      "design_and_budget_zh": "在计划动态范围与过渡时标内校准幅度、offset/drift/latency 和 sensor filter；至少覆盖 idle、代表负载、上/下沿；采样目标从最短所需时标反推。不自行接带电线路。",
+      "required_outputs": [
+        "calibration/meter_audit.json",
+        "calibration/clock_transform.json",
+        "calibration/uncertainty_budget.json",
+        "raw/calibration/"
+      ],
+      "metrics_zh": "覆盖 rails、校准/滤波/基线误差、最大 gap、饱和、丢包、时间误差",
+      "gate_zh": "误差预算小于拟回答的工程差异；硬连续 slew 还需独立带宽/regularity/设备保证",
+      "failure_or_pivot_zh": "无 DC/有效时间界则降为 GPU 记录域；不能以相邻差分或高频轮询证明连续硬界",
+      "implementation_zh": "已有 import-meter 接口，仅接收外部给定校准；仪器驱动、同步/rail 审计、滤波辨识未实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "03_calibration/meter_audit.json",
+        "03_calibration/clock_transform.json",
+        "03_calibration/uncertainty_budget.json",
+        "04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/<source>/"
+      ]
+    },
+    {
+      "id": "I05",
+      "title_zh": "量化采集与插桩扰动",
+      "priority": "MUST_REAL",
+      "hardware_tier": "GPU 或 GPU_DC",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "I03"
+      ],
+      "inputs_zh": "启用/关闭日志与 event instrumentation 的相同小任务",
+      "design_and_budget_zh": "在安全固定设置做随机顺序 A/B 配对，先至少跨 pilot sessions 的小样本诊断；据精度目标增量采集，不作为确认收益。外部仪表保留以避免关日志后无观测。",
+      "required_outputs": [
+        "pilot/instrumentation_overhead.csv",
+        "pilot/instrumentation_decision.json"
+      ],
+      "metrics_zh": "latency/TTFT/ITL、吞吐、能量、CPU/磁盘占用、token/device timestamp 开销",
+      "gate_zh": "扰动相对最小关心差异可接受或在所有策略一致并计入成本",
+      "failure_or_pivot_zh": "逐 token 同步严重扰动则改为验证过的低侵入方法；无法修复就收窄时间/性能声明",
+      "implementation_zh": "现有包无 instrumentation A/B runner 与统计分析，须实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "03_calibration/pilot/instrumentation_overhead.csv",
+        "03_calibration/pilot/instrumentation_decision.json"
+      ]
+    },
+    {
+      "id": "I06",
+      "title_zh": "识别控制区域和条件服务律",
+      "priority": "MUST_DC_CONTROL",
+      "hardware_tier": "GPU_DC",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "I04",
+        "I05"
+      ],
+      "inputs_zh": "一个基准 model/precision/phase/context/batch=1 stratum、五个获批 cap 水平",
+      "design_and_budget_zh": "3 个独立重初始化 session×5 水平×2 重复=30 plateau episodes：随机顺序、逆序、重启；记录上/下沿。只有实际功率可区分才算五个 attained levels。30 episodes 仅 3 clusters，非确认 N。",
+      "required_outputs": [
+        "pilot/plateau/all_attempts.csv",
+        "pilot/plateau/raw/",
+        "pilot/attainable_region.json",
+        "pilot/service_diagnostics.json"
+      ],
+      "metrics_zh": "u→actual p 响应、条件平均服务、单调/凹性反例、热/时钟滞回、噪声与聚类方差",
+      "gate_zh": "可达功率区域足够，条件关系可解释；OLS 不自动成为因果/点态/硬下包络",
+      "failure_or_pivot_zh": "实际 power 不随 cap 区分则缩域/换合法控制路径或停止；多状态依赖则用 s(p,z) 或放弃标量合同",
+      "implementation_zh": "已有有界 cap API、诊断 OLS/经验 secant；plateau 联合编排、条件包络/误差模型待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "03_calibration/pilot/plateau/all_attempts.csv",
+        "04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/<source>/",
+        "03_calibration/pilot/attainable_region.json",
+        "03_calibration/pilot/service_diagnostics.json"
+      ]
+    },
+    {
+      "id": "I07",
+      "title_zh": "核验自然结束删失与故障",
+      "priority": "MUST_REAL",
+      "hardware_tier": "GPU 或 GPU_DC",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "I02",
+        "I03"
+      ],
+      "inputs_zh": "自然 EOS、显式 stop rule、length cap、取消、超时、错误路径的预设样例",
+      "design_and_budget_zh": "正常结束记录与 I06/I10 共用；异常路径首先 mock，再在批准范围做最小 end-to-end。保留全部尝试及原始 stop metadata，不因不利结果删行。",
+      "required_outputs": [
+        "pilot/eos_reason_audit.csv",
+        "pilot/censoring_map.json",
+        "pilot/abort_recovery_audit.json"
+      ],
+      "metrics_zh": "device EOS、host/控制器可见时刻、命令响应、finish/stop_class、max_tokens、取消后残余执行",
+      "gate_zh": "natural_eos 需 token/规则证据；未知保留 unknown；删失机制可解释",
+      "failure_or_pivot_zh": "finish_reason=stop 只能 stop_rule 时不拟自然 EOS；不可验证 cancel 则停止后人工恢复",
+      "implementation_zh": "已有字段与保守 SSE 分类；device EOS、停止规则解析、删失模型与服务端取消待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "03_calibration/pilot/eos_reason_audit.csv",
+        "03_calibration/pilot/censoring_map.json",
+        "03_calibration/pilot/abort_recovery_audit.json"
+      ]
+    },
+    {
+      "id": "I08",
+      "title_zh": "验证执行恢复与可用耗散",
+      "priority": "MUST_DC_CONTROL",
+      "hardware_tier": "GPU_DC",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "I06",
+        "I07"
+      ],
+      "inputs_zh": "获批控制动作、真实 EOS、全功率尾部、初终热/clock/queue 状态",
+      "design_and_budget_zh": "从 I06 自然恢复及安全上下沿共用数据，补不足角点。辨别物理下降速度、minimum power/floor、idle return、无用工作与合法恢复路径；不自动添加 dummy load/burn。",
+      "required_outputs": [
+        "pilot/actuator_envelope.json",
+        "pilot/terminal_state_audit.json",
+        "pilot/burn_feasibility.json",
+        "pilot/recovery_curves/"
+      ],
+      "metrics_zh": "tracking/error/delay、power_return 时间、matched-state 时间、恢复/额外耗散能量、cap_restore readback",
+      "gate_zh": "实际执行路径满足所用理论合同，恢复和 EOS 后动作真实存在",
+      "failure_or_pivot_zh": "不能维持理论所需 slew/floor/burn 时改为真实 actuator 合同并重推/重算，或停止 W6 实测增益主张",
+      "implementation_zh": "cap-session 不是连续 slew/burn controller；现有 analysis 可积分完整记录，真实 actuator 与 reset 检查待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "03_calibration/pilot/actuator_envelope.json",
+        "03_calibration/pilot/terminal_state_audit.json",
+        "03_calibration/pilot/burn_feasibility.json",
+        "03_calibration/pilot/recovery_curves/"
+      ]
+    },
+    {
+      "id": "I09",
+      "title_zh": "检查阶段上下文热状态反例",
+      "priority": "MUST_REAL",
+      "hardware_tier": "GPU 或 GPU_DC",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "I06"
+      ],
+      "inputs_zh": "prefill/decode、短/长 context、热稳态与允许冷态、KV/cache 与 clock metadata",
+      "design_and_budget_zh": "避免全乘积：在两端代表控制水平，对三个预设相邻 stratum 各做两次 sentinel，共最多 12 诊断 episodes，分散到已有 pilot sessions；phase 若同请求可分段复用，但不能当独立请求。 GPU_ONLY 路线只做默认控制下的只读 phase/context/thermal sentinel，不执行 DC/cap干预；I06 不适用于该路线。",
+      "required_outputs": [
+        "pilot/stratum_sentinels.csv",
+        "pilot/model_scope_decision.json"
+      ],
+      "metrics_zh": "phase 条件功率/速率残差、context 依赖、thermal/clock 限频、cache/batch 差异",
+      "gate_zh": "明确哪些条件需要独立 s(p,z) 与 envelope；排除动态 batching/speculation 或独立标注",
+      "failure_or_pivot_zh": "发现依赖不自动扩大全矩阵；选择一个有效窄域，需广域声明才追加该层标定",
+      "implementation_zh": "已有 stratum 字段/fit 单层限制；sentinel 设计/条件包络分析待实现",
+      "depends_on_by_route": {
+        "GPU_ONLY": [
+          "I03",
+          "I05"
+        ]
+      },
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "03_calibration/pilot/stratum_sentinels.csv",
+        "03_calibration/pilot/model_scope_decision.json"
+      ]
+    },
+    {
+      "id": "I10",
+      "title_zh": "建立前瞻工作量分布",
+      "priority": "MUST_NATURAL_EOS_CLAIM",
+      "hardware_tier": "GPU",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "I07",
+        "F03"
+      ],
+      "inputs_zh": "目标 prompt population、固定模型/采样/质量判据、与策略训练隔离的任务池",
+      "design_and_budget_zh": "记录自然 EOS、prompt/context、length cap 和全部 stop reason；固定输出长度单列为控制诊断。支持上界 M 需协议保证并明确截断含义，不由样本最大值推断；样本量由 law/尾部目标而定。",
+      "required_outputs": [
+        "calibration/workload_registry.json",
+        "calibration/length_law.json",
+        "calibration/censoring_report.json"
+      ],
+      "metrics_zh": "自然长度 PMF/尾部、censoring fraction、质量、分布漂移与 hazard 结构适用性",
+      "gate_zh": "分布可识别且符合所用理论子类；估计 law 不能证明 sharp hazard 条件普遍成立",
+      "failure_or_pivot_zh": "信息性删失未知则用区间/敏感性或停止自然 EOS 最优性主张；不能把 Azure 旧 trace 冒充新样本",
+      "implementation_zh": "旧 trace-driven CPU PMF 程序已在包中；新删失估计、质量审计与自然任务池管理待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/calibration/workload_registry.json",
+        "03_calibration/length_law.json",
+        "03_calibration/censoring_report.json"
+      ]
+    },
+    {
+      "id": "I11",
+      "title_zh": "发布 pilot 准入与去留",
+      "priority": "MUST_REAL",
+      "hardware_tier": "CPU",
+      "current_status": "新分析 尚未执行",
+      "depends_on": [
+        "I03",
+        "I05",
+        "I07"
+      ],
+      "inputs_zh": "对应 claim 所需 I04/I06/I08/I10 的结果、所有失败、独立 session 信息",
+      "design_and_budget_zh": "把可识别参数、缺失参数、误差与预算逐项列出；实测 DC/W6 claim 依赖 I04/I06/I08 全通过。先向操作者报告准入，再拟合/大规模确认。",
+      "required_outputs": [
+        "decisions/pilot_gate.json",
+        "decisions/pilot_report.md",
+        "decisions/next_stage_budget.json"
+      ],
+      "metrics_zh": "数据完整性、模型假设、可实现性、可检测性和安全",
+      "gate_zh": "GO_NARROW/GO_DESCRIPTIVE/PIVOT_MODEL_ONLY/BLOCKED 四种明确结果",
+      "failure_or_pivot_zh": "缺失合同不得用其他公开 trace 拼接；没有实际意义或可检测性的差异可直接保留负结果并停扩展",
+      "implementation_zh": "已有 validate 声明性检查；物理准入人工审计与总 gate 报告待实现",
+      "depends_on_by_route": {
+        "GPU_ONLY": [
+          "I03",
+          "I05",
+          "I07"
+        ],
+        "GPU_DC": [
+          "I03",
+          "I04",
+          "I05",
+          "I06",
+          "I07",
+          "I08",
+          "I09"
+        ],
+        "PCC": [
+          "I03",
+          "I04",
+          "I05",
+          "I06",
+          "I07",
+          "I08",
+          "I09"
+        ]
+      },
+      "conditional_dependency_gates": [
+        {
+          "if_flag": "natural_eos_claim",
+          "requires": [
+            "I10"
+          ],
+          "reason_zh": "只有拟作自然EOS分布/最优性声明才强制自然工作量law准入"
+        }
+      ],
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "07_audit/decisions/pilot_gate.json",
+        "07_audit/decisions/pilot_report.md",
+        "07_audit/decisions/next_stage_budget.json"
+      ]
+    },
+    {
+      "id": "N01",
+      "title_zh": "验证新参数下求解精度",
+      "priority": "MUST_IF_NEW_CONTROLLER",
+      "hardware_tier": "CPU",
+      "current_status": "新参数触发 否则复用",
+      "depends_on": [
+        "I11"
+      ],
+      "inputs_zh": "新有效包络/分布、冻结候选 controller；旧 cycle_model/dual/Bellman 程序 CPU-only 新模型分支使用声明的模型参数及有效数学合同，不需要实测 pilot。",
+      "design_and_budget_zh": "先代表设计例，后冻结的新主要配置；使用拐点对齐和独立积分、mesh refinement、可行性/残差/数值 gap。无需重跑全部旧参数。对预期很小收益提高精度至足以区分，否则不宣称优势。",
+      "required_outputs": [
+        "solver/accuracy_protocol.json",
+        "solver/refinement.csv",
+        "solver/feasibility.json",
+        "solver/error_budget.json"
+      ],
+      "metrics_zh": "连续/离散问题区别、feasibility margin、objective gap、mesh/quad 变化、数值耗时",
+      "gate_zh": "相对最小关心差异，数值误差可忽略或诚实报告不可分辨；solver success 不是证书",
+      "failure_or_pivot_zh": "数值失败保留；新 amendment 覆盖所有适用例，不挑赢家重算；区间证明仅严格证书 claim 时增做",
+      "implementation_zh": "已有 cycle_model、continuous_dual、inward_feasible_paths、aligned_study；新物理条件适配和正式区间证书尚缺",
+      "depends_on_by_route": {
+        "CPU_THEORY_NEW_MODEL": [
+          "F03",
+          "N03"
+        ],
+        "GPU_DC": [
+          "I11"
+        ],
+        "PCC": [
+          "I11"
+        ]
+      },
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/solver/accuracy_protocol.json",
+        "05_derived/solver/refinement.csv",
+        "05_derived/solver/feasibility.json",
+        "05_derived/solver/error_budget.json"
+      ]
+    },
+    {
+      "id": "N02",
+      "title_zh": "冻结强基线与全局参照",
+      "priority": "MUST_CONTROLLER_CLAIM",
+      "hardware_tier": "CPU 加对应硬件 tier",
+      "current_status": "部分已有 新域需适配",
+      "depends_on": [
+        "N01"
+      ],
+      "inputs_zh": "同一工作量 law、controller 可见信息、动作/采样/延迟/cap/slew/恢复/质量合同",
+      "design_and_budget_zh": "至少原生 nominal serving、经 calibration 优化的 static cap/恒目标+恢复、W6；CPU 使用同信息 Bellman 或严格可行的全局/上下界参照。若 adaptive MPC/线上策略是最近可用强对手，列条件 baseline，公平调参预算。",
+      "required_outputs": [
+        "protocol/baseline_contracts.json",
+        "solver/reference_results.json",
+        "protocol/information_audit.csv"
+      ],
+      "metrics_zh": "同信息、同预算、同初終状态、同 QoS；独立全局参照的 restricted-class 与 continuous 界",
+      "gate_zh": "强基线先优化而非手挑弱 cap；不声称胜过真正同合同全局最优解",
+      "failure_or_pivot_zh": "参考能力/信息不匹配则只作 diagnostic；oracle 明确非可部署，不混主胜负",
+      "implementation_zh": "已有 global_bellman/atomic_bellman/global constant-target；nominal serving 与真实控制基线桥待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/baseline_contracts.json",
+        "05_derived/solver/reference_results.json",
+        "01_protocol/information_audit.csv"
+      ]
+    },
+    {
+      "id": "N03",
+      "title_zh": "保持理论边界与反例完整",
+      "priority": "MUST_THEORY",
+      "hardware_tier": "CPU",
+      "current_status": "已有结果 只核验",
+      "depends_on": [
+        "F02"
+      ],
+      "inputs_zh": "恢复投影、sharp hazard、初态/atomic bridge、正核条件、变号反例、hard deadline 更正",
+      "design_and_budget_zh": "核验源与既有独审；只有拟推广到新的服务/分布/网约束时追加对应证明和反例。不用更多漂亮曲线代替证明。",
+      "required_outputs": [
+        "evidence/theory_scope_audit.md",
+        "evidence/counterexample_index.csv"
+      ],
+      "metrics_zh": "定理假设、必要/充分条件、proof vs high-precision vs float 证据等级",
+      "gate_zh": "主线限定 C03+C06 及已证网侧边界；广义 novelty 仍 FAIL",
+      "failure_or_pivot_zh": "新合同超出定理则明确未证明；物理成功不能修复已知数学反例",
+      "implementation_zh": "已完成 theory/FULL_CYCLE_THEOREMS、GRID_MEMORY_THEOREMS、review 与 frozen witnesses",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "07_audit/evidence/theory_scope_audit.md",
+        "07_audit/evidence/counterexample_index.csv"
+      ]
+    },
+    {
+      "id": "N04",
+      "title_zh": "压力测试模型误差与延迟",
+      "priority": "MUST_CONTROLLER_DESIGN",
+      "hardware_tier": "CPU",
+      "current_status": "已有模型结果 新域条件追加",
+      "depends_on": [
+        "N01",
+        "N02"
+      ],
+      "inputs_zh": "pilot 确定的误差区间、EOS delay/采样、service/actuator uncertainty、初態",
+      "design_and_budget_zh": "优先重放已采 raw/已保存轨迹；按预定角点/边界而非全乘积。解析 whole-box 保证与有限角点不同标记；超出范围只作 falsification。",
+      "required_outputs": [
+        "simulation/uncertainty_protocol.json",
+        "simulation/stress_results.csv",
+        "simulation/violations.json"
+      ],
+      "metrics_zh": "ΔJ、可行性、延迟账本、uncertainty contribution、适用域",
+      "gate_zh": "误差预算完整，迟报界不替代采样/跟踪/热误差；失败不会回写确认调参",
+      "failure_or_pivot_zh": "若模拟对可观察误差敏感至无余量，停止硬件昂贵确认或缩域",
+      "implementation_zh": "已有 72 组合理想 actual-power executor 和 guard model；硬件误差模型耦合待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/simulation/uncertainty_protocol.json",
+        "05_derived/simulation/stress_results.csv",
+        "05_derived/simulation/violations.json"
+      ]
+    },
+    {
+      "id": "C01",
+      "title_zh": "独立标定候选策略与包络",
+      "priority": "MUST_CONTROLLER_CONFIRM",
+      "hardware_tier": "GPU_DC",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "I11",
+        "N01",
+        "N02"
+      ],
+      "inputs_zh": "与 pilot 不同的完整未来 sessions、候选模型与 baseline tuning 预算",
+      "design_and_budget_zh": "先在采集前冻结整 session 的 role registry，再只用 identification/calibration 拟合、选择 controller 和基线；记录 calibration sessions 数及其方差。pilot 永久 development；确认从未打开。",
+      "required_outputs": [
+        "calibration/frozen_service_model.json",
+        "calibration/frozen_actuator_model.json",
+        "calibration/frozen_policies/",
+        "calibration/fit_audit.json"
+      ],
+      "metrics_zh": "条件残差、coverage、uncertainty、模型选择与 tuning 总成本",
+      "gate_zh": "误差/包络有方法学根据且支持预定域；最大训练残差不是未来硬界",
+      "failure_or_pivot_zh": "新数据不支持假设则改合同；修改后重新冻结并取新确认样本",
+      "implementation_zh": "已有 freeze-split、fit-service/evaluate-service 只作 OLS 诊断；控制用包络与策略训练尚缺",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "03_calibration/frozen_service_model.json",
+        "03_calibration/frozen_actuator_model.json",
+        "03_calibration/frozen_policies/",
+        "03_calibration/fit_audit.json"
+      ]
+    },
+    {
+      "id": "F04",
+      "title_zh": "冻结确认样本预算和分析",
+      "priority": "MUST_CONFIRM",
+      "hardware_tier": "CPU",
+      "current_status": "新规划 尚未执行",
+      "depends_on": [
+        "C01",
+        "N04"
+      ],
+      "inputs_zh": "pilot/calibration 聚类方差、工程 MDE/非劣容忍度、费用上限、候选策略 hash",
+      "design_and_budget_zh": "冻结未来 session/run registry、任务池/种子、策略顺序、主 endpoints、QoS tail/quality、missing/failure、multiplicity、固定 N 或合法序贯规则。旧 model 绑定 split hash，不得覆写；预先规划完整 registry 或实现测试过的父子 manifest 链。外部时间戳可核验，确认结果不可回看调参。",
+      "required_outputs": [
+        "protocol/preregistration.json",
+        "protocol/frozen_registry.json",
+        "protocol/analysis_plan.md",
+        "protocol/power_budget.json",
+        "protocol/freeze_receipt.json"
+      ],
+      "metrics_zh": "session 为置信单位、N_clusters 与 n_requests 分开、precision/power、目标总体、上限/停止条件",
+      "gate_zh": "预算来自实际方差和工程问题，不选任意收益门槛或照搬 59/299；无足够独立单位就不作该推断 最终calibration/controller/baseline hash必须与N01/N02/N04检查一致；不一致先更新development检查再冻结。",
+      "failure_or_pivot_zh": "达到预算仍不确定则结论 inconclusive，不继续偷看直到显著；改版须新确认",
+      "implementation_zh": "已有 registry hash 与 iid 零失败预算 helper；连续效应 power、cluster/tail CI、序贯控制未实现",
+      "final_artifact_hash_closure": {
+        "required": [
+          "final_calibration_model_hash",
+          "final_controller_policy_hash",
+          "final_baseline_policy_hash",
+          "N01_numerical_accuracy_input_hashes",
+          "N02_reference_contract_input_hashes",
+          "N04_uncertainty_input_hashes"
+        ],
+        "gate_zh": "C01最终标定若改变模型/策略参数，必须更新受影响N01/N02/N04的development版本并核对输入hash，再冻结F04；旧数值检查不得给新参数背书。保留所有旧版本，不回写confirmation。"
+      },
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/preregistration.json",
+        "01_protocol/protocol/frozen_registry.json",
+        "01_protocol/analysis_plan.md",
+        "01_protocol/power_budget.json",
+        "01_protocol/freeze_receipt.json"
+      ]
+    },
+    {
+      "id": "C02",
+      "title_zh": "执行冻结的主配对确认",
+      "priority": "MUST_EMPIRICAL_BENEFIT",
+      "hardware_tier": "GPU_DC；PCC分支同步扩展",
+      "current_status": "必须新采集",
+      "depends_on": [
+        "F04"
+      ],
+      "inputs_zh": "冻结模型、策略、任务分配、N_clusters、初終状态验收与 raw contract",
+      "design_and_budget_zh": "session 内对相同预定 prompt pool 用随机/平衡策略顺序；每策略完整运行，单任务无并发。同 seed 不保证相同输出，记录质量/长度但不事后按结果挑配对。raw 捕获一次供所有确认分析。 本C02是DC控制核心；GPU_ONLY的描述性观察在I11收束，如另作记录域统计比较须另冻专门协议，不能借DC路线结论。",
+      "required_outputs": [
+        "confirm/all_attempts.csv",
+        "confirm/runs/*/raw/",
+        "confirm/per_request.csv",
+        "confirm/per_cycle.csv",
+        "confirm/per_session.csv"
+      ],
+      "metrics_zh": "named-boundary gross/dynamic full-cycle 能量（J）及单列 J_W6；useful/EOS-visible/power-return/matched-reset 时延；p50/p95/p99、TTFT/ITL、完成/质量/失败率",
+      "gate_zh": "按预注册进行 benefit+QoS/质量非劣+可行性联合决策；计量和统计不确定度都报告",
+      "failure_or_pivot_zh": "失败/截断/timeout 保留总体；无收益或 QoS 受损如实结论，不调参复用同 confirm",
+      "implementation_zh": "单请求/积分组件存在；随机化配对 runner、在线策略、完整统计与 QC 联动须实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "05_derived/confirm/all_attempts.csv",
+        "04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/<source>/",
+        "05_derived/confirm/per_request.csv",
+        "05_derived/confirm/per_cycle.csv",
+        "05_derived/confirm/per_session.csv"
+      ]
+    },
+    {
+      "id": "C03",
+      "title_zh": "比较匹配服务质量的前沿",
+      "priority": "MUST_ENERGY_SAVING_CLAIM",
+      "hardware_tier": "CPU 加必要的新GPU确认",
+      "current_status": "新分析 部分需新采集",
+      "depends_on": [
+        "F04",
+        "C02"
+      ],
+      "inputs_zh": "冻结 calibration 中选出的少量 operating points、C02 raw、SLA/尾部容忍度",
+      "design_and_budget_zh": "先冻结实际主 SLA；需要前沿声明时最多选 3 个工程相关 QoS 目标（紧/标称/宽，或现场已有等级），calibration 选择每策略对应点；确认全部预定点。若 C02 已覆盖则复用，不重复采同点。禁止按确认均值事后找最佳交点。",
+      "required_outputs": [
+        "confirm/matched_qos_frontier.csv",
+        "confirm/qos_noninferiority.json",
+        "confirm/pareto_plot.pdf"
+      ],
+      "metrics_zh": "能量与 p95/p99/TTFT/ITL/失败率/质量共同匹配；另报 mean-cycle 与 weighted J",
+      "gate_zh": "真正共同可行点才谈节能；相同均值不等于相同尾部或 deadline 可行",
+      "failure_or_pivot_zh": "baseline 不可达写不可达并解释，不赋虚构能耗；hard deadline 不在有效定理中就只报经验 deadline-miss",
+      "implementation_zh": "已有 CPU matched_cycle_frontier 仅 constant-target/mean-cycle 类；QoS tail frontier 与测试待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "05_derived/confirm/matched_qos_frontier.csv",
+        "05_derived/confirm/qos_noninferiority.json",
+        "06_figures/confirm/pareto_plot.pdf"
+      ]
+    },
+    {
+      "id": "C04",
+      "title_zh": "记全采集求解与运行成本",
+      "priority": "MUST_EMPIRICAL_BENEFIT",
+      "hardware_tier": "CPU 加对应硬件 tier",
+      "current_status": "复用采集 新账本",
+      "depends_on": [
+        "C02"
+      ],
+      "inputs_zh": "所有 stage 的 wall/CPU/GPU 时间、遥测、baseline/control 计算、instrumentation、恢复与 grid tail",
+      "design_and_budget_zh": "不额外跑新实验，随运行记录；拆离线一次性 calibration/training 与每次在线 controller costs，并给有条件 amortization。warmup/model load、gross capture、useful/inference、return/reset 各独立账。",
+      "required_outputs": [
+        "accounting/runtime_costs.csv",
+        "accounting/energy_boundaries.csv",
+        "accounting/amortization.json"
+      ],
+      "metrics_zh": "GPU hours、controller latency/CPU overhead、raw bytes、meter cost/耗时、完整周期/尾部能量",
+      "gate_zh": "同方法同边界，c 的单位/意义明确；PCC/整机/GPU DC 不互代；不能把 solver 局部计时叫总成本",
+      "failure_or_pivot_zh": "未测成本保留 unknown/未计入；不生成伪精确 break-even",
+      "implementation_zh": "已有分段积分；完整端到端 timer、费用与 amortization ledger 待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "05_derived/accounting/runtime_costs.csv",
+        "05_derived/accounting/energy_boundaries.csv",
+        "05_derived/accounting/amortization.json"
+      ]
+    },
+    {
+      "id": "C05",
+      "title_zh": "核验全尝试与统计结论",
+      "priority": "MUST_CONFIRM",
+      "hardware_tier": "CPU",
+      "current_status": "新分析 不重采",
+      "depends_on": [
+        "C02",
+        "C03",
+        "C04"
+      ],
+      "inputs_zh": "原始分配表、all_attempts、全部失败/拒收/缺失、被冻结分析 code",
+      "design_and_budget_zh": "按预定 intention-to-treat 风格总体和每个 policy 比较；sensor corrupt 的数值不可捏造，但保留失败分母与缺失敏感性。CI 以随机化/独立 session 的配对结果为单位；多层随机效应需声明。",
+      "required_outputs": [
+        "analysis/confirmatory_results.json",
+        "analysis/attrition_flow.csv",
+        "analysis/missing_sensitivity.json",
+        "analysis/multiplicity_audit.json"
+      ],
+      "metrics_zh": "paired effect+CI、one-sided QoS limits、cluster N、失败率、uncertainty、预设 vs exploratory",
+      "gate_zh": "所有分配 run 有 terminal status，禁止按能量/时延离群剔除，原始异常有可追踪理由",
+      "failure_or_pivot_zh": "独立性/样本数不够则描述性或不确定，不能把 token/行/window 当 N",
+      "implementation_zh": "现有 evaluate-service 只是残差输出；inferential/all-attempts 分析必须新实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "05_derived/analysis/confirmatory_results.json",
+        "05_derived/analysis/attrition_flow.csv",
+        "05_derived/analysis/missing_sensitivity.json",
+        "05_derived/analysis/multiplicity_audit.json"
+      ]
+    },
+    {
+      "id": "A01",
+      "title_zh": "复用原始数据做会计和观察消融",
+      "priority": "MUST_MECHANISM",
+      "hardware_tier": "CPU",
+      "current_status": "新分析 不重采",
+      "depends_on": [
+        "C02"
+      ],
+      "inputs_zh": "相同 raw、时间戳和原始真实策略执行",
+      "design_and_budget_zh": "并列 task-only/full-cycle/gross、host-visible/device EOS 时间、含/不含统计计量余量的报表；这类同轨迹会计消融只回答定义影响。反事实改变 controller 不可由同 raw 当作实测。",
+      "required_outputs": [
+        "ablation/accounting.csv",
+        "ablation/timing_views.csv",
+        "ablation/evidence_labels.json"
+      ],
+      "metrics_zh": "漏恢复/尾部的偏差、EOS 观测差、uncertainty 贡献",
+      "gate_zh": "每列清楚 measured reanalysis 或 model counterfactual，不能把分析改口当新物理策略",
+      "failure_or_pivot_zh": "删减 accounting 使符号翻转也全部保留；不为漂亮收益选口径",
+      "implementation_zh": "已有 accounting ablation/积分可复用；统一 raw 派生报表待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "05_derived/ablation/accounting.csv",
+        "05_derived/ablation/timing_views.csv",
+        "05_derived/ablation/evidence_labels.json"
+      ]
+    },
+    {
+      "id": "A02",
+      "title_zh": "检验策略组成的实体消融",
+      "priority": "CONDITIONAL_MECHANISM_CLAIM",
+      "hardware_tier": "GPU_DC",
+      "current_status": "需新采集 仅预选少量",
+      "depends_on": [
+        "F04",
+        "I08"
+      ],
+      "inputs_zh": "冻结的完整策略及只改一项的可行策略、同信息/同成本合同",
+      "design_and_budget_zh": "只对理论新部件选择 1–2 个最有信息的 ablation；如恢复-aware vs合法忽略恢复的调度、经验延迟补偿 vs保守延迟补偿。去 guard/保护仅在模型中，硬件保留安全外壳。使用独立预留 ablation sessions。",
+      "required_outputs": [
+        "ablation/physical_protocol.json",
+        "ablation/all_attempts.csv",
+        "ablation/component_effects.json"
+      ],
+      "metrics_zh": "组件效应、完整成本/尾部 QoS、可行性、失败",
+      "gate_zh": "每次只改一机制且说明其他 induced changes；安全防护不作为可删除部件",
+      "failure_or_pivot_zh": "消融不安全/物理不可行改成模型诊断，不能硬跑或赋极差假数据",
+      "implementation_zh": "已有 CPU 消融；物理组件实现及随机 runner 尚缺",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/ablation/physical_protocol.json",
+        "05_derived/ablation/all_attempts.csv",
+        "05_derived/ablation/component_effects.json"
+      ]
+    },
+    {
+      "id": "X01",
+      "title_zh": "检验新工作负载迁移",
+      "priority": "CONDITIONAL_WORKLOAD_GENERALITY",
+      "hardware_tier": "GPU 或 GPU_DC",
+      "current_status": "必须新保留单位",
+      "depends_on": [
+        "F04"
+      ],
+      "inputs_zh": "整体留出的 prompt/context/phase/workload family 与未来 sessions",
+      "design_and_budget_zh": "先保持训练得到的策略/包络不变做零重标定测试；同 GPU 的新 workload 只叫 workload transfer。一次只开最重要的一个迁移轴。",
+      "required_outputs": [
+        "transfer/workload_registry.json",
+        "transfer/zero_shot_workload.csv",
+        "transfer/adaptation_separate.json"
+      ],
+      "metrics_zh": "域内/外、质量/QoS/能耗/可行性、条件残差与失败",
+      "gate_zh": "完整保留组在调参前未用过；若调参则单列 adaptation 并新冻结",
+      "failure_or_pivot_zh": "迁移失败限定适用域，不能把 adaptation 当零样本成功",
+      "implementation_zh": "现有 registry 不直接提供 workload-family 整组 holdout，须扩展；不可改旧 role 冒充新 holdout",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/transfer/workload_registry.json",
+        "05_derived/transfer/zero_shot_workload.csv",
+        "05_derived/transfer/adaptation_separate.json"
+      ]
+    },
+    {
+      "id": "X02",
+      "title_zh": "检验模型族迁移",
+      "priority": "CONDITIONAL_MODEL_GENERALITY",
+      "hardware_tier": "GPU 或 GPU_DC",
+      "current_status": "必须新保留模型族",
+      "depends_on": [
+        "F04"
+      ],
+      "inputs_zh": "整体保留的不同 model_family、precision/tokenizer/engine 条件",
+      "design_and_budget_zh": "模型族整组留出；先 zero-shot，再如有必要独立 adaptation；不为了表格把同模型多个 seed 当跨模型。至少一个真实未见族仅支持所测范围。",
+      "required_outputs": [
+        "transfer/model_registry.json",
+        "transfer/model_family_results.csv"
+      ],
+      "metrics_zh": "performance/quality/域外包络失败与 adaptation 成本",
+      "gate_zh": "family 分组人工核验；所有失败样本保留",
+      "failure_or_pivot_zh": "新模型服务结构不同则声明不迁移或重建合同",
+      "implementation_zh": "现有 transfer_axis=model_family 支持泄漏 gate；真实 runner 待实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/transfer/model_registry.json",
+        "05_derived/transfer/model_family_results.csv"
+      ]
+    },
+    {
+      "id": "X03",
+      "title_zh": "检验独立物理硬件迁移",
+      "priority": "CONDITIONAL_HARDWARE_GENERALITY",
+      "hardware_tier": "第二物理GPU DC按claim",
+      "current_status": "必须新硬件采集",
+      "depends_on": [
+        "F04"
+      ],
+      "inputs_zh": "整块留出的 device_id_hash 与机型/驱动/仪表链",
+      "design_and_budget_zh": "另一物理设备才是 device transfer；同卡重启不是。不同架构/厂商只在论文要作该范围主张时追加；每台校准不可偷省。",
+      "required_outputs": [
+        "transfer/device_registry.json",
+        "transfer/hardware_results.csv",
+        "calibration/device_specific/"
+      ],
+      "metrics_zh": "hardware variance、actuator/service 失配、全成本与 QoS",
+      "gate_zh": "设备整个 calibration/confirmation 角色清楚；zero-shot 与 retuning 分开",
+      "failure_or_pivot_zh": "只测一张卡就如实限定；未跨架构不能泛称 all GPUs",
+      "implementation_zh": "现有 transfer_axis=device 与联合身份 gate；新硬件 adapter/校准待完成",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/transfer/device_registry.json",
+        "05_derived/transfer/hardware_results.csv",
+        "03_calibration/device_specific/"
+      ]
+    },
+    {
+      "id": "X04",
+      "title_zh": "检验队列并发与连续任务",
+      "priority": "CONDITIONAL_SERVING_OR_REGENERATION_CLAIM",
+      "hardware_tier": "GPU_DC 需要网侧时PCC",
+      "current_status": "新合同及新采集",
+      "depends_on": [
+        "C05",
+        "I08"
+      ],
+      "inputs_zh": "真实 arrival process、queue policy、concurrency/batch、跨任务 thermal/grid state",
+      "design_and_budget_zh": "孤立任务主线可明确不做。若声称在线 serving、吞吐/队列或 regenerative average，则先 2 个预定负载水平与 2 个代表并发设置的小 pilot，避免全乘积；验证 carryover 后再冻结 workload-level 确认。",
+      "required_outputs": [
+        "queue/protocol.json",
+        "queue/arrival_queue_events.jsonl",
+        "queue/state_carryover.json",
+        "queue/steady_state_results.csv"
+      ],
+      "metrics_zh": "wait/service/end-to-end tail、throughput、admission/failure、cycle overlap、state reset、renewal ratio",
+      "gate_zh": "跨任务内存/初态被建模；加权每周期目标与长期能量/吞吐比值不等同",
+      "failure_or_pivot_zh": "复位不可行就取消 regenerative 保证；不能用单任务结果推断生产并发收益",
+      "implementation_zh": "现有 kit concurrency=1；队列/多请求协调、状态延拓与新理论均尚缺",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/queue/protocol.json",
+        "05_derived/queue/arrival_queue_events.jsonl",
+        "05_derived/queue/state_carryover.json",
+        "05_derived/queue/steady_state_results.csv"
+      ]
+    },
+    {
+      "id": "G01",
+      "title_zh": "确认PCC边界仪表与设施阈值",
+      "priority": "MUST_PCC_CLAIM",
+      "hardware_tier": "GPU_DC_PCC",
+      "current_status": "需设施许可及新资料",
+      "depends_on": [
+        "F03",
+        "I04"
+      ],
+      "inputs_zh": "设施拓扑、真正 PCC、P/Q/V/I/f 仪器、UPS/电池/转换器模式、背景负载、接入方阈值",
+      "design_and_budget_zh": "合格设施人员确认边界、接线、激励与联锁；声明允许的工作模式。0.05 Hz 只保留为旧模型研究预算。",
+      "required_outputs": [
+        "grid/site_contract.json",
+        "grid/topology.pdf",
+        "grid/meter_scope.json",
+        "grid/operator_limits.json"
+      ],
+      "metrics_zh": "测点/边界、阈值出处、误差、许可与安全停止",
+      "gate_zh": "节点 AC/rack AC 若不是所称 PCC 就重新命名；功率/频率因果识别能力明确",
+      "failure_or_pivot_zh": "无该权限/测点则不做 PCC claim，不用 PUE 倍率拼接",
+      "implementation_zh": "现有字段/文档，没有物理设施驱动或标定",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/grid/site_contract.json",
+        "00_inventory/grid/topology.pdf",
+        "00_inventory/grid/meter_scope.json",
+        "01_protocol/grid/operator_limits.json"
+      ]
+    },
+    {
+      "id": "G02",
+      "title_zh": "识别同步GPU至PCC映射",
+      "priority": "MUST_PCC_CLAIM",
+      "hardware_tier": "GPU_DC_PCC",
+      "current_status": "必须新同步采集",
+      "depends_on": [
+        "G01",
+        "I08"
+      ],
+      "inputs_zh": "同 acquisition 的 GPU DC 与 PCC、背景负载、控制激励、clock bounds",
+      "design_and_budget_zh": "优先在 I06/I08 时同时接全渠道，一次 raw 两用；在设施批准激励内识别 g/残差与 mode dependence，再用不同 sessions 验证；CPU/GPU/PSU/冷却等成本边界全记录。",
+      "required_outputs": [
+        "grid/mapping_fit.json",
+        "grid/mapping_holdout.json",
+        "grid/residual_budget.json",
+        "raw/pcc/"
+      ],
+      "metrics_zh": "gain/delay/transfer kernel、识别置信区间、诱导范数/残差、P/Q 与模式变更",
+      "gate_zh": "输入幅度相对噪声足以识别，实际 matched data；训练 residual 不是全未来 bound",
+      "failure_or_pivot_zh": "单 GPU 信号淹没背景则报告不可识别；不做未经许可的大负荷激励",
+      "implementation_zh": "已有 import-meter pcc_active；多电量 adapter、映射辨识/残差与 mode 模型尚缺",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "05_derived/grid/mapping_fit.json",
+        "05_derived/grid/mapping_holdout.json",
+        "05_derived/grid/residual_budget.json",
+        "04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/<source>/"
+      ]
+    },
+    {
+      "id": "G03",
+      "title_zh": "检验网侧初态和完整尾部",
+      "priority": "MUST_GRID_CLAIM",
+      "hardware_tier": "PCC加合格网模型或设施数据",
+      "current_status": "必须新证据或保留模型层",
+      "depends_on": [
+        "G02"
+      ],
+      "inputs_zh": "网模型来源/误差、初态估计、GPU 回零后 PCC 与频率/状态记录",
+      "design_and_budget_zh": "每次观测到预定 terminal/tail criterion；有限观测窗需独立稳定衰减/尾部 bound，不能固定 120s 就叫全未来。若只有公开网模型，输出永远 model_only。",
+      "required_outputs": [
+        "grid/initial_state_bounds.json",
+        "grid/tail_audit.json",
+        "grid/grid_model_validation.json",
+        "grid/post_return_curves/"
+      ],
+      "metrics_zh": "p=0 后频率峰、未观测尾部上界、B0、grid reset 与 thermal reset 分别",
+      "gate_zh": "common state/外生输入合同明确；单 GPU pilot 不足识别公用电网频率响应",
+      "failure_or_pivot_zh": "无 validated grid response 则保留 PCC功率改善加模型仿真，不能声称真实频率安全",
+      "implementation_zh": "已有解析模型无限尾部与 7/8 post-return 证据；实网初态/模型误差/复位审计尚缺",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "05_derived/grid/initial_state_bounds.json",
+        "05_derived/grid/tail_audit.json",
+        "05_derived/grid/grid_model_validation.json",
+        "05_derived/grid/post_return_curves/"
+      ]
+    },
+    {
+      "id": "G04",
+      "title_zh": "冻结并确认网侧与QoS共同约束",
+      "priority": "MUST_REAL_GRID_BENEFIT",
+      "hardware_tier": "GPU_DC_PCC",
+      "current_status": "仅G01-G03闭合后新确认",
+      "depends_on": [
+        "G03",
+        "F04",
+        "C01"
+      ],
+      "inputs_zh": "同信息/同实际约束强基线、全部计量/模型/初态/尾部预算、设施阈值",
+      "design_and_budget_zh": "冻结独立 sessions 与 operating mode；与 C02 同步运行可省重复，但需事前把全部 grid endpoints 纳入协议与 alpha 预算。primary 为频率还是 PCC 需明确。",
+      "required_outputs": [
+        "grid/confirmatory_results.json",
+        "grid/joint_feasibility.csv",
+        "grid/guard_cost_frontier.csv"
+      ],
+      "metrics_zh": "full-time peaks、余量、PCC power/ramp/energy、QoS tails、恢复成本、统计失败率",
+      "gate_zh": "只有完整合同成立才给条件 model guarantee；有限观测零越限不等于确定安全/监管认证",
+      "failure_or_pivot_zh": "获益消失/guard 代价高如实保留；nominal 未失效不得虚构 robust 避免了失败",
+      "implementation_zh": "已有模型 guard/code；真实整合实验与联合统计须实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "05_derived/grid/confirmatory_results.json",
+        "05_derived/grid/joint_feasibility.csv",
+        "05_derived/grid/guard_cost_frontier.csv"
+      ]
+    },
+    {
+      "id": "G05",
+      "title_zh": "检验更宽网络非线性适用域",
+      "priority": "CONDITIONAL_NETWORK_GENERALITY",
+      "hardware_tier": "CPU仿真或经批准HIL",
+      "current_status": "模型扩展 尚未执行",
+      "depends_on": [
+        "G03"
+      ],
+      "inputs_zh": "权威 nonlinear network/UPS/converter、load location、多输出、工作点与参数范围",
+      "design_and_budget_zh": "只有论文声称超出线性固定模式时需要；选正常与边界 2–3 个有物理依据场景，不扫描任意漂亮组合。四个原 kernel NPZ 可复用但不是新 nonlinear 证据。",
+      "required_outputs": [
+        "grid/model_extension_protocol.json",
+        "grid/nonlinear_validation.csv",
+        "grid/domain_of_validity.json"
+      ],
+      "metrics_zh": "linearization error、mode/location、多输出约束与失效",
+      "gate_zh": "模型有效域经解释；仿真始终不能称实测",
+      "failure_or_pivot_zh": "非线性/切换模式破坏原保证则限定线性结果或重推",
+      "implementation_zh": "已存在 51-state Kundur linear transfer；新非线性/HIL 接口和验证尚缺",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "01_protocol/grid/model_extension_protocol.json",
+        "05_derived/grid/nonlinear_validation.csv",
+        "05_derived/grid/domain_of_validity.json"
+      ]
+    },
+    {
+      "id": "Z01",
+      "title_zh": "打包可复算证据与最终声明",
+      "priority": "MUST_ALL",
+      "hardware_tier": "CPU",
+      "current_status": "新交付 尚未执行",
+      "depends_on": [
+        "F02",
+        "F03"
+      ],
+      "inputs_zh": "所走分支全部 raw、protocol hashes、代码、失败、派生数据、统计结果",
+      "design_and_budget_zh": "只导出实际完成分支；raw 不可变一次采集，analysis 可重复无硬件写入；新结果根目录不覆盖旧包。附全文件 SHA256、命令日志、版本/依赖和 claim coverage。",
+      "required_outputs": [
+        "README_ZH.md",
+        "FINAL_STATUS.json",
+        "CLAIM_EVIDENCE.csv",
+        "FAILED_AND_INCONCLUSIVE.csv",
+        "MANIFEST_SHA256.json",
+        "REPRODUCE.md"
+      ],
+      "metrics_zh": "输入到图表可追踪、负结果/缺口完整、包解压校验、无凭证/未授权prompt内容",
+      "gate_zh": "future/planned/blocked 与 completed 区分；全部 attempt 记账；可复算不自动重启采集 所有selected required IDs均已登记可审计终态，未选/blocked分支不冒充PASS。",
+      "failure_or_pivot_zh": "缺少 raw/协议/关键通道则下调 claim；任务结束报告 remaining blockers，不写 paper-ready",
+      "implementation_zh": "已有旧包 manifest/checklist 模式可复用；新 report/package runner 待实现",
+      "aggregation_gate": {
+        "type": "all_selected_experiments_accounted",
+        "exclude_ids": [
+          "Z01"
+        ],
+        "required_terminal_execution_states": [
+          "PASS",
+          "FAIL",
+          "BLOCKED"
+        ],
+        "not_applicable_rule": "仅未选分支允许status=NOT_RUN、applicability=OUT_OF_SCOPE，并在reason中写NOT_APPLICABLE_BY_SCOPE及具体原因；不可写PASS",
+        "statistical_conclusions": [
+          "supported",
+          "not_supported",
+          "inconclusive",
+          "not_tested"
+        ],
+        "completion_rule_zh": "汇总必须等待所有已选必要ID有可审计终态；BLOCKED可打包缺口但不能视为科学完成。不能只检查F02/F03。"
+      },
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "README_START_HERE_ZH.txt",
+        "07_audit/FINAL_STATUS.json",
+        "07_audit/claim_evidence.csv",
+        "07_audit/FAILED_AND_INCONCLUSIVE.csv",
+        "08_delivery/MANIFEST_SHA256.json",
+        "08_delivery/REPRODUCE.md"
+      ]
+    },
+    {
+      "id": "O01",
+      "title_zh": "增加向外舍入数值证书",
+      "priority": "OPTIONAL_UNLESS_CERTIFICATE_CLAIM",
+      "hardware_tier": "CPU",
+      "current_status": "尚未实现 不挡窄论文",
+      "depends_on": [
+        "N03"
+      ],
+      "inputs_zh": "已通过解析/数值独审的 witness、LP/dual、矩阵指数与积分",
+      "design_and_budget_zh": "只在拟声称严格机器可验证数值证书时实现 outward rounding/interval enclosure；先一个代表配置与失败反例，不扩大全参数。",
+      "required_outputs": [
+        "optional/interval_certificate.json",
+        "optional/certificate_checker/",
+        "optional/certificate_scope.md"
+      ],
+      "metrics_zh": "machine-verifiable lower/upper enclosure、数值舍入、tail/interpolation 与 exact feasibility",
+      "gate_zh": "全数值链有 enclosure 才叫严格证书；否则维持 qualified float 结论",
+      "failure_or_pivot_zh": "代价高或不收敛则保留现有证据等级，不伪称 formal proof",
+      "implementation_zh": "现有 exact rational 可行性及普通浮点界；向外舍入成本/dual/full kernel 链未实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "05_derived/optional/interval_certificate.json",
+        "05_derived/optional/certificate_checker/",
+        "05_derived/optional/certificate_scope.md"
+      ]
+    },
+    {
+      "id": "O02",
+      "title_zh": "开展额外独立复现",
+      "priority": "OPTIONAL_BEYOND_FROZEN_SCOPE",
+      "hardware_tier": "另一操作者或独立实验室设备",
+      "current_status": "未来可选 不挡既定claim",
+      "depends_on": [
+        "C05"
+      ],
+      "inputs_zh": "完整公开复现包、另一独立操作者/设备或实验室、必要共享授权",
+      "design_and_budget_zh": "在主要结果定稿后独立按冻结协议复现，不扩张主要确认样本。任何联系或私有数据外发另须授权；零收益/失败同样回传。",
+      "required_outputs": [
+        "optional/independent_replication.json",
+        "optional/replication_differences.csv"
+      ],
+      "metrics_zh": "复现实验完整性、跨操作者差异、预算和源 hash",
+      "gate_zh": "重复的是同一合同；改变仪表/engine 需重新校准并披露",
+      "failure_or_pivot_zh": "缺设备/授权则跳过；不为追求全能覆盖无限增加实验",
+      "implementation_zh": "可复用导出的协议与 runner；独立站点接入未实现",
+      "depends_on_by_route": {},
+      "required_output_semantics": "required_outputs are logical aliases; canonical_required_outputs and OUTPUT_PATH_MAP are authoritative physical result paths",
+      "canonical_required_outputs": [
+        "05_derived/optional/independent_replication.json",
+        "05_derived/optional/replication_differences.csv"
+      ]
+    }
+  ],
+  "dependency_semantics": {
+    "base": "depends_on",
+    "route_override": "depends_on_by_route[route_id] replaces base dependencies when present",
+    "conditional": "conditional_dependency_gates add required dependencies when the named claim flag is true",
+    "selection": "ROUTE_PLAN.json names base required IDs and claim-triggered extensions; unselected routes are not executed",
+    "Z01": "requires terminal status of every selected required experiment via aggregation_gate"
+  },
+  "canonical_output_path_map": "OUTPUT_PATH_MAP.json"
+}

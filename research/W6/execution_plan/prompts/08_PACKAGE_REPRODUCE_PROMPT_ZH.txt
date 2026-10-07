@@ -1,0 +1,17 @@
+阶段 8：最小审查包、可复现代码与原始数据逻辑分包
+覆盖实验ID：Z01（包装与验收部分）
+
+共同要求：这是 W6 阶段续跑提示词，原交付是 CPU 验证过的脚手架，真实 EOS/engine/policy/仪表适配与硬件主张尚待验证。若已收到本计划目录，读取同目录 00_MASTER_PROMPT_ZH.txt 与 contracts/，沿用其数据、单位、隐私、权限、冻结和证据合同；本文给出本阶段完整目标。先核对当前工作副本、输入hash、已有 sealed runs 与状态，不覆盖原包、不重跑已合格结果。所有未测项用 NOT_RUN/BLOCKED，失败原样保留。SIMULATED/DRY_RUN/CPU_TEST 不得改为 MEASURED。不得任意租GPU/付费/开账号/下载权重；不自动提权、改驱动/固件/电气安全或写cap。物理动作要有具体操作者批准的设备、范围、时长与恢复流程；不超过会话原cap，恢复必须readback。无权限暂停受影响分支，其他安全独立工作继续。不要泄漏prompt/token文本、序列号、凭证、完整环境变量。修改协议需新版本，不能用确认outcome调参。
+
+
+目标：交付他人拿到即可定位证据、在无GPU机器复算结果的完整包；大raw合理拆分，避免下载或重跑成本。不要把本阶段打包成功写成硬件成功。
+
+1. 补齐README_START_HERE_ZH.txt、实验/运行状态、主结论与边界、claim表、输入/软件/硬件/协议hash、全部代码与diff、锁定依赖/许可证、schema/字段单位、数据字典、所有失败/负结果、每图原始figure_data与脚本。模型权重/环境缓存/驱动不包，私有数据/许可不明材料不擅共享。
+2. 实现并测试一命令CPU复算：python 02_code/reproduce_cpu.py --root . --output <新目录>。默认离线、无GPU调用、无写cap，校验hash、跑测试、从已交付raw派生指标/统计/图并比较容差。缺依赖准确报BLOCKED，科学全量再优化另显式开关，不把smoke说全面重算。
+3. GPU入口默认dry-run：python 02_code/replay_gpu.py --protocol 01_protocol/protocol.json --inventory 00_inventory/hardware.json --dry-run。dry-run仅静态检查文件、零NVML/HTTP/物理动作；实时只读preflight必须另显式调用。硬件/权限/软件/仪表/空队列/温度/原cap全gate；真正执行需额外明确授权开关。缺adapter拒绝，不悄悄mock；真实replay新run IDs，不覆盖原证据。包装验收不运行GPU。
+4. 最小review包放摘要/状态/协议/图表/小型derived，code包放代码/测试/锁/复算入口，raw按session/stage/逻辑块拆；每ZIP严格小于18,000,000 bytes，以实际压缩后大小验收。均普通ZIP，共同研究root，不能二进制分卷/cat。大JSONL/CSV原本应record-boundary轮转；必要导出块保存原hash、顺序、行数、时间范围与重组映射，封存原件不改。
+5. PACKAGE_MANIFEST逐payload含relative_path/bytes/SHA256/role/evidence/schema/units/source/run/experiment/part/license/privacy，FILE_INDEX与SHA256SUMS可读。PARTS含最终ZIP名字/bytes/hash/所需顺序/共同root/依赖。manifest不自hash；最终zip的hash回执外置，避免自引用。共享README副本必须hash相同，重名内容冲突即FAIL。
+6. privacy扫描文本、日志、归档与文档元数据：不带API keys/cookies/私钥/签名链接/env dump/完整设备序列；prompt文本/生成内容/token IDs可能敏感，默认不入review包，私有raw按许可处理。hash不是匿名保证。保留原始私有证据，公开脱敏副本另有变换审计。
+7. 在全新路径逐包CRC/安全路径/外层hash/合并后manifest核验，无漏payload/冲突；执行CPU一命令与GPU纯dry-run。交付zip_merge_validation.json、reproduction_report.json、PRIVACY_REPORT及“真实运行/未运行”摘要。结果不能写预计PASS。
+
+最终给一个短入口清单：先看哪份、主结论/阻塞、各包用途/bytes/SHA256、如何合并及一命令复算。保留所有原始失败、amendments和事实状态；凡必须包因隐私或资源不能交付，列出准确依赖及可复算范围，不称完全可移植。

@@ -1,0 +1,6 @@
+{
+  "raw_bytes": 279336326,
+  "raw_sha256": "a96d90262132e2aa61b552bf7d14c8d653711fe63c2a585d511091f95d4fbae6",
+  "gzip_path": "evidence/TRACE_FULL_REPEATED_LEDGERS_1024.json.gz",
+  "scope": "Identical per-EOS segment prefixes represented once as shared bridges in final output; all per-EOS totals retained"
+}

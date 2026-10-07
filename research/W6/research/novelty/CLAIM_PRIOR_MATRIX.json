@@ -1,0 +1,90 @@
+[
+  {
+    "id": "C01",
+    "claim": "工作坐标、survival期望、primitive换元",
+    "assumptions": "Known work law; only progress and EOS observed",
+    "prior_included": "P01–P03的工作坐标和尾分布；P07的路径参数化",
+    "precise_difference": "z′=ṗ由本模型的A定义给出",
+    "increment_and_gate": "成熟表示加一行chain rule；独立创新FAIL"
+  },
+  {
+    "id": "C02",
+    "claim": "完整回零周期与随机终态费",
+    "assumptions": "Actual post-EOS dissipation and physical cycle time charged; c>0; same productive and return power",
+    "prior_included": "P06、P12–P14已有active/idle、renewal、随机终止返回费",
+    "precise_difference": "同一p在ramp中生产工作，EOS后按同一物理律耗散，故H′=G/R",
+    "increment_and_gate": "记账思想已知；恒等式是支持引理；独立创新FAIL"
+  },
+  {
+    "id": "C03",
+    "claim": "无损恢复投影min{z,R(M−x)}",
+    "assumptions": "Finite cost; |pdot|<=R; workdot=s(p); mandatory fastest physical return; z0<=RM; no conflicting extra state or path constraint",
+    "prior_included": "P08/P09已有端点cone几何；P12–P14已有返回成本",
+    "precise_difference": "原问题未强制z(M)=0，仍可用完整周期支配证明无损加入；适用于所有EOS实现及任意work law",
+    "increment_and_gate": "与C06联合作主结果；CONDITIONAL"
+  },
+  {
+    "id": "C04",
+    "claim": "临界功率cap",
+    "assumptions": "Increasing concave s; N=s-(p+c)s_prime; finite critical root if present; no arbitrary hard deadline",
+    "prior_included": "P11已有能量/工作临界速度；P09有受限ramp结构",
+    "precise_difference": "min投影需同时保持真实slew与EOS终态成本",
+    "increment_and_gate": "简短模型引理；独立创新FAIL"
+  },
+  {
+    "id": "C05",
+    "claim": "非零高初态最快下降前缀",
+    "assumptions": "Fixed z0>zc; feasible lower cone z>=z0-Rx; forced prefix costs retained; joining workpoint exact",
+    "prior_included": "P05当前速度状态；P09任意起终速度",
+    "precise_difference": "下cone z≥z₀−Rx与critical cap强制一致至接合点",
+    "increment_and_gate": "C04的直接边界扩展；独立创新FAIL"
+  },
+  {
+    "id": "C06",
+    "claim": "幂律κβ=(1+2β)/(1+β)与sharp hazard界",
+    "assumptions": "s=k*p^beta; 0<beta<1; known continuous interior EOS density; both exact projections; h*(M-x)<=kappa_beta; endpoint atoms handled",
+    "prior_included": "P02/P03已有随机work凸优化；P14已有hazard成本权衡；一般Hessian判据为标准工具",
+    "precise_difference": "先无损缩域，再控制负终态曲率；α>κβ的可行终端bump给泛函中点反例",
+    "increment_and_gate": "本稿最有辨认度的模型专属分类；CONDITIONAL"
+  },
+  {
+    "id": "C07",
+    "claim": "一般凹s及内部原子反例",
+    "assumptions": "Feasible midpoint perturbations must preserve positivity, both caps, endpoints and slew",
+    "prior_included": "一般“非凸”并非新概念",
+    "precise_difference": "反例在两个真实可行包络内部，说明C06不能扩张",
+    "increment_and_gate": "主定理必要边界；支持项PASS"
+  },
+  {
+    "id": "C08",
+    "claim": "原子EOS精确最大桥与K",
+    "assumptions": "Finite atomic EOS; no interior EOS within each bridge interval; G decreasing below critical cap; feasible endpoint states",
+    "prior_included": "P08直接给最大Lipschitz延拓；P05已有条件EOS链",
+    "precise_difference": "G递减使每个无EOS区间恰由最大桥代表；H′=G/R给闭式K",
+    "increment_and_gate": "几何与积分是直接推论；精确降维有用但不宜独立包装为新方法"
+  },
+  {
+    "id": "C09",
+    "claim": "Bellman上下界",
+    "assumptions": "Same information/actions/costs; feasible endpoint grid for upper bound; optimistic box stage costs for lower bound; mesh limit justified",
+    "prior_included": "P04/P05/P13已有DP、近似和全局优化",
+    "precise_difference": "本模型的连续endpoint转移核与box乐观松弛",
+    "increment_and_gate": "实例化与复现价值；没有新DP/FPTAS结论；独立算法创新FAIL"
+  },
+  {
+    "id": "C10",
+    "claim": "已知W时ramp–hold–ramp",
+    "assumptions": "Known work with correct actual-power dynamics and complete objective; no generic structural novelty from profile shape",
+    "prior_included": "P09的精确确定性结构；P10加速受限调度",
+    "precise_difference": "实际功率slew、全周期权重不同",
+    "increment_and_gate": "形状不新；只作推论/基线"
+  },
+  {
+    "id": "C11",
+    "claim": "新的物理时间逐点功率支配及正系统兼容",
+    "assumptions": "Pending independent proof of physical-time pathwise waveform order; same grid initial state; causal order-preserving operator; all-time monotone upper constraints",
+    "prior_included": "order-preserving映射、卷积范数界是标准性质",
+    "precise_difference": "若C03加强为完整波形p_C,w(t)≤p_z,w(t)，可传递到同初态的单调上限约束",
+    "increment_and_gate": "新加强需独审；映射结论是直接推论，不独立称电网稳定定理"
+  }
+]

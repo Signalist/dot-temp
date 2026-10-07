@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "portable_root": "/tmp/w6_round3_portable_replay",
+  "full_regeneration": false,
+  "elapsed_seconds": 8.525163225000142,
+  "independent_audits": [
+    {
+      "script": "audit/check_full_cycle_witnesses.py",
+      "success": true,
+      "stdout_last": "/tmp/w6_round3_portable_replay/audit/FULL_CYCLE_INDEPENDENT_WITNESSES.json\ninterior_atom 0.00000021453260889086010945699674284272871788931739117727009606651647228816245324166497\nhigh_tail_exponent 0.0000000000011604004465197065757708847644657748927319980222798698279928224789732220922930033\ngeneral_concave_uniform 0.0000026882104878162008896900713659856960610008987802518518760953387032251163431193473\n{'checks': 675, 'minimum_dimensionless_margin': '-4.2168791772922092897394296205080076030839845529474030200311052100432577163879038e-81', 'all_lower_bound_checks_pass': True}\n"
+    },
+    {
+      "script": "audit/independent_numerical_audit.py",
+      "success": true,
+      "stdout_last": "{\n  \"max_primary_component_difference\": 1.5987211554602254e-14,\n  \"max_dual_numeric_difference\": 3.945510584912881e-12,\n  \"max_atomic_upper_difference\": 4.440892098500626e-16,\n  \"max_comparator_difference\": 1.7763568394002505e-15\n}\n{\n  \"counts\": {\n    \"paths\": 108,\n    \"segments\": 7092\n  },\n  \"max_residuals\": {\n    \"segment_time\": 7.216449660063518e-16,\n    \"segment_energy\": 1.5612511283791264e-17,\n    \"physical_slew\": 1.8820224776911676e-09,\n    \"power_continuity\": 2e-17,\n    \"path_cost\": 3.1086244689504383e-15,\n    \"work\": 0\n  }\n}\nDual gap range 7.780432313283212e-08 3.13662369114478e-06\n"
+    },
+    {
+      "script": "audit/audit_transfer_and_repairs.py",
+      "success": true,
+      "stdout_last": "tical', 'component_difference': np.float64(1.8207657603852567e-14), 'slew_excess': 0, 'critical_envelope_excess': 0, 'initial_state_difference': np.float64(0.0), 'objective_recomputed': np.float64(0.7089837374001922), 'reserve_lower_bound': 0.10039185702340497, 'recovery_cone_excess': 0}, {'case': {'beta': 0.8, 'R': 4.0, 'c': 0.25, 'p0': 1.7718262375881713, 'dist': 'uniform', 'alpha': 1.0, 'rate': 0.3, 'atom': 0.0}, 'label': 'forced_prefix', 'component_difference': np.float64(1.8318679906315083e-14), 'slew_excess': 0, 'critical_envelope_excess': 0, 'initial_state_difference': np.float64(0.0), 'objective_recomputed': np.float64(0.7745224284041402), 'reserve_lower_bound': 0.5031601668749925, 'recovery_cone_excess': 0}, {'case': {'beta': 0.8, 'R': 4.0, 'c': 0.25, 'p0': 3.3894928917292595, 'dist': 'uniform', 'alpha': 1.0, 'rate': 0.3, 'atom': 0.0}, 'label': 'prepaid_all', 'component_difference': np.float64(2.7755575615628914e-17), 'slew_excess': 0, 'critical_envelope_excess': 0, 'initial_state_difference': np.float64(0.0), 'objective_recomputed': np.float64(1.647926063618476), 'reserve_lower_bound': 1.6479260636184758, 'reserve_equality_difference': np.float64(2.220446049250313e-16)}]\n"
+    },
+    {
+      "script": "audit/audit_final_baselines_trace.py",
+      "success": true,
+      "stdout_last": "\n    \"weighted_improvement_fraction\": 0.038368341642251336,\n    \"independent_box128_lower_difference\": -2.220446049250313e-16,\n    \"independent_grid128_upper_difference\": 2.220446049250313e-16,\n    \"refinement_lower_monotone\": true,\n    \"refinement_upper_monotone\": true\n  },\n  {\n    \"case\": {\n      \"beta\": 0.8,\n      \"R\": 0.5,\n      \"c\": 1.0,\n      \"p0\": 0.0,\n      \"dist\": \"uniform\",\n      \"alpha\": 1.0,\n      \"rate\": 0.3,\n      \"atom\": 0.0\n    },\n    \"paths\": 623,\n    \"shared_segments\": 1186,\n    \"max_physical_path_difference\": 4.884981308350689e-15,\n    \"raw_slew_excess\": 7.314285714392712e-12,\n    \"max_shared_continuity_difference\": 2.7755575615628914e-17,\n    \"mean_objective_recomputed\": 1.4364445298372162,\n    \"upper_difference\": -2.220446049250313e-15,\n    \"target_objective_recomputed\": 1.5175447897787997,\n    \"target_difference\": 4.440892098500626e-16,\n    \"weighted_improvement_fraction\": 0.05344175703269016,\n    \"independent_box128_lower_difference\": -4.440892098500626e-16,\n    \"independent_grid128_upper_difference\": 2.220446049250313e-16,\n    \"refinement_lower_monotone\": true,\n    \"refinement_upper_monotone\": true\n  }\n]\nuniform max 1.7763568394002505e-15\nmatched flags True\n"
+    },
+    {
+      "script": "audit/audit_safe_inner_paths.py",
+      "success": true,
+      "stdout_last": "{\n  \"all_exact_constraints_pass\": true,\n  \"min_exact_slew_margin\": 4.811797787995786e-08,\n  \"max_component_difference\": 8.881784197001252e-15,\n  \"max_worst_duration_difference\": 1.3322676295501878e-15,\n  \"relative_gap_min\": 8.701577537255985e-08,\n  \"relative_gap_max\": 3.137079806953151e-06\n}\n"
+    }
+  ],
+  "fresh_reoptimization_differences": {
+    "fresh_convex64_objective": 0.0,
+    "fresh_atomic128_lower": 0.0,
+    "fresh_atomic128_upper": 0.0,
+    "fresh_trace623_atoms_lower128": 0.0,
+    "fresh_trace623_atoms_upper128": 0.0
+  },
+  "tolerance": 1e-09,
+  "formal_outward_rounding": false
+}

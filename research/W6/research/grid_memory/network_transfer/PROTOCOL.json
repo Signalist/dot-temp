@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-04T14:34:49.353521+00:00",
+  "status": "EXPLORATORY_NETWORK_TRANSFER_NOT_CONFIRMATORY",
+  "source": "research/grid_memory/inputs/kundur_reduced51.npz",
+  "source_sha256": "31e798abc23bdcb6c3b46aeb488caf96636127390935eac4d9f0e2fdd5601828",
+  "code_sha256": "864775088590cc3354914d2ad23c6cc687e17ec7f101349232a6bd9e23350014",
+  "beta": 0.5,
+  "R": 1.0,
+  "M": 2.0,
+  "c": 1.0,
+  "grid_budget_Hz": 0.05,
+  "input_buses": [
+    7,
+    8
+  ],
+  "gain_MW_per_model_power": [
+    20.0,
+    200.0
+  ],
+  "EOS_replays": [
+    0.2,
+    0.6,
+    1.0,
+    1.6,
+    2.0
+  ],
+  "optimization_N": 128,
+  "no_parameter_calibration": true,
+  "limitations": [
+    "existing model inherited, not freshly validated",
+    "linear replay only",
+    "frequency allocation is study budget",
+    "no concurrency or physical GPU mapping"
+  ]
+}

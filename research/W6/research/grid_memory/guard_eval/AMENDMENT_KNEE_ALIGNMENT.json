@@ -1,0 +1,9 @@
+{
+ "reason": "Frozen uniform meshes under-resolve the small-cap initial ramp in confirm_b0.8_R2.0_f0.25: N256 objective is 0.0403321% worse than the exact target baseline, N128 to N256 changes 0.5310676%. Frozen results are retained unchanged.",
+ "scope": "Append knot-aligned numerical diagnostics for all 9 cases and both nominal/robust guards; no case is selected or dropped based on benefit",
+ "knots": "Original uniform work mesh plus exact guard-cap ramp knees and globally optimal target ramp knees",
+ "refinements": [128,256],
+ "baseline": "Exactly the same analytic globally optimized target under the same cap",
+ "claims": "Supplementary feasible convex mesh solutions, finite-mesh linearization gaps and refinement agreement; not a proof of continuum numerical accuracy",
+ "frozen_before_supplementary_outputs": true
+}

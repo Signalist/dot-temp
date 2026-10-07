@@ -1,0 +1,19 @@
+阶段 2：真实采集、EOS、policy bridge 与预检
+覆盖实验ID：I02 I03 I04 I05
+
+共同要求：这是 W6 阶段续跑提示词，原交付是 CPU 验证过的脚手架，真实 EOS/engine/policy/仪表适配与硬件主张尚待验证。若已收到本计划目录，读取同目录 00_MASTER_PROMPT_ZH.txt 与 contracts/，沿用其数据、单位、隐私、权限、冻结和证据合同；本文给出本阶段完整目标。先核对当前工作副本、输入hash、已有 sealed runs 与状态，不覆盖原包、不重跑已合格结果。所有未测项用 NOT_RUN/BLOCKED，失败原样保留。SIMULATED/DRY_RUN/CPU_TEST 不得改为 MEASURED。不得任意租GPU/付费/开账号/下载权重；不自动提权、改驱动/固件/电气安全或写cap。物理动作要有具体操作者批准的设备、范围、时长与恢复流程；不超过会话原cap，恢复必须readback。无权限暂停受影响分支，其他安全独立工作继续。不要泄漏prompt/token文本、序列号、凭证、完整环境变量。修改协议需新版本，不能用确认outcome调参。
+
+
+目标：补齐真实控制/采集执行桥，建立最小可信链，先CPU故障测试再批准后的短只读实测。原w6kit telemetry可只读、request仅localhost SSE可见事件、cap-session只有cap排程；三者并不组成完整W6控制器。
+
+1. 在工作副本固定engine/model/tokenizer/revision。实现累计token IDs、prefill/decode/上下文、真实停止token/rule、max_tokens/删失分类、request_id、取消/排空hook。不把finish_reason=stop当自然EOS，不把host callback当device完成。实现所需device event/stream到monotonic变换；没有可靠device timing就明确降级。
+2. 实现observe→decide→actuate：W6策略只能读已知信息；真实action接口受外层安全约束，分别记target p、requested/configured/enforced cap与实际功率、issue/return/physical effect。禁止把CPU p(t)直接标为实测p。controller与engine/telemetry/meter共享同acquisition/run/request身份与时钟审计。
+3. 设计采集从idle到warmup、请求、EOS/错误、功率返回、matched-state和cooldown；服务端超时仍运行时不得启动下一轮。每个logger单writer/显式分片，append-only/flush/atomic seal，所有故障保留partial。
+4. CPU回归覆盖重复/缺token、混run_id、时钟reset/gap、无device EOS、删失错标、只GPU却声明DC/PCC、日志写满、中断、取消失败、cap恢复失败和dry-run零外部动作。用显著SIMULATED标签；通过仅代表软件行为。
+5. 在已有授权/本地服务/设备独占条件满足时仅做短只读smoke。外部电表由合格人员配置，保留原始sensor_timestamp、query_begin/arrival、marker/slope/offset/drift及误差，未知不填零。NVML轮询间隔不等于带宽。
+6. I05有/无插桩成对A/B，记录对吞吐、TTFT/ITL、能量与EOS时刻的扰动及CI。同步方法造成不可接受扰动就改方案并保留失败，不能只留“更好看”的instrumented数据。
+
+
+现有接口兼容性不得假定：旧validate_registry强制transfer_axis为device或model_family，且按整设备/模型族拒绝泄漏；没有workload/phase/context或none轴。无transfer研究可以保留真实的device/model_family轴并使用空transfer角色集合，明确不声称迁移；仅字面none轴需扩展。X01或X04等同设备workload/phase/context迁移须使用经过测试的版本化registry扩展/独立协议映射，不伪填新device/model_family标签。旧selected_folders只找root/run_*，evaluate-service要求registry内所有confirmation/ablation/transfer都存在；本计划的嵌套session/run/attempt raw树需实现安全索引/只读派生扁平视图或版本化path registry，核对每个run/attempt身份与hash。按阶段评估应显式冻结必需集合和依赖，不能默默忽略缺失run。所有扩展保留旧结构/泄漏/完整性门禁，新增角色冻结、父子hash链接、无transfer、workload-transfer及嵌套路径/一侧失败测试。
+
+输出：02_code/adapters/controller/runner/tests及源码diff/版本；ADAPTER_STATUS逐接口SUPPORTED/UNVERIFIED/BLOCKED与测试证据；I03原始完整smoke；03_calibration/clock与meter/instrumentation报告；字段字典、错误与restore日志。声明哪些已真实试过，哪些只有mock。无仪表/真EOS/权限则相应后续gate关闭，不能修validator绕过。

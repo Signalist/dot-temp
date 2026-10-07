@@ -1,0 +1,431 @@
+{
+  "source_document_sha256": "9748efcc004bb329824b342011fed9aba96223183e0856f1e062c86757e2185e",
+  "qualification": {
+    "ANDES_version": "2.0.0",
+    "distribution": "official PyPI andes==2.0.0",
+    "official_project": "https://github.com/CURENT/andes",
+    "official_v2_case_root": "https://github.com/CURENT/andes/tree/v2.0.0/andes/cases",
+    "validation_scope": "Independent reproduction of public benchmark models, not a physical grid measurement; no measured compute workloads",
+    "cases": {
+      "kundur": {
+        "andes_version": "2.0.0",
+        "source_case": "kundur/kundur_full.xlsx",
+        "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+        "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+        "disabled_original_events": {
+          "Toggle": [
+            {
+              "idx": 1,
+              "u": 1,
+              "name": "Toggler_1",
+              "model": "Line",
+              "dev": "Line_8",
+              "t": 2
+            }
+          ]
+        },
+        "port_buses": [
+          7,
+          8
+        ],
+        "base_MVA": 100.0,
+        "frequency_Hz": 60.0,
+        "baseline_port_MW": [
+          0.0,
+          0.0
+        ],
+        "baseline_port_Mvar": [
+          0.0,
+          0.0
+        ],
+        "original_PQ_TDS_conversion": {
+          "p2p": 0.0,
+          "p2i": 0.0,
+          "p2z": 1.0,
+          "q2q": 0.0,
+          "q2i": 0.0,
+          "q2z": 1.0
+        },
+        "port_original_PQ_status_after_dynamic_replacement": [
+          0.0,
+          0.0
+        ],
+        "initial_f_max": 2.220446049250313e-16,
+        "initial_g_max": 2.842170943040401e-14,
+        "original_model_parameters_modified": false,
+        "local_original_P_MW": [
+          1159.0,
+          1575.0
+        ],
+        "source_path_in_distribution": "kundur/kundur_full.xlsx",
+        "source_rechecked_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+        "source_sheets": {
+          "Bus": {
+            "rows": 10,
+            "columns": [
+              "uid",
+              "idx",
+              "u",
+              "name",
+              "Vn",
+              "vmax",
+              "vmin",
+              "v0",
+              "a0",
+              "xcoord",
+              "ycoord",
+              "area",
+              "zone",
+              "owner"
+            ],
+            "canonical_csv_sha256": "eb88b3611f05a40015b640ea57542c7b90d9b80203c7a1186dc3917a4e7da26b"
+          },
+          "PQ": {
+            "rows": 2,
+            "columns": [
+              "uid",
+              "idx",
+              "u",
+              "name",
+              "bus",
+              "Vn",
+              "p0",
+              "q0",
+              "vmax",
+              "vmin",
+              "owner"
+            ],
+            "canonical_csv_sha256": "b892cb373fc5c42233393c2685682fbb0b16d962a0b9fc4c086a2e42a8608cc2"
+          },
+          "PV": {
+            "rows": 3,
+            "columns": [
+              "uid",
+              "idx",
+              "u",
+              "name",
+              "Sn",
+              "Vn",
+              "bus",
+              "busr",
+              "p0",
+              "q0",
+              "pmax",
+              "pmin",
+              "qmax",
+              "qmin",
+              "v0",
+              "vmax",
+              "vmin",
+              "ra",
+              "xs"
+            ],
+            "canonical_csv_sha256": "b212bba8b2071b0340a5552963432492d34d18b780e3daeb23227db0afe59aa0"
+          },
+          "Slack": {
+            "rows": 1,
+            "columns": [
+              "uid",
+              "idx",
+              "u",
+              "name",
+              "Sn",
+              "Vn",
+              "bus",
+              "busr",
+              "p0",
+              "q0",
+              "pmax",
+              "pmin",
+              "qmax",
+              "qmin",
+              "v0",
+              "vmax",
+              "vmin",
+              "ra",
+              "xs",
+              "a0"
+            ],
+            "canonical_csv_sha256": "da0cf30ff33fa4a2bb69557e63f1cc0926e517345e1b51bab0db751f308ba484"
+          },
+          "Line": {
+            "rows": 15,
+            "columns": [
+              "uid",
+              "idx",
+              "u",
+              "name",
+              "bus1",
+              "bus2",
+              "Sn",
+              "fn",
+              "Vn1",
+              "Vn2",
+              "r",
+              "x",
+              "b",
+              "g",
+              "b1",
+              "g1",
+              "b2",
+              "g2",
+              "trans",
+              "tap",
+              "phi",
+              "owner",
+              "xcoord",
+              "ycoord"
+            ],
+            "canonical_csv_sha256": "649aa929749e54a6d9975a4e371d28b985fd39558261c3a854a4a412d52501f1"
+          },
+          "Area": {
+            "rows": 2,
+            "columns": [
+              "uid",
+              "idx",
+              "u",
+              "name"
+            ],
+            "canonical_csv_sha256": "0b18d58b1842ff0488f21de7584d5e85d1c06d3518741ed9c3afaac15cf1a0e1"
+          },
+          "GENROU": {
+            "rows": 4,
+            "columns": [
+              "uid",
+              "idx",
+              "u",
+              "name",
+              "bus",
+              "gen",
+              "coi",
+              "Sn",
+              "Vn",
+              "fn",
+              "D",
+              "M",
+              "ra",
+              "xl",
+              "xq",
+              "kp",
+              "kw",
+              "S10",
+              "S12",
+              "xd",
+              "xd1",
+              "xd2",
+              "xq1",
+              "xq2",
+              "Td10",
+              "Td20",
+              "Tq10",
+              "Tq20"
+            ],
+            "canonical_csv_sha256": "aeb9ba4797c4e39e4ac9d4d7950da9a88f52f3e7c262801c44911ce2bba11bca"
+          },
+          "TGOV1": {
+            "rows": 4,
+            "columns": [
+              "uid",
+              "idx",
+              "u",
+              "name",
+              "syn",
+              "R",
+              "wref0",
+              "VMAX",
+              "VMIN",
+              "T1",
+              "T2",
+              "T3",
+              "Dt"
+            ],
+            "canonical_csv_sha256": "3ba7f7be812848f70c2f846918b38ba25432e81f11c66ffa66af6ebacbcce54b"
+          },
+          "EXDC2": {
+            "rows": 4,
+            "columns": [
+              "uid",
+              "idx",
+              "u",
+              "name",
+              "syn",
+              "TR",
+              "TA",
+              "TC",
+              "TB",
+              "TE",
+              "TF1",
+              "KF1",
+              "KA",
+              "KE",
+              "VRMAX",
+              "VRMIN",
+              "E1",
+              "SE1",
+              "E2",
+              "SE2"
+            ],
+            "canonical_csv_sha256": "0573d980792312e63792ce8782e76c579147737170fb6283824f860d7863dac4"
+          },
+          "Toggler": {
+            "rows": 1,
+            "columns": [
+              "uid",
+              "idx",
+              "u",
+              "name",
+              "model",
+              "dev",
+              "t"
+            ],
+            "canonical_csv_sha256": "d068ea889bfe7f60b597b3fc1a006f43960fe72566b0d4014d7f627ccc27cc34"
+          }
+        },
+        "system_config": {
+          "freq": 60,
+          "mva": 100,
+          "diag_eps": 1e-08,
+          "warn_abnormal": 1
+        },
+        "TDS_config": {
+          "linsolve": 0,
+          "method": "trapezoid",
+          "tol": 0.0001,
+          "t0": 0.0,
+          "tf": 20.0,
+          "fixt": 1,
+          "shrinkt": 1,
+          "honest": 0,
+          "tstep": 0.03333333333333333,
+          "max_iter": 15,
+          "refresh_event": 0,
+          "test_init": 1,
+          "check_conn": 1,
+          "criteria": 1,
+          "ddelta_limit": 180,
+          "g_scale": 1,
+          "reset_tiny": 1,
+          "qrt": 0,
+          "kqrt": 1.0,
+          "store_z": 0,
+          "store_f": 0,
+          "store_h": 0,
+          "store_i": 0,
+          "limit_store": 0,
+          "max_store": 900,
+          "save_every": 1,
+          "save_mode": "auto",
+          "no_tqdm": 0,
+          "chatter_iter": 4,
+          "linesearch": 1,
+          "dtmax": 0,
+          "dtmin_adapt": 0,
+          "abstol": 1e-06,
+          "reltol": 0.001
+        },
+        "PFlow_config": {
+          "linsolve": 0,
+          "tol": 1e-06,
+          "max_iter": 25,
+          "method": "NR",
+          "n_factorize": 4,
+          "report": 1,
+          "degree": 0,
+          "init_tds": 0,
+          "linesearch": 1
+        },
+        "active_model_config": {
+          "Toggle": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1
+          },
+          "Bus": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1,
+            "flat_start": 0
+          },
+          "PQ": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1,
+            "pq2z": 1,
+            "p2p": 0.0,
+            "p2i": 0.0,
+            "p2z": 1.0,
+            "q2q": 0.0,
+            "q2i": 0.0,
+            "q2z": 1.0
+          },
+          "PV": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1,
+            "pv2pq": 0,
+            "npv2pq": 0,
+            "min_iter": 2,
+            "err_tol": 0.01,
+            "abs_violation": 1
+          },
+          "Slack": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1,
+            "pv2pq": 0,
+            "npv2pq": 0,
+            "min_iter": 2,
+            "err_tol": 0.01,
+            "abs_violation": 1,
+            "av2pv": 0
+          },
+          "Line": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1
+          },
+          "Area": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1
+          },
+          "ZIP": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1
+          },
+          "GENROU": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1,
+            "vf_lower": 1.0,
+            "vf_upper": 5.0
+          },
+          "TGOV1": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1
+          },
+          "EXDC2": {
+            "allow_adjust": 1,
+            "adjust_lower": 0,
+            "adjust_upper": 1
+          }
+        },
+        "source_model_counts": {
+          "Bus": 10,
+          "PQ": 2,
+          "PV": 3,
+          "Slack": 1,
+          "Line": 15,
+          "Area": 2,
+          "GENROU": 4,
+          "TGOV1": 4,
+          "EXDC2": 4,
+          "Toggler": 1
+        },
+        "original_case_total_load_MW": 2734.0
+      }
+    }
+  }
+}

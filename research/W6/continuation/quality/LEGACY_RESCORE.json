@@ -1,0 +1,1244 @@
+{
+  "distinct_main_quality_cases": 3,
+  "main_requests": 72,
+  "new_GPU_runs": 0,
+  "note": "Writing/code definitively fail requested output conditions. Arithmetic is a limited answer-only pass; comprehensive quality unknown. Repetitions do not increase independent quality sample count.",
+  "quality_matching_eligible_existing_tasks": 0,
+  "requests": 108,
+  "rows": [
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_01/attempt_001/e01/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_01/attempt_001/e01/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_01/attempt_001/e01/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_01/attempt_001/e01/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_01/attempt_001/e01/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_01/attempt_001/e01/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_01/attempt_001/e01/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_01/attempt_001/e01/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_01/attempt_001/e01/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_02/attempt_001/e02/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_02/attempt_001/e02/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_02/attempt_001/e02/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_02/attempt_001/e02/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_02/attempt_001/e02/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_02/attempt_001/e02/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_02/attempt_001/e02/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_02/attempt_001/e02/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_02/attempt_001/e02/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_03/attempt_001/e03/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_03/attempt_001/e03/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_03/attempt_001/e03/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_03/attempt_001/e03/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_03/attempt_001/e03/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_03/attempt_001/e03/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_03/attempt_001/e03/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_03/attempt_001/e03/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_03/attempt_001/e03/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_04/attempt_001/e04/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_04/attempt_001/e04/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_04/attempt_001/e04/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_04/attempt_001/e04/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_04/attempt_001/e04/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_04/attempt_001/e04/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_04/attempt_001/e04/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_04/attempt_001/e04/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_04/attempt_001/e04/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_05/attempt_001/e05/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_05/attempt_001/e05/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_05/attempt_001/e05/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_05/attempt_001/e05/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_05/attempt_001/e05/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_05/attempt_001/e05/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_05/attempt_001/e05/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_05/attempt_001/e05/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_05/attempt_001/e05/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_06/attempt_001/e06/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_06/attempt_001/e06/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_06/attempt_001/e06/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_06/attempt_001/e06/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_06/attempt_001/e06/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_06/attempt_001/e06/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_06/attempt_001/e06/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_06/attempt_001/e06/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_06/attempt_001/e06/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_07/attempt_001/e07/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_07/attempt_001/e07/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_07/attempt_001/e07/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_07/attempt_001/e07/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_07/attempt_001/e07/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_07/attempt_001/e07/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_07/attempt_001/e07/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_07/attempt_001/e07/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_07/attempt_001/e07/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_08/attempt_001/e08/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_08/attempt_001/e08/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_08/attempt_001/e08/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_08/attempt_001/e08/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_08/attempt_001/e08/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_08/attempt_001/e08/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_08/attempt_001/e08/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_08/attempt_001/e08/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_08/attempt_001/e08/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_09/attempt_001/e09/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_09/attempt_001/e09/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_09/attempt_001/e09/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_09/attempt_001/e09/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_09/attempt_001/e09/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_09/attempt_001/e09/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_09/attempt_001/e09/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_09/attempt_001/e09/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_09/attempt_001/e09/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_10/attempt_001/e10/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_10/attempt_001/e10/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_10/attempt_001/e10/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_10/attempt_001/e10/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_10/attempt_001/e10/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_10/attempt_001/e10/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_10/attempt_001/e10/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_10/attempt_001/e10/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_10/attempt_001/e10/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_11/attempt_001/e11/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_11/attempt_001/e11/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_11/attempt_001/e11/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_11/attempt_001/e11/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_11/attempt_001/e11/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_11/attempt_001/e11/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_11/attempt_001/e11/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_11/attempt_001/e11/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_11/attempt_001/e11/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_12/attempt_001/e12/main/code_short/r1/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION",
+      "source": "artifacts/resident_12/attempt_001/e12/main/code_short/r2/MIN/public_output.txt",
+      "task_id": "code_short",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_12/attempt_001/e12/main/reasoning_medium/r1/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "PASS_FOUR_FINAL_ANSWERS_ONLY",
+      "source": "artifacts/resident_12/attempt_001/e12/main/reasoning_medium/r2/MIN/public_output.txt",
+      "task_id": "reasoning_medium",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_12/attempt_001/e12/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "MAIN",
+      "quality_status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT",
+      "source": "artifacts/resident_12/attempt_001/e12/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "task_id": "writing_short_v2c",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_12/attempt_001/e12/warmup/0/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_12/attempt_001/e12/warmup/1/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    },
+    {
+      "phase": "WARMUP",
+      "quality_status": "WARMUP_NOT_QUALITY_CASE",
+      "source": "artifacts/resident_12/attempt_001/e12/warmup/2/public_output.txt",
+      "task_id": "warmup",
+      "termination": "NATURAL_EOS_HOST_METADATA",
+      "text_hash_matches_result": true,
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1
+    }
+  ],
+  "source_commit": "f3cb19f0ffe4ecfdb72a7e57b93e512851bcad50",
+  "source_hashes_all_match": true,
+  "task_details": {
+    "code_short": {
+      "analysis_method": "New author-written bounded AST interpreter only",
+      "distinct_output_hashes": 1,
+      "example_markers": 0,
+      "find_runs_checks": [
+        {
+          "bounded_ast_result": [],
+          "expected_partition": [],
+          "input": [],
+          "input_unchanged": true,
+          "pass": true
+        },
+        {
+          "bounded_ast_result": [],
+          "expected_partition": [
+            [
+              1
+            ]
+          ],
+          "input": [
+            1
+          ],
+          "input_unchanged": true,
+          "pass": false
+        },
+        {
+          "bounded_ast_result": [
+            [
+              1,
+              2
+            ]
+          ],
+          "expected_partition": [
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "input_unchanged": true,
+          "pass": false
+        },
+        {
+          "bounded_ast_result": [
+            [
+              2
+            ]
+          ],
+          "expected_partition": [
+            [
+              2
+            ],
+            [
+              7
+            ]
+          ],
+          "input": [
+            2,
+            7
+          ],
+          "input_unchanged": true,
+          "pass": false
+        },
+        {
+          "bounded_ast_result": [
+            [
+              1
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "expected_partition": [
+            [
+              1,
+              2
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "input": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "input_unchanged": true,
+          "pass": false
+        }
+      ],
+      "full_quality_pass": false,
+      "function_count": 5,
+      "generated_code_executed": false,
+      "markdown_fence": true,
+      "measurement_repetitions": 24,
+      "natural_eos_count": 24,
+      "quality_case_count": 1,
+      "required_functions": 1,
+      "status": "FAIL_SOURCE_CONSTRAINTS_AND_RUN_PARTITION"
+    },
+    "reasoning_medium": {
+      "alphabetic_words": 398,
+      "approximate_word_target": 250,
+      "consistency_checks": "Restate inputs and assert consistency; no independently demonstrated new check",
+      "distinct_arithmetic_templates": 1,
+      "distinct_output_hashes": 1,
+      "expected_answers": [
+        12,
+        10,
+        10,
+        10
+      ],
+      "final_answers_correct": true,
+      "full_quality_pass": null,
+      "measurement_repetitions": 24,
+      "natural_eos_count": 24,
+      "new_retroactive_word_gate": false,
+      "parsed_answers": [
+        12,
+        10,
+        10,
+        10
+      ],
+      "quality_case_count": 1,
+      "status": "PASS_FOUR_FINAL_ANSWERS_ONLY"
+    },
+    "writing_short_v2c": {
+      "distinct_output_hashes": 1,
+      "full_quality_pass": false,
+      "measurement_repetitions": 24,
+      "natural_eos_count": 24,
+      "paragraph_count": 1,
+      "quality_case_count": 1,
+      "semantic_content": "Not declared wholly incorrect; format failure is explicit",
+      "sentence_count": 4,
+      "sentence_required": 5,
+      "status": "FAIL_EXPLICIT_FIVE_SENTENCE_REQUIREMENT"
+    }
+  },
+  "termination_counts": {
+    "NATURAL_EOS_HOST_METADATA": 108
+  },
+  "warmups": 36
+}

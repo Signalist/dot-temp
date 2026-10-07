@@ -1,0 +1,17 @@
+claim,sources,status,use_rule
+Work coordinate + survival expected energy,L01;L02;L03,Covered,Not a new standalone contribution
+Unknown work with convex optimization/global structure,L02;L03,Covered under different constraints,Do not claim unknown task size inherently requires general DP
+Random workload plus discrete transition time/energy,L05;L06;L07,Covered,Do not claim all prior stochastic DVS ignores overhead
+Nonzero current speed as DP state,L06,Covered,High-state W6 extension must claim precise prefix/tail structure
+Expected active plus post-completion idle energy,L07,Covered through fixed horizon,Different from variable restoration-finish horizon
+Progress/squared-speed transformation convexifies dynamics,L04,Covered tool idea,W6 general s maps to a nonconvex admissible set in that variable
+Primitive z=int s(p)dp linearizes actual-power slew,L01–L07,No exact same-model theorem found in checked sources,Elementary identity alone is not substantial novelty
+Critical projection plus random EOS restoration energy yields exact convex tail,L01–L07,No exact combined theorem found in checked sources,Candidate requires own complete proof and precise accounting
+Stochastic full-cycle continuous-slew global solver/structure,L01–L07,Unresolved by reviewed sources,Do not equate absence of found source with first result
+Measured GPU p to concave useful-service s(p),D01;D01P;D02;D03;D04,Not established,Public traces/config variation cannot be relabeled a controlled actual-power curve
+Realistic task output-length distribution,D02b,Complete bounded public CSV and empirical PMF obtained,Trace-driven synthetic W only; natural EOS reason and true support bound unknown
+"Joint same-run natural EOS, continuous actual-power service, and recovery trace",D01–D06,Not obtained,Do not claim hardware calibration or validation
+Full-cycle reserve identity plus double dominance,L01–L07,No exact same-model result found,Integration by parts/projection are standard; retain precise combined structural claim
+Sharp power-service hazard threshold on clipped path class,L01–L07,No exact same-model result found,Not first hazard analysis; sharpness rests on own feasible-direction proof
+Maximal Lipschitz bridge geometry,L09,Covered standard theorem,Do not claim bridge formula alone novel
+Exact atomic-EOS bridge elimination with restoration node costs,L06;L09,Ingredients known; no exact combined same-model theorem found,Position as specific global dimensional reduction and verifiable bounds

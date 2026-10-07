@@ -1,0 +1,218 @@
+[
+  {
+    "evidence": "SIMULATED",
+    "run_id": "run_00",
+    "tier": "GPU_DC",
+    "status": "DESCRIPTIVE_ONLY_NO_PHYSICAL_CERTIFICATE",
+    "energy": {
+      "gpu_dc": {
+        "gross_cycle_J": 365.0,
+        "dynamic_cycle_J": 125.0,
+        "dynamic_service_J": 100.0,
+        "dynamic_recovery_J": 25.0,
+        "gross_capture_J": 617.25,
+        "gross_cooldown_J": 80.0,
+        "max_sampled_slope_W_per_s_NOT_bound": 250.0,
+        "negative_dynamic_samples_retained": 0
+      }
+    },
+    "power_cycle_s": 6.0,
+    "matched_state_cycle_s": 8.0,
+    "EOS_delay_s": 0.02,
+    "service_s": 4.0,
+    "recovery_s": 2.0,
+    "censored": false,
+    "stop_class": "natural_eos",
+    "clock_error_ns": 1000,
+    "continuous_slew_bound": "NOT_IDENTIFIED"
+  },
+  {
+    "evidence": "SIMULATED",
+    "run_id": "run_01",
+    "tier": "GPU_DC",
+    "status": "DESCRIPTIVE_ONLY_NO_PHYSICAL_CERTIFICATE",
+    "energy": {
+      "gpu_dc": {
+        "gross_cycle_J": 419.9999999999999,
+        "dynamic_cycle_J": 179.9999999999999,
+        "dynamic_service_J": 143.9999999999999,
+        "dynamic_recovery_J": 36.000000000000014,
+        "gross_capture_J": 672.8000000000004,
+        "gross_cooldown_J": 80.0,
+        "max_sampled_slope_W_per_s_NOT_bound": 360.0,
+        "negative_dynamic_samples_retained": 0
+      }
+    },
+    "power_cycle_s": 6.0,
+    "matched_state_cycle_s": 8.0,
+    "EOS_delay_s": 0.02,
+    "service_s": 4.0,
+    "recovery_s": 2.0,
+    "censored": false,
+    "stop_class": "natural_eos",
+    "clock_error_ns": 1000,
+    "continuous_slew_bound": "NOT_IDENTIFIED"
+  },
+  {
+    "evidence": "SIMULATED",
+    "run_id": "run_02",
+    "tier": "GPU_DC",
+    "status": "DESCRIPTIVE_ONLY_NO_PHYSICAL_CERTIFICATE",
+    "energy": {
+      "gpu_dc": {
+        "gross_cycle_J": 484.9999999999999,
+        "dynamic_cycle_J": 245.0000000000001,
+        "dynamic_service_J": 196.00000000000014,
+        "dynamic_recovery_J": 49.00000000000001,
+        "gross_capture_J": 738.4499999999991,
+        "gross_cooldown_J": 80.0,
+        "max_sampled_slope_W_per_s_NOT_bound": 490.0,
+        "negative_dynamic_samples_retained": 0
+      }
+    },
+    "power_cycle_s": 6.0,
+    "matched_state_cycle_s": 8.0,
+    "EOS_delay_s": 0.02,
+    "service_s": 4.0,
+    "recovery_s": 2.0,
+    "censored": false,
+    "stop_class": "natural_eos",
+    "clock_error_ns": 1000,
+    "continuous_slew_bound": "NOT_IDENTIFIED"
+  },
+  {
+    "evidence": "SIMULATED",
+    "run_id": "run_03",
+    "tier": "GPU_DC",
+    "status": "DESCRIPTIVE_ONLY_NO_PHYSICAL_CERTIFICATE",
+    "energy": {
+      "gpu_dc": {
+        "gross_cycle_J": 559.9999999999998,
+        "dynamic_cycle_J": 320.00000000000017,
+        "dynamic_service_J": 256.0000000000001,
+        "dynamic_recovery_J": 63.999999999999986,
+        "gross_capture_J": 814.1999999999995,
+        "gross_cooldown_J": 80.0,
+        "max_sampled_slope_W_per_s_NOT_bound": 640.0,
+        "negative_dynamic_samples_retained": 0
+      }
+    },
+    "power_cycle_s": 6.0,
+    "matched_state_cycle_s": 8.0,
+    "EOS_delay_s": 0.02,
+    "service_s": 4.0,
+    "recovery_s": 2.0,
+    "censored": false,
+    "stop_class": "natural_eos",
+    "clock_error_ns": 1000,
+    "continuous_slew_bound": "NOT_IDENTIFIED"
+  },
+  {
+    "evidence": "SIMULATED",
+    "run_id": "run_04",
+    "tier": "GPU_DC",
+    "status": "DESCRIPTIVE_ONLY_NO_PHYSICAL_CERTIFICATE",
+    "energy": {
+      "gpu_dc": {
+        "gross_cycle_J": 419.9999999999999,
+        "dynamic_cycle_J": 179.9999999999999,
+        "dynamic_service_J": 143.9999999999999,
+        "dynamic_recovery_J": 36.000000000000014,
+        "gross_capture_J": 672.8000000000004,
+        "gross_cooldown_J": 80.0,
+        "max_sampled_slope_W_per_s_NOT_bound": 360.0,
+        "negative_dynamic_samples_retained": 0
+      }
+    },
+    "power_cycle_s": 6.0,
+    "matched_state_cycle_s": 8.0,
+    "EOS_delay_s": 0.02,
+    "service_s": 4.0,
+    "recovery_s": 2.0,
+    "censored": false,
+    "stop_class": "natural_eos",
+    "clock_error_ns": 1000,
+    "continuous_slew_bound": "NOT_IDENTIFIED"
+  },
+  {
+    "evidence": "SIMULATED",
+    "run_id": "run_05",
+    "tier": "GPU_DC",
+    "status": "DESCRIPTIVE_ONLY_NO_PHYSICAL_CERTIFICATE",
+    "energy": {
+      "gpu_dc": {
+        "gross_cycle_J": 484.9999999999999,
+        "dynamic_cycle_J": 245.0000000000001,
+        "dynamic_service_J": 196.00000000000014,
+        "dynamic_recovery_J": 49.00000000000001,
+        "gross_capture_J": 738.4499999999991,
+        "gross_cooldown_J": 80.0,
+        "max_sampled_slope_W_per_s_NOT_bound": 490.0,
+        "negative_dynamic_samples_retained": 0
+      }
+    },
+    "power_cycle_s": 6.0,
+    "matched_state_cycle_s": 8.0,
+    "EOS_delay_s": 0.02,
+    "service_s": 4.0,
+    "recovery_s": 2.0,
+    "censored": false,
+    "stop_class": "natural_eos",
+    "clock_error_ns": 1000,
+    "continuous_slew_bound": "NOT_IDENTIFIED"
+  },
+  {
+    "evidence": "SIMULATED",
+    "run_id": "run_06",
+    "tier": "GPU_DC",
+    "status": "DESCRIPTIVE_ONLY_NO_PHYSICAL_CERTIFICATE",
+    "energy": {
+      "gpu_dc": {
+        "gross_cycle_J": 365.0,
+        "dynamic_cycle_J": 125.0,
+        "dynamic_service_J": 100.0,
+        "dynamic_recovery_J": 25.0,
+        "gross_capture_J": 617.25,
+        "gross_cooldown_J": 80.0,
+        "max_sampled_slope_W_per_s_NOT_bound": 250.0,
+        "negative_dynamic_samples_retained": 0
+      }
+    },
+    "power_cycle_s": 6.0,
+    "matched_state_cycle_s": 8.0,
+    "EOS_delay_s": 0.02,
+    "service_s": 4.0,
+    "recovery_s": 2.0,
+    "censored": false,
+    "stop_class": "natural_eos",
+    "clock_error_ns": 1000,
+    "continuous_slew_bound": "NOT_IDENTIFIED"
+  },
+  {
+    "evidence": "SIMULATED",
+    "run_id": "run_07",
+    "tier": "GPU_DC",
+    "status": "DESCRIPTIVE_ONLY_NO_PHYSICAL_CERTIFICATE",
+    "energy": {
+      "gpu_dc": {
+        "gross_cycle_J": 484.9999999999999,
+        "dynamic_cycle_J": 245.0000000000001,
+        "dynamic_service_J": 196.00000000000014,
+        "dynamic_recovery_J": 49.00000000000001,
+        "gross_capture_J": 738.4499999999991,
+        "gross_cooldown_J": 80.0,
+        "max_sampled_slope_W_per_s_NOT_bound": 490.0,
+        "negative_dynamic_samples_retained": 0
+      }
+    },
+    "power_cycle_s": 6.0,
+    "matched_state_cycle_s": 8.0,
+    "EOS_delay_s": 0.02,
+    "service_s": 4.0,
+    "recovery_s": 2.0,
+    "censored": false,
+    "stop_class": "natural_eos",
+    "clock_error_ns": 1000,
+    "continuous_slew_bound": "NOT_IDENTIFIED"
+  }
+]

@@ -1,0 +1,1201 @@
+{
+  "schema_version": "w6-plan-1",
+  "encoding": "UTF-8",
+  "CSV": {
+    "dialect": "RFC4180",
+    "header_required": true,
+    "null": "empty field",
+    "boolean_values": [
+      "true",
+      "false"
+    ],
+    "integer_serialization": "base10 integers, not decimal floats or exponent notation",
+    "JSON_NaN_Infinity": "forbidden"
+  },
+  "row_key": [
+    "study_id",
+    "run_id",
+    "attempt_id",
+    "request_id",
+    "electrical_boundary"
+  ],
+  "metrics_rows_are_not_independent_samples": true,
+  "time_unit_raw": "ns",
+  "derived_time_unit": "s",
+  "power_unit": "W",
+  "energy_unit": "J",
+  "frequency_unit": "Hz",
+  "unknown_not_zero": true,
+  "fields": [
+    {
+      "name": "schema_version",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "study_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "protocol_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "experiment_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "run_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "attempt_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "session_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "cluster_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "request_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "workload_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "policy_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "stratum",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "evidence",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "electrical_boundary",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "pair_id",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "block_id",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "model_family",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "model_revision",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "engine_revision",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "clock_id",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "calibration_id",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "stop_class",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "finish_reason",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "primary_window_start_event",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "primary_window_end_event",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "quality_metric_id",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "null_reasons_ref",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "source_manifest_sha256",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "sampling_seed",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "非负整数；seed复现不保证异步引擎输出完全相同",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "controller_seed",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "非负整数；seed复现不保证异步引擎输出完全相同",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "bootstrap_seed",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "非负整数；seed复现不保证异步引擎输出完全相同",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "input_tokens",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "非负整数；seed复现不保证异步引擎输出完全相同",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "completed_output_tokens",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "非负整数；seed复现不保证异步引擎输出完全相同",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "max_tokens",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "非负整数；seed复现不保证异步引擎输出完全相同",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "prefill_context_tokens",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "非负整数；seed复现不保证异步引擎输出完全相同",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "batch_size",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "非负整数；seed复现不保证异步引擎输出完全相同",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "concurrency",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "非负整数；seed复现不保证异步引擎输出完全相同",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "randomization_order",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "非负整数；seed复现不保证异步引擎输出完全相同",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "success",
+      "type": "boolean",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "真假与未知分开；未知为null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "censored",
+      "type": "boolean",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "真假与未知分开；未知为null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "quality_gate_pass",
+      "type": "boolean",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "真假与未知分开；未知为null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "qos_gate_pass",
+      "type": "boolean",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "真假与未知分开；未知为null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "analysis_included",
+      "type": "boolean",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "真假与未知分开；未知为null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "physical_admitted",
+      "type": "boolean",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "真假与未知分开；未知为null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "request_start_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "first_token_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "true_eos_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "engine_eos_visible_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "controller_eos_visible_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "client_eos_visible_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "power_return_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "matched_state_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "grid_tail_end_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "capture_end_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "TTFT_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "useful_latency_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "ITL_p50_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "ITL_p95_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "ITL_p99_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "engine_EOS_delay_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "controller_EOS_delay_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "client_EOS_delay_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "command_api_latency_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "physical_effect_latency_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "power_return_after_true_eos_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "matched_reset_after_true_eos_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "T_powercycle_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "T_matched_cycle_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "grid_tail_after_power_return_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "warmup_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "cooldown_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "controller_wall_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "controller_cpu_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "solver_wall_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "solver_cpu_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "E_gross_request_power_return_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "E_dynamic_request_power_return_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "E_gross_request_matched_state_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "E_dynamic_request_matched_state_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "E_productive_dynamic_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "E_recovery_dynamic_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "E_warmup_gross_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "E_cooldown_gross_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "E_whole_capture_gross_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "J_W6_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "只在冻结理论电气边界计算，通常GPU全rail DC dynamic；其他边界为null且写reason，PCC类目标另名",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "E_primary_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "energy_uncertainty_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "c_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "原W6能量-功率周期权重，仅理论电气边界行使用",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "baseline_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "actual_power_mean_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "actual_power_peak_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "requested_cap_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "configured_cap_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "enforced_cap_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "cap_original_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "cap_restored_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "tracking_RMSE_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "tracking_max_abs_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "calibration_error_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "baseline_error_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "filter_error_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "PCC_residual_bound_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "命令cap与实际power分开，未知不填0",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "sampled_slew_max_W_per_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "W/s",
+      "description_zh": "采样差分描述值，不是连续时间硬slew界",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "temperature_start_C",
+      "type": "number",
+      "nullable": true,
+      "unit": "degC",
+      "description_zh": "设备读数与支持范围",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "temperature_end_C",
+      "type": "number",
+      "nullable": true,
+      "unit": "degC",
+      "description_zh": "设备读数与支持范围",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "temperature_max_C",
+      "type": "number",
+      "nullable": true,
+      "unit": "degC",
+      "description_zh": "设备读数与支持范围",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "clock_start_MHz",
+      "type": "number",
+      "nullable": true,
+      "unit": "MHz",
+      "description_zh": "device clock遥测；不是时间基准",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "clock_end_MHz",
+      "type": "number",
+      "nullable": true,
+      "unit": "MHz",
+      "description_zh": "device clock遥测；不是时间基准",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "clock_error_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同步误差/间隙/覆盖端点",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "max_gap_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同步误差/间隙/覆盖端点",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "coverage_start_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同步误差/间隙/覆盖端点",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "coverage_end_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同步误差/间隙/覆盖端点",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "raw_rows",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "原始量与程序/系统测量方法须注明",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "missing_rows",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "原始量与程序/系统测量方法须注明",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "raw_bytes",
+      "type": "integer",
+      "nullable": true,
+      "unit": "byte",
+      "description_zh": "原始量与程序/系统测量方法须注明",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "peak_GPU_memory_bytes",
+      "type": "integer",
+      "nullable": true,
+      "unit": "byte",
+      "description_zh": "原始量与程序/系统测量方法须注明",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "peak_host_memory_bytes",
+      "type": "integer",
+      "nullable": true,
+      "unit": "byte",
+      "description_zh": "原始量与程序/系统测量方法须注明",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "tokens_per_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "token/s",
+      "description_zh": "token计数不是chunk计数；注明useful时间窗",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "quality_score",
+      "type": "number",
+      "nullable": true,
+      "unit": "metric_specific",
+      "description_zh": "质量指标按quality_metric_id定义量纲、方向和计算方法，未知为null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "PCC_gain",
+      "type": "number",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "同单位GPU动态功率到PCC有功增量的条件增益；需声明模型/适用域",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "completed_fraction",
+      "type": "number",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "声明分析单位内完成请求数/全部尝试请求数；逐请求行取0或1，未知为null；不可筛选成功后再算",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "PCC_peak_after_return",
+      "type": "boolean",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "最大实测网侧峰值是否发生在GPU功率返回后",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "PCC_active_peak_W",
+      "type": "number",
+      "nullable": true,
+      "unit": "W",
+      "description_zh": "PCC边界，不能由GPU功率代替",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "PCC_reactive_peak_var",
+      "type": "number",
+      "nullable": true,
+      "unit": "var",
+      "description_zh": "PCC无功功率",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "PCC_voltage_min_V",
+      "type": "number",
+      "nullable": true,
+      "unit": "V",
+      "description_zh": "注明RMS/相/窗口",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "PCC_voltage_max_V",
+      "type": "number",
+      "nullable": true,
+      "unit": "V",
+      "description_zh": "注明RMS/相/窗口",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "PCC_current_peak_A",
+      "type": "number",
+      "nullable": true,
+      "unit": "A",
+      "description_zh": "注明相/窗口/带宽",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "grid_frequency_peak_abs_Hz",
+      "type": "number",
+      "nullable": true,
+      "unit": "Hz",
+      "description_zh": "仅有PCC/网频证据或明确SIMULATED模型时提供",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "grid_frequency_tail_bound_Hz",
+      "type": "number",
+      "nullable": true,
+      "unit": "Hz",
+      "description_zh": "仅有PCC/网频证据或明确SIMULATED模型时提供",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "grid_violation_duration_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "基于设施批准或明确模拟阈值；两者不得混淆",
+      "enum": null,
+      "required": false
+    }
+  ]
+}

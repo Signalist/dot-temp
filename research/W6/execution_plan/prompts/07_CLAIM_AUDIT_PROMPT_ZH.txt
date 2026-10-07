@@ -1,0 +1,17 @@
+阶段 7：独立统计、主张与证据审查
+覆盖实验ID：Z01（审查部分）
+
+共同要求：这是 W6 阶段续跑提示词，原交付是 CPU 验证过的脚手架，真实 EOS/engine/policy/仪表适配与硬件主张尚待验证。若已收到本计划目录，读取同目录 00_MASTER_PROMPT_ZH.txt 与 contracts/，沿用其数据、单位、隐私、权限、冻结和证据合同；本文给出本阶段完整目标。先核对当前工作副本、输入hash、已有 sealed runs 与状态，不覆盖原包、不重跑已合格结果。所有未测项用 NOT_RUN/BLOCKED，失败原样保留。SIMULATED/DRY_RUN/CPU_TEST 不得改为 MEASURED。不得任意租GPU/付费/开账号/下载权重；不自动提权、改驱动/固件/电气安全或写cap。物理动作要有具体操作者批准的设备、范围、时长与恢复流程；不超过会话原cap，恢复必须readback。无权限暂停受影响分支，其他安全独立工作继续。不要泄漏prompt/token文本、序列号、凭证、完整环境变量。修改协议需新版本，不能用确认outcome调参。
+
+
+目标：从冻结原始数据独立复算，主动寻找错误、偏差和负结果，建立可写进论文的边界。此阶段默认只读审查，不为了修结论重跑GPU。
+
+1. 核对所有必需experiment/run/attempt slots的状态和原始hash。CPU_TEST、DRY_RUN、SIMULATED、历史REPLAY与新MEASURED分开。每个PASS说明是软件/结构/物理/统计哪个层级，不将schema PASS当物理认证。
+2. 检查session/transfer泄漏、confirmation是否参与模型或窗口选择、顺序/carryover、种子一致性、single-sided pair失败、排除/attrition/重试、冻结后修改和有效样本单位。对多重比较、cluster CI、tail样本不足、计量误差和QoS/quality门禁独立核验。
+3. 从sealed raw重算能量/延迟及bootstrap或预定检验，核对clock变换、baseline不截负、完整窗口/tail覆盖、cap不是p、M不是max_tokens、自然EOS不是stop。若缺源raw或标定证据，不在报告中假装复算过。
+同时核对原A–E研究检查点（新意/理论/网侧合同/执行测量/确认）与GPU_ONLY/GPU_DC/PCC资源分层分别保留，未把相同字母改成另一套含义。
+4. 检查数值比较同可行域/动作/信息/guard/成本；Bellman只对其离散类全局；浮点不是严格向外舍入证书；E+cT不是匹配QoS节能。保留网格不足、candidate输baseline、迟报和无收益案例。
+5. 建claim_evidence.csv/json：claim_id、精确句子、证据等级、支持/反对文件路径+hash、适用条件、统计效应/CI、缺口、允许写法与禁止写法。全部推广主张需要对应X/G分支真实证据；缺资源缩范围，不能补理想模拟。
+6. FINAL_STATUS事实记录真实GPU请求/cap writes/DC/PCC采集/独立sessions数、错误删失与重试数、CPU测试/模拟数、成本/预算、恢复及审核人确认状态。操作者未确认不能伪签；时间/哈希证明范围如实写。
+
+输出AUDIT_REPORT_ZH.txt、claim_evidence、EXPERIMENT_STATUS/RUN_STATUS、FINAL_STATUS、需修正的具体路径和影响范围。无证据支持的结论撤回或降格；无需捏造“论文已ready”。未完成项清楚BLOCKED/NOT_RUN；发现可逆代码/分析错误可以在新derived revision修复并复算，不能更改sealed raw或追溯改变freeze。

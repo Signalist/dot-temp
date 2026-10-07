@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "W6 manifest",
+  "type": "object",
+  "properties": {
+    "acquisition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^run_[A-Za-z0-9_-]+$"
+    },
+    "clock_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence": {
+      "enum": [
+        "SIMULATED",
+        "MEASURED"
+      ]
+    },
+    "schema_version": {
+      "const": "w6-1"
+    },
+    "stage": {
+      "enum": [
+        "identification",
+        "calibration",
+        "confirmation",
+        "ablation",
+        "transfer"
+      ]
+    },
+    "tier": {
+      "enum": [
+        "GPU_ONLY",
+        "GPU_DC",
+        "PCC"
+      ]
+    },
+    "channels": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "clock_error_ns": {
+      "type": "number",
+      "minimum": 0
+    },
+    "max_gap_ns": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "concurrency": {
+      "const": 1
+    },
+    "max_tokens": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "service_window_offsets_ns": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "acquisition_id",
+    "run_id",
+    "clock_id",
+    "evidence",
+    "schema_version",
+    "stage",
+    "tier",
+    "session_id",
+    "device_id_hash",
+    "model_family",
+    "device_model_unit",
+    "model_revision",
+    "engine_revision",
+    "stratum",
+    "request_id",
+    "max_tokens",
+    "units",
+    "channels",
+    "clock_error_ns",
+    "max_gap_ns",
+    "initial_state",
+    "baseline_method",
+    "concurrency"
+  ],
+  "additionalProperties": true,
+  "description": "Structural guide; Python validator additionally checks semantics across files. Raw uncalibrated telemetry is intentionally not an admitted power-row."
+}

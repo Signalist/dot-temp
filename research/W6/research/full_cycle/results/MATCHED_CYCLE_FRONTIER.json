@@ -1,0 +1,368 @@
+[
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.5,
+      "R": 0.5,
+      "c": 0.25,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 0.15,
+    "proposed_cycle_time": 1.7128114726072907,
+    "proposed_dynamic_energy": 0.18605423294009568,
+    "proposed_allocated_facility_energy": 0.3573353802008248,
+    "constant_target_min_cycle_time": 1.6,
+    "common_resources": {
+      "R": 0.5,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 0.8254818122236567,
+      "burn_energy_cap": 0.6814202223120523
+    },
+    "target_feasible_at_requested_cycle_time": true,
+    "matched_target_power": 0.13267850463314276,
+    "matched_target_cycle_time": 1.7128114726072905,
+    "matched_target_dynamic_energy": 0.19256464613817897,
+    "matched_target_allocated_facility_energy": 0.36384579339890805,
+    "relative_dynamic_energy_saving": 0.03380897443350839,
+    "relative_allocated_facility_energy_saving": 0.017893330955582765,
+    "time_match_residual": -2.220446049250313e-16
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.5,
+      "R": 0.5,
+      "c": 1.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 0.9,
+    "proposed_cycle_time": 1.5888268351368422,
+    "proposed_dynamic_energy": 0.24012271765381044,
+    "proposed_allocated_facility_energy": 0.39900540116749467,
+    "constant_target_min_cycle_time": 1.6,
+    "common_resources": {
+      "R": 0.5,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 0.8254818122236567,
+      "burn_energy_cap": 0.6814202223120523
+    },
+    "target_feasible_at_requested_cycle_time": false,
+    "mean_cycle_time_below_best_target_fraction": 0.00698322803947371,
+    "energy_saving_at_matched_time": null
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.5,
+      "R": 0.5,
+      "c": 4.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 3.9,
+    "proposed_cycle_time": 1.5737646332060016,
+    "proposed_dynamic_energy": 0.2651223013507435,
+    "proposed_allocated_facility_energy": 0.4224987646713437,
+    "constant_target_min_cycle_time": 1.6,
+    "common_resources": {
+      "R": 0.5,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 0.8254818122236567,
+      "burn_energy_cap": 0.6814202223120523
+    },
+    "target_feasible_at_requested_cycle_time": false,
+    "mean_cycle_time_below_best_target_fraction": 0.016397104246249072,
+    "energy_saving_at_matched_time": null
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.5,
+      "R": 4.0,
+      "c": 0.25,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 0.15,
+    "proposed_cycle_time": 1.1585078360875225,
+    "proposed_dynamic_energy": 0.23212793119026254,
+    "proposed_allocated_facility_energy": 0.34797871479901477,
+    "constant_target_min_cycle_time": 0.8,
+    "common_resources": {
+      "R": 4.0,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 3.3019272488946263,
+      "burn_energy_cap": 1.3628404446241045
+    },
+    "target_feasible_at_requested_cycle_time": true,
+    "matched_target_power": 0.2108424659549401,
+    "matched_target_cycle_time": 1.1585078360875232,
+    "matched_target_dynamic_energy": 0.2331900013131934,
+    "matched_target_allocated_facility_energy": 0.34904078492194573,
+    "relative_dynamic_energy_saving": 0.004554526853423724,
+    "relative_allocated_facility_energy_saving": 0.0030428252766177,
+    "time_match_residual": 6.661338147750939e-16
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.5,
+      "R": 4.0,
+      "c": 1.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 0.9,
+    "proposed_cycle_time": 0.8564057050107828,
+    "proposed_dynamic_energy": 0.37210849720592654,
+    "proposed_allocated_facility_energy": 0.45774906770700485,
+    "constant_target_min_cycle_time": 0.8,
+    "common_resources": {
+      "R": 4.0,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 3.3019272488946263,
+      "burn_energy_cap": 1.3628404446241045
+    },
+    "target_feasible_at_requested_cycle_time": true,
+    "matched_target_power": 0.5307141091038242,
+    "matched_target_cycle_time": 0.8564057050107827,
+    "matched_target_dynamic_energy": 0.38512932982028664,
+    "matched_target_allocated_facility_energy": 0.4707699003213649,
+    "relative_dynamic_energy_saving": 0.03380898728340431,
+    "relative_allocated_facility_energy_saving": 0.027658592032905105,
+    "time_match_residual": -1.1102230246251565e-16
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.5,
+      "R": 4.0,
+      "c": 4.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 3.9,
+    "proposed_cycle_time": 0.7944134049435669,
+    "proposed_dynamic_energy": 0.48024548586830385,
+    "proposed_allocated_facility_energy": 0.5596868263626605,
+    "constant_target_min_cycle_time": 0.8,
+    "common_resources": {
+      "R": 4.0,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 3.3019272488946263,
+      "burn_energy_cap": 1.3628404446241045
+    },
+    "target_feasible_at_requested_cycle_time": false,
+    "mean_cycle_time_below_best_target_fraction": 0.006983243820541385,
+    "energy_saving_at_matched_time": null
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.8,
+      "R": 0.5,
+      "c": 0.25,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 0.15,
+    "proposed_cycle_time": 2.1844117106297527,
+    "proposed_dynamic_energy": 0.4206930375454271,
+    "proposed_allocated_facility_energy": 0.6391342086084024,
+    "constant_target_min_cycle_time": 2.0740233617592883,
+    "common_resources": {
+      "R": 0.5,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 0.9431465314595465,
+      "burn_energy_cap": 0.8895253798041733
+    },
+    "target_feasible_at_requested_cycle_time": true,
+    "matched_target_power": 0.25954290796662904,
+    "matched_target_cycle_time": 2.1844117106297523,
+    "matched_target_dynamic_energy": 0.4347059192659981,
+    "matched_target_allocated_facility_energy": 0.6531470903289733,
+    "relative_dynamic_energy_saving": 0.03223531380532341,
+    "relative_allocated_facility_energy_saving": 0.021454404265221494,
+    "time_match_residual": -4.440892098500626e-16
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.8,
+      "R": 0.5,
+      "c": 1.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 0.9,
+    "proposed_cycle_time": 2.064778149995497,
+    "proposed_dynamic_energy": 0.4733435645969063,
+    "proposed_allocated_facility_energy": 0.679821379596456,
+    "constant_target_min_cycle_time": 2.0740233617592883,
+    "common_resources": {
+      "R": 0.5,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 0.9431465314595465,
+      "burn_energy_cap": 0.8895253798041733
+    },
+    "target_feasible_at_requested_cycle_time": false,
+    "mean_cycle_time_below_best_target_fraction": 0.004457621806125189,
+    "energy_saving_at_matched_time": null
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.8,
+      "R": 0.5,
+      "c": 4.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 3.9,
+    "proposed_cycle_time": 2.0489733443819267,
+    "proposed_dynamic_energy": 0.49975998714139797,
+    "proposed_allocated_facility_energy": 0.7046573215795906,
+    "constant_target_min_cycle_time": 2.0740233617592883,
+    "common_resources": {
+      "R": 0.5,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 0.9431465314595465,
+      "burn_energy_cap": 0.8895253798041733
+    },
+    "target_feasible_at_requested_cycle_time": false,
+    "mean_cycle_time_below_best_target_fraction": 0.012077982263475007,
+    "energy_saving_at_matched_time": null
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.8,
+      "R": 4.0,
+      "c": 0.25,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 0.15,
+    "proposed_cycle_time": 1.0349229137664988,
+    "proposed_dynamic_energy": 0.45975341041096246,
+    "proposed_allocated_facility_energy": 0.5632457017876124,
+    "constant_target_min_cycle_time": 0.8230767165658288,
+    "common_resources": {
+      "R": 4.0,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 2.9943035923980856,
+      "burn_energy_cap": 1.1207317504310101
+    },
+    "target_feasible_at_requested_cycle_time": true,
+    "matched_target_power": 0.5123516527927153,
+    "matched_target_cycle_time": 1.0349229137664988,
+    "matched_target_dynamic_energy": 0.46513251989105764,
+    "matched_target_allocated_facility_energy": 0.5686248112677075,
+    "relative_dynamic_energy_saving": 0.0115646815693623,
+    "relative_allocated_facility_energy_saving": 0.009459857138668926,
+    "time_match_residual": 0.0
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.8,
+      "R": 4.0,
+      "c": 1.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 0.9,
+    "proposed_cycle_time": 0.8522746985192164,
+    "proposed_dynamic_energy": 0.5430157182381664,
+    "proposed_allocated_facility_energy": 0.6282431880900881,
+    "constant_target_min_cycle_time": 0.8230767165658288,
+    "common_resources": {
+      "R": 4.0,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 2.9943035923980856,
+      "burn_energy_cap": 1.1207317504310101
+    },
+    "target_feasible_at_requested_cycle_time": true,
+    "matched_target_power": 0.8903876494323345,
+    "matched_target_cycle_time": 0.8522746985192147,
+    "matched_target_dynamic_energy": 0.5648558471800625,
+    "matched_target_allocated_facility_energy": 0.650083317031984,
+    "relative_dynamic_energy_saving": 0.03866496036277023,
+    "relative_allocated_facility_energy_saving": 0.03359589204905156,
+    "time_match_residual": -1.7763568394002505e-15
+  },
+  {
+    "policy_source": "SAFE_PRIMARY_PATHS.json",
+    "case": {
+      "beta": 0.8,
+      "R": 4.0,
+      "c": 4.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "facility_idle_per_cycle": 0.1,
+    "lambda_cycle": 3.9,
+    "proposed_cycle_time": 0.8172009851715296,
+    "proposed_dynamic_energy": 0.6042022922360473,
+    "proposed_allocated_facility_energy": 0.6859223907532003,
+    "constant_target_min_cycle_time": 0.8230767165658288,
+    "common_resources": {
+      "R": 4.0,
+      "p0": 0.0,
+      "physical_power_and_burn_cap": 2.9943035923980856,
+      "burn_energy_cap": 1.1207317504310101
+    },
+    "target_feasible_at_requested_cycle_time": false,
+    "mean_cycle_time_below_best_target_fraction": 0.007138740868305571,
+    "energy_saving_at_matched_time": null
+  }
+]

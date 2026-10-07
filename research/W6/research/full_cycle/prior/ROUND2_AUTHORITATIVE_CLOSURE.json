@@ -1,0 +1,44 @@
+{
+  "status": "SCIENTIFIC_ERRATUM_CLOSED",
+  "closed_utc": "2026-10-03T19:25:46.849862+00:00",
+  "canonical_version": "The canonical/*.corrected.json copies are byte-identical to the delivery reviewers corrections/*.corrected.json; use these in the dossier. results/*.corrected.json is the independently computed reference, not a new policy.",
+  "canonical_physical_sha256": "3b629eeba4d8936b6ae7121bb4e77244afd717ea7520e74e29a5addc9d353e63",
+  "frozen_original_files": 153,
+  "frozen_original_mismatches": [],
+  "affected_budget_models": 12,
+  "affected_budget_paths": 33,
+  "budget_paths_total": 288,
+  "source_paths_without_material_error": 96,
+  "old_bad_segment_records": 569,
+  "old_max_time_relative_error": 0.004368887007300867,
+  "old_max_productive_energy_relative_error": 0.005042431300934775,
+  "corrected_total_work_error_max": 3.3306690738754696e-15,
+  "corrected_total_energy_error_max": 3.552713678800501e-15,
+  "source_energy_saving_range": [
+    0.0015967155135792055,
+    0.03713057851909074
+  ],
+  "budget_energy_saving_range": [
+    4.4698978939439193e-05,
+    0.03713057851909618
+  ],
+  "same_saved_dual_relative_gap_change_max": 9.353412142032447e-16,
+  "reintegrated_dual_numeric_difference_max": 1.2007070893105265e-09,
+  "hard_burn_checks": "All288 specified budget paths and all EOS positions of the piecewise-linear z model pass numerical C/B checks; no hardware or interval safety certification.",
+  "no_reoptimization": true,
+  "new_experimental_N": 0,
+  "primary_candidate_failure_unchanged": true,
+  "conditional_theory_candidate_retained": true,
+  "paper_ready": false,
+  "withdrawn_claim": "The original saved384 trajectories were not all physically ledger-correct;33 budget paths required explicit derived correction. Original replay reproduced the implementation and did not establish correctness.",
+  "delivery_allowed_after_dossier_QA": true,
+  "required_delivery_conditions": [
+    "Include this erratum, original-to-corrected hashes, and clearly labelled corrected paths",
+    "Keep all153 original frozen files unchanged",
+    "Do not restore an unqualified original384-path pass claim",
+    "Retain dynamic-energy/mean-task-time, mu-a.s., hard-deadline and cycle-time limitations"
+  ],
+  "formal_report": "reports/SCIENTIFIC_ERRATUM_ZH.md",
+  "independent_comparison_passed": true,
+  "correction_replay_passed": true
+}

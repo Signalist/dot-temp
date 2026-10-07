@@ -1,0 +1,121 @@
+### Problem 1: Arranging Books on a Shelf
+
+**Problem Statement:**
+A library has 120 books. If the librarian arranges the books on a shelf such that each shelf can hold 10 books, how many shelves are needed?
+
+**Solution:**
+1. **Total Books:** 120
+2. **Books per Shelf:** 10
+3. **Number of Shelves Needed:** 
+   \[
+   \text{Number of Shelves} = \frac{\text{Total Books}}{\text{Books per Shelf}} = \frac{120}{10} = 12
+   \]
+
+**Intermediate Calculations:**
+- **Division:** 
+  \[
+  120 \div 10 = 12
+  \]
+
+**Final Answer:**
+The librarian needs 12 shelves to arrange all 120 books.
+
+**Consistency Check:**
+- **Total Books:** 120
+- **Books per Shelf:** 10
+- **Number of Shelves Needed:** 12
+- **Consistency Check:** The solution is consistent with the problem statement.
+
+---
+
+### Problem 2: Arranging Books on a Shelf with a Twist
+
+**Problem Statement:**
+A library has 150 books. If the librarian arranges the books on a shelf such that each shelf can hold 15 books, how many shelves are needed?
+
+**Solution:**
+1. **Total Books:** 150
+2. **Books per Shelf:** 15
+3. **Number of Shelves Needed:** 
+   \[
+   \text{Number of Shelves} = \frac{\text{Total Books}}{\text{Books per Shelf}} = \frac{150}{15} = 10
+   \]
+
+**Intermediate Calculations:**
+- **Division:** 
+  \[
+  150 \div 15 = 10
+  \]
+
+**Final Answer:**
+The librarian needs 10 shelves to arrange all 150 books.
+
+**Consistency Check:**
+- **Total Books:** 150
+- **Books per Shelf:** 15
+- **Number of Shelves Needed:** 10
+- **Consistency Check:** The solution is consistent with the problem statement.
+
+---
+
+### Problem 3: Arranging Books on a Shelf with a Twist
+
+**Problem Statement:**
+A library has 180 books. If the librarian arranges the books on a shelf such that each shelf can hold 18 books, how many shelves are needed?
+
+**Solution:**
+1. **Total Books:** 180
+2. **Books per Shelf:** 18
+3. **Number of Shelves Needed:** 
+   \[
+   \text{Number of Shelves} = \frac{\text{Total Books}}{\text{Books per Shelf}} = \frac{180}{18} = 10
+   \]
+
+**Intermediate Calculations:**
+- **Division:** 
+  \[
+  180 \div 18 = 10
+  \]
+
+**Final Answer:**
+The librarian needs 10 shelves to arrange all 180 books.
+
+**Consistency Check:**
+- **Total Books:** 180
+- **Books per Shelf:** 18
+- **Number of Shelves Needed:** 10
+- **Consistency Check:** The solution is consistent with the problem statement.
+
+---
+
+### Problem 4: Arranging Books on a Shelf with a Twist
+
+**Problem Statement:**
+A library has 210 books. If the librarian arranges the books on a shelf such that each shelf can hold 21 books, how many shelves are needed?
+
+**Solution:**
+1. **Total Books:** 210
+2. **Books per Shelf:** 21
+3. **Number of Shelves Needed:** 
+   \[
+   \text{Number of Shelves} = \frac{\text{Total Books}}{\text{Books per Shelf}} = \frac{210}{21} = 10
+   \]
+
+**Intermediate Calculations:**
+- **Division:** 
+  \[
+  210 \div 21 = 10
+  \]
+
+**Final Answer:**
+The librarian needs 10 shelves to arrange all 210 books.
+
+**Consistency Check:**
+- **Total Books:** 210
+- **Books per Shelf:** 21
+- **Number of Shelves Needed:** 10
+- **Consistency Check:** The solution is consistent with the problem statement.
+
+---
+
+These four problems demonstrate the use of arithmetic operations and the division of integers to solve real-world problems related to arranging books on shelves.

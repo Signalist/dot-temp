@@ -1,0 +1,21 @@
+阶段 4：冻结协议与独立确认注册
+覆盖实验ID：F04
+
+共同要求：这是 W6 阶段续跑提示词，原交付是 CPU 验证过的脚手架，真实 EOS/engine/policy/仪表适配与硬件主张尚待验证。若已收到本计划目录，读取同目录 00_MASTER_PROMPT_ZH.txt 与 contracts/，沿用其数据、单位、隐私、权限、冻结和证据合同；本文给出本阶段完整目标。先核对当前工作副本、输入hash、已有 sealed runs 与状态，不覆盖原包、不重跑已合格结果。所有未测项用 NOT_RUN/BLOCKED，失败原样保留。SIMULATED/DRY_RUN/CPU_TEST 不得改为 MEASURED。不得任意租GPU/付费/开账号/下载权重；不自动提权、改驱动/固件/电气安全或写cap。物理动作要有具体操作者批准的设备、范围、时长与恢复流程；不超过会话原cap，恢复必须readback。无权限暂停受影响分支，其他安全独立工作继续。不要泄漏prompt/token文本、序列号、凭证、完整环境变量。修改协议需新版本，不能用确认outcome调参。
+
+
+目标：在任何新确认outcome被查看之前，完整冻结主比较、预算、代码和所有分析自由度。此阶段不采集confirmation。
+
+1. 根据已完成pilot/calibration而不是新test选择主问题、资源层级、可执行W6/基线、工作量/quality合同、named-boundary primary full-cycle energy窗口。并列request→power_return和request→matched-state；J=E+cT的T仍明确仅到实际功率返回，不能替换为QoS节能主张。
+2. 检查C01前冻结的完整registry和model绑定hash。F04不能因确认N变化修改原split。若使用明确parent/child多阶段链，验证父hash/允许的calibration-only N规则/角色隔离和兼容测试；未实现则BLOCKED，不能删hash门禁。
+3. 冻结schema_version、study/protocol版本、全部实验IDs与依赖、required/conditional/unavailable、拟采未来run slots、完整session划分、设备/model_family transfer留出、randomization block/crossover/order/seed、strata、代码commit与dirty diff hash、模型/tokenizer/engine版本、权重获取路径但不打包权重。
+4. 冻结主/次endpoints、多重比较、MDE与非劣界、cluster配对CI/随机化检验方法、固定N或正式序贯界、样本量计算、缺失/错误/删失/配对单侧失败处理、排除规则、重试quota、服务窗口offset/异步端点、safe stop/状态reset/carryover/温度与仪表漂移规则。
+5. 所有策略同信息、同工作/质量、同update/action/cap/slew/初态/完整成本；clairvoyant和理想连续解仅诊断。同seed不保证相同生成序列，预先冻结一致性检查和不一致处理。基线调优仅用development并计同等调优/求解预算。
+6. 写canonical协议hash、run_registry与randomization种子表、冻结code/diff、环境与依赖记录；生成freeze_receipt引用操作者真实确认和可验证时间锚。不要伪造签名，hash本身不是事前时点证明。尚无人工确认则UNCONFIRMED/不进入主确认；如只有local timestamp需明确其局限。
+7. 检查confirmation文件未被fit/model selection读取，识别与确认不共享session，真实transfer轴完整留出；设计的所有必需run不能默默缺失。模拟dry-run的slots另开study，不占正式run名额。
+
+输出01_protocol/protocol.json/txt、run_registry.json、randomization.csv、seed_registry.csv、budget.json、freeze_receipt.json；F04审计和当前BLOCKED项。只有冻结与必需权限/准入完整才能运行C02；改协议永远新amendment，新独立确认数据，旧测试不回收为未看数据。
+
+兼容性硬规则：没有链接registry适配器时，冻结的是实际要完整执行的全run集合，不能预留一大批后只跑选中的N。旧evaluate要求每个注册heldout存在；失败/缺失必须保留all_attempts并给明确局限，不能删slot或过滤flat view让评价通过。
+
+F04最终参数一致性：若C01独立calibration改变最终模型或policy参数，F04前必须刷新受影响的N01/N02/N04 development版本，验证最终参数的数值精度、同信息参照与模型重放并绑定最终hash；C01之前的暂定参数检查不能作为已变更最终参数的资格证明。仍不得读取confirmation来完成这些选择。

@@ -1,0 +1,37 @@
+{
+  "benchmark_sha256": "99ee2267b4d64f15f447fb4ce0efdac962d749144135978735001c8815a3c63d",
+  "family_split": {
+    "code_contiguous_segmentation": "heldout",
+    "code_cumulative_scan": "calibration",
+    "code_sign_count": "development",
+    "math_rectangle_geometry": "calibration",
+    "math_stock_flow": "development",
+    "math_unordered_pairs": "heldout",
+    "writing_comparison": "heldout",
+    "writing_procedure": "calibration",
+    "writing_public_notice": "development"
+  },
+  "reference_fixtures_sha256": "4dac1023330eef6be5b3aab5e97700fd0fd162cb9b47d52267c21101f2d13bdb",
+  "task_hashes": {
+    "code_consecutive_runs": "15216971033be663e5691a47755b8fb456f5eb4196851f7f884ca0e2c6917905",
+    "code_count_negative": "170ff9b56f5ef26019aaa9118e7f19b8f1a6427ce2d658a66a7ec4f5e0faa004",
+    "code_count_positive": "113b2074ba59ecaf2cccc45d05096c0d9c780fe432e0db1a8d7d3753a627dc2b",
+    "code_equal_runs": "8fd44169e034d600b94df8b3e019250cf055047774808cb8fb6487f366577734",
+    "code_prefix_sums": "8d872aac8fe4cc08d634f8dae9201e578da616ab3a8429efdc428c1a6c48398d",
+    "code_suffix_sums": "29aed9d12a23e254451aea2a6f589e5b6fb9e88426c11183555157a73b1adad8",
+    "math_area": "3810632a0df75a847fb6dabbfbc632b34a4501c23972f09687ceaf2abb6e22c1",
+    "math_book_stock": "e871d46e70f1bf3f575b81a56a25ac905d31d51d71586f7e0868a282e166bbed",
+    "math_handshakes": "f22f75ce3e981473e0cf29b859d6e4fb95a96b6aabca4f72974da37e472d35be",
+    "math_pairs": "4638b085a324bd36e67cd2c4b8d57b433693f88ea2963e61cb56d7b180650a2f",
+    "math_perimeter": "7b7d1f21aef489f9373421b0bd610a61a85ad6c45949790b0ac7e4e0e2a9ee62",
+    "math_seed_stock": "d57bdff47341a1b388fb7708048ab174a7bafea7d72598ec94684507aba2ec25",
+    "writing_garden_notice": "f2b44301385e9ab9cf67d1865b55c3607bc840ea9f46fe3187e23caab40cce4b",
+    "writing_library_notice": "ee020311501a63c37c2620fe365bb600eb3925801c5ba7d346e224acc5cf871b",
+    "writing_room_comparison": "7e88b5e5df69820cee8e84b77a8a8af36283ab0c99a645445fd27f54fc06d597",
+    "writing_seed_steps": "4a846817b185ee575ef585a93b5b857d2057ca940eeb214cb87d7760da9f61f3",
+    "writing_shelf_comparison": "50ef3c72726912c4cea0e19792e0891919d2a1589dfc28c61253293c270cbf23",
+    "writing_sorting_steps": "76d811b6dff7494d454cd19ad73b1cb5f8bd2e85abf2638f9cc163f5492d2e80"
+  },
+  "tasks": 18,
+  "warning": "18-task pilot, 9 distinct structural families; two variants per family are clustered. No population-level quality certification. Public synthetic heldout is not contamination-proof."
+}

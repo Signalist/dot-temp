@@ -1,0 +1,239 @@
+[
+  {
+    "component": "CPU package and contract validation",
+    "existing_files": [
+      "deliverables/w6_paper_gpu_handoff_20261004/master/W6_CPU_Research_and_GPU_Handoff_20261004/verify_package.py",
+      "deliverables/w6_paper_gpu_handoff_20261004/master/W6_CPU_Research_and_GPU_Handoff_20261004/run_cpu_checks.py",
+      "outputs/w6_paper_development_20261004/gpu_handoff/verify_bundle.py",
+      "outputs/w6_paper_development_20261004/gpu_handoff/check_static.py",
+      "outputs/w6_paper_development_20261004/gpu_handoff/tests/test_kit.py"
+    ],
+    "status": "EXISTS_CPU_TESTED",
+    "implemented_zh": "manifest、unit/schema/static、SIMULATED 流程",
+    "missing_or_not_claimed_zh": "真实硬件支持及物理准确性不由软件通过推出",
+    "experiment_ids": [
+      "F01",
+      "F02",
+      "Z01"
+    ]
+  },
+  {
+    "component": "NVML read-only logger",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/gpu_handoff/w6kit/acquire.py"
+    ],
+    "status": "EXISTS_HARDWARE_UNTESTED",
+    "implemented_zh": "telemetry/inventory/query timestamps/缺失与错误",
+    "missing_or_not_claimed_zh": "实际传感器带宽、绝对误差、device timestamp 不由此提供",
+    "experiment_ids": [
+      "I01",
+      "I03",
+      "I04"
+    ]
+  },
+  {
+    "component": "Local SSE client",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/gpu_handoff/w6kit/acquire.py"
+    ],
+    "status": "EXISTS_CPU_TESTED_HARDWARE_UNTESTED",
+    "implemented_zh": "localhost request、chunk、finish reason、绝对 timeout",
+    "missing_or_not_claimed_zh": "device EOS、逐 token device 时间、server cancel/queue cleanup；stop=natural EOS 不成立",
+    "experiment_ids": [
+      "I02",
+      "I03",
+      "I07"
+    ]
+  },
+  {
+    "component": "Engine event sink",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/gpu_handoff/w6kit/acquire.py"
+    ],
+    "status": "PARTIAL_INTERFACE_ONLY",
+    "implemented_zh": "EventSink 与累计 token_ids host 可见 progress",
+    "missing_or_not_claimed_zh": "固定 engine revision 的 device hook、clock transform、低侵入 instrumentation",
+    "experiment_ids": [
+      "I02",
+      "I05",
+      "I07"
+    ]
+  },
+  {
+    "component": "Bounded cap session",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/gpu_handoff/w6kit/cap.py"
+    ],
+    "status": "EXISTS_CPU_TESTED_HARDWARE_UNTESTED",
+    "implemented_zh": "设备/操作者范围、原 cap 上限、finally restore 与 readback 日志",
+    "missing_or_not_claimed_zh": "不运行 workload；不是在线 W6 controller、连续实际功率 actuator 或 burn；不能保证 SIGKILL/掉电恢复",
+    "experiment_ids": [
+      "I01",
+      "I06",
+      "I08"
+    ]
+  },
+  {
+    "component": "Meter import",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/gpu_handoff/w6kit/analysis.py"
+    ],
+    "status": "EXISTS_CPU_TESTED",
+    "implemented_zh": "按已给定 transform/spec 导入 DC/PCC active power CSV，拒绝 reset/重复",
+    "missing_or_not_claimed_zh": "仪器驱动、校准证据、同步误差证明、Q/V/I/f 的完整适配；旧core要求power_W/baseline_W非负，PCC若含净回送/负P需明确方向并新增版本化adapter/schema与测试，禁止abs或截零",
+    "experiment_ids": [
+      "I04",
+      "G01",
+      "G02"
+    ]
+  },
+  {
+    "component": "Data gate and cycle integration",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/gpu_handoff/w6kit/core.py"
+    ],
+    "status": "EXISTS_CPU_TESTED",
+    "implemented_zh": "声明性 descriptive/w6-dc/pcc gate；分段线性 gross/dynamic/full-capture 积分",
+    "missing_or_not_claimed_zh": "物理认证、tail/full terminal 真实条件判断、连续 slew 证明、系统误差 envelope；旧功率字段非负门禁不支持有符号净PCC，不能直接移除gate来放行",
+    "experiment_ids": [
+      "I08",
+      "I11",
+      "C04",
+      "A01"
+    ]
+  },
+  {
+    "component": "Prospective split",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/gpu_handoff/w6kit/core.py",
+      "outputs/w6_paper_development_20261004/gpu_handoff/configs/registry.example.json",
+      "outputs/w6_paper_development_20261004/gpu_handoff/schemas/registry.schema.json"
+    ],
+    "status": "EXISTS_CPU_TESTED",
+    "implemented_zh": "整 session/hash 与 device/model_family role 漏泄 gate",
+    "missing_or_not_claimed_zh": "外部时间戳真实性；无transfer行时可保留truthful device/model_family轴且不作transfer声明，无须新增none轴；同设备同模型workload family transfer轴则需扩展；已暴露 pilot 不能新分为 confirm。model 绑定完整 split SHA：全部未来 slots 需先固定，或另写并测试 development→confirmation 父子 manifest/link adapter；旧 split/model/hash 保留，原 gate 不删除",
+    "experiment_ids": [
+      "F04",
+      "C01",
+      "X01",
+      "X02",
+      "X03"
+    ]
+  },
+  {
+    "component": "Diagnostic service fit",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/gpu_handoff/w6kit/analysis.py"
+    ],
+    "status": "EXISTS_DIAGNOSTIC_ONLY",
+    "implemented_zh": "区间均值 OLS、经验单调/凹 secant、冻结模型残差",
+    "missing_or_not_claimed_zh": "因果/点态 s(p)、硬下包络、自然 EOS law 与删失模型、guard 资格",
+    "experiment_ids": [
+      "I06",
+      "I09",
+      "I10",
+      "C01"
+    ]
+  },
+  {
+    "component": "Zero-failure budget",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/gpu_handoff/w6kit/analysis.py"
+    ],
+    "status": "EXISTS_NARROW_FORMULA",
+    "implemented_zh": "给定 alpha/delta/endpoints 的 iid 零失败预算",
+    "missing_or_not_claimed_zh": "连续 effect power、cluster CI、quantile CI、QoS 非劣、多重性/合法序贯推断",
+    "experiment_ids": [
+      "F04",
+      "C05"
+    ]
+  },
+  {
+    "component": "Original W6 solver and references",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/recovery/W6_Round3_Portable_Evidence_20261004/round3_w6_20261004/code/cycle_model.py",
+      "outputs/w6_paper_development_20261004/recovery/W6_Round3_Portable_Evidence_20261004/round3_w6_20261004/code/continuous_dual.py",
+      "outputs/w6_paper_development_20261004/recovery/W6_Round3_Portable_Evidence_20261004/round3_w6_20261004/code/global_bellman.py",
+      "outputs/w6_paper_development_20261004/recovery/W6_Round3_Portable_Evidence_20261004/round3_w6_20261004/code/atomic_bellman.py",
+      "outputs/w6_paper_development_20261004/recovery/W6_Round3_Portable_Evidence_20261004/round3_w6_20261004/code/atomic_target_baseline.py",
+      "outputs/w6_paper_development_20261004/recovery/W6_Round3_Portable_Evidence_20261004/round3_w6_20261004/code/matched_cycle_frontier.py"
+    ],
+    "status": "EXISTS_FROZEN_CPU_RESULTS",
+    "implemented_zh": "固定理论合同的凸/dual/global finite classes/constant-target/matched mean-cycle",
+    "missing_or_not_claimed_zh": "任意实测 s(p,z) 控制器，QoS tails 匹配，全局连续证书自动成立",
+    "experiment_ids": [
+      "N01",
+      "N02",
+      "N03",
+      "C03"
+    ]
+  },
+  {
+    "component": "Grid guard and ideal executor",
+    "existing_files": [
+      "outputs/w6_paper_development_20261004/theory_grid/guard_eval/code/guard_study.py",
+      "outputs/w6_paper_development_20261004/theory_grid/guard_eval/code/aligned_study.py",
+      "outputs/w6_paper_development_20261004/theory_grid/guard_eval/code/executor_study.py"
+    ],
+    "status": "EXISTS_FROZEN_MODEL_RESULTS",
+    "implemented_zh": "固定 actual-power 网模、对齐诊断、EOS delayed/sample executor",
+    "missing_or_not_claimed_zh": "GPU actuator driver、真实 grid mapping、设施安全认证",
+    "experiment_ids": [
+      "N04",
+      "G03",
+      "G04"
+    ]
+  },
+  {
+    "component": "End-to-end randomized hardware study",
+    "existing_files": [],
+    "status": "MISSING_IMPLEMENTATION",
+    "implemented_zh": "仅规划；可复用上述组件",
+    "missing_or_not_claimed_zh": "联合编排、online controller、基线桥、all_attempts、干预随机化、fault cleanup、QoS/统计 runner",
+    "experiment_ids": [
+      "I02",
+      "C02",
+      "C03",
+      "C05",
+      "A02"
+    ]
+  },
+  {
+    "component": "Physical qualification and PCC mapping",
+    "existing_files": [],
+    "status": "MISSING_DATA_AND_IMPLEMENTATION",
+    "implemented_zh": "仅协议及 source/scope 文档",
+    "missing_or_not_claimed_zh": "真实 calibration、actuator/burn、PCC/grid 模型与初态/尾部 qualification",
+    "experiment_ids": [
+      "I04",
+      "I08",
+      "G01",
+      "G02",
+      "G03",
+      "G04"
+    ]
+  },
+  {
+    "component": "Transfer and queue study",
+    "existing_files": [],
+    "status": "PARTIAL_REGISTRY_ONLY",
+    "implemented_zh": "device/model-family 泄漏 gate",
+    "missing_or_not_claimed_zh": "真实跨条件/跨硬件采集、workload holdout、queue/concurrency/repeated-cycle 模型与 runner",
+    "experiment_ids": [
+      "X01",
+      "X02",
+      "X03",
+      "X04"
+    ]
+  },
+  {
+    "component": "Outward-rounded numerical certificate",
+    "existing_files": [],
+    "status": "MISSING_OPTIONAL",
+    "implemented_zh": "原包有 exact rational 路径可行性及 qualified 浮点数值",
+    "missing_or_not_claimed_zh": "成本/dual/矩阵指数/积分/误差传播全链向外舍入",
+    "experiment_ids": [
+      "O01"
+    ]
+  }
+]

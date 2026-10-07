@@ -1,0 +1,131 @@
+name,type,nullable,unit,description_zh
+schema_version,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+study_id,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+protocol_id,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+experiment_id,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+run_id,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+attempt_id,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+session_id,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+cluster_id,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+request_id,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+workload_id,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+policy_id,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+stratum,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+evidence,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+electrical_boundary,string,false,1,稳定标识或明确类别；不可混用不同run/边界
+pair_id,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+block_id,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+model_family,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+model_revision,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+engine_revision,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+clock_id,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+calibration_id,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+stop_class,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+finish_reason,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+primary_window_start_event,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+primary_window_end_event,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+quality_metric_id,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+null_reasons_ref,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+source_manifest_sha256,string,true,1,缺失写null；可恢复的路径/主键应在同根目录解析
+sampling_seed,integer,true,count,非负整数；seed复现不保证异步引擎输出完全相同
+controller_seed,integer,true,count,非负整数；seed复现不保证异步引擎输出完全相同
+bootstrap_seed,integer,true,count,非负整数；seed复现不保证异步引擎输出完全相同
+input_tokens,integer,true,count,非负整数；seed复现不保证异步引擎输出完全相同
+completed_output_tokens,integer,true,count,非负整数；seed复现不保证异步引擎输出完全相同
+max_tokens,integer,true,count,非负整数；seed复现不保证异步引擎输出完全相同
+prefill_context_tokens,integer,true,count,非负整数；seed复现不保证异步引擎输出完全相同
+batch_size,integer,true,count,非负整数；seed复现不保证异步引擎输出完全相同
+concurrency,integer,true,count,非负整数；seed复现不保证异步引擎输出完全相同
+randomization_order,integer,true,count,非负整数；seed复现不保证异步引擎输出完全相同
+success,boolean,true,1,真假与未知分开；未知为null
+censored,boolean,true,1,真假与未知分开；未知为null
+quality_gate_pass,boolean,true,1,真假与未知分开；未知为null
+qos_gate_pass,boolean,true,1,真假与未知分开；未知为null
+analysis_included,boolean,true,1,真假与未知分开；未知为null
+physical_admitted,boolean,true,1,真假与未知分开；未知为null
+request_start_ns,integer,true,ns,同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0
+first_token_ns,integer,true,ns,同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0
+true_eos_ns,integer,true,ns,同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0
+engine_eos_visible_ns,integer,true,ns,同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0
+controller_eos_visible_ns,integer,true,ns,同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0
+client_eos_visible_ns,integer,true,ns,同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0
+power_return_ns,integer,true,ns,同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0
+matched_state_ns,integer,true,ns,同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0
+grid_tail_end_ns,integer,true,ns,同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0
+capture_end_ns,integer,true,ns,同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0
+TTFT_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+useful_latency_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+ITL_p50_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+ITL_p95_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+ITL_p99_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+engine_EOS_delay_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+controller_EOS_delay_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+client_EOS_delay_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+command_api_latency_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+physical_effect_latency_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+power_return_after_true_eos_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+matched_reset_after_true_eos_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+T_powercycle_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+T_matched_cycle_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+grid_tail_after_power_return_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+warmup_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+cooldown_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+controller_wall_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+controller_cpu_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+solver_wall_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+solver_cpu_s,number,true,s,明确事件端点及适用窗口；未知/不准入写null
+E_gross_request_power_return_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+E_dynamic_request_power_return_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+E_gross_request_matched_state_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+E_dynamic_request_matched_state_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+E_productive_dynamic_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+E_recovery_dynamic_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+E_warmup_gross_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+E_cooldown_gross_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+E_whole_capture_gross_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+J_W6_J,number,true,J,只在冻结理论电气边界计算，通常GPU全rail DC dynamic；其他边界为null且写reason，PCC类目标另名
+E_primary_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+energy_uncertainty_J,number,true,J,积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算
+c_W,number,true,W,原W6能量-功率周期权重，仅理论电气边界行使用
+baseline_W,number,true,W,命令cap与实际power分开，未知不填0
+actual_power_mean_W,number,true,W,命令cap与实际power分开，未知不填0
+actual_power_peak_W,number,true,W,命令cap与实际power分开，未知不填0
+requested_cap_W,number,true,W,命令cap与实际power分开，未知不填0
+configured_cap_W,number,true,W,命令cap与实际power分开，未知不填0
+enforced_cap_W,number,true,W,命令cap与实际power分开，未知不填0
+cap_original_W,number,true,W,命令cap与实际power分开，未知不填0
+cap_restored_W,number,true,W,命令cap与实际power分开，未知不填0
+tracking_RMSE_W,number,true,W,命令cap与实际power分开，未知不填0
+tracking_max_abs_W,number,true,W,命令cap与实际power分开，未知不填0
+calibration_error_W,number,true,W,命令cap与实际power分开，未知不填0
+baseline_error_W,number,true,W,命令cap与实际power分开，未知不填0
+filter_error_W,number,true,W,命令cap与实际power分开，未知不填0
+PCC_residual_bound_W,number,true,W,命令cap与实际power分开，未知不填0
+sampled_slew_max_W_per_s,number,true,W/s,采样差分描述值，不是连续时间硬slew界
+temperature_start_C,number,true,degC,设备读数与支持范围
+temperature_end_C,number,true,degC,设备读数与支持范围
+temperature_max_C,number,true,degC,设备读数与支持范围
+clock_start_MHz,number,true,MHz,device clock遥测；不是时间基准
+clock_end_MHz,number,true,MHz,device clock遥测；不是时间基准
+clock_error_ns,integer,true,ns,同步误差/间隙/覆盖端点
+max_gap_ns,integer,true,ns,同步误差/间隙/覆盖端点
+coverage_start_ns,integer,true,ns,同步误差/间隙/覆盖端点
+coverage_end_ns,integer,true,ns,同步误差/间隙/覆盖端点
+raw_rows,integer,true,count,原始量与程序/系统测量方法须注明
+missing_rows,integer,true,count,原始量与程序/系统测量方法须注明
+raw_bytes,integer,true,byte,原始量与程序/系统测量方法须注明
+peak_GPU_memory_bytes,integer,true,byte,原始量与程序/系统测量方法须注明
+peak_host_memory_bytes,integer,true,byte,原始量与程序/系统测量方法须注明
+tokens_per_s,number,true,token/s,token计数不是chunk计数；注明useful时间窗
+quality_score,number,true,metric_specific,质量指标按quality_metric_id定义量纲、方向和计算方法，未知为null
+PCC_gain,number,true,1,同单位GPU动态功率到PCC有功增量的条件增益；需声明模型/适用域
+completed_fraction,number,true,1,声明分析单位内完成请求数/全部尝试请求数；逐请求行取0或1，未知为null；不可筛选成功后再算
+PCC_peak_after_return,boolean,true,1,最大实测网侧峰值是否发生在GPU功率返回后
+PCC_active_peak_W,number,true,W,PCC边界，不能由GPU功率代替
+PCC_reactive_peak_var,number,true,var,PCC无功功率
+PCC_voltage_min_V,number,true,V,注明RMS/相/窗口
+PCC_voltage_max_V,number,true,V,注明RMS/相/窗口
+PCC_current_peak_A,number,true,A,注明相/窗口/带宽
+grid_frequency_peak_abs_Hz,number,true,Hz,仅有PCC/网频证据或明确SIMULATED模型时提供
+grid_frequency_tail_bound_Hz,number,true,Hz,仅有PCC/网频证据或明确SIMULATED模型时提供
+grid_violation_duration_s,number,true,s,基于设施批准或明确模拟阈值；两者不得混淆

@@ -1,0 +1,16 @@
+{
+  "source": [
+    {
+      "source": "cycle_model.py",
+      "sha256_agrees": true
+    },
+    {
+      "source": "global_bellman.py",
+      "sha256_agrees": true
+    }
+  ],
+  "N32_design_objective": 2.8201483016562983,
+  "N129_EOS_design_peak": 0.02292146619252461,
+  "seconds": 0.027493817000049603,
+  "scope": "portable smoke only, not replacement of frozen primary or confirmation outputs"
+}

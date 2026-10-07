@@ -1,0 +1,204 @@
+{
+  "schema_version": "w6-1",
+  "evidence": "SIMULATED",
+  "declared_before_outcomes": true,
+  "transfer_axis": "device",
+  "runs": [
+    {
+      "run_id": "run_00",
+      "session_id": "sim_session_00",
+      "stage": "identification",
+      "device_model_unit": "SIM_DEVICE_MODEL",
+      "device_id_hash": "SIMULATED_GPU",
+      "model_family": "SIMULATED_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 4096,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "SIMULATED_MODEL",
+        "engine_revision": "SIMULATED_ENGINE",
+        "stop_rules_id": "SIM_NO_STOP_RULES",
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000,
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ]
+      }
+    },
+    {
+      "run_id": "run_01",
+      "session_id": "sim_session_01",
+      "stage": "identification",
+      "device_model_unit": "SIM_DEVICE_MODEL",
+      "device_id_hash": "SIMULATED_GPU",
+      "model_family": "SIMULATED_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 4096,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "SIMULATED_MODEL",
+        "engine_revision": "SIMULATED_ENGINE",
+        "stop_rules_id": "SIM_NO_STOP_RULES",
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000,
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ]
+      }
+    },
+    {
+      "run_id": "run_02",
+      "session_id": "sim_session_02",
+      "stage": "identification",
+      "device_model_unit": "SIM_DEVICE_MODEL",
+      "device_id_hash": "SIMULATED_GPU",
+      "model_family": "SIMULATED_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 4096,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "SIMULATED_MODEL",
+        "engine_revision": "SIMULATED_ENGINE",
+        "stop_rules_id": "SIM_NO_STOP_RULES",
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000,
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ]
+      }
+    },
+    {
+      "run_id": "run_03",
+      "session_id": "sim_session_03",
+      "stage": "calibration",
+      "device_model_unit": "SIM_DEVICE_MODEL",
+      "device_id_hash": "SIMULATED_GPU",
+      "model_family": "SIMULATED_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 4096,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "SIMULATED_MODEL",
+        "engine_revision": "SIMULATED_ENGINE",
+        "stop_rules_id": "SIM_NO_STOP_RULES",
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000,
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ]
+      }
+    },
+    {
+      "run_id": "run_04",
+      "session_id": "sim_session_04",
+      "stage": "confirmation",
+      "device_model_unit": "SIM_DEVICE_MODEL",
+      "device_id_hash": "SIMULATED_GPU",
+      "model_family": "SIMULATED_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 4096,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "SIMULATED_MODEL",
+        "engine_revision": "SIMULATED_ENGINE",
+        "stop_rules_id": "SIM_NO_STOP_RULES",
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000,
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ]
+      }
+    },
+    {
+      "run_id": "run_05",
+      "session_id": "sim_session_05",
+      "stage": "confirmation",
+      "device_model_unit": "SIM_DEVICE_MODEL",
+      "device_id_hash": "SIMULATED_GPU",
+      "model_family": "SIMULATED_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 4096,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "SIMULATED_MODEL",
+        "engine_revision": "SIMULATED_ENGINE",
+        "stop_rules_id": "SIM_NO_STOP_RULES",
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000,
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ]
+      }
+    },
+    {
+      "run_id": "run_06",
+      "session_id": "sim_session_06",
+      "stage": "ablation",
+      "device_model_unit": "SIM_DEVICE_MODEL",
+      "device_id_hash": "SIMULATED_GPU",
+      "model_family": "SIMULATED_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 4096,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "SIMULATED_MODEL",
+        "engine_revision": "SIMULATED_ENGINE",
+        "stop_rules_id": "SIM_NO_STOP_RULES",
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000,
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ]
+      }
+    },
+    {
+      "run_id": "run_07",
+      "session_id": "sim_session_07",
+      "stage": "transfer",
+      "device_model_unit": "SIM_OTHER_DEVICE_MODEL",
+      "device_id_hash": "SIMULATED_OTHER_GPU",
+      "model_family": "SIMULATED_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 4096,
+        "stratum": "decode_context256_batch1",
+        "model_revision": "SIMULATED_MODEL",
+        "engine_revision": "SIMULATED_ENGINE",
+        "stop_rules_id": "SIM_NO_STOP_RULES",
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000,
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ]
+      }
+    }
+  ],
+  "registry_sha256": "d3a0ff1039161bf7c4625e13e7907dbe9af79174de793de7d3c3ba5fbefb293f",
+  "groups": {
+    "sim_session_00": "identification",
+    "sim_session_01": "identification",
+    "sim_session_02": "identification",
+    "sim_session_03": "calibration",
+    "sim_session_04": "confirmation",
+    "sim_session_05": "confirmation",
+    "sim_session_06": "ablation",
+    "sim_session_07": "transfer"
+  },
+  "warning": "Hash records a declaration; cannot prove data were unseen. Archive the hash externally before acquisition."
+}

@@ -1,0 +1,110 @@
+{
+  "status": "reconstructed_from_completed_tool_output_after_workspace_reset",
+  "not_raw_replay": true,
+  "completed_prior_audit": {
+    "sources_hashed": 23,
+    "NLR_finite_power_rows": 715989,
+    "NLR_rate_power_rows": 644135,
+    "NLR_finite_service_rows": 6089,
+    "NLR_rate_service_rows": 6044,
+    "NLR_finite_aggregate_JSONL_objects": 1024,
+    "NLR_finite_segment_records": 1026,
+    "NLR_rate_segment_records": 200,
+    "SweetSpot_trace_CSVs": 1764,
+    "SweetSpot_model_directories": 13,
+    "SweetSpot_representatives_read": 13,
+    "DaRUS_3090_rows": 1076374,
+    "DaRUS_W6800_rows": 1085042,
+    "Azure_requests": 19366,
+    "Azure_length_atoms": 623,
+    "Azure_length_range": [
+      7,
+      1000
+    ]
+  },
+  "NLR_timing_seconds": {
+    "finite_power": {
+      "median": 0.10009503364562988,
+      "max": 0.14272093772888184,
+      "min_positive": 0.08083701133728027
+    },
+    "rate_power": {
+      "median": 0.10008907318115234,
+      "max": 0.25821614265441895,
+      "min_positive": 0.0036339759826660156
+    },
+    "finite_service": {
+      "median": 10,
+      "max": 70
+    },
+    "rate_service": {
+      "median": 10,
+      "max": 50
+    }
+  },
+  "new_public_revisions": {
+    "WattGPU": "4e010359c167ac8c65b55aabd1aafbf765ae5d91",
+    "TokenPowerBench": "9a50272213885bd9bba8427e34ebdf345c2204fe",
+    "IPDPS26_LLM_Energy": "860267c519bed17373c3b0926c42676a652d05fd"
+  },
+  "prior_source_hashes_not_new_surviving_hash_verification": {
+    "Azure_conv": "2f1e5b666d4e3055fdbba98598ce2ec307767b9064e03e2fa46676dbcc7d0bf8",
+    "NLR_rate_raw": "d9433f180e3821d382d58c1941e4727e4a1a48789f49b6964e1b7dbfced80306",
+    "NLR_finite_raw": "90e96b4bfada75d7e587a30ffc93c0d12b8b4fd2640bf9bbacaec7670f91f33c",
+    "SweetSpot_zip": "bf0db0d401bb4eeb0ae62754eb93cf3368c709314599492fffed0af8484e81c9",
+    "DaRUS3090": "508b62af3eaf1433f1e01bd65c5cdc162288caf7f98844808454072e0de75102",
+    "DaRUSw6800": "51be779c772606a07d9ac41630b30cd21459f0af7c55c9f62ec4c4ed0163dbcb"
+  },
+  "lost_new_files": [
+    "code/audit_local_sources.py",
+    "results/LOCAL_SOURCE_FIELD_AUDIT.json",
+    "results/LOCAL_INPUT_PROVENANCE.json",
+    "results/local_audit.log",
+    "evidence/PUBLIC_RETRIEVAL_LOG.json",
+    "evidence/{repository metadata and trees, WattGPU CSV prefix and LICENSE, TokenPowerBench result/source samples}"
+  ],
+  "lost_prior_input_roots": [
+    "outputs/round2_a2_service_20261003",
+    "outputs/round2_w1_telemetry_20261003",
+    "outputs/round2_w5_measurement_20261003",
+    "outputs/round2_a3_relative_20261004",
+    "outputs/round2_g5_load_models_20261003",
+    "outputs/round3_w6_20261004",
+    "outputs/recovered_ai_grid_final_20261003/public_index"
+  ],
+  "new_hashes_not_reconstructed": true,
+  "large_redownloads_after_reset": 0,
+  "original_capture_identity": {
+    "NLR_finite": {
+      "slurm": "11763012",
+      "node": "x3101c0s37b0n0",
+      "raw_first_naive_timestamp": "2025-11-30_15:35:04.027989",
+      "raw_last_naive_timestamp": "2025-12-01_11:29:37.932540",
+      "timezone_verified": false
+    },
+    "NLR_rate": {
+      "slurm": "12146821",
+      "node": "x3104c0s13b0n0",
+      "raw_first_naive_timestamp": "2026-01-05_05:23:00.084337",
+      "raw_last_naive_timestamp": "2026-01-05_23:17:39.080787",
+      "timezone_verified": false
+    },
+    "SC24": {
+      "repository_revision": "ab12c0606775e38872501de8a5cf57ca0e863fa1",
+      "compact_clock": "nominal relative source clock; reference/GPU alignment not independently bounded"
+    },
+    "DaRUS": {
+      "version": "V1",
+      "files": {
+        "infovis-3090.csv": 142674,
+        "infovis-w6800.csv": 142675
+      },
+      "clock": "page-relative milliseconds, resets; no cross-sensor physical synchronization certificate"
+    },
+    "PS3": {
+      "release": "v1.0.0",
+      "doi": "10.5281/zenodo.15037451",
+      "clock": "host epoch plus device_timestamp; reconstruction not certified physical clock"
+    }
+  }
+}

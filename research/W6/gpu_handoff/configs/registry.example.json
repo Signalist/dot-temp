@@ -1,0 +1,100 @@
+{
+  "schema_version": "w6-1",
+  "evidence": "MEASURED",
+  "declared_before_outcomes": false,
+  "runs": [
+    {
+      "run_id": "run_ident_001",
+      "session_id": "session_ident_001",
+      "stage": "identification",
+      "device_model_unit": "deviceA_modelA",
+      "device_id_hash": "REPLACE_GPU_HASH",
+      "model_family": "REPLACE_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 128,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "REPLACE_REVISION",
+        "engine_revision": "REPLACE_ENGINE_REVISION",
+        "stop_rules_id": "REPLACE_STOP_CONFIG_HASH",
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ],
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000
+      }
+    },
+    {
+      "run_id": "run_cal_001",
+      "session_id": "session_cal_001",
+      "stage": "calibration",
+      "device_model_unit": "deviceA_modelA",
+      "device_id_hash": "REPLACE_GPU_HASH",
+      "model_family": "REPLACE_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 128,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "REPLACE_REVISION",
+        "engine_revision": "REPLACE_ENGINE_REVISION",
+        "stop_rules_id": "REPLACE_STOP_CONFIG_HASH",
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ],
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000
+      }
+    },
+    {
+      "run_id": "run_confirm_001",
+      "session_id": "session_confirm_001",
+      "stage": "confirmation",
+      "device_model_unit": "deviceA_modelA",
+      "device_id_hash": "REPLACE_GPU_HASH",
+      "model_family": "REPLACE_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 128,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "REPLACE_REVISION",
+        "engine_revision": "REPLACE_ENGINE_REVISION",
+        "stop_rules_id": "REPLACE_STOP_CONFIG_HASH",
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ],
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000
+      }
+    },
+    {
+      "run_id": "run_transfer_001",
+      "session_id": "session_transfer_001",
+      "stage": "transfer",
+      "device_model_unit": "deviceB_modelB",
+      "device_id_hash": "REPLACE_OTHER_GPU_HASH",
+      "model_family": "REPLACE_MODEL_FAMILY",
+      "analysis_protocol": {
+        "max_tokens": 128,
+        "stratum": "decode_context128_batch1",
+        "model_revision": "REPLACE_REVISION",
+        "engine_revision": "REPLACE_ENGINE_REVISION",
+        "stop_rules_id": "REPLACE_STOP_CONFIG_HASH",
+        "service_window_offsets_ns": [
+          [
+            1000000000,
+            3000000000
+          ]
+        ],
+        "service_endpoint_rule": "first_progress_at_or_after_offset",
+        "endpoint_lag_max_ns": 250000000
+      }
+    }
+  ],
+  "transfer_axis": "device"
+}

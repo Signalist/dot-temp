@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "W6 command-row",
+  "type": "object",
+  "properties": {
+    "acquisition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^run_[A-Za-z0-9_-]+$"
+    },
+    "clock_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence": {
+      "enum": [
+        "SIMULATED",
+        "MEASURED"
+      ]
+    },
+    "type": {
+      "type": "string"
+    },
+    "issue_ns": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "return_ns": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "requested_cap_W": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "configured_cap_W": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "enforced_cap_W": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "physical_effect_ns": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "acquisition_id",
+    "run_id",
+    "clock_id",
+    "evidence",
+    "type"
+  ],
+  "additionalProperties": true,
+  "description": "Structural guide; Python validator additionally checks semantics across files. Raw uncalibrated telemetry is intentionally not an admitted power-row."
+}

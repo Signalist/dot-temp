@@ -1,0 +1,23 @@
+{
+  "schema_version": "w6-plan-1",
+  "claims": [
+    {
+      "claim_id": "REPLACE_CLAIM",
+      "claim_text_zh": null,
+      "status": "NOT_RUN",
+      "evidence_level": null,
+      "experiment_ids": [],
+      "source_paths": [],
+      "source_sha256": [],
+      "effect_estimate": null,
+      "CI": null,
+      "independent_unit": null,
+      "independent_N": null,
+      "assumptions": [],
+      "negative_evidence": [],
+      "missing_evidence": [],
+      "allowed_wording": null,
+      "forbidden_wording": null
+    }
+  ]
+}

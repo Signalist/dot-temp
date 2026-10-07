@@ -1,0 +1,138 @@
+[
+  {
+    "path": "deliverables/w6_paper_gpu_handoff_20261004/master/W6_CPU_Research_and_GPU_Handoff_20261004/EVIDENCE_CHECKPOINTS_A_E.json",
+    "sha256": "9b891ac165df99576cf8a2941e9adbc4e6e8c212372cadccae2bba71eaa82da4",
+    "role_zh": "原始 A–E 声明与闭合状态",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "deliverables/w6_paper_gpu_handoff_20261004/master/W6_CPU_Research_and_GPU_Handoff_20261004/GPU_TASK_CHECKLIST.csv",
+    "sha256": "c3cac3bcbf3928be1884fcc7c43ec3a9886c4e1288408cdf65ae78ddc6949d52",
+    "role_zh": "原始 GPU 任务清单",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "deliverables/w6_paper_gpu_handoff_20261004/SPLIT_DELIVERY_QA.json",
+    "sha256": "800088188a748dafc61684fbcfb43b186699c5e717425e11741402652e30077a",
+    "role_zh": "两个普通 ZIP 的既有拆分 QA",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/recovery/W6_Round3_Portable_Evidence_20261004/round3_w6_20261004/FINAL_SCIENTIFIC_STATUS.json",
+    "sha256": "ea545e8853aa51e12492c24e2c0a3972abe16546feadf7db2ad3a0888a100d16",
+    "role_zh": "round3 数量、收益、限制、独审与失败",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/recovery/W6_Round3_Portable_Evidence_20261004/round3_w6_20261004/FAILED_AND_REPAIRED_LEDGER.json",
+    "sha256": "052fde63cb84ae3889f08a3dc9d5ff149d26c75758242a5f321b0e1ba5d75f1e",
+    "role_zh": "旧失败与修复保留",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/novelty/GATE_DECISION.json",
+    "sha256": "e3bb762bc14ba32dae1a82b822b10197865bbc700fa1eb49255848499988736c",
+    "role_zh": "窄新意 CONDITIONAL 与广义 FAIL",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/measurement/MEASUREMENT_FEASIBILITY_REPORT.md",
+    "sha256": "156b2e4ca12981739beac832582017342792786f4af8b3febe81a06fea0df771",
+    "role_zh": "已有语料不足与 identifiability 审计",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/measurement/protocol/MINIMAL_MEASUREMENT_PROTOCOL.md",
+    "sha256": "87a0d319a211ccc77f719ec4ee39b0a45bce248bf6dce3509c5957c1139fd12b",
+    "role_zh": "最小前瞻采集协议",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/measurement/protocol/VALIDATION_BUDGET.json",
+    "sha256": "7bff6d64e6811ac17dd4a1585d6bf123f6adacf39460f26e0db9c2b6ed2a0269",
+    "role_zh": "条件误差预算与 iid 示例",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/gpu_handoff/verification/STATUS.json",
+    "sha256": "c83f24d73a74065a4a81c8bab9ba2bafe14599ffe45f5f79c111d10330846bf6",
+    "role_zh": "39 tests、1369 schema rows、8 simulated runs、hardware=0",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/gpu_handoff/README_ZH.md",
+    "sha256": "9a65cb6b63a10d7ecc894e460a3c90caa8785433dfd8e9352d170b296d635631",
+    "role_zh": "工具可用入口和缺项",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/gpu_handoff/docs/DATA_CONTRACT_AND_ADAPTERS_ZH.md",
+    "sha256": "0a5e8c72cf5b51195f7b8998581a49f3f94688536304cdaca0ed350564784198",
+    "role_zh": "原始数据、EOS、时钟与适配器边界",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/gpu_handoff/docs/GPU_EXPERIMENT_CHECKLIST_ZH.md",
+    "sha256": "0c2dbb336a142e40488fa07e67525d56e1e926c36ff82e7a9f0b75d61a491494",
+    "role_zh": "资源分层与分阶段硬件路线",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/theory_grid/FINAL_THEORY_GRID_STATUS.json",
+    "sha256": "87bf6bbd093d0f1854a3971ad2748d9cba5291bd791ed4ca08e55e560ce48b98",
+    "role_zh": "旧网模与执行器计数和限制",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/theory_grid/GRID_EXTENSION_REPORT_ZH.md",
+    "sha256": "056ccf1b9fe1fe3a81df3914e23b62eb146898c00827db1c1d0a1a008ae1f4c1",
+    "role_zh": "反例、全尾部、负结果和成本",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/theory_grid/guard_eval/reports/GRID_GUARD_STUDY.md",
+    "sha256": "cf055bb0c541bb632c50509513f9266bcc5a2f453d8858a5a5eb03891ac45ea7",
+    "role_zh": "强基线、精度失败、guard 代价与 all-time 模型结果",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  },
+  {
+    "path": "outputs/w6_paper_development_20261004/theory_grid/CLAIM_EVIDENCE.csv",
+    "sha256": "004bcf64cad141e20ccb9a83a71f2f5b5f4bd68cba2b456aeb9f16a07059a989",
+    "role_zh": "各项理论/模型/硬件证据级别",
+    "source_date": "2026-10-04",
+    "inspection": "read_existing_file",
+    "new_scientific_recomputation": false
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "source_unchanged": {
+    "research/full_cycle/code/cycle_model.py": true,
+    "research/full_cycle/code/global_bellman.py": true
+  },
+  "protocol_hash_verified": true,
+  "case_count": 9,
+  "aligned_case_count": 9,
+  "executor_case_count": 72,
+  "failures": [],
+  "max_original_bellman_quadrature_disagreement": 8.881784197001252e-15,
+  "max_aligned_refinement_relative_change": 8.133102256141392e-07,
+  "max_uniform_refinement_relative_change": 0.005611568802453025,
+  "max_aligned_finite_mesh_gap": 4.739212369209156e-07,
+  "max_executor_quadrature_relative_change": 1.3605919329847825e-05,
+  "all_confirmations_counted": true,
+  "not_interval_certificate": true
+}

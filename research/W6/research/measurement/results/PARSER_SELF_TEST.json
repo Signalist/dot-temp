@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "five synthetic parser/gate tests only; no physical measurement validation",
+  "checks": {
+    "nlr_units_count_naive_clock": true,
+    "page_resets_preserved_duplicates_flagged": true,
+    "jsonl_not_confused_with_single_json": true,
+    "incomplete_coverage_rejected": true,
+    "malformed_rows_rejected": true
+  }
+}

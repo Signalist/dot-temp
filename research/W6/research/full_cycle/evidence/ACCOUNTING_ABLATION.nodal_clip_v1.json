@@ -1,0 +1,230 @@
+[
+  {
+    "case": {
+      "beta": 0.5,
+      "R": 4.0,
+      "c": 0.25,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "source": "round2 saved work-state nodes, independent stable reevaluation; canonical erratum physical ledger retained",
+    "task_time_only_policy_full_cycle": {
+      "dynamic_energy": 0.24209033996838866,
+      "cycle_time": 1.1215402624215776,
+      "task_time": 1.0682231790479542,
+      "tail_time": 0.0533170833736234,
+      "objective": 0.522475405573783,
+      "quad_error_estimate_sum": 4.719939052308614e-12
+    },
+    "same_policy_after_recovery_dominance": {
+      "dynamic_energy": 0.2420889283869242,
+      "cycle_time": 1.1215267792438746,
+      "task_time": 1.0682312109576537,
+      "tail_time": 0.053295568286220826,
+      "objective": 0.5224706231978928,
+      "quad_error_estimate_sum": 1.2467415712362065e-11
+    },
+    "new_full_cycle_oracle": {
+      "dynamic_energy": 0.2321279394049514,
+      "task_time": 1.1106031383687998,
+      "recovery_time": 0.04790466389226004,
+      "cycle_time": 1.1585078022610598,
+      "objective": 0.5217548899702164
+    },
+    "old_objective_excess_fraction": 0.0013809465276075628,
+    "dominance_improvement_fraction": 9.153303369258126e-06
+  },
+  {
+    "case": {
+      "beta": 0.5,
+      "R": 4.0,
+      "c": 1.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "source": "round2 saved work-state nodes, independent stable reevaluation; canonical erratum physical ledger retained",
+    "task_time_only_policy_full_cycle": {
+      "dynamic_energy": 0.4346015486887905,
+      "cycle_time": 0.8148125327991471,
+      "task_time": 0.669561275596995,
+      "tail_time": 0.14525125720215215,
+      "objective": 1.2494140814879375,
+      "quad_error_estimate_sum": 4.7185082149372994e-12
+    },
+    "same_policy_after_recovery_dominance": {
+      "dynamic_energy": 0.4345690574449849,
+      "cycle_time": 0.8146758280232569,
+      "task_time": 0.6696060004012401,
+      "tail_time": 0.14506982762201676,
+      "objective": 1.2492448854682419,
+      "quad_error_estimate_sum": 1.5638201118306385e-11
+    },
+    "new_full_cycle_oracle": {
+      "dynamic_energy": 0.3721085121866002,
+      "task_time": 0.7482073157005882,
+      "recovery_time": 0.1081983715831741,
+      "cycle_time": 0.8564056872837623,
+      "objective": 1.2285141994703626
+    },
+    "old_objective_excess_fraction": 0.01701232433991029,
+    "dominance_improvement_fraction": 0.0001354202919613412
+  },
+  {
+    "case": {
+      "beta": 0.5,
+      "R": 4.0,
+      "c": 4.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "source": "round2 saved work-state nodes, independent stable reevaluation; canonical erratum physical ledger retained",
+    "task_time_only_policy_full_cycle": {
+      "dynamic_energy": 0.6862020563363534,
+      "cycle_time": 0.8141660840374783,
+      "task_time": 0.535904404882564,
+      "tail_time": 0.27826167915491423,
+      "objective": 3.9428663924862666,
+      "quad_error_estimate_sum": 4.721044131299489e-12
+    },
+    "same_policy_after_recovery_dominance": {
+      "dynamic_energy": 0.6823176833506728,
+      "cycle_time": 0.8099400374496116,
+      "task_time": 0.5372634739993891,
+      "tail_time": 0.2726765634502225,
+      "objective": 3.9220778331491193,
+      "quad_error_estimate_sum": 1.5640648869376242e-11
+    },
+    "new_full_cycle_oracle": {
+      "dynamic_energy": 0.48024550786450715,
+      "task_time": 0.6333144999016108,
+      "recovery_time": 0.16109889467139799,
+      "cycle_time": 0.7944133945730087,
+      "objective": 3.657899086156542
+    },
+    "old_objective_excess_fraction": 0.07790463859656338,
+    "dominance_improvement_fraction": 0.0052724483327061256
+  },
+  {
+    "case": {
+      "beta": 0.8,
+      "R": 4.0,
+      "c": 0.25,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "source": "round2 saved work-state nodes, independent stable reevaluation; canonical erratum physical ledger retained",
+    "task_time_only_policy_full_cycle": {
+      "dynamic_energy": 0.47392171115128656,
+      "cycle_time": 0.9851180906398407,
+      "task_time": 0.8604974245009624,
+      "tail_time": 0.12462066613887823,
+      "objective": 0.7202012338112467,
+      "quad_error_estimate_sum": 4.454068186930646e-12
+    },
+    "same_policy_after_recovery_dominance": {
+      "dynamic_energy": 0.473919505305173,
+      "cycle_time": 0.9851058107003782,
+      "task_time": 0.8605095782378991,
+      "tail_time": 0.1245962324624791,
+      "objective": 0.7201959579802676,
+      "quad_error_estimate_sum": 1.1342023510773808e-11
+    },
+    "new_full_cycle_oracle": {
+      "dynamic_energy": 0.45975341817846727,
+      "task_time": 0.9233688800675064,
+      "recovery_time": 0.11155399885781699,
+      "cycle_time": 1.0349228789253233,
+      "objective": 0.7184841379097981
+    },
+    "old_objective_excess_fraction": 0.0023898870007679207,
+    "dominance_improvement_fraction": 7.325495613441646e-06
+  },
+  {
+    "case": {
+      "beta": 0.8,
+      "R": 4.0,
+      "c": 1.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "source": "round2 saved work-state nodes, independent stable reevaluation; canonical erratum physical ledger retained",
+    "task_time_only_policy_full_cycle": {
+      "dynamic_energy": 0.6007629123792438,
+      "cycle_time": 0.8207953180782526,
+      "task_time": 0.5953725899613239,
+      "tail_time": 0.22542272811692862,
+      "objective": 1.4215582304574963,
+      "quad_error_estimate_sum": 4.3675930685546734e-12
+    },
+    "same_policy_after_recovery_dominance": {
+      "dynamic_energy": 0.6006946601632164,
+      "cycle_time": 0.820615452819599,
+      "task_time": 0.5954642628191776,
+      "tail_time": 0.22515119000042133,
+      "objective": 1.4213101129828154,
+      "quad_error_estimate_sum": 1.317971372825589e-11
+    },
+    "new_full_cycle_oracle": {
+      "dynamic_energy": 0.5430157312353936,
+      "task_time": 0.6746651417354341,
+      "recovery_time": 0.17760953666585946,
+      "cycle_time": 0.8522746784012936,
+      "objective": 1.3952904096366872
+    },
+    "old_objective_excess_fraction": 0.01882605989361652,
+    "dominance_improvement_fraction": 0.00017453908631026582
+  },
+  {
+    "case": {
+      "beta": 0.8,
+      "R": 4.0,
+      "c": 4.0,
+      "p0": 0.0,
+      "dist": "uniform",
+      "alpha": 1.0,
+      "rate": 0.3,
+      "atom": 0.0
+    },
+    "source": "round2 saved work-state nodes, independent stable reevaluation; canonical erratum physical ledger retained",
+    "task_time_only_policy_full_cycle": {
+      "dynamic_energy": 0.7665310553713501,
+      "cycle_time": 0.8426228554806395,
+      "task_time": 0.507490775254545,
+      "tail_time": 0.33513208022609453,
+      "objective": 4.137022477293908,
+      "quad_error_estimate_sum": 4.370099938626261e-12
+    },
+    "same_policy_after_recovery_dominance": {
+      "dynamic_energy": 0.7538374536308093,
+      "cycle_time": 0.8340584339659052,
+      "task_time": 0.5117972517703623,
+      "tail_time": 0.32226118219554284,
+      "objective": 4.09007118949443,
+      "quad_error_estimate_sum": 1.3181987341516053e-11
+    },
+    "new_full_cycle_oracle": {
+      "dynamic_energy": 0.6042023101373579,
+      "task_time": 0.5945844884554321,
+      "recovery_time": 0.222616482657701,
+      "cycle_time": 0.8172009711131332,
+      "objective": 3.8730061945898906
+    },
+    "old_objective_excess_fraction": 0.06816830891538883,
+    "dominance_improvement_fraction": 0.011349053106955775
+  }
+]

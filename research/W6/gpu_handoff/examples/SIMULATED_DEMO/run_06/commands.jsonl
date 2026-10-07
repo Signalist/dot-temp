@@ -1,0 +1,1 @@
+{"evidence": "SIMULATED", "acquisition_id": "sim_run_06", "run_id": "run_06", "clock_id": "SIMULATED_CLOCK", "type": "cap_return", "issue_ns": 2900000000, "return_ns": 2900100000, "requested_cap_W": 85, "configured_cap_W": 85, "enforced_cap_W": 85, "physical_effect_ns": null, "status": "ok"}

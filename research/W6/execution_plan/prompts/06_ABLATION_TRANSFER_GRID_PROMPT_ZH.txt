@@ -1,0 +1,20 @@
+阶段 6：必要消融、迁移与 PCC 条件分支
+覆盖实验ID：A01 A02 X01 X02 X03 X04 G01 G02 G03 G04 G05
+
+共同要求：这是 W6 阶段续跑提示词，原交付是 CPU 验证过的脚手架，真实 EOS/engine/policy/仪表适配与硬件主张尚待验证。若已收到本计划目录，读取同目录 00_MASTER_PROMPT_ZH.txt 与 contracts/，沿用其数据、单位、隐私、权限、冻结和证据合同；本文给出本阶段完整目标。先核对当前工作副本、输入hash、已有 sealed runs 与状态，不覆盖原包、不重跑已合格结果。所有未测项用 NOT_RUN/BLOCKED，失败原样保留。SIMULATED/DRY_RUN/CPU_TEST 不得改为 MEASURED。不得任意租GPU/付费/开账号/下载权重；不自动提权、改驱动/固件/电气安全或写cap。物理动作要有具体操作者批准的设备、范围、时长与恢复流程；不超过会话原cap，恢复必须readback。无权限暂停受影响分支，其他安全独立工作继续。不要泄漏prompt/token文本、序列号、凭证、完整环境变量。修改协议需新版本，不能用确认outcome调参。
+
+
+目标：覆盖论文打算声称的机制和适用范围，优先复用raw，按条件触发最小必要物理实验，不做巨大笛卡尔积。
+
+1. A01用同raw统一复算productive-only/full-cycle、host-visible/device EOS观察误差、合理baseline/同步/积分误差敏感性。它是同数据会计消融，不是新iid样本，更不能将事后device EOS倒灌在线控制。
+2. A02实测消融一次改变一个组件：recovery、EOS delay处理、模型误差/guard。统一外层硬件安全保护始终保留；无权限的burn或可能越界的去guard只在SIMULATED模型中做，标签与目录分离。
+3. X01跨workload/phase/context；X02完整新model_family；X03完整新物理device UUID hash；X04并发/队列/连续任务与残留热/网态。每类先预设sentinel，确认需有独立冻结quota。新prompt不是新模型族，新session不是新GPU；不能换这些标签满足迁移。
+旧registry仅支持device/model_family transfer；无transfer研究可保留真实支持轴并无transfer行，明确没有迁移结论。workload/phase/context或字面none轴才需版本化扩展并测试，不能篡改设备/模型族身份让gate通过。
+4. 区分无再调参zero-shot transfer与重新标定的adaptation。适用域外不外推旧服务/actuator/envelope。更改参数需新冻结，迁移测试不得回写原主确认；并发结果不能按单请求独立模型解释。
+5. G01需设施确认真实PCC、电气人员安装、全链标定/同步/拓扑/背景负载/批准阈值。缺任一则G02/G03/G04按依赖BLOCKED；GPU/DC结果不能补成PCC。G02识别实际p→PCC增益/残差及适用域，G03观测共同初态与零输入长尾，G04在新独立sessions按冻结合同确认。
+6. PCC采P/Q/V/I/f及背景负荷，持续到预设尾部判据；p=0不等于网态复位。有限窗口不能证明全未来峰值，需要明确残余尾部模型与误差界；无证据则降格observed-window。0.05 Hz只旧模拟预算，不擅用于真实设施。
+7. G05保留既有变号核/非凸/残余初态反例，按新问题做条件线性/非线性网络重放；这些是模型证据，不是GPU或电网实测。新信息不构成新硬件标定。
+
+输出每个分支真实状态/阻塞原因、独立样本与适用轴、消融/迁移效应与CI/质量、模型重放假设/数值精度、PCC测量准入与tail证据。任何未执行分支都写明对应主张不可提出，禁止最终摘要笼统写“全部实验完成”。
+
+PCC接口补充：旧kit的power_W/baseline_W要求非负，含pcc_active，因此原接口只适合其非负输入语义；存在回送/有符号净PCC功率的设施须先明确正负方向并实现版本化且测试过的adapter/schema，不得abs、截零或删除门禁来冒充支持。旧meter import也未提供完整Q/V/I/f适配，须显式补齐。

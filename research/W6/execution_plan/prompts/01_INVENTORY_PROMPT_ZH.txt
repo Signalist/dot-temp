@@ -1,0 +1,15 @@
+阶段 1：输入、历史证据与硬件/权限清单
+覆盖实验ID：F01 F02 F03 I01
+
+共同要求：这是 W6 阶段续跑提示词，原交付是 CPU 验证过的脚手架，真实 EOS/engine/policy/仪表适配与硬件主张尚待验证。若已收到本计划目录，读取同目录 00_MASTER_PROMPT_ZH.txt 与 contracts/，沿用其数据、单位、隐私、权限、冻结和证据合同；本文给出本阶段完整目标。先核对当前工作副本、输入hash、已有 sealed runs 与状态，不覆盖原包、不重跑已合格结果。所有未测项用 NOT_RUN/BLOCKED，失败原样保留。SIMULATED/DRY_RUN/CPU_TEST 不得改为 MEASURED。不得任意租GPU/付费/开账号/下载权重；不自动提权、改驱动/固件/电气安全或写cap。物理动作要有具体操作者批准的设备、范围、时长与恢复流程；不超过会话原cap，恢复必须readback。无权限暂停受影响分支，其他安全独立工作继续。不要泄漏prompt/token文本、序列号、凭证、完整环境变量。修改协议需新版本，不能用确认outcome调参。
+
+
+目标：交付一份可以决定后续路线的真实清单，暂不运行模型请求、不写cap、不连接电气设施。
+
+1. 定位 W6_CPU_GPU_Handoff_01_Main.zip 与 W6_CPU_GPU_Handoff_02_NetworkData.zip，核对前者13,935,770 bytes/SHA256 479e86f32000396b0a096371152848a0667087ecccd747ab57ada6dd9c5d66a6，后者8,712,402 bytes/SHA256 5e810a51ee4462cbd95c3062fcd5c8b2a88d2343e7b1402024eaf5bd36fe017e。安全检查后解压同一个新目录，共同根W6_CPU_Research_and_GPU_Handoff_20261004；不是二进制拼接。缺包或hash差异记BLOCKED；先查来源，不能猜修。
+2. 读根README、GPU清单、PACKAGE_SCOPE、A–E状态，以及measurement、theory_grid、gpu_handoff、prior_w6的合同和负结果。核对manifest；在一次性副本运行已有CPU核验，记录实际依赖/失败，不把smoke当全量科学重算。保留hard-deadline失败、模型网侧反例、网格负结果和公开资料不足。
+3. 只读盘点硬件、软件、模型、engine、本地端点、磁盘和仪表。UUID存hash；记录MIG/vGPU、共享工作负载和真实独占证据。无GPU不是可模拟通过的硬件条件。现成服务不存在时，不假装已经可请求；提交最小启动/依赖准备方案。
+4. 建立GPU_ONLY/GPU_DC/PCC能力矩阵和每实验ID的执行条件。extern DC需要全rail/标定/带宽/时钟，PCC需真实边界及设施人员确认；不要由工具存在推断具备仪表。
+5. 查当前原cap与支持范围仅作只读；列出必须由操作者确认的安全范围、温度/时长/冷却/急停/恢复、独占与数据记录许可，所有值未知保持null。将需要确认的一组事项一次性提出，不自行选“通常安全值”。
+
+输出：00_inventory/INPUT_RECEIPT.json、archive_merge.json、hardware.json、software.json、capabilities.json、permission_scope.json；07_audit/EXPERIMENT_STATUS.csv/json、初版ADAPTER_STATUS.json、source_status.csv；报告F01/F02/F03/I01真实状态和最小阻塞项。不得称整套GPU实验已可直接运行。下一阶段仅在明确授权范围内继续。

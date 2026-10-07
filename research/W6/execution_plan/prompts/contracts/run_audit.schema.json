@@ -1,0 +1,491 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Study-level run/attempt audit; original w6-1 manifest remains separately required",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "w6-plan-1"
+    },
+    "study_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "protocol_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "protocol_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "experiment_id": {
+      "enum": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08",
+        "I09",
+        "I10",
+        "I11",
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "A01",
+        "A02",
+        "X01",
+        "X02",
+        "X03",
+        "X04",
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "Z01",
+        "O01",
+        "O02"
+      ]
+    },
+    "acquisition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "attempt_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retry_of_attempt_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cluster_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "block_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pair_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "request_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stage": {
+      "enum": [
+        "inventory",
+        "preflight",
+        "identification",
+        "calibration",
+        "confirmation",
+        "ablation",
+        "transfer",
+        "grid",
+        "optional"
+      ]
+    },
+    "tier": {
+      "enum": [
+        "CPU_ONLY",
+        "GPU_ONLY",
+        "GPU_DC",
+        "PCC"
+      ]
+    },
+    "evidence": {
+      "enum": [
+        "MEASURED",
+        "SIMULATED"
+      ]
+    },
+    "execution_kind": {
+      "enum": [
+        "REAL_ACQUISITION",
+        "SIMULATED",
+        "CPU_TEST",
+        "DRY_RUN",
+        "HISTORICAL_REPLAY"
+      ]
+    },
+    "status": {
+      "enum": [
+        "NOT_RUN",
+        "RUNNING",
+        "PASS",
+        "FAIL",
+        "BLOCKED"
+      ]
+    },
+    "software_status": {
+      "enum": [
+        "NOT_RUN",
+        "RUNNING",
+        "PASS",
+        "FAIL",
+        "BLOCKED"
+      ]
+    },
+    "data_contract_status": {
+      "enum": [
+        "NOT_RUN",
+        "RUNNING",
+        "PASS",
+        "FAIL",
+        "BLOCKED"
+      ]
+    },
+    "physical_admission_status": {
+      "enum": [
+        "NOT_RUN",
+        "RUNNING",
+        "PASS",
+        "FAIL",
+        "BLOCKED"
+      ]
+    },
+    "analysis_included": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "analysis_exclusion_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "device_id_hash": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "model_family": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "model_revision": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tokenizer_revision": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "engine_revision": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "code_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "git_diff_hash": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "workload_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stratum": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "policy_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "randomization_order": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "sampling_seed": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "controller_seed": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "bootstrap_seed": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "clock_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "boot_id_hash": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "started_utc": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "ended_utc": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "calibration_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "operator_approval_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "original_cap_W": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "restored_cap_W": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "restore_status": {
+      "enum": [
+        "NOT_REQUIRED",
+        "NOT_ATTEMPTED",
+        "VERIFIED",
+        "FAILED",
+        "UNKNOWN"
+      ]
+    },
+    "failure_log": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sealed_raw_files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "relative_path": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "first_sequence_no": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "last_sequence_no": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "rows": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "start_source_timestamp": {
+            "type": [
+              "string",
+              "number",
+              "null"
+            ]
+          },
+          "end_source_timestamp": {
+            "type": [
+              "string",
+              "number",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "relative_path",
+          "bytes",
+          "sha256",
+          "first_sequence_no",
+          "last_sequence_no",
+          "rows",
+          "start_source_timestamp",
+          "end_source_timestamp"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "partial_files": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$"
+      }
+    },
+    "missing_reasons": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "study_id",
+    "protocol_id",
+    "protocol_sha256",
+    "experiment_id",
+    "acquisition_id",
+    "run_id",
+    "attempt_id",
+    "retry_of_attempt_id",
+    "session_id",
+    "cluster_id",
+    "block_id",
+    "pair_id",
+    "request_id",
+    "stage",
+    "tier",
+    "evidence",
+    "execution_kind",
+    "status",
+    "software_status",
+    "data_contract_status",
+    "physical_admission_status",
+    "analysis_included",
+    "analysis_exclusion_reason",
+    "device_id_hash",
+    "model_family",
+    "model_revision",
+    "tokenizer_revision",
+    "engine_revision",
+    "code_hash",
+    "git_diff_hash",
+    "workload_id",
+    "stratum",
+    "policy_id",
+    "randomization_order",
+    "sampling_seed",
+    "controller_seed",
+    "bootstrap_seed",
+    "clock_id",
+    "boot_id_hash",
+    "started_utc",
+    "ended_utc",
+    "calibration_ids",
+    "operator_approval_ref",
+    "original_cap_W",
+    "restored_cap_W",
+    "restore_status",
+    "failure_log",
+    "sealed_raw_files",
+    "partial_files",
+    "missing_reasons"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,17 @@
+阶段 5：主配对确认、匹配 QoS 与全成本
+覆盖实验ID：C02 C03 C04 C05
+
+共同要求：这是 W6 阶段续跑提示词，原交付是 CPU 验证过的脚手架，真实 EOS/engine/policy/仪表适配与硬件主张尚待验证。若已收到本计划目录，读取同目录 00_MASTER_PROMPT_ZH.txt 与 contracts/，沿用其数据、单位、隐私、权限、冻结和证据合同；本文给出本阶段完整目标。先核对当前工作副本、输入hash、已有 sealed runs 与状态，不覆盖原包、不重跑已合格结果。所有未测项用 NOT_RUN/BLOCKED，失败原样保留。SIMULATED/DRY_RUN/CPU_TEST 不得改为 MEASURED。不得任意租GPU/付费/开账号/下载权重；不自动提权、改驱动/固件/电气安全或写cap。物理动作要有具体操作者批准的设备、范围、时长与恢复流程；不超过会话原cap，恢复必须readback。无权限暂停受影响分支，其他安全独立工作继续。不要泄漏prompt/token文本、序列号、凭证、完整环境变量。修改协议需新版本，不能用确认outcome调参。
+
+
+目标：严格执行已经冻结的确认计划，不再探索调参；一次完整采齐各时窗与全成本，所有成功和失败均交付。
+
+1. 开始前hash验证protocol/code/model/calibration/device/permissions及当前安全状态。登记未来run slots与attempt；逐session检查空队列、无并发、初始温度/clock/KV/cache、时钟boot、meter标定和原cap。未满足reset判据不启动下一arm。
+2. 按冻结AB/BA或多策略平衡block crossover运行，同任务/初始状态/质量信息。所有arm都记录完整idle/warmup→request→真实/可见EOS→功率返回→matched-state→PCC尾部（若有）→cooldown。不因慢或失败截掉恢复成本；超时执行批准的取消/排空流程。
+3. 逐run seal原始数据，写append-only状态、hash/checkpoint、失败原因、恢复readback。SIGINT/普通异常恢复，SIGKILL/驱动丢失不能承诺恢复；不安全则停止人工处理。断点续跑先重新inventory，不把partial当完成；重试新attempt_id且计成本。
+4. 所有失败、截断、无效/未完成请求保留；统计纳入规则按冻结。不要只对成功pair报收益，也不把一侧失败默默删除。记录完成率/quality/QoS非劣、attrition、重试成本和敏感性分析。
+5. 输出request/run metrics：TTFT、useful latency、ITL/分位数、EOS可见delay、actual return与matched reset、gross/dynamic各窗口能量、productive/recovery/warmup/cooldown/whole-capture、controller求解CPU/wall与在线开销、实际p跟踪/误差；单位、边界、null原因完整。
+6. 按预设cluster/session独立单位算paired effects与CI；requests在session内聚类。tail分位数样本不足给局限。C03优先实际主SLA；需要前沿主张时最多预设三档QoS。匹配QoS/quality前沿遵守冻结选择规则，不后验挑最有利阈值。E+cT改善不是同延迟节能。J_W6只在冻结理论电气边界计算；PCC/AC/NVML等其他边界另名或null。逐run能量也必须带electrical_boundary，按边界多行不能增加请求/run样本数。
+7. 冻结后发现bug/协议不足：保留当前确认作为失败/受限原结果，给影响分析，创建amendment与新未触及确认数据。不得改旧图/排除规则掩盖。无必要不重跑GPU：图形/派生错误用相同immutable raw重算。
+
+输出所有原始/派生/图的data+脚本、C02–C05状态、attempt与session真实计数、paired效应/CI/QoS/quality、attrition与误差预算、budget实际消耗和safety_restore。无阳性不算执行失败；证据无法支持结论要写不确定或反例。

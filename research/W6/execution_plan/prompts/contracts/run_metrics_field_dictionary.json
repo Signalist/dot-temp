@@ -1,0 +1,373 @@
+{
+  "schema_version": "w6-plan-1",
+  "row_key": [
+    "study_id",
+    "run_id",
+    "attempt_id",
+    "electrical_boundary"
+  ],
+  "fields": [
+    {
+      "name": "schema_version",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "study_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "protocol_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "experiment_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "run_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "attempt_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "session_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "cluster_id",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "稳定标识或明确类别；不可混用不同run/边界",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "stage",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "tier",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": [
+        "CPU_ONLY",
+        "GPU_ONLY",
+        "GPU_DC",
+        "PCC"
+      ],
+      "required": true
+    },
+    {
+      "name": "execution_kind",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": true
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": [
+        "NOT_RUN",
+        "RUNNING",
+        "PASS",
+        "FAIL",
+        "BLOCKED"
+      ],
+      "required": true
+    },
+    {
+      "name": "requests_started",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "requests_completed",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "requests_censored",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "requests_failed",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "analysis_requests_included",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "raw_rows",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "原始量与程序/系统测量方法须注明",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "raw_bytes",
+      "type": "integer",
+      "nullable": true,
+      "unit": "byte",
+      "description_zh": "原始量与程序/系统测量方法须注明",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "coverage_start_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同步误差/间隙/覆盖端点",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "coverage_end_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同步误差/间隙/覆盖端点",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "max_gap_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同步误差/间隙/覆盖端点",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "clock_error_ns",
+      "type": "integer",
+      "nullable": true,
+      "unit": "ns",
+      "description_zh": "同步误差/间隙/覆盖端点",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "missing_rail_count",
+      "type": "integer",
+      "nullable": true,
+      "unit": "count",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "cap_restore_status",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "controller_wall_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "controller_cpu_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "solver_wall_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "solver_cpu_s",
+      "type": "number",
+      "nullable": true,
+      "unit": "s",
+      "description_zh": "明确事件端点及适用窗口；未知/不准入写null",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "warmup_energy_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "cooldown_energy_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "whole_capture_energy_J",
+      "type": "number",
+      "nullable": true,
+      "unit": "J",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "peak_GPU_memory_bytes",
+      "type": "integer",
+      "nullable": true,
+      "unit": "byte",
+      "description_zh": "原始量与程序/系统测量方法须注明",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "peak_host_memory_bytes",
+      "type": "integer",
+      "nullable": true,
+      "unit": "byte",
+      "description_zh": "原始量与程序/系统测量方法须注明",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "protocol_sha256",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "raw_manifest_sha256",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "failure_reason",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "逐run/attempt统计；与请求指标不构成额外独立样本",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "null_reasons_ref",
+      "type": "string",
+      "nullable": true,
+      "unit": "1",
+      "description_zh": "缺失写null；可恢复的路径/主键应在同根目录解析",
+      "enum": null,
+      "required": false
+    },
+    {
+      "name": "electrical_boundary",
+      "type": "string",
+      "nullable": false,
+      "unit": "1",
+      "description_zh": "本行能量的命名测量边界；边界多行不增加run/sample数量",
+      "enum": null,
+      "required": true
+    }
+  ]
+}

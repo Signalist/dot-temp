@@ -1,0 +1,22 @@
+阶段 3：识别、可证伪 pilot、独立标定与预算
+覆盖实验ID：I06 I07 I08 I09 I10 I11 C01 N01 N02 N03 N04
+
+共同要求：这是 W6 阶段续跑提示词，原交付是 CPU 验证过的脚手架，真实 EOS/engine/policy/仪表适配与硬件主张尚待验证。若已收到本计划目录，读取同目录 00_MASTER_PROMPT_ZH.txt 与 contracts/，沿用其数据、单位、隐私、权限、冻结和证据合同；本文给出本阶段完整目标。先核对当前工作副本、输入hash、已有 sealed runs 与状态，不覆盖原包、不重跑已合格结果。所有未测项用 NOT_RUN/BLOCKED，失败原样保留。SIMULATED/DRY_RUN/CPU_TEST 不得改为 MEASURED。不得任意租GPU/付费/开账号/下载权重；不自动提权、改驱动/固件/电气安全或写cap。物理动作要有具体操作者批准的设备、范围、时长与恢复流程；不超过会话原cap，恢复必须readback。无权限暂停受影响分支，其他安全独立工作继续。不要泄漏prompt/token文本、序列号、凭证、完整环境变量。修改协议需新版本，不能用确认outcome调参。
+
+
+按路线解释依赖，不能把所有ID串成一条必须有DC的链：GPU_ONLY描述路线的I11只要求已满足I03/I05/I07及其相应安全前置，不因I09→I06的DC分支缺资源而阻塞GO_DESCRIPTIVE。DC/W6路线的I11在此之外要求I04/I06/I08/I09；自然工作量law主张另要求I10。纯理论/模型N01/N02/N04可由F03及合格模型输入启动，无硬件I11依赖；使用新硬件标定参数的版本必须先通过其I11。主C01/F04/C02是DC/W6路线；GPU-only描述比较需独立命名的限定冻结协议，不能借用DC PASS。Z01须核对全部已选必要ID均有最终状态和依据，允许准确的FAIL/BLOCKED/NOT_RUN，但不能靠跳过未审项宣告完成。
+
+目标：在已通过预检且批准的资源层级内，用少量高信息量pilot判断W6可实现性，识别必须参数并为确认集确定一次性预算。不要直接做巨大网格或追逐阳性。
+
+1. 一个固定GPU/model/precision、单请求、batch=1、phase/context stratum开始。I06按3独立初始化sessions×5安全且实际可区分功率区域×2episodes=30起步；顺序平衡随机/反向，记录热历史。只有3个独立clusters，不能称30 iid。不足5个可达功率区域则记录限制，而非改变workload来补档。继续采集量须由信息与预算需要解释。
+2. 采齐自然EOS、固定长度、max_tokens截断、取消、超时/错误的元数据；真实自然EOS需要EOS token/rule证据。I10长度law含数据来源、已暴露历史及删失机制；max_tokens不是自然支持M。pilot数据永久development，不进入新confirmation。
+3. I08量化cap→实际p响应、上/下跳、滞后、饱和、temperature/clock影响、actual return与matched reset。确认物理burn是否实际存在且获准；无burn则拒绝其原合同，另立受限实施方案而非偷偷加dummy load。
+4. I09用少量预设prefill/decode、context、热态sentinel挑战标量s(p)，保持其他因素固定。OLS区间均值和max residual仅诊断，不能出点态安全下包络或连续slew硬界。保留非凹/非单调反例，不强制凹化掩盖。
+5. C01前先解决旧kit的整份split hash绑定：冻结完整前瞻registry（含确定将全部采集的未来确认slots），或明确实现经过测试的parent/child多阶段manifest链。calibration后不可因改N覆盖split/删除hash检查；基础角色与calibration可用的N选择规则须事前固定。GPU_ONLY在I11可为GO_DESCRIPTIVE，依赖DC的C01不强求，相关W6硬件确认保持BLOCKED。
+6. C01使用与识别隔开的完整sessions拟合条件模型、误差预算及适用域；给出可识别性、因果/内生性、计量/时钟与instrumentation局限。I11分别决定descriptive、W6-DC和PCC准入；结构PASS不等于物理证据PASS。
+7. 对真正新参数跑N01分辨率/可行残差，N02同信息constant-target/Bellman参照；保留grid输baseline。N03已有反例优先hash+关键复核；N04用冻结前选定扰动角点做明确SIMULATED重放。不要假称新理论或真实电网试验。
+8. 制定budget.json：主效应MDE、QoS/quality非劣界、pilot cluster-paired variance、CI/功效假设与独立单位、calibration/confirmation/ablation/transfer quotas、每arm warmup/reset/cooldown、失败重试和总GPU小时/存储上限。小pilot方差不稳定须保守评估。预算不足明确探索性，不用token/window扩N；iid零失败公式不能拿来算节能效应样本量。
+
+输出完整raw、03_calibration/模型/误差与admission、01_protocol/budget.json与拟定矩阵、N系列数值审计、30episodes/3clusters真实计数、失败和未测清单；提供下一阶段需冻结的选择。若重要合同不可实现，停止对应确认分支，先交付有价值的负结果与缩小后的可检验问题。
+
+兼容性硬规则：没有链接registry适配器时，冻结的是实际要完整执行的全run集合，不能预留一大批后只跑选中的N。旧evaluate要求每个注册heldout存在；失败/缺失必须保留all_attempts并给明确局限，不能删slot或过滤flat view让评价通过。

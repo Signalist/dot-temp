@@ -1,0 +1,64 @@
+{
+  "scope": "Derived numerical reconstruction correction only; frozen science unchanged; no new N, no rerun of optimization",
+  "normalization": "z=p^(1+beta), k=1",
+  "algorithm": "stable analytic powers via log1p/expm1; analytic zero and equal endpoint limits",
+  "effect_threshold": 1e-08,
+  "inputs": [
+    {
+      "path": "results/analytic/slew_mesh_frontiers.json",
+      "bytes": 163247,
+      "sha256": "91befd27fde07ba7f540ce6b127f3008aeec6352a74d2cd26bac4ac3d255ce57"
+    },
+    {
+      "path": "results/analytic/burn_resource_frontiers.json",
+      "bytes": 210411,
+      "sha256": "0e0a327ce28c373ec3f8a0c7e9e9f62503e64987a763a00921d84098c5e28597"
+    },
+    {
+      "path": "results/analytic/physical_reconstructions.json",
+      "bytes": 9881184,
+      "sha256": "eec8c76a2f0a3a8cb9824b62b54ea248bc7e41061fab80eb0a6e2a84492c1f64"
+    },
+    {
+      "path": "results/analytic/reconstruction_summary.json",
+      "bytes": 19801,
+      "sha256": "01e0d134d1b958d9a8105eaa2201666520450ee0314c5c040e0e56714e0a6635"
+    },
+    {
+      "path": "results/analytic/drift_latency_diagnostics.json",
+      "bytes": 30028,
+      "sha256": "658b10465820e623c146666dae087e83d6fa4d97101c31185bd317607647a1bd"
+    },
+    {
+      "path": "results/analytic/continuous_dual_bounds.json",
+      "bytes": 140644,
+      "sha256": "4fda2de0b23304ebddfdb5c6ab72071f515f30357d9e58456d9c28fa82c89056"
+    }
+  ],
+  "original_to_new": [
+    {
+      "frozen_source_path": "results/analytic/physical_reconstructions.json",
+      "frozen_source_bytes": 9881184,
+      "frozen_source_sha256": "eec8c76a2f0a3a8cb9824b62b54ea248bc7e41061fab80eb0a6e2a84492c1f64",
+      "corrected_derived_path": "physical_reconstructions.corrected.json",
+      "corrected_derived_bytes": 9881473,
+      "corrected_derived_sha256": "3b629eeba4d8936b6ae7121bb4e77244afd717ea7520e74e29a5addc9d353e63"
+    },
+    {
+      "frozen_source_path": "results/analytic/reconstruction_summary.json",
+      "frozen_source_bytes": 19801,
+      "frozen_source_sha256": "01e0d134d1b958d9a8105eaa2201666520450ee0314c5c040e0e56714e0a6635",
+      "corrected_derived_path": "reconstruction_summary.corrected.json",
+      "corrected_derived_bytes": 19782,
+      "corrected_derived_sha256": "06667389232a6cd03798a51a8999df5b6b73cf4893ce9b021afab5c55c2f5bca"
+    },
+    {
+      "frozen_source_path": "results/analytic/drift_latency_diagnostics.json",
+      "frozen_source_bytes": 30028,
+      "frozen_source_sha256": "658b10465820e623c146666dae087e83d6fa4d97101c31185bd317607647a1bd",
+      "corrected_derived_path": "drift_latency_diagnostics.corrected.json",
+      "corrected_derived_bytes": 30014,
+      "corrected_derived_sha256": "3a8dd646486f3bdfdbb80c84dc1debbba5f3f6c2e22e902ba379a79ee02c0232"
+    }
+  ]
+}

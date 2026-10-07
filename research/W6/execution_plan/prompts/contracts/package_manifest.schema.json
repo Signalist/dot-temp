@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "W6 future deliverable payload manifest; excludes its own hash",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "w6-plan-1"
+    },
+    "study_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "root_directory": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "manifest_self_hash_excluded": {
+      "const": true
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "relative_path": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "role": {
+            "type": "string"
+          },
+          "evidence": {
+            "enum": [
+              "MEASURED",
+              "SIMULATED",
+              "HISTORICAL_REPLAY",
+              "CPU_TEST",
+              "DRY_RUN",
+              "DERIVED",
+              "DOCUMENTATION"
+            ]
+          },
+          "schema_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit_dictionary_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "experiment_ids": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "F01",
+                "F02",
+                "F03",
+                "F04",
+                "I01",
+                "I02",
+                "I03",
+                "I04",
+                "I05",
+                "I06",
+                "I07",
+                "I08",
+                "I09",
+                "I10",
+                "I11",
+                "N01",
+                "N02",
+                "N03",
+                "N04",
+                "C01",
+                "C02",
+                "C03",
+                "C04",
+                "C05",
+                "A01",
+                "A02",
+                "X01",
+                "X02",
+                "X03",
+                "X04",
+                "G01",
+                "G02",
+                "G03",
+                "G04",
+                "G05",
+                "Z01",
+                "O01",
+                "O02"
+              ]
+            }
+          },
+          "run_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "part_id": {
+            "type": "string"
+          },
+          "license_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "privacy": {
+            "enum": [
+              "PUBLIC",
+              "APPROVED_PRIVATE",
+              "REDACTED"
+            ]
+          },
+          "is_immutable_raw": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "relative_path",
+          "bytes",
+          "sha256",
+          "role",
+          "evidence",
+          "schema_ref",
+          "unit_dictionary_ref",
+          "experiment_ids",
+          "run_ids",
+          "source_ids",
+          "part_id",
+          "license_id",
+          "privacy",
+          "is_immutable_raw"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "study_id",
+    "root_directory",
+    "created_utc",
+    "manifest_self_hash_excluded",
+    "files"
+  ],
+  "additionalProperties": false
+}

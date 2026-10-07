@@ -1,0 +1,30 @@
+{
+  "schema_version": "w6-1",
+  "evidence": "MEASURED",
+  "acquisition_id": "REPLACE_ACQUISITION",
+  "run_id": "REPLACE_RUN",
+  "clock_id": "REPLACE_SHARED_HOST_BOOT_CLOCK_ID",
+  "operator_reviewed": false,
+  "exclusive_device": false,
+  "no_other_workloads": false,
+  "gpu_index": 0,
+  "expected_device_sha256": "REPLACE_FROM_READONLY_INVENTORY",
+  "operator_min_W": 100,
+  "operator_max_W": 150,
+  "max_temperature_C": 75,
+  "levels": [
+    {
+      "cap_W": 100,
+      "hold_s": 2
+    },
+    {
+      "cap_W": 125,
+      "hold_s": 2
+    },
+    {
+      "cap_W": 150,
+      "hold_s": 2
+    }
+  ],
+  "warning": "PLACEHOLDERS NOT DEVICE RECOMMENDATIONS; no level may exceed original cap"
+}

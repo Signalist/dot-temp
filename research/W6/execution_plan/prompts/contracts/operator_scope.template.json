@@ -1,0 +1,33 @@
+{
+  "schema_version": "w6-plan-1",
+  "state": "UNCONFIRMED",
+  "device_id_hash": null,
+  "exclusive_device_confirmed": null,
+  "approval_reference": null,
+  "approved_actions": [],
+  "prohibited_without_specific_approval": [
+    "sudo_or_privilege_change",
+    "driver_cuda_firmware_install",
+    "power_cap_write",
+    "clock_voltage_fan_change",
+    "burn_or_stress_workload",
+    "paid_resources",
+    "model_download",
+    "facility_electrical_connections"
+  ],
+  "device_supported_min_W": null,
+  "device_supported_max_W": null,
+  "session_original_cap_W": null,
+  "operator_min_W": null,
+  "operator_max_W": null,
+  "max_temperature_C": null,
+  "max_session_duration_s": null,
+  "cooldown_and_reset_criteria": null,
+  "manual_emergency_stop": null,
+  "manual_restore_method": null,
+  "cap_restore_readback_required": true,
+  "allowed_input_data_sources": [],
+  "prompt_text_recording_approved": false,
+  "token_ids_recording_approved": false,
+  "secret_logging_allowed": false
+}

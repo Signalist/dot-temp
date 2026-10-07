@@ -1,0 +1,16 @@
+{
+  "route": "W6",
+  "as_of_utc": "2026-10-07T04:10:32.584574+00:00",
+  "status": "PREPARED_FOR_INDEPENDENT_PUBLICATION_REVIEW",
+  "publish_performed": false,
+  "latest_quality_gate": "FAIL_CLOSED",
+  "historical_main_requests": 72,
+  "distinct_main_quality_cases": 3,
+  "J_W6": null,
+  "full_original_W6_complete": false,
+  "graph_comparator": "PLAN_ONLY_Q_O_R0_R; no new GPU comparator results",
+  "source_map": "provenance/SOURCE_FILE_MAP.json",
+  "checks": "verification/CPU_PUBLICATION_CHECKS.json",
+  "scan": "verification/RELEASE_SCAN.json",
+  "code_license": "No new blanket outbound grant asserted; retain Azure CC BY 4.0 and ANDES GPL notices"
+}

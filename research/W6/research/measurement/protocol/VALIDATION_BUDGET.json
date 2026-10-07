@@ -1,0 +1,63 @@
+{
+  "status": "prospective_design_only",
+  "acquisition_executed": false,
+  "current_admitted_matched_captures": 0,
+  "current_fit_performed": false,
+  "current_calibration_records": [],
+  "current_test_records": [],
+  "physical_parameters_without_admitted_bounds": [
+    "actual_power_service_envelope",
+    "continuous_actual_power_slew",
+    "burn_availability",
+    "EOS_visibility_delay",
+    "full_terminal_recovery",
+    "GPU_to_PCC_kernel",
+    "PCC_residual_supremum",
+    "clock_offset_drift_latency",
+    "grid_impulse_response_uncertainty",
+    "grid_initial_state"
+  ],
+  "measurement_formula": "epsilon_p <= epsilon_cal + epsilon_filter + epsilon_base + R*(Delta/2+tau); conditional on independently justified R and sensor/filter envelope",
+  "PCC_formula": "epsilon_P <= norm1(g_hat)*epsilon_p + delta_g1*p_cap + epsilon_res",
+  "frequency_formula": "E_f <= B0 + norm1(h_hat)*epsilon_P + delta_h1*P_bound + epsilon_f + epsilon_tail",
+  "test_units": "iid acquisition/session units for one prespecified binary endpoint and target population; not rows, autocorrelated windows, or exchangeability alone",
+  "zero_failure_examples": [
+    {
+      "failure_probability_target": 0.05,
+      "familywise_delta": 0.05,
+      "contracts": 1,
+      "allocated_delta": 0.05,
+      "required_independent_units": 59,
+      "upper_bound_at_n": 0.049507609888227
+    },
+    {
+      "failure_probability_target": 0.01,
+      "familywise_delta": 0.05,
+      "contracts": 1,
+      "allocated_delta": 0.05,
+      "required_independent_units": 299,
+      "upper_bound_at_n": 0.009969146792899286
+    },
+    {
+      "failure_probability_target": 0.05,
+      "familywise_delta": 0.05,
+      "contracts": 5,
+      "allocated_delta": 0.01,
+      "required_independent_units": 90,
+      "upper_bound_at_n": 0.049881492681856265
+    },
+    {
+      "failure_probability_target": 0.01,
+      "familywise_delta": 0.05,
+      "contracts": 5,
+      "allocated_delta": 0.01,
+      "required_independent_units": 459,
+      "upper_bound_at_n": 0.009982887366129067
+    }
+  ],
+  "split_policy": "pilot/development exposure cannot become confirmation; freeze full session/run groups and reserve entire model/hardware units for transfer before fitting",
+  "pre_fit_gate": "Report matched channel/time/provenance sufficiency and immutable split to parent BEFORE fitting or large evaluation",
+  "required_stopping_outcome": "Either sufficient new matched data with frozen split, or explicit unavailable parameters and design-only acquisition protocol. Current outcome is latter.",
+  "automatic_numeric_acceptance": false,
+  "single_endpoint_examples_only_unless_confidence_explicitly_allocated": true
+}

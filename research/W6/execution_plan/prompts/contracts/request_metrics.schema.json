@@ -1,0 +1,964 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Flat per-request metrics row; multiple boundaries require separate keyed rows",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "w6-plan-1",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "study_id": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "protocol_id": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "experiment_id": {
+      "enum": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08",
+        "I09",
+        "I10",
+        "I11",
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "A01",
+        "A02",
+        "X01",
+        "X02",
+        "X03",
+        "X04",
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "Z01",
+        "O01",
+        "O02"
+      ],
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "run_id": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "attempt_id": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "session_id": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "cluster_id": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "request_id": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "workload_id": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "policy_id": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "stratum": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "evidence": {
+      "enum": [
+        "MEASURED",
+        "SIMULATED",
+        "HISTORICAL_REPLAY"
+      ],
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "electrical_boundary": {
+      "type": "string",
+      "description": "稳定标识或明确类别；不可混用不同run/边界; unit=1"
+    },
+    "pair_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "block_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "model_family": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "model_revision": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "engine_revision": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "clock_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "calibration_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "stop_class": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "finish_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "primary_window_start_event": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "primary_window_end_event": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "quality_metric_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "null_reasons_ref": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "source_manifest_sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "缺失写null；可恢复的路径/主键应在同根目录解析; unit=1"
+    },
+    "sampling_seed": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "非负整数；seed复现不保证异步引擎输出完全相同; unit=count",
+      "minimum": 0
+    },
+    "controller_seed": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "非负整数；seed复现不保证异步引擎输出完全相同; unit=count",
+      "minimum": 0
+    },
+    "bootstrap_seed": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "非负整数；seed复现不保证异步引擎输出完全相同; unit=count",
+      "minimum": 0
+    },
+    "input_tokens": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "非负整数；seed复现不保证异步引擎输出完全相同; unit=count",
+      "minimum": 0
+    },
+    "completed_output_tokens": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "非负整数；seed复现不保证异步引擎输出完全相同; unit=count",
+      "minimum": 0
+    },
+    "max_tokens": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "非负整数；seed复现不保证异步引擎输出完全相同; unit=count",
+      "minimum": 0
+    },
+    "prefill_context_tokens": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "非负整数；seed复现不保证异步引擎输出完全相同; unit=count",
+      "minimum": 0
+    },
+    "batch_size": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "非负整数；seed复现不保证异步引擎输出完全相同; unit=count",
+      "minimum": 0
+    },
+    "concurrency": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "非负整数；seed复现不保证异步引擎输出完全相同; unit=count",
+      "minimum": 0
+    },
+    "randomization_order": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "非负整数；seed复现不保证异步引擎输出完全相同; unit=count",
+      "minimum": 0
+    },
+    "success": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "真假与未知分开；未知为null; unit=1"
+    },
+    "censored": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "真假与未知分开；未知为null; unit=1"
+    },
+    "quality_gate_pass": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "真假与未知分开；未知为null; unit=1"
+    },
+    "qos_gate_pass": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "真假与未知分开；未知为null; unit=1"
+    },
+    "analysis_included": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "真假与未知分开；未知为null; unit=1"
+    },
+    "physical_admitted": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "真假与未知分开；未知为null; unit=1"
+    },
+    "request_start_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0; unit=ns",
+      "minimum": 0
+    },
+    "first_token_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0; unit=ns",
+      "minimum": 0
+    },
+    "true_eos_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0; unit=ns",
+      "minimum": 0
+    },
+    "engine_eos_visible_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0; unit=ns",
+      "minimum": 0
+    },
+    "controller_eos_visible_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0; unit=ns",
+      "minimum": 0
+    },
+    "client_eos_visible_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0; unit=ns",
+      "minimum": 0
+    },
+    "power_return_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0; unit=ns",
+      "minimum": 0
+    },
+    "matched_state_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0; unit=ns",
+      "minimum": 0
+    },
+    "grid_tail_end_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0; unit=ns",
+      "minimum": 0
+    },
+    "capture_end_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同clock_id/boot的host monotonic整数；原sensor时间保留于raw，未知不填0; unit=ns",
+      "minimum": 0
+    },
+    "TTFT_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "useful_latency_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "ITL_p50_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "ITL_p95_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "ITL_p99_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "engine_EOS_delay_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "controller_EOS_delay_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "client_EOS_delay_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "command_api_latency_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "physical_effect_latency_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "power_return_after_true_eos_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "matched_reset_after_true_eos_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "T_powercycle_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "T_matched_cycle_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "grid_tail_after_power_return_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "warmup_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "cooldown_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "controller_wall_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "controller_cpu_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "solver_wall_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "solver_cpu_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "明确事件端点及适用窗口；未知/不准入写null; unit=s"
+    },
+    "E_gross_request_power_return_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "E_dynamic_request_power_return_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "E_gross_request_matched_state_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "E_dynamic_request_matched_state_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "E_productive_dynamic_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "E_recovery_dynamic_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "E_warmup_gross_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "E_cooldown_gross_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "E_whole_capture_gross_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "J_W6_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "仅冻结理论电气边界（通常GPU全rail DC dynamic）可计算；NVML/AC/PCC等其他边界为null且记录原因，类似目标另命名；unit=J"
+    },
+    "E_primary_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "energy_uncertainty_J": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "积分来自命名边界实际功率；dynamic不截负；J只按冻结c与功率周期计算; unit=J"
+    },
+    "c_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "原W6能量-功率周期权重，仅理论电气边界行使用；unit=W"
+    },
+    "baseline_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "actual_power_mean_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "actual_power_peak_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "requested_cap_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "configured_cap_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "enforced_cap_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "cap_original_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "cap_restored_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "tracking_RMSE_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "tracking_max_abs_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "calibration_error_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "baseline_error_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "filter_error_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "PCC_residual_bound_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "命令cap与实际power分开，未知不填0; unit=W"
+    },
+    "sampled_slew_max_W_per_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "采样差分描述值，不是连续时间硬slew界; unit=W/s"
+    },
+    "temperature_start_C": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "设备读数与支持范围; unit=degC"
+    },
+    "temperature_end_C": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "设备读数与支持范围; unit=degC"
+    },
+    "temperature_max_C": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "设备读数与支持范围; unit=degC"
+    },
+    "clock_start_MHz": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "device clock遥测；不是时间基准; unit=MHz"
+    },
+    "clock_end_MHz": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "device clock遥测；不是时间基准; unit=MHz"
+    },
+    "clock_error_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同步误差/间隙/覆盖端点; unit=ns",
+      "minimum": 0
+    },
+    "max_gap_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同步误差/间隙/覆盖端点; unit=ns",
+      "minimum": 0
+    },
+    "coverage_start_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同步误差/间隙/覆盖端点; unit=ns",
+      "minimum": 0
+    },
+    "coverage_end_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "同步误差/间隙/覆盖端点; unit=ns",
+      "minimum": 0
+    },
+    "raw_rows": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "原始量与程序/系统测量方法须注明; unit=count",
+      "minimum": 0
+    },
+    "missing_rows": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "原始量与程序/系统测量方法须注明; unit=count",
+      "minimum": 0
+    },
+    "raw_bytes": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "原始量与程序/系统测量方法须注明; unit=byte",
+      "minimum": 0
+    },
+    "peak_GPU_memory_bytes": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "原始量与程序/系统测量方法须注明; unit=byte",
+      "minimum": 0
+    },
+    "peak_host_memory_bytes": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "原始量与程序/系统测量方法须注明; unit=byte",
+      "minimum": 0
+    },
+    "tokens_per_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "token计数不是chunk计数；注明useful时间窗; unit=token/s"
+    },
+    "quality_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "质量指标按quality_metric_id定义量纲、方向和计算方法，未知为null; unit=metric_specific"
+    },
+    "PCC_gain": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "同单位GPU动态功率到PCC有功增量的条件增益；需声明模型/适用域; unit=1"
+    },
+    "completed_fraction": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "声明分析单位内完成请求数/全部尝试请求数；逐请求行取0或1，未知为null；不可筛选成功后再算; unit=1"
+    },
+    "PCC_peak_after_return": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "最大实测网侧峰值是否发生在GPU功率返回后; unit=1"
+    },
+    "PCC_active_peak_W": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "PCC边界，不能由GPU功率代替; unit=W"
+    },
+    "PCC_reactive_peak_var": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "PCC无功功率; unit=var"
+    },
+    "PCC_voltage_min_V": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "注明RMS/相/窗口; unit=V"
+    },
+    "PCC_voltage_max_V": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "注明RMS/相/窗口; unit=V"
+    },
+    "PCC_current_peak_A": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "注明相/窗口/带宽; unit=A"
+    },
+    "grid_frequency_peak_abs_Hz": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "仅有PCC/网频证据或明确SIMULATED模型时提供; unit=Hz"
+    },
+    "grid_frequency_tail_bound_Hz": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "仅有PCC/网频证据或明确SIMULATED模型时提供; unit=Hz"
+    },
+    "grid_violation_duration_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "基于设施批准或明确模拟阈值；两者不得混淆; unit=s"
+    }
+  },
+  "required": [
+    "schema_version",
+    "study_id",
+    "protocol_id",
+    "experiment_id",
+    "run_id",
+    "attempt_id",
+    "session_id",
+    "cluster_id",
+    "request_id",
+    "workload_id",
+    "policy_id",
+    "stratum",
+    "evidence",
+    "electrical_boundary"
+  ],
+  "additionalProperties": false
+}

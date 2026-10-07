@@ -1,0 +1,39 @@
+{
+  "schema_version": "w6-plan-1",
+  "study_id": "REPLACE_STUDY",
+  "protocol_id": "REPLACE_PROTOCOL",
+  "state": "DRAFT",
+  "protocol_path": "01_protocol/protocol.json",
+  "protocol_sha256": null,
+  "registry_sha256": null,
+  "code_sha256": null,
+  "git_diff_sha256": null,
+  "declared_before_confirmation_outcomes": null,
+  "local_created_utc": null,
+  "timestamp_evidence": {
+    "status": "NONE",
+    "reference": null,
+    "sha256": null
+  },
+  "operator_acknowledgment": {
+    "status": "UNCONFIRMED",
+    "reference": null,
+    "confirmed_utc": null,
+    "scope": null
+  },
+  "digital_signature": {
+    "status": "NOT_REQUESTED",
+    "reference": null,
+    "verification_report": null
+  },
+  "amends_protocol_id": null,
+  "amendment_reason": null,
+  "registry_link": {
+    "mode": null,
+    "parent_registry_sha256": null,
+    "linked_model_sha256": null,
+    "compatibility_test_report": null,
+    "old_split_sha_gate_preserved": null,
+    "calibration_only_budget_rule_reference": null
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "status": "PLANNING_COVERAGE_PASS_NOT_EXPERIMENT_PASS",
+  "planned_only": true,
+  "hardware_runs": 0,
+  "new_scientific_experiments": 0,
+  "dimensions": [
+    {
+      "dimension_zh": "理论主贡献与最近先例范围",
+      "experiment_ids": [
+        "F02",
+        "F03",
+        "N03"
+      ],
+      "coverage_note_zh": "已有窄理论条件，不扩成通用控制新发明",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "旧 hard deadline 失败与权威更正",
+      "experiment_ids": [
+        "F02",
+        "N03",
+        "C03"
+      ],
+      "coverage_note_zh": "保留，硬件成功不能修复反例",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "当前包可用脚本与缺实现",
+      "experiment_ids": [
+        "F01",
+        "I02",
+        "Z01"
+      ],
+      "coverage_note_zh": "IMPLEMENTATION_LEDGER 分开 CPU tested、hardware untested、missing",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "GPU DC PCC 证据分层",
+      "experiment_ids": [
+        "F03",
+        "I11",
+        "G01",
+        "Z01"
+      ],
+      "coverage_note_zh": "每个 claim 有资源门槛",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "cap 与实际功率分离",
+      "experiment_ids": [
+        "I04",
+        "I06",
+        "I08"
+      ],
+      "coverage_note_zh": "命令与物理生效分开",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "device EOS 与可见延迟",
+      "experiment_ids": [
+        "I02",
+        "I07",
+        "N04"
+      ],
+      "coverage_note_zh": "host 回调不能冒充 device",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "自然 EOS stop rule 删失",
+      "experiment_ids": [
+        "I07",
+        "I10",
+        "C05"
+      ],
+      "coverage_note_zh": "censoring 与所有失败进入账本",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "prefill decode context KV batch",
+      "experiment_ids": [
+        "I09",
+        "X01"
+      ],
+      "coverage_note_zh": "条件模型与 sentinel，不强行单标量",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "热状态 clocks throttle 滞回",
+      "experiment_ids": [
+        "I01",
+        "I06",
+        "I08",
+        "I09"
+      ],
+      "coverage_note_zh": "完整初终状态和相邻条件检验",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "时钟 drift offset latency",
+      "experiment_ids": [
+        "I04"
+      ],
+      "coverage_note_zh": "前后 marker 与误差，禁止相关对齐零延迟",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "计量 rails filter bandwidth",
+      "experiment_ids": [
+        "I04"
+      ],
+      "coverage_note_zh": "系统误差独立，无界则降 tier",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "连续 slew 无法由样本差分证明",
+      "experiment_ids": [
+        "I04",
+        "I08"
+      ],
+      "coverage_note_zh": "独立 regularity/带宽合同，禁止循环自证",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "物理恢复 burn actuator 可实现性",
+      "experiment_ids": [
+        "I08"
+      ],
+      "coverage_note_zh": "不可用就改合同，默认不自动 burn",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "全周期全尾部多个窗口",
+      "experiment_ids": [
+        "I08",
+        "C04",
+        "G03"
+      ],
+      "coverage_note_zh": "理论 Tpowercycle 与 deployment matched-state 不偷换",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "强基线同信息全成本",
+      "experiment_ids": [
+        "N02",
+        "C02",
+        "C04"
+      ],
+      "coverage_note_zh": "全局恒目标与同信息参照，不挑弱 cap",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "匹配 QoS 尾部与质量",
+      "experiment_ids": [
+        "C02",
+        "C03",
+        "C05"
+      ],
+      "coverage_note_zh": "mean/p95/p99/TTFT/ITL/失败/quality",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "全局 reference 与 solver stress",
+      "experiment_ids": [
+        "N01",
+        "N02",
+        "O01"
+      ],
+      "coverage_note_zh": "有限类和连续证书区别，保留网格负例",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "pilot calibration confirmation 分开",
+      "experiment_ids": [
+        "I11",
+        "C01",
+        "F04"
+      ],
+      "coverage_note_zh": "曝光不可恢复成 untouched",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "30 episodes 不等于30独立样本",
+      "experiment_ids": [
+        "I06",
+        "F04",
+        "C05"
+      ],
+      "coverage_note_zh": "以 session/随机化 unit 设计与统计",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "pilot-based power 与误差可检测性",
+      "experiment_ids": [
+        "I05",
+        "I11",
+        "F04"
+      ],
+      "coverage_note_zh": "工程容忍度、cluster variance、systematic floor",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "合法序贯与多重性",
+      "experiment_ids": [
+        "F04",
+        "C05"
+      ],
+      "coverage_note_zh": "固定 N 或预先合法方法，不偷看直到显著",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "全部尝试失败缺失与不确定",
+      "experiment_ids": [
+        "I07",
+        "C05",
+        "Z01"
+      ],
+      "coverage_note_zh": "无失败剔除、无缺失 energy 造值",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "成本会计与 controller 开销",
+      "experiment_ids": [
+        "I05",
+        "C04"
+      ],
+      "coverage_note_zh": "离线/在线/仪表/采集成本分别",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "同 raw 重分析与实体反事实区别",
+      "experiment_ids": [
+        "A01",
+        "A02",
+        "N04"
+      ],
+      "coverage_note_zh": "一次采集复算；改策略必须模型标签或新采集",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "分布与参数失配 robust",
+      "experiment_ids": [
+        "I10",
+        "N04"
+      ],
+      "coverage_note_zh": "whole-box 证明不同于角点测试",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "workload model device 迁移",
+      "experiment_ids": [
+        "X01",
+        "X02",
+        "X03"
+      ],
+      "coverage_note_zh": "整保留单位，zero-shot vs adaptation",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "队列 并发 连续任务",
+      "experiment_ids": [
+        "X04"
+      ],
+      "coverage_note_zh": "只有生产/再生声明触发新合同",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "PCC 因果映射与设施模式",
+      "experiment_ids": [
+        "G01",
+        "G02"
+      ],
+      "coverage_note_zh": "同步实测，PUE/跨trace 不替代",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "网侧初态 p=0 后尾部",
+      "experiment_ids": [
+        "G03",
+        "G04"
+      ],
+      "coverage_note_zh": "7/8 旧模型尾峰，需完整 tail budget",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "线性 非线性 真实网侧级别",
+      "experiment_ids": [
+        "G03",
+        "G05"
+      ],
+      "coverage_note_zh": "单GPU不能识别公用电网频率",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "可选严格证书与独立复现",
+      "experiment_ids": [
+        "O01",
+        "O02"
+      ],
+      "coverage_note_zh": "不挡主要路线，不无限加范围",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    },
+    {
+      "dimension_zh": "可复算打包哈希来源与负结果",
+      "experiment_ids": [
+        "Z01"
+      ],
+      "coverage_note_zh": "raw immutable、每图source data、所有未完成标签",
+      "design_coverage": "COVERED",
+      "empirical_gate_passed": false
+    }
+  ],
+  "missing_by_design": [
+    "未获取操作者硬件/阈值/预算，故没有已批准具体 power settings 或确认 N",
+    "未实施新 runner/adapter/统计模块，不能把本报告当成现成硬件软件",
+    "未建立真实 DC/PCC/grid 物理资格"
+  ]
+}

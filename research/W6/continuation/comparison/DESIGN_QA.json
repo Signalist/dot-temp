@@ -1,0 +1,30 @@
+{
+  "scope": "Data/configuration consistency only; no repository program, generated code or GPU executed",
+  "checks": {
+    "json_parsed": true,
+    "new_gpu_acquisitions_zero": true,
+    "physical_claim_blocked": true,
+    "actual_benchmark_exists": true,
+    "benchmark_hash_matches_freeze": true,
+    "references_hash_matches_freeze": true,
+    "18_tasks_9_families": true,
+    "split_counts_six_each": true,
+    "source_fields_exist": true,
+    "family_disjoint": true,
+    "paired_schedule_12_balanced": true,
+    "phase_names_unambiguous": true,
+    "heldout_never_run_in_Q": true,
+    "all_task_contract_hashes_verified": true,
+    "final_validator_hash_matches_reviewed_worker_receipt": true,
+    "all_external_source_files_still_match": true
+  },
+  "passed": true,
+  "not_verified": [
+    "GPU access",
+    "installed graph compatibility",
+    "actual model quality",
+    "measurement closure",
+    "any treatment effect"
+  ],
+  "final_validator_sha256": "14066cae918a6af30486de406aabd0ec3add22ed80006e1276e9d8362254e439"
+}

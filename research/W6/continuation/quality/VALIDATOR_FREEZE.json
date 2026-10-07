@@ -1,0 +1,6 @@
+{
+  "validator_sha256": "14066cae918a6af30486de406aabd0ec3add22ed80006e1276e9d8362254e439",
+  "test_source_sha256": "e3659c4c5bc1d6d082cda370b6ba8cc7e3b4b20df1c1656c9669df42470f248b",
+  "scope": "bounded subset, no generated-code execution; writing human review required",
+  "frozen_utc": "2026-10-07T01:38:00Z"
+}

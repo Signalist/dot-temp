@@ -1,0 +1,52 @@
+{
+  "schema_version": "w6-1",
+  "evidence": "MEASURED",
+  "acquisition_id": "REPLACE_ACQUISITION",
+  "run_id": "run_REPLACE",
+  "session_id": "REPLACE_SESSION",
+  "clock_id": "REPLACE_BOOT_CLOCK",
+  "stage": "identification",
+  "tier": "GPU_ONLY",
+  "device_id_hash": "REPLACE_HASH",
+  "model_family": "REPLACE_FAMILY",
+  "device_model_unit": "REPLACE_GPU_MODEL",
+  "model_revision": "REPLACE_MODEL_REV",
+  "engine_revision": "REPLACE_ENGINE_REV",
+  "stratum": "decode_context128_batch1",
+  "request_id": "REPLACE_REQUEST",
+  "max_tokens": 128,
+  "concurrency": 1,
+  "units": {
+    "time": "ns",
+    "power": "W",
+    "energy": "J",
+    "work": "tokens"
+  },
+  "clock_error_ns": null,
+  "max_gap_ns": null,
+  "baseline_method": "REPLACE_AUDITED_BASELINE",
+  "initial_state": {},
+  "stop_rules_id": "REPLACE_STOP_CONFIG_HASH",
+  "service_window_offsets_ns": [
+    [
+      1000000000,
+      3000000000
+    ]
+  ],
+  "service_endpoint_rule": "first_progress_at_or_after_offset",
+  "endpoint_lag_max_ns": 250000000,
+  "progress_timing_audit_id": null,
+  "intervention_audit_id": null,
+  "fullcycle_audit_id": null,
+  "channels": {
+    "nvml": {
+      "source": "nvmlDeviceGetPowerUsage",
+      "boundary": "REPLACE_DEVICE_BOUNDARY",
+      "calibration_error_W": null,
+      "filter_error_W": null,
+      "baseline_error_W": null,
+      "filter_description": "REPLACE_DEVICE_API_FILTER_DESCRIPTION",
+      "bandwidth_Hz": null
+    }
+  }
+}

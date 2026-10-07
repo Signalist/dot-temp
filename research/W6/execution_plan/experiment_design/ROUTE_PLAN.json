@@ -1,0 +1,533 @@
+{
+  "version": "1.1",
+  "status": "PLANNING_ONLY",
+  "profiles": [
+    {
+      "route_id": "CPU_THEORY_EXISTING",
+      "required_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "N03",
+        "Z01"
+      ],
+      "claim_zh": "复核既有窄理论及固定模型证据，无新科学参数扫描",
+      "resolved_dependencies": {
+        "F01": [],
+        "Z01": [
+          "F01",
+          "F02",
+          "F03",
+          "N03"
+        ],
+        "F03": [
+          "F02"
+        ],
+        "F02": [
+          "F01"
+        ],
+        "N03": [
+          "F02"
+        ]
+      }
+    },
+    {
+      "route_id": "CPU_THEORY_NEW_MODEL",
+      "required_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "N03",
+        "N01",
+        "N02",
+        "N04",
+        "Z01"
+      ],
+      "claim_zh": "新增声明模型/理论合同的CPU数值工作，不依赖任何硬件pilot",
+      "resolved_dependencies": {
+        "F01": [],
+        "Z01": [
+          "F01",
+          "F02",
+          "F03",
+          "N01",
+          "N02",
+          "N03",
+          "N04"
+        ],
+        "F03": [
+          "F02"
+        ],
+        "F02": [
+          "F01"
+        ],
+        "N02": [
+          "N01"
+        ],
+        "N04": [
+          "N01",
+          "N02"
+        ],
+        "N01": [
+          "F03",
+          "N03"
+        ],
+        "N03": [
+          "F02"
+        ]
+      }
+    },
+    {
+      "route_id": "GPU_ONLY",
+      "required_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "I01",
+        "I02",
+        "I03",
+        "I05",
+        "I07",
+        "I11",
+        "Z01"
+      ],
+      "claim_zh": "只读遥测与host/device可得事件的限定描述；不称DC控制验证",
+      "resolved_dependencies": {
+        "F01": [],
+        "Z01": [
+          "F01",
+          "F02",
+          "F03",
+          "I01",
+          "I02",
+          "I03",
+          "I05",
+          "I07",
+          "I11"
+        ],
+        "F03": [
+          "F02"
+        ],
+        "F02": [
+          "F01"
+        ],
+        "I07": [
+          "I02",
+          "I03"
+        ],
+        "I02": [
+          "I01"
+        ],
+        "I01": [
+          "F03"
+        ],
+        "I11": [
+          "I03",
+          "I05",
+          "I07"
+        ],
+        "I05": [
+          "I03"
+        ],
+        "I03": [
+          "I01",
+          "I02"
+        ]
+      }
+    },
+    {
+      "route_id": "GPU_DC",
+      "required_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08",
+        "I09",
+        "I11",
+        "N01",
+        "N02",
+        "N04",
+        "C01",
+        "F04",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "A01",
+        "Z01"
+      ],
+      "claim_zh": "窄域单任务DC实测控制和完整周期比较",
+      "resolved_dependencies": {
+        "F01": [],
+        "F02": [
+          "F01"
+        ],
+        "I08": [
+          "I06",
+          "I07"
+        ],
+        "N04": [
+          "N01",
+          "N02"
+        ],
+        "I03": [
+          "I01",
+          "I02"
+        ],
+        "Z01": [
+          "A01",
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "F01",
+          "F02",
+          "F03",
+          "F04",
+          "I01",
+          "I02",
+          "I03",
+          "I04",
+          "I05",
+          "I06",
+          "I07",
+          "I08",
+          "I09",
+          "I11",
+          "N01",
+          "N02",
+          "N04"
+        ],
+        "F03": [
+          "F02"
+        ],
+        "F04": [
+          "C01",
+          "N04"
+        ],
+        "N02": [
+          "N01"
+        ],
+        "C05": [
+          "C02",
+          "C03",
+          "C04"
+        ],
+        "N01": [
+          "I11"
+        ],
+        "C01": [
+          "I11",
+          "N01",
+          "N02"
+        ],
+        "I09": [
+          "I06"
+        ],
+        "A01": [
+          "C02"
+        ],
+        "C03": [
+          "F04",
+          "C02"
+        ],
+        "C02": [
+          "F04"
+        ],
+        "I07": [
+          "I02",
+          "I03"
+        ],
+        "I02": [
+          "I01"
+        ],
+        "I01": [
+          "F03"
+        ],
+        "I11": [
+          "I03",
+          "I04",
+          "I05",
+          "I06",
+          "I07",
+          "I08",
+          "I09"
+        ],
+        "I05": [
+          "I03"
+        ],
+        "I04": [
+          "I03"
+        ],
+        "I06": [
+          "I04",
+          "I05"
+        ],
+        "C04": [
+          "C02"
+        ]
+      }
+    },
+    {
+      "route_id": "PCC",
+      "required_ids": [
+        "F01",
+        "F02",
+        "F03",
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08",
+        "I09",
+        "I11",
+        "N01",
+        "N02",
+        "N04",
+        "C01",
+        "F04",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "A01",
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "Z01"
+      ],
+      "claim_zh": "在设施与模型资格完整的范围内追加PCC/网侧声明",
+      "resolved_dependencies": {
+        "F01": [],
+        "F02": [
+          "F01"
+        ],
+        "I08": [
+          "I06",
+          "I07"
+        ],
+        "N04": [
+          "N01",
+          "N02"
+        ],
+        "I03": [
+          "I01",
+          "I02"
+        ],
+        "Z01": [
+          "A01",
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "F01",
+          "F02",
+          "F03",
+          "F04",
+          "G01",
+          "G02",
+          "G03",
+          "G04",
+          "I01",
+          "I02",
+          "I03",
+          "I04",
+          "I05",
+          "I06",
+          "I07",
+          "I08",
+          "I09",
+          "I11",
+          "N01",
+          "N02",
+          "N04"
+        ],
+        "F03": [
+          "F02"
+        ],
+        "F04": [
+          "C01",
+          "N04"
+        ],
+        "N02": [
+          "N01"
+        ],
+        "C05": [
+          "C02",
+          "C03",
+          "C04"
+        ],
+        "N01": [
+          "I11"
+        ],
+        "C01": [
+          "I11",
+          "N01",
+          "N02"
+        ],
+        "I09": [
+          "I06"
+        ],
+        "G04": [
+          "G03",
+          "F04",
+          "C01"
+        ],
+        "A01": [
+          "C02"
+        ],
+        "C03": [
+          "F04",
+          "C02"
+        ],
+        "C02": [
+          "F04"
+        ],
+        "G02": [
+          "G01",
+          "I08"
+        ],
+        "I07": [
+          "I02",
+          "I03"
+        ],
+        "I02": [
+          "I01"
+        ],
+        "I01": [
+          "F03"
+        ],
+        "G01": [
+          "F03",
+          "I04"
+        ],
+        "I11": [
+          "I03",
+          "I04",
+          "I05",
+          "I06",
+          "I07",
+          "I08",
+          "I09"
+        ],
+        "I05": [
+          "I03"
+        ],
+        "G03": [
+          "G02"
+        ],
+        "I04": [
+          "I03"
+        ],
+        "I06": [
+          "I04",
+          "I05"
+        ],
+        "C04": [
+          "C02"
+        ]
+      }
+    }
+  ],
+  "claim_triggered_extensions": [
+    {
+      "if_flag": "descriptive_context_thermal_scope_check",
+      "add_ids": [
+        "I09"
+      ]
+    },
+    {
+      "if_flag": "natural_eos_claim",
+      "add_ids": [
+        "I10"
+      ]
+    },
+    {
+      "if_flag": "theory_claim_with_hardware",
+      "add_ids": [
+        "N03"
+      ]
+    },
+    {
+      "if_flag": "physical_component_mechanism_claim",
+      "add_ids": [
+        "A02"
+      ]
+    },
+    {
+      "if_flag": "workload_generalization_claim",
+      "add_ids": [
+        "X01"
+      ]
+    },
+    {
+      "if_flag": "model_generalization_claim",
+      "add_ids": [
+        "X02"
+      ]
+    },
+    {
+      "if_flag": "hardware_generalization_claim",
+      "add_ids": [
+        "X03"
+      ]
+    },
+    {
+      "if_flag": "queue_concurrency_regeneration_claim",
+      "add_ids": [
+        "X04"
+      ]
+    },
+    {
+      "if_flag": "nonlinear_network_claim",
+      "add_ids": [
+        "G05"
+      ]
+    },
+    {
+      "if_flag": "strict_machine_certificate_claim",
+      "add_ids": [
+        "O01"
+      ]
+    },
+    {
+      "if_flag": "optional_independent_replication",
+      "add_ids": [
+        "O02"
+      ]
+    }
+  ],
+  "extension_rule_zh": "选扩展时递归加入其本路线依赖；不存在硬件/授权则BLOCKED，不能换路线假装完成",
+  "Z01_aggregation_gate": {
+    "type": "all_selected_experiments_accounted",
+    "exclude_ids": [
+      "Z01"
+    ],
+    "required_terminal_execution_states": [
+      "PASS",
+      "FAIL",
+      "BLOCKED"
+    ],
+    "not_applicable_rule": "仅未选分支允许status=NOT_RUN、applicability=OUT_OF_SCOPE，并在reason中写NOT_APPLICABLE_BY_SCOPE及具体原因；不可写PASS",
+    "statistical_conclusions": [
+      "supported",
+      "not_supported",
+      "inconclusive",
+      "not_tested"
+    ],
+    "completion_rule_zh": "汇总必须等待所有已选必要ID有可审计终态；BLOCKED可打包缺口但不能视为科学完成。不能只检查F02/F03。"
+  }
+}

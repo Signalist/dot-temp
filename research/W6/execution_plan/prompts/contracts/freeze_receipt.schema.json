@@ -1,0 +1,322 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Freeze receipt records genuine acknowledgment; hashes are not approval or timing proof",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "w6-plan-1"
+    },
+    "study_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "protocol_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state": {
+      "enum": [
+        "DRAFT",
+        "FROZEN",
+        "SUPERSEDED"
+      ]
+    },
+    "protocol_path": {
+      "type": "string",
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+$"
+    },
+    "protocol_sha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "registry_sha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "code_sha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "git_diff_sha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "declared_before_confirmation_outcomes": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "local_created_utc": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "timestamp_evidence": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "NONE",
+            "LOCAL_TIMESTAMP_ONLY",
+            "INDEPENDENTLY_ANCHORED"
+          ]
+        },
+        "reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "status",
+        "reference",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "operator_acknowledgment": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "UNCONFIRMED",
+            "CONFIRMED"
+          ]
+        },
+        "reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confirmed_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "status",
+        "reference",
+        "confirmed_utc",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "digital_signature": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "NOT_REQUESTED",
+            "ABSENT",
+            "PRESENT_UNVERIFIED",
+            "VERIFIED"
+          ]
+        },
+        "reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verification_report": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "status",
+        "reference",
+        "verification_report"
+      ],
+      "additionalProperties": false
+    },
+    "amends_protocol_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "amendment_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "registry_link": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            null,
+            "FULL_PROSPECTIVE_REGISTRY_BEFORE_C01",
+            "TESTED_PARENT_CHILD_MANIFEST_CHAIN"
+          ]
+        },
+        "parent_registry_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "linked_model_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "compatibility_test_report": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "old_split_sha_gate_preserved": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "calibration_only_budget_rule_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "mode",
+        "parent_registry_sha256",
+        "linked_model_sha256",
+        "compatibility_test_report",
+        "old_split_sha_gate_preserved",
+        "calibration_only_budget_rule_reference"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "study_id",
+    "protocol_id",
+    "state",
+    "protocol_path",
+    "protocol_sha256",
+    "registry_sha256",
+    "code_sha256",
+    "git_diff_sha256",
+    "declared_before_confirmation_outcomes",
+    "local_created_utc",
+    "timestamp_evidence",
+    "operator_acknowledgment",
+    "digital_signature",
+    "amends_protocol_id",
+    "amendment_reason",
+    "registry_link"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "state": {
+            "const": "FROZEN"
+          }
+        },
+        "required": [
+          "state"
+        ]
+      },
+      "then": {
+        "properties": {
+          "protocol_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "registry_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "code_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "declared_before_confirmation_outcomes": {
+            "const": true
+          },
+          "operator_acknowledgment": {
+            "properties": {
+              "status": {
+                "const": "CONFIRMED"
+              },
+              "reference": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "status",
+              "reference"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

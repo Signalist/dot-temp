@@ -1,0 +1,72 @@
+{
+  "n_rows": 19366,
+  "n_distinct_output_lengths": 623,
+  "generated_tokens": {
+    "min": 7,
+    "max": 1000,
+    "mean": 211.12594237323142,
+    "p25": 85,
+    "median": 129,
+    "p75": 395,
+    "p90": 424,
+    "p95": 451,
+    "p99": 601
+  },
+  "zero_length_rows": 0,
+  "timestamp_min": "2023-11-16 18:15:46.6805900",
+  "timestamp_max": "2023-11-16 19:14:08.4025270",
+  "context_tokens_min": 2,
+  "context_tokens_max": 14050,
+  "top_atoms": [
+    [
+      396,
+      425
+    ],
+    [
+      217,
+      277
+    ],
+    [
+      411,
+      216
+    ],
+    [
+      429,
+      210
+    ],
+    [
+      414,
+      207
+    ],
+    [
+      95,
+      192
+    ],
+    [
+      394,
+      190
+    ],
+    [
+      397,
+      189
+    ],
+    [
+      90,
+      187
+    ],
+    [
+      93,
+      186
+    ],
+    [
+      91,
+      184
+    ],
+    [
+      89,
+      180
+    ]
+  ],
+  "date_note": "README says collected 2023-11-11, CSV timestamps start 2023-11-16; preserve observed timestamp range, do not silently reconcile",
+  "interpretation": "Observed generated-token distribution only; natural EOS vs cap reason absent; not constant-work tokens, not measured power"
+}

@@ -1,0 +1,87 @@
+{
+  "scope": "theory plus qualified CPU model simulation complete; hardware qualification blocked",
+  "hardware_measurements": false,
+  "frequency_budget_is_regulatory": false,
+  "original_hard_deadline_failure_reversed": false,
+  "outward_rounded_cost_certificate": false,
+  "primary_design_cases": 1,
+  "primary_confirmatory_cases": 8,
+  "executor_model_combinations": 72,
+  "network_exploratory_cases": 4,
+  "support_LP_runs": 12,
+  "independent_samples_claimed": false,
+  "grid_safe_class": "sufficient fixed actualpower caps, not exact signed-grid optimal policy class",
+  "all_lp_saved_witness_constraints_exact": true,
+  "portable_replay": true,
+  "guard_summary": {
+    "protocol_sha256": "96c8d1281bd98142fe9a8f0db626ce6b45ab5d3080532ac76f817049bfd6b14b",
+    "amendment_sha256": "7e9bebba4f524f4b1b8c898fa61ba2e5fa372494e7e4699fb3bce970f9cd933e",
+    "confirmation_nominal_guard_peak_range": [
+      0.012236154335813732,
+      0.019793813521412396
+    ],
+    "confirmation_nominal_guard_transfer_peak_range": [
+      0.017058749937627973,
+      0.02532028120263988
+    ],
+    "nominal_peak_after_return_count": 7,
+    "unguarded_nominal_violations": 3,
+    "unguarded_uncertain_violations": 5,
+    "aligned_nominal_gain_range_percent": [
+      0.0007302304944492202,
+      1.4018557432226249
+    ],
+    "aligned_robust_gain_range_percent": [
+      0.0001481314823000406,
+      0.711037221506376
+    ],
+    "executor_max_peak_Hz": 0.022986256733748493,
+    "executor_delay_bounds_all_hold": true,
+    "executor_sampling_only_cost_change_range_percent": [
+      -0.020285061828806406,
+      0.016539074729093883
+    ],
+    "QA": {
+      "source_unchanged": {
+        "research/full_cycle/code/cycle_model.py": true,
+        "research/full_cycle/code/global_bellman.py": true
+      },
+      "protocol_hash_verified": true,
+      "case_count": 9,
+      "aligned_case_count": 9,
+      "executor_case_count": 72,
+      "failures": [],
+      "max_original_bellman_quadrature_disagreement": 8.881784197001252e-15,
+      "max_aligned_refinement_relative_change": 8.133102256141392e-07,
+      "max_uniform_refinement_relative_change": 0.005611568802453025,
+      "max_aligned_finite_mesh_gap": 4.739212369209156e-07,
+      "max_executor_quadrature_relative_change": 1.3605919329847825e-05,
+      "all_confirmations_counted": true,
+      "not_interval_certificate": true
+    }
+  },
+  "network_high_gain_baseline_negative_preserved": true,
+  "local_report_links": [
+    {
+      "file": "GRID_EXTENSION_REPORT_ZH.md",
+      "link": "theory/GRID_MEMORY_THEOREMS.md",
+      "exists": true
+    },
+    {
+      "file": "GRID_EXTENSION_REPORT_ZH.md",
+      "link": "review/PROJECTION_REVIEW.md",
+      "exists": true
+    },
+    {
+      "file": "GRID_EXTENSION_REPORT_ZH.md",
+      "link": "guard_eval/",
+      "exists": true
+    },
+    {
+      "file": "GRID_EXTENSION_REPORT_ZH.md",
+      "link": "ENVIRONMENT_RESET.md",
+      "exists": true
+    }
+  ],
+  "environment_reset_disclosed": true
+}

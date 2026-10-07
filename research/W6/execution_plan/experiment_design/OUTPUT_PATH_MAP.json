@@ -1,0 +1,806 @@
+{
+  "status": "PLANNED_PATH_MAP_NOT_EXISTENCE_CLAIM",
+  "canonical_tree_source": "prompts/00_MASTER_PROMPT_ZH.txt section 9",
+  "root_aliases": {
+    "provenance": "00_inventory",
+    "hardware": "00_inventory/hardware",
+    "software": "02_code",
+    "protocol": "01_protocol",
+    "calibration": "03_calibration",
+    "pilot": "03_calibration/pilot",
+    "decisions": "07_audit/decisions",
+    "evidence": "07_audit/evidence",
+    "raw": "04_raw",
+    "derived": "05_derived",
+    "analysis": "05_derived/analysis",
+    "confirm": "05_derived/confirm",
+    "accounting": "05_derived/accounting",
+    "simulation": "05_derived/simulation",
+    "solver": "05_derived/solver",
+    "ablation": "05_derived/ablation",
+    "transfer": "05_derived/transfer",
+    "queue": "05_derived/queue",
+    "grid": "05_derived/grid",
+    "optional": "05_derived/optional"
+  },
+  "exact_overrides": {
+    "README_ZH.md": "README_START_HERE_ZH.txt",
+    "FINAL_STATUS.json": "07_audit/FINAL_STATUS.json",
+    "CLAIM_EVIDENCE.csv": "07_audit/claim_evidence.csv",
+    "FAILED_AND_INCONCLUSIVE.csv": "07_audit/FAILED_AND_INCONCLUSIVE.csv",
+    "MANIFEST_SHA256.json": "08_delivery/MANIFEST_SHA256.json",
+    "REPRODUCE.md": "08_delivery/REPRODUCE.md",
+    "software/smoke.log": "07_audit/tests/smoke.log",
+    "software/contract_tests.json": "07_audit/tests/contract_tests.json",
+    "grid/topology.pdf": "00_inventory/grid/topology.pdf",
+    "grid/site_contract.json": "01_protocol/grid/site_contract.json",
+    "grid/meter_scope.json": "00_inventory/grid/meter_scope.json",
+    "grid/operator_limits.json": "01_protocol/grid/operator_limits.json"
+  },
+  "raw_rule": "所有原始采集均落04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/；按experiment_id索引；相同采集只存一份，其他实验引用acquisition_id/hash",
+  "entries": [
+    {
+      "experiment_id": "F01",
+      "logical_name": "provenance/input_receipt.json",
+      "canonical_relative_path": "00_inventory/input_receipt.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F01",
+      "logical_name": "provenance/package_verification.json",
+      "canonical_relative_path": "00_inventory/package_verification.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F01",
+      "logical_name": "software/smoke.log",
+      "canonical_relative_path": "07_audit/tests/smoke.log",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F02",
+      "logical_name": "evidence/frozen_claims.csv",
+      "canonical_relative_path": "07_audit/evidence/frozen_claims.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F02",
+      "logical_name": "evidence/negative_results.csv",
+      "canonical_relative_path": "07_audit/evidence/negative_results.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F02",
+      "logical_name": "evidence/source_hashes.json",
+      "canonical_relative_path": "07_audit/evidence/source_hashes.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F03",
+      "logical_name": "protocol/claim_scope.json",
+      "canonical_relative_path": "01_protocol/claim_scope.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F03",
+      "logical_name": "protocol/claim_evidence_matrix.csv",
+      "canonical_relative_path": "01_protocol/claim_evidence_matrix.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F03",
+      "logical_name": "protocol/operator_inputs.json",
+      "canonical_relative_path": "01_protocol/operator_inputs.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I01",
+      "logical_name": "hardware/inventory.json",
+      "canonical_relative_path": "00_inventory/hardware/inventory.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I01",
+      "logical_name": "hardware/operator_approval.json",
+      "canonical_relative_path": "00_inventory/hardware/operator_approval.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I01",
+      "logical_name": "hardware/safety_plan.json",
+      "canonical_relative_path": "00_inventory/hardware/safety_plan.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I02",
+      "logical_name": "software/engine_adapter_version.json",
+      "canonical_relative_path": "02_code/engine_adapter_version.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I02",
+      "logical_name": "software/controller_adapter_version.json",
+      "canonical_relative_path": "02_code/controller_adapter_version.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I02",
+      "logical_name": "software/contract_tests.json",
+      "canonical_relative_path": "07_audit/tests/contract_tests.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I02",
+      "logical_name": "calibration/event_timing_audit.json",
+      "canonical_relative_path": "03_calibration/event_timing_audit.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I03",
+      "logical_name": "pilot/smoke/raw/",
+      "canonical_relative_path": "04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/<source>/",
+      "path_kind": "template"
+    },
+    {
+      "experiment_id": "I03",
+      "logical_name": "pilot/smoke/admission.json",
+      "canonical_relative_path": "03_calibration/pilot/smoke/admission.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I03",
+      "logical_name": "pilot/smoke/all_attempts.csv",
+      "canonical_relative_path": "03_calibration/pilot/smoke/all_attempts.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I04",
+      "logical_name": "calibration/meter_audit.json",
+      "canonical_relative_path": "03_calibration/meter_audit.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I04",
+      "logical_name": "calibration/clock_transform.json",
+      "canonical_relative_path": "03_calibration/clock_transform.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I04",
+      "logical_name": "calibration/uncertainty_budget.json",
+      "canonical_relative_path": "03_calibration/uncertainty_budget.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I04",
+      "logical_name": "raw/calibration/",
+      "canonical_relative_path": "04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/<source>/",
+      "path_kind": "template"
+    },
+    {
+      "experiment_id": "I05",
+      "logical_name": "pilot/instrumentation_overhead.csv",
+      "canonical_relative_path": "03_calibration/pilot/instrumentation_overhead.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I05",
+      "logical_name": "pilot/instrumentation_decision.json",
+      "canonical_relative_path": "03_calibration/pilot/instrumentation_decision.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I06",
+      "logical_name": "pilot/plateau/all_attempts.csv",
+      "canonical_relative_path": "03_calibration/pilot/plateau/all_attempts.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I06",
+      "logical_name": "pilot/plateau/raw/",
+      "canonical_relative_path": "04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/<source>/",
+      "path_kind": "template"
+    },
+    {
+      "experiment_id": "I06",
+      "logical_name": "pilot/attainable_region.json",
+      "canonical_relative_path": "03_calibration/pilot/attainable_region.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I06",
+      "logical_name": "pilot/service_diagnostics.json",
+      "canonical_relative_path": "03_calibration/pilot/service_diagnostics.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I07",
+      "logical_name": "pilot/eos_reason_audit.csv",
+      "canonical_relative_path": "03_calibration/pilot/eos_reason_audit.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I07",
+      "logical_name": "pilot/censoring_map.json",
+      "canonical_relative_path": "03_calibration/pilot/censoring_map.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I07",
+      "logical_name": "pilot/abort_recovery_audit.json",
+      "canonical_relative_path": "03_calibration/pilot/abort_recovery_audit.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I08",
+      "logical_name": "pilot/actuator_envelope.json",
+      "canonical_relative_path": "03_calibration/pilot/actuator_envelope.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I08",
+      "logical_name": "pilot/terminal_state_audit.json",
+      "canonical_relative_path": "03_calibration/pilot/terminal_state_audit.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I08",
+      "logical_name": "pilot/burn_feasibility.json",
+      "canonical_relative_path": "03_calibration/pilot/burn_feasibility.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I08",
+      "logical_name": "pilot/recovery_curves/",
+      "canonical_relative_path": "03_calibration/pilot/recovery_curves/",
+      "path_kind": "directory"
+    },
+    {
+      "experiment_id": "I09",
+      "logical_name": "pilot/stratum_sentinels.csv",
+      "canonical_relative_path": "03_calibration/pilot/stratum_sentinels.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I09",
+      "logical_name": "pilot/model_scope_decision.json",
+      "canonical_relative_path": "03_calibration/pilot/model_scope_decision.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I10",
+      "logical_name": "calibration/workload_registry.json",
+      "canonical_relative_path": "01_protocol/calibration/workload_registry.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I10",
+      "logical_name": "calibration/length_law.json",
+      "canonical_relative_path": "03_calibration/length_law.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I10",
+      "logical_name": "calibration/censoring_report.json",
+      "canonical_relative_path": "03_calibration/censoring_report.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I11",
+      "logical_name": "decisions/pilot_gate.json",
+      "canonical_relative_path": "07_audit/decisions/pilot_gate.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I11",
+      "logical_name": "decisions/pilot_report.md",
+      "canonical_relative_path": "07_audit/decisions/pilot_report.md",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "I11",
+      "logical_name": "decisions/next_stage_budget.json",
+      "canonical_relative_path": "07_audit/decisions/next_stage_budget.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N01",
+      "logical_name": "solver/accuracy_protocol.json",
+      "canonical_relative_path": "01_protocol/solver/accuracy_protocol.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N01",
+      "logical_name": "solver/refinement.csv",
+      "canonical_relative_path": "05_derived/solver/refinement.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N01",
+      "logical_name": "solver/feasibility.json",
+      "canonical_relative_path": "05_derived/solver/feasibility.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N01",
+      "logical_name": "solver/error_budget.json",
+      "canonical_relative_path": "05_derived/solver/error_budget.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N02",
+      "logical_name": "protocol/baseline_contracts.json",
+      "canonical_relative_path": "01_protocol/baseline_contracts.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N02",
+      "logical_name": "solver/reference_results.json",
+      "canonical_relative_path": "05_derived/solver/reference_results.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N02",
+      "logical_name": "protocol/information_audit.csv",
+      "canonical_relative_path": "01_protocol/information_audit.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N03",
+      "logical_name": "evidence/theory_scope_audit.md",
+      "canonical_relative_path": "07_audit/evidence/theory_scope_audit.md",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N03",
+      "logical_name": "evidence/counterexample_index.csv",
+      "canonical_relative_path": "07_audit/evidence/counterexample_index.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N04",
+      "logical_name": "simulation/uncertainty_protocol.json",
+      "canonical_relative_path": "01_protocol/simulation/uncertainty_protocol.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N04",
+      "logical_name": "simulation/stress_results.csv",
+      "canonical_relative_path": "05_derived/simulation/stress_results.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "N04",
+      "logical_name": "simulation/violations.json",
+      "canonical_relative_path": "05_derived/simulation/violations.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C01",
+      "logical_name": "calibration/frozen_service_model.json",
+      "canonical_relative_path": "03_calibration/frozen_service_model.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C01",
+      "logical_name": "calibration/frozen_actuator_model.json",
+      "canonical_relative_path": "03_calibration/frozen_actuator_model.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C01",
+      "logical_name": "calibration/frozen_policies/",
+      "canonical_relative_path": "03_calibration/frozen_policies/",
+      "path_kind": "directory"
+    },
+    {
+      "experiment_id": "C01",
+      "logical_name": "calibration/fit_audit.json",
+      "canonical_relative_path": "03_calibration/fit_audit.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F04",
+      "logical_name": "protocol/preregistration.json",
+      "canonical_relative_path": "01_protocol/preregistration.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F04",
+      "logical_name": "protocol/frozen_registry.json",
+      "canonical_relative_path": "01_protocol/protocol/frozen_registry.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F04",
+      "logical_name": "protocol/analysis_plan.md",
+      "canonical_relative_path": "01_protocol/analysis_plan.md",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F04",
+      "logical_name": "protocol/power_budget.json",
+      "canonical_relative_path": "01_protocol/power_budget.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "F04",
+      "logical_name": "protocol/freeze_receipt.json",
+      "canonical_relative_path": "01_protocol/freeze_receipt.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C02",
+      "logical_name": "confirm/all_attempts.csv",
+      "canonical_relative_path": "05_derived/confirm/all_attempts.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C02",
+      "logical_name": "confirm/runs/*/raw/",
+      "canonical_relative_path": "04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/<source>/",
+      "path_kind": "template"
+    },
+    {
+      "experiment_id": "C02",
+      "logical_name": "confirm/per_request.csv",
+      "canonical_relative_path": "05_derived/confirm/per_request.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C02",
+      "logical_name": "confirm/per_cycle.csv",
+      "canonical_relative_path": "05_derived/confirm/per_cycle.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C02",
+      "logical_name": "confirm/per_session.csv",
+      "canonical_relative_path": "05_derived/confirm/per_session.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C03",
+      "logical_name": "confirm/matched_qos_frontier.csv",
+      "canonical_relative_path": "05_derived/confirm/matched_qos_frontier.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C03",
+      "logical_name": "confirm/qos_noninferiority.json",
+      "canonical_relative_path": "05_derived/confirm/qos_noninferiority.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C03",
+      "logical_name": "confirm/pareto_plot.pdf",
+      "canonical_relative_path": "06_figures/confirm/pareto_plot.pdf",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C04",
+      "logical_name": "accounting/runtime_costs.csv",
+      "canonical_relative_path": "05_derived/accounting/runtime_costs.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C04",
+      "logical_name": "accounting/energy_boundaries.csv",
+      "canonical_relative_path": "05_derived/accounting/energy_boundaries.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C04",
+      "logical_name": "accounting/amortization.json",
+      "canonical_relative_path": "05_derived/accounting/amortization.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C05",
+      "logical_name": "analysis/confirmatory_results.json",
+      "canonical_relative_path": "05_derived/analysis/confirmatory_results.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C05",
+      "logical_name": "analysis/attrition_flow.csv",
+      "canonical_relative_path": "05_derived/analysis/attrition_flow.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C05",
+      "logical_name": "analysis/missing_sensitivity.json",
+      "canonical_relative_path": "05_derived/analysis/missing_sensitivity.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "C05",
+      "logical_name": "analysis/multiplicity_audit.json",
+      "canonical_relative_path": "05_derived/analysis/multiplicity_audit.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "A01",
+      "logical_name": "ablation/accounting.csv",
+      "canonical_relative_path": "05_derived/ablation/accounting.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "A01",
+      "logical_name": "ablation/timing_views.csv",
+      "canonical_relative_path": "05_derived/ablation/timing_views.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "A01",
+      "logical_name": "ablation/evidence_labels.json",
+      "canonical_relative_path": "05_derived/ablation/evidence_labels.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "A02",
+      "logical_name": "ablation/physical_protocol.json",
+      "canonical_relative_path": "01_protocol/ablation/physical_protocol.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "A02",
+      "logical_name": "ablation/all_attempts.csv",
+      "canonical_relative_path": "05_derived/ablation/all_attempts.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "A02",
+      "logical_name": "ablation/component_effects.json",
+      "canonical_relative_path": "05_derived/ablation/component_effects.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X01",
+      "logical_name": "transfer/workload_registry.json",
+      "canonical_relative_path": "01_protocol/transfer/workload_registry.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X01",
+      "logical_name": "transfer/zero_shot_workload.csv",
+      "canonical_relative_path": "05_derived/transfer/zero_shot_workload.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X01",
+      "logical_name": "transfer/adaptation_separate.json",
+      "canonical_relative_path": "05_derived/transfer/adaptation_separate.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X02",
+      "logical_name": "transfer/model_registry.json",
+      "canonical_relative_path": "01_protocol/transfer/model_registry.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X02",
+      "logical_name": "transfer/model_family_results.csv",
+      "canonical_relative_path": "05_derived/transfer/model_family_results.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X03",
+      "logical_name": "transfer/device_registry.json",
+      "canonical_relative_path": "01_protocol/transfer/device_registry.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X03",
+      "logical_name": "transfer/hardware_results.csv",
+      "canonical_relative_path": "05_derived/transfer/hardware_results.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X03",
+      "logical_name": "calibration/device_specific/",
+      "canonical_relative_path": "03_calibration/device_specific/",
+      "path_kind": "directory"
+    },
+    {
+      "experiment_id": "X04",
+      "logical_name": "queue/protocol.json",
+      "canonical_relative_path": "01_protocol/queue/protocol.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X04",
+      "logical_name": "queue/arrival_queue_events.jsonl",
+      "canonical_relative_path": "05_derived/queue/arrival_queue_events.jsonl",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X04",
+      "logical_name": "queue/state_carryover.json",
+      "canonical_relative_path": "05_derived/queue/state_carryover.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "X04",
+      "logical_name": "queue/steady_state_results.csv",
+      "canonical_relative_path": "05_derived/queue/steady_state_results.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G01",
+      "logical_name": "grid/site_contract.json",
+      "canonical_relative_path": "01_protocol/grid/site_contract.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G01",
+      "logical_name": "grid/topology.pdf",
+      "canonical_relative_path": "00_inventory/grid/topology.pdf",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G01",
+      "logical_name": "grid/meter_scope.json",
+      "canonical_relative_path": "00_inventory/grid/meter_scope.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G01",
+      "logical_name": "grid/operator_limits.json",
+      "canonical_relative_path": "01_protocol/grid/operator_limits.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G02",
+      "logical_name": "grid/mapping_fit.json",
+      "canonical_relative_path": "05_derived/grid/mapping_fit.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G02",
+      "logical_name": "grid/mapping_holdout.json",
+      "canonical_relative_path": "05_derived/grid/mapping_holdout.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G02",
+      "logical_name": "grid/residual_budget.json",
+      "canonical_relative_path": "05_derived/grid/residual_budget.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G02",
+      "logical_name": "raw/pcc/",
+      "canonical_relative_path": "04_raw/<tier>/<stage>/<session_id>/<run_id>/<attempt_id>/<source>/",
+      "path_kind": "template"
+    },
+    {
+      "experiment_id": "G03",
+      "logical_name": "grid/initial_state_bounds.json",
+      "canonical_relative_path": "05_derived/grid/initial_state_bounds.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G03",
+      "logical_name": "grid/tail_audit.json",
+      "canonical_relative_path": "05_derived/grid/tail_audit.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G03",
+      "logical_name": "grid/grid_model_validation.json",
+      "canonical_relative_path": "05_derived/grid/grid_model_validation.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G03",
+      "logical_name": "grid/post_return_curves/",
+      "canonical_relative_path": "05_derived/grid/post_return_curves/",
+      "path_kind": "directory"
+    },
+    {
+      "experiment_id": "G04",
+      "logical_name": "grid/confirmatory_results.json",
+      "canonical_relative_path": "05_derived/grid/confirmatory_results.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G04",
+      "logical_name": "grid/joint_feasibility.csv",
+      "canonical_relative_path": "05_derived/grid/joint_feasibility.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G04",
+      "logical_name": "grid/guard_cost_frontier.csv",
+      "canonical_relative_path": "05_derived/grid/guard_cost_frontier.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G05",
+      "logical_name": "grid/model_extension_protocol.json",
+      "canonical_relative_path": "01_protocol/grid/model_extension_protocol.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G05",
+      "logical_name": "grid/nonlinear_validation.csv",
+      "canonical_relative_path": "05_derived/grid/nonlinear_validation.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "G05",
+      "logical_name": "grid/domain_of_validity.json",
+      "canonical_relative_path": "05_derived/grid/domain_of_validity.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "Z01",
+      "logical_name": "README_ZH.md",
+      "canonical_relative_path": "README_START_HERE_ZH.txt",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "Z01",
+      "logical_name": "FINAL_STATUS.json",
+      "canonical_relative_path": "07_audit/FINAL_STATUS.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "Z01",
+      "logical_name": "CLAIM_EVIDENCE.csv",
+      "canonical_relative_path": "07_audit/claim_evidence.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "Z01",
+      "logical_name": "FAILED_AND_INCONCLUSIVE.csv",
+      "canonical_relative_path": "07_audit/FAILED_AND_INCONCLUSIVE.csv",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "Z01",
+      "logical_name": "MANIFEST_SHA256.json",
+      "canonical_relative_path": "08_delivery/MANIFEST_SHA256.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "Z01",
+      "logical_name": "REPRODUCE.md",
+      "canonical_relative_path": "08_delivery/REPRODUCE.md",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "O01",
+      "logical_name": "optional/interval_certificate.json",
+      "canonical_relative_path": "05_derived/optional/interval_certificate.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "O01",
+      "logical_name": "optional/certificate_checker/",
+      "canonical_relative_path": "05_derived/optional/certificate_checker/",
+      "path_kind": "directory"
+    },
+    {
+      "experiment_id": "O01",
+      "logical_name": "optional/certificate_scope.md",
+      "canonical_relative_path": "05_derived/optional/certificate_scope.md",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "O02",
+      "logical_name": "optional/independent_replication.json",
+      "canonical_relative_path": "05_derived/optional/independent_replication.json",
+      "path_kind": "file"
+    },
+    {
+      "experiment_id": "O02",
+      "logical_name": "optional/replication_differences.csv",
+      "canonical_relative_path": "05_derived/optional/replication_differences.csv",
+      "path_kind": "file"
+    }
+  ],
+  "materialization_gate_zh": "真正运行后展开模板，并验证每个selected output存在且hash一致；规划状态不声称这些未来结果已存在"
+}

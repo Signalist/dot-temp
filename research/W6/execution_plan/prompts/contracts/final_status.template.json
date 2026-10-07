@@ -1,0 +1,38 @@
+{
+  "schema_version": "w6-plan-1",
+  "study_id": "REPLACE_STUDY",
+  "status": "NOT_RUN",
+  "created_utc": null,
+  "scientific_conclusion": null,
+  "hardware_claims_admitted": [],
+  "counts": {
+    "real_GPU_requests": null,
+    "physical_cap_writes": null,
+    "real_DC_acquisitions": null,
+    "real_PCC_acquisitions": null,
+    "independent_sessions": null,
+    "attempts_started": null,
+    "attempts_failed": null,
+    "censored_requests": null,
+    "excluded_requests": null,
+    "retry_attempts": null,
+    "CPU_tests": null,
+    "SIMULATED_runs": null,
+    "DRY_RUN_checks": null
+  },
+  "zero_counts_not_assumed": true,
+  "required_IDs_without_terminal_status": [],
+  "blocked_items": [],
+  "safety_restore_status": "NOT_RUN",
+  "software_QA_status": "NOT_RUN",
+  "physical_admission_status": "NOT_RUN",
+  "statistical_audit_status": "NOT_RUN",
+  "claim_review_status": "NOT_RUN",
+  "package_validation_status": "NOT_RUN",
+  "author_record": null,
+  "operator_confirmation": {
+    "status": "UNCONFIRMED",
+    "reference": null
+  },
+  "scope_note": "Prompt/plan template only; no new hardware result is claimed."
+}

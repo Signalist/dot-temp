@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "scope": "计划文件结构/一致性/本地来源存在性；不是科学实验或硬件资格检查",
+  "experiment_rows": 38,
+  "coverage_dimensions": 32,
+  "source_files_hashed": 17,
+  "route_profiles_verified": 5,
+  "canonical_output_aliases_verified": 127,
+  "original_A_E_mapping_preserved": true,
+  "Z01_all_selected_terminal_gate": true,
+  "final_calibration_numerics_hash_closure_required": true,
+  "implementation_components": 16,
+  "dependency_graph_acyclic": true,
+  "split_hash_compatibility_explicitly_planned": true,
+  "workload_axis_extension_explicitly_required": true,
+  "csv_json_id_match": true,
+  "csv_json_nested_field_roundtrip": true,
+  "all_existing_implementation_paths_exist": true,
+  "hardware_runs": 0,
+  "new_science_runs": 0
+}

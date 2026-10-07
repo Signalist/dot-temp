@@ -1,0 +1,19 @@
+{
+  "url": "https://raw.githubusercontent.com/Azure/AzurePublicDataset/refs/heads/master/data/AzureLLMInferenceTrace_conv.csv",
+  "retrieved_utc": "2026-10-04T05:51:00Z",
+  "http_status": 200,
+  "bytes": 719188,
+  "sha256": "2f1e5b666d4e3055fdbba98598ce2ec307767b9064e03e2fa46676dbcc7d0bf8",
+  "content_type": "text/plain; charset=utf-8",
+  "max_download_bytes": 2000000,
+  "github_latest_file_commit": {
+    "sha": "790921015d50dd6aae7f7e47f39ba0e235ad6b08",
+    "html_url": "https://github.com/Azure/AzurePublicDataset/commit/790921015d50dd6aae7f7e47f39ba0e235ad6b08"
+  },
+  "license": {
+    "url": "https://raw.githubusercontent.com/Azure/AzurePublicDataset/refs/heads/master/LICENSE",
+    "license": "CC BY 4.0",
+    "bytes": 18653,
+    "sha256": "9bbc1ea9fe5c96df01b311a2ac864d5b18fc87b9948bfd14770e4b44db755ee9"
+  }
+}

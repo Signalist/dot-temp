@@ -1,0 +1,93 @@
+{
+  "mapping_unchanged_from_original": true,
+  "source": "deliverables/w6_paper_gpu_handoff_20261004/master/W6_CPU_Research_and_GPU_Handoff_20261004/EVIDENCE_CHECKPOINTS_A_E.json",
+  "resource_tiers_are_separate_not_A_E": [
+    "CPU",
+    "GPU_ONLY",
+    "GPU_DC",
+    "PCC"
+  ],
+  "checkpoints": [
+    {
+      "id": "A",
+      "original_meaning_zh": "最近先例非包含与有意义核心",
+      "experiment_ids": [
+        "F02",
+        "F03",
+        "N03",
+        "Z01"
+      ],
+      "current_evidence_status_zh": "CONDITIONAL；广义novelty FAIL"
+    },
+    {
+      "id": "B",
+      "original_meaning_zh": "理论合同 证明 数值证书",
+      "experiment_ids": [
+        "F02",
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "O01",
+        "Z01"
+      ],
+      "current_evidence_status_zh": "QUALIFIED_PASS；无向外舍入成本证书；旧hard-deadline失败不撤销"
+    },
+    {
+      "id": "C",
+      "original_meaning_zh": "PCC与电网价值合同",
+      "experiment_ids": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "N04",
+        "X04",
+        "Z01"
+      ],
+      "current_evidence_status_zh": "MODEL_ONLY_PARTIAL；真实PCC/grid仍缺"
+    },
+    {
+      "id": "D",
+      "original_meaning_zh": "可执行控制与真实测量",
+      "experiment_ids": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08",
+        "I09",
+        "I10",
+        "I11",
+        "C01",
+        "Z01"
+      ],
+      "current_evidence_status_zh": "HARDWARE_BLOCKED"
+    },
+    {
+      "id": "E",
+      "original_meaning_zh": "冻结公平基线 独立确认 消融 迁移 误差 成本",
+      "experiment_ids": [
+        "F04",
+        "N02",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "A01",
+        "A02",
+        "X01",
+        "X02",
+        "X03",
+        "X04",
+        "O02",
+        "Z01"
+      ],
+      "current_evidence_status_zh": "CPU_DONE_HARDWARE_BLOCKED"
+    }
+  ]
+}

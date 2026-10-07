@@ -1,0 +1,7 @@
+{
+  "evidence": "SIMULATED",
+  "synthetic_runs": 8,
+  "hardware_runs": 0,
+  "validation": "schema, alignment, energy, split, service-fit and frozen-evaluation plumbing completed",
+  "warning": "Fixture size is a software test, not the 30-episode physical pilot or a confirmation sample budget."
+}

@@ -1,0 +1,195 @@
+{
+  "passed": true,
+  "timestamp_utc": "2026-10-07T04:10:06.825628+00:00",
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.8"
+  },
+  "new_gpu_runs": 0,
+  "network_requests": 0,
+  "hardware_actuations": 0,
+  "generated_model_code_executed": false,
+  "full_scientific_regeneration": false,
+  "original_legacy_telemetry_reverified": false,
+  "scope": "Named checks only; compact quality replay uses public derived records. Not a new independent experiment, hardware/quality claim or interval certificate.",
+  "seconds": 28.151,
+  "checks": [
+    {
+      "check": "compileall",
+      "cwd": ".",
+      "command": [
+        "python",
+        "-m",
+        "compileall",
+        "-q",
+        "."
+      ],
+      "returncode": 0,
+      "seconds": 0.202,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "check": "quality",
+      "cwd": "continuation/quality",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "-v",
+        "test_validators"
+      ],
+      "returncode": 0,
+      "seconds": 0.431,
+      "stdout": "",
+      "stderr": "test_all_reference_fixtures (test_validators.Tests.test_all_reference_fixtures) ... ok\ntest_code_constant_overfit (test_validators.Tests.test_code_constant_overfit) ... ok\ntest_code_negative_fixtures (test_validators.Tests.test_code_negative_fixtures) ... ok\ntest_code_no_io_or_execution (test_validators.Tests.test_code_no_io_or_execution) ... ok\ntest_code_structural_properties (test_validators.Tests.test_code_structural_properties) ... ok\ntest_eos_and_truncation (test_validators.Tests.test_eos_and_truncation) ... ok\ntest_family_separation (test_validators.Tests.test_family_separation) ... ok\ntest_frozen_hash (test_validators.Tests.test_frozen_hash) ... ok\ntest_math_false_positive_stress (test_validators.Tests.test_math_false_positive_stress) ... ok\ntest_resource_bounds (test_validators.Tests.test_resource_bounds) ... ok\ntest_writing_content_and_format (test_validators.Tests.test_writing_content_and_format) ... ok\ntest_writing_semantic_loophole_requires_human (test_validators.Tests.test_writing_semantic_loophole_requires_human) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.279s\n\nOK\n"
+    },
+    {
+      "check": "legacy_compact",
+      "cwd": "continuation/quality",
+      "command": [
+        "python",
+        "rescore_compact.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.224,
+      "stdout": "{\"passed\": true, \"requests\": 108, \"main_requests\": 72, \"warmups\": 36, \"distinct_main_quality_cases\": 3, \"quality_matching_eligible_existing_tasks\": 0, \"deduplicated_texts\": 4, \"new_gpu_runs\": 0, \"generated_model_code_executed\": false, \"scope\": \"Quality and host-stop-metadata diagnostics reproduced from derived public compact records; original complete telemetry not reauthenticated or reconstructed.\"}\n",
+      "stderr": ""
+    },
+    {
+      "check": "acquisition_kit",
+      "cwd": "gpu_handoff",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 2.163,
+      "stdout": "",
+      "stderr": "test_cap_above_original_rejected (test_kit.CapTests.test_cap_above_original_rejected) ... ok\ntest_identity_mismatch_no_write (test_kit.CapTests.test_identity_mismatch_no_write) ... ok\ntest_repeat_signal_during_restore_is_deferred (test_kit.CapTests.test_repeat_signal_during_restore_is_deferred) ... ok\ntest_restores_after_setter_error (test_kit.CapTests.test_restores_after_setter_error) ... ok\ntest_restores_original (test_kit.CapTests.test_restores_original) ... ok\ntest_binomial_budget (test_kit.KitTests.test_binomial_budget) ... ok\ntest_censoring_required (test_kit.KitTests.test_censoring_required) ... ok\ntest_consumption_revalidates_split (test_kit.KitTests.test_consumption_revalidates_split) ... ok\ntest_demo_labels (test_kit.KitTests.test_demo_labels) ... ok\ntest_dryrun_no_nvml_or_network (test_kit.KitTests.test_dryrun_no_nvml_or_network) ... ok\ntest_duplicate_timestamp_rejected (test_kit.KitTests.test_duplicate_timestamp_rejected) ... ok\ntest_energy_cycle_decomposes (test_kit.KitTests.test_energy_cycle_decomposes) ... ok\ntest_fit_does_not_read_confirmation_events (test_kit.KitTests.test_fit_does_not_read_confirmation_events) ... ok\ntest_frozen_bracket_rule_handles_async_progress (test_kit.KitTests.test_frozen_bracket_rule_handles_async_progress) ... ok\ntest_gap_rejected (test_kit.KitTests.test_gap_rejected) ... ok\ntest_gpu_only_cannot_pass_dc_gate (test_kit.KitTests.test_gpu_only_cannot_pass_dc_gate) ... ok\ntest_host_output_not_physical_service (test_kit.KitTests.test_host_output_not_physical_service) ... ok\ntest_incomplete_pcc_metadata_rejected (test_kit.KitTests.test_incomplete_pcc_metadata_rejected) ... ok\ntest_measured_rejects_simulated_timestamp_source (test_kit.KitTests.test_measured_rejects_simulated_timestamp_source) ... ok\ntest_meter_alignment (test_kit.KitTests.test_meter_alignment) ... ok\ntest_mismatched_evidence_provenance_rejected (test_kit.KitTests.test_mismatched_evidence_provenance_rejected) ... ok\ntest_missing_command_ack_rejected (test_kit.KitTests.test_missing_command_ack_rejected) ... ok\ntest_missing_preregistered_test_run_rejected (test_kit.KitTests.test_missing_preregistered_test_run_rejected) ... ok\ntest_missing_true_eos_rejected_for_dc (test_kit.KitTests.test_missing_true_eos_rejected_for_dc) ... ok\ntest_mixed_run_rejected (test_kit.KitTests.test_mixed_run_rejected) ... ok\ntest_natural_eos_cannot_be_length (test_kit.KitTests.test_natural_eos_cannot_be_length) ... ok\ntest_negative_dynamic_not_clamped (test_kit.KitTests.test_negative_dynamic_not_clamped) ... ok\ntest_no_fabricated_restored_state (test_kit.KitTests.test_no_fabricated_restored_state) ... ok\ntest_no_pcc_claim_from_dc (test_kit.KitTests.test_no_pcc_claim_from_dc) ... ok\ntest_posthoc_windows_rejected (test_kit.KitTests.test_posthoc_windows_rejected) ... ok\ntest_refit_cannot_overwrite_frozen (test_kit.KitTests.test_refit_cannot_overwrite_frozen) ... ok\ntest_request_identity_rejected (test_kit.KitTests.test_request_identity_rejected) ... ok\ntest_sampling_uncertainty_required (test_kit.KitTests.test_sampling_uncertainty_required) ... ok\ntest_session_leakage (test_kit.KitTests.test_session_leakage) ... ok\ntest_slow_drip_total_deadline (test_kit.KitTests.test_slow_drip_total_deadline) ... ok\ntest_substituted_registered_directory_rejected (test_kit.KitTests.test_substituted_registered_directory_rejected) ... ok\ntest_too_many_tokens_rejected (test_kit.KitTests.test_too_many_tokens_rejected) ... ok\ntest_transfer_leakage (test_kit.KitTests.test_transfer_leakage) ... ok\ntest_zero_service_rejected (test_kit.KitTests.test_zero_service_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 39 tests in 1.961s\n\nOK\n"
+    },
+    {
+      "check": "parser",
+      "cwd": "research/measurement/code",
+      "command": [
+        "python",
+        "read_only_schema_auditor.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.062,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"five synthetic parser/gate tests only; no physical measurement validation\",\n  \"checks\": {\n    \"nlr_units_count_naive_clock\": true,\n    \"page_resets_preserved_duplicates_flagged\": true,\n    \"jsonl_not_confused_with_single_json\": true,\n    \"incomplete_coverage_rejected\": true,\n    \"malformed_rows_rejected\": true\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "check": "development_export",
+      "cwd": "continuation/quality",
+      "command": [
+        "python",
+        "prepare_requests.py",
+        "--out",
+        "development_export_test.jsonl"
+      ],
+      "returncode": 0,
+      "seconds": 0.047,
+      "stdout": "{\"compiled_requests\": 6, \"path\": \"development_export_test.jsonl\", \"gpu_launched\": false}\n",
+      "stderr": ""
+    },
+    {
+      "check": "payload_invariants",
+      "cwd": ".",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 0.11,
+      "stdout": "",
+      "stderr": "test_frozen_validator_and_references (test_payload.Payload.test_frozen_validator_and_references) ... ok\ntest_latest_quality_is_fail_closed (test_payload.Payload.test_latest_quality_is_fail_closed) ... ok\ntest_licensed_input_hashes (test_payload.Payload.test_licensed_input_hashes) ... ok\ntest_measured_configs_not_authorized (test_payload.Payload.test_measured_configs_not_authorized) ... ok\ntest_only_three_main_quality_hashes (test_payload.Payload.test_only_three_main_quality_hashes) ... ok\ntest_request_export_has_no_answers (test_payload.Payload.test_request_export_has_no_answers) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.007s\n\nOK\n"
+    },
+    {
+      "check": "full_cycle_witnesses",
+      "cwd": "research/full_cycle",
+      "command": [
+        "python",
+        "audit/check_full_cycle_witnesses.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.994,
+      "stdout": "<temporary_copy>/payload/research/full_cycle/audit/FULL_CYCLE_INDEPENDENT_WITNESSES.json\ninterior_atom 0.00000021453260889086010945699674284272871788931739117727009606651647228816245324166497\nhigh_tail_exponent 0.0000000000011604004465197065757708847644657748927319980222798698279928224789732220922930033\ngeneral_concave_uniform 0.0000026882104878162008896900713659856960610008987802518518760953387032251163431193473\n{'checks': 675, 'minimum_dimensionless_margin': '-4.2168791772922092897394296205080076030839845529474030200311052100432577163879038e-81', 'all_lower_bound_checks_pass': True}\n",
+      "stderr": ""
+    },
+    {
+      "check": "signed_swing",
+      "cwd": "research/grid_memory",
+      "command": [
+        "python",
+        "review/verify_swing_exact.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.317,
+      "stdout": "ZERO-STATE PROJECTION: {'M': '0.17545963379714415322372428444224268685', 'projected_y_at_original_return': '0.02817164842321510225456874536713752045254'}\noriginal 0.01968875538750935545776391907587475654735 3.141592653589793238462643383279502884197 stationary\nprojected 0.0354185613742869192800681566157111678912 7.007180199897981463472221012515980211711 stationary\noriginal_precision\nz1 0.04987749132168536701685163644231533256064 3.265013868326173715403522765165020011038 tail stationary 0.04987749132168536701685163644231533256064 1.00000000000000016\nz2 0.04706638236521316879977481970887163002752 3.264026117157724265048430019230152753935 tail stationary 0.04706638236521316879977481970887163002752 1.00000000000000016\nmidpoint 0.05033003805882899507432697288823642631879 3.222799022201862455092750260281415783483 tail stationary 0.05033003805882899507432697288823642631879 1.00000000000000008\nrounded_three_decimals\nz1 0.05001188407285192829602374069616466232287 3.264433718459656725549735675828926161118 tail stationary 0.05001188407285192829602374069616466232287 1.0\nz2 0.04701175503507087196453322876366518184516 3.264203050405021643203820191534667817277 tail stationary 0.04701175503507087196453322876366518184516 1.0\nmidpoint 0.05037765844109380671734399356535979693889 3.222707419820031810415601804522143858624 tail stationary 0.05037765844109380671734399356535979693889 1.0\nrounded_three_decimals_gain36_8\nz1 0.0498763505116788878399369554910260047014 3.264433718459656725549735675828926161118 tail stationary 0.0498763505116788878399369554910260047014 1.0\nz2 0.04688435190489452813807107909221893473989 3.264203050405021643203820191534667817277 tail stationary 0.04688435190489452813807107909221893473989 1.0\nmidpoint 0.05024113362147024626553547325759459423716 3.222707419820031810415601804522143858624 tail stationary 0.05024113362147024626553547325759459423716 1.0\n",
+      "stderr": ""
+    },
+    {
+      "check": "guard_smoke",
+      "cwd": "research/grid_memory",
+      "command": [
+        "python",
+        "guard_eval/code/portable_smoke.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.719,
+      "stdout": "{\"source\": [{\"source\": \"cycle_model.py\", \"sha256_agrees\": true}, {\"source\": \"global_bellman.py\", \"sha256_agrees\": true}], \"N32_design_objective\": 2.8201483016562983, \"N129_EOS_design_peak\": 0.02292146619252461, \"seconds\": 0.040247476998047205, \"scope\": \"portable smoke only, not replacement of frozen primary or confirmation outputs\"}\n",
+      "stderr": ""
+    },
+    {
+      "check": "full_cycle_replay",
+      "cwd": "research/full_cycle",
+      "command": [
+        "python",
+        "code/reproduce.py"
+      ],
+      "returncode": 0,
+      "seconds": 19.129,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"portable_root\": \"<temporary_copy>/payload/research/full_cycle\",\n  \"full_regeneration\": false,\n  \"elapsed_seconds\": 18.814046118997794,\n  \"independent_audits\": [\n    {\n      \"script\": \"audit/check_full_cycle_witnesses.py\",\n      \"success\": true,\n      \"stdout_last\": \"<temporary_copy>/payload/research/full_cycle/audit/FULL_CYCLE_INDEPENDENT_WITNESSES.json\\ninterior_atom 0.00000021453260889086010945699674284272871788931739117727009606651647228816245324166497\\nhigh_tail_exponent 0.0000000000011604004465197065757708847644657748927319980222798698279928224789732220922930033\\ngeneral_concave_uniform 0.0000026882104878162008896900713659856960610008987802518518760953387032251163431193473\\n{'checks': 675, 'minimum_dimensionless_margin': '-4.2168791772922092897394296205080076030839845529474030200311052100432577163879038e-81', 'all_lower_bound_checks_pass': True}\\n\"\n    },\n    {\n      \"script\": \"audit/independent_numerical_audit.py\",\n      \"success\": true,\n      \"stdout_last\": \"{\\n  \\\"max_primary_component_difference\\\": 1.5987211554602254e-14,\\n  \\\"max_dual_numeric_difference\\\": 3.945510584912881e-12,\\n  \\\"max_atomic_upper_difference\\\": 4.440892098500626e-16,\\n  \\\"max_comparator_difference\\\": 1.7763568394002505e-15\\n}\\n{\\n  \\\"counts\\\": {\\n    \\\"paths\\\": 108,\\n    \\\"segments\\\": 7092\\n  },\\n  \\\"max_residuals\\\": {\\n    \\\"segment_time\\\": 7.216449660063518e-16,\\n    \\\"segment_energy\\\": 1.5612511283791264e-17,\\n    \\\"physical_slew\\\": 1.8820224776911676e-09,\\n    \\\"power_continuity\\\": 2e-17,\\n    \\\"path_cost\\\": 3.1086244689504383e-15,\\n    \\\"work\\\": 0\\n  }\\n}\\nDual gap range 7.780432313283212e-08 3.13662369114478e-06\\n\"\n    },\n    {\n      \"script\": \"audit/audit_transfer_and_repairs.py\",\n      \"success\": true,\n      \"stdout_last\": \"tical', 'component_difference': np.float64(1.8207657603852567e-14), 'slew_excess': 0, 'critical_envelope_excess': 0, 'initial_state_difference': np.float64(0.0), 'objective_recomputed': np.float64(0.7089837374001922), 'reserve_lower_bound': 0.10039185702340497, 'recovery_cone_excess': 0}, {'case': {'beta': 0.8, 'R': 4.0, 'c': 0.25, 'p0': 1.7718262375881713, 'dist': 'uniform', 'alpha': 1.0, 'rate': 0.3, 'atom': 0.0}, 'label': 'forced_prefix', 'component_difference': np.float64(1.8318679906315083e-14), 'slew_excess': 0, 'critical_envelope_excess': 0, 'initial_state_difference': np.float64(0.0), 'objective_recomputed': np.float64(0.7745224284041402), 'reserve_lower_bound': 0.5031601668749925, 'recovery_cone_excess': 0}, {'case': {'beta': 0.8, 'R': 4.0, 'c': 0.25, 'p0': 3.3894928917292595, 'dist': 'uniform', 'alpha': 1.0, 'rate': 0.3, 'atom': 0.0}, 'label': 'prepaid_all', 'component_difference': np.float64(2.7755575615628914e-17), 'slew_excess': 0, 'critical_envelope_excess': 0, 'initial_state_difference': np.float64(0.0), 'objective_recomputed': np.float64(1.647926063618476), 'reserve_lower_bound': 1.6479260636184758, 'reserve_equality_difference': np.float64(2.220446049250313e-16)}]\\n\"\n    },\n    {\n      \"script\": \"audit/audit_final_baselines_trace.py\",\n      \"success\": true,\n      \"stdout_last\": \"\\n    \\\"weighted_improvement_fraction\\\": 0.038368341642251336,\\n    \\\"independent_box128_lower_difference\\\": -2.220446049250313e-16,\\n    \\\"independent_grid128_upper_difference\\\": 2.220446049250313e-16,\\n    \\\"refinement_lower_monotone\\\": true,\\n    \\\"refinement_upper_monotone\\\": true\\n  },\\n  {\\n    \\\"case\\\": {\\n      \\\"beta\\\": 0.8,\\n      \\\"R\\\": 0.5,\\n      \\\"c\\\": 1.0,\\n      \\\"p0\\\": 0.0,\\n      \\\"dist\\\": \\\"uniform\\\",\\n      \\\"alpha\\\": 1.0,\\n      \\\"rate\\\": 0.3,\\n      \\\"atom\\\": 0.0\\n    },\\n    \\\"paths\\\": 623,\\n    \\\"shared_segments\\\": 1186,\\n    \\\"max_physical_path_difference\\\": 4.884981308350689e-15,\\n    \\\"raw_slew_excess\\\": 7.314285714392712e-12,\\n    \\\"max_shared_continuity_difference\\\": 2.7755575615628914e-17,\\n    \\\"mean_objective_recomputed\\\": 1.4364445298372162,\\n    \\\"upper_difference\\\": -2.220446049250313e-15,\\n    \\\"target_objective_recomputed\\\": 1.5175447897787997,\\n    \\\"target_difference\\\": 4.440892098500626e-16,\\n    \\\"weighted_improvement_fraction\\\": 0.05344175703269016,\\n    \\\"independent_box128_lower_difference\\\": -4.440892098500626e-16,\\n    \\\"independent_grid128_upper_difference\\\": 2.220446049250313e-16,\\n    \\\"refinement_lower_monotone\\\": true,\\n    \\\"refinement_upper_monotone\\\": true\\n  }\\n]\\nuniform max 1.7763568394002505e-15\\nmatched flags True\\n\"\n    },\n    {\n      \"script\": \"audit/audit_safe_inner_paths.py\",\n      \"success\": true,\n      \"stdout_last\": \"{\\n  \\\"all_exact_constraints_pass\\\": true,\\n  \\\"min_exact_slew_margin\\\": 4.811797787995786e-08,\\n  \\\"max_component_difference\\\": 8.881784197001252e-15,\\n  \\\"max_worst_duration_difference\\\": 1.3322676295501878e-15,\\n  \\\"relative_gap_min\\\": 8.701577537255985e-08,\\n  \\\"relative_gap_max\\\": 3.137079806953151e-06\\n}\\n\"\n    }\n  ],\n  \"fresh_reoptimization_differences\": {\n    \"fresh_convex64_objective\": 0.0,\n    \"fresh_atomic128_lower\": 0.0,\n    \"fresh_atomic128_upper\": 0.0,\n    \"fresh_trace623_atoms_lower128\": 0.0,\n    \"fresh_trace623_atoms_upper128\": 0.0\n  },\n  \"tolerance\": 1e-09,\n  \"formal_outward_rounding\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "check": "qualified_matrix",
+      "cwd": ".",
+      "command": [
+        "python",
+        "scripts/check_optional_inputs.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.122,
+      "stdout": "{\"passed\": true, \"input\": \"research/grid_memory/inputs/kundur_reduced51.npz\", \"scope\": \"Historical qualified reduced-model bytes; not fresh ANDES/nonlinear requalification\"}\n",
+      "stderr": ""
+    },
+    {
+      "check": "network_transfer",
+      "cwd": "research/grid_memory",
+      "command": [
+        "python",
+        "review/verify_network_transfer.py"
+      ],
+      "returncode": 0,
+      "seconds": 2.527,
+      "stdout": "{\n  \"kernel_max_abs_error\": 6.945832797811136e-15,\n  \"propagation_output_max_abs_error\": 4.0939474033052647e-16,\n  \"propagation_state_max_abs_error\": 2.3071822230491534e-15,\n  \"minimum_intersample_upper_minus_fine_peak\": 0.0002063555531161554,\n  \"max_independent_objective_error\": 1.3322676295501878e-15\n}\n[\n  {\n    \"bus\": 7,\n    \"gain\": 20.0,\n    \"shared_power_cap\": 1.0,\n    \"solver_recorded_cap\": 1.0,\n    \"solver_peak_power\": 0.47435682122765005,\n    \"target_peak_power\": 0.37336437239234194,\n    \"solver_direct_energy_cycle_objective\": [\n      0.657958053162006,\n      2.0721062443336606,\n      2.7300642974956744\n    ],\n    \"target_direct_energy_cycle_objective\": [\n      0.6514448047714243,\n      2.1116709274831336,\n      2.763115732254559\n    ],\n    \"solver_objective_error\": 8.881784197001252e-16,\n    \"target_objective_error\": 1.3322676295501878e-15,\n    \"relative_gain_direct\": 0.011961654147550571,\n    \"relative_gain_recorded\": 0.011961654147549683,\n    \"all_work_all_time_amplitude_bound_max\": 0.04139612021003984,\n    \"replay_upper_max\": 0.010537299743973315\n  },\n  {\n    \"bus\": 7,\n    \"gain\": 200.0,\n    \"shared_power_cap\": 0.12078426612519425,\n    \"solver_recorded_cap\": 0.12078426612519425,\n    \"solver_peak_power\": 0.12078426612511373,\n    \"target_peak_power\": 0.12078426612519425,\n    \"solver_direct_energy_cycle_objective\": [\n      0.3519185562488244,\n      3.037484500171927,\n      3.389403056420761\n    ],\n    \"target_direct_energy_cycle_objective\": [\n      0.3522866070349436,\n      3.037057711083376,\n      3.3893443181183236\n    ],\n    \"solver_objective_error\": 4.440892098500626e-16,\n    \"target_objective_error\": 0.0,\n    \"relative_gain_direct\": -1.7330284835193055e-05,\n    \"relative_gain_recorded\": -1.733028483497101e-05,\n    \"all_work_all_time_amplitude_bound_max\": 0.05,\n    \"replay_upper_max\": 0.03695314049846714\n  },\n  {\n    \"bus\": 8,\n    \"gain\": 20.0,\n    \"shared_power_cap\": 1.0,\n    \"solver_recorded_cap\": 1.0,\n    \"solver_peak_power\": 0.47435682122765005,\n    \"target_peak_power\": 0.37336437239234194,\n    \"solver_direct_energy_cycle_objective\": [\n      0.657958053162006,\n      2.0721062443336606,\n      2.7300642974956744\n    ],\n    \"target_direct_energy_cycle_objective\": [\n      0.6514448047714243,\n      2.1116709274831336,\n      2.763115732254559\n    ],\n    \"solver_objective_error\": 8.881784197001252e-16,\n    \"target_objective_error\": 1.3322676295501878e-15,\n    \"relative_gain_direct\": 0.011961654147550571,\n    \"relative_gain_recorded\": 0.011961654147549683,\n    \"all_work_all_time_amplitude_bound_max\": 0.04127511447556488,\n    \"replay_upper_max\": 0.008454476839385262\n  },\n  {\n    \"bus\": 8,\n    \"gain\": 200.0,\n    \"shared_power_cap\": 0.12113836784050522,\n    \"solver_recorded_cap\": 0.12113836784050522,\n    \"solver_peak_power\": 0.12113836784042446,\n    \"target_peak_power\": 0.12113836784050522,\n    \"solver_direct_energy_cycle_objective\": [\n      0.3524549337672425,\n      3.033708251931666,\n      3.386163185698919\n    ],\n    \"target_direct_energy_cycle_objective\": [\n      0.35282302774694346,\n      3.0333114006138358,\n      3.386134428360782\n    ],\n    \"solver_objective_error\": 1.3322676295501878e-15,\n    \"target_objective_error\": 0.0,\n    \"relative_gain_direct\": -8.492674684168477e-06,\n    \"relative_gain_recorded\": -8.492674683724388e-06,\n    \"all_work_all_time_amplitude_bound_max\": 0.05,\n    \"replay_upper_max\": 0.03192670276478635\n  }\n]\n",
+      "stderr": ""
+    }
+  ]
+}

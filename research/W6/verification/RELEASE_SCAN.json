@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "Bounded extension/symlink/private-path/credential/private-network/email scan plus manual review of 4 historical output texts; not a formal secrecy proof. Generic localhost endpoints and generic temporary-directory examples are intentional.",
+  "file_count_scanned": 520,
+  "findings": [],
+  "email_candidates": [],
+  "raw_paper_pdfs": 0,
+  "private_upload_receipts": 0,
+  "new_gpu_runs": 0,
+  "hardware_control_validated": false,
+  "quality_matching_eligible_existing_tasks": 0
+}

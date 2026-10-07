@@ -1,0 +1,78 @@
+{
+  "scope": "PLANNING_ONLY",
+  "issues": [
+    {
+      "id": "R01",
+      "severity": "REQUIRED",
+      "subject_zh": "保持旧 frozen split 整份 SHA 并支持 pilot 决定确认 N",
+      "status": "RESOLVED_IN_PLANNING_CONTRACT",
+      "required_zh": "原 model/split/hash 不覆盖，不删除 evaluate_service gate；完整预注册或显式版本化 parent/child registry 适配、回归与角色隔离",
+      "evidence_paths": [
+        "prompts/00_MASTER_PROMPT_ZH.txt",
+        "prompts/04_FREEZE_PROTOCOL_PROMPT_ZH.txt",
+        "prompts/contracts/protocol.template.json"
+      ]
+    },
+    {
+      "id": "R02",
+      "severity": "REQUIRED",
+      "subject_zh": "分路线依赖可执行，GPU_ONLY 不被 DC 依赖隐式封死",
+      "status": "RESOLVED_IN_PLANNING_CONTRACT",
+      "required_zh": "I11 通用依赖与 DC / 自然 law 附加依赖分开；F04/C02 核心 DC 与描述路线清楚区分",
+      "evidence_paths": [
+        "experiment_design/ROUTE_PLAN.json",
+        "experiment_design/EXPERIMENT_MATRIX.json",
+        "prompts/00_MASTER_PROMPT_ZH.txt"
+      ]
+    },
+    {
+      "id": "R03",
+      "severity": "REQUIRED",
+      "subject_zh": "保留原 A–E 科学检查点，和硬件层级分开",
+      "status": "RESOLVED_IN_PLANNING_CONTRACT",
+      "required_zh": "A novelty、B theory/certificate、C PCC/grid、D hardware/control、E frozen fair validation；映射至实验 ID",
+      "evidence_paths": [
+        "experiment_design/CHECKPOINT_A_E_MAP.json",
+        "prompts/00_MASTER_PROMPT_ZH.txt"
+      ]
+    },
+    {
+      "id": "R04",
+      "severity": "REQUIRED",
+      "subject_zh": "实验矩阵产物路径与 master 目录合同一致",
+      "status": "RESOLVED_IN_PLANNING_CONTRACT",
+      "required_zh": "统一 canonical numbered root 或明确可验证映射，避免两套冲突",
+      "evidence_paths": [
+        "experiment_design/OUTPUT_PATH_MAP.json",
+        "experiment_design/OUTPUT_PATH_MAP.csv",
+        "experiment_design/EXPERIMENT_MATRIX.json"
+      ]
+    },
+    {
+      "id": "R05",
+      "severity": "REQUIRED",
+      "subject_zh": "旧 kit 扁平目录、整阶段完整性与新增轴适配",
+      "status": "RESOLVED_IN_PLANNING_CONTRACT",
+      "required_zh": "旧 selected_folders 需要 root/run_id，模型评估需要所有预注册 heldout；嵌套 raw/attempt 与 workload transfer 必须明确版本适配，不能删除缺失 gate",
+      "evidence_paths": [
+        "experiment_design/IMPLEMENTATION_LEDGER.json",
+        "prompts/contracts/README_CONTRACT_ZH.txt",
+        "prompts/00_MASTER_PROMPT_ZH.txt"
+      ]
+    },
+    {
+      "id": "R06",
+      "severity": "REQUIRED",
+      "subject_zh": "J_W6 与 run 能量电气边界不可混用",
+      "status": "RESOLVED_IN_PLANNING_CONTRACT",
+      "required_zh": "W6 目标仅在声明理论边界定义；PCC/AC 不能同名替代；run metrics 能量有显式边界",
+      "evidence_paths": [
+        "prompts/contracts/request_metrics.schema.json",
+        "prompts/contracts/run_metrics.schema.json",
+        "prompts/contracts/run_metrics_field_dictionary.json"
+      ]
+    }
+  ],
+  "status": "ALL_REQUIRED_FIXES_CLOSED",
+  "checked_utc": "2026-10-05T09:56:51.843969+00:00"
+}

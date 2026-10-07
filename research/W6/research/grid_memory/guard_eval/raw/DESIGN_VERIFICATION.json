@@ -1,0 +1,9 @@
+{
+  "closed_form_G": 0.1901466801229238,
+  "floating_positive_integral": 0.19014668012292377,
+  "floating_negative_integral": 0.19014668012292385,
+  "quadrature_tail_envelope": 2.2314420445705543e-44,
+  "integral_horizon_s": 397.8873577297383,
+  "closed_vs_matrix_propagation_max_error": 2.7755575615628914e-17,
+  "not_interval_certified": true
+}

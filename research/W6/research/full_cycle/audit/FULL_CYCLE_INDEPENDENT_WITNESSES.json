@@ -1,0 +1,61 @@
+{
+  "precision_decimal_digits": 80,
+  "certification": "High-precision floating arithmetic only; no directed-rounding certificate.",
+  "witnesses": {
+    "interior_atom": {
+      "continuous_midpoint_gap": "-0.0000000073348736370952383870848368196072099158521823973335705205497534358696654642734212",
+      "atomic_midpoint_gap": "0.00000022186748252795534784408157966233592780516957357460366658706622572403211870593839",
+      "total_midpoint_gap": "0.00000021453260889086010945699674284272871788931739117727009606651647228816245324166497",
+      "nonconvex": true,
+      "distribution": "0.5 delta_(1/2) + 0.5 delta_1",
+      "service": "sqrt(p)",
+      "c": 1,
+      "R": 1,
+      "M": 1,
+      "baseline": "z=0.5 min(x,1-x)",
+      "perturbation": "plus/minus .001 max(0,1-|x-.5|/.004)",
+      "maximum_abs_slope": 0.75,
+      "power_at_atom": "0.52002095576297602863251420608947134658445133509331552742439777005002657784931719",
+      "both_exact_caps_satisfied": true
+    },
+    "high_tail_exponent": {
+      "continuous_midpoint_gap": "0.0000000000011604004465197065757708847644657748927319980222798698279928224789732220922930033",
+      "atomic_midpoint_gap": "0.0",
+      "total_midpoint_gap": "0.0000000000011604004465197065757708847644657748927319980222798698279928224789732220922930033",
+      "nonconvex": true,
+      "distribution": "S=(1-x)^2 on [0,1]",
+      "service": "sqrt(p)",
+      "c": 1,
+      "R": 1,
+      "M": 1,
+      "kappa": "1.3333333333333333333333333333333333333333333333333333333333333333333333333333333",
+      "baseline": "z=min(x,.9(1-x))",
+      "perturbation": "plus/minus .00005 max(0,1-|x-.99|/.002)",
+      "local_maximum_abs_slope": 0.925,
+      "both_exact_caps_satisfied": true
+    },
+    "general_concave_uniform": {
+      "distribution": "Uniform[0,1]",
+      "service": "s(p)=0.1p+1-exp(-p/.001)",
+      "c": 20,
+      "R": 1,
+      "M": 1,
+      "critical_root": "none: N(p)=1-0.1c-[1+(p+c)/.001]exp(-p/.001)<0",
+      "baseline": "z=min(x,A(.2),1-x)",
+      "perturbation": "plus/minus .01 max(0,1-|x-.5|/.1)",
+      "z_at_midpoint": "0.201",
+      "G_second_derivative": "0.27171924294897476938579199816305618744408941825536125760256312370598058053437952",
+      "H_second_derivative": "-0.9423223345470445002299266496294788580561021025095928413656889130123406532932281",
+      "F_second_derivative_at_midpoint": "-0.80646271307255711553703065054795076433405739338191221256440735115935036302603834",
+      "total_midpoint_gap": "0.0000026882104878162008896900713659856960610008987802518518760953387032251163431193473",
+      "nonconvex": true,
+      "both_exact_caps_satisfied": true,
+      "local_maximum_abs_slope": 0.1
+    }
+  },
+  "power_curvature_grid": {
+    "checks": 675,
+    "minimum_dimensionless_margin": "-4.2168791772922092897394296205080076030839845529474030200311052100432577163879038e-81",
+    "all_lower_bound_checks_pass": true
+  }
+}

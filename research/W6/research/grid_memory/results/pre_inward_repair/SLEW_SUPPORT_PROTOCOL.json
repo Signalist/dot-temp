@@ -1,0 +1,38 @@
+{
+  "fresh_freeze_utc": "2026-10-04T14:21:58.664683+00:00",
+  "code_sha256": "292e5cdc7ceffc48492624532d32e3e7e0285be9121164d9b61364c510e8db83",
+  "status": "auxiliary exploratory support-bound convergence; postreset fresh rerun, not independent samples",
+  "cases": [
+    [
+      0.4,
+      0.1,
+      0.5,
+      1.0
+    ],
+    [
+      0.25,
+      0.08,
+      0.5,
+      0.5
+    ],
+    [
+      0.7,
+      0.08,
+      1.0,
+      2.0
+    ],
+    [
+      0.4,
+      0.1,
+      1.0,
+      0.1
+    ]
+  ],
+  "steps": [
+    0.05,
+    0.025,
+    0.0125
+  ],
+  "tail_exponents": 14,
+  "reset": "pre-reset raw results vanished; this code was reconstructed and all reported outputs newly run"
+}

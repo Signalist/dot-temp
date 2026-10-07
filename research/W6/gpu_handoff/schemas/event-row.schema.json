@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "W6 event-row",
+  "type": "object",
+  "properties": {
+    "acquisition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^run_[A-Za-z0-9_-]+$"
+    },
+    "clock_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence": {
+      "enum": [
+        "SIMULATED",
+        "MEASURED"
+      ]
+    },
+    "t_ns": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "type": {
+      "type": "string"
+    },
+    "request_id": {
+      "type": "string"
+    },
+    "completed_tokens": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "true_eos_ns": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "censored": {
+      "type": "boolean"
+    },
+    "finish_reason": {
+      "enum": [
+        "stop",
+        "length",
+        "cancelled",
+        "error",
+        "timeout",
+        "unknown"
+      ]
+    },
+    "stop_class": {
+      "enum": [
+        "natural_eos",
+        "stop_rule",
+        "length",
+        "cancelled",
+        "error",
+        "timeout",
+        "unknown"
+      ]
+    }
+  },
+  "required": [
+    "acquisition_id",
+    "run_id",
+    "clock_id",
+    "evidence",
+    "t_ns",
+    "type"
+  ],
+  "additionalProperties": true,
+  "description": "Structural guide; Python validator additionally checks semantics across files. Raw uncalibrated telemetry is intentionally not an admitted power-row."
+}

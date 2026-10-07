@@ -1,0 +1,14 @@
+{
+  "encoding": "UTF-8 with BOM",
+  "dialect": "RFC4180",
+  "json_encoded_columns": [
+    "aggregation_gate",
+    "canonical_required_outputs",
+    "conditional_dependency_gates",
+    "depends_on",
+    "depends_on_by_route",
+    "final_artifact_hash_closure",
+    "required_outputs"
+  ],
+  "cell_rule_zh": "数组/对象字段以合法JSON存入单个CSV单元；先用CSV parser读行，再对这些非空单元JSON decode。字段缺席为空，不是空数组。"
+}

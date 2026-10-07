@@ -1,0 +1,4 @@
+# Optional ONLY on operator's GPU host. Official NVIDIA Python bindings.
+# CPU analysis, tests and dry-run use the Python 3.10+ standard library only.
+# Does NOT install NVIDIA driver/CUDA, serving engine, models or meter drivers.
+nvidia-ml-py==13.590.48 --hash=sha256:fd43d30ee9cd0b7940f5f9f9220b68d42722975e3992b6c21d14144c48760e43

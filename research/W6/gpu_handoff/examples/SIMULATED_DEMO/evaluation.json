@@ -1,0 +1,63 @@
+{
+  "evidence": "SIMULATED",
+  "frozen_model_sha256": "28e6bfd5f438f1b4efbd7b0f4304bf204f06970609140af2685244a5575c5d95",
+  "rows": [
+    {
+      "run_id": "run_04",
+      "session_id": "sim_session_04",
+      "stage": "confirmation",
+      "stratum": "decode_context128_batch1",
+      "actual_dynamic_mean_W": 36.0,
+      "interval_rate_tokens_s": 60.0,
+      "rate_clock_only_lower": 59.99994000006001,
+      "rate_clock_only_upper": 60.00006000006,
+      "prediction": 59.25795053003534,
+      "residual_tokens_s": 0.7420494699646625,
+      "in_calibration_stratum": true,
+      "in_calibration_power_domain": true
+    },
+    {
+      "run_id": "run_05",
+      "session_id": "sim_session_05",
+      "stage": "confirmation",
+      "stratum": "decode_context128_batch1",
+      "actual_dynamic_mean_W": 49.000000000000014,
+      "interval_rate_tokens_s": 70.0,
+      "rate_clock_only_lower": 69.99993000007001,
+      "rate_clock_only_upper": 70.00007000007,
+      "prediction": 69.2108362779741,
+      "residual_tokens_s": 0.7891637220259042,
+      "in_calibration_stratum": true,
+      "in_calibration_power_domain": true
+    },
+    {
+      "run_id": "run_06",
+      "session_id": "sim_session_06",
+      "stage": "ablation",
+      "stratum": "decode_context128_batch1",
+      "actual_dynamic_mean_W": 25.0,
+      "interval_rate_tokens_s": 50.0,
+      "rate_clock_only_lower": 49.999950000050006,
+      "rate_clock_only_upper": 50.00005000005,
+      "prediction": 50.83627797408717,
+      "residual_tokens_s": -0.8362779740871673,
+      "in_calibration_stratum": true,
+      "in_calibration_power_domain": true
+    },
+    {
+      "run_id": "run_07",
+      "session_id": "sim_session_07",
+      "stage": "transfer",
+      "stratum": "decode_context256_batch1",
+      "actual_dynamic_mean_W": 49.000000000000014,
+      "interval_rate_tokens_s": 70.0,
+      "rate_clock_only_lower": 69.99993000007001,
+      "rate_clock_only_upper": 70.00007000007,
+      "prediction": 69.2108362779741,
+      "residual_tokens_s": 0.7891637220259042,
+      "in_calibration_stratum": false,
+      "in_calibration_power_domain": true
+    }
+  ],
+  "warning": "No refitting; diagnostic residuals only. No safety or inferential pass threshold was specified."
+}

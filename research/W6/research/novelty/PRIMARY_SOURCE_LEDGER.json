@@ -1,0 +1,223 @@
+{
+  "as_of_utc": "2026-10-04",
+  "sources": [
+    {
+      "id": "P01",
+      "primary_source_and_locator": "Lorch–Smith，PACE，SIGMETRICS 2001。[原文](https://www.microsoft.com/en-us/research/wp-content/uploads/2004/07/pace.pdf)，§3–4.2，PDF第2–4页。明确pre-deadline工作与post-deadline安排共同保持effective completion time；不能改写为任意有界W的hard deadline模型",
+      "links": [
+        {
+          "label": "原文",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2004/07/pace.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P02",
+      "primary_source_and_locator": "Anselmi–Gaujal，MASCOTS 2022。[作者稿](https://polaris.imag.fr/jonatha.anselmi/single-task-energy-opt.pdf)，§II.C–D，式(3)–(10)，Propositions 1–2。凸的是有序work切换点问题；F连续对应可微，F严格递增对应严格凸",
+      "links": [
+        {
+          "label": "作者稿",
+          "url": "https://polaris.imag.fr/jonatha.anselmi/single-task-energy-opt.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P03",
+      "primary_source_and_locator": "Anselmi–Gaujal，2025-09-26作者稿，对应ORL 64 (2026) 107379。[作者稿](https://polaris.imag.fr/jonatha.anselmi/Energy-WC.pdf)，§2.3–2.4，Assumption 1，式(1)–(6)，Theorem 1。明确忽略ramp及转换费用；Q=P(v)/v凸且增，不能把P凸与Q凸混同。未假定作者稿与出版终稿逐字一致",
+      "links": [
+        {
+          "label": "作者稿",
+          "url": "https://polaris.imag.fr/jonatha.anselmi/Energy-WC.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P04",
+      "primary_source_and_locator": "Xu–Xi–Melhem–Mossé，Practical PACE，EMSOFT 2004。[会议全文](https://websrv.cecs.uci.edu/~papers/emsoft0405/docs04/p54.pdf)，§5.4，Figure 4，Theorem 2，印刷59–60页。转换penalty扩展和FPTAS已有；比较实验把overhead设零",
+      "links": [
+        {
+          "label": "会议全文",
+          "url": "https://websrv.cecs.uci.edu/~papers/emsoft0405/docs04/p54.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P05",
+      "primary_source_and_locator": "Xu–Melhem–Mossé，EMSOFT 2007。[会议全文](https://www.cecs.uci.edu/~papers/esweek07/emsoft/p37.pdf)，§3.1式(1)(2)，§5.1.3 Lemma 1，§5.2–5.3，Figures 6–7，印刷39、42–43页。当前速度与条件EOS状态可直接核对",
+      "links": [
+        {
+          "label": "会议全文",
+          "url": "https://www.cecs.uci.edu/~papers/esweek07/emsoft/p37.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P06",
+      "primary_source_and_locator": "Bini–Scordino，IJES 4(2):101–111，2009。[机构终稿](https://iris.unito.it/retrieve/e27ce42a-d6e3-2581-e053-d805fe0acbaa/officialPaper.pdf)，§2.1印刷103页及§3.1式(6)–(10)印刷105页，本次在dot云浏览器直接读。目的mode独立entry cost、固定T内idle记账与W6不同；§3.2的细部继承第三轮阅读",
+      "links": [
+        {
+          "label": "机构终稿",
+          "url": "https://iris.unito.it/retrieve/e27ce42a-d6e3-2581-e053-d805fe0acbaa/officialPaper.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P07",
+      "primary_source_and_locator": "Lipp–Boyd，2014。[作者PDF](https://web.stanford.edu/~boyd/papers/pdf/speed_opt.pdf)，§3.2式(2)，§5式(24)–(26)，§6.1.1式(27)–(29)。原文要求变换后控制集凸；不可忽略这一假设",
+      "links": [
+        {
+          "label": "作者PDF",
+          "url": "https://web.stanford.edu/~boyd/papers/pdf/speed_opt.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P08",
+      "primary_source_and_locator": "Petrakis，LMCS 16(1:18)，2020。[期刊全文](https://lmcs.episciences.org/6105/pdf)，Definition 2.1，Theorem 2.3(iii)，正文18:9–18:10页。端点cone的最大延拓结论直接包含桥的几何公式；1934原版没有在本次重新取得",
+      "links": [
+        {
+          "label": "期刊全文",
+          "url": "https://lmcs.episciences.org/6105/pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P09",
+      "primary_source_and_locator": "Yuan–Qu，TCAD 24(12):1827–1837，2005。[UMD原稿](https://api.drum.lib.umd.edu/server/api/core/bitstreams/cd02311f-10c6-4c6d-ab4e-3866dd4d51ab/content)，[机构记录](https://drum.lib.umd.edu/items/ffc9f70d-f735-49dc-9522-03b4a7aa721d)。§IV式(3)–(7)、§IV.B Lemma IV.1/Theorem IV.3，附录证明，稿件4–5、9–10页",
+      "links": [
+        {
+          "label": "UMD原稿",
+          "url": "https://api.drum.lib.umd.edu/server/api/core/bitstreams/cd02311f-10c6-4c6d-ab4e-3866dd4d51ab/content"
+        },
+        {
+          "label": "机构记录",
+          "url": "https://drum.lib.umd.edu/items/ffc9f70d-f735-49dc-9522-03b4a7aa721d"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P10",
+      "primary_source_and_locator": "Wu–Li–Chen，TCS 412:1122–1139，2011。[作者机构全文](https://www.cs.cityu.edu.hk/~minmli/files/TCS10Accelerate.pdf)，§2及Theorems 1–2、4。其pessimistic模型在转换期间不执行工作，且定义能量只在恒速执行部分计费；不能当W6的同成本基线",
+      "links": [
+        {
+          "label": "作者机构全文",
+          "url": "https://www.cs.cityu.edu.hk/~minmli/files/TCS10Accelerate.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P11",
+      "primary_source_and_locator": "Rao–Vrudhula，DAC 2005，901–904页。[会议全文](https://websrv.cecs.uci.edu/~papers/dac05/papers/2005/dac05/pdffiles/p901.pdf)，§3、Corollary 2及Theorem 1。短论文省略证明；2006扩展终稿本次只核到机构metadata，未读取其证明",
+      "links": [
+        {
+          "label": "会议全文",
+          "url": "https://websrv.cecs.uci.edu/~papers/dac05/papers/2005/dac05/pdffiles/p901.pdf"
+        }
+      ],
+      "read_by": "specialist_primary_text",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P12",
+      "primary_source_and_locator": "Simunic–Boyd–Glynn，TVLSI 12(1):96–107，2004。[作者终稿](https://web.stanford.edu/~glynn/papers/2004/SimunicBoydG04.pdf)，§V，Figs.4–5，式(7)–(14)，§VI式(15)。完整renewal的时间/能量及LP目标已直接核对",
+      "links": [
+        {
+          "label": "作者终稿",
+          "url": "https://web.stanford.edu/~glynn/papers/2004/SimunicBoydG04.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P13",
+      "primary_source_and_locator": "Simunic–Benini–Glynn–De Micheli，TCAD 20(7):840–857，2001。[作者终稿](https://web.stanford.edu/~glynn/papers/2001/SimunicBeniniGMicheli01.pdf)，§IV.A、§V.A Theorem V.1及式(12)–(20)、§V.B。semi-Markov与非memoryless elapsed time状态是明确方法前史",
+      "links": [
+        {
+          "label": "作者终稿",
+          "url": "https://web.stanford.edu/~glynn/papers/2001/SimunicBeniniGMicheli01.pdf"
+        }
+      ],
+      "read_by": "specialist_primary_text",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P14",
+      "primary_source_and_locator": "Irani–Shukla–Gupta，TECS 2(3):325–346，2003。[作者实验室全文](https://mesl.ucsd.edu/pubs/irani_tecs03.pdf)，§3、§5.1式(1)–(4)、Theorem 2与附录。随机idle终止的running+return cost不是W6新发明",
+      "links": [
+        {
+          "label": "作者实验室全文",
+          "url": "https://mesl.ucsd.edu/pubs/irani_tecs03.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P15",
+      "primary_source_and_locator": "Chan等，Nonclairvoyant Speed Scaling for Flow and Energy，Algorithmica对应最终作者稿。[作者PDF](https://www.eecs.yorku.ca/~jeff/research/schedule/energy.pdf)，§1.2、§2、Lemma 6/Theorem 7。未知size、flow+energy和竞争分析已知；其信息/目标不同，不宜与已知law的期望全周期最优互换",
+      "links": [
+        {
+          "label": "作者PDF",
+          "url": "https://www.eecs.yorku.ca/~jeff/research/schedule/energy.pdf"
+        }
+      ],
+      "read_by": "this_worker_primary_text_or_browser",
+      "not_full_article_redistribution": true
+    },
+    {
+      "id": "P16",
+      "primary_source_and_locator": "Stanford EE364a，[官方课程PDF](https://see.stanford.edu/materials/lsocoee364a/final.pdf)，Problem 5第7页。确定性、离散日历速度slew的凸调度只是教学诊断；PDF日期未确认，不作定年研究优先权证据",
+      "links": [
+        {
+          "label": "官方课程PDF",
+          "url": "https://see.stanford.edu/materials/lsocoee364a/final.pdf"
+        }
+      ],
+      "read_by": "specialist_primary_text",
+      "not_full_article_redistribution": true
+    }
+  ],
+  "access_unknowns": [
+    {
+      "source": "Rao–Vrudhula 2006 expanded final",
+      "status": "metadata_only_not_theorem_checked"
+    },
+    {
+      "source": "Hong et al RTSS1998",
+      "status": "official_CV_and_primary_followon_reference_only_not_fulltext_checked"
+    },
+    {
+      "source": "McShane1934 AMS",
+      "status": "prior_client_denial_not_retried; Petrakis2020_read_directly"
+    }
+  ],
+  "access_recovery": [
+    {
+      "source": "Bini–Scordino 2009",
+      "web": "Internal Error",
+      "resolution": "ordinary dot cloud browser rendered public PDF; printed pages103,105 directly read"
+    }
+  ],
+  "scope": "Targeted primary model/theorem reading; non-inclusion against these theorems is not exhaustive priority certification"
+}

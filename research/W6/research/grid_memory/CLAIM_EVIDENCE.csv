@@ -1,0 +1,13 @@
+claim,status,evidence,qualification
+Physical-time recovery waveform domination,proved,theory/GRID_MEMORY_THEOREMS.md;review/PROJECTION_REVIEW.md,isolated cycle with physical burn and common clock
+Universal scalar LTI order criterion for W6 recovery losses,proved,theory/GRID_MEMORY_THEOREMS.md;review/PROJECTION_REVIEW.md,positive-system fact is classical; W6 attainable-loss necessity is constructed
+Stable zero-state two-sided frequency failure,analytic counterexample,review/ZERO_STATE_PROJECTION_VERIFIED.json;review/PROJECTION_REVIEW.md,normalized structural example not facility Hz evidence
+Signed-grid work-domain feasible-set nonconvexity,high-precision witness,review/CONVEXITY_INDEPENDENT_VERIFIED.json,exact decimal paths plus analytic extrema; no outward-rounded interval certificate
+Convex safe subclass under frequency guard,conditional theorem,theory/GRID_MEMORY_THEOREMS.md,fixed sufficient actualpower cap rather than exact signed-grid class
+Frozen common-contract cost and frequency comparison,CPU model evidence,guard_eval/raw/STUDY_SUMMARY.json;guard_eval/reports/GRID_GUARD_STUDY.md,one design and eight parameter configurations not independent runs
+Sampled execution and delayed EOS bound,proved bound plus CPU tests,guard_eval/raw/EXECUTOR_RESULTS.json;theory/GRID_MEMORY_THEOREMS.md,72 model combinations; ideal actualpower executor
+Kundur transfer,exploratory linear-model evidence,network_transfer/RESULTS.json;review/NETWORK_TRANSFER_REVIEW.json,inherited 51-state model; no fresh nonlinear validation
+Joint amplitude and slew support bounds,analytic approximation plus float implementation,results/SLEW_SUPPORT_RESULTS.json;review/SLEW_SUPPORT_REVIEW.json,saved lower paths exact rational feasible; weights and upper costs not outward rounded
+Real GPU energy or grid benefit,not established,GRID_EXTENSION_REPORT_ZH.md,no synchronized actuator service EOS PCC measurement
+Site compliance and nonlinear network safety,not established,GRID_EXTENSION_REPORT_ZH.md,0.05Hz study budget is not a facility limit
+Original hard deadline route repaired,not claimed,GRID_EXTENSION_REPORT_ZH.md,prior failure and erratum remain authoritative

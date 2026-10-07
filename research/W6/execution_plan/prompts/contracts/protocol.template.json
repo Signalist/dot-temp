@@ -1,0 +1,180 @@
+{
+  "schema_version": "w6-plan-1",
+  "study_id": "REPLACE_STUDY",
+  "protocol_id": "REPLACE_PROTOCOL",
+  "state": "DRAFT",
+  "claim_tier": null,
+  "primary_question": null,
+  "resource_budget": {
+    "GPU_hours_max": null,
+    "CPU_hours_max": null,
+    "storage_bytes_max": null,
+    "currency_spend_authorized": false
+  },
+  "primary_endpoint": {
+    "metric": null,
+    "electrical_boundary": null,
+    "window_start": "request_start",
+    "window_end": null,
+    "gross_or_dynamic": null,
+    "unit": "J",
+    "quality_noninferiority_margin": null,
+    "qos_noninferiority_margin": null,
+    "completion_rule": null,
+    "MDE": null
+  },
+  "reported_additionally": [
+    "E_gross_request_power_return_J",
+    "E_dynamic_request_power_return_J",
+    "E_gross_request_matched_state_J",
+    "E_dynamic_request_matched_state_J",
+    "J_W6_J",
+    "useful_latency_s",
+    "TTFT_s",
+    "ITL_p95_s",
+    "ITL_p99_s",
+    "completed_fraction",
+    "quality_score",
+    "whole_capture_energy_J"
+  ],
+  "theory_objective": {
+    "formula": "J_W6 = E_dynamic(request_start,power_return) + c_W * T_powercycle_s",
+    "c_W": null,
+    "not_equivalent_to": "matched-QoS energy saving or grid-state reset cost",
+    "electrical_boundary": null,
+    "J_W6_non_theory_boundary_must_be_null": true
+  },
+  "policies": [],
+  "strata": [],
+  "independent_unit": null,
+  "paired_unit": null,
+  "clustering_variables": [
+    "session_id"
+  ],
+  "sample_budget": {
+    "pilot_episodes_initial": 30,
+    "pilot_independent_sessions_initial": 3,
+    "pilot_levels_per_session": 5,
+    "pilot_repeats_per_level": 2,
+    "confirmation_independent_sessions": null,
+    "pairs_per_session": null,
+    "power_or_precision_rationale": null,
+    "failure_event_definition": null,
+    "iid_zero_failure_budget_applicable": false
+  },
+  "statistical_analysis": {
+    "primary_estimand": null,
+    "CI_method": null,
+    "alpha": null,
+    "multiplicity": null,
+    "fixed_N_or_prespecified_sequential": null,
+    "sequential_rule": null,
+    "missing_and_one_sided_pair_failure_rule": null,
+    "quality_and_completion_gate": null
+  },
+  "randomization": {
+    "scheme": null,
+    "seed": null,
+    "registry_path": null,
+    "AB_BA_balance": null,
+    "carryover_test_and_reset_rule": null
+  },
+  "seeds": {
+    "workload": [],
+    "sampling": [],
+    "controller": [],
+    "bootstrap": []
+  },
+  "split": {
+    "unit": "whole_session",
+    "identification_sessions": [],
+    "calibration_sessions": [],
+    "confirmation_sessions": [],
+    "ablation_sessions": [],
+    "transfer_axis": null,
+    "transfer_heldout_groups": []
+  },
+  "workload": {
+    "source_id": null,
+    "source_license": null,
+    "prompt_manifest_sha256": null,
+    "natural_EOS_definition": null,
+    "stop_rules_hash": null,
+    "max_tokens": null,
+    "bounded_support_M_assumption": null,
+    "censoring_model": null,
+    "sampling_config": {}
+  },
+  "initial_terminal_states": {
+    "initial_criteria": null,
+    "actual_power_return_criterion": null,
+    "matched_state_criterion": null,
+    "minimum_hold_ns": null,
+    "grid_tail_criterion": null
+  },
+  "analysis_windows": {
+    "service_window_offsets_ns": [],
+    "service_endpoint_rule": "first_progress_at_or_after_offset",
+    "endpoint_lag_max_ns": null
+  },
+  "measurement_uncertainty": {
+    "clock_transform_ids": [],
+    "calibration_ids": [],
+    "max_gap_ns": null,
+    "baseline_method": null,
+    "uncertainty_propagation": null
+  },
+  "admission_evidence": [],
+  "actuator_realizability": null,
+  "burn_status": null,
+  "exclusions_frozen": [],
+  "retry_quota": null,
+  "safety_stop_rules": [],
+  "required_experiment_ids": [],
+  "conditional_experiment_ids": [],
+  "optional_experiment_ids": [
+    "O01",
+    "O02"
+  ],
+  "code_commit": null,
+  "code_sha256": null,
+  "git_diff_sha256": null,
+  "environment_lock_sha256": null,
+  "known_limitations": [],
+  "registry_compatibility": {
+    "old_kit_model_binds_whole_split_sha256": true,
+    "mode": null,
+    "allowed_modes": [
+      "FULL_PROSPECTIVE_REGISTRY_BEFORE_C01",
+      "TESTED_PARENT_CHILD_MANIFEST_CHAIN"
+    ],
+    "parent_registry_sha256": null,
+    "calibration_only_N_selection_rule_preregistered": null,
+    "overwrite_frozen_split_allowed": false,
+    "remove_hash_checks_allowed": false,
+    "original_supported_transfer_axes": [
+      "device",
+      "model_family"
+    ],
+    "raw_nested_layout_requires_explicit_safe_path_mapping": true,
+    "original_evaluate_requires_all_registered_eval_roles": true,
+    "stage_specific_required_sets_must_be_preregistered": true,
+    "required_compatibility_tests": [
+      "frozen_split_hash_unchanged",
+      "parent_child_registry_link_validated",
+      "confirmation_never_read_by_fit",
+      "missing_required_run_rejected",
+      "nested_path_identity_checked",
+      "none_transfer_and_workload_transfer_semantics",
+      "paired_one_sided_failure_preserved"
+    ],
+    "unused_reserved_slots_allowed_in_original_evaluate": false,
+    "all_attempts_failed_missing_never_hidden": true,
+    "workload_transfer_or_literal_none_axis_requires_versioned_extension": true,
+    "no_transfer_study_may_use_supported_axis_and_empty_transfer_role": true
+  },
+  "output_path_mapping": {
+    "logical_to_canonical_path": "OUTPUT_PATH_MAP.csv",
+    "numbered_root_is_canonical": true
+  }
+}

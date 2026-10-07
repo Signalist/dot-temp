@@ -1,0 +1,30 @@
+[
+  {
+    "title": "NERC Large Loads Action Plan",
+    "url": "https://www.nerc.com/initiatives/large-loads-action-plan",
+    "access": "official indexed page text read 2026-10-04; direct page parse was navigation-only",
+    "supports": "motivation for load dynamics/model-validation work",
+    "does_not_support": "chosen frequency budget, model parameters, GPU mapping"
+  },
+  {
+    "title": "NERC Reliability Guidelines index",
+    "url": "https://www.nerc.com/our-work/guidelines/reliability-guidelines",
+    "access": "official indexed page text read 2026-10-04",
+    "supports": "approved large-load guideline listed April30 2026",
+    "does_not_support": "specific facility compliance threshold"
+  },
+  {
+    "title": "PNNL-35221",
+    "url": "https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-35221.pdf",
+    "access": "official search-index excerpt read; full web fetch failed size limit 11613355 bytes",
+    "supports": "0.15–1 Hz inter-area-mode band and resonance motivation",
+    "does_not_support": "fulltext novelty audit or exact study modelcalibration"
+  },
+  {
+    "title": "Small-Signal Stability of a Unified Single-Unit Infinite-Bus Swing-Equation Model for Generators and Inverters",
+    "url": "https://research-hub.nlr.gov/en/publications/small-signal-stability-of-a-unified-single-unit-infinite-bus-swin/",
+    "access": "official institutional publication record opened 2026-10-04",
+    "supports": "physical interpretation of generalized single-unit infinite-bus swing model",
+    "does_not_support": "our newcounterexample or calibratedparameters"
+  }
+]

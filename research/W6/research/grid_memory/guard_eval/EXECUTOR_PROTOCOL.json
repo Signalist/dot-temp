@@ -1,0 +1,16 @@
+{
+  "status": "frozen before any executor outputs",
+  "model_scope": "Simulated ideal actual-power executor only, not hardware commands or hardware validation",
+  "case_ids": ["design", "confirm_b0.5_R0.5_f0.25", "confirm_b0.8_R2.0_f0.7"],
+  "controllers": ["nominal_optimal", "nominal_target", "robust_optimal", "robust_target"],
+  "execution_modes": ["event-driven work-profile reference", "sampled tracking at dt=0.01s"],
+  "sampled_rule": "At each tick, u=clip(z_ref_prime(ghost_work)+(p_ref(ghost_work)-actual_p)/dt,-R,R); actual power exactly ramps with this u until next tick, with hard clamps at 0 and guard cap. Before EOS ghost_work is actual completed work; after true EOS until delayed observation, ghost_work continues potential service. When ghost_work reaches M, command fastest return.",
+  "EOS_delays_s": [0.0, 0.03, 0.1],
+  "EOS_dense_points": 1025,
+  "expected_cost": "Composite trapezoid over uniform EOS grid, also 513-point agreement; exact per-EOS ramp energy and time",
+  "frequency": "Exact constant-slope segment propagation, analytic stationary points and all-future zero-input tail; dense EOS maximum is numerical only",
+  "ledger": "Useful work is W, excess potential service after true EOS is not useful work; all postEOS energy is burn. Cycle duration ends at actual power return; any known-grid zero-input tail is observed but not charged.",
+  "pure_delay_bound": "Delta J <= 2*(pcap+c)*delay for reference delay alone. Do not apply this as a bound on combined sampling error.",
+  "stopping_and_failures": "Log any inability to complete work, time exceeding 1000 s, cap or slew excess, unexpected delay-bound failure. Preserve all tested cases; no hardware claims.",
+  "freeze_utc": "2026-10-04T14:20:30Z"
+}

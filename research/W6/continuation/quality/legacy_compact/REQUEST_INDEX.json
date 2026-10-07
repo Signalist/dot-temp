@@ -1,0 +1,3138 @@
+{
+  "scope": "Derived allowlisted request metadata and deduplicated original output text. Not original telemetry or independent validation of EOS. Host identity, clock timestamps and infrastructure fields omitted.",
+  "new_gpu_runs": 0,
+  "rows": [
+    {
+      "source": "artifacts/resident_01/attempt_001/e01/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "fcfb727365f00fb957893ec600e939b67d97c904692bfd09c40ccdc2e81e82d9",
+        "host_observations.json": "3cbf43f7adaad5acff8e8798178787e8f54c1558e7e0db65aa93be7d9b647f32"
+      }
+    },
+    {
+      "source": "artifacts/resident_01/attempt_001/e01/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "ae0c0b7d279468afb4d7fb77ec5e876185f591c39fdb59234c9f5760584f55cb",
+        "host_observations.json": "6113ce1bff0a2ad01e2563f324abb11ea295949cac6acd22ef5d9a46470944bc"
+      }
+    },
+    {
+      "source": "artifacts/resident_01/attempt_001/e01/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "316a4a153fb9e9b7ca20f0e90a59012760326479c5ef56cf4a3a6e644caed61e",
+        "host_observations.json": "38c9fc454eb394d68a52c879da08367393afb370406981b41e1206d975b2cd90"
+      }
+    },
+    {
+      "source": "artifacts/resident_01/attempt_001/e01/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "1e28f7af86c9b9427f352da0eebade06d356bf48f88cd51412eb3c990a6b5a0b",
+        "host_observations.json": "c1140d7b2c57eaeb71f2a6e8ba86902a028753495fe486de142894c2a9697917"
+      }
+    },
+    {
+      "source": "artifacts/resident_01/attempt_001/e01/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "a23315ab3216f6326513a920f393bdc72581e11f7391b54cbde8ba8b0ced791d",
+        "host_observations.json": "82ae2706a3f9164f453a38b5bddd427cbd2596a8b70cb4f9c7961029438daeec"
+      }
+    },
+    {
+      "source": "artifacts/resident_01/attempt_001/e01/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "3bab5db6cd17c04df3a759bbe503fa3c14e0ae5e53a98936c126673b749a669a",
+        "host_observations.json": "5950b494c2b5c647eaa1a91309c50484d46b362b732d932592187753b0287348"
+      }
+    },
+    {
+      "source": "artifacts/resident_01/attempt_001/e01/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "4d8f11e122f0d753c2db23e640faa1c98ec96153e62d7577d813e60c9be530eb",
+        "host_observations.json": "c693682728ba4258fb1bf96cab1de7551f58af82df2ae4d483675d36acd4a22a"
+      }
+    },
+    {
+      "source": "artifacts/resident_01/attempt_001/e01/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "6999dfd607eb3bc1de2f1d64a219fdbdd6677079373b2d2798a30bfd7292fc30",
+        "host_observations.json": "4a1ea6a9e518b78ad79b18df530b2c3eb2af2a65f0ed39a220b97c072cf73b31"
+      }
+    },
+    {
+      "source": "artifacts/resident_01/attempt_001/e01/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "b54e8dd1554d58727905d217af7a919070d6ffaab532e4234cefbcf392ea91a6",
+        "host_observations.json": "0c4afdf7c89d167379b6647ca2d3a7368297dc15c50de56524dc029a1e8dbc38"
+      }
+    },
+    {
+      "source": "artifacts/resident_02/attempt_001/e02/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "6d8f5d0ce1bee8ed6e9f0cda9e86150a1d5dc4f8f9c9e7a899913dc01e2c9d5c",
+        "host_observations.json": "c726fc3822e51479caf55ab1ab45a482b332f5032706691865f19814c813ac0e"
+      }
+    },
+    {
+      "source": "artifacts/resident_02/attempt_001/e02/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "785788971845993a9ef4ce9a186bdd8c2005282e5da046b2a0afce627ac408bd",
+        "host_observations.json": "80f630f4dbaec80cd0d62f515fd7fe84d9085fbfa049e9e28413a5aac5c9e38d"
+      }
+    },
+    {
+      "source": "artifacts/resident_02/attempt_001/e02/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "af3535bea8b63ac5ef937811a48422512d3a5f4fbe8812a59ecbcfe828c1bd91",
+        "host_observations.json": "0743ba6233d49e4ea3efdd369b7d22c0fd1b1284db3f3cde017e58ec1fd0e0fd"
+      }
+    },
+    {
+      "source": "artifacts/resident_02/attempt_001/e02/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "4edb4aac0ce6d1ada294194af9254ea0226d633c3fcb6a5735c321cae6b04fb5",
+        "host_observations.json": "be635295ae5972c2b09f3101fa9925a494805bbd8b75a3db4659c475b2d9e0bf"
+      }
+    },
+    {
+      "source": "artifacts/resident_02/attempt_001/e02/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "11a76937f3f60671f27308cd3b0fb0c31e31117085ff09155b5cf0a28c590aa7",
+        "host_observations.json": "5cd5145015a81f74ebe2ad20e41b49a5848d89283f0c5cb701e5d490b38fbb2b"
+      }
+    },
+    {
+      "source": "artifacts/resident_02/attempt_001/e02/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "bb874caede1f7aa0176a7d31e5900295f254567d4e479b4c161369874ae34d15",
+        "host_observations.json": "a808af215cf923ad989f2c730585569a0bec22177c750376ee01bbf0e68da1b6"
+      }
+    },
+    {
+      "source": "artifacts/resident_02/attempt_001/e02/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "1d82121dbc77f3ede792daeb0828374f3f927c3540fe446be5ccdcbdf7223cbf",
+        "host_observations.json": "762be5751d93eaae8bda5751c315b09a182649cb585ead2c9b2a6edb8d84c44d"
+      }
+    },
+    {
+      "source": "artifacts/resident_02/attempt_001/e02/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "a0ad83a6ac867f3e0ee05f44326bc81a95102a8884c090a17cbf0c6757efdc7b",
+        "host_observations.json": "a1afe5798b26dec2d168e00251d23bf5864a99b3010a79b982b2937ddc170933"
+      }
+    },
+    {
+      "source": "artifacts/resident_02/attempt_001/e02/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "7531450159d3d8609a793570f9043d047c34aa6d4b4fa5154266e25a917142d2",
+        "host_observations.json": "e5ed7c3925c738556110ff4e73c41a02dd5dcc6fd7685f3cdc7873aa8473a412"
+      }
+    },
+    {
+      "source": "artifacts/resident_03/attempt_001/e03/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "66c3392f6391270701ce1fd0e3c9e9e5c4b928b797d625e5c94a28fd6e728924",
+        "host_observations.json": "09d1997ccb256c221a08a4dc1c2dc1170ac4b6a6ba9b7bd5a577a3e92a3d6f39"
+      }
+    },
+    {
+      "source": "artifacts/resident_03/attempt_001/e03/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "e457a3883e2876c67f0dbfa27cc05371c073a93cedbc850a296c76a5c05c194b",
+        "host_observations.json": "3b7aec396aa620c57c5892dc036c9c52be5f9d139294ced0b875eade4061aee1"
+      }
+    },
+    {
+      "source": "artifacts/resident_03/attempt_001/e03/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "4042418b7d389aaf91ad4c39d71ad41a757421569c59b236a1f3bf78d93055b4",
+        "host_observations.json": "7922410cb96b652eab5488e263b4f4458655349213c7118689d391b075f753c3"
+      }
+    },
+    {
+      "source": "artifacts/resident_03/attempt_001/e03/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "bec7d8f1b3cdaefcbaa20183588ed88a3be05618b9bd9ea1aee45a306c3d1ba5",
+        "host_observations.json": "26a5d8a04255372722d9abc61aa44c41667e9b22a59c41ddc4614b86b301af95"
+      }
+    },
+    {
+      "source": "artifacts/resident_03/attempt_001/e03/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "83f1cdf088b527beb39acc160ddce7fc211d38d6e8872b75974783431db78c1c",
+        "host_observations.json": "7464338bc5b2553076f850c0d72d3e339bf046535e85d6fb4c3ac22d892d5541"
+      }
+    },
+    {
+      "source": "artifacts/resident_03/attempt_001/e03/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "6c9e0939d2a859debb6a89ed5dac4232e739fc1be44d7e82668b33455ee0e82c",
+        "host_observations.json": "dfc62ec5c937e990db704e19474d9f26b3aeddb499377f93a3c5328db209b50f"
+      }
+    },
+    {
+      "source": "artifacts/resident_03/attempt_001/e03/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "5c337ff7339a8ecb0d4754f7a5421d3529b265c3b32b14c86178264bd88e0ec3",
+        "host_observations.json": "03e4a6e2b3fdef6f239bb6b787771d4b371aeb984c0b8ac819c4794bccb16baf"
+      }
+    },
+    {
+      "source": "artifacts/resident_03/attempt_001/e03/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "45e7e8101eafba460fcd696eda2f1990cab8552144b603742f455e70976e3fd6",
+        "host_observations.json": "bd4d1328c71136d0cd2c7ec32e0c67d089f338d28a44d7a3d567f5a039553789"
+      }
+    },
+    {
+      "source": "artifacts/resident_03/attempt_001/e03/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "e1a13e87194b8e975710bb521e81278c16adf8f807b1c0c0e850bbd675288317",
+        "host_observations.json": "73cac9236459d78985e24312d9ad49f770dff84eb8c29a0c00b6134007c2890b"
+      }
+    },
+    {
+      "source": "artifacts/resident_04/attempt_001/e04/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "5b4f658d03acc98c7fa09c22915b9cd1f62376a0241aac2cdbdc5b0b37a5734b",
+        "host_observations.json": "34cf0cf45a5046f5d501f3128ea6ee182ac6ac410e7ea866806a3d1c3e14af59"
+      }
+    },
+    {
+      "source": "artifacts/resident_04/attempt_001/e04/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "4966e9fa9f1cb47a98845e244ba5cfded47595d728170b2ac4adddaed66d3ea3",
+        "host_observations.json": "cb7b5c744af6409434e4993bfed4a7c17ee004b5804e475a43757a32204bb0c9"
+      }
+    },
+    {
+      "source": "artifacts/resident_04/attempt_001/e04/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "2b841a7831801d21c545a0d3549b5c3723a1e158a36f402f6ce0c27e35079889",
+        "host_observations.json": "f27122a1833bc13d31c439fe57d35bd74887fc6abd6d1584708e60b68946e361"
+      }
+    },
+    {
+      "source": "artifacts/resident_04/attempt_001/e04/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "20bd756b7bea60c7c87523099ee55fb68cfef751797baca756283068f1a8240d",
+        "host_observations.json": "69cede15888cd712dd26118c6334aafffb741e4873854d05731648cce041524e"
+      }
+    },
+    {
+      "source": "artifacts/resident_04/attempt_001/e04/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "91c6ec0a7f4df40a0456468a554babb22e9982776392d0c6942edc4f41b8b9b2",
+        "host_observations.json": "75496fd238c64f526e2562530a144713f7db158eeb244144720b8b5f7a9d8bde"
+      }
+    },
+    {
+      "source": "artifacts/resident_04/attempt_001/e04/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "4fe2733bc8e740585109c87aff6b1f237036aba8f4122ab48819fa27bb44dc70",
+        "host_observations.json": "7a290c4f2e9de72ab89a0d911c576b143b044842d77a144b496607334892b49a"
+      }
+    },
+    {
+      "source": "artifacts/resident_04/attempt_001/e04/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "97301e6f679e3918d06b03017c34e218f2e17be359fb85ed146654e9bbd252cd",
+        "host_observations.json": "8f29f347d4428487db0c181c581df39496286f29232af416d6651848aa4206fa"
+      }
+    },
+    {
+      "source": "artifacts/resident_04/attempt_001/e04/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "8e358ac68f282d9162965b272019d3b9da707b3f9e69d813c61924662aa5ae27",
+        "host_observations.json": "0da3a56fbe6861189598334e69ce90f417bcdb2e5e0bb85608fa3871da500f8a"
+      }
+    },
+    {
+      "source": "artifacts/resident_04/attempt_001/e04/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "1885a851e87cdf398c09fbcd2d8c332263b4183f9f1439e13e7bbc272c9eefec",
+        "host_observations.json": "14c78cefc5e926894a4870b4f986b09413c36e3e6cc5237f77b53b8fceef5408"
+      }
+    },
+    {
+      "source": "artifacts/resident_05/attempt_001/e05/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "1e8bd6ed6e371af46835f72250d025192a6552d01f8e785ffecd1d76b5c7d974",
+        "host_observations.json": "7f090bfb51eade8f4d660741be6f5f3a2ad2c9f4ea2ae3bc8b0d36fe84ce8e26"
+      }
+    },
+    {
+      "source": "artifacts/resident_05/attempt_001/e05/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "0f05d3f72b8b51f72034c74044c991b9d87a21673c863f5abafbf0c608879fc4",
+        "host_observations.json": "46ec5a17b673c50e25b23af5344e56d1e02a4d3a3c428af51620f8cd00b252f5"
+      }
+    },
+    {
+      "source": "artifacts/resident_05/attempt_001/e05/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "aacc9d465918cdc97e35e246657023a6e0283ab86f14f358ea18b830079dc96a",
+        "host_observations.json": "7716dc5ae7944c474a614cfa7760bb12091b015e80db1330c12f71b9b4f4ae0f"
+      }
+    },
+    {
+      "source": "artifacts/resident_05/attempt_001/e05/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "618c4f5135de3b9fbafad917b6ee6f27f6ab09c66a9873fac4b592b22a040aa2",
+        "host_observations.json": "6c7d6926b953db569ffd2d3988bc13839a7edd2fb44ce8148f8aeb253f9b5f6b"
+      }
+    },
+    {
+      "source": "artifacts/resident_05/attempt_001/e05/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "cab3207bf2eada5abbfaa4bb07a7f7ed154b6e02c85fc34244004d0ef108bef6",
+        "host_observations.json": "8889aea03855409da8fccb8bd4c7cc534766d159cafd76c4251becc9bb27d0ad"
+      }
+    },
+    {
+      "source": "artifacts/resident_05/attempt_001/e05/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "58268524019c5c079fe159a3518a93c3ef744687744f6e3c2662447da1e3724b",
+        "host_observations.json": "e4a244e8c61779e4259dbdf77f7fc1c54be30d72d4f5f089d5f1d2a781b7ded4"
+      }
+    },
+    {
+      "source": "artifacts/resident_05/attempt_001/e05/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "52b8860b644fcda52d112681db90da15097a599d3ff4d3f618f76015daabe6fe",
+        "host_observations.json": "a013f9285ed77b9b972507784ad387ce82f693920490668989dd09cc98880dd2"
+      }
+    },
+    {
+      "source": "artifacts/resident_05/attempt_001/e05/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "96cda08d73a11a817c3bb19c2b4e433f70945e61afd8a4d6f03aa92dc4818d9c",
+        "host_observations.json": "7bc738bcacd1f7db4b8f90dd514f6881aadcdbfcfb818f2e2c445b72dd50db41"
+      }
+    },
+    {
+      "source": "artifacts/resident_05/attempt_001/e05/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "b473c06d0a495b02037349169fdcf1d73054dfda9b5b1516665a6b65df9bd825",
+        "host_observations.json": "ecbad075aad89ccd9232e6cc0abe8222e0d2ac1d837caa2182ad8aaac9c016db"
+      }
+    },
+    {
+      "source": "artifacts/resident_06/attempt_001/e06/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "a2dabcc6f14ca78e1ef976475cb6e57e4717d55d0ebed491a0b5c531612a4229",
+        "host_observations.json": "7c404554e414249d88c658587383d0e8d5e1cf5ac7a8c1fc239100588d7d971b"
+      }
+    },
+    {
+      "source": "artifacts/resident_06/attempt_001/e06/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "6c50a9204fd2abfdd9e4caa7bc22210592a903594ef02999e1cb4f1400413272",
+        "host_observations.json": "417c5dbc1364b21dc5f8ba12e7dc4fd84bd3d0460821dc84cfbc1233d35885ec"
+      }
+    },
+    {
+      "source": "artifacts/resident_06/attempt_001/e06/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "bb8504c0dc7d844d9e3eddf10b7f1f1e16186f47e2a77b03a92dd4ac34fac9ec",
+        "host_observations.json": "007d903536219d174f7f02c03ef4f409c21e851842a4237f78205a9dc9a96e99"
+      }
+    },
+    {
+      "source": "artifacts/resident_06/attempt_001/e06/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "9f5dfb57f986359b6210c549222b1b89864a4ccdf173e6ba0e6e21c17d6cdfa9",
+        "host_observations.json": "64b463135b3e31048904d57b13072ee79b9dcf64a0a7774753b0078ff9f0772a"
+      }
+    },
+    {
+      "source": "artifacts/resident_06/attempt_001/e06/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "5fdb0e53b30447eec09a429b98b2250707725e88e04630a66247c1c8c423c5d7",
+        "host_observations.json": "bf74546a32b0f6f5625e4103dab4b3179ccbb9204aed771d05ad85afb3c1f3b4"
+      }
+    },
+    {
+      "source": "artifacts/resident_06/attempt_001/e06/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "04529dd274ce85b30339caa15b825ab8fb7973f50a82740ccab62567eb7e4823",
+        "host_observations.json": "b2ea3ac23bdb9dea0d5e53d4212fa1c7761543571042c42ff122a9322c4ad994"
+      }
+    },
+    {
+      "source": "artifacts/resident_06/attempt_001/e06/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "6590b664df38544db9e345be6a20cf84250a3ede7000a73f82642b969a6d6481",
+        "host_observations.json": "5ff4c34d19ccb7f101867985d053112949ab5e738c2ef2d5acf6f4cda2f3f3e7"
+      }
+    },
+    {
+      "source": "artifacts/resident_06/attempt_001/e06/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "bd641b9ef1b5e7c4495cbbab8334592777a0be3d9d9e921836114ebad2d70443",
+        "host_observations.json": "6c08f634aec11490a37abdc8085894d5a06afa6631b81c9995c10d7b44167dfa"
+      }
+    },
+    {
+      "source": "artifacts/resident_06/attempt_001/e06/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "f9541dfafdd31277f6881d76ae69635cf0c97a384d148b9b33663c1d6f3471b9",
+        "host_observations.json": "22b89813b9de79db8260fe7a0e29bf82ca152fc2848c9af776a80e37b574428a"
+      }
+    },
+    {
+      "source": "artifacts/resident_07/attempt_001/e07/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "6748c8ba80624ea290c0cb56f29ea6db291268db3d9fc3863494208c5f3e642f",
+        "host_observations.json": "4adf5e61d84e1b7b26233a79f98341cbfcae486efca932c54dede438749fbd37"
+      }
+    },
+    {
+      "source": "artifacts/resident_07/attempt_001/e07/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "b381ef8e1e67b50fb94587c4407dca80aa1e8ad24af470936ffe6f27f6e07f1d",
+        "host_observations.json": "46cdaeddbb82302209dcdc083c9142e50894af5875be333ad054e3e2f485a1f0"
+      }
+    },
+    {
+      "source": "artifacts/resident_07/attempt_001/e07/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "80fb9406c5a7459a609f0600391cfaf4db42081f6c57a8c7139fa188c1e9a2a3",
+        "host_observations.json": "a9146234f666c277e670f942c5bbc8baded214f0a1faab54a12833b50cfea9f8"
+      }
+    },
+    {
+      "source": "artifacts/resident_07/attempt_001/e07/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "f067a6aab8b882608a5ce444d3cd4b2a4f19d0fa8825fc6373901b105a1849bf",
+        "host_observations.json": "4afd3b744da1b5f3a5ddc4fcc1fe0e377fe7856e3e7ed0952b563cf27bcb7160"
+      }
+    },
+    {
+      "source": "artifacts/resident_07/attempt_001/e07/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "2c5a3e28fad7637e595e3a74529821430e6e2dd42808e43cf6540a2972972562",
+        "host_observations.json": "55ae43fd8dbaf2ac54bb0ffee4fb712483894ff8352faf2b4f8da2d45dbe6c95"
+      }
+    },
+    {
+      "source": "artifacts/resident_07/attempt_001/e07/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "87dc696a80b8c2fe91a85f4dd6df6c6310476b040a8856368e28a0106905ff7c",
+        "host_observations.json": "492cd9f0deec9fd53f7c6de4d79fb59fec431ef7246bf8ce24bf0f540f93f1a9"
+      }
+    },
+    {
+      "source": "artifacts/resident_07/attempt_001/e07/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "a9fda992cedb2092f558611a1564e0846bfde02379d29cf9a287e3daf239ca93",
+        "host_observations.json": "fe79cd7eb0b898ee03b6ecd75e0e143f406760ea260bf4e2f36aad0f330b453f"
+      }
+    },
+    {
+      "source": "artifacts/resident_07/attempt_001/e07/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "6de516f0f83a0de11309f3395dcf15e558d1a33641acda1a4c1401403841fc80",
+        "host_observations.json": "450fb0b5ba8e00412d7fcf96d40960241e6674ffaa286bc455ebf0d66360c072"
+      }
+    },
+    {
+      "source": "artifacts/resident_07/attempt_001/e07/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "2f7d1d8dee9881d839e282ae3820cfd6bea0be3784ccd8c27bf08cffcb15f02d",
+        "host_observations.json": "7cd7c1d0a33d7585f68db9a89dfcca3059fb7759a8a43c0864af8c4bbd1bcc5e"
+      }
+    },
+    {
+      "source": "artifacts/resident_08/attempt_001/e08/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "98539a74a81cfd2c7b56981ffdb85b9d7664a41dc40f007764fdaf74c5f90bae",
+        "host_observations.json": "154350bfc579304ad6224adced1cfde94e89616f2475bcdcad67b52a121a419a"
+      }
+    },
+    {
+      "source": "artifacts/resident_08/attempt_001/e08/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "52aced220ff3b93b14514971fcc853763173b17c17e86fda5e0f00fad76fac44",
+        "host_observations.json": "373271f168ff90012deca1369287e0598370a8e77bacd2b8dc2a597597231e78"
+      }
+    },
+    {
+      "source": "artifacts/resident_08/attempt_001/e08/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "621fb2827b5ca3727ce4f2b88c3dab9e1cd1e0730b6abccc116fd8429ff3cdab",
+        "host_observations.json": "1d193dbd8f5bb5ea09b85959ad840783e1af612387908440f2d75a12876130f9"
+      }
+    },
+    {
+      "source": "artifacts/resident_08/attempt_001/e08/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "f82b851c401a6e63483d00903e298328ab2410281120a8111c4da7704e726430",
+        "host_observations.json": "4ea565989d6cb5df42de99302ab493588d2f64435bde1e63bcbc3c8a19f41c8e"
+      }
+    },
+    {
+      "source": "artifacts/resident_08/attempt_001/e08/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "ef7894abfa6e5fc37ae1c9c632dbb5434d70ba3b6a4f59e787f2edfb1168951e",
+        "host_observations.json": "35bdc2d5f3d8ebf684f2b245877c938a408f46894de0445bc7837854e3784027"
+      }
+    },
+    {
+      "source": "artifacts/resident_08/attempt_001/e08/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "c940cfb783ced200bb4f7c5a241f72e63e82ca27545a658d4092442ad963b12f",
+        "host_observations.json": "8a01f3dfb0a91c43f0637ecdc95c9cc2a6f0ca1fd69e956f2b77add84279a2ac"
+      }
+    },
+    {
+      "source": "artifacts/resident_08/attempt_001/e08/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "b6d30c8a97d0fe831b29937159ad1cc1d172b6f73b521d4270db69de3539226e",
+        "host_observations.json": "e91afd7736fd9d2f987c073324a11104b96e073065f84093a49392651efeca9f"
+      }
+    },
+    {
+      "source": "artifacts/resident_08/attempt_001/e08/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "cb7f92f130a6f1a9673a0c6839cbca1ee139bf945154165aa99942a965a5d84b",
+        "host_observations.json": "f1d7e0a351cf5ad7746612c02fac01eb6bcfc0d06f5ad022acccb1e4fecaf0ce"
+      }
+    },
+    {
+      "source": "artifacts/resident_08/attempt_001/e08/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "ca3dd611588f867d53b836c32c12e0764f257705da198c8f2625229da77982c2",
+        "host_observations.json": "3c42621bfcbb580edf0d2b269fa33291e6eeeea3a531205b7bd8fee18d6150af"
+      }
+    },
+    {
+      "source": "artifacts/resident_09/attempt_001/e09/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "ee43238c4c7a69a7c896c93b743f6cc51e137c48b9e7b67f8946a487e751c8ce",
+        "host_observations.json": "fabd68f176297632a6c0fa62a4a7564ab2e8561e37111b36894a1ea2f4675b70"
+      }
+    },
+    {
+      "source": "artifacts/resident_09/attempt_001/e09/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "dd9e97ed447c40b2e3ee83b9a5822e2dfceaf87104c6cac983423c6c84339d31",
+        "host_observations.json": "b00239fd56c6fc4be98386fb4aaf0ab179f574dc9b13dda223ac4973f015bd08"
+      }
+    },
+    {
+      "source": "artifacts/resident_09/attempt_001/e09/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "b0004ce433206ac63c797ed3a986603923d761727d37c2e0c3952146258bf730",
+        "host_observations.json": "85f7b92cdfbf520a7edc713c379d2c4490af5db5b047ba2b8fdf95bf25c91d99"
+      }
+    },
+    {
+      "source": "artifacts/resident_09/attempt_001/e09/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "46b1e3b8558b67256a353cc7b1695609670a5ac0a8834aa49a311c008cb8562b",
+        "host_observations.json": "84565ce0777a0967ae189fc94f3ee88c1b478601c5920571e57aed2432246d98"
+      }
+    },
+    {
+      "source": "artifacts/resident_09/attempt_001/e09/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "c5666f66236cea871231b5d670cd3e44e7f95d4c1002362f1103d0d66192f372",
+        "host_observations.json": "865b1cbde59db6184be8aaf9dad4cad851e0dfe381835a54a3931257d97e04ca"
+      }
+    },
+    {
+      "source": "artifacts/resident_09/attempt_001/e09/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "edbaadd41f9cc779fe279573abb3d66c27ef56d52d70af1f95bbf3fb7e9eb4ed",
+        "host_observations.json": "8cfcd26a7f018cfcb48cb520b829f4a8a1f76c36e405cf30767d56ffae634d02"
+      }
+    },
+    {
+      "source": "artifacts/resident_09/attempt_001/e09/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "a9575ed1f892a4a5965281a794f804193fa4a5e73c81aa1ac488c7672079ff70",
+        "host_observations.json": "92c96e08e1a4ad459cb98144b8408114c7b32303a0f857c7af8b5609da2af8a3"
+      }
+    },
+    {
+      "source": "artifacts/resident_09/attempt_001/e09/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "0b877a8cec7824a4637cd1fb97f43dcd1314ed6ad6d448fcd15b3ca0b46bc8b6",
+        "host_observations.json": "159fdc60503ff3ac19ad6f74cfb61c7c0b7bf4f8ede9f48ff23bde125c6eefed"
+      }
+    },
+    {
+      "source": "artifacts/resident_09/attempt_001/e09/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "ca5485b7c982049291f096751bb000adeeee4ee950c8b451f4d5534d1c900324",
+        "host_observations.json": "f1fa1cb6f5d3cfe86103ffd04ac1f8a0925e7c604be6bb8c74c9a8a24b4d7f64"
+      }
+    },
+    {
+      "source": "artifacts/resident_10/attempt_001/e10/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "d48ae12df916214d2ffbc3926648e97d821ce744abfc78e21ac3b3cb59548dce",
+        "host_observations.json": "51617c460d2802f3e6516b4527e046bf569b3344d12ff54986b20368b3c42b5e"
+      }
+    },
+    {
+      "source": "artifacts/resident_10/attempt_001/e10/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "adeaa8de6beb10dee164c36221ae2b1e8a2a92e45e657970d82a240ed42b1ae6",
+        "host_observations.json": "1d6a226e8d53ef2fed6b9f610909721c9510da77543ad17bf1cf7e6a5a1a6b60"
+      }
+    },
+    {
+      "source": "artifacts/resident_10/attempt_001/e10/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "454a560cc0a13ca520d69c99d775b7c14fc4ae4cf1320ef0c39675a6d728ed1e",
+        "host_observations.json": "fc3eb1c337f4a76ea3dcce93a27f6331da261b6b7c1ff92f0767df686e408544"
+      }
+    },
+    {
+      "source": "artifacts/resident_10/attempt_001/e10/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "547bca9b6c728a99ad77aef51b833dec3140ecc980692e85c6e6a5ab35918e45",
+        "host_observations.json": "9c55fe47f8e97d576de26a0ed6033c018a0817fae16602cac72a9fd8232b5e20"
+      }
+    },
+    {
+      "source": "artifacts/resident_10/attempt_001/e10/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "1a5e81098358b27b5342f475cb8de4ff257cc7e483f9238d3b1683c461849722",
+        "host_observations.json": "d3f187435b107db5985efbff94a3d7d61a08ac9bd32066d5862f5563587dc83b"
+      }
+    },
+    {
+      "source": "artifacts/resident_10/attempt_001/e10/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "4c6a91287e12e53db734e0ab67187fbc0a857607cc076ad633388b13a2b25778",
+        "host_observations.json": "d129971012ccfcff1169d054f0bcc7b595cb17a381e2344601c1b0917852e85f"
+      }
+    },
+    {
+      "source": "artifacts/resident_10/attempt_001/e10/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "ccdba779a97c278d6af9f8c4792e78f86256272d898a7824e5a8f1357697e834",
+        "host_observations.json": "fccc4ea86976e0d5b9fa61c10c614fb356e6472093999ca67981d1681581624a"
+      }
+    },
+    {
+      "source": "artifacts/resident_10/attempt_001/e10/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "bc77126477fd3441b8b3ef56577251d3d7aa386f0f012e04cd33e15a80254a19",
+        "host_observations.json": "61d33b90921c363c2a73495e3842348bee10ba993f736d121099a8cb7e2a4181"
+      }
+    },
+    {
+      "source": "artifacts/resident_10/attempt_001/e10/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "2ed9e4655869eca6411d0693317889f66d7972ffd9e6240e41401e3ddbfcf12a",
+        "host_observations.json": "63e0022b4189e8ce3a9867b98ecdadb183ddf0aa57add1b3582b93c9f270fb19"
+      }
+    },
+    {
+      "source": "artifacts/resident_11/attempt_001/e11/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "4867bc869c328b5addb74ffe7cbb1d49f9dbba9fab12dbf238312b4ab259a395",
+        "host_observations.json": "90b24219aa00b9bdec85d15824c51daa38a1f343193d3a034b0949afb46dd37e"
+      }
+    },
+    {
+      "source": "artifacts/resident_11/attempt_001/e11/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "274cdc8d059b176bb9859331c35e59467b9c2437182d49343dbbde0f834a141c",
+        "host_observations.json": "b53f43de65c58d45e434673098bdc39834416725211a1aa4e270b6943bdd01c6"
+      }
+    },
+    {
+      "source": "artifacts/resident_11/attempt_001/e11/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "42733d3000f80910101fb6092ecaa6e2cd9df855a2278457f8df0f2cab30b4e4",
+        "host_observations.json": "10287d67c4d0fe483de3095fbdb153c25bb5fb25fbc031cd4b4aa3d39fe40780"
+      }
+    },
+    {
+      "source": "artifacts/resident_11/attempt_001/e11/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "185761fc612da66571201dac12f51cfb079cbb054d5be110b298893a4c276fd8",
+        "host_observations.json": "d4053c3dcc3b7165395c138180c9f9fec2c5658f64a1a6bd8455b8d83e7f826f"
+      }
+    },
+    {
+      "source": "artifacts/resident_11/attempt_001/e11/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "5442d83527c5ba6439c57ccdeb9634e1b647217d79e4ff86b3278b42657af488",
+        "host_observations.json": "44e249294db1ac0bb636aca965415cb18e18bb3a0fbc95da21968f65c4872188"
+      }
+    },
+    {
+      "source": "artifacts/resident_11/attempt_001/e11/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "e74a6ec9b31da0d181d51b97dc864f45906225fcd57a657b7780b14a4bbf1a30",
+        "host_observations.json": "b6995addef4ead0760473c2ebbc2b344ecd2ec45316ae52f290249aaf5d254c8"
+      }
+    },
+    {
+      "source": "artifacts/resident_11/attempt_001/e11/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "d4c844e8b3b74157b7ee2110d9600e01daf5c0f6aa5948ead15bcda109f944c9",
+        "host_observations.json": "0b08cbc7ad02938bc045fb3a29e75387e565754d6c2612340250f117d1b54e37"
+      }
+    },
+    {
+      "source": "artifacts/resident_11/attempt_001/e11/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "4a63fbece273cf52c05f82c46cbf467e08c34f062089e42709ebe8c2de0d0992",
+        "host_observations.json": "88eded9ade00bb68393fd5e5f63299de395407e3cd22d2b2d53611e58800364f"
+      }
+    },
+    {
+      "source": "artifacts/resident_11/attempt_001/e11/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "9b77b0c631e273e9d420c00aaad8a83079d9ef41c7d4d3291eed599b37b0d246",
+        "host_observations.json": "eae281c2521b95f74ea61bf531423f4aa89d74a28c75a831c136ca62bce89d9f"
+      }
+    },
+    {
+      "source": "artifacts/resident_12/attempt_001/e12/main/code_short/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "e9cac53cdd9ce111fcb81a136c305df818bcb78d79ee6a8751868b3170d2b3eb",
+        "host_observations.json": "8ce3e0479f31ad9db0e9f8173aa48066dc62f73fc2b663ddf2da1454bae8ae7b"
+      }
+    },
+    {
+      "source": "artifacts/resident_12/attempt_001/e12/main/code_short/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "code_short",
+      "output_text_sha256": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+      "useful_tokens": 389,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "05995dab4e9457ef626cb16dd2db61aee98f46859d1404cdb778b40e5024668f",
+        "result.json": "2444a054ed00e455db04f3ceb418eddb643577bff8910a33486368e71804bde7",
+        "host_observations.json": "1057a92e8fbd9d796b1493db492d3ec06384b916438b4558b9d99a66dd3adbf8"
+      }
+    },
+    {
+      "source": "artifacts/resident_12/attempt_001/e12/main/reasoning_medium/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "3e67c88f9bcfdf32ef30164001348c364474a54aaefab46313426eaf569c6a7b",
+        "host_observations.json": "01e6a1743fd71f20693754f08630ab83a8c493baaac1d5024a4f5b99469ee7a3"
+      }
+    },
+    {
+      "source": "artifacts/resident_12/attempt_001/e12/main/reasoning_medium/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "reasoning_medium",
+      "output_text_sha256": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+      "useful_tokens": 1007,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "301cdcdb37d70f0f68866efd45c74164cc5514cc2f2fe69bf1a38afd6b3c9854",
+        "result.json": "843a6403b7fcdb6424b335e4fd40d2bc3f839c6e0ee4cab81bcedf42860ba0fd",
+        "host_observations.json": "0e21191ce81640ae7fa88fc8d69c56a5c670bb669bd2a3c6d92982c4691d24f0"
+      }
+    },
+    {
+      "source": "artifacts/resident_12/attempt_001/e12/main/writing_short_v2c/r1/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "0a2559eacb88ee6893b03e3491a41b43dbd58b25cd0ac73b1791c4f2a6ab4559",
+        "host_observations.json": "1e0251b28c2e93aeacfefecbcfee2d59a2b22b59f01ece63069e40dc3f6e9d1d"
+      }
+    },
+    {
+      "source": "artifacts/resident_12/attempt_001/e12/main/writing_short_v2c/r2/MIN/public_output.txt",
+      "phase": "MAIN",
+      "task_id": "writing_short_v2c",
+      "output_text_sha256": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+      "useful_tokens": 83,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "5f7c23ed4c8462b52e0ce1faee34bdecef3efbd271d0d50fef19b68ec4ce7254",
+        "result.json": "77eedb6d58c7686a9c671c4e94d3d84a47f09ebe5fd21bc72199292bba7be2a5",
+        "host_observations.json": "c78f2147d1ef9e228b590e522c43fbaf07738813bdcda9e7205966ca18479988"
+      }
+    },
+    {
+      "source": "artifacts/resident_12/attempt_001/e12/warmup/0/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "9b041d1a37868f592fe28ab48cdc814f428f2743410849129d668a560c5eb390",
+        "host_observations.json": "42e4d51eedbca32c6c88c9c0ee857eb6f2daf7cc55e702af06e1a35122646a56"
+      }
+    },
+    {
+      "source": "artifacts/resident_12/attempt_001/e12/warmup/1/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "69a8f10bed1f05322c9f28439dcf438094a8ce855f8d2d0b2a42fb4459725870",
+        "host_observations.json": "19031ca5751a692bcf3901015cb330239e9de3939c37c1a60b64c488491cf86a"
+      }
+    },
+    {
+      "source": "artifacts/resident_12/attempt_001/e12/warmup/2/public_output.txt",
+      "phase": "WARMUP",
+      "task_id": "warmup",
+      "output_text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "useful_tokens": 1,
+      "terminal_records": [
+        {
+          "finish_reason": "stop",
+          "ignore_eos": false,
+          "terminal_eos_token_id": 151645,
+          "declared_eos_token_ids": [
+            151645,
+            151643
+          ],
+          "stop_class": "natural_eos_token_host_verified",
+          "censored": false,
+          "metadata_scope": "ALLOWLISTED_STOP_METADATA_NOT_GENERATED_TOKEN_SEQUENCE",
+          "actual_stop_reason": null,
+          "declared_stop_strings": [],
+          "declared_stop_token_ids": []
+        }
+      ],
+      "source_file_sha256": {
+        "public_output.txt": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "result.json": "8085d311553004f2f6d3ecb5df11131a497dc81aee657cdb741a0d26fd8f236d",
+        "host_observations.json": "8d0b62a5bc61c508ff2da0e54b8096c86df0dc5c3ea017912c864194ef66b333"
+      }
+    }
+  ]
+}

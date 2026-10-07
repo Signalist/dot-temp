@@ -1,0 +1,80 @@
+{
+  "evidence": "SIMULATED",
+  "model": "diagnostic_OLS_rate=a+b*interval_actual_dynamic_power",
+  "a": 31.69611307420496,
+  "b": 0.7656065959952882,
+  "stratum": "decode_context128_batch1",
+  "domain_W": [
+    25.0,
+    64.00000000000001
+  ],
+  "points": [
+    {
+      "run_id": "run_00",
+      "session_id": "sim_session_00",
+      "stage": "identification",
+      "stratum": "decode_context128_batch1",
+      "actual_dynamic_mean_W": 25.0,
+      "interval_rate_tokens_s": 50.0,
+      "rate_clock_only_lower": 49.999950000050006,
+      "rate_clock_only_upper": 50.00005000005
+    },
+    {
+      "run_id": "run_01",
+      "session_id": "sim_session_01",
+      "stage": "identification",
+      "stratum": "decode_context128_batch1",
+      "actual_dynamic_mean_W": 36.0,
+      "interval_rate_tokens_s": 60.0,
+      "rate_clock_only_lower": 59.99994000006001,
+      "rate_clock_only_upper": 60.00006000006
+    },
+    {
+      "run_id": "run_02",
+      "session_id": "sim_session_02",
+      "stage": "identification",
+      "stratum": "decode_context128_batch1",
+      "actual_dynamic_mean_W": 49.000000000000014,
+      "interval_rate_tokens_s": 70.0,
+      "rate_clock_only_lower": 69.99993000007001,
+      "rate_clock_only_upper": 70.00007000007
+    },
+    {
+      "run_id": "run_03",
+      "session_id": "sim_session_03",
+      "stage": "calibration",
+      "stratum": "decode_context128_batch1",
+      "actual_dynamic_mean_W": 64.00000000000001,
+      "interval_rate_tokens_s": 80.0,
+      "rate_clock_only_lower": 79.99992000008001,
+      "rate_clock_only_upper": 80.00008000008
+    }
+  ],
+  "source_sha256": {
+    "run_00": {
+      "manifest.json": "2086a8c085639c62f2d6a7b2f1abf8c096661219c54adabcc931504e1174408a",
+      "power.jsonl": "174597df30286df0824a8ab5c6b77f58031f71b4346bf56bab416ead355b5278",
+      "events.jsonl": "48750ae81e91f24f94ae6e9ccb34b3f1f289b88c4c5cebdef2a718fde2bd87ed"
+    },
+    "run_01": {
+      "manifest.json": "d0b6561ab2eb3363d942999356e7193f8b4d7789a350fe4a5346d0228fdcd305",
+      "power.jsonl": "dbaaaac6ffb70952640bd5155912f1c49b2e206186d55358690ffa2dabae936a",
+      "events.jsonl": "10e24f78fdb25969a00be854913256eb17c225acc835fb8cb4508bde87c9aada"
+    },
+    "run_02": {
+      "manifest.json": "25c1b0e3329cd0b4bd20966c85b018bee369a0b23013bcf31a7cc3a61481ab99",
+      "power.jsonl": "d9167fcb7d2172643bdf7efa33c8ae6e4a39a97c915e1c6e08093bbea3681183",
+      "events.jsonl": "52ebef9e437f679f3d4032c9366aea9b62f3eca0e5838b20c164a48c390170ee"
+    },
+    "run_03": {
+      "manifest.json": "39b167c44143d1d0d11ce628c14bbb0b99d90d6504c0f4718b7b5ebeee9ffe47",
+      "power.jsonl": "d115baae51b4bcfd7ab284376b79e81daa895b9b22e3d26e87cdb93854e3f425",
+      "events.jsonl": "71c68bce02a8a4bf941772611b644412870f091cf48ee56d743de92450907179"
+    }
+  },
+  "split_sha256": "efcf6bc018f39a4b4633efc9dce90a871a00bfef45873b14d69483396c493c33",
+  "empirical_nondecreasing_means": true,
+  "empirical_concave_secants": true,
+  "residual_max_abs_tokens_s": 0.8362779740871673,
+  "claims": "Point estimate only; interval means do not identify pointwise causal s(p), hard envelopes, concavity, or independence."
+}

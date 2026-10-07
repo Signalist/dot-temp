@@ -1,0 +1,34 @@
+{
+  "status": "MEASUREMENT_GATE_CLOSED_WITH_COMPLETE_FEASIBILITY_REPORT",
+  "as_of": "2026-10-04",
+  "sufficient_dataset_found": false,
+  "fit_performed": false,
+  "fresh_calibration_test_split_created": false,
+  "hardware_experiments": 0,
+  "matched_PCC_captures_admitted": 0,
+  "cross_dataset_measurement_joins": 0,
+  "restricted_or_gated_files_requested": false,
+  "new_external_code_executed": false,
+  "source_audit_completed_before_workspace_reset": true,
+  "raw_audit_replay_after_reset": "BLOCKED_MISSING_PRIOR_FILES; not rerun",
+  "post_reset_checks": [
+    "15 coverage rows agree between CSV and JSON",
+    "source IDs unique, NLR modes explicitly separated",
+    "no ineligible source admitted",
+    "no fit or artificial fresh split",
+    "four sample-budget integers independently rechecked for minimality",
+    "five data-only synthetic parser/gate tests pass"
+  ],
+  "conditional_theory_and_model_experiments_can_continue": true,
+  "deliverables": [
+    "MEASUREMENT_FEASIBILITY_REPORT.md",
+    "SOURCE_COVERAGE_MATRIX.csv",
+    "SOURCE_COVERAGE_MATRIX.json",
+    "protocol/MINIMAL_MEASUREMENT_PROTOCOL.md",
+    "protocol/VALIDATION_BUDGET.json",
+    "results/OBSERVED_SOURCE_FACTS.json",
+    "results/WORKSPACE_DISCONTINUITY.json",
+    "results/PARSER_SELF_TEST.json"
+  ],
+  "stop_condition": "No admitted matched dataset after bounded public-source audit; precise missing channels and design-only protocol delivered."
+}

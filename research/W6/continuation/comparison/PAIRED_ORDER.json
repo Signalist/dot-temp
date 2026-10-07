@@ -1,0 +1,102 @@
+{
+  "schema": "fixed-pair-orders-v1",
+  "seed": 20261007,
+  "status": "FROZEN_DESIGN_NOT_RUN",
+  "blocks": [
+    {
+      "block_id": "R01",
+      "arm_order": [
+        "graph",
+        "eager"
+      ]
+    },
+    {
+      "block_id": "R02",
+      "arm_order": [
+        "graph",
+        "eager"
+      ]
+    },
+    {
+      "block_id": "R03",
+      "arm_order": [
+        "graph",
+        "eager"
+      ]
+    },
+    {
+      "block_id": "R04",
+      "arm_order": [
+        "eager",
+        "graph"
+      ]
+    },
+    {
+      "block_id": "R05",
+      "arm_order": [
+        "graph",
+        "eager"
+      ]
+    },
+    {
+      "block_id": "R06",
+      "arm_order": [
+        "graph",
+        "eager"
+      ]
+    },
+    {
+      "block_id": "R07",
+      "arm_order": [
+        "eager",
+        "graph"
+      ]
+    },
+    {
+      "block_id": "R08",
+      "arm_order": [
+        "graph",
+        "eager"
+      ]
+    },
+    {
+      "block_id": "R09",
+      "arm_order": [
+        "eager",
+        "graph"
+      ]
+    },
+    {
+      "block_id": "R10",
+      "arm_order": [
+        "eager",
+        "graph"
+      ]
+    },
+    {
+      "block_id": "R11",
+      "arm_order": [
+        "eager",
+        "graph"
+      ]
+    },
+    {
+      "block_id": "R12",
+      "arm_order": [
+        "eager",
+        "graph"
+      ]
+    }
+  ],
+  "same_gpu_within_block_required": true,
+  "task_order": "Frozen heldout IDs in benchmark.json order in both arms",
+  "failure_replacement": false,
+  "task_ids": [
+    "code_consecutive_runs",
+    "code_equal_runs",
+    "math_pairs",
+    "math_handshakes",
+    "writing_room_comparison",
+    "writing_shelf_comparison"
+  ]
+}

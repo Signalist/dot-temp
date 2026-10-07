@@ -1,0 +1,60 @@
+{
+  "evidence": "SIMULATED",
+  "acquisition_id": "sim_run_07",
+  "run_id": "run_07",
+  "clock_id": "SIMULATED_CLOCK",
+  "schema_version": "w6-1",
+  "session_id": "sim_session_07",
+  "stage": "transfer",
+  "tier": "GPU_DC",
+  "request_id": "req_run_07",
+  "max_tokens": 4096,
+  "device_id_hash": "SIMULATED_OTHER_GPU",
+  "model_family": "SIMULATED_MODEL_FAMILY",
+  "device_model_unit": "SIM_OTHER_DEVICE_MODEL",
+  "model_revision": "SIMULATED_MODEL",
+  "engine_revision": "SIMULATED_ENGINE",
+  "stratum": "decode_context256_batch1",
+  "units": {
+    "time": "ns",
+    "power": "W",
+    "energy": "J",
+    "work": "tokens"
+  },
+  "concurrency": 1,
+  "clock_error_ns": 1000,
+  "max_gap_ns": 110000000,
+  "baseline_method": "SIMULATED constant 40 W; not measured",
+  "progress_timing_audit_id": "SIMULATED",
+  "intervention_audit_id": "SIMULATED",
+  "fullcycle_audit_id": "SIMULATED",
+  "initial_state": {
+    "temperature_C": 40,
+    "queue": 0,
+    "clock_state": "SIMULATED_IDLE"
+  },
+  "service_endpoint_rule": "first_progress_at_or_after_offset",
+  "endpoint_lag_max_ns": 250000000,
+  "service_window_offsets_ns": [
+    [
+      1000000000,
+      3000000000
+    ]
+  ],
+  "stop_rules_id": "SIM_NO_STOP_RULES",
+  "channels": {
+    "gpu_dc": {
+      "boundary": "SIMULATED all GPU DC rails",
+      "source": "SIMULATED",
+      "rail_coverage": "SIMULATED",
+      "all_required_rails": true,
+      "calibration_id": "SIMULATED",
+      "filter_description": "SIMULATED exact",
+      "clock_transform_id": "SIMULATED identity",
+      "calibration_error_W": 0,
+      "filter_error_W": 0,
+      "baseline_error_W": 0,
+      "bandwidth_Hz": 1000
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "primary_configurations": 12,
+  "primary_scaling_equivalence_classes": 10,
+  "continuous_relative_gap_range": [
+    7.780423827351765e-08,
+    3.136616129144575e-06
+  ],
+  "constant_target_objective_reduction_range": [
+    0.001980609329453653,
+    0.016944511359074266
+  ],
+  "same_information_bellman_relative_excess_max": 0.0002601352124280698,
+  "mesh128_to256_relative_difference_max": 2.1493042881912497e-06,
+  "old_task_only_objective_excess_range": [
+    0.0013809465276075628,
+    0.07790463859656338
+  ],
+  "transfer_source_policy_excess_range": [
+    2.141331147509362e-05,
+    0.02446438284591146
+  ],
+  "atomic_global_relative_gap_range": [
+    0.00012363207889112506,
+    0.0004574591952021422
+  ],
+  "hardware_measurements": false,
+  "outward_rounding": false,
+  "all_numeric_counts_are_configurations_or_replays_not_statistical_independent_N": true,
+  "safe_primary_relative_dual_gap_range": [
+    8.701577659733335e-08,
+    3.1370798067403655e-06
+  ],
+  "safe_primary_all_exact_rational_constraints_pass": true,
+  "safe_primary_minimum_slew_margin": 4.811797787995786e-08,
+  "safe_target_objective_reduction_range": [
+    0.0019806088666929345,
+    0.016944504134189575
+  ],
+  "matched_cycle_feasible_count": 6,
+  "matched_cycle_infeasible_target_count": 6,
+  "matched_cycle_dynamic_saving_range": [
+    0.004554526853423724,
+    0.03866496036277023
+  ],
+  "matched_cycle_allocated_facility_saving_range": [
+    0.0030428252766177,
+    0.03359589204905156
+  ],
+  "trace_cases": [
+    {
+      "beta": 0.5,
+      "R": 4.0,
+      "c": 1.0,
+      "n_requests": 19366,
+      "n_atoms": 623,
+      "lower": 0.5831935619223133,
+      "upper": 0.583628858114172,
+      "relative_gap": 0.0007458441881458764,
+      "weighted_objective_reduction_vs_global_target": 0.03836834164225056
+    },
+    {
+      "beta": 0.8,
+      "R": 0.5,
+      "c": 1.0,
+      "n_requests": 19366,
+      "n_atoms": 623,
+      "lower": 1.4316661874699346,
+      "upper": 1.4364445298372184,
+      "relative_gap": 0.003326506710165341,
+      "weighted_objective_reduction_vs_global_target": 0.0534417570326885
+    }
+  ]
+}

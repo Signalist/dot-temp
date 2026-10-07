@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "scope": "prompt/spec/template consistency and existing source ZIP integrity only; no new scientific or hardware execution",
+  "checked_utc": "2026-10-05T09:52:43.251925+00:00",
+  "prompt_files": 9,
+  "operator_readme": true,
+  "schema_files": 6,
+  "contract_payload_files": 19,
+  "all_UTF8_readable": true,
+  "all_JSON_parse": true,
+  "jsonschema_meta_validation": true,
+  "draft_freeze_template_valid": true,
+  "fake_frozen_rejected": true,
+  "metric_headers_match_dictionaries_and_schemas": true,
+  "all_38_matrix_IDs_match_status_schema_and_master": true,
+  "explicit_missing_engine_policy_bridge": true,
+  "split_hash_transfer_axis_nested_layout_compatibility_explicit": true,
+  "original_A_to_E_mapping_preserved": true,
+  "J_W6_electrical_boundary_restricted": true,
+  "run_energy_boundary_required": true,
+  "logical_output_path_mapping_required": true,
+  "archives_checked": [
+    {
+      "name": "W6_CPU_GPU_Handoff_01_Main.zip",
+      "bytes": 13935770,
+      "sha256": "479e86f32000396b0a096371152848a0667087ecccd747ab57ada6dd9c5d66a6"
+    },
+    {
+      "name": "W6_CPU_GPU_Handoff_02_NetworkData.zip",
+      "bytes": 8712402,
+      "sha256": "5e810a51ee4462cbd95c3062fcd5c8b2a88d2343e7b1402024eaf5bd36fe017e"
+    }
+  ],
+  "prohibited_private_artifact_scan": "PASS",
+  "hardware_calls": 0,
+  "model_requests": 0,
+  "cap_writes": 0,
+  "future_runner_code_implemented_here": false,
+  "unused_reserved_slot_semantics_explicit": true,
+  "all_attempts_never_filtered_for_evaluate": true,
+  "signed_PCC_and_QVIf_extension_boundary_explicit": true,
+  "no_transfer_supported_axis_semantics_verified": true,
+  "standalone_route_specific_dependencies_explicit": true,
+  "post_C01_final_parameter_numerical_refresh_required": true
+}

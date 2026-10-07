@@ -1,0 +1,39 @@
+{
+  "fresh_freeze_utc": "2026-10-04T14:34:13.774748+00:00",
+  "code_sha256": "d5f23713463a6f73d11b098379c2b59544bdd72cb203fad6ef6960c2585ca330",
+  "status": "auxiliary exploratory support-bound convergence; postreset fresh rerun, not independent samples",
+  "cases": [
+    [
+      0.4,
+      0.1,
+      0.5,
+      1.0
+    ],
+    [
+      0.25,
+      0.08,
+      0.5,
+      0.5
+    ],
+    [
+      0.7,
+      0.08,
+      1.0,
+      2.0
+    ],
+    [
+      0.4,
+      0.1,
+      1.0,
+      0.1
+    ]
+  ],
+  "steps": [
+    0.05,
+    0.025,
+    0.0125
+  ],
+  "tail_exponents": 14,
+  "reset": "pre-reset raw results vanished; this code was reconstructed and all reported outputs newly run",
+  "repair": "pre_inward_repair retains raw LP witnesses with tiny floating slew excess; new witnesses inwardscaled and exact rational constraints checked; upper uses dual residual formula, kernel/cost remain ordinary float"
+}

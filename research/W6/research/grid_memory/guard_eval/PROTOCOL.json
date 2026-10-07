@@ -1,0 +1,173 @@
+{
+  "calibration": "only design case can inform debug choices; fixed confirmation cases are not selected on outcomes; log failures/amendments",
+  "confirmation": [
+    {
+      "R": 0.5,
+      "beta": 0.5,
+      "id": "confirm_b0.5_R0.5_f0.25",
+      "mode_Hz": 0.25,
+      "zeta": 0.08
+    },
+    {
+      "R": 0.5,
+      "beta": 0.5,
+      "id": "confirm_b0.5_R0.5_f0.7",
+      "mode_Hz": 0.7,
+      "zeta": 0.08
+    },
+    {
+      "R": 2.0,
+      "beta": 0.5,
+      "id": "confirm_b0.5_R2.0_f0.25",
+      "mode_Hz": 0.25,
+      "zeta": 0.08
+    },
+    {
+      "R": 2.0,
+      "beta": 0.5,
+      "id": "confirm_b0.5_R2.0_f0.7",
+      "mode_Hz": 0.7,
+      "zeta": 0.08
+    },
+    {
+      "R": 0.5,
+      "beta": 0.8,
+      "id": "confirm_b0.8_R0.5_f0.25",
+      "mode_Hz": 0.25,
+      "zeta": 0.08
+    },
+    {
+      "R": 0.5,
+      "beta": 0.8,
+      "id": "confirm_b0.8_R0.5_f0.7",
+      "mode_Hz": 0.7,
+      "zeta": 0.08
+    },
+    {
+      "R": 2.0,
+      "beta": 0.8,
+      "id": "confirm_b0.8_R2.0_f0.25",
+      "mode_Hz": 0.25,
+      "zeta": 0.08
+    },
+    {
+      "R": 2.0,
+      "beta": 0.8,
+      "id": "confirm_b0.8_R2.0_f0.7",
+      "mode_Hz": 0.7,
+      "zeta": 0.08
+    }
+  ],
+  "contract": {
+    "EOS": "instantaneous",
+    "M": 2.0,
+    "actual_power_slew": "abs(p_dot)<=R",
+    "c": 1.0,
+    "excluded": [
+      "hardware validation",
+      "compliance threshold",
+      "empirical facility allowance",
+      "grid-reset/regenerative interpretation"
+    ],
+    "grid_observation": "all future time including analytic zero-input tail; no cost after actual-power cycle return",
+    "initial_grid_state": [
+      0.0,
+      0.0
+    ],
+    "initial_power": 0.0,
+    "objective": "E_dynamic+c*T_powercycle",
+    "postEOS": "fastest physical return; actual burn energy charged",
+    "service": "p**beta",
+    "work_law": "W uniform on [0,M], fixed unknown draw per isolated task"
+  },
+  "controllers": [
+    "nominal-guard convex optimal",
+    "same-cap global target+recovery",
+    "no-guard convex diagnostic",
+    "robust-guard convex optimal",
+    "same-robust-cap global target+recovery"
+  ],
+  "design": [
+    {
+      "R": 1.0,
+      "beta": 0.5,
+      "id": "design",
+      "mode_Hz": 0.4,
+      "zeta": 0.1
+    }
+  ],
+  "frozen_utc": "2026-10-04T14:21:26.912767+00:00",
+  "grid": {
+    "H_s": 4.0,
+    "S_MW": 1000.0,
+    "budget_Hz": 0.05,
+    "budget_status": "declared modeling/planning study budget only",
+    "f0_Hz": 60.0,
+    "gain_MW_per_p": 20.0
+  },
+  "numerics": {
+    "EOS_dense_points": 2049,
+    "EOS_refinement": "bounded scalar refinement at all dense local maxima plus endpoints",
+    "bellman": {
+      "N": [
+        64,
+        128
+      ],
+      "cap_appended_to_state_grid": true,
+      "scope": "global restricted finite-state uniform-EOS feasible comparator, not continuous exact certificate",
+      "sub": [
+        4,
+        8
+      ]
+    },
+    "grid_propagation": "closed-form exact constant-slope power segment propagation evaluated in floating arithmetic",
+    "inward_feasibility": "global scalar scaling for floating slew/cap residuals, reported",
+    "meshes": [
+      64,
+      128,
+      256
+    ],
+    "primary_mesh": 256,
+    "quadrature": [
+      32,
+      96
+    ],
+    "solver": "original convex SLSQP with extra z<=A(pcap)",
+    "time_peak": "analytic stationary points in each forced segment and analytic infinite zero-input tail"
+  },
+  "reset_disclosure": {
+    "earlier_lost_protocol_sha256": "a687f28707a22891fafddf86abdb2ca4348973626449dca9544caff4cfeedef5",
+    "status": "earlier protocol vanished in filesystem reset; no original or confirmatory numerical results ran before reset; this is a newly frozen protocol, not claimed byte-identical"
+  },
+  "secondary": [
+    "separate dynamic energy/service time/recovery time/cycle time",
+    "slew-only kernel L1 guard",
+    "finite-mesh Bellman/convex agreement, no improvement claimed over exact global reference"
+  ],
+  "software": {
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "scipy": "1.17.0"
+  },
+  "source_sha256": {
+    "research/full_cycle/code/cycle_model.py": "56e050c33894466070bb9214c69a958aa48e8c4579553a9a7016bb1e162e8324",
+    "research/full_cycle/code/global_bellman.py": "b312d0ffb5373a2be4ab31f5552f01ec6c258b1a4c05fb1b6de52857c83342d7"
+  },
+  "title": "W6 isolated-cycle amplitude grid guard, uniform continuous EOS",
+  "uncertainty": {
+    "damping_factor": [
+      0.8,
+      1.0
+    ],
+    "gain_factor": [
+      1.0,
+      1.1
+    ],
+    "mode_factor": [
+      0.9,
+      1.1
+    ],
+    "robust_guard": "analytic max G at gain1.1, mode0.9, damping0.8; covers full box by proven monotonicity",
+    "tests": "all 8 corners plus nominal"
+  }
+}
