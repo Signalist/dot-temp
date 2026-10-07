@@ -1,0 +1,11 @@
+{
+  "failed_histories": 0,
+  "max_frequency": 0.5999535431280193,
+  "max_power": 0.4999999990000008,
+  "common_e0": 0.4682640023703653,
+  "common_E": 0.47255923941861444,
+  "max_terminal_residual": 7.007212405059208e-20,
+  "safety_failed_histories": 0,
+  "power_failed_histories": 0,
+  "qualification": "One frozen same-method no-feedback ablation; no additional tuning. Analytic continuous-phase/time reduction, double evaluation, phase endpoint pad1e-10."
+}

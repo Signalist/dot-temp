@@ -1,0 +1,138 @@
+[
+  {
+    "tag": "binned93_feedback_low",
+    "selected_r": 3.4500000000000006,
+    "recomputed": {
+      "r": 3.4500000000000006,
+      "continuous_finite_peak_lower_Hz": 0.09301344201513914,
+      "continuous_finite_peak_upper_Hz": 0.09301623648813884,
+      "infinite_tail_upper_from100_Hz": 0.08726682882027875,
+      "intervals": 7510,
+      "E_MWs": 71.13507104459939,
+      "return_error_MWs": -1.3100631690576847e-14,
+      "discharge_MWs": 67.57831749236942,
+      "charge_MWs": 74.87902215220987,
+      "max_power_MW": 44.25513117714548,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 347.02117774680056,
+      "crossing_segments": 0
+    },
+    "differences": {
+      "r": 0.0,
+      "continuous_finite_peak_lower_Hz": 0.0,
+      "continuous_finite_peak_upper_Hz": 0.0,
+      "infinite_tail_upper_from100_Hz": 0.0,
+      "intervals": 0.0,
+      "E_MWs": 0.0,
+      "return_error_MWs": 0.0,
+      "discharge_MWs": 0.0,
+      "charge_MWs": 0.0,
+      "max_power_MW": 0.0,
+      "max_command_MW": 0.0,
+      "max_slew_MW_s": 0.0,
+      "crossing_segments": 0.0
+    }
+  },
+  {
+    "tag": "binned93_feedback_high",
+    "selected_r": 3.4500000000000006,
+    "recomputed": {
+      "r": 3.4500000000000006,
+      "continuous_finite_peak_lower_Hz": 0.09300193715564552,
+      "continuous_finite_peak_upper_Hz": 0.0930105713160836,
+      "infinite_tail_upper_from100_Hz": 0.0872668122792465,
+      "intervals": 7443,
+      "E_MWs": 69.10059866797377,
+      "return_error_MWs": -2.8754776337791554e-14,
+      "discharge_MWs": 65.64556873457506,
+      "charge_MWs": 72.73747228207762,
+      "max_power_MW": 49.99946952132965,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 377.24389217666106,
+      "crossing_segments": 0
+    },
+    "differences": {
+      "r": 0.0,
+      "continuous_finite_peak_lower_Hz": 0.0,
+      "continuous_finite_peak_upper_Hz": 0.0,
+      "infinite_tail_upper_from100_Hz": 0.0,
+      "intervals": 0.0,
+      "E_MWs": 0.0,
+      "return_error_MWs": 0.0,
+      "discharge_MWs": 0.0,
+      "charge_MWs": 0.0,
+      "max_power_MW": 0.0,
+      "max_command_MW": 0.0,
+      "max_slew_MW_s": 0.0,
+      "crossing_segments": 0.0
+    }
+  },
+  {
+    "tag": "binned93_openloop_low",
+    "selected_r": 0.05,
+    "recomputed": {
+      "r": 0.05,
+      "continuous_finite_peak_lower_Hz": 0.09301854436499724,
+      "continuous_finite_peak_upper_Hz": 0.09302111782742647,
+      "infinite_tail_upper_from100_Hz": 0.08726723298980295,
+      "intervals": 7621,
+      "E_MWs": 127.13453434593208,
+      "return_error_MWs": -2.4424906541753444e-15,
+      "discharge_MWs": 120.77780762863549,
+      "charge_MWs": 133.82582562729695,
+      "max_power_MW": 49.999717748536526,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 455.2234479207175,
+      "crossing_segments": 0
+    },
+    "differences": {
+      "r": 0.0,
+      "continuous_finite_peak_lower_Hz": 0.0,
+      "continuous_finite_peak_upper_Hz": 0.0,
+      "infinite_tail_upper_from100_Hz": 0.0,
+      "intervals": 0.0,
+      "E_MWs": 0.0,
+      "return_error_MWs": 0.0,
+      "discharge_MWs": 0.0,
+      "charge_MWs": 0.0,
+      "max_power_MW": 0.0,
+      "max_command_MW": 0.0,
+      "max_slew_MW_s": 0.0,
+      "crossing_segments": 0.0
+    }
+  },
+  {
+    "tag": "binned93_openloop_high",
+    "selected_r": 3.8500000000000005,
+    "recomputed": {
+      "r": 3.8500000000000005,
+      "continuous_finite_peak_lower_Hz": 0.09300302497187739,
+      "continuous_finite_peak_upper_Hz": 0.09300999234756578,
+      "infinite_tail_upper_from100_Hz": 0.08726692692877022,
+      "intervals": 7743,
+      "E_MWs": 83.42578372113614,
+      "return_error_MWs": -3.197442310920451e-14,
+      "discharge_MWs": 79.2544945350793,
+      "charge_MWs": 87.81661444330118,
+      "max_power_MW": 49.999569544307704,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 388.8352259909899,
+      "crossing_segments": 0
+    },
+    "differences": {
+      "r": 0.0,
+      "continuous_finite_peak_lower_Hz": 0.0,
+      "continuous_finite_peak_upper_Hz": 0.0,
+      "infinite_tail_upper_from100_Hz": 0.0,
+      "intervals": 0.0,
+      "E_MWs": 0.0,
+      "return_error_MWs": 0.0,
+      "discharge_MWs": 0.0,
+      "charge_MWs": 0.0,
+      "max_power_MW": 0.0,
+      "max_command_MW": 0.0,
+      "max_slew_MW_s": 0.0,
+      "crossing_segments": 0.0
+    }
+  }
+]

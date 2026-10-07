@@ -1,0 +1,50 @@
+[
+  {
+    "eta_y": 0.005,
+    "tau": 0.010101527198538763,
+    "history_count": 102,
+    "failed_history_count": 0,
+    "max_frequency": 0.5999574994114554,
+    "max_power": 0.49999999900000147,
+    "common_e0": 0.3513268682060009,
+    "common_E": 0.3545495869178984,
+    "max_terminal_residual": 8.419375146809737e-20,
+    "interpretation": "continuous time and phase for every overapproximating detection-history interval; all-noise if observer proof applies"
+  },
+  {
+    "eta_y": 0.01,
+    "tau": 0.02041244405581222,
+    "history_count": 102,
+    "failed_history_count": 0,
+    "max_frequency": 0.5999574994114554,
+    "max_power": 0.49999999900000147,
+    "common_e0": 0.3538191841949346,
+    "common_E": 0.3570647658778869,
+    "max_terminal_residual": 8.56495893461907e-20,
+    "interpretation": "continuous time and phase for every overapproximating detection-history interval; all-noise if observer proof applies"
+  },
+  {
+    "eta_y": 0.02,
+    "tau": 0.04170340843648447,
+    "history_count": 102,
+    "failed_history_count": 0,
+    "max_frequency": 0.5999574994114555,
+    "max_power": 0.49999999900000086,
+    "common_e0": 0.35856393530207364,
+    "common_E": 0.3618530424205973,
+    "max_terminal_residual": 8.419375146809737e-20,
+    "interpretation": "continuous time and phase for every overapproximating detection-history interval; all-noise if observer proof applies"
+  },
+  {
+    "eta_y": 0.05,
+    "tau": 0.11183255915910485,
+    "history_count": 104,
+    "failed_history_count": 0,
+    "max_frequency": 0.5999574994114555,
+    "max_power": 0.49999999900000147,
+    "common_e0": 0.3690174053336019,
+    "common_E": 0.3724024070001572,
+    "max_terminal_residual": 3.469446951953614e-18,
+    "interpretation": "continuous time and phase for every overapproximating detection-history interval; all-noise if observer proof applies"
+  }
+]

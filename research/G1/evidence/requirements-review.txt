@@ -1,0 +1,4 @@
+# Exact versions used for the fresh-copy review checks. Not a full simulator environment.
+numpy==2.3.5
+scipy==1.17.0
+mpmath==1.3.0

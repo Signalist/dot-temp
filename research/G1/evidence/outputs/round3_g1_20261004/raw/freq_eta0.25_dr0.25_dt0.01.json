@@ -1,0 +1,20 @@
+{
+  "name": "freq_eta0.25_dr0.25_dt0.01",
+  "phase_scenarios": 42,
+  "dt": 0.01,
+  "H": 5.0,
+  "P": 0.5,
+  "b": 0.6,
+  "inner": false,
+  "margin": -0.006353352832366127,
+  "nonnegative": false,
+  "seconds": 36.687992572784424,
+  "success": true,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "E": 0.3060865443028742,
+  "e0": 0.3060865443028742,
+  "dual_lower": 0.3060865443028644,
+  "dual_correction": 9.831391783225841e-15,
+  "max_stationarity": 7.745540320236444e-16,
+  "max_eq_residual": 0.0
+}

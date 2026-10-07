@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "scope": "Fresh-copy interval lower, all six interval upper policies, seven feedback tests, 1444 exact network boundary checks, non-mutating freeze refusal, all 24 saved CSV physical rechecks, and three representative raw nonlinear peak reconstructions. No new scientific experiment.",
+  "runtime": {
+    "python": "3.12.14",
+    "executable": "python3",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0"
+  },
+  "commands": [
+    {
+      "name": "interval_lower",
+      "command": [
+        "python3",
+        "<disposable-review>/outputs/round3_g1_20261004/core/interval_lower_certificate.py"
+      ],
+      "returncode": 0,
+      "seconds": 4.5287528350017965
+    },
+    {
+      "name": "interval_upper",
+      "command": [
+        "python3",
+        "<disposable-review>/outputs/round3_g1_20261004/core/interval_validate.py"
+      ],
+      "returncode": 0,
+      "seconds": 31.27760818999741
+    },
+    {
+      "name": "feedback_seven_tests",
+      "command": [
+        "python3",
+        "<disposable-review>/outputs/round3_g1_20261004/feedback_baseline/test_feedback.py"
+      ],
+      "returncode": 0,
+      "seconds": 2.5952352070016786
+    },
+    {
+      "name": "network_exact_boundaries",
+      "command": [
+        "python3",
+        "<disposable-review>/outputs/round3_g1_20261004/network_transfer/audit_exact_boundaries.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.3922141379989625
+    },
+    {
+      "name": "freeze_expected_refusal",
+      "command": [
+        "python3",
+        "<disposable-review>/outputs/round3_g1_20261004/network_transfer/freeze_confirmation.py"
+      ],
+      "returncode": 1,
+      "seconds": 0.8823486479996063
+    }
+  ],
+  "core_science_fields_exact_match_ignoring_elapsed_seconds": true,
+  "boundary_science_fields_exact_match_ignoring_audit_timestamp": true,
+  "protected_freeze_inputs_manifests_coefficients": 78,
+  "freeze_sha256_size_mtime_unchanged": true,
+  "canonical_csv_sets_verified": 24,
+  "representative_nonlinear_traces": [
+    {
+      "label": "fb_high_r4.927_s1.1_ramp0_fine",
+      "peak_Hz": 0.10506190467874488,
+      "within_0_1_Hz": false,
+      "complete_to_101_s": true
+    },
+    {
+      "label": "fb_low_r2.347_s1_ramp0",
+      "peak_Hz": 0.09154230412859343,
+      "within_0_1_Hz": true,
+      "complete_to_101_s": true
+    },
+    {
+      "label": "ol_low_r2.347_s1_ramp0",
+      "peak_Hz": 0.09141245655729824,
+      "within_0_1_Hz": true,
+      "complete_to_101_s": true
+    }
+  ],
+  "recorded_independent_audit_checks_not_rerun": 592,
+  "extracted_package_source_bytes_and_mtimes_unchanged": true,
+  "package_integrity": {
+    "passed": true,
+    "included_source_files_verified": 425,
+    "audit_exact_hash_aliases_verified": 163,
+    "declared_omitted_raw_files": 41,
+    "fully_self_contained": false
+  },
+  "work_dir": "<disposable-review>",
+  "limitations": [
+    "No controller synthesis, LP reoptimization, or nonlinear replay was performed.",
+    "Full check_core_evidence.py and independent_checks.py were not executed: they require omitted prior-round/source/cache evidence and the full set of traces.",
+    "Relocated paths in public records are interpreted read-only by basename within copied confirmation/; frozen manifests are never rewritten.",
+    "This validates this local Python environment, not all operating systems or dependency versions."
+  ],
+  "public_copy_validation_date": "2026-10-07"
+}

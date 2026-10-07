@@ -1,0 +1,1 @@
+{'tested_utc': '2026-10-04T03:21:14.050742+00:00', 'returncode': 1, 'n_locked_inputs_manifests_coefficients': 78, 'expected_early_refusal': True, 'all_sha256_unchanged': True, 'all_mtimes_unchanged': True, 'all_sizes_unchanged': True, 'confirmation_inventory_unchanged': True}

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-04T03:17:56.393492+00:00",
+  "reason": "Independent reproduction audit found the old rerun guard checked after generate() could rewrite CSVs. Existing-freeze refusal now occurs at the first main entry, before directory creation or generation.",
+  "original_source_snapshot": "outputs/round3_g1_20261004/network_transfer/provenance/freeze_confirmation_at_v1_freeze.py",
+  "original_source_sha256": "dbe107144d3054282476a1a67253aec691b53d8f17f05910294fb25d1e78ba81",
+  "original_snapshot_matches_frozen_source_hash": true,
+  "hardened_source": "outputs/round3_g1_20261004/network_transfer/freeze_confirmation.py",
+  "hardened_source_sha256": "daaa4f681f4fa7fd5f488eec4b50dcd817d4cdffea75359289a1eb0336e74f77",
+  "frozen_manifest_modified": false,
+  "frozen_coefficients_schedules_observations_results_modified": false,
+  "regression": "FREEZE_REFUSAL_REGRESSION.json",
+  "regression_n_untouched_files": 78,
+  "snapshot_warning": "Read-only provenance snapshot of the source used at the original freeze; use the hardened current wrapper for any invocation."
+}

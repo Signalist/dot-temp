@@ -1,0 +1,19 @@
+{
+ "written_utc":"2026-10-04T02:49:00Z",
+ "controller_selection":"All four binned93 same-family policies, 0.093Hz midpoint design target; no coefficient adjustment after this plan",
+ "holdout_remaining_stage_s":[0.137,0.813,2.347,4.927],
+ "initial_classes":["low","high"],
+ "controllers":["sampled_P_feedback","initial_P_only_openloop"],
+ "dt_s":0.0078125,
+ "end_s":101,
+ "noise_MW":"deterministic alternating +5,-5 sample errors, magnitude 10% of level separation; arbitrary error within this bound gives same class on square-wave nominal input",
+ "stress_cases":[
+  {"controller":"sampled_P_feedback","initial_high":false,"r_s":2.347,"Pscale":1.05,"ramp_s":0,"kind":"outside frozen amplitude contract"},
+  {"controller":"sampled_P_feedback","initial_high":true,"r_s":4.927,"Pscale":1.05,"ramp_s":0,"kind":"outside frozen amplitude contract"},
+  {"controller":"sampled_P_feedback","initial_high":false,"r_s":2.347,"Pscale":1,"ramp_s":0.5,"kind":"linear transition represented by 0.01s ZOH staircase; noisy threshold classification can change"},
+  {"controller":"sampled_P_feedback","initial_high":true,"r_s":4.927,"Pscale":1,"ramp_s":0.5,"kind":"linear transition represented by 0.01s ZOH staircase; noisy threshold classification can change"}
+ ],
+ "fine_repeats":[{"controller":"sampled_P_feedback","initial_high":false,"r_s":2.347},{"controller":"initial_P_only_openloop","initial_high":false,"r_s":2.347}],
+ "fine_dt_s":0.00390625,
+ "scope":"finite input combinations and unchanged ANDES benchmark, not nonlinear continuum robustness or independent statistical trials"
+}

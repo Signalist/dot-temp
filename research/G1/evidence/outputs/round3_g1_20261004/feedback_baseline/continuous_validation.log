@@ -1,0 +1,12 @@
+{
+  "common_e0": 0.3506934951316114,
+  "common_E": 0.353910424738462,
+  "max_frequency": 0.5999574994566821,
+  "max_power": 0.49999999900000086,
+  "max_terminal_residual": 5.923936674859763e-20,
+  "phase_bins": 100,
+  "continuous_phase_reduction": "Endpoints plus stationary lags of alternating step response, analytic exponential-affine time extrema",
+  "arithmetic": "double precision evaluation; not outward interval-rounded",
+  "tail_bound": 0.3678794823945148
+}
+worst {'p0': 1, 'bin': 9, 'phase_edge_interval': [0.8999999999, 1.0000000001], 'max_y': (0.5999574994566821, 1.2549916664882814, 0.8999999999), 'min_y': (-0.3546481957507078, 16.93057756103858, 0.8999999999), 'max_abs_y': 0.5999574994566821, 'max_abs_u': 0.3933042725896136, 'zmax': 0.13865379134313657, 'zmin': -0.0012717538193491584, 'terminal_residual': 5.1536660884503836e-20, 'recovery': [-0.13992554516248573, 0.00016910901321818246, -8.111828639632429e-05]}

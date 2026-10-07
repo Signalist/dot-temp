@@ -1,0 +1,36 @@
+{
+  "label": "ol_low_r0.813_s1_ramp0",
+  "it_csv_sha256": "cdc8a1a9ae1a1a076e5e84168fcb679758efb5feb931dceadc2b99ed7d8bc793",
+  "bess_csv_sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+  "it_csv": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r0.813_s1_ramp0_it.csv",
+  "bess_csv": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r0.813_s1_ramp0_bess.csv",
+  "bus": 8,
+  "dt_max_s": 0.0078125,
+  "tds_return": true,
+  "busted": false,
+  "err_msg": "",
+  "end_time": 101.0,
+  "observation_window_s": [
+    1,
+    101.0
+  ],
+  "window": {
+    "peak_abs_any_generator_Hz": 0.09248007667743474,
+    "peak_abs_COI_Hz": 0.08762364748256374,
+    "frequency_weighted_squared_integral_Hz2s": 0.265419624975446,
+    "min_bus_voltage_pu": 0.9383842952908671,
+    "max_bus_voltage_pu": 1.0048673163835384,
+    "max_abs_relative_delta_rad": 0.06390611149151904
+  },
+  "research_threshold_exceedances_Hz": {
+    "0.1": false,
+    "0.2": false,
+    "0.3": false
+  },
+  "injection_interpolation": "IT right-continuous ZOH, realized BESS exact PWL, net_consumption=IT-BESS",
+  "scope": "Original nonlinear Kundur; actual BESS power imposed externally. PCS command feasibility/loss-aware energy checked separately by controller producer; this result is finite-horizon grid replay, not hard nonlinear certificate.",
+  "first_100s": {
+    "peak_abs_any_generator_Hz": 0.09248007667743474,
+    "frequency_weighted_squared_integral_Hz2s": 0.265419624975446
+  }
+}

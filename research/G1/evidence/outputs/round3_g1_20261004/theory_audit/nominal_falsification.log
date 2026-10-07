@@ -1,0 +1,26 @@
+{
+  "tested_phases_per_bound": 113,
+  "bounds": [
+    0.5988,
+    0.6
+  ],
+  "runs": 226,
+  "all_checks_passed": true,
+  "maxima": {
+    "0.5988": {
+      "power": 0.4645442508492672,
+      "frequency": 0.5985149093171879,
+      "discharge": 0.3904094857353009,
+      "last_active": 2.12124849939976,
+      "episodes": 1
+    },
+    "0.6": {
+      "power": 0.46135855499137235,
+      "frequency": 0.5997043501451995,
+      "discharge": 0.3856198226385531,
+      "last_active": 2.112244897959184,
+      "episodes": 1
+    }
+  },
+  "qualification": "Finite numerical falsification tests only. Universal conclusions come from the analytical proof."
+}

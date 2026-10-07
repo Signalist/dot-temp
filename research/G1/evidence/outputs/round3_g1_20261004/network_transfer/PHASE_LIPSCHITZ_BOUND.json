@@ -1,0 +1,10 @@
+{
+  "finite_20_segments_max_perMW_s": 0.001774464907287596,
+  "asymptotic_upper_perMW_s": 0.0016397644683881888,
+  "tail_after100_upper_perMW_s": 0.0016397647200458872,
+  "phase_Lipschitz_Hz_per_s": 0.08872324536437981,
+  "half_information_bin_s": 0.05,
+  "all_future_midpoint_phase_allowance_Hz": 0.00443616226821899,
+  "formula": "phase derivative=50 alternating impulse-response train; geometric modal series plus analytic curvature envelope; fixed same-information controls cancel",
+  "numeric_scope": "analytic floating point, not interval arithmetic"
+}

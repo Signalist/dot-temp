@@ -1,0 +1,7 @@
+{
+  "zeta": 0.8,
+  "peak_time": 1.0725018479888073,
+  "unavoidable_peak_at_P_half": 0.6360129397800405,
+  "necessary_power": 0.58493445068703,
+  "reason": "Nonnegative output impulse kernel up to first g maximum; high-start load stays2."
+}

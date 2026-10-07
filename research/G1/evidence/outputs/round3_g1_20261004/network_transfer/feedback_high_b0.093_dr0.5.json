@@ -1,0 +1,191 @@
+{
+  "initial_high": true,
+  "feedback": true,
+  "phases_r_s": [
+    0.0001,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0
+  ],
+  "band_Hz": 0.093,
+  "P_MW": 50.0,
+  "tau_s": 0.05,
+  "eta": 0.95,
+  "support_end_s": 12.15,
+  "recovery_end_s": 60.0,
+  "iterations": [
+    {
+      "iteration": 0,
+      "success": true,
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 1.4538984298706055,
+      "n_constraints": 55209,
+      "E_MWs": 69.1474820158608,
+      "fine_peak_Hz": 0.0946740793128768,
+      "new_violations": 84
+    },
+    {
+      "iteration": 1,
+      "success": true,
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 1.529463529586792,
+      "n_constraints": 55293,
+      "E_MWs": 69.96197500228897,
+      "fine_peak_Hz": 0.0930974724056203,
+      "new_violations": 52
+    },
+    {
+      "iteration": 2,
+      "success": true,
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 1.4735212326049805,
+      "n_constraints": 55345,
+      "E_MWs": 70.03668392049721,
+      "fine_peak_Hz": 0.09304835328286347,
+      "new_violations": 12
+    },
+    {
+      "iteration": 3,
+      "success": true,
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 1.4315946102142334,
+      "n_constraints": 55357,
+      "E_MWs": 70.04622163679554,
+      "fine_peak_Hz": 0.09300000000000001,
+      "new_violations": 0
+    }
+  ],
+  "seconds": 20.937952518463135,
+  "success": true,
+  "E_MWs": 70.04622163679554,
+  "phase_metrics": [
+    {
+      "r": 0.0001,
+      "E_MWs": 0.0,
+      "return_error_MWs": -0.0,
+      "discharge_MWs": 0.0,
+      "charge_MWs": -0.0,
+      "max_power_MW": 0.0,
+      "max_command_MW": 0.0,
+      "max_slew_MW_s": 0.0,
+      "crossing_segments": 0
+    },
+    {
+      "r": 0.5,
+      "E_MWs": 3.080360354732954,
+      "return_error_MWs": -2.7755575615628914e-16,
+      "discharge_MWs": 2.9263423369963064,
+      "charge_MWs": 3.2424845839294254,
+      "max_power_MW": 29.263423369963053,
+      "max_command_MW": 43.89513505494457,
+      "max_slew_MW_s": 292.6342336996306,
+      "crossing_segments": 0
+    },
+    {
+      "r": 1.0,
+      "E_MWs": 3.080360354732954,
+      "return_error_MWs": -2.7755575615628914e-16,
+      "discharge_MWs": 2.9263423369963064,
+      "charge_MWs": 3.2424845839294254,
+      "max_power_MW": 29.263423369963053,
+      "max_command_MW": 43.89513505494457,
+      "max_slew_MW_s": 292.6342336996306,
+      "crossing_segments": 0
+    },
+    {
+      "r": 1.5,
+      "E_MWs": 14.10708485687031,
+      "return_error_MWs": -1.7208456881689926e-15,
+      "discharge_MWs": 13.401730614026794,
+      "charge_MWs": 14.849563007231906,
+      "max_power_MW": 46.5195294438696,
+      "max_command_MW": 50.0,
+      "max_slew_MW_s": 465.1952944386956,
+      "crossing_segments": 0
+    },
+    {
+      "r": 2.0,
+      "E_MWs": 40.24044550781605,
+      "return_error_MWs": -1.1546319456101628e-14,
+      "discharge_MWs": 38.228423232425236,
+      "charge_MWs": 42.35836369243793,
+      "max_power_MW": 49.985677075900696,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 499.8567707590065,
+      "crossing_segments": 0
+    },
+    {
+      "r": 2.5,
+      "E_MWs": 59.67727948216101,
+      "return_error_MWs": 2.4424906541753444e-15,
+      "discharge_MWs": 56.69341550805295,
+      "charge_MWs": 62.818188928590544,
+      "max_power_MW": 49.99946952132965,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 346.5681897899169,
+      "crossing_segments": 0
+    },
+    {
+      "r": 3.0,
+      "E_MWs": 66.23968742916452,
+      "return_error_MWs": 3.3306690738754696e-15,
+      "discharge_MWs": 62.92770305770628,
+      "charge_MWs": 69.72598676754161,
+      "max_power_MW": 49.99946952132965,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 377.2438921766168,
+      "crossing_segments": 0
+    },
+    {
+      "r": 3.5,
+      "E_MWs": 69.100598667974,
+      "return_error_MWs": 2.9976021664879227e-15,
+      "discharge_MWs": 65.64556873457529,
+      "charge_MWs": 72.73747228207789,
+      "max_power_MW": 49.99946952132965,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 377.2438921766168,
+      "crossing_segments": 0
+    },
+    {
+      "r": 4.0,
+      "E_MWs": 69.99774296482396,
+      "return_error_MWs": 3.1086244689504383e-15,
+      "discharge_MWs": 66.49785581658277,
+      "charge_MWs": 73.68183469981469,
+      "max_power_MW": 49.99946952132965,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 377.2438921766168,
+      "crossing_segments": 0
+    },
+    {
+      "r": 4.5,
+      "E_MWs": 70.04622163679552,
+      "return_error_MWs": -1.1879386363489175e-14,
+      "discharge_MWs": 66.54391055495576,
+      "charge_MWs": 73.7328648808374,
+      "max_power_MW": 49.99946952132965,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 377.2438921766168,
+      "crossing_segments": 0
+    },
+    {
+      "r": 5.0,
+      "E_MWs": 70.04622163679552,
+      "return_error_MWs": -1.1879386363489175e-14,
+      "discharge_MWs": 66.54391055495576,
+      "charge_MWs": 73.7328648808374,
+      "max_power_MW": 49.99946952132965,
+      "max_command_MW": 50.00000000000001,
+      "max_slew_MW_s": 377.2438921766168,
+      "crossing_segments": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "visual_review": "Scientific plots manually inspected for labels, overlaps, axis units and qualifications; no clipped labels observed",
+  "files": [
+    {
+      "path": "figures/resource_contracts.png",
+      "sha256": "0e2100ea4a736e1ee2e94a59e2c540edab9ede25272811ca1852676df6914568"
+    },
+    {
+      "path": "figures/prefix_opacity.png",
+      "sha256": "0103d976785175d4f112c7e333c744e978948cf5e8cd762859c867d6f6ab9168"
+    },
+    {
+      "path": "figures/detector_uncertainty.png",
+      "sha256": "8f27d04d1ee22e58a34835e9f9ebc58de1be97534b676ac92286f78ef9ffdb1e"
+    },
+    {
+      "path": "network_transfer/figure_network_transfer.png",
+      "sha256": "0a1b420a2bd6984e321bf3e9d277579f8f8d2a64789a1ae1023009aac8c2059e"
+    }
+  ],
+  "not_independent_experiments": true
+}

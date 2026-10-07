@@ -1,0 +1,12 @@
+test_common_resources_and_terminal (__main__.FeedbackTest.test_common_resources_and_terminal) ... ok
+test_continuous_bounds_against_bruteforce (__main__.FeedbackTest.test_continuous_bounds_against_bruteforce) ... ok
+test_frequency_interval_coverage (__main__.FeedbackTest.test_frequency_interval_coverage) ... ok
+test_frequency_nonanticipativity (__main__.FeedbackTest.test_frequency_nonanticipativity) ... ok
+test_phase_envelope (__main__.FeedbackTest.test_phase_envelope) ... ok
+test_phase_kinks_included (__main__.FeedbackTest.test_phase_kinks_included) ... ok
+test_power_nonanticipativity (__main__.FeedbackTest.test_power_nonanticipativity) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.036s
+
+OK

@@ -1,0 +1,77 @@
+{
+  "checked_utc": "2026-10-04",
+  "sources": [
+    {
+      "title": "Safe Reconnection Time v2",
+      "url": "https://arxiv.org/abs/2604.24009v2",
+      "reading_status": "Inherited direct-prior audit; constant-PQ reconnection, no first-claim"
+    },
+    {
+      "title": "Periodic admissible sets",
+      "url": "https://arxiv.org/abs/1804.09262",
+      "reading_status": "Inherited periodic safe-set tool"
+    },
+    {
+      "title": "Ames et al CBF-QP",
+      "url": "https://arxiv.org/abs/1609.06408",
+      "reading_status": "Primary method provenance"
+    },
+    {
+      "title": "Singletary Chen Ames sampled delay CBF",
+      "url": "https://arxiv.org/html/2005.06418",
+      "reading_status": "Round3 primary full text; Proposition1, Theorems1/2 and Corollary1 checked"
+    },
+    {
+      "title": "Dean et al measurement robust CBF",
+      "url": "https://arxiv.org/pdf/2010.16001",
+      "reading_status": "Round3 primary full text; Theorems2/3 checked"
+    },
+    {
+      "title": "Cosner et al robust implicit safe sets",
+      "url": "https://arxiv.org/pdf/2104.14030",
+      "reading_status": "Round3 primary full text; Theorem3 checked"
+    },
+    {
+      "title": "Bertsekas Rhodes set membership estimation",
+      "url": "https://web.mit.edu/dimitrib/www/RecursiveStateEstimation.pdf",
+      "reading_status": "Round3 author-hosted primary text"
+    },
+    {
+      "title": "Angeli Casavola Mosca set membership governor",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0005109800001333",
+      "reading_status": "Publisher primary record/preview only; complete theorem audit not obtained"
+    },
+    {
+      "title": "Wabersich Zeilinger predictive safety filter",
+      "url": "https://arxiv.org/abs/1812.05506",
+      "reading_status": "Primary method provenance, not an inclusion theorem"
+    },
+    {
+      "title": "Backup CBF",
+      "url": "https://arxiv.org/abs/2104.11332",
+      "reading_status": "Primary method provenance"
+    },
+    {
+      "title": "Wu minimum energy FFR",
+      "url": "https://doi.org/10.1109/TPWRS.2023.3285941",
+      "reading_status": "Fulltext unavailable after prior denial; no retry or alternate route"
+    },
+    {
+      "title": "PNNL RATLLE",
+      "url": "https://doi.org/10.2172/3422382",
+      "reading_status": "Fulltext unavailable after prior denial; no retry or alternate route"
+    },
+    {
+      "title": "ANDES pinned release",
+      "url": "https://pypi.org/project/andes/2.0.0/",
+      "reading_status": "Existing environment and verified inherited benchmark"
+    },
+    {
+      "title": "ANDES versioned cases",
+      "url": "https://github.com/CURENT/andes/tree/v2.0.0/andes/cases",
+      "reading_status": "Original source provenance preserved"
+    }
+  ],
+  "source_integrity": "127 final round2 writer sources and12 classical baseline files verified in CORE_QA;266 network dependencies/cache files independently verified",
+  "not_exhaustive": true
+}

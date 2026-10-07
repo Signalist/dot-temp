@@ -1,0 +1,9 @@
+# Kundur observation-contract transfer plan
+
+Written before new computations (2026-10-04 UTC). Read-only reuse of frozen round2 inputs and unchanged ANDES simulator. New output root is this directory.
+
+Target: bus8 continuous synthetic 50/100 MW alternating five-second load, arbitrary starting phase; initial high/low class known. Later P samples every .1 s arrive after .05 s with adversarial error <=5 MW (10% of step). Threshold75 MW therefore returns the exact class on constant plateaus. No frequency/state or exact-phase information is supplied to control.
+
+Conventional reference: robust linear-programmed two-class load reference governor with finite PWL actuator, exact signed loss accounting, and recovery. Actual power is ramped toward a precomputed target that depends on time, initial class, and latest received P class. The LP shares policy coefficients across scenarios; it does not optimize a distinct control for an unseen exact phase. A no-feedback variant suppresses the subsequent-class dependence. Initially explore discharge-only support followed by slow exact debt recovery, openly acknowledging the restricted family. Seek a stronger relaxed no-feedback energy lower bound only if tractable.
+
+Evidence priority: a small frozen unseen phase list with true delay and nonzero bounded noise, and retained smooth-ramp/model-mismatch stress failures. A phase-bin sensitivity check may extend LTI coverage only after explicitly verifying history-equivalence and frequency sensitivity; no two-state theorem automatically transfers to the 51-state quotient or nonlinear benchmark. Research threshold max over four individual generators=.1 Hz. Freeze controller coefficients, inputs, and confirmation list before nonlinear evaluations. Retain all failures. Nonlinear finite-horizon replay is not a uniform nonlinear safety theorem, hardware claim, or GPU-load provenance claim.

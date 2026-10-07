@@ -1,0 +1,187 @@
+{
+  "candidate": "G1",
+  "round": 3,
+  "date_utc": "2026-10-04",
+  "research_status": "completed_independently_reviewed_narrow_claim_pass",
+  "paper_ready": false,
+  "novelty_status": "conditional; direct Wu and PNNL fulltext comparison remains blocked",
+  "main_dossier": "G1_THIRD_ROUND_RESEARCH_DOSSIER_ZH.md",
+  "new_scientific_results": [
+    {
+      "id": "G1-R3-T1",
+      "claim": "Sharp whole-family first-edge observation-opacity radius equals half step-response range; critical mode gives1/(2e)",
+      "proof": "theory_audit/INFORMATION_CONTRACT_THEOREMS.md",
+      "not_claimed": "optimal capacity threshold or AI-specific mechanism"
+    },
+    {
+      "id": "G1-R3-T2",
+      "claim": "All-noise causal frequency detection-history observer with nonzero sampling and delay yields recoverable resource upper",
+      "proof": "feedback_baseline/MATCHED_INFORMATION_PREDICTIVE_BASELINE.md",
+      "certificate": "raw/interval_summary.json",
+      "not_claimed": "P sensor superior to optimal frequency control"
+    },
+    {
+      "id": "G1-R3-T3",
+      "claim": "Terminal-free continuum-phase necessary capacity lower for all initial-P-only policies and coarse-noise frequency policies",
+      "certificate": "raw/interval_lower_certificate.json",
+      "value": "0.455615336483606744450103432347843489227562181116369545721325"
+    },
+    {
+      "id": "G1-R3-T4",
+      "claim": "Input-free conventional CBF admits a resource comparison under a nonzero barrier-error budget",
+      "proof": "theory_audit/INPUT_FREE_ROBUST_CBF_PROOF.md",
+      "not_claimed": "new CBF architecture or ZOH actuation theorem"
+    },
+    {
+      "id": "G1-R3-X1",
+      "claim": "Exact sampled frequency phase inversion fails to dominate right-continuous P at sample-aligned edges",
+      "proof": "theory_audit/INFORMATION_CONTRACT_THEOREMS.md"
+    },
+    {
+      "id": "G1-R3-X2",
+      "claim": "Damping .8 and P=.5 cannot satisfy high-start first-swing bound, regardless of controller/E",
+      "lower_frequency": 0.636012939780041,
+      "proof": "feedback_baseline/MATCHED_INFORMATION_PREDICTIVE_BASELINE.md"
+    }
+  ],
+  "main_interval_upper_rows": [
+    {
+      "policy": "robust_policy.json",
+      "histories": 100,
+      "all_histories_feasible": true,
+      "frequency_upper": "0.59995749945668206459038058028962729337030819869249707339497057612",
+      "power_upper": "0.49999999900000086",
+      "common_e0_upper": "0.35069349513161141530000000000000000000000000000000699625976419689",
+      "common_capacity_upper": "0.35391042473846204604170953340952725037382609253063132961663956886",
+      "max_interval_width": "1.0260075530866416036621984363277751062301837023503255689301387548e-47",
+      "seconds": 2.93147349357605,
+      "arithmetic": "mpmath.iv 50 dps directed interval operations; exact decimal prefix policy; recovery defined by real 3x3 solve; finite analytic extrema including phase kinks; every phase interval widened 1e-10 and clipped[0,5]; not a proof assistant"
+    },
+    {
+      "policy": "frequency_policy_eta_0.005.json",
+      "histories": 102,
+      "all_histories_feasible": true,
+      "frequency_upper": "0.59995749945552629728559616075987619319697838071116334597972067798",
+      "power_upper": "0.49999999900000147",
+      "common_e0_upper": "0.35132686820637061360000000000000000000000000000000823326674918087",
+      "common_capacity_upper": "0.3545495869182715221719894529120127874640254647740325587205034471",
+      "max_interval_width": "1.0530024766585727796882178546460050732062171908393865607795543235e-47",
+      "seconds": 2.8208673000335693,
+      "arithmetic": "mpmath.iv 50 dps directed interval operations; exact decimal prefix policy; recovery defined by real 3x3 solve; finite analytic extrema including phase kinks; every phase interval widened 1e-10 and clipped[0,5]; not a proof assistant"
+    },
+    {
+      "policy": "frequency_policy_eta_0.01.json",
+      "histories": 102,
+      "all_histories_feasible": true,
+      "frequency_upper": "0.59995749945436587199997070388531847527341576656703540287325716629",
+      "power_upper": "0.49999999900000147",
+      "common_e0_upper": "0.35381918420523985560000000000000000000000000000000915436009322549",
+      "common_capacity_upper": "0.35706476588828671141901165463973223562278888163533487831235701376",
+      "max_interval_width": "1.0773246355204117600680967364970835583034354824483425039310079547e-47",
+      "seconds": 2.8558104038238525,
+      "arithmetic": "mpmath.iv 50 dps directed interval operations; exact decimal prefix policy; recovery defined by real 3x3 solve; finite analytic extrema including phase kinks; every phase interval widened 1e-10 and clipped[0,5]; not a proof assistant"
+    },
+    {
+      "policy": "frequency_policy_eta_0.02.json",
+      "histories": 102,
+      "all_histories_feasible": true,
+      "frequency_upper": "0.59995749945203001730751675497153972874236021555444147895512115755",
+      "power_upper": "0.49999999900000086",
+      "common_e0_upper": "0.35856393531566043100000000000000000000000000000000814378476616276",
+      "common_capacity_upper": "0.36185304243430874238764834939972509434348991504761094634900839535",
+      "max_interval_width": "1.1045200164455998507675766950503498864203801107034113744327706686e-47",
+      "seconds": 2.854595184326172,
+      "arithmetic": "mpmath.iv 50 dps directed interval operations; exact decimal prefix policy; recovery defined by real 3x3 solve; finite analytic extrema including phase kinks; every phase interval widened 1e-10 and clipped[0,5]; not a proof assistant"
+    },
+    {
+      "policy": "frequency_policy_eta_0.05.json",
+      "histories": 104,
+      "all_histories_feasible": true,
+      "frequency_upper": "0.5999574994553301776516362696018355939422615697734202968935248001",
+      "power_upper": "0.49999999900000147",
+      "common_e0_upper": "0.36901740533360187500000000000000000000000000000000875380284327615",
+      "common_capacity_upper": "0.37240240700015719210205084910699347662968196924274067548723071614",
+      "max_interval_width": "9.7255225888479769073938770698474546865387976474822459497090000496e-48",
+      "seconds": 3.0170774459838867,
+      "arithmetic": "mpmath.iv 50 dps directed interval operations; exact decimal prefix policy; recovery defined by real 3x3 solve; finite analytic extrema including phase kinks; every phase interval widened 1e-10 and clipped[0,5]; not a proof assistant"
+    },
+    {
+      "policy": "no_feedback_policy.json",
+      "histories": 2,
+      "all_histories_feasible": true,
+      "frequency_upper": "0.59995354312801943456070756133424956619008256314258650641957546332",
+      "power_upper": "0.4999999990000008",
+      "common_e0_upper": "0.46826400237036530470000000000000000000000000000001328465398326426",
+      "common_capacity_upper": "0.47255923941861446379757973937927094663072396316904663241597136668",
+      "max_interval_width": "7.8712920712215161778838798957611141331107548119093684154979059144e-48",
+      "seconds": 0.1508495807647705,
+      "arithmetic": "mpmath.iv 50 dps directed interval operations; exact decimal prefix policy; recovery defined by real 3x3 solve; finite analytic extrema including phase kinks; every phase interval widened 1e-10 and clipped[0,5]; not a proof assistant"
+    }
+  ],
+  "lower_interval": {
+    "dt": 0.001,
+    "variables": 40008,
+    "dual_interval": [
+      "0.455615336484044212015265295360138852579390560447817168280997",
+      "0.455615336484044212015265295360138852594635252810043709399967"
+    ],
+    "stationarity_box_correction_upper": "0.00000000000043746756516186301229536335182700737622785595646199298001611",
+    "certified_energy_lower": "0.455615336483606744450103432347843489227562181116369545721325",
+    "max_stationarity_upper": "0.0000000000000350905109037299700000000000000000000000004532757968712860168",
+    "seconds": 2.278250217437744,
+    "scope": "arbitrary measurable control cell-average image, first five units, no terminal constraints, all phases with same initial class and common e0/E; E>=1 trivial, E<1 audited box",
+    "arithmetic": "mpmath.iv 40 decimal digits outward interval arithmetic; exact decimal dual entries; analytic exact phase envelopes; not proof assistant"
+  },
+  "core_QA": {
+    "checks": 1192,
+    "failed": 0,
+    "file": "CORE_QA.json"
+  },
+  "network": {
+    "LTI_feedback_capacity_MWs": 94.26493675271102,
+    "LTI_initial_P_only_family_capacity_MWs": 127.1345343457,
+    "universal_initial_P_only_lower_MWs": 64.616246553,
+    "universal_resource_separation_established": false,
+    "same_family_resource_difference_percent": 25.8541849092,
+    "original_frozen_runs": 22,
+    "original_completed": 22,
+    "original_passed": 22,
+    "original_failed": 0,
+    "original_max_any_generator_Hz": 0.09879402231194323,
+    "original_min_voltage_pu": 0.9358540822721577,
+    "voltage_compliance_claimed": false,
+    "serialized_input_max_terminal_debt_MWs": 1.4824e-10,
+    "serialized_input_max_command_MW": 50.000000000050036,
+    "serialized_input_scope": "formula-defined recovery exact; finite decimal CSVs satisfy declared floating tolerances only",
+    "additional_outcome_informed_runs": 2,
+    "additional_peaks_Hz": [
+      0.10502550526357624,
+      0.10506190467874488
+    ],
+    "nonlinear_continuum_claimed": false,
+    "documentation": "network_transfer/README.md",
+    "results": "network_transfer/NONLINEAR_CONFIRMATION_SUMMARY.json",
+    "additional_results": "network_transfer/AMPLITUDE_STRESS_ADDENDUM_RESULTS.json"
+  },
+  "independent_review": [
+    "theory_audit/INDEPENDENT_INTERVAL_CERTIFICATE_AUDIT.md",
+    "theory_audit/NETWORK_TRANSFER_INDEPENDENT_AUDIT.md"
+  ],
+  "failures_and_exclusions": "EXPLORATION_AND_CORRECTIONS.md",
+  "reproducibility": "README.md",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "executable": "./outputs/round2_20261003/andes_env/bin/python"
+  },
+  "external_independent_audit": "../round3_g1_independent_audit_20261004/INDEPENDENT_G1_THIRD_ROUND_AUDIT_ZH.md",
+  "remaining_limits": [
+    "Denied Wu DOI10.1109/TPWRS.2023.3285941 and PNNL-39459 fulltexts not retried",
+    "No controller-optimal small-noise P-versus-frequency resource gap",
+    "Exact model, actuator and timestamp assumptions; no plant-model uncertainty theorem",
+    "No real compute trace, GPU/PCC calibration, hardware or field evidence",
+    "Kundur resource gap is within a conventional family; 22+2 nonlinear runs are finite and include repeats"
+  ]
+}

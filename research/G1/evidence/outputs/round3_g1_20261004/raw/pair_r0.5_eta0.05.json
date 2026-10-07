@@ -1,0 +1,20 @@
+{
+  "name": "pair_r0.5_eta0.05",
+  "phase_scenarios": 2,
+  "dt": 0.01,
+  "H": 5.0,
+  "P": 0.5,
+  "b": 0.6,
+  "inner": false,
+  "margin": -0.006353352832366127,
+  "nonnegative": false,
+  "seconds": 0.16394615173339844,
+  "success": true,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "E": 0.30608654430287424,
+  "e0": 0.30608654430287424,
+  "dual_lower": 0.30608654430287086,
+  "dual_correction": 3.33750881506161e-15,
+  "max_stationarity": 2.220446049250313e-16,
+  "max_eq_residual": 0.0
+}

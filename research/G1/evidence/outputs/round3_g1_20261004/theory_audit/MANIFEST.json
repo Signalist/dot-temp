@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-04",
+  "scope": "independent theory and primary-source audit; frozen round2 files unchanged",
+  "files": {
+    "FOCUSED_PRIMARY_PRIOR_MAP.md": "8db19c1b7feee1e934a192715a0a2cf7f1bee1636394a437fd223113bd09ec4b",
+    "INDEPENDENT_INTERVAL_CERTIFICATE_AUDIT.md": "4be7bc1f5a378e226180aa85b29776ac4e3bba97d9fd9157c80978b609c4f949",
+    "INFORMATION_CONTRACT_THEOREMS.md": "e02e9da410f3dbf6bb2b2149a9d58bdb8c8e7d317436822c7d94e1c3104bae8b",
+    "INPUT_FREE_ROBUST_CBF_PROOF.md": "cc966d6421e6cac62766858aa8829747332801535df83e6f01432f9cd83c677f",
+    "NETWORK_TRANSFER_INDEPENDENT_AUDIT.md": "71096c2d3c1eca2b274e67be2ff1950eb793785513da95a9139db76ba37a9af0",
+    "README.md": "3b3876a94fa2f9c9e54e10fa27dee6ac02e97efe4592a981aed215600f2da598",
+    "check_nominal_witness.py": "75faa57d740805b7fcab32ef68d58f8cb66623d7b4086a6a493b53803c9c1169",
+    "compute_theory_constants.py": "9e9926afa98ab529ff6c189139548a5f661f7d0991810fc86e9b01e60572f1b2",
+    "nominal_falsification.log": "1bb1294c3075ef595ee9171b0f4acec3eeb4b98a73187d0d2b976d7a5a06bd68",
+    "nominal_falsification_results.json": "4b1411c1a565a9b69c2b61209b475a8f654c5db0741e16b323f939c71f45f60f",
+    "theory_constants.json": "01c22e3ad546b92a8080ed85af751355c26e69348d033b4fae2c1c758b42ca93"
+  }
+}

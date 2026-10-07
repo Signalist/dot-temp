@@ -1,0 +1,20 @@
+test_common_resources_and_terminal (__main__.FeedbackTest.test_common_resources_and_terminal) ... ok
+test_continuous_bounds_against_bruteforce (__main__.FeedbackTest.test_continuous_bounds_against_bruteforce) ... FAIL
+test_frequency_interval_coverage (__main__.FeedbackTest.test_frequency_interval_coverage) ... ok
+test_frequency_nonanticipativity (__main__.FeedbackTest.test_frequency_nonanticipativity) ... ok
+test_phase_envelope (__main__.FeedbackTest.test_phase_envelope) ... ok
+test_phase_kinks_included (__main__.FeedbackTest.test_phase_kinks_included) ... ok
+test_power_nonanticipativity (__main__.FeedbackTest.test_power_nonanticipativity) ... ok
+
+======================================================================
+FAIL: test_continuous_bounds_against_bruteforce (__main__.FeedbackTest.test_continuous_bounds_against_bruteforce)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./outputs/round3_g1_20261004/feedback_baseline/test_feedback.py", line 62, in test_continuous_bounds_against_bruteforce
+    self.assertLessEqual(float(np.max(yy)),v['max_y'][0]+5e-13)
+AssertionError: 0.599953449257532 not less than or equal to 0.5992827219227644
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.804s
+
+FAILED (failures=1)

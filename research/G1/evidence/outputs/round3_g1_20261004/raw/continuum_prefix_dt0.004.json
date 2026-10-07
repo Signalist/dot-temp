@@ -1,0 +1,19 @@
+{
+  "name": "continuum_prefix_dt0.004",
+  "P": 0.5,
+  "H": 5,
+  "dt": 0.004,
+  "energy_lower": 0.44271655001420795,
+  "e0": 0.39471655001425215,
+  "objective": 0.4427165500142522,
+  "correction": 4.40061005756608e-14,
+  "stationarity_max": 1.4851580884604528e-14,
+  "seconds": 1.3361248970031738,
+  "phase_envelope": "analytic continuum: p0*g(t)+sign*[0,g(min(t,1))]",
+  "arithmetic": "ordinary floating LP coefficients and corrected dual; not formal interval certificate",
+  "terminal": "none",
+  "applies_to": [
+    "initial-class only no subsequent observations",
+    "frequency-only bounded noise eta>=1/(2e), even continuous sampling"
+  ]
+}

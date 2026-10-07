@@ -1,0 +1,129 @@
+{
+  "model": "xdot=y; ydot=p-2y-x-u; edot=-u; p alternates1/2 every5 with all initial phases; exact model and known applied u",
+  "alpha": 5.0,
+  "h": 0.6,
+  "barrier_error_budget": 0.003,
+  "tight_nominal": {
+    "h": 0.5988,
+    "alpha": 5.0,
+    "entry_time": 0.21316988436739598,
+    "entry_y": 0.34449057210816325,
+    "peak_time": 0.38324256306629845,
+    "active_duration": 1.357502337788818,
+    "peak_power": 0.46454452248977807,
+    "discharge": 0.3904094856857374,
+    "tb": 3.0104019724754947,
+    "tau": 0.5545177444479562,
+    "support_upper": 3.564919716923451,
+    "positive_checks": {
+      "initial_inactive": 0.9939999999999998,
+      "pure_low_inactive_margin": 0.10453378903594102,
+      "entry_monotonicity_margin": 2.0488160443877956,
+      "down_exit_margin": 0.018741676485844905,
+      "episode_before_next_up_margin": 1.435080283076549,
+      "later_reactivation_exclusion_margin": 0.01354869458338781,
+      "unit_power_margin": 0.5354554775102219
+    }
+  },
+  "loose_nominal": {
+    "h": 0.6,
+    "alpha": 5.0,
+    "entry_time": 0.21490321224765777,
+    "entry_y": 0.34669024635580103,
+    "peak_time": 0.382054425916727,
+    "active_duration": 1.3493987489781052,
+    "peak_power": 0.4613585561114005,
+    "discharge": 0.38561982194811384,
+    "tb": 2.994308347002123,
+    "tau": 0.5545177444479562,
+    "support_upper": 3.548826091450079,
+    "positive_checks": {
+      "initial_inactive": 1.0,
+      "pure_low_inactive_margin": 0.11053378903594124,
+      "entry_monotonicity_margin": 2.0415112379408105,
+      "down_exit_margin": 0.02180709777918241,
+      "episode_before_next_up_margin": 1.451173908549921,
+      "later_reactivation_exclusion_margin": 0.0177107134025839,
+      "unit_power_margin": 0.5386414438885996
+    }
+  },
+  "robust_prefix_power_upper": 0.4889795645699768,
+  "robust_e0": 0.3904094856857374,
+  "robust_capacity": 0.39399100401901654,
+  "prefix_support_end": 5.0,
+  "prefix_cutoff_margin": 0.009948694583387763,
+  "recovery_matrix": [
+    [
+      1.0,
+      8.0,
+      1.0
+    ],
+    [
+      -0.0007346988134794675,
+      -0.7345247843020177,
+      -0.2642411176571151
+    ],
+    [
+      0.00065668893915527,
+      0.366768752934662,
+      -0.36787944117144233
+    ]
+  ],
+  "unit_recovery_coefficient_ranges": [
+    [
+      -1.0091737482427927,
+      -1.0091162867409493
+    ],
+    [
+      0.0012121826552114953,
+      0.001219862900905716
+    ],
+    [
+      -0.0005851549644529113,
+      -0.0005811745007425093
+    ]
+  ],
+  "unit_cumulative_recovery_ranges": [
+    [
+      1.0,
+      1.0
+    ],
+    [
+      -0.00917374824279277,
+      -0.009116286740949407
+    ],
+    [
+      0.0005811745007425193,
+      0.0005851549644529213
+    ],
+    [
+      1.0587911840678754e-22,
+      1.2030919810025128e-20
+    ]
+  ],
+  "recovery_power_bounds": [
+    0.39399100401901654,
+    0.00047624604774971227,
+    0.00022845004871851704
+  ],
+  "post10_frequency_upper": 0.5240561077502858,
+  "state_sensor_contract": {
+    "sampling": 0.001,
+    "delay": 0.0005,
+    "epsilon_x": 0.0001,
+    "epsilon_y": 0.0001,
+    "barrier_error_bound": 0.0026506000000000004
+  },
+  "frequency_only_contract": {
+    "sampling": 0.0002,
+    "delay": 0.0002,
+    "epsilon_y": 1e-05,
+    "integration_horizon": 10.0,
+    "epsilon_x": 0.0021000000000000003,
+    "barrier_error_bound": 0.0027333600000000007
+  },
+  "full_family_opacity_noise_threshold": 0.18393972058572117,
+  "frozen_no_feedback_lower": 0.442710930662431,
+  "resource_separation_float_gap": 0.04871992664341446,
+  "qualification": "Proof formulas evaluated in ordinary floating point. No outward-rounded numerical certification, ZOH actuation, actuator/model uncertainty or physical-unit calibration claim."
+}

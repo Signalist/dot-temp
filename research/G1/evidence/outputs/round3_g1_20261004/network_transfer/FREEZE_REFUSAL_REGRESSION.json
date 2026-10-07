@@ -1,0 +1,1262 @@
+{
+  "tested_utc": "2026-10-04T03:16:43.758964+00:00",
+  "returncode": 1,
+  "stderr": "Traceback (most recent call last):\n  File \"./outputs/round3_g1_20261004/network_transfer/freeze_confirmation.py\", line 42, in <module>\n    if path.exists():raise RuntimeError('Frozen manifest already exists; refusing before input generation')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Frozen manifest already exists; refusing before input generation\n",
+  "stdout": "",
+  "n_locked_inputs_manifests_coefficients": 78,
+  "expected_early_refusal": true,
+  "all_sha256_unchanged": true,
+  "all_mtimes_unchanged": true,
+  "all_sizes_unchanged": true,
+  "confirmation_inventory_unchanged": true,
+  "files": [
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/AMPLITUDE_STRESS_ADDENDUM_FREEZE.json",
+      "before": {
+        "sha256": "bee108ef92b9a011d3b87a42b6f673b0d04edb49241b39a91b7f88f1e38a2730",
+        "bytes": 3532,
+        "mtime_ns": 1791082797077283129
+      },
+      "after": {
+        "sha256": "bee108ef92b9a011d3b87a42b6f673b0d04edb49241b39a91b7f88f1e38a2730",
+        "bytes": 3532,
+        "mtime_ns": 1791082797077283129
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/CONFIRMATION_FREEZE.json",
+      "before": {
+        "sha256": "dad934f0873a5dfc5ccc5cd7c49b2b68398c3451f7ec8179cdfb8edcf976bc68",
+        "bytes": 33114,
+        "mtime_ns": 1791082273942602856
+      },
+      "after": {
+        "sha256": "dad934f0873a5dfc5ccc5cd7c49b2b68398c3451f7ec8179cdfb8edcf976bc68",
+        "bytes": 33114,
+        "mtime_ns": 1791082273942602856
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/binned93_feedback_high.npz",
+      "before": {
+        "sha256": "63068def6e3edaab7272ed45b1d5d4accc53893c3aa980965876d5c7b819ceeb",
+        "bytes": 1899,
+        "mtime_ns": 1791082142133555705
+      },
+      "after": {
+        "sha256": "63068def6e3edaab7272ed45b1d5d4accc53893c3aa980965876d5c7b819ceeb",
+        "bytes": 1899,
+        "mtime_ns": 1791082142133555705
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/binned93_feedback_low.npz",
+      "before": {
+        "sha256": "8379a4e0b66aa5955565a9c1b72bac45c5b8c6179cf9eed5950853e2779fd2d9",
+        "bytes": 2317,
+        "mtime_ns": 1791082094220604243
+      },
+      "after": {
+        "sha256": "8379a4e0b66aa5955565a9c1b72bac45c5b8c6179cf9eed5950853e2779fd2d9",
+        "bytes": 2317,
+        "mtime_ns": 1791082094220604243
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/binned93_openloop_high.npz",
+      "before": {
+        "sha256": "6b943999e9d920e3838fe563c6d9defe9798571acca9863656baa3f7178e6bbd",
+        "bytes": 1927,
+        "mtime_ns": 1791082232117660317
+      },
+      "after": {
+        "sha256": "6b943999e9d920e3838fe563c6d9defe9798571acca9863656baa3f7178e6bbd",
+        "bytes": 1927,
+        "mtime_ns": 1791082232117660317
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/binned93_openloop_low.npz",
+      "before": {
+        "sha256": "6eb2eda82e22b6c8eb629b1df82a8257b0d9efdf6aea823d5c3578a0284c778a",
+        "bytes": 2111,
+        "mtime_ns": 1791082187173816839
+      },
+      "after": {
+        "sha256": "6eb2eda82e22b6c8eb629b1df82a8257b0d9efdf6aea823d5c3578a0284c778a",
+        "bytes": 2111,
+        "mtime_ns": 1791082187173816839
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r0.137_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "a7c49c52e9af16faa0b1c3d58f91628935b8c5d5313e1b74bd876e5cab183cd6",
+        "bytes": 1207,
+        "mtime_ns": 1791082273885068318
+      },
+      "after": {
+        "sha256": "a7c49c52e9af16faa0b1c3d58f91628935b8c5d5313e1b74bd876e5cab183cd6",
+        "bytes": 1207,
+        "mtime_ns": 1791082273885068318
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r0.137_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "3bff3973e41c5b2f10dd8679229ba545fb65da3b22e3c6a76687d8c613e8037d",
+        "bytes": 823,
+        "mtime_ns": 1791082273884781194
+      },
+      "after": {
+        "sha256": "3bff3973e41c5b2f10dd8679229ba545fb65da3b22e3c6a76687d8c613e8037d",
+        "bytes": 823,
+        "mtime_ns": 1791082273884781194
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r0.137_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "b36bb9a6d196f2065f643c59bcfb0606bf6ca470bfbae553d348d93386585ca0",
+        "bytes": 2556,
+        "mtime_ns": 1791082273885443085
+      },
+      "after": {
+        "sha256": "b36bb9a6d196f2065f643c59bcfb0606bf6ca470bfbae553d348d93386585ca0",
+        "bytes": 2556,
+        "mtime_ns": 1791082273885443085
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r0.813_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "99d6300990a8d6ae9bcf0001b555d43f7e4d655e360a91a68bc9aaf8db72e422",
+        "bytes": 1245,
+        "mtime_ns": 1791082273887872396
+      },
+      "after": {
+        "sha256": "99d6300990a8d6ae9bcf0001b555d43f7e4d655e360a91a68bc9aaf8db72e422",
+        "bytes": 1245,
+        "mtime_ns": 1791082273887872396
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r0.813_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "d291cba8c52d8abb6f08c03df9d2f2bc763f35c7b53a78377b9de277d713b83c",
+        "bytes": 823,
+        "mtime_ns": 1791082273887579403
+      },
+      "after": {
+        "sha256": "d291cba8c52d8abb6f08c03df9d2f2bc763f35c7b53a78377b9de277d713b83c",
+        "bytes": 823,
+        "mtime_ns": 1791082273887579403
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r0.813_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "7aee5b6ab2e386fdf99a6a6de41d4f6097c54a879aff008ea5fdccbb3ebd1ec9",
+        "bytes": 2567,
+        "mtime_ns": 1791082273888235224
+      },
+      "after": {
+        "sha256": "7aee5b6ab2e386fdf99a6a6de41d4f6097c54a879aff008ea5fdccbb3ebd1ec9",
+        "bytes": 2567,
+        "mtime_ns": 1791082273888235224
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r2.347_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "5d9d76651d2f3d4683f6baa3728b5201ad52bfc4e9690cd64b464c7484656bf6",
+        "bytes": 1381,
+        "mtime_ns": 1791082273890647860
+      },
+      "after": {
+        "sha256": "5d9d76651d2f3d4683f6baa3728b5201ad52bfc4e9690cd64b464c7484656bf6",
+        "bytes": 1381,
+        "mtime_ns": 1791082273890647860
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r2.347_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "2e61e082d5b70a18d1b2b3b23df03401fb310ecc8cd922fb18612cfb47b1b421",
+        "bytes": 823,
+        "mtime_ns": 1791082273890311763
+      },
+      "after": {
+        "sha256": "2e61e082d5b70a18d1b2b3b23df03401fb310ecc8cd922fb18612cfb47b1b421",
+        "bytes": 823,
+        "mtime_ns": 1791082273890311763
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r2.347_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "86f0fe16cb8f2ca6270a15003e976e0e74813093d2bdeb47a4c89af3a35fc2bb",
+        "bytes": 2586,
+        "mtime_ns": 1791082273891012001
+      },
+      "after": {
+        "sha256": "86f0fe16cb8f2ca6270a15003e976e0e74813093d2bdeb47a4c89af3a35fc2bb",
+        "bytes": 2586,
+        "mtime_ns": 1791082273891012001
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.05_ramp0_bess.csv",
+      "before": {
+        "sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+        "bytes": 1487,
+        "mtime_ns": 1791082273920880699
+      },
+      "after": {
+        "sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+        "bytes": 1487,
+        "mtime_ns": 1791082273920880699
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.05_ramp0_it.csv",
+      "before": {
+        "sha256": "f1e6b75ca59bea5086e9009f54f2cb7a47f64c00fa315e2e5099c4b9b536b756",
+        "bytes": 885,
+        "mtime_ns": 1791082273920309706
+      },
+      "after": {
+        "sha256": "f1e6b75ca59bea5086e9009f54f2cb7a47f64c00fa315e2e5099c4b9b536b756",
+        "bytes": 885,
+        "mtime_ns": 1791082273920309706
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.05_ramp0_observations.csv",
+      "before": {
+        "sha256": "f1196ddb68b2f777f2c7fe78041214c04d029305988d39511a4045492e6f5084",
+        "bytes": 2822,
+        "mtime_ns": 1791082273921228294
+      },
+      "after": {
+        "sha256": "f1196ddb68b2f777f2c7fe78041214c04d029305988d39511a4045492e6f5084",
+        "bytes": 2822,
+        "mtime_ns": 1791082273921228294
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_bess.csv",
+      "before": {
+        "sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+        "bytes": 1487,
+        "mtime_ns": 1791082797074645192
+      },
+      "after": {
+        "sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+        "bytes": 1487,
+        "mtime_ns": 1791082797074645192
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_fine_bess.csv",
+      "before": {
+        "sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+        "bytes": 1487,
+        "mtime_ns": 1791082797076468408
+      },
+      "after": {
+        "sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+        "bytes": 1487,
+        "mtime_ns": 1791082797076468408
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_fine_it.csv",
+      "before": {
+        "sha256": "5aa59502c21c69133ab358e9ffc23fc1e2765e05623223a68751f8cb2a1d5bac",
+        "bytes": 825,
+        "mtime_ns": 1791082797076150026
+      },
+      "after": {
+        "sha256": "5aa59502c21c69133ab358e9ffc23fc1e2765e05623223a68751f8cb2a1d5bac",
+        "bytes": 825,
+        "mtime_ns": 1791082797076150026
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_fine_observations.csv",
+      "before": {
+        "sha256": "1f45ac6db8d137d5eb73efddc4f96651389ec358b4170306c3c982c741e7c22f",
+        "bytes": 2622,
+        "mtime_ns": 1791082797076848702
+      },
+      "after": {
+        "sha256": "1f45ac6db8d137d5eb73efddc4f96651389ec358b4170306c3c982c741e7c22f",
+        "bytes": 2622,
+        "mtime_ns": 1791082797076848702
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_it.csv",
+      "before": {
+        "sha256": "5aa59502c21c69133ab358e9ffc23fc1e2765e05623223a68751f8cb2a1d5bac",
+        "bytes": 825,
+        "mtime_ns": 1791082797074193740
+      },
+      "after": {
+        "sha256": "5aa59502c21c69133ab358e9ffc23fc1e2765e05623223a68751f8cb2a1d5bac",
+        "bytes": 825,
+        "mtime_ns": 1791082797074193740
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_observations.csv",
+      "before": {
+        "sha256": "1f45ac6db8d137d5eb73efddc4f96651389ec358b4170306c3c982c741e7c22f",
+        "bytes": 2622,
+        "mtime_ns": 1791082797075028672
+      },
+      "after": {
+        "sha256": "1f45ac6db8d137d5eb73efddc4f96651389ec358b4170306c3c982c741e7c22f",
+        "bytes": 2622,
+        "mtime_ns": 1791082797075028672
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1_ramp0.5_bess.csv",
+      "before": {
+        "sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+        "bytes": 1487,
+        "mtime_ns": 1791082273935381042
+      },
+      "after": {
+        "sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+        "bytes": 1487,
+        "mtime_ns": 1791082273935381042
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1_ramp0.5_it.csv",
+      "before": {
+        "sha256": "36903ddb0bcfd3e9ba265e6d9bd5622c1db84b40a4f1f58d2a333c71e924ccad",
+        "bytes": 38065,
+        "mtime_ns": 1791082273932519988
+      },
+      "after": {
+        "sha256": "36903ddb0bcfd3e9ba265e6d9bd5622c1db84b40a4f1f58d2a333c71e924ccad",
+        "bytes": 38065,
+        "mtime_ns": 1791082273932519988
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1_ramp0.5_observations.csv",
+      "before": {
+        "sha256": "fa5b7f446f2ee29aed5230eb4fae5697edaaae2c216bcb524c3bd2a2531af115",
+        "bytes": 2579,
+        "mtime_ns": 1791082273935750761
+      },
+      "after": {
+        "sha256": "fa5b7f446f2ee29aed5230eb4fae5697edaaae2c216bcb524c3bd2a2531af115",
+        "bytes": 2579,
+        "mtime_ns": 1791082273935750761
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+        "bytes": 1487,
+        "mtime_ns": 1791082273893495033
+      },
+      "after": {
+        "sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+        "bytes": 1487,
+        "mtime_ns": 1791082273893495033
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "aef09a58059f76ed079c2cef405edf25ec15dc789c6ae315f1046a089797282b",
+        "bytes": 825,
+        "mtime_ns": 1791082273893183432
+      },
+      "after": {
+        "sha256": "aef09a58059f76ed079c2cef405edf25ec15dc789c6ae315f1046a089797282b",
+        "bytes": 825,
+        "mtime_ns": 1791082273893183432
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "6a254213268f3489c724553a490787f6acc2c37ce91440411782b22f99653871",
+        "bytes": 2586,
+        "mtime_ns": 1791082273893852904
+      },
+      "after": {
+        "sha256": "6a254213268f3489c724553a490787f6acc2c37ce91440411782b22f99653871",
+        "bytes": 2586,
+        "mtime_ns": 1791082273893852904
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r0.137_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "3582d0dabc43288922b0137838ccae6a4b600e6d1f20c2a17ff1e2317cc6ff78",
+        "bytes": 1709,
+        "mtime_ns": 1791082273873158911
+      },
+      "after": {
+        "sha256": "3582d0dabc43288922b0137838ccae6a4b600e6d1f20c2a17ff1e2317cc6ff78",
+        "bytes": 1709,
+        "mtime_ns": 1791082273873158911
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r0.137_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "1afd919a218b559d0e027cf1cfab8aa6d7e33bdeab9f4aba0823f0ec2b41c743",
+        "bytes": 822,
+        "mtime_ns": 1791082273872705145
+      },
+      "after": {
+        "sha256": "1afd919a218b559d0e027cf1cfab8aa6d7e33bdeab9f4aba0823f0ec2b41c743",
+        "bytes": 822,
+        "mtime_ns": 1791082273872705145
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r0.137_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "079cc0f142cca836ea43b9804405548622d5aaef26239104c94972a2c89ebb09",
+        "bytes": 2583,
+        "mtime_ns": 1791082273873583312
+      },
+      "after": {
+        "sha256": "079cc0f142cca836ea43b9804405548622d5aaef26239104c94972a2c89ebb09",
+        "bytes": 2583,
+        "mtime_ns": 1791082273873583312
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r0.813_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "9ff50ac7a535a3866a122aedcb23a1643aa51fa23c7850a53b6a4bd429c98fb8",
+        "bytes": 1697,
+        "mtime_ns": 1791082273876442423
+      },
+      "after": {
+        "sha256": "9ff50ac7a535a3866a122aedcb23a1643aa51fa23c7850a53b6a4bd429c98fb8",
+        "bytes": 1697,
+        "mtime_ns": 1791082273876442423
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r0.813_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "cdc8a1a9ae1a1a076e5e84168fcb679758efb5feb931dceadc2b99ed7d8bc793",
+        "bytes": 822,
+        "mtime_ns": 1791082273876018702
+      },
+      "after": {
+        "sha256": "cdc8a1a9ae1a1a076e5e84168fcb679758efb5feb931dceadc2b99ed7d8bc793",
+        "bytes": 822,
+        "mtime_ns": 1791082273876018702
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r0.813_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "30e22b4d741c855c6f300748bf3f6a9f68e5fbde2ed7a06e0ae3f8ba2fb6579a",
+        "bytes": 2572,
+        "mtime_ns": 1791082273876810639
+      },
+      "after": {
+        "sha256": "30e22b4d741c855c6f300748bf3f6a9f68e5fbde2ed7a06e0ae3f8ba2fb6579a",
+        "bytes": 2572,
+        "mtime_ns": 1791082273876810639
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1.05_ramp0_bess.csv",
+      "before": {
+        "sha256": "6dbd7881050a96668b6cf8335fc890f9f5fe241eab34ab0e79597eed2e35c4f1",
+        "bytes": 1759,
+        "mtime_ns": 1791082273918937182
+      },
+      "after": {
+        "sha256": "6dbd7881050a96668b6cf8335fc890f9f5fe241eab34ab0e79597eed2e35c4f1",
+        "bytes": 1759,
+        "mtime_ns": 1791082273918937182
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1.05_ramp0_it.csv",
+      "before": {
+        "sha256": "d8c7218feef5f051cce0facfb36cc640f13541ca74d0ea8bfc3e4d8db27972e8",
+        "bytes": 884,
+        "mtime_ns": 1791082273918639843
+      },
+      "after": {
+        "sha256": "d8c7218feef5f051cce0facfb36cc640f13541ca74d0ea8bfc3e4d8db27972e8",
+        "bytes": 884,
+        "mtime_ns": 1791082273918639843
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1.05_ramp0_observations.csv",
+      "before": {
+        "sha256": "5ee80f448e865821adff6c70b6cf073fff59d15a291fa8c700ad5923f104cb41",
+        "bytes": 2866,
+        "mtime_ns": 1791082273919306139
+      },
+      "after": {
+        "sha256": "5ee80f448e865821adff6c70b6cf073fff59d15a291fa8c700ad5923f104cb41",
+        "bytes": 2866,
+        "mtime_ns": 1791082273919306139
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1_ramp0.5_bess.csv",
+      "before": {
+        "sha256": "6c99e243038db153742e5852d3901b3aef3540536bb577efb054752fce96a550",
+        "bytes": 1735,
+        "mtime_ns": 1791082273928217456
+      },
+      "after": {
+        "sha256": "6c99e243038db153742e5852d3901b3aef3540536bb577efb054752fce96a550",
+        "bytes": 1735,
+        "mtime_ns": 1791082273928217456
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1_ramp0.5_it.csv",
+      "before": {
+        "sha256": "157c437dcff5b58775a488d0da54b7b362f42102d80056377ba86bb07b731c43",
+        "bytes": 37964,
+        "mtime_ns": 1791082273925466168
+      },
+      "after": {
+        "sha256": "157c437dcff5b58775a488d0da54b7b362f42102d80056377ba86bb07b731c43",
+        "bytes": 37964,
+        "mtime_ns": 1791082273925466168
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1_ramp0.5_observations.csv",
+      "before": {
+        "sha256": "a4656260eaa87c2e033b64852336a31f96da03a679b49125bcdd6dc3f6ab5470",
+        "bytes": 2547,
+        "mtime_ns": 1791082273928595117
+      },
+      "after": {
+        "sha256": "a4656260eaa87c2e033b64852336a31f96da03a679b49125bcdd6dc3f6ab5470",
+        "bytes": 2547,
+        "mtime_ns": 1791082273928595117
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "6dbd7881050a96668b6cf8335fc890f9f5fe241eab34ab0e79597eed2e35c4f1",
+        "bytes": 1759,
+        "mtime_ns": 1791082273879383467
+      },
+      "after": {
+        "sha256": "6dbd7881050a96668b6cf8335fc890f9f5fe241eab34ab0e79597eed2e35c4f1",
+        "bytes": 1759,
+        "mtime_ns": 1791082273879383467
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1_ramp0_fine_bess.csv",
+      "before": {
+        "sha256": "6dbd7881050a96668b6cf8335fc890f9f5fe241eab34ab0e79597eed2e35c4f1",
+        "bytes": 1759,
+        "mtime_ns": 1791082273937145909
+      },
+      "after": {
+        "sha256": "6dbd7881050a96668b6cf8335fc890f9f5fe241eab34ab0e79597eed2e35c4f1",
+        "bytes": 1759,
+        "mtime_ns": 1791082273937145909
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1_ramp0_fine_it.csv",
+      "before": {
+        "sha256": "7d45ab3b371d08f158d25a5ea64eb0cd931ce044a3a84ba18500715f97633628",
+        "bytes": 822,
+        "mtime_ns": 1791082273936847769
+      },
+      "after": {
+        "sha256": "7d45ab3b371d08f158d25a5ea64eb0cd931ce044a3a84ba18500715f97633628",
+        "bytes": 822,
+        "mtime_ns": 1791082273936847769
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1_ramp0_fine_observations.csv",
+      "before": {
+        "sha256": "f1f757604b05519d06efc1049bf4c5bbd5bc4afc5c91190172b3913b2d389853",
+        "bytes": 2553,
+        "mtime_ns": 1791082273937521056
+      },
+      "after": {
+        "sha256": "f1f757604b05519d06efc1049bf4c5bbd5bc4afc5c91190172b3913b2d389853",
+        "bytes": 2553,
+        "mtime_ns": 1791082273937521056
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "7d45ab3b371d08f158d25a5ea64eb0cd931ce044a3a84ba18500715f97633628",
+        "bytes": 822,
+        "mtime_ns": 1791082273879050694
+      },
+      "after": {
+        "sha256": "7d45ab3b371d08f158d25a5ea64eb0cd931ce044a3a84ba18500715f97633628",
+        "bytes": 822,
+        "mtime_ns": 1791082273879050694
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r2.347_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "f1f757604b05519d06efc1049bf4c5bbd5bc4afc5c91190172b3913b2d389853",
+        "bytes": 2553,
+        "mtime_ns": 1791082273879745875
+      },
+      "after": {
+        "sha256": "f1f757604b05519d06efc1049bf4c5bbd5bc4afc5c91190172b3913b2d389853",
+        "bytes": 2553,
+        "mtime_ns": 1791082273879745875
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r4.927_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "ef3e5d306f99fdcad3fe0c454bb453f2bb5bbc3df126ac55b0a39bd525fdc706",
+        "bytes": 1651,
+        "mtime_ns": 1791082273882154274
+      },
+      "after": {
+        "sha256": "ef3e5d306f99fdcad3fe0c454bb453f2bb5bbc3df126ac55b0a39bd525fdc706",
+        "bytes": 1651,
+        "mtime_ns": 1791082273882154274
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r4.927_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "43c7b9cf2e3a525b2ac146e3cc52067ec27a52593a50e148fcf6c2c1d111edc1",
+        "bytes": 824,
+        "mtime_ns": 1791082273881852649
+      },
+      "after": {
+        "sha256": "43c7b9cf2e3a525b2ac146e3cc52067ec27a52593a50e148fcf6c2c1d111edc1",
+        "bytes": 824,
+        "mtime_ns": 1791082273881852649
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_low_r4.927_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "2e335804862e143129e160f43d09df7790eafc2cc83ae61f800b7fc3917ad999",
+        "bytes": 2553,
+        "mtime_ns": 1791082273882554169
+      },
+      "after": {
+        "sha256": "2e335804862e143129e160f43d09df7790eafc2cc83ae61f800b7fc3917ad999",
+        "bytes": 2553,
+        "mtime_ns": 1791082273882554169
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r0.137_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "57d7a9d05cabcdca7275e3f12960d3ea63d903a510dda2d73e52c0a7563f2e38",
+        "bytes": 1556,
+        "mtime_ns": 1791082273907305814
+      },
+      "after": {
+        "sha256": "57d7a9d05cabcdca7275e3f12960d3ea63d903a510dda2d73e52c0a7563f2e38",
+        "bytes": 1556,
+        "mtime_ns": 1791082273907305814
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r0.137_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "3bff3973e41c5b2f10dd8679229ba545fb65da3b22e3c6a76687d8c613e8037d",
+        "bytes": 823,
+        "mtime_ns": 1791082273907010588
+      },
+      "after": {
+        "sha256": "3bff3973e41c5b2f10dd8679229ba545fb65da3b22e3c6a76687d8c613e8037d",
+        "bytes": 823,
+        "mtime_ns": 1791082273907010588
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r0.137_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "b36bb9a6d196f2065f643c59bcfb0606bf6ca470bfbae553d348d93386585ca0",
+        "bytes": 2556,
+        "mtime_ns": 1791082273907676374
+      },
+      "after": {
+        "sha256": "b36bb9a6d196f2065f643c59bcfb0606bf6ca470bfbae553d348d93386585ca0",
+        "bytes": 2556,
+        "mtime_ns": 1791082273907676374
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r0.813_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "57d7a9d05cabcdca7275e3f12960d3ea63d903a510dda2d73e52c0a7563f2e38",
+        "bytes": 1556,
+        "mtime_ns": 1791082273910052675
+      },
+      "after": {
+        "sha256": "57d7a9d05cabcdca7275e3f12960d3ea63d903a510dda2d73e52c0a7563f2e38",
+        "bytes": 1556,
+        "mtime_ns": 1791082273910052675
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r0.813_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "d291cba8c52d8abb6f08c03df9d2f2bc763f35c7b53a78377b9de277d713b83c",
+        "bytes": 823,
+        "mtime_ns": 1791082273909754314
+      },
+      "after": {
+        "sha256": "d291cba8c52d8abb6f08c03df9d2f2bc763f35c7b53a78377b9de277d713b83c",
+        "bytes": 823,
+        "mtime_ns": 1791082273909754314
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r0.813_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "7aee5b6ab2e386fdf99a6a6de41d4f6097c54a879aff008ea5fdccbb3ebd1ec9",
+        "bytes": 2567,
+        "mtime_ns": 1791082273910432669
+      },
+      "after": {
+        "sha256": "7aee5b6ab2e386fdf99a6a6de41d4f6097c54a879aff008ea5fdccbb3ebd1ec9",
+        "bytes": 2567,
+        "mtime_ns": 1791082273910432669
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r2.347_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "57d7a9d05cabcdca7275e3f12960d3ea63d903a510dda2d73e52c0a7563f2e38",
+        "bytes": 1556,
+        "mtime_ns": 1791082273912829582
+      },
+      "after": {
+        "sha256": "57d7a9d05cabcdca7275e3f12960d3ea63d903a510dda2d73e52c0a7563f2e38",
+        "bytes": 1556,
+        "mtime_ns": 1791082273912829582
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r2.347_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "2e61e082d5b70a18d1b2b3b23df03401fb310ecc8cd922fb18612cfb47b1b421",
+        "bytes": 823,
+        "mtime_ns": 1791082273912528557
+      },
+      "after": {
+        "sha256": "2e61e082d5b70a18d1b2b3b23df03401fb310ecc8cd922fb18612cfb47b1b421",
+        "bytes": 823,
+        "mtime_ns": 1791082273912528557
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r2.347_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "86f0fe16cb8f2ca6270a15003e976e0e74813093d2bdeb47a4c89af3a35fc2bb",
+        "bytes": 2586,
+        "mtime_ns": 1791082273913196256
+      },
+      "after": {
+        "sha256": "86f0fe16cb8f2ca6270a15003e976e0e74813093d2bdeb47a4c89af3a35fc2bb",
+        "bytes": 2586,
+        "mtime_ns": 1791082273913196256
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r4.927_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "57d7a9d05cabcdca7275e3f12960d3ea63d903a510dda2d73e52c0a7563f2e38",
+        "bytes": 1556,
+        "mtime_ns": 1791082273915872350
+      },
+      "after": {
+        "sha256": "57d7a9d05cabcdca7275e3f12960d3ea63d903a510dda2d73e52c0a7563f2e38",
+        "bytes": 1556,
+        "mtime_ns": 1791082273915872350
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r4.927_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "aef09a58059f76ed079c2cef405edf25ec15dc789c6ae315f1046a089797282b",
+        "bytes": 825,
+        "mtime_ns": 1791082273915444323
+      },
+      "after": {
+        "sha256": "aef09a58059f76ed079c2cef405edf25ec15dc789c6ae315f1046a089797282b",
+        "bytes": 825,
+        "mtime_ns": 1791082273915444323
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_high_r4.927_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "6a254213268f3489c724553a490787f6acc2c37ce91440411782b22f99653871",
+        "bytes": 2586,
+        "mtime_ns": 1791082273916406417
+      },
+      "after": {
+        "sha256": "6a254213268f3489c724553a490787f6acc2c37ce91440411782b22f99653871",
+        "bytes": 2586,
+        "mtime_ns": 1791082273916406417
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r0.137_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+        "bytes": 1840,
+        "mtime_ns": 1791082273896290457
+      },
+      "after": {
+        "sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+        "bytes": 1840,
+        "mtime_ns": 1791082273896290457
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r0.137_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "1afd919a218b559d0e027cf1cfab8aa6d7e33bdeab9f4aba0823f0ec2b41c743",
+        "bytes": 822,
+        "mtime_ns": 1791082273895965086
+      },
+      "after": {
+        "sha256": "1afd919a218b559d0e027cf1cfab8aa6d7e33bdeab9f4aba0823f0ec2b41c743",
+        "bytes": 822,
+        "mtime_ns": 1791082273895965086
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r0.137_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "079cc0f142cca836ea43b9804405548622d5aaef26239104c94972a2c89ebb09",
+        "bytes": 2583,
+        "mtime_ns": 1791082273896672014
+      },
+      "after": {
+        "sha256": "079cc0f142cca836ea43b9804405548622d5aaef26239104c94972a2c89ebb09",
+        "bytes": 2583,
+        "mtime_ns": 1791082273896672014
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r0.813_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+        "bytes": 1840,
+        "mtime_ns": 1791082273899050569
+      },
+      "after": {
+        "sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+        "bytes": 1840,
+        "mtime_ns": 1791082273899050569
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r0.813_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "cdc8a1a9ae1a1a076e5e84168fcb679758efb5feb931dceadc2b99ed7d8bc793",
+        "bytes": 822,
+        "mtime_ns": 1791082273898758717
+      },
+      "after": {
+        "sha256": "cdc8a1a9ae1a1a076e5e84168fcb679758efb5feb931dceadc2b99ed7d8bc793",
+        "bytes": 822,
+        "mtime_ns": 1791082273898758717
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r0.813_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "30e22b4d741c855c6f300748bf3f6a9f68e5fbde2ed7a06e0ae3f8ba2fb6579a",
+        "bytes": 2572,
+        "mtime_ns": 1791082273899423813
+      },
+      "after": {
+        "sha256": "30e22b4d741c855c6f300748bf3f6a9f68e5fbde2ed7a06e0ae3f8ba2fb6579a",
+        "bytes": 2572,
+        "mtime_ns": 1791082273899423813
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r2.347_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+        "bytes": 1840,
+        "mtime_ns": 1791082273901770749
+      },
+      "after": {
+        "sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+        "bytes": 1840,
+        "mtime_ns": 1791082273901770749
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r2.347_s1_ramp0_fine_bess.csv",
+      "before": {
+        "sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+        "bytes": 1840,
+        "mtime_ns": 1791082273940021825
+      },
+      "after": {
+        "sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+        "bytes": 1840,
+        "mtime_ns": 1791082273940021825
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r2.347_s1_ramp0_fine_it.csv",
+      "before": {
+        "sha256": "7d45ab3b371d08f158d25a5ea64eb0cd931ce044a3a84ba18500715f97633628",
+        "bytes": 822,
+        "mtime_ns": 1791082273939725287
+      },
+      "after": {
+        "sha256": "7d45ab3b371d08f158d25a5ea64eb0cd931ce044a3a84ba18500715f97633628",
+        "bytes": 822,
+        "mtime_ns": 1791082273939725287
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r2.347_s1_ramp0_fine_observations.csv",
+      "before": {
+        "sha256": "f1f757604b05519d06efc1049bf4c5bbd5bc4afc5c91190172b3913b2d389853",
+        "bytes": 2553,
+        "mtime_ns": 1791082273940394448
+      },
+      "after": {
+        "sha256": "f1f757604b05519d06efc1049bf4c5bbd5bc4afc5c91190172b3913b2d389853",
+        "bytes": 2553,
+        "mtime_ns": 1791082273940394448
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r2.347_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "7d45ab3b371d08f158d25a5ea64eb0cd931ce044a3a84ba18500715f97633628",
+        "bytes": 822,
+        "mtime_ns": 1791082273901483776
+      },
+      "after": {
+        "sha256": "7d45ab3b371d08f158d25a5ea64eb0cd931ce044a3a84ba18500715f97633628",
+        "bytes": 822,
+        "mtime_ns": 1791082273901483776
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r2.347_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "f1f757604b05519d06efc1049bf4c5bbd5bc4afc5c91190172b3913b2d389853",
+        "bytes": 2553,
+        "mtime_ns": 1791082273902128961
+      },
+      "after": {
+        "sha256": "f1f757604b05519d06efc1049bf4c5bbd5bc4afc5c91190172b3913b2d389853",
+        "bytes": 2553,
+        "mtime_ns": 1791082273902128961
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r4.927_s1_ramp0_bess.csv",
+      "before": {
+        "sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+        "bytes": 1840,
+        "mtime_ns": 1791082273904544301
+      },
+      "after": {
+        "sha256": "7c3ebe0304fe92ee932529fb35f4225db192f466a57337da529a36fb78bf43f7",
+        "bytes": 1840,
+        "mtime_ns": 1791082273904544301
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r4.927_s1_ramp0_it.csv",
+      "before": {
+        "sha256": "43c7b9cf2e3a525b2ac146e3cc52067ec27a52593a50e148fcf6c2c1d111edc1",
+        "bytes": 824,
+        "mtime_ns": 1791082273904217657
+      },
+      "after": {
+        "sha256": "43c7b9cf2e3a525b2ac146e3cc52067ec27a52593a50e148fcf6c2c1d111edc1",
+        "bytes": 824,
+        "mtime_ns": 1791082273904217657
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    },
+    {
+      "path": "./outputs/round3_g1_20261004/network_transfer/confirmation/ol_low_r4.927_s1_ramp0_observations.csv",
+      "before": {
+        "sha256": "2e335804862e143129e160f43d09df7790eafc2cc83ae61f800b7fc3917ad999",
+        "bytes": 2553,
+        "mtime_ns": 1791082273904904876
+      },
+      "after": {
+        "sha256": "2e335804862e143129e160f43d09df7790eafc2cc83ae61f800b7fc3917ad999",
+        "bytes": 2553,
+        "mtime_ns": 1791082273904904876
+      },
+      "sha256_unchanged": true,
+      "mtime_unchanged": true,
+      "size_unchanged": true
+    }
+  ]
+}

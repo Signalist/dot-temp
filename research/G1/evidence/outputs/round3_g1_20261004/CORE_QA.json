@@ -1,0 +1,5970 @@
+{
+  "checks": 1192,
+  "failed": 0,
+  "lower": "0.455615336483606744450103432347843489227562181116369545721325",
+  "opacity_threshold": "0.1839397205857211607977618850807304337229055655158839172539184008487307",
+  "P_universal_gap_fraction": "0.2232241286444625962143728104821624051060543339326360132108325593979141",
+  "frequency005_universal_gap_fraction": "0.182635064758406629578106620350311825038258370533409195712387827589481",
+  "checks_detail": [
+    {
+      "name": "new_prefix_lower_above_045561533",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_all_histories",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_frequency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_power",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h0_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h0_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h1_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h1_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h2_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h2_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h3_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h3_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h4_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h4_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h5_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h5_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h6_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h6_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h7_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h7_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h8_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h8_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h9_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h9_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h10_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h10_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h11_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h11_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h12_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h12_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h13_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h13_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h14_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h14_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h15_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h15_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h16_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h16_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h17_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h17_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h18_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h18_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h19_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h19_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h20_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h20_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h21_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h21_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h22_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h22_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h23_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h23_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h24_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h24_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h25_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h25_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h26_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h26_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h27_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h27_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h28_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h28_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h29_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h29_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h30_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h30_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h31_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h31_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h32_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h32_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h33_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h33_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h34_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h34_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h35_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h35_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h36_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h36_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h37_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h37_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h38_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h38_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h39_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h39_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h40_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h40_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h41_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h41_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h42_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h42_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h43_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h43_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h44_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h44_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h45_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h45_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h46_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h46_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h47_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h47_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h48_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h48_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h49_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p1_h49_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h0_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h0_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h1_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h1_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h2_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h2_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h3_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h3_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h4_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h4_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h5_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h5_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h6_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h6_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h7_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h7_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h8_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h8_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h9_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h9_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h10_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h10_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h11_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h11_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h12_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h12_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h13_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h13_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h14_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h14_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h15_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h15_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h16_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h16_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h17_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h17_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h18_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h18_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h19_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h19_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h20_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h20_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h21_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h21_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h22_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h22_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h23_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h23_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h24_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h24_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h25_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h25_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h26_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h26_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h27_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h27_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h28_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h28_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h29_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h29_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h30_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h30_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h31_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h31_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h32_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h32_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h33_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h33_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h34_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h34_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h35_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h35_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h36_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h36_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h37_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h37_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h38_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h38_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h39_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h39_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h40_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h40_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h41_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h41_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h42_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h42_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h43_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h43_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h44_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h44_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h45_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h45_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h46_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h46_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h47_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h47_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h48_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h48_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h49_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "robust_policy.json_p2_h49_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_all_histories",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_frequency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_power",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h1_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h1_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h2_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h2_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h3_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h3_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h4_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h4_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h5_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h5_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h6_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h6_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h7_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h7_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h8_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h8_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h9_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h9_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h10_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h10_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h11_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h11_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h12_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h12_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h13_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h13_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h14_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h14_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h15_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h15_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h16_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h16_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h17_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h17_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h18_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h18_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h19_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h19_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h20_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h20_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h21_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h21_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h22_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h22_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h23_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h23_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h24_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h24_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h25_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h25_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h26_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h26_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h27_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h27_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h28_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h28_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h29_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h29_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h30_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h30_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h31_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h31_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h32_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h32_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h33_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h33_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h34_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h34_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h35_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h35_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h36_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h36_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h37_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h37_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h38_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h38_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h39_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h39_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h40_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h40_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h41_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h41_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h42_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h42_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h43_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h43_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h44_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h44_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h45_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h45_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h46_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h46_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h47_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h47_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h48_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h48_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h49_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h49_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h50_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h50_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h51_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p1_h51_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h1_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h1_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h2_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h2_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h3_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h3_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h4_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h4_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h5_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h5_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h6_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h6_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h7_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h7_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h8_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h8_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h9_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h9_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h10_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h10_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h11_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h11_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h12_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h12_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h13_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h13_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h14_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h14_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h15_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h15_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h16_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h16_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h17_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h17_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h18_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h18_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h19_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h19_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h20_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h20_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h21_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h21_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h22_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h22_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h23_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h23_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h24_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h24_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h25_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h25_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h26_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h26_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h27_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h27_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h28_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h28_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h29_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h29_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h30_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h30_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h31_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h31_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h32_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h32_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h33_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h33_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h34_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h34_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h35_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h35_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h36_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h36_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h37_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h37_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h38_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h38_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h39_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h39_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h40_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h40_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h41_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h41_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h42_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h42_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h43_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h43_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h44_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h44_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h45_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h45_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h46_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h46_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h47_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h47_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h48_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h48_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h49_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h49_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h50_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h50_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h51_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.005.json_p2_h51_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_all_histories",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_frequency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_power",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h1_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h1_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h2_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h2_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h3_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h3_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h4_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h4_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h5_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h5_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h6_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h6_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h7_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h7_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h8_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h8_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h9_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h9_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h10_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h10_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h11_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h11_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h12_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h12_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h13_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h13_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h14_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h14_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h15_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h15_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h16_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h16_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h17_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h17_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h18_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h18_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h19_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h19_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h20_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h20_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h21_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h21_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h22_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h22_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h23_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h23_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h24_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h24_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h25_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h25_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h26_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h26_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h27_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h27_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h28_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h28_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h29_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h29_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h30_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h30_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h31_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h31_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h32_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h32_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h33_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h33_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h34_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h34_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h35_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h35_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h36_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h36_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h37_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h37_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h38_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h38_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h39_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h39_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h40_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h40_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h41_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h41_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h42_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h42_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h43_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h43_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h44_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h44_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h45_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h45_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h46_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h46_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h47_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h47_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h48_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h48_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h49_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h49_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h50_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h50_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h51_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p1_h51_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h1_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h1_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h2_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h2_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h3_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h3_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h4_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h4_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h5_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h5_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h6_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h6_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h7_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h7_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h8_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h8_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h9_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h9_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h10_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h10_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h11_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h11_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h12_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h12_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h13_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h13_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h14_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h14_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h15_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h15_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h16_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h16_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h17_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h17_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h18_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h18_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h19_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h19_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h20_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h20_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h21_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h21_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h22_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h22_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h23_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h23_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h24_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h24_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h25_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h25_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h26_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h26_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h27_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h27_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h28_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h28_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h29_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h29_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h30_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h30_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h31_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h31_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h32_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h32_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h33_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h33_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h34_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h34_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h35_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h35_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h36_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h36_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h37_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h37_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h38_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h38_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h39_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h39_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h40_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h40_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h41_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h41_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h42_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h42_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h43_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h43_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h44_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h44_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h45_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h45_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h46_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h46_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h47_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h47_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h48_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h48_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h49_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h49_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h50_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h50_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h51_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.01.json_p2_h51_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_all_histories",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_frequency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_power",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h1_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h1_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h2_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h2_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h3_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h3_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h4_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h4_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h5_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h5_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h6_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h6_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h7_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h7_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h8_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h8_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h9_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h9_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h10_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h10_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h11_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h11_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h12_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h12_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h13_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h13_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h14_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h14_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h15_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h15_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h16_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h16_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h17_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h17_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h18_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h18_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h19_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h19_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h20_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h20_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h21_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h21_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h22_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h22_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h23_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h23_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h24_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h24_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h25_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h25_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h26_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h26_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h27_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h27_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h28_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h28_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h29_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h29_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h30_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h30_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h31_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h31_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h32_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h32_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h33_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h33_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h34_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h34_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h35_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h35_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h36_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h36_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h37_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h37_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h38_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h38_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h39_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h39_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h40_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h40_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h41_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h41_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h42_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h42_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h43_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h43_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h44_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h44_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h45_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h45_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h46_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h46_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h47_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h47_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h48_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h48_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h49_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h49_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h50_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h50_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h51_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p1_h51_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h1_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h1_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h2_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h2_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h3_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h3_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h4_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h4_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h5_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h5_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h6_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h6_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h7_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h7_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h8_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h8_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h9_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h9_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h10_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h10_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h11_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h11_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h12_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h12_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h13_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h13_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h14_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h14_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h15_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h15_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h16_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h16_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h17_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h17_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h18_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h18_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h19_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h19_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h20_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h20_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h21_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h21_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h22_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h22_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h23_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h23_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h24_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h24_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h25_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h25_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h26_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h26_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h27_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h27_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h28_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h28_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h29_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h29_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h30_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h30_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h31_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h31_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h32_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h32_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h33_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h33_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h34_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h34_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h35_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h35_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h36_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h36_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h37_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h37_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h38_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h38_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h39_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h39_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h40_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h40_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h41_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h41_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h42_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h42_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h43_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h43_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h44_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h44_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h45_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h45_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h46_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h46_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h47_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h47_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h48_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h48_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h49_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h49_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h50_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h50_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h51_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.02.json_p2_h51_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_all_histories",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_frequency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_power",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h1_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h1_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h2_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h2_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h3_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h3_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h4_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h4_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h5_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h5_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h6_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h6_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h7_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h7_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h8_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h8_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h9_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h9_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h10_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h10_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h11_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h11_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h12_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h12_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h13_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h13_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h14_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h14_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h15_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h15_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h16_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h16_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h17_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h17_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h18_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h18_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h19_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h19_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h20_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h20_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h21_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h21_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h22_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h22_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h23_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h23_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h24_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h24_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h25_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h25_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h26_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h26_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h27_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h27_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h28_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h28_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h29_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h29_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h30_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h30_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h31_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h31_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h32_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h32_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h33_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h33_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h34_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h34_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h35_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h35_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h36_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h36_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h37_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h37_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h38_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h38_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h39_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h39_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h40_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h40_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h41_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h41_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h42_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h42_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h43_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h43_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h44_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h44_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h45_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h45_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h46_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h46_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h47_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h47_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h48_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h48_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h49_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h49_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h50_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h50_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h51_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h51_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h52_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p1_h52_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h1_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h1_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h2_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h2_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h3_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h3_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h4_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h4_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h5_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h5_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h6_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h6_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h7_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h7_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h8_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h8_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h9_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h9_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h10_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h10_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h11_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h11_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h12_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h12_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h13_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h13_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h14_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h14_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h15_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h15_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h16_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h16_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h17_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h17_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h18_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h18_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h19_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h19_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h20_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h20_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h21_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h21_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h22_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h22_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h23_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h23_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h24_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h24_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h25_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h25_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h26_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h26_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h27_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h27_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h28_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h28_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h29_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h29_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h30_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h30_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h31_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h31_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h32_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h32_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h33_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h33_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h34_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h34_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h35_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h35_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h36_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h36_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h37_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h37_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h38_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h38_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h39_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h39_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h40_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h40_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h41_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h41_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h42_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h42_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h43_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h43_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h44_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h44_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h45_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h45_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h46_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h46_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h47_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h47_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h48_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h48_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h49_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h49_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h50_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h50_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h51_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h51_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h52_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "frequency_policy_eta_0.05.json_p2_h52_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "no_feedback_policy.json_all_histories",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "no_feedback_policy.json_frequency",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "no_feedback_policy.json_power",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "no_feedback_policy.json_p1_h0_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "no_feedback_policy.json_p1_h0_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "no_feedback_policy.json_p2_h0_empty_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "no_feedback_policy.json_p2_h0_full_soc",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "tau_outward_.005",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "detect_before_second_edge_.005",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "tau_outward_.01",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "detect_before_second_edge_.01",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "tau_outward_.02",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "detect_before_second_edge_.02",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "tau_outward_.05",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "detect_before_second_edge_.05",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "strict_P_resource_separation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "strict_frequency_resource_separation",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "post20_tail",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_classical_feedback/benchmark_cbf.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_classical_feedback/results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/PROVENANCE_LOCK.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/grid_adapter.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/kundur_BESS_P25_same_input_linear_nonlinear.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/kundur_bus8_T10_BESS_P25_ideal_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/kundur_bus8_T10_BESS_P25_ideal_fine.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/kundur_bus8_T10_BESS_P50_ideal_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/kundur_bus8_T10_BESS_P50_ideal_fine.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/original_P50_fine_and_exact_linear_audit.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/periodic_reference_convergence.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus7_T10_constant_mean.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus7_T10_high_end.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus7_T10_high_start.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T10_constant_mean.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T10_constant_mean.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T10_high_end.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T10_high_end_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T10_high_end_fine.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T10_high_start.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T10_high_start.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T10_high_start_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T10_high_start_fine.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T20_constant_mean.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T20_high_end.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T20_high_start.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T2_constant_mean.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T2_high_end.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T2_high_start.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T5_constant_mean.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T5_high_end.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_bus8_T5_high_start.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/phase_summary.csv",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_confirmation_summary.csv",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_development_Qlead_tail_P25_tf301_dt256.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_development_Qlead_tail_P25_tf301_dt256.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau100ms_envelope_b0.0975_nominal.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau20ms_envelope_b0.095_nominal.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_Pscale_0p95.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_Pscale_1p05.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_Q_pf0p98_lag.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_Q_pf0p98_lead.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_nominal.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_nominal_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_nominal_fine.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_period_10p5.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_period_9p5.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_phase_0p1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P25_tau50ms_envelope_b0.095_phase_0p25.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau100ms_envelope_b0.095_nominal.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau20ms_envelope_b0.095_nominal.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_Pscale_0p95.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_Pscale_1p05.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_Q_pf0p98_lag.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_Q_pf0p98_lead.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_nominal.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_nominal_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_nominal_fine.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_period_10p5.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_period_9p5.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_phase_0p1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_P50_tau50ms_envelope_b0.095_phase_0p25.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_baseline_P25_tau50ms_nominal.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_baseline_P50_tau50ms_nominal.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1_confirmation_results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1add_baseline_P25_tau50ms_strong_nominal.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v1add_baseline_P25_tau50ms_strong_nominal_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v2_confirmation_results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v2_design_Pscale1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v2_design_Pscale1p05.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v2_design_Pscale1p05_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v2_holdout_Pscale1p025.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v2_holdout_Pscale1p025_phase0p15.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/storage_v2_holdout_Pscale1p025_phase1p25.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/wecc_eventresolved_convergence.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/wecc_phase_bus1_T10_constant_mean.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/wecc_phase_bus1_T10_high_end_eventresolved_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/wecc_phase_bus1_T10_high_start_eventresolved_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/wecc_phase_bus4_T10_constant_mean.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/wecc_phase_bus4_T10_high_end_eventresolved_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/nonlinear_replay/wecc_phase_bus4_T10_high_start_eventresolved_fine.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/replay_kundur_nonlinear.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_grid_transfer/run_focused_replays.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_paper_review/boundary_prefix_independent_audit.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_paper_review/causal_upper_fine_independent_check.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_paper_review/conditional_openloop_lower.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_paper_review/conditional_openloop_lower_results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_paper_review/conditional_openloop_prefix_lower_results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_paper_review/conditional_power_lower.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_paper_review/conditional_power_lower_results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_paper_review/continuous_grid_lower_independent_audit.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/CAUSAL_BOUNDARY_FEEDBACK_PROOF.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/CLAIM_LEDGER.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/bad_phase_controller_robustness.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/bracket_full_trajectory.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/causal_boundary_prefix/results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/causal_phase_tree.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/causal_phase_tree_P0.5_dr0.1_dt0.025.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/causal_phase_tree_P0.5_dr0.25_dt0.025.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/causal_phase_tree_refinement_results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/continuous_safe_phase.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/continuous_safe_phase.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/full_trajectory_brackets.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/key_lower_certificate.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/kundur_bess_P25_ideal.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/kundur_bess_P50_ideal.npz",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/periodic_phase_family_results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/relaxed_terminal/results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_phase_reconnection/uniform_openloop_results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/CONFIRMATION_BASELINE_ADDENDUM.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/CONFIRMATION_FREEZE_V1.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/CONFIRMATION_FREEZE_V2.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/CONTINUOUS_P25_DUAL_LOWER.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/P25_tau100ms_envelope_b0.0975_summary.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/P25_tau20ms_envelope_b0.095_summary.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/P25_tau50ms_envelope_b0.095_summary.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/P50_tau100ms_envelope_b0.095_summary.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/P50_tau20ms_envelope_b0.095_summary.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/P50_tau50ms_envelope_b0.095_summary.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/PCS_FIXED_COMMAND_MISMATCH.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/PERIODIC_PERTURBATION_AUDIT.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/V2_CONTINUOUS_AND_TAIL_CERTIFICATE.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/V2_NONLINEAR_CONFIRMATION_SUMMARY.csv",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/baseline_P25_tau50ms_strong_summary.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/baseline_P25_tau50ms_summary.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/baseline_P50_tau50ms_summary.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_final_preserved_storage_service/v2_P50_tau50ms_Pscale_robust_summary.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_CLASSICAL_CBF_STRICT_RECOVERY_PROOF.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_README.md",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_benchmark_cbf.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_development_per_phase.csv",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_droop_independent_constants.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_heldout_per_phase.csv",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_refinement_per_phase.csv",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_results.json",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_run.log",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_test_benchmark_cbf.py",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "round2_classical_preserved_tests.log",
+      "pass_": true,
+      "detail": null
+    }
+  ]
+}

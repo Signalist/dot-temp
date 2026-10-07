@@ -1,0 +1,82 @@
+{
+  "candidate": "G1",
+  "round": 3,
+  "closed_utc": "2026-10-04T03:23:41.877829+00:00",
+  "scientific_status": "closed; narrow mathematical claims independently passed",
+  "paper_ready": false,
+  "paper_candidate": "conditionally retained and substantively strengthened",
+  "main_dossier": "G1_THIRD_ROUND_RESEARCH_DOSSIER_ZH.md",
+  "exact_metrics": {
+    "prefix_energy_lower": "0.455615336483606744450103432347843489227562181116369545721325",
+    "P_sensor_safe_e0_E": [
+      0.350694,
+      0.353911
+    ],
+    "same_filter_blind_safe_e0_E": [
+      0.468265,
+      0.472561
+    ],
+    "maximum_interval_frequency_upper": ".599957499456683",
+    "power_limit": 0.5,
+    "sample_period": 0.1,
+    "measurement_delay": 0.05,
+    "exact_model_recovery_time": 20,
+    "opacity_radius": "1/(2e)",
+    "Kundur_feedback_upper_MWs": 94.26493675271102,
+    "Kundur_same_family_blind_upper_MWs": 127.134534346,
+    "Kundur_unrestricted_blind_lower_MWs": 64.616246553,
+    "Kundur_original_confirmations": {
+      "planned": 22,
+      "completed": 22,
+      "passed": 22
+    },
+    "Kundur_additional_failure_peaks_Hz": [
+      0.10502550526357624,
+      0.10506190467874488
+    ],
+    "frequency_noise_0p05_safe_e0_E": [
+      0.369018,
+      0.372404
+    ]
+  },
+  "evidence_paths": {
+    "interval_lower": "raw/interval_lower_certificate.json",
+    "interval_upper": "raw/interval_summary.json",
+    "information_theorems": "theory_audit/INFORMATION_CONTRACT_THEOREMS.md",
+    "causal_observer_and_baseline": "feedback_baseline/MATCHED_INFORMATION_PREDICTIVE_BASELINE.md",
+    "network": "network_transfer/METHOD_AND_LIMITS.md",
+    "network_nonlinear": "network_transfer/NONLINEAR_CONFIRMATION_SUMMARY.json",
+    "network_failure": "network_transfer/AMPLITUDE_STRESS_ADDENDUM_RESULTS.json",
+    "core_qa": "CORE_QA.json",
+    "network_boundary": "network_transfer/BOUNDARY_CONTRACT_AUDIT.json",
+    "guard_regression": "network_transfer/FREEZE_REFUSAL_REGRESSION.json",
+    "serialized_csv_audit": "network_transfer/SERIALIZED_INPUT_NUMERICAL_AUDIT.json"
+  },
+  "external_audit": {
+    "path": "outputs/round3_g1_independent_audit_20261004/INDEPENDENT_G1_THIRD_ROUND_AUDIT_ZH.md",
+    "sha256": "64d1f16c5a4e21e1299b7dbb31ff4b9fb5ba2f76783197fc422bfaadfaa7f478",
+    "verdict": "narrow model result pass; conditional paper candidate",
+    "checks": 592,
+    "precision_recheck_digits": 75
+  },
+  "remaining_novelty_gaps": [
+    "Wu DOI10.1109/TPWRS.2023.3285941 and PNNL-39459 fulltexts remain unavailable following denied access; no retry or bypass",
+    "Established CBF, set-membership and predictive-filter methods are not claimed new",
+    "No priority/high-innovation/submission-ready conclusion"
+  ],
+  "not_established": [
+    "small-noise P versus optimal frequency resource superiority",
+    "universal Kundur information-resource separation",
+    "nonlinear all-phase/all-future guarantee",
+    "AI-exclusive mechanism, measured GPU/PCC map, hardware sizing or cost savings"
+  ],
+  "safe_reproduction": "Treat this folder as immutable; copy it to a distinct sibling outputs directory before any write-capable rerun. Use saved frozen inputs; freeze utility must refuse before writes. Exact recovery belongs to formula-defined controls; serialized network CSVs satisfy1e-8MWs/1e-9MW numeric tolerances only. See README.md and network_transfer/REPRODUCE.md.",
+  "freeze_integrity": {
+    "round2_final_writer_sources": 127,
+    "round2_classical_sources": 12,
+    "network_source_cache_files": 266,
+    "all_verified_unchanged": true,
+    "guard_refusal_untouched_files": 78
+  },
+  "stop_condition": "G1 requested research closure reached; no additional G1 experiments started after this closure"
+}

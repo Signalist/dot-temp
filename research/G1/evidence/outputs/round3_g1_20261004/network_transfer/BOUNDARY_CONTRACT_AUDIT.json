@@ -1,0 +1,172 @@
+{
+  "audit_utc": "2026-10-04T03:11:25.328522+00:00",
+  "exact_rule": "First edge index=ceil(10*r); subsequent edges every50 sample indices. Bin ((j-1)/10,j/10]. At a physical edge the new right-continuous class is observed. No epsilons.",
+  "near_boundary_policy_tests": 1444,
+  "very_long_phase_decimal_digits": 100,
+  "very_long_phase_parser_tests": [
+    {
+      "phase": "0.0999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+      "expected_first_edge": 1,
+      "actual_first_edge": 1
+    },
+    {
+      "phase": "0.1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "expected_first_edge": 1,
+      "actual_first_edge": 1
+    },
+    {
+      "phase": "0.1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+      "expected_first_edge": 2,
+      "actual_first_edge": 2
+    },
+    {
+      "phase": "0.6999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+      "expected_first_edge": 7,
+      "actual_first_edge": 7
+    },
+    {
+      "phase": "0.7000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "expected_first_edge": 7,
+      "actual_first_edge": 7
+    },
+    {
+      "phase": "0.7000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+      "expected_first_edge": 8,
+      "actual_first_edge": 8
+    },
+    {
+      "phase": "2.4999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+      "expected_first_edge": 25,
+      "actual_first_edge": 25
+    },
+    {
+      "phase": "2.5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "expected_first_edge": 25,
+      "actual_first_edge": 25
+    },
+    {
+      "phase": "2.5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+      "expected_first_edge": 26,
+      "actual_first_edge": 26
+    },
+    {
+      "phase": "4.8999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+      "expected_first_edge": 49,
+      "actual_first_edge": 49
+    },
+    {
+      "phase": "4.9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "expected_first_edge": 49,
+      "actual_first_edge": 49
+    },
+    {
+      "phase": "4.9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+      "expected_first_edge": 50,
+      "actual_first_edge": 50
+    },
+    {
+      "phase": "4.9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+      "expected_first_edge": 50,
+      "actual_first_edge": 50
+    },
+    {
+      "phase": "5.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "expected_first_edge": 50,
+      "actual_first_edge": 50
+    },
+    {
+      "phase": "5.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+      "domain_rejection": true
+    }
+  ],
+  "very_long_phase_policy_tests": 56,
+  "parser": "fractions.Fraction with integer ceil(10*numerator/denominator)",
+  "frozen_midpoint_mapping_max_difference": 0.0,
+  "online_measurement_policy_vs_exact_bin_max_difference_MW": 8.881784197001252e-16,
+  "old_helper_class_disagreement_cases": 392,
+  "old_helper_examples": [
+    {
+      "r_exact": "0.10000000000001",
+      "first_edge_sample": 2,
+      "initial_high": false,
+      "sample_indices": [
+        51,
+        101
+      ]
+    },
+    {
+      "r_exact": "0.10000000001",
+      "first_edge_sample": 2,
+      "initial_high": false,
+      "sample_indices": [
+        51,
+        101
+      ]
+    },
+    {
+      "r_exact": "0.20000000000001",
+      "first_edge_sample": 3,
+      "initial_high": false,
+      "sample_indices": [
+        52,
+        102
+      ]
+    },
+    {
+      "r_exact": "0.20000000001",
+      "first_edge_sample": 3,
+      "initial_high": false,
+      "sample_indices": [
+        52,
+        102
+      ]
+    },
+    {
+      "r_exact": "0.30000000000001",
+      "first_edge_sample": 4,
+      "initial_high": false,
+      "sample_indices": [
+        53,
+        103
+      ]
+    },
+    {
+      "r_exact": "0.30000000001",
+      "first_edge_sample": 4,
+      "initial_high": false,
+      "sample_indices": [
+        53,
+        103
+      ]
+    },
+    {
+      "r_exact": "0.40000000000001",
+      "first_edge_sample": 5,
+      "initial_high": false,
+      "sample_indices": [
+        54,
+        104
+      ]
+    },
+    {
+      "r_exact": "0.40000000001",
+      "first_edge_sample": 5,
+      "initial_high": false,
+      "sample_indices": [
+        54,
+        104
+      ]
+    }
+  ],
+  "all_exact_bin_max_command_MW": 50.00000000000077,
+  "command_float_tolerance_MW": 1e-09,
+  "command_within_float_tolerance": true,
+  "all_exact_bin_max_slew_MW_s": 499.99469521329604,
+  "exact_bin_max_E_MWs": {
+    "feedback": 94.26493675271104,
+    "openloop": 127.13453434593208
+  },
+  "frozen_coefficients_or_inputs_modified": false,
+  "certificate_effect": "All50 midpoint trajectories match exactly; analytic phase radius remains .05s and saved LTI bounds remain unchanged for the exact online policy. The frozen epsilon-tolerant load helper must not define near-boundary continuum semantics.",
+  "source_sha256": "79fce08e49d66c36303c6ef7016f14cf3b82c0224602143ae9310a6f2f9e8b65"
+}

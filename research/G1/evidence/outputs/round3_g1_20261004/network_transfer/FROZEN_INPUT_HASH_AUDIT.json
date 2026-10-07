@@ -1,0 +1,183 @@
+{
+  "utc": "2026-10-04T03:17:56.393689+00:00",
+  "cases": [
+    {
+      "label": "fb_low_r0.137_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_low_r0.813_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_low_r2.347_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_low_r4.927_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_high_r0.137_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_high_r0.813_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_high_r2.347_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_high_r4.927_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "ol_low_r0.137_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "ol_low_r0.813_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "ol_low_r2.347_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "ol_low_r4.927_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "ol_high_r0.137_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "ol_high_r0.813_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "ol_high_r2.347_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "ol_high_r4.927_s1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_low_r2.347_s1.05_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_high_r4.927_s1.05_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_low_r2.347_s1_ramp0.5",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_high_r4.927_s1_ramp0.5",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_low_r2.347_s1_ramp0_fine",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "ol_low_r2.347_s1_ramp0_fine",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_high_r4.927_s1.1_ramp0",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    },
+    {
+      "label": "fb_high_r4.927_s1.1_ramp0_fine",
+      "it_unchanged": true,
+      "bess_unchanged": true,
+      "observations_unchanged": true,
+      "controller_unchanged": true
+    }
+  ],
+  "all_frozen_inputs_unchanged": true,
+  "analysis_source_unchanged": true,
+  "runner_unchanged": true,
+  "model_unchanged": true,
+  "freeze_source_provenance": {
+    "original_snapshot_matches_frozen_hash": true,
+    "original_snapshot": "provenance/freeze_confirmation_at_v1_freeze.py",
+    "current_hardened_wrapper_matches_original_hash": false,
+    "hardening_record": "REPRODUCIBILITY_GUARD_HARDENING.json"
+  }
+}

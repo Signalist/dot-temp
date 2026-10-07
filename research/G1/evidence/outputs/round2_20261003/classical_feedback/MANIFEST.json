@@ -1,0 +1,22 @@
+{
+  "scope": "Independent classical continuous-state CBF baseline with strict common-SOC/H20 state recovery; analytic continuum proof and finite numerical QA",
+  "review": "Final proof independently reviewed by review_phase_security_results on 2026-10-03 05:34 UTC; constants agree to approximately 6e-13",
+  "primary_row": {
+    "P": 0.5,
+    "e0": 0.338118,
+    "E": 0.34122
+  },
+  "files": {
+    "CLASSICAL_CBF_STRICT_RECOVERY_PROOF.md": "254e23eadf157977c1c24b076d67cab36afaf524c32c2c7310c4b8a8e332f69e",
+    "README.md": "f52baa22435006dd3a3a243244ff37c0fe969fd511a85b02fbac53ee65e585ac",
+    "benchmark_cbf.py": "a0462c666b3fae11d2cdd1e8dad64002438ab59919d6b24ce27faddda9ecc2d2",
+    "development_per_phase.csv": "a247a541c2ce14dae2099ef95abcc51acc276c3ad9c859997f8a98b3d8fb8911",
+    "droop_independent_constants.json": "5e26039e597c7fd4f8127fccc58a269389aec168d8e7e09cb5cd387cf57af370",
+    "heldout_per_phase.csv": "6039d6ed48c7ccea12fa85794cedf6bea855f54e37d840a33eecd6cf1bf7963c",
+    "refinement_per_phase.csv": "e6f2ea124bfe3b94a0a663f3cbca2bb0ef3fdd0c80e6f2e7f46061e458e42c8b",
+    "results.json": "b2bdc740fd874ee9f86a79c3f77f37901bb8b226908bd9ad3c2e0b08d597e5b4",
+    "run.log": "0edcd878bcca3ec20da113a18e48117caa28d36b0538b0b54141724d5e996b93",
+    "test_benchmark_cbf.py": "31527bd48b37a7f4262bd1cffb783c3ac172a198ccf600b32aab3185771526c9",
+    "tests.log": "9832f4baf77cb8e39b9a803d0e8ec0aa3b06c6f248aa53b6a5cbacd2ec77ac21"
+  }
+}

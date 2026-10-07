@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/g1_evidence_validation_20261004/outputs/round3_g1_20261004/network_transfer/freeze_confirmation.py", line 42, in <module>
+    if path.exists():raise RuntimeError('Frozen manifest already exists; refusing before input generation')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Frozen manifest already exists; refusing before input generation

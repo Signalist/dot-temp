@@ -1,0 +1,64 @@
+{
+  "freeze_utc": "2026-10-04T02:59:57.077104+00:00",
+  "reason": "Frozen v1 +5% high-start stress gave0.0987940 Hz; probe the next explicitly out-of-contract amplitude at +10%, with immediate timestep refinement. This follow-on is outcome-informed and not in v1 holdout counts. No controller redesign.",
+  "cases": [
+    {
+      "label": "fb_high_r4.927_s1.1_ramp0",
+      "controller": "binned93_feedback_high",
+      "initial_high": true,
+      "r_s": 4.927,
+      "Pscale": 1.1,
+      "ramp_s": 0.0,
+      "dt_s": 0.0078125,
+      "tf_s": 101.0,
+      "it_csv": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_it.csv",
+      "bess_csv": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_bess.csv",
+      "observations_csv": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_observations.csv",
+      "it_sha256": "5aa59502c21c69133ab358e9ffc23fc1e2765e05623223a68751f8cb2a1d5bac",
+      "bess_sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+      "observations_sha256": "1f45ac6db8d137d5eb73efddc4f96651389ec358b4170306c3c982c741e7c22f",
+      "controller_sha256": "63068def6e3edaab7272ed45b1d5d4accc53893c3aa980965876d5c7b819ceeb",
+      "physics": {
+        "E_MWs": 70.0462216367956,
+        "return_error_MWs": -2.5424107263916085e-14,
+        "discharge_MWs": 66.5439105549558,
+        "charge_MWs": 73.73286488083745,
+        "max_power_MW": 49.99946952132965,
+        "max_command_MW": 50.00000000000001,
+        "max_slew_MW_s": 377.24389217666106,
+        "crossing_segments": 0
+      },
+      "scope": "finite nonlinear confirmation; stress is outside exact-level contract"
+    },
+    {
+      "label": "fb_high_r4.927_s1.1_ramp0_fine",
+      "controller": "binned93_feedback_high",
+      "initial_high": true,
+      "r_s": 4.927,
+      "Pscale": 1.1,
+      "ramp_s": 0.0,
+      "dt_s": 0.00390625,
+      "tf_s": 101.0,
+      "it_csv": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_fine_it.csv",
+      "bess_csv": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_fine_bess.csv",
+      "observations_csv": "./outputs/round3_g1_20261004/network_transfer/confirmation/fb_high_r4.927_s1.1_ramp0_fine_observations.csv",
+      "it_sha256": "5aa59502c21c69133ab358e9ffc23fc1e2765e05623223a68751f8cb2a1d5bac",
+      "bess_sha256": "30a206701e9b73fbff6f87b17e0c581357950bbba095806b52b3bec62a0ec8e4",
+      "observations_sha256": "1f45ac6db8d137d5eb73efddc4f96651389ec358b4170306c3c982c741e7c22f",
+      "controller_sha256": "63068def6e3edaab7272ed45b1d5d4accc53893c3aa980965876d5c7b819ceeb",
+      "physics": {
+        "E_MWs": 70.0462216367956,
+        "return_error_MWs": -2.5424107263916085e-14,
+        "discharge_MWs": 66.5439105549558,
+        "charge_MWs": 73.73286488083745,
+        "max_power_MW": 49.99946952132965,
+        "max_command_MW": 50.00000000000001,
+        "max_slew_MW_s": 377.24389217666106,
+        "crossing_segments": 0
+      },
+      "scope": "finite nonlinear confirmation; stress is outside exact-level contract"
+    }
+  ],
+  "source_sha256": "c99fe1c7ebf0ae4a6edc7a31088e46e082014ef3f34f729bb8f107fc630ed30d",
+  "v1_manifest_sha256": "dad934f0873a5dfc5ccc5cd7c49b2b68398c3451f7ec8179cdfb8edcf976bc68"
+}
