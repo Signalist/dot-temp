@@ -1,0 +1,16 @@
+{
+  "source_trace_sha256": "9c5e1ccb15716be544f37b0a521ee128f2401303a4df86b7afd9eacddbb0dc54",
+  "reconstruction": "From saved complete pre-update state; no physical trajectory was rerun. Same original dq equations and P-priority formula.",
+  "max_recomputed_vs_logged_reference_or_sat_difference": 2.220446049250313e-16,
+  "min_PCC_voltage_pu": 0.36664058373190905,
+  "max_raw_reference_norm_pu": 2.416114101111874,
+  "max_clipped_reference_norm_pu": 0.9500000000000002,
+  "max_actual_current_pu_from_dense": 1.1000000000000014,
+  "max_PLL_phase_error_abs_deg": 31.5000538387859,
+  "max_antiwindup_correction_V_per_s": 0.0,
+  "voltage_saturation_samples": 0,
+  "all_reference_P_nonnegative": true,
+  "all_reference_Q_nonnegative": true,
+  "sign_convention": "Peak-amplitude dq; P+jQ=1.5 v conj(i); positiveQ means negative voltage-aligned iq. Actual current is state-derived, not clipped reference.",
+  "limit_status": "1.0pu is continuous hard current;1.1pu terminates this mathematical simulation, not a hardware-protection validation."
+}

@@ -1,0 +1,266 @@
+{
+  "case": "C0-slow",
+  "evidence": "new_frozen_gate1_offline_model_diagnostic",
+  "status": "EXECUTED",
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "safety_scope": "conditional_current_only",
+  "no_100us_real_time_claim": true,
+  "topology_scope": "Synthetic controlled DC port only; no validated DC/DC or directly connected battery claim",
+  "same_full_state": true,
+  "initial_checkpoint": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+  "checkpoint_sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+  "protocol_sha256": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3",
+  "physical_protocol_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+  "runner_source_sha256": "9e4ca7f83570e6e62bf7f3fef9096cde5c44782a0ca7b27026dcd47978662eae",
+  "controller_source_sha256": "9379032e4edc99a204ce0db3947e61f71dee30b8a876dce0d5740312bfda4af5",
+  "guard_source_sha256": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03",
+  "physical_rhs_source_sha256": "5185085c3843c2b12d0663f25a4d3e6a0290fcb7d46be3b338e3ee2c261b0616",
+  "source_port": "slow",
+  "source_tau_s": 0.02,
+  "source_ramp_W_per_s": 5000000.0,
+  "h_s": 1e-05,
+  "control_sample_s": 0.0001,
+  "initial_time_s": 0.6,
+  "planned_end_s": 2.75005,
+  "final_time_s": 2.75005,
+  "stop_reason": "completed",
+  "simulation_completed": true,
+  "metrics": {
+    "I_peak_pu": 0.8353580928610971,
+    "Vdc_min_pu": 1.002625333337682,
+    "Vdc_max_pu": 1.0384830775422873,
+    "S_peak_VA": 1063014.6092848468,
+    "P_abs_peak_W": 800000.0043642087,
+    "Pb_abs_peak_W": 815639.6756142799,
+    "soc_min": 0.4997097700540299,
+    "soc_max": 0.49993044008718335,
+    "energy_residual_max_J": 6.175057933432981e-06,
+    "modulation_max": 0.4605089622790201
+  },
+  "no_physical_hard_contact_up_to_stop": true,
+  "complete_hard_safe": true,
+  "no_fault_physical_admission": true,
+  "first_contacts": {},
+  "all_hard_contacts": [],
+  "first_observed_beyond_roundoff": {},
+  "terminal_contact": {},
+  "current_continuous_crossings_s": [],
+  "event": null,
+  "event_boundary_states": {},
+  "phases": {
+    "checkpoint_observed": true,
+    "fault_onset_observed": null,
+    "clearance_observed": null,
+    "full_recovery_observation_completed": null,
+    "unobserved_remainder_s": 0.0
+  },
+  "service": {
+    "duration_s": 2.15005,
+    "P_actual_integral_J": 1516896.97618151,
+    "Q_actual_integral_var_s": 1386436.8521949486,
+    "P_signed_request_error_integral_J": -203143.02381848986,
+    "Q_signed_request_error_integral_var_s": -118598.14780505118,
+    "P_absolute_request_error_integral_J": 203143.0238167945,
+    "Q_absolute_request_error_integral_var_s": 118599.223372077,
+    "mean_P_W": 705517.0699200066,
+    "mean_Q_var": 644839.3535940786,
+    "mean_absolute_P_error_W": 94482.93007920492,
+    "mean_absolute_Q_error_var": 55161.146658020516
+  },
+  "inventory": {
+    "initial_soc": 0.49993044008718335,
+    "final_soc": 0.4997097700540299,
+    "battery_stored_energy_change_J": -1588824.2387047834,
+    "DC_energy_change_J": -31.13732664653071,
+    "RL_energy_change_J": -50.7719158809258,
+    "remote_source_active_integral_J": 1502282.2828497426,
+    "total_loss_integral_J": 86623.86510374302,
+    "battery_terminal_power_integral_J": 1557047.7539326895,
+    "battery_draw_integral_J": 1588824.2387044816,
+    "initial_Pb_W": 815639.6755124972,
+    "final_Pb_W": 724382.7071709746,
+    "battery_energy_restoration_claimed": false
+  },
+  "matched_reference": {
+    "status": "OBSERVED_COMMON_WINDOW_ONLY",
+    "reference": "existing_same_full_state_unguarded_slow_Q_priority",
+    "reference_file": "gate_a_extension/results/matched_no_fault_reference_v2.npz",
+    "reference_sha256": "90b70e6a8067a373766c15f3cd9a37b712eaaa84afa1340a3f1478633e3b69c3",
+    "same_initial_7_state_exact": true,
+    "common_start_s": 0.6,
+    "common_end_s": 1.4000000000000001,
+    "full_observed_case_covered": false,
+    "comparison_interpolation": "Linear on stored100us endpoints if terminal time is off clock; not a new physical replay",
+    "P_integral_difference_J": -70785.73262067081,
+    "Q_integral_difference_var_s": -48578.46907077299,
+    "battery_stored_energy_difference_J": 74915.15184768429,
+    "DC_energy_difference_J": -31.490298326727498,
+    "RL_energy_difference_J": -50.419491010463915,
+    "remote_source_integral_difference_J": -69548.26629130926,
+    "total_loss_integral_difference_J": -5284.975768463941,
+    "no_past_service_restoration_claim": true,
+    "normalized_state_comparison": "NOT_AVAILABLE_IN_EXISTING_SLOW_REFERENCE"
+  },
+  "recovery": {
+    "status": "NOT_APPLICABLE_NO_FAULT",
+    "joint_recovery_time_s": null,
+    "checks": []
+  },
+  "actual_onset_energy_necessary_condition": {
+    "status": "NOT_APPLICABLE_NO_FAULT"
+  },
+  "timing": {
+    "counts": {
+      "calls": 21501,
+      "guard_failures": 0,
+      "solver_success_false": 0,
+      "backup_calls": 0,
+      "accepted_nonoptimal_calls": 0
+    },
+    "backup_types": {},
+    "seconds": {
+      "controller_total_wall_s_including_PI_guard_AW": {
+        "n": 21501,
+        "minimum_s": 0.007326270999328699,
+        "median_s": 0.009270780996303074,
+        "p95_s": 0.0159423049990437,
+        "maximum_s": 0.22949155899550533,
+        "sum_s": 219.4041883355676,
+        "over_100us_count": 21501
+      },
+      "solver.timing.setup_s": {
+        "n": 21501,
+        "minimum_s": 0.0008854049956426024,
+        "median_s": 0.0011617060008575208,
+        "p95_s": 0.0021768609949504025,
+        "maximum_s": 0.09864876100618858,
+        "sum_s": 28.670993091618584,
+        "over_100us_count": 21501
+      },
+      "solver.timing.solve_s": {
+        "n": 21501,
+        "minimum_s": 0.005539138997846749,
+        "median_s": 0.007046852006169502,
+        "p95_s": 0.012240354000823572,
+        "maximum_s": 0.2276123479969101,
+        "sum_s": 167.66270635410183,
+        "over_100us_count": 21501
+      },
+      "solver.timing.validation_s": {
+        "n": 21501,
+        "minimum_s": 0.0005776410034741275,
+        "median_s": 0.0007291069996426813,
+        "p95_s": 0.001281841003219597,
+        "maximum_s": 0.09838488300010795,
+        "sum_s": 18.178565629117656,
+        "over_100us_count": 21501
+      },
+      "solver.timing.point_total_s": {
+        "n": 21501,
+        "minimum_s": 0.007152046004193835,
+        "median_s": 0.009062167999218218,
+        "p95_s": 0.015610623995598871,
+        "maximum_s": 0.22931059500115225,
+        "sum_s": 214.51226507483807,
+        "over_100us_count": 21501
+      },
+      "total_wall_s": {
+        "n": 21501,
+        "minimum_s": 0.0072544499998912215,
+        "median_s": 0.009175133993267082,
+        "p95_s": 0.01580252399435267,
+        "maximum_s": 0.229412056003639,
+        "sum_s": 217.18558830417896,
+        "over_100us_count": 21501
+      }
+    },
+    "note": "All raw timing/solver/backup fields are retained per call; offline virtual time only"
+  },
+  "guard_exception": null,
+  "health_gate": {
+    "physical_admitted": true,
+    "service_transparency_pass": null,
+    "reason": "No service-transparency tolerance was predeclared; retain request errors and matched-reference differences",
+    "initial_guard_modification_norm": 0.2145806922403564,
+    "max_guard_modification_norm": 0.2145806922403564,
+    "intervention_count": 21500
+  },
+  "samples_attempted": 21501,
+  "accepted_control_count": 21501,
+  "near_boundary_interval_count": 0,
+  "numerical_refinement_indicated": false,
+  "initial_plant_state": [
+    929.5008337706373,
+    -736.9579376749007,
+    21914.743372215053,
+    815639.6755124972,
+    -500831.372280087,
+    472084.9698341634,
+    28432.193760940794,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_controller": {
+    "theta": 226.2431330121754,
+    "zpll": 6.12411578096056e-10,
+    "omega": 376.99111843029715,
+    "zi": [
+      -0.9876990854152526,
+      38.25384814185561
+    ],
+    "applied": [
+      0.4575066906559445,
+      0.052498879458002363
+    ],
+    "queued": [
+      0.45520292726017053,
+      0.06970508830886338
+    ],
+    "pb_command": 815639.6858398903
+  },
+  "final_plant_state": [
+    826.9410472871139,
+    -682.2297930722186,
+    21883.606045568522,
+    724382.7071709746,
+    -2089655.6109848705,
+    1974367.252683906,
+    115056.05886468382,
+    1516896.97618151,
+    1386436.8521949486,
+    1557047.7539326895,
+    1588824.2387044816,
+    203143.0238167945,
+    118599.223372077
+  ],
+  "final_controller": {
+    "theta": 1036.7867408912118,
+    "zpll": -4.370394229972868e-11,
+    "omega": 376.99111843071023,
+    "zi": [
+      -16.305298770813284,
+      48.38441679276323
+    ],
+    "applied": [
+      0.4513221393764164,
+      0.06278106359799346
+    ],
+    "queued": [
+      0.44863523289334134,
+      0.07974686981065912
+    ],
+    "pb_command": 724382.7071710053
+  },
+  "wall_time_s": 415.4465517540011,
+  "trace_file": "C0-slow_h1e-05.npz",
+  "trace_sha256": "15691ce04b6a0b889d4ce53e1b374eed2e91b8a094bfc6eea4232374627bd60b",
+  "full_sample_log_file": "C0-slow_h1e-05.jsonl.gz",
+  "full_sample_log_sha256": "ae002dd18174105fba3857a90334ddfb82de9c972e1678dcebabebcc0ed583b0",
+  "storage": "Every100us full pre/post plant/PLL/PI/source/queue and full guard plan in gzip; endpoints/normalized state/extrema in NPZ; dense first5ms, fault through50ms after clearance, and near-boundary intervals",
+  "numerical_event_scope": "DOP853 root-located downward crossings plus explicit left/right jump screens; sampled extrema are not interval-certified bounds"
+}

@@ -1,0 +1,280 @@
+{
+  "status": "PASS_ALGEBRA_ONLY",
+  "no_physical_trajectory_executed": true,
+  "protocol_sha256": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3",
+  "structured_saved_plan": {
+    "accepted": true,
+    "max_primal_residual": 1.6653345369377348e-16,
+    "dynamics_residual_inf": 1.6653345369377348e-16,
+    "terminal_residual_inf": 5.551115123125783e-17,
+    "queue_norm_violation": -0.002949300163960944,
+    "input_norm_violation": -0.028172144963628243,
+    "current_node_norm_violation": 1.1102230246251565e-16,
+    "Omega_norm_violation": -1.5983794106666505e-05,
+    "actual_modulation_norm_violation": -0.2160185014156074,
+    "membership": {
+      "witnesses": [
+        [
+          0.008152271187373335,
+          -0.08598515955542468
+        ],
+        [
+          -0.051203756679873945,
+          -0.03247018740299259
+        ]
+      ],
+      "disk_norms": [
+        0.0863707542475132,
+        0.06063116169196492
+      ],
+      "representation_residual_inf": 0.0,
+      "inside": true
+    },
+    "first_modulation": [
+      0.2679838059796206,
+      0.1967667658157704
+    ]
+  },
+  "wide_failed_plan_rejected": {
+    "accepted": false,
+    "max_primal_residual": 1943.3890296439702,
+    "dynamics_residual_inf": 2.3447910280083306e-13,
+    "terminal_residual_inf": 1.9184653865522705e-13,
+    "queue_norm_violation": 1943.3890296439702,
+    "input_norm_violation": 1943.38902964397,
+    "current_node_norm_violation": 480.12679268981174,
+    "Omega_norm_violation": 3.5095219369159514,
+    "actual_modulation_norm_violation": 0.3601017503045555,
+    "membership": {
+      "witnesses": [
+        [
+          0.29423452238883174,
+          -0.1755861288564824
+        ],
+        [
+          0.7183241231530656,
+          -3.631148273110857
+        ]
+      ],
+      "disk_norms": [
+        0.34264331718594654,
+        3.701516895438893
+      ],
+      "representation_residual_inf": 1.7763568394002505e-15,
+      "inside": false
+    },
+    "first_modulation": [
+      -0.7473889039928042,
+      0.5166581372578533
+    ]
+  },
+  "backup_index_fixtures": [
+    {
+      "j": 1,
+      "terminal": false,
+      "phase_rad": 0.7676991118430775,
+      "membership": {
+        "witnesses": [
+          [
+            0.016489743082253483,
+            0.007562542849396961
+          ],
+          [
+            0.026407600799500063,
+            -0.020921531977961174
+          ]
+        ],
+        "disk_norms": [
+          0.01814121498874019,
+          0.03369082783623175
+        ],
+        "representation_residual_inf": 0.0,
+        "inside": true
+      },
+      "new_modulation_ab": [
+        -0.12228713192103602,
+        0.1308392670762544
+      ],
+      "immutable_held_ab": [
+        0.14744706826596926,
+        0.1645146567230016
+      ],
+      "algebraic_state": [
+        0.7357066421630942,
+        -0.448283979150207,
+        0.22034210970036383,
+        0.015970751695186317
+      ]
+    },
+    {
+      "j": 9,
+      "terminal": false,
+      "phase_rad": 1.0692920065876976,
+      "membership": {
+        "witnesses": [
+          [
+            0.016489743082253473,
+            0.007562542849396933
+          ],
+          [
+            0.02640760079950006,
+            -0.020921531977961174
+          ]
+        ],
+        "disk_norms": [
+          0.01814121498874017,
+          0.03369082783623175
+        ],
+        "representation_residual_inf": 0.0,
+        "inside": true
+      },
+      "new_modulation_ab": [
+        0.11779912587987963,
+        0.2062743201530855
+      ],
+      "immutable_held_ab": [
+        -0.18977554330365784,
+        0.14768093485092032
+      ],
+      "algebraic_state": [
+        0.10800370658888812,
+        -0.07971311176553289,
+        0.0382618835627824,
+        0.23740354593153903
+      ]
+    },
+    {
+      "j": 10,
+      "terminal": true,
+      "phase_rad": 1.1069911184307752,
+      "membership": {
+        "witnesses": [
+          [
+            0.01648974308225347,
+            0.00756254284939694
+          ],
+          [
+            0.026407600799500063,
+            -0.020921531977961174
+          ]
+        ],
+        "disk_norms": [
+          0.01814121498874017,
+          0.03369082783623175
+        ],
+        "representation_residual_inf": 0.0,
+        "inside": true
+      },
+      "new_modulation_ab": [
+        0.10994090957134095,
+        0.2105676271778442
+      ],
+      "immutable_held_ab": [
+        0.038937744616170625,
+        0.21952283545564738
+      ],
+      "algebraic_state": [
+        0.04201299009654312,
+        -0.01427350856472389,
+        0.21375069580596057,
+        0.06338030675808595
+      ]
+    }
+  ],
+  "box_projection_false_positive_rejected": {
+    "witnesses": [
+      [
+        0.23277616640925683,
+        4.336808689942018e-19
+      ],
+      [
+        -0.07769282211067595,
+        -0.002930338743343593
+      ]
+    ],
+    "disk_norms": [
+      0.23277616640925683,
+      0.07774806423745789
+    ],
+    "representation_residual_inf": 0.0,
+    "inside": false
+  },
+  "source_reconstruction_complex_errors_V": [
+    5.684341886080802e-14,
+    2.0495186137532011e-13,
+    2.8251825123476345e-15
+  ],
+  "invalid_plan_rejection_checks": {
+    "nonfinite": {
+      "accepted": false,
+      "reason": "nonfinite"
+    },
+    "terminal": {
+      "accepted": false,
+      "max_primal_residual": 0.10000000000000006,
+      "dynamics_residual_inf": 0.09999999999999998,
+      "terminal_residual_inf": 0.10000000000000006,
+      "queue_norm_violation": -0.002949300163960944,
+      "input_norm_violation": -0.028172144963628243,
+      "current_node_norm_violation": 1.1102230246251565e-16,
+      "Omega_norm_violation": -1.5983794106666505e-05,
+      "actual_modulation_norm_violation": -0.2160185014156074,
+      "membership": {
+        "witnesses": [
+          [
+            0.008152271187373335,
+            -0.08598515955542468
+          ],
+          [
+            -0.051203756679873945,
+            -0.03247018740299259
+          ]
+        ],
+        "disk_norms": [
+          0.0863707542475132,
+          0.06063116169196492
+        ],
+        "representation_residual_inf": 0.0,
+        "inside": true
+      },
+      "first_modulation": [
+        0.2679838059796206,
+        0.1967667658157704
+      ]
+    },
+    "queue": {
+      "accepted": false,
+      "max_primal_residual": 1.680585035923332,
+      "dynamics_residual_inf": 0.6307839483565627,
+      "terminal_residual_inf": 5.551115123125783e-17,
+      "queue_norm_violation": 1.680585035923332,
+      "input_norm_violation": -0.028172144963628243,
+      "current_node_norm_violation": 0.5739148400465158,
+      "Omega_norm_violation": 0.5444862877853934,
+      "actual_modulation_norm_violation": 1.4080541046540067,
+      "membership": {
+        "witnesses": [
+          [
+            -0.6249858614819696,
+            -0.08598515955542468
+          ],
+          [
+            0.5833945854768678,
+            -0.0085350533975053
+          ]
+        ],
+        "disk_norms": [
+          0.6308730258270133,
+          0.5834570159833754
+        ],
+        "representation_residual_inf": 2.220446049250313e-16,
+        "inside": false
+      },
+      "first_modulation": [
+        1.9466174061464345,
+        0.1967667658157704
+      ]
+    }
+  },
+  "scope": "Independent numerical algebra and function-level fixtures only; no outward rounding, joint DC/SoC invariance, or realtime certification."
+}

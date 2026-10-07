@@ -1,0 +1,21 @@
+{
+  "run_at_utc": "2026-10-03T09:40:35.125674+00:00",
+  "source_case": "tau4.5_r27_o19_h05_s1",
+  "audit_command": [
+    "./recovery_phase2/V2/recovery",
+    "case",
+    "./recovery_phase2/V2/original_input.csv",
+    "./recovery_phase2/audit/v2/reproduce_tau4.5_r27_o19_h05_s1",
+    "5e-07",
+    "./recovery_phase2/V2/checkpoint_h05.csv",
+    "0.0045",
+    "27000000.0",
+    "1.9e-05",
+    "1"
+  ],
+  "extrema_identical": true,
+  "main_csv_identical": true,
+  "snapshots_identical": true,
+  "bins_identical": true,
+  "dense_arrays_identical": true
+}

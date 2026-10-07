@@ -1,0 +1,129 @@
+{
+  "window_s": [
+    0.011292608356252797,
+    0.023925376064810815
+  ],
+  "angle_rad": -0.10163040739497287,
+  "results": [
+    {
+      "beta_kvar": 812.2689440942253,
+      "lambda_value": 0.0,
+      "epsilon_kJ": 0.1,
+      "Mbar_kV_s": 0.004131516500693581,
+      "rhs_kV_s": 0.004131508990490996,
+      "support_kV_s": 7.510192106532407e-09,
+      "margin_kV_s": 1.0478293746789219e-14,
+      "estimated_rhs_quad_error": 4.586896407688941e-17,
+      "estimated_support_quad_error": 8.337988196030384e-23,
+      "coefficient_zeroes_s": [
+        [
+          0.014814304686889275,
+          0.015374870779826544
+        ],
+        []
+      ],
+      "Hmin_grid_kJ": 19.229878181839755,
+      "scope": "Nested adaptive floating-point quadrature; no interval enclosure"
+    },
+    {
+      "beta_kvar": 812.2689440942253,
+      "lambda_value": 1e-10,
+      "epsilon_kJ": 0.1,
+      "Mbar_kV_s": 0.004131516500693581,
+      "rhs_kV_s": 0.004131508990490996,
+      "support_kV_s": 7.517421303877767e-09,
+      "margin_kV_s": -7.21871905161384e-12,
+      "estimated_rhs_quad_error": 4.586896407688941e-17,
+      "estimated_support_quad_error": 8.334911987126512e-23,
+      "coefficient_zeroes_s": [
+        [
+          0.014814325148738245,
+          0.015374849846089734
+        ],
+        []
+      ],
+      "Hmin_grid_kJ": 19.229878181839755,
+      "scope": "Nested adaptive floating-point quadrature; no interval enclosure"
+    },
+    {
+      "beta_kvar": 812.5,
+      "lambda_value": 0.0,
+      "epsilon_kJ": 0.1,
+      "Mbar_kV_s": 0.004131679302266591,
+      "rhs_kV_s": 0.004131490260766627,
+      "support_kV_s": 7.49901231765561e-09,
+      "margin_kV_s": 1.8154248764666523e-07,
+      "estimated_rhs_quad_error": 4.5868756135177014e-17,
+      "estimated_support_quad_error": 8.325576137008917e-23,
+      "coefficient_zeroes_s": [
+        [
+          0.014814390039791665,
+          0.015374789819585507
+        ],
+        []
+      ],
+      "Hmin_grid_kJ": 19.22970564694774,
+      "scope": "Nested adaptive floating-point quadrature; no interval enclosure"
+    },
+    {
+      "beta_kvar": 812.5,
+      "lambda_value": 1e-10,
+      "epsilon_kJ": 0.1,
+      "Mbar_kV_s": 0.004131679302266591,
+      "rhs_kV_s": 0.004131490260766627,
+      "support_kV_s": 7.506243998356675e-09,
+      "margin_kV_s": 1.8153525596596417e-07,
+      "estimated_rhs_quad_error": 4.5868756135177014e-17,
+      "estimated_support_quad_error": 8.322502685183724e-23,
+      "coefficient_zeroes_s": [
+        [
+          0.014814410507768374,
+          0.015374768879719723
+        ],
+        []
+      ],
+      "Hmin_grid_kJ": 19.22970564694774,
+      "scope": "Nested adaptive floating-point quadrature; no interval enclosure"
+    },
+    {
+      "beta_kvar": 813.0,
+      "lambda_value": 0.0,
+      "epsilon_kJ": 0.1,
+      "Mbar_kV_s": 0.004132031601361617,
+      "rhs_kV_s": 0.00413144971151854,
+      "support_kV_s": 7.474842482219124e-09,
+      "margin_kV_s": 5.744150005949744e-07,
+      "estimated_rhs_quad_error": 4.586830594808844e-17,
+      "estimated_support_quad_error": 8.298742229205929e-23,
+      "coefficient_zeroes_s": [
+        [
+          0.014814574913459656,
+          0.01537461445599739
+        ],
+        []
+      ],
+      "Hmin_grid_kJ": 19.229332117168074,
+      "scope": "Nested adaptive floating-point quadrature; no interval enclosure"
+    },
+    {
+      "beta_kvar": 813.0,
+      "lambda_value": 1e-10,
+      "epsilon_kJ": 0.1,
+      "Mbar_kV_s": 0.004132031601361617,
+      "rhs_kV_s": 0.00413144971151854,
+      "support_kV_s": 7.4820795367712e-09,
+      "margin_kV_s": 5.744077635404223e-07,
+      "estimated_rhs_quad_error": 4.586830594808844e-17,
+      "estimated_support_quad_error": 8.29567474355386e-23,
+      "coefficient_zeroes_s": [
+        [
+          0.014814595394721705,
+          0.015374593502843668
+        ],
+        []
+      ],
+      "Hmin_grid_kJ": 19.229332117168074,
+      "scope": "Nested adaptive floating-point quadrature; no interval enclosure"
+    }
+  ]
+}

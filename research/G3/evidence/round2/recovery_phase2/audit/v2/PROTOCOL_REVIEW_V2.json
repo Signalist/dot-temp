@@ -1,0 +1,17 @@
+{
+  "reviewed_utc": "2026-10-03T09:37:55.292788+00:00",
+  "files": {
+    "PROTOCOL_V2.json": "5764b17d169a62d1d28325fb089b85d7bc26d2e40456d961c52c6b34b2648182",
+    "LEDGER_ADDENDUM_PRE_RESULT.json": "37998a9426ec13c04c1be180462737b3ec94b89c4a3da6095425eff0d091b2a2",
+    "EXECUTION_FREEZE_V2.json": "300a4a338111b79a68282bacc2383ad7d9add576ffa323048a5db1ac11e117f7"
+  },
+  "fresh_confirmation_results_present": false,
+  "decision": "ACCEPTABLE SEPARATE REVISION WITH KNOWN REGRESSION AND FRESH CONFIRMATION DISTINGUISHED",
+  "notes": [
+    "Only source changes from V1A are measured W+B error replacing W error, and absolute +/-4.5 kW correction/anti-windup replacing +/-5 kW. No healthy/counterfactual signal is added.",
+    "Recovery signed magnitude, positive-only and absolute energy ceilings tighten from 1 kJ to100 J before V2 test results. They remain a distinct engineering recovery contract, not the original exact-theory slack budget.",
+    "Pre-onset and whole-from-checkpoint ledgers explicit in pre-result addendum.",
+    "Old corners are now regression evidence. New tau4.5/5.5ms,R27/33MW/s,offset19/61us cells are fresh confirmation; neither is a uniform interval proof.",
+    "Finite physical W/B/current tolerance only; no complete controller-state recovery threshold."
+  ]
+}

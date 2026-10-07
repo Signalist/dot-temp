@@ -1,0 +1,16 @@
+{
+  "created_UTC": "2026-10-02T01:57:25.126330+00:00",
+  "status": "completed_fixed_source_and_static_allocation_diagnostics",
+  "paper_ready": false,
+  "new_controller_implemented": false,
+  "source_protocol_sha256": "038754241a24782fd09a3834b8d6d7d1aea1da868949dee71f71871d70dd1ba0",
+  "allocation_protocol_sha256": "1e65c7c2781d6ecc12cfa7fc1f224f68e76934d82afa45cc93a2540d254d63d6",
+  "authoritative_results": "source_speed_ablation/results/AUTHORITATIVE_RESULTS.json",
+  "independent_abc": "model_audit/p_priority_abc/COMPARISON.json",
+  "topology": "synthetic controlled DC port; neither verified DC/DC nor direct battery",
+  "all_tested_faults_complete_hard_safe": false,
+  "new_physical_fault_conditions": 5,
+  "existing_slow_Q_reused": true,
+  "same_condition_refinements": "fast Q dq5us and fast P abc10/5us; not extra physical scenarios",
+  "next_gate": "Existing dynamic actual-current safety baseline selection and limited model validation proposal only"
+}

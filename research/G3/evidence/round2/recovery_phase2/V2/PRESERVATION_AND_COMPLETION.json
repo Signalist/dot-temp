@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-03T09:41:44.242158+00:00",
+  "case_count": 34,
+  "all_frozen_contract_cases_pass": true,
+  "original_files": 457,
+  "original_files_unchanged": true,
+  "V1A_frozen_files_unchanged": true,
+  "V2_execution_frozen_files_unchanged": true,
+  "fresh_confirmation_runs": 16,
+  "regression_runs": 16,
+  "nominal_runs": 2
+}

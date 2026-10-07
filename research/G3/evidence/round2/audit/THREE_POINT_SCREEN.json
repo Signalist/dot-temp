@@ -1,0 +1,161 @@
+{
+  "scope": "All ordered triples of recorded grid nodes, not merely symmetric triples. Necessary |C second derivative|<=r plus two-sided DC/modulation/inventory corridor and fixed endpoint C=0. No lag-strip, b bounds, or full multi-cell constraints.",
+  "rows": [
+    {
+      "file": "spline_R10000_q1000.npz",
+      "ramp_kW_s": 10000,
+      "beta_kvar": 1000.0,
+      "violation_kJ": -0.2642818028438232,
+      "times_s": [
+        0.0,
+        0.001,
+        0.0425
+      ],
+      "direction": "middle_upper_vs_outer_lower",
+      "excluded": false
+    },
+    {
+      "file": "spline_R10000_q1050.npz",
+      "ramp_kW_s": 10000,
+      "beta_kvar": 1050.0,
+      "violation_kJ": -0.2578580719332465,
+      "times_s": [
+        0.0,
+        0.001,
+        0.0425
+      ],
+      "direction": "middle_upper_vs_outer_lower",
+      "excluded": false
+    },
+    {
+      "file": "spline_R10000_q900.npz",
+      "ramp_kW_s": 10000,
+      "beta_kvar": 900.0,
+      "violation_kJ": -0.2766983422558415,
+      "times_s": [
+        0.0,
+        0.001,
+        0.04
+      ],
+      "direction": "middle_upper_vs_outer_lower",
+      "excluded": false
+    },
+    {
+      "file": "spline_R30000_q1000.npz",
+      "ramp_kW_s": 30000,
+      "beta_kvar": 1000.0,
+      "violation_kJ": -0.48073279223052356,
+      "times_s": [
+        0.0,
+        0.001,
+        0.0175
+      ],
+      "direction": "middle_upper_vs_outer_lower",
+      "excluded": false
+    },
+    {
+      "file": "spline_R30000_q1050.npz",
+      "ramp_kW_s": 30000,
+      "beta_kvar": 1050.0,
+      "violation_kJ": -0.48060143914843806,
+      "times_s": [
+        0.0,
+        0.001,
+        0.0175
+      ],
+      "direction": "middle_upper_vs_outer_lower",
+      "excluded": false
+    },
+    {
+      "file": "spline_R30000_q900.npz",
+      "ramp_kW_s": 30000,
+      "beta_kvar": 900.0,
+      "violation_kJ": -0.4809762759924383,
+      "times_s": [
+        0.0,
+        0.001,
+        0.0175
+      ],
+      "direction": "middle_upper_vs_outer_lower",
+      "excluded": false
+    },
+    {
+      "file": "spline_R3000_q1000.npz",
+      "ramp_kW_s": 3000,
+      "beta_kvar": 1000.0,
+      "violation_kJ": 0.09141797426677112,
+      "times_s": [
+        0.08,
+        0.1,
+        0.12
+      ],
+      "direction": "middle_lower_vs_outer_upper",
+      "excluded": true
+    },
+    {
+      "file": "spline_R3000_q1050.npz",
+      "ramp_kW_s": 3000,
+      "beta_kvar": 1050.0,
+      "violation_kJ": 0.4316933550558595,
+      "times_s": [
+        0.12,
+        0.14,
+        0.16
+      ],
+      "direction": "middle_lower_vs_outer_upper",
+      "excluded": true
+    },
+    {
+      "file": "spline_R3000_q900.npz",
+      "ramp_kW_s": 3000,
+      "beta_kvar": 900.0,
+      "violation_kJ": -0.09270265633915849,
+      "times_s": [
+        0.0,
+        0.001,
+        0.0975
+      ],
+      "direction": "middle_upper_vs_outer_lower",
+      "excluded": false
+    },
+    {
+      "file": "spline_R5000_q1000.npz",
+      "ramp_kW_s": 5000,
+      "beta_kvar": 1000.0,
+      "violation_kJ": -0.14434493386809816,
+      "times_s": [
+        0.0,
+        0.001,
+        0.055
+      ],
+      "direction": "middle_upper_vs_outer_lower",
+      "excluded": false
+    },
+    {
+      "file": "spline_R5000_q1050.npz",
+      "ramp_kW_s": 5000,
+      "beta_kvar": 1050.0,
+      "violation_kJ": 0.03169335505585824,
+      "times_s": [
+        0.12,
+        0.14,
+        0.16
+      ],
+      "direction": "middle_lower_vs_outer_upper",
+      "excluded": true
+    },
+    {
+      "file": "spline_R5000_q900.npz",
+      "ramp_kW_s": 5000,
+      "beta_kvar": 900.0,
+      "violation_kJ": -0.15836425650829664,
+      "times_s": [
+        0.0,
+        0.001,
+        0.055
+      ],
+      "direction": "middle_upper_vs_outer_lower",
+      "excluded": false
+    }
+  ]
+}

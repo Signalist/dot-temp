@@ -1,0 +1,175 @@
+{
+  "status": "PASS_AVAILABLE_FAULT_BOUNDARIES",
+  "results": [
+    {
+      "case": "P50-fast",
+      "status": "PASS_EVENT_CONTINUITY_JUMP_AND_FAULT_QUADRATURE",
+      "summary_sha256": "e29a6ac27a07ea588d21532a12e652c8ee76ed65d947845d505766d7d8ed20a7",
+      "boundaries": [
+        {
+          "time_s": 0.60005,
+          "state_and_integrator_continuity_exact": true,
+          "held_applied_and_queued_unchanged": true,
+          "no_extra_control_sample": true,
+          "left": {
+            "P_W": 793727.2088632791,
+            "Q_var": 705051.8956420586,
+            "V_PCC_pu": 1.0598261490250482,
+            "source_P_W": 785366.2556511025
+          },
+          "right": {
+            "P_W": 510432.98268523003,
+            "Q_var": 480755.8446513014,
+            "V_PCC_pu": 0.6999857177754624,
+            "source_P_W": 314146.502260441
+          },
+          "P_jump_W": -283294.2261780489,
+          "Q_jump_var": -224296.05099075704,
+          "dense_exact_boundary_rows": 2
+        },
+        {
+          "time_s": 0.75005,
+          "state_and_integrator_continuity_exact": true,
+          "held_applied_and_queued_unchanged": true,
+          "no_extra_control_sample": true,
+          "left": {
+            "P_W": 438291.41962032893,
+            "Q_var": 3511.5857906014135,
+            "V_PCC_pu": 0.399381351031241,
+            "source_P_W": 428282.15460257547
+          },
+          "right": {
+            "P_W": 824512.0545819633,
+            "Q_var": -83368.4240694281,
+            "V_PCC_pu": 0.7551212046278004,
+            "source_P_W": 1070705.3865064385
+          },
+          "P_jump_W": 386220.6349616346,
+          "Q_jump_var": -86880.00986002955,
+          "dense_exact_boundary_rows": 2
+        }
+      ],
+      "actual_fault_service": {
+        "duration_s": 0.15000000000000002,
+        "P_actual_integral_J": 62664.27102310332,
+        "Q_actual_integral_var_s": -1369.2718601902143,
+        "mean_P_W": 417761.8068206887,
+        "mean_Q_var": -9128.47906793476,
+        "P_signed_request_error_J": -57335.728976896695,
+        "Q_signed_request_error_var_s": -106369.27186019023,
+        "P_absolute_request_error_J": 57335.72897689755,
+        "Q_absolute_request_error_var_s": 106369.27186018715
+      },
+      "actual_fault_energy": {
+        "battery_stored_change_J": -66705.58172962279,
+        "DC_change_J": -258.3042643215231,
+        "RL_change_J": 55.421508036679825,
+        "remote_source_integral_J": 61250.131707261666,
+        "loss_integral_J": 5658.332778623455,
+        "battery_terminal_integral_J": 65371.47009500589,
+        "battery_draw_integral_J": 66705.58172959817,
+        "conservation_residual_J": -2.251545083709061e-08
+      },
+      "dense_trapezoid_sanity_only": {
+        "nodes_including_left_right_samples": 19504,
+        "P_integral_J": 62664.28618431011,
+        "Q_integral_var_s": -1369.144876722886,
+        "P_difference_from_integrated_quadrature_J": 0.01516120679298183,
+        "Q_difference_from_integrated_quadrature_var_s": 0.12698346732827304,
+        "note": "Descriptive numerical cross-check retaining all left/right hold jumps; exact service uses saved ODE quadrature states at split boundaries."
+      },
+      "sample_intervals_overlapping_fault": 1501,
+      "hard_contacts_total": 0,
+      "full_case_complete_hard_safe": true,
+      "event_splits_exact": true,
+      "no_physical_projection_or_boundary_reset_observed": true
+    },
+    {
+      "case": "R50-fast",
+      "status": "PASS_EVENT_CONTINUITY_JUMP_AND_FAULT_QUADRATURE",
+      "summary_sha256": "cbb38fab46138d22ae26fd3c5103d175196264352fd4015931c571c585646f53",
+      "boundaries": [
+        {
+          "time_s": 0.60005,
+          "state_and_integrator_continuity_exact": true,
+          "held_applied_and_queued_unchanged": true,
+          "no_extra_control_sample": true,
+          "left": {
+            "P_W": 793727.2088632791,
+            "Q_var": 705051.8956420586,
+            "V_PCC_pu": 1.0598261490250482,
+            "source_P_W": 785366.2556511025
+          },
+          "right": {
+            "P_W": 510432.98268523003,
+            "Q_var": 480755.8446513014,
+            "V_PCC_pu": 0.6999857177754624,
+            "source_P_W": 314146.502260441
+          },
+          "P_jump_W": -283294.2261780489,
+          "Q_jump_var": -224296.05099075704,
+          "dense_exact_boundary_rows": 2
+        },
+        {
+          "time_s": 0.75005,
+          "state_and_integrator_continuity_exact": true,
+          "held_applied_and_queued_unchanged": true,
+          "no_extra_control_sample": true,
+          "left": {
+            "P_W": 374166.0296800426,
+            "Q_var": 333138.8561217356,
+            "V_PCC_pu": 0.4618423038602202,
+            "source_P_W": 364390.35257974546
+          },
+          "right": {
+            "P_W": 702769.6659390373,
+            "Q_var": 545561.3866647048,
+            "V_PCC_pu": 0.8201707608707552,
+            "source_P_W": 910975.8814493635
+          },
+          "P_jump_W": 328603.6362589946,
+          "Q_jump_var": 212422.53054296912,
+          "dense_exact_boundary_rows": 2
+        }
+      ],
+      "actual_fault_service": {
+        "duration_s": 0.15000000000000002,
+        "P_actual_integral_J": 55145.930206776306,
+        "Q_actual_integral_var_s": 47694.13146436522,
+        "mean_P_W": 367639.53471184196,
+        "mean_Q_var": 317960.87642910145,
+        "P_signed_request_error_J": -64854.06979322371,
+        "Q_signed_request_error_var_s": -57305.86853563479,
+        "P_absolute_request_error_J": 64854.069793224015,
+        "Q_absolute_request_error_var_s": 57305.86853563588
+      },
+      "actual_fault_energy": {
+        "battery_stored_change_J": -59085.35317584546,
+        "DC_change_J": -131.4959995515601,
+        "RL_change_J": 47.768869811174,
+        "remote_source_integral_J": 53732.861014523776,
+        "loss_integral_J": 5436.219291031175,
+        "battery_terminal_integral_J": 57903.64611228896,
+        "battery_draw_integral_J": 59085.35317580685,
+        "conservation_residual_J": -3.09046299662441e-08
+      },
+      "dense_trapezoid_sanity_only": {
+        "nodes_including_left_right_samples": 19504,
+        "P_integral_J": 55145.940379217376,
+        "Q_integral_var_s": 47694.31464711505,
+        "P_difference_from_integrated_quadrature_J": 0.010172441070608329,
+        "Q_difference_from_integrated_quadrature_var_s": 0.18318274982448202,
+        "note": "Descriptive numerical cross-check retaining all left/right hold jumps; exact service uses saved ODE quadrature states at split boundaries."
+      },
+      "sample_intervals_overlapping_fault": 1501,
+      "hard_contacts_total": 0,
+      "full_case_complete_hard_safe": true,
+      "event_splits_exact": true,
+      "no_physical_projection_or_boundary_reset_observed": true
+    }
+  ],
+  "physical_trajectories_executed": 0,
+  "real_optimization_calls": 0,
+  "source_sha256": "d1e1682f3880a8a1353c1e689da29f0c83c7f63b2c145d8f0ad85df89389031a",
+  "pending_faults": []
+}

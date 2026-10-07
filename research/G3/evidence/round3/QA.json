@@ -1,0 +1,407 @@
+{
+  "all_pass": true,
+  "check_count": 79,
+  "checks": [
+    {
+      "name": "strict_outer_813",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "strict_outer_812.5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inner_W_lower_kJ",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inner_W_upper_kJ",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inner_modulation_kJ",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inner_B_lower_kJ",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inner_B_upper_kJ",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inner_command_kW",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inner_power_kW",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inner_ramp_kW_per_s",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "inner_current_kA2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "terminal_b_interval_kW",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "terminal_C_interval_kJ",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "total_net_grid_minus_load_interval_kJ",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "complete_payload",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "failed_grids_retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "signed_ledger_critical_prefix",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "positive_absolute_identity_critical_prefix",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_states_critical_prefix",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "signed_ledger_early_service",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "positive_absolute_identity_early_service",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_states_early_service",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "signed_ledger_loss_compensation_tail",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "positive_absolute_identity_loss_compensation_tail",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_states_loss_compensation_tail",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "signed_ledger_whole_task",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "positive_absolute_identity_whole_task",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_states_whole_task",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "signed_ledger_continuing_nominal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "positive_absolute_identity_continuing_nominal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_states_continuing_nominal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "common_task130kJ",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "matched_baseline_physical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "mature_baseline_reproduced",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "review_all_decimal_exports_outward",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "review_event_alignment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "review_strictly_increasing_grid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "review_queue_command_exactly_zero",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "review_grid_critical_holds_correct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "review_grid_later_holds_correct",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "review_exact_payload_matches_parent",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "review_strict_all_constraints_pass",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "profile9603",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "outer_export_audit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "historical_sources_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prior_copy_literature/PRIMARY_NOVELTY_THREATS.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prior_copy_literature/FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prior_copy_src/envelope.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prior_copy_src/admission.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prior_copy_src/model.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prior_copy_theory/EXACT_PORT_CONTRACT_THEORY.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prior_copy_theory/vector_weak_certificate.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "prior_copy_theory/vector_weak_results.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_ENVIRONMENT.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_QA.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_HISTORICAL_SOURCE_FREEZE.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_SCIENTIFIC_CLOSURE.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_FIGURE_QA.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_PROTOCOL.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_SOURCE_LEDGER.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/finite_parameter_reset_counterexample.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/finite_parameter_reset_float_attempt.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/outward_zoh_inner.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/mature_socp_comparator.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/outward_matched_baseline.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/zoh_inner_results.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/coupled_exploration.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/same_workload_energy_ledger.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/zoh_q808_exact_payload.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/outward_prefix_certificates.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_results/ablation_results.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_review/zoh_independent_checks.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_review/exact_zoh_certificate_audit.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_review/interval_export_audit.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_review/independent_coupled_numeric.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_review/profile_rational_audit.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_prior_core/theory/vector_weak_results.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_review/inner_replay/results/outward_zoh_inner.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "json_readable_review/inner_replay/results/zoh_q808_exact_payload.json",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "historical_preservation": {
+    "available": true,
+    "count": 2476,
+    "changed": []
+  },
+  "independent_checks_are_not_sample_size": true
+}

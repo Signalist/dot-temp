@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-04T04:41:30.747730+00:00",
+  "scope": "Clean-unpack scientific replay and byte-level packaging integrity; not a new experiment or expanded physical contract",
+  "all_12_commands_exit_zero": true,
+  "candidate": {
+    "source_file_count_including_original_manifest": 70,
+    "source_manifest_indexed_files": 69,
+    "zip_sha256": "a26d79f0dd4d6ae8a2d60c4be5bb38aceb0a8b5e36816877e6cf3c326cbd52d7",
+    "zip_bytes": 1134934,
+    "unpacked_in_fresh_temporary_directory": true,
+    "historical_sibling_tree_present": false
+  },
+  "dependency_disclosure": {
+    "source_and_scientific_data_self_contained": true,
+    "installed_python_dependencies_required": true,
+    "python_tested": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "top_level_pinned_versions": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "cvxpy": "1.9.3",
+      "clarabel": "0.11.1",
+      "mpmath": "1.3.0",
+      "matplotlib": "3.10.8"
+    },
+    "transitive_dependencies_fully_locked": false,
+    "wheels_or_dependency_installers_bundled": false,
+    "dependency_installation_tested": false,
+    "existing_environment_used": true,
+    "network_installation_performed": false,
+    "network_denial_enforced_during_replay": false,
+    "offline_interpretation": "Once the dependencies are installed, the shipped computations require no remote scientific data. A fresh dependency installation may require Internet access or a separately provisioned wheel/cache set; this archive is not an offline installer."
+  },
+  "standalone_replay": {
+    "commands": [
+      {
+        "command": "python src/certify_prefix_interval.py",
+        "exit_code": 0,
+        "elapsed_s": 4.217732257995522,
+        "log": "portability/logs/01_certify_prefix_interval.log"
+      },
+      {
+        "command": "python src/certify_zoh_inner.py",
+        "exit_code": 0,
+        "elapsed_s": 2.640143648997764,
+        "log": "portability/logs/02_certify_zoh_inner.log"
+      },
+      {
+        "command": "python src/certify_matched_baseline.py",
+        "exit_code": 0,
+        "elapsed_s": 0.07818634300201666,
+        "log": "portability/logs/03_certify_matched_baseline.log"
+      },
+      {
+        "command": "python src/account_and_ablate.py",
+        "exit_code": 0,
+        "elapsed_s": 1.4806672440026887,
+        "log": "portability/logs/04_account_and_ablate.log"
+      },
+      {
+        "command": "python src/check_lag_counterexample.py",
+        "exit_code": 0,
+        "elapsed_s": 0.035658823006087914,
+        "log": "portability/logs/05_check_lag_counterexample.log"
+      },
+      {
+        "command": "python review/independent_coupled_numeric.py",
+        "exit_code": 0,
+        "elapsed_s": 0.7010900309978751,
+        "log": "portability/logs/06_independent_coupled_numeric.log"
+      },
+      {
+        "command": "python review/check_interval_export.py",
+        "exit_code": 0,
+        "elapsed_s": 4.04711968099582,
+        "log": "portability/logs/07_check_interval_export.log"
+      },
+      {
+        "command": "python review/check_zoh_inner.py",
+        "exit_code": 0,
+        "elapsed_s": 3.7820177279936615,
+        "log": "portability/logs/08_check_zoh_inner.log"
+      },
+      {
+        "command": "python review/check_exact_zoh_certificate.py",
+        "exit_code": 0,
+        "elapsed_s": 2.4650415600044653,
+        "log": "portability/logs/09_check_exact_zoh_certificate.log"
+      },
+      {
+        "command": "python review/check_profile_rationals.py",
+        "exit_code": 0,
+        "elapsed_s": 0.4917419840057846,
+        "log": "portability/logs/10_check_profile_rationals.log"
+      },
+      {
+        "command": "python src/verify_package.py",
+        "exit_code": 0,
+        "elapsed_s": 0.03466192400082946,
+        "log": "portability/logs/11_verify_package.log"
+      },
+      {
+        "command": "python src/zoh_inner.py",
+        "scope": "Separate clean unpack; optimizer regeneration does not feed the frozen-payload replay",
+        "exit_code": 0,
+        "elapsed_s": 3.054306528996676,
+        "log": "portability/logs/12_zoh_inner_reoptimization.log"
+      }
+    ],
+    "scientific_output_comparisons": [
+      {
+        "file": "results/outward_prefix_certificates.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "results/outward_zoh_inner.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "results/outward_matched_baseline.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "results/same_workload_energy_ledger.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "results/ablation_results.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "results/mature_socp_comparator.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "results/finite_parameter_reset_counterexample.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "review/independent_coupled_numeric.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "review/interval_export_audit.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "review/zoh_independent_checks.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "review/exact_zoh_certificate_audit.json",
+        "equal_except_runtime_s": true
+      },
+      {
+        "file": "review/profile_rational_audit.json",
+        "equal_except_runtime_s": true
+      }
+    ],
+    "comparison_exclusion": "Only runtime_s is ignored. QA.json differs because historical tree checks are unavailable. No proof margin, payload, or scientific field is normalized away.",
+    "exact_payload_bytes_match": true,
+    "trace_bytes_match": true,
+    "package_qa": {
+      "all_pass": true,
+      "check_count": 72,
+      "historical_preservation": {
+        "available": false,
+        "count": 2476,
+        "changed": []
+      },
+      "independent_checks_are_not_sample_size": true
+    },
+    "inner_interval_pairs_checked": 16,
+    "outer_interval_pairs_checked": 12,
+    "profile_rational_comparisons": 9603,
+    "profile_failure_count": 0,
+    "all_nine_inner_constraints_strictly_pass": true,
+    "outer_strict_exclusion": [
+      {
+        "beta_kvar": "813",
+        "cells": 2048,
+        "gap_interval_kV_s": [
+          "0.0000002601096912431920814734097789766709",
+          "0.0000008753709349796830952250738352853328"
+        ],
+        "strict_exclusion": true
+      },
+      {
+        "beta_kvar": "812.5",
+        "cells": 8192,
+        "gap_interval_kV_s": [
+          "0.0000000979098694941434407379167402197473",
+          "0.0000002517160326542688539934668989394038"
+        ],
+        "strict_exclusion": true
+      }
+    ],
+    "energy_ledger_windows": 5,
+    "max_absolute_energy_closure_residual_J": 1.2249756764504127e-11,
+    "matched_no_service_baseline_pass": true,
+    "continuous_socp_margin_kJ": 0.0071382825773217765,
+    "reoptimization_results_equal_except_runtime_s": true
+  },
+  "preservation": {
+    "original_source_files_unchanged": true,
+    "original_MANIFEST_retained_verbatim": true,
+    "source_69_manifest_entries_verified": true,
+    "frozen_source_QA_is_a_historical_record": "Original QA.json and MANIFEST.json describe the original build environment. They must not be read as verification of historical files in an isolated export. See portability/replay_outputs/QA.json for the standalone result.",
+    "raw_failures_retained": [
+      "results/zoh_inner_results.json",
+      "results/zoh_q808_h50.npz",
+      "results/zoh_q808_h100.npz",
+      "results/finite_parameter_reset_float_attempt.json",
+      "EXPLORATION_AND_CORRECTIONS.md"
+    ],
+    "redundant_original_replay_files_retained": "The original 69-entry manifest indexes review/inner_replay outputs and old logs; these are retained to preserve manifest identity.",
+    "bytecode_and_installed_environments_excluded": true
+  },
+  "semantics": {
+    "exact_return": "Rational base commands plus an analytically defined two-block correction; not a rounded-command or finite-precision hardware endpoint guarantee.",
+    "outer": "The outward prefix proof excludes 812.5 kvar at its tested threshold. The documented monotonic argument extends the exclusion above it; the 812.5 endpoint itself is excluded.",
+    "failed_coarser_holds": "Negative-margin attempts are retained; they are failures of these constructed certificates, not a universal impossibility theorem for every coarser-hold policy.",
+    "independence": "Counts denote computational assertions/comparisons and are not independent statistical samples.",
+    "historical_files": "2476 historical file hashes are retained as provenance; those historical files are not bundled and were not verified in the isolated replay."
+  },
+  "display_rounding_errata": {
+    "file": "DISPLAY_ROUNDING_ERRATA.md",
+    "scope": "Three conservative prose displays only; frozen originals and authoritative interval JSON unchanged",
+    "corrected_values": [
+      {
+        "quantity": "\u4e0b DC \u4f59\u91cf / lower DC slack",
+        "json_key": "W_lower_kJ",
+        "authoritative_lower_endpoint_in_display_units": "1730.659213707814954248379369476471488276497763000",
+        "original_prose_lower_bound": "1730.659214",
+        "corrected_conservative_prose_lower_bound": "1730.659213",
+        "unit": "J"
+      },
+      {
+        "quantity": "\u547d\u4ee4\u4f59\u91cf / command slack",
+        "json_key": "command_kW",
+        "authoritative_lower_endpoint_in_display_units": "0.449999994840273327768305552952046648210275000",
+        "original_prose_lower_bound": "0.449999995",
+        "corrected_conservative_prose_lower_bound": "0.449999994",
+        "unit": "W"
+      },
+      {
+        "quantity": "ramp \u4f59\u91cf / ramp slack",
+        "json_key": "ramp_kW_per_s",
+        "authoritative_lower_endpoint_in_display_units": "29.999859853304268842214535163019264218158858000",
+        "original_prose_lower_bound": "29.999860",
+        "corrected_conservative_prose_lower_bound": "29.999859",
+        "unit": "W/s"
+      }
+    ],
+    "scientific_rerun_required": false,
+    "payload_unchanged": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "reconstructed_then_rerun",
+  "test_origin": "New coordinate/base algebra tests after exact parameter reconstruction; not copied historical output",
+  "seed": 2026100203,
+  "points": 128,
+  "parameter_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+  "maximum_errors": {
+    "V_roundtrip_V": 7.279509460923746e-13,
+    "I_roundtrip_A": 1.016845989170083e-12,
+    "P_abc_vs_dq_W": 1.862645149230957e-09,
+    "Q_abc_vs_dq_var": 9.313225746154785e-10,
+    "inductor_energy_J": 4.547473508864641e-13
+  },
+  "three_phase_power_base_error_VA": 0.0,
+  "positive_Q_requires_negative_iq_when_vq_zero": true,
+  "passed": true
+}

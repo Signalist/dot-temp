@@ -1,0 +1,58 @@
+{
+  "input_sha256": {
+    "protocol/GATE_A_LOCKED_V2_1.json": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+    "protocol/GATE_A_ALLOCATION_BASELINES_V1.json": "1e65c7c2781d6ecc12cfa7fc1f224f68e76934d82afa45cc93a2540d254d63d6",
+    "gate_a/preconditioned_dq/h1e-05_checkpoint.json": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+    "protocol/GATE_A_SOURCE_SPEED_V1.json": "038754241a24782fd09a3834b8d6d7d1aea1da868949dee71f71871d70dd1ba0",
+    "baseline_allocation/allocators.py": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a",
+    "baseline_allocation/ALLOCATION_CHANGE_AUDIT.json": "85564727c62ee684df98ea9050420c4c3d89a54ab90a8087828b932f1cd8a0db",
+    "model_audit/abc_reference/reference_abc.py": "005b8379f91f0997f81d15cbdf2b7423b7f22ee3a4e5343ef04d6c981177e847",
+    "model_audit/abc_reference/preconditioned_abc.py": "6168d8bd6ca0385825575c06da157c9ae45f74479aac4d2479c9f7e10a69dbe0",
+    "model_audit/abc_reference/revalidation_results/preconditioned_v2_1_h10us.json": "a079cb00695f79bea7366c106d47cea8c6a88a4e792060eafe2f050b52ba3f95",
+    "baseline_allocation/results/fast_p_priority_h1e-05.json": "cbe9ce0095f521a119cfe0398e28e65675063847cc07c6aa9725bfe19e88e2a6",
+    "baseline_allocation/results/fast_p_priority_h1e-05.npz": "9c5e1ccb15716be544f37b0a521ee128f2401303a4df86b7afd9eacddbb0dc54"
+  },
+  "only_parameter_changes": {
+    "battery_source_tau_s": [
+      0.02,
+      0.002
+    ],
+    "battery_source_ramp_up_W_per_s": [
+      5000000.0,
+      50000000.0
+    ],
+    "battery_source_ramp_down_W_per_s": [
+      5000000.0,
+      50000000.0
+    ]
+  },
+  "original_sample_sha256": "54ba2615b7a43192b149c5d7ab5c75d07b1ba88c7682a663edad753c28ba71bc",
+  "allocation_only_control_text_verified": true,
+  "additional_instrumentation": "return locals() only, read-only state snapshots in wrapper",
+  "sample_diff": [
+    "--- reference_abc.sample\n",
+    "+++ P_priority_sample\n",
+    "@@ -11,15 +11,15 @@\n",
+    "         wnew = clip(wraw,2*math.pi*self.p['pll_frequency_min_Hz'],2*math.pi*self.p['pll_frequency_max_Hz'])",
+    "         self.zpll += self.Ts*(self.p['pll_Ki_per_s2']*err+self.p['pll_Kaw_per_s']*(wnew-wraw))",
+    "         self.omega = wnew",
+    "-    # Exact inverse plus Q-priority projection in the measured voltage basis.",
+    "+    # Exact inverse plus P-priority projection in the measured voltage basis.",
+    "     # At vanishing voltage, no claim of P/Q deliverability is made.",
+    "     ep = v/max(V,floor)",
+    "     eq = -1j*ep",
+    "     a = self.case['P_req_W']/(1.5*max(V,floor))",
+    "     b = self.case['Q_req_var']/(1.5*max(V,floor))",
+    "     Imax = self.p['current_reference_limit_pu']*self.ibase",
+    "-    blim = clip(b,-Imax,Imax)",
+    "-    alim = clip(a,-math.sqrt(max(0.0,Imax**2-blim**2)),math.sqrt(max(0.0,Imax**2-blim**2)))",
+    "+    alim = clip(a,-Imax,Imax)",
+    "+    blim = clip(b,-math.sqrt(max(0.0,Imax**2-alim**2)),math.sqrt(max(0.0,Imax**2-alim**2)))",
+    "     iref = alim*ep+blim*eq",
+    "     ei = iref-i",
+    "     uu = v+1j*self.omega*self.Lf*i+self.p['current_Kp_ohm']*ei+self.zi"
+  ],
+  "runtime_DQ_imports": [],
+  "coordinate_conversion": "iabc=Re((id+j iq) exp(j omega0 t) exp(j[0,-2pi/3,+2pi/3])); Ebat=soc_initial*Ebase+deltaEb; Wdc,Pbat and all PI/PLL/held/queued states preserved. Diagnostic-only abc integral channels start at zero; original DQ cumulative diagnostics retained in source checkpoint. Last reference is absent from DQ checkpoint and marked NaN before first sample; it never enters dynamics.",
+  "source_files_unchanged_after_run": true
+}

@@ -1,0 +1,24 @@
+{
+  "status": "review_only_no_new_simulations",
+  "review_file": "model_audit/gate_a_extension_review_v0_1.md",
+  "review_sha256": "9b220af7f4b2d86171402eebb4569ad2e1672321aa40134d5601c4a961720379",
+  "input_sha256": {
+    "protocol/GATE_A_LOCKED_V2_1.json": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+    "model_audit/abc_reference/reference_abc.py": "005b8379f91f0997f81d15cbdf2b7423b7f22ee3a4e5343ef04d6c981177e847",
+    "model_audit/abc_reference/preconditioned_abc.py": "6168d8bd6ca0385825575c06da157c9ae45f74479aac4d2479c9f7e10a69dbe0",
+    "protocol/gate_a_extension_boundary_selection.json": "a1c8e9e497ab8154df2404414931b20b34c37d8eab7196c16fa64582fa0099d5"
+  },
+  "decision": "Suitable for a preregistered bounded Gate A model extension, subject to explicit frozen definitions; no Gate B",
+  "bias_sign": "b_next=clip(b+(E_end-E_start)/T,-50000,0)",
+  "periodic_claim": "Observed approximate fixed-b periodic regime only after separate frozen-b validation",
+  "minimum_abc_coverage": "0.85 pu 10 us; 0.475 pu 10/5 us; conditional 0.85 pu 5 us. Signed periodic trajectory remains dq-only unless independently replayed.",
+  "unresolved_before_run": [
+    "Exact new protocol hash and cases",
+    "Post-event recovery horizon and tracking tolerances",
+    "Limiter activity tolerances and definitions",
+    "Periodic t0/sample ordering and freeze-before-next-update ordering",
+    "Exact normalization used for conditional numerical refinement"
+  ],
+  "original_files_modified": false,
+  "simulations_run": false
+}

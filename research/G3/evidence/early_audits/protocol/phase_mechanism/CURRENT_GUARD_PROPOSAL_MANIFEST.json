@@ -1,0 +1,23 @@
+{
+  "status": "proposal_only_no_controller_implemented_or_run",
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "requires_review_before_certificate_design_or_simulation": true,
+  "files": [
+    {
+      "path": "protocol/phase_mechanism/dynamic_current_baseline_proposal.md",
+      "bytes": 21335,
+      "sha256": "4e6ba6853f90208b9c4cf554202df7b4f2f9a92c3825c91ea8e92abdcf688875"
+    },
+    {
+      "path": "protocol/phase_mechanism/current_guard_sources.json",
+      "bytes": 13988,
+      "sha256": "b068ab3b66a9c68040f7fbc71a3b1fd481d3452c42c55b7960de4e8e98433956"
+    }
+  ],
+  "existing_evidence_packages": {
+    "base_v2_sha256": "0d23d57e94eb17407570be7c7a336a703240e68232195af62e40e610c3c53ab5",
+    "port_current_increment_sha256": "8b783534e189f75952ec98d73f74925e304ce31924f147a38b17233e5c631a02"
+  },
+  "source_binaries_or_third_party_code_included": false
+}

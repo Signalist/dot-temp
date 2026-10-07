@@ -1,0 +1,30 @@
+{
+  "status": "reconstructed_then_rerun independent abc-versus-dq result comparison; no source imported between implementations",
+  "records": [
+    {
+      "resolution": "h10us",
+      "abc_json_sha256": "a079cb00695f79bea7366c106d47cea8c6a88a4e792060eafe2f050b52ba3f95",
+      "dq_json_sha256": "ed0f2d3dd5f5a150f87da826862dfba6fc1ab8520317564a8083ccad1223f79c",
+      "dq_checkpoint_sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+      "same_protocol": true,
+      "checkpoint_difference_s": 0.0,
+      "normalized_checkpoint_max_abs_difference": 1.0833556274292278e-12,
+      "current_peak_difference_pu": 1.1102230246251565e-13,
+      "dc_event_difference_s": 1.9872992140790302e-14,
+      "initial_Smax_difference_VA": 3.096647560596466e-07
+    },
+    {
+      "resolution": "h5us",
+      "abc_json_sha256": "b4b6c48a9319ea6b37febfc8247c0e912bc5515a78253ad565bf6f22aeb24c68",
+      "dq_json_sha256": "768eab2aef2cc98e85a4a5acd3d24a3dd8125ecec419a3511403187d84be9711",
+      "dq_checkpoint_sha256": "d6475c40ac32b6beb2e83f46655a2e8ee7dbaf48234afe920d83b51fe0c02447",
+      "same_protocol": true,
+      "checkpoint_difference_s": 0.0,
+      "normalized_checkpoint_max_abs_difference": 6.139089236967266e-12,
+      "current_peak_difference_pu": 7.227551890309769e-13,
+      "dc_event_difference_s": 3.397282455352979e-14,
+      "initial_Smax_difference_VA": 1.955777406692505e-08
+    }
+  ],
+  "all_pass": true
+}

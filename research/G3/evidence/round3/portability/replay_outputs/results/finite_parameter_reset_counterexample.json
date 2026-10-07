@@ -1,0 +1,41 @@
+{
+  "scope": "Classical pure-lag exact illustration; finite parameter checks do not prove continuum exact reset",
+  "exact_definition": "h=.005; a=exp(-h/.004); b=exp(-h/.006); A=-100/(1+a+b); (u0,u1,u2,u3)=A*(1,-(1+a+b),a+b+a*b,-a*b); p(z)=A*(z-1)*(z-a)*(z-b). Then b(T;tau)=(1-exp(-h/tau))*p(exp(-h/tau)) and integral u=h*p(1)=0 exactly.",
+  "times_s": [
+    "0",
+    ".005",
+    ".01",
+    ".015",
+    ".02"
+  ],
+  "commands_kW_approximations": [
+    "-58.10227492959427776716709050006109960579561882796086865620731026",
+    "100.0",
+    "-49.132299122965271893568195791875904056135702804822039387970248634",
+    "7.2345740525595496607352862919370036619313216327829080441775588944"
+  ],
+  "exact_reset_parameters_s": [
+    ".004",
+    ".006"
+  ],
+  "interior_parameter_failure_s": ".005",
+  "endpoints": [
+    {
+      "tau_s": "0.004",
+      "bT_kW_approx": "0.0",
+      "CT_kJ_approx": "0.0"
+    },
+    {
+      "tau_s": "0.005",
+      "bT_kW_approx": "-0.12604629511046236586643713637715960561372820001606309571634837004",
+      "CT_kJ_approx": "0.00063023147555231182933218568188579802806864100008031547858174185021"
+    },
+    {
+      "tau_s": "0.006",
+      "bT_kW_approx": "0.0",
+      "CT_kJ_approx": "0.0"
+    }
+  ],
+  "precision_digits": 65,
+  "previous_floating_nullspace_attempt_retained": "finite_parameter_reset_float_attempt.json"
+}

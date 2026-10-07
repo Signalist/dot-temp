@@ -1,0 +1,494 @@
+{
+  "files": [
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "review/final_export_replay.log",
+      "sha256": "b73476116c7c9b179182ea5d9be6dd25edcc364fd17b345884294d97a4cdee61",
+      "bytes": 2959,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "results/account_and_comparator.log",
+      "sha256": "0df04b82e31d5adcaa17d7781ad4f0d9671d98ce9652ad9bdd47c86cefc6b483",
+      "bytes": 6942,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "results/exact_lag_counterexample.log",
+      "sha256": "47c9373232e847d9d5296dcb96338d4f8af8fc74417dd9bc04b3d4efa2e7c6fc",
+      "bytes": 1349,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "results/final_outer_replay.log",
+      "sha256": "c652d7d46b574a0d1694c30c831273ed457c7c05b8fd4ef0981101224ff618c9",
+      "bytes": 2239,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "review/inner_replay/results/outward_zoh_inner.json",
+      "sha256": "25f8e7acc9eedaff477ee670cb434362b5f2dc79a9242a259b10f7168997e1c0",
+      "bytes": 2565,
+      "reason": "Redundant verification copy; original exact payload retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "review/inner_replay/results/zoh_q808_exact_payload.json",
+      "sha256": "f267faec2b484b3db65a4523a01489004d919f242ade39e294c0bcc5ef520e45",
+      "bytes": 124452,
+      "reason": "Redundant verification copy; original exact payload retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "review/inner_replay/results/zoh_q808_h25.npz",
+      "sha256": "cf8c03e66c55066cf772359cc19986318058105e974d5e2cd7204e3b2404d2a0",
+      "bytes": 115258,
+      "reason": "Redundant verification copy; original exact payload retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "review/inner_replay/results/zoh_certified_trace.csv",
+      "sha256": "3ec126a56064453e158acf37a99f1e277bb9f6581c9d88ab5f71b05dd6ca8f7d",
+      "bytes": 321283,
+      "reason": "Redundant verification copy; original exact payload retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/12_zoh_inner_reoptimization.log",
+      "sha256": "778d9dbda0a37686c699e8c1d782c7fb26d7e10295cda5003a7272628099a24f",
+      "bytes": 1573,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/08_check_zoh_inner.log",
+      "sha256": "d100068b730b62db281b097f0a84deb8ff5e4c8a811bfcb78b74f238702f84ad",
+      "bytes": 3945,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/09_check_exact_zoh_certificate.log",
+      "sha256": "b111ce2bec66217b2baa68d8216b42685d6ef760dc5f462105cfb4f15fda3be8",
+      "bytes": 4244,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/03_certify_matched_baseline.log",
+      "sha256": "03e83f9c695c7a7dc05e45b318a1dcd5cf03254cb9e301f326058bcf167c9820",
+      "bytes": 1005,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/02_certify_zoh_inner.log",
+      "sha256": "bc5c5263c9aeea3000fef39e4fcc9a246fea3e9a1aea874ba5384b98c664ef21",
+      "bytes": 2566,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/05_check_lag_counterexample.log",
+      "sha256": "47c9373232e847d9d5296dcb96338d4f8af8fc74417dd9bc04b3d4efa2e7c6fc",
+      "bytes": 1349,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/10_check_profile_rationals.log",
+      "sha256": "c44dc9631a4c716fbc2a7ab28ab15d1015a7d02e8d1bf36e6be8e85f5f1c666d",
+      "bytes": 181,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/01_certify_prefix_interval.log",
+      "sha256": "72479a9d631b23117ae322247066e224b179e26f908d9f2a8a2a99eea43e45bb",
+      "bytes": 2239,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/04_account_and_ablate.log",
+      "sha256": "b364764c4c3a9741d83bbcc97dd5d84d10cc7d87b0a879d6a5c85e6930889d94",
+      "bytes": 6942,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/07_check_interval_export.log",
+      "sha256": "62a9a4635f6b147b7b5ea2fc4dbf8331a96c16cef7a77ab87af9c7f3a78d842d",
+      "bytes": 2958,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/06_independent_coupled_numeric.log",
+      "sha256": "51810a2f26e3e7bc250c58e63fe1909cb9f131be1c0634d32eae118108933d28",
+      "bytes": 3991,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "g3_round3_portable_evidence",
+      "source_relative_path": "portability/logs/11_verify_package.log",
+      "sha256": "3998d4276f04242eac1b253a353066e862879d2e96705ae4b7ceeb97059b0abc",
+      "bytes": 141,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "RECOVERY_TIMELINE.md",
+      "sha256": "8d2a26d9c53c1ff3e6122a3b896f553375b50e9610c752ec121a5912842c0d49",
+      "bytes": 2013,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "交付说明.txt",
+      "sha256": "d63804831f1518f2e5465e9314c774d0a17dbc7dc0a38ebe2b45d84cfddd1265",
+      "bytes": 586,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "recovery/preconditioned_5us_rerun.log",
+      "sha256": "768eab2aef2cc98e85a4a5acd3d24a3dd8125ecec419a3511403187d84be9711",
+      "bytes": 5523,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "recovery/nominal_10us_rerun.log",
+      "sha256": "f4dd9a17d39fd4b7f7bdf3eaef8ba9d4e2c614ad7095bf54181cb82bddbf361f",
+      "bytes": 1234,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "recovery/preconditioned_10us_rerun.log",
+      "sha256": "ed0f2d3dd5f5a150f87da826862dfba6fc1ab8520317564a8083ccad1223f79c",
+      "bytes": 5519,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "recovery/nominal_5us_rerun.log",
+      "sha256": "bb0c71645ffdc7c5bc21b86a585377b67b8a514dbf4e7a2758f40515117766fe",
+      "bytes": 1235,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a/dc_bound_gate_a_v2_1_revalidation.log",
+      "sha256": "23e41d6e85e6833f36d7fe74f2f874cfe58b868ea663184e2fa16aa328408666",
+      "bytes": 914,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_constructive/R50-fast_console.log",
+      "sha256": "cbb38fab46138d22ae26fd3c5103d175196264352fd4015931c571c585646f53",
+      "bytes": 32862,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_constructive/P50-fast_console.log",
+      "sha256": "e29a6ac27a07ea588d21532a12e652c8ee76ed65d947845d505766d7d8ed20a7",
+      "bytes": 32860,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_constructive/P0-fast_console.log",
+      "sha256": "8f9ad64944f827a180b64a1c253d0c8e8646efe4dbd692221395af19472e171e",
+      "bytes": 13674,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_constructive/R0-fast_console.log",
+      "sha256": "734bbf3ece2952ec7b8bb98e9b31014c3b0362b22206779c15ad46005a210466",
+      "bytes": 13666,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate0/diagnose.log",
+      "sha256": "d9c6ab544c55273151d7e212bd5097cb505d5c8f0ce4589c223fff13521305bd",
+      "bytes": 5641,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate1/C50-fast_console.log",
+      "sha256": "96d169ae535ad682b4e828a050e6b253c0ecbab207283e24deacae26c8a3c514",
+      "bytes": 15194,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate1/C0-fast_console.log",
+      "sha256": "02f572aa8522f141aa6a22a313b073f7d508293244ef6904b410b37e879ab653",
+      "bytes": 9695,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate1/C0-slow_console.log",
+      "sha256": "c2ccdd42d6978cb59e9f2d55e9489cbf7c96ee9ded7b5f2c0c49ad5b86bd7200",
+      "bytes": 9548,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate1/C1-fast_console.log",
+      "sha256": "418752054ce0fa82c548ead80e8b2b58df217f4955f9bc92a6de22d147058037",
+      "bytes": 15191,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate1/C1-slow_refinement_console.log",
+      "sha256": "287d8bb999a23dbeed5c5d172d732be7bd271cb95b77e4c364811770c41e51e4",
+      "bytes": 15227,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate1/C1-fast_refinement_console.log",
+      "sha256": "99504abcf4c2046982f7af9561b54746bf7045ea858e960cfc5d8f0754cc4f65",
+      "bytes": 15198,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate1/C50-fast_refinement_console.log",
+      "sha256": "c57e87c68ac0c1da98b75ca7c9f0296bface510f7f97c0cf8696193d31a95ced",
+      "bytes": 15142,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate1/C1-slow_console.log",
+      "sha256": "458c28b6b5e42be1a1c58284a9b742cba1a80e1f53d71f870a259bfb00a801cc",
+      "bytes": 15247,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate1/C50-slow_console.log",
+      "sha256": "dfa9886fffe724282e1a0366452c730f4d6df84d6d807a56d22686d828a41b06",
+      "bytes": 15235,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "current_guard_gate1/C50-slow_refinement_console.log",
+      "sha256": "e90113fc3c6d9c7e663b3152285fac1165a3c5056abe08f0313ff1665d234213",
+      "bytes": 15212,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a_extension/results/audited_scoring.log",
+      "sha256": "cd7bc79935c4aa9afb8b8d229be4d7ee342c3f2cebbc7218fb5ef72f19552daf",
+      "bytes": 2149,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a_extension/results/sag0475_refinement.log",
+      "sha256": "a7621df42919cad063be949e29f99bc0b7b3539cb3f9178b2f764d161da9a9f2",
+      "bytes": 663,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a_extension/results/sags.log",
+      "sha256": "598097b254b92b8b3e0d7593359ac60b3b375cfdde56e72cf3f4495656c25d0a",
+      "bytes": 1988,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a_extension/results/build_deliverables.log",
+      "sha256": "82139636fc719dd984cd818ace3c745b143ce14cb61fca15e6d5672c0effd428",
+      "bytes": 1079,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a_extension/results/matched_reference_v2.log",
+      "sha256": "3be9babfbaf778164fb2c00195a6f3ef93f88f9d297326ec771687db899ede4a",
+      "bytes": 5216,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a_extension/results/four_quadrant.log",
+      "sha256": "2d0398f5d882378ae5b738f3617f986ac06573bc3ba617b8adf6910e0b062fd6",
+      "bytes": 2548,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a_extension/results/signed_periodic.log",
+      "sha256": "a91f97d645e9de28cd698e8366b88363261feec583218ed57ebb733fed9d1046",
+      "bytes": 9789,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a_extension/results/matched_reference.log",
+      "sha256": "95e33f1c8c69ed98025703d687344a8b8631a73d9aa40712390d9b5905814f94",
+      "bytes": 4108,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a_extension/results/negative_steps.log",
+      "sha256": "940fa65a9e3c549f75162dd425c1fb13f3b8ed4519f41ee8f44f0ee5ccd20f44",
+      "bytes": 1298,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "gate_a_extension/results/positive_steps.log",
+      "sha256": "5f981ee189fa365b13b62fb29c4dd93dad21f67991a466881f294cf480b882cd",
+      "bytes": 1298,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "baseline_allocation/results/slow_p_priority.log",
+      "sha256": "d26944c70a3fc2fe0a46d1b326261f7f81464c1c5c7f1db87e3b3b5b400884a2",
+      "bytes": 3621,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "baseline_allocation/results/slow_radial.log",
+      "sha256": "55795049c64b1ad04f30564d530d642178798ec17dc5047de2f3920322792c15",
+      "bytes": 3611,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "baseline_allocation/results/fast_radial.log",
+      "sha256": "8015e818628453ee6e99de5d827f7c696f196e334993c998c01eb30c6d685958",
+      "bytes": 4646,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "baseline_allocation/results/fast_p_priority.log",
+      "sha256": "cbe9ce0095f521a119cfe0398e28e65675063847cc07c6aa9725bfe19e88e2a6",
+      "bytes": 3643,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/p_priority_abc/run_10us.log",
+      "sha256": "c8b8ce8d0868342af6764d188737b95a20ea9b6301afde291974e033f5401e74",
+      "bytes": 4287,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/p_priority_abc/run_5us.log",
+      "sha256": "e2be716869d89356f690190a63566d8e30c0dff2284e55c3f83106c4276978f9",
+      "bytes": 4288,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/gate_a_extension/results/sag0475_10us.log",
+      "sha256": "cd0e1f75300aaacc375e15d00296b23c3c27a07dda20da85a6546e8e76c60444",
+      "bytes": 4260,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/gate_a_extension/results/sag0475_5us.log",
+      "sha256": "eca38a150da3c49c82d9fbcb150b45338d8db0f0e623639532406e1f56fcca6d",
+      "bytes": 4255,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/gate_a_extension/results/sag085_10us.log",
+      "sha256": "deefaeb6ef6d8196cd2019e601cd279f92718202399059355f4beeea936bc32f",
+      "bytes": 20909,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/abc_reference/revalidation_results/preconditioned_v2_1_h5us.log",
+      "sha256": "b4b6c48a9319ea6b37febfc8247c0e912bc5515a78253ad565bf6f22aeb24c68",
+      "bytes": 5012,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/abc_reference/revalidation_results/motulator_rhs_check.log",
+      "sha256": "daa10d54ef80d4931faaa63d5f0bf6d6b78a469f67137549469d7a400373b2ff",
+      "bytes": 3092,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/abc_reference/revalidation_results/conservation_h10us.log",
+      "sha256": "ad963ce8cdb41f46f3fc88012989a724fc8233f6237628dac70a55dda521b3f6",
+      "bytes": 1392,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/abc_reference/revalidation_results/motulator_install.log",
+      "sha256": "f1e7ddca719571e1885a0cbbc87d2ec9db3a7ccc98b38bd7e64c43d149781bdf",
+      "bytes": 1196,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/abc_reference/revalidation_results/conservation_h5us.log",
+      "sha256": "8057407ed00ee9b0a092078ccb70edb4c028d6d309ff9ec6e5f77fcc94fbc584",
+      "bytes": 1392,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "model_audit/abc_reference/revalidation_results/preconditioned_v2_1_h10us.log",
+      "sha256": "a079cb00695f79bea7366c106d47cea8c6a88a4e792060eafe2f050b52ba3f95",
+      "bytes": 5014,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "source_speed_ablation/results/fast_reference.log",
+      "sha256": "7e09e506f28ebca00c1e2ee380e630f4b537fc99be1095b844eebb62fee46159",
+      "bytes": 4400,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "source_speed_ablation/results/fast_sag04_refinement.log",
+      "sha256": "b0e94f975bf696aeff846dfed3ed8efc34ac91de9c2c625f0b97ed596e46de00",
+      "bytes": 3413,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    },
+    {
+      "source_collection": "算力电网_G3代码与审计报告",
+      "source_relative_path": "source_speed_ablation/results/fast_sag04.log",
+      "sha256": "5257ac8725bb5d0560eddc233518906c83060cd620127c908323c1dafeb11c59",
+      "bytes": 3431,
+      "reason": "Redundant execution/delivery record; scientific summaries retained"
+    }
+  ]
+}

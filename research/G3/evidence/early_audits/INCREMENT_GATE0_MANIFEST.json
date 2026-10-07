@@ -1,0 +1,197 @@
+{
+  "kind": "G3 Gate0 increment, not a standalone full archive",
+  "created_UTC": "2026-10-02T02:54:54.643751+00:00",
+  "scope": "Completed analytical/one-point offline Gate0 and independent audit; six-model checklist frozen before subsequent execution approval, no closed-loop results in this archive",
+  "status_at_freeze": {
+    "current_guard_qualified": false,
+    "paper_ready": false,
+    "closed_loop_runs": 0
+  },
+  "new_files": [
+    {
+      "path": "GATE0_MPSC_REPORT_ZH.md",
+      "bytes": 9550,
+      "sha256": "2a17151d15b60007d23d9b4660d5b8fae4583d2b57bae83cdccd9901f684fc2a"
+    },
+    {
+      "path": "GATE1_MPSC_SIX_MODELS_CHECKLIST_ZH.md",
+      "bytes": 5233,
+      "sha256": "ebbc36c2162dbc93d2de1ead2bd2c46c38bc5805156cc947c5bfe67d883b7fa3"
+    },
+    {
+      "path": "INCREMENT_GATE0_README.md",
+      "bytes": 3449,
+      "sha256": "8e63a1812aa96191f25ffaa8ae028a93da9d7213598023c8488ad01dfd9d2b2a"
+    },
+    {
+      "path": "current_guard_gate0/GATE0_AUTHORITATIVE_STATUS.json",
+      "bytes": 1006,
+      "sha256": "04d3dcceb94ef41a512947124770b9d75836d7df20d4f44e8fdc56979d5f0c02"
+    },
+    {
+      "path": "current_guard_gate0/GATE0_BOUNDS_AND_CANDIDATE.png",
+      "bytes": 142701,
+      "sha256": "d706cca9d40753f658fc6c532b7882877cf1d95f527e3e321f6883c9f2e58efa"
+    },
+    {
+      "path": "current_guard_gate0/GATE0_RESULTS.json",
+      "bytes": 35313,
+      "sha256": "5b817847658f912f72bff3c774855f5c863f3b6cf2e5825100a21b7b935adcca"
+    },
+    {
+      "path": "current_guard_gate0/INDEPENDENT_MATH_REVIEW.md",
+      "bytes": 21402,
+      "sha256": "35cdd21aa3322e7e628b68811a4640d8c17dbecb3ffeb576011fb7c8156da0bc"
+    },
+    {
+      "path": "current_guard_gate0/PRIMAL_POSTCHECK.json",
+      "bytes": 2677,
+      "sha256": "321278132c3014915b4f5879dc3817fd7842cd0de2d7d598e156625eb8bb2f48"
+    },
+    {
+      "path": "current_guard_gate0/build_gate0_report.py",
+      "bytes": 9607,
+      "sha256": "c7ea4300293bd2e1de031737719ce1d1eed9511f651a18de7078444331c75a20"
+    },
+    {
+      "path": "current_guard_gate0/check_primal_witness.py",
+      "bytes": 4490,
+      "sha256": "3c8ca6a70e0614f7b5c1e0b2fa181eaf298e7c0e3bca53c7c405136f3ce6481c"
+    },
+    {
+      "path": "current_guard_gate0/diagnose.log",
+      "bytes": 5641,
+      "sha256": "d9c6ab544c55273151d7e212bd5097cb505d5c8f0ce4589c223fff13521305bd"
+    },
+    {
+      "path": "current_guard_gate0/diagnose_gate0.py",
+      "bytes": 12811,
+      "sha256": "f583e85d5ea7e9444d60598bee04a3d19588ef1c9c8c6852783eeb6d13b9c0c3"
+    },
+    {
+      "path": "current_guard_gate0/freeze_design.py",
+      "bytes": 5237,
+      "sha256": "4f857571b2e926740aacaef177db6077e6e683182cd6ea01d3d3f89214d8f44f"
+    },
+    {
+      "path": "current_guard_gate0/freeze_six_model_checklist.py",
+      "bytes": 9679,
+      "sha256": "d186847ece5947f992fb50b0821732c99b903801365b921030df0e3cb972955e"
+    },
+    {
+      "path": "current_guard_gate0/package_gate0.py",
+      "bytes": 3906,
+      "sha256": "b4f71e70c9a35ee4b90665b5bbcad1a5fe734f1c8b31a610fd98f031e68213e4"
+    },
+    {
+      "path": "current_guard_gate0/plot_gate0.py",
+      "bytes": 1928,
+      "sha256": "6389ecc22a756c966624b9f876c873dae82e3fd02e606dbbfb7db38c4523ffda"
+    },
+    {
+      "path": "current_guard_gate0/verify_gate0_package.py",
+      "bytes": 702,
+      "sha256": "274df12ad6dd36fd757b9d309fdf051c3e8e3dfd5379f542d4848b8dd6b2e616"
+    },
+    {
+      "path": "protocol/GATE0_MPSC_DESIGN_V1.json",
+      "bytes": 5143,
+      "sha256": "c9cfc39a28552b48240e07925b37e2404f4ab6cfeee8d3d8a0f6cdb6703a1579"
+    },
+    {
+      "path": "protocol/GATE0_MPSC_DESIGN_V1.sha256",
+      "bytes": 65,
+      "sha256": "7ff2de709002feb512350902b50ef58869e4d6956e785f632feddd2db2346430"
+    },
+    {
+      "path": "protocol/GATE1_MPSC_SIX_MODELS_V1.json",
+      "bytes": 10765,
+      "sha256": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3"
+    },
+    {
+      "path": "protocol/GATE1_MPSC_SIX_MODELS_V1.sha256",
+      "bytes": 65,
+      "sha256": "d84a947ac78dea4e514d409b2ccf6c7623cf02239ab47402951440e1b4922689"
+    }
+  ],
+  "prior_dependencies": [
+    {
+      "path": "protocol/GATE_A_LOCKED_V2_1.json",
+      "sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+      "bytes": 6912,
+      "available_in_prior_archive": "G3_GateA_with_extension_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+      "sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+      "bytes": 1528,
+      "available_in_prior_archive": "G3_GateA_with_extension_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "model_audit/p_priority_abc/fast_p_priority_abc_h1e-05.npz",
+      "sha256": "414170059ff825895bea81512a3ad7980c6b6d3b10989579076b1cf1875848a5",
+      "bytes": 57355,
+      "available_in_prior_archive": "G3_PORT_CURRENT_INCREMENT_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "gate_a/dq_bench.py",
+      "sha256": "5185085c3843c2b12d0663f25a4d3e6a0290fcb7d46be3b338e3ee2c261b0616",
+      "bytes": 9494,
+      "available_in_prior_archive": "G3_GateA_with_extension_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.json",
+      "sha256": "fd8a03b0c25977d9bef2f2fb84a1474ebe6bc06ec8f4327b05adabc8770d3a0f",
+      "bytes": 12771,
+      "available_in_prior_archive": "G3_GateA_with_extension_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "protocol/phase_mechanism/dynamic_current_baseline_proposal.md",
+      "sha256": "4e6ba6853f90208b9c4cf554202df7b4f2f9a92c3825c91ea8e92abdcf688875",
+      "bytes": 21335,
+      "available_in_prior_archive": "G3_DYNAMIC_CURRENT_GUARD_PROPOSAL_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "protocol/phase_mechanism/current_guard_sources.json",
+      "sha256": "b068ab3b66a9c68040f7fbc71a3b1fd481d3452c42c55b7960de4e8e98433956",
+      "bytes": 13988,
+      "available_in_prior_archive": "G3_DYNAMIC_CURRENT_GUARD_PROPOSAL_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "protocol/phase_mechanism/CURRENT_GUARD_PROPOSAL_MANIFEST.json",
+      "sha256": "20eb155579df447c06fb4d33d4142e39737396de95836ae3c990767f4c074197",
+      "bytes": 883,
+      "available_in_prior_archive": "G3_DYNAMIC_CURRENT_GUARD_PROPOSAL_20261002.zip",
+      "included_in_this_increment": false
+    }
+  ],
+  "prior_archives": [
+    {
+      "filename": "G3_GateA_with_extension_20261002.zip",
+      "sha256": "0d23d57e94eb17407570be7c7a336a703240e68232195af62e40e610c3c53ab5"
+    },
+    {
+      "filename": "G3_PORT_CURRENT_INCREMENT_20261002.zip",
+      "sha256": "8b783534e189f75952ec98d73f74925e304ce31924f147a38b17233e5c631a02"
+    },
+    {
+      "filename": "G3_DYNAMIC_CURRENT_GUARD_PROPOSAL_20261002.zip",
+      "sha256": "80fe75515f5cadbc2bb37f4f6b163afa72e7b09bd6329000765ca9c937f00712"
+    }
+  ],
+  "exclusions": [
+    "raw third-party papers/manuals",
+    "third-party source copies",
+    "wheel",
+    "venv",
+    "all closed-loop guard results"
+  ],
+  "provenance": "Gate0 is newly executed offline algebra/optimization; prior reconstructed_then_rerun trajectory provenance remains unchanged. No historical raw file is represented as recovered through this package."
+}

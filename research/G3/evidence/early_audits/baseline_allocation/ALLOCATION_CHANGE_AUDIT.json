@@ -1,0 +1,8 @@
+{
+  "original_function_sha256": "58e2ec37648dc0bf84611c178492fdde74f46d0cca4bf56171276ba22293df3e",
+  "replaced_original_allocation": "b=np.clip(b,-Imax,Imax);a=np.clip(a,-np.sqrt(max(0,Imax**2-b**2)),np.sqrt(max(0,Imax**2-b**2)))",
+  "new_allocation": "if policy=='p_priority':\n        a=np.clip(a,-Imax,Imax)\n        b=np.clip(b,-np.sqrt(max(0,Imax**2-a**2)),np.sqrt(max(0,Imax**2-a**2)))\n    elif policy=='radial':\n        scale=min(1.,Imax/max(np.hypot(a,b),1e-30));a=a*scale;b=b*scale\n    elif policy=='q_priority':\n        b=np.clip(b,-Imax,Imax);a=np.clip(a,-np.sqrt(max(0,Imax**2-b**2)),np.sqrt(max(0,Imax**2-b**2)))\n    else:raise ValueError(policy)",
+  "all_other_function_text_identical": true,
+  "no_gain_or_timing_changes": true,
+  "allocator_file_sha256": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a"
+}

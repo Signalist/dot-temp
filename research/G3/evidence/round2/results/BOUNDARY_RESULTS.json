@@ -1,0 +1,182 @@
+[
+  {
+    "beta": 790,
+    "inner": {
+      "status": "optimal",
+      "alpha": 100,
+      "beta": 790,
+      "n": 320,
+      "intervals": 321,
+      "current_squared_margin": 0.9455557853846974,
+      "runtime_s": 0.4389718989987159,
+      "gamma_kW": 5.080724897550887,
+      "energy_residual_kJ": 2.0468164923376207e-15,
+      "margin_kJ": 0.13828612160113618,
+      "polynomial_residual_min": {
+        "W_lower": 1.6108737482229847,
+        "W_upper": 1.6917115143923571,
+        "B_lower": 35.786857334078064,
+        "B_upper": 50.0,
+        "b_lower": 169.62693264563526,
+        "b_upper": 22.86280308627213,
+        "u_lower": 158.80563819360452,
+        "u_upper": 5.922480060149837e-06,
+        "ramp_lower": 6710.73356947834,
+        "ramp_upper": 0.0005687103475793265,
+        "modulation": 3.891339736170844e-09
+      },
+      "certified_numeric_inner": true
+    },
+    "prefix_outer": {
+      "minimum_margin_kJ": 0.1393944025134215,
+      "time_s": 0.017051587278149958,
+      "constraint": "mod",
+      "excluded": false,
+      "scope": "necessary prefix max-port envelope; favorable relaxation omits other-state and terminal constraints"
+    }
+  },
+  {
+    "beta": 800,
+    "inner": {
+      "status": "optimal",
+      "alpha": 100,
+      "beta": 800,
+      "n": 320,
+      "intervals": 321,
+      "current_squared_margin": 0.9232915551809586,
+      "runtime_s": 0.3817457410004863,
+      "gamma_kW": 5.206152375989833,
+      "energy_residual_kJ": 4.717417862593061e-16,
+      "margin_kJ": 0.06550912520315862,
+      "polynomial_residual_min": {
+        "W_lower": 1.6763468985203869,
+        "W_upper": 1.7378200136733133,
+        "B_lower": 35.7897835072424,
+        "B_upper": 50.0,
+        "b_lower": 171.31920043442568,
+        "b_upper": 22.630557699691966,
+        "u_lower": 160.6281328532724,
+        "u_upper": 6.2807368390593865e-06,
+        "ramp_lower": 6662.649445232837,
+        "ramp_upper": 0.0006053738288755994,
+        "modulation": 3.816713391841496e-09
+      },
+      "certified_numeric_inner": true
+    },
+    "prefix_outer": {
+      "minimum_margin_kJ": 0.06661954173993623,
+      "time_s": 0.017070294088459288,
+      "constraint": "mod",
+      "excluded": false,
+      "scope": "necessary prefix max-port envelope; favorable relaxation omits other-state and terminal constraints"
+    }
+  },
+  {
+    "beta": 805,
+    "inner": {
+      "status": "optimal",
+      "alpha": 100,
+      "beta": 805,
+      "n": 320,
+      "intervals": 321,
+      "current_squared_margin": 0.912054420125298,
+      "runtime_s": 0.4043590139990556,
+      "gamma_kW": 5.2694578767845215,
+      "energy_residual_kJ": -3.1995022950481746e-15,
+      "margin_kJ": 0.02904291098771817,
+      "polynomial_residual_min": {
+        "W_lower": 1.7091255685326712,
+        "W_upper": 1.760369878745598,
+        "B_lower": 35.79165509810428,
+        "B_upper": 50.0,
+        "b_lower": 172.1332807015443,
+        "b_upper": 22.488571077453656,
+        "u_lower": 161.4343326471793,
+        "u_upper": 5.424650082019866e-06,
+        "ramp_lower": 6568.676845279584,
+        "ramp_upper": 0.0005217825637373608,
+        "modulation": 2.026913172514192e-09
+      },
+      "certified_numeric_inner": true
+    },
+    "prefix_outer": {
+      "minimum_margin_kJ": 0.030154385079156576,
+      "time_s": 0.017079762123529543,
+      "constraint": "mod",
+      "excluded": false,
+      "scope": "necessary prefix max-port envelope; favorable relaxation omits other-state and terminal constraints"
+    }
+  },
+  {
+    "beta": 808,
+    "inner": {
+      "status": "optimal",
+      "alpha": 100,
+      "beta": 808,
+      "n": 320,
+      "intervals": 321,
+      "current_squared_margin": 0.9052785327066886,
+      "runtime_s": 0.3923421290019178,
+      "gamma_kW": 5.30763054184861,
+      "energy_residual_kJ": 1.6815954011206754e-14,
+      "margin_kJ": 0.0071382825773217765,
+      "polynomial_residual_min": {
+        "W_lower": 1.7288062428473399,
+        "W_upper": 1.7650189803611702,
+        "B_lower": 35.80421736416561,
+        "B_upper": 49.99999999999999,
+        "b_lower": 173.12756156897007,
+        "b_upper": 22.420352576817514,
+        "u_lower": 162.48849088071995,
+        "u_upper": 5.603503041129443e-06,
+        "ramp_lower": 6501.966467387301,
+        "ramp_upper": 0.0005507794157892931,
+        "modulation": 2.343191193838025e-09
+      },
+      "certified_numeric_inner": true
+    },
+    "prefix_outer": {
+      "minimum_margin_kJ": 0.008250409244598966,
+      "time_s": 0.01708547989682657,
+      "constraint": "mod",
+      "excluded": false,
+      "scope": "necessary prefix max-port envelope; favorable relaxation omits other-state and terminal constraints"
+    }
+  },
+  {
+    "beta": 810,
+    "inner": {
+      "status": "optimal",
+      "alpha": 100,
+      "beta": 810,
+      "n": 320,
+      "intervals": 321,
+      "current_squared_margin": 0.9007472717671101,
+      "runtime_s": 0.39557155500006047,
+      "gamma_kW": 5.33315788734176,
+      "energy_residual_kJ": 1.1629564498905064e-14,
+      "margin_kJ": -0.007475172027441192,
+      "polynomial_residual_min": {
+        "W_lower": 1.7419323055498122,
+        "W_upper": 1.7838595386802978,
+        "B_lower": 35.79714145827869,
+        "B_upper": 49.99999999999999,
+        "b_lower": 173.11268961328898,
+        "b_upper": 22.6258867857589,
+        "u_lower": 162.5071285690949,
+        "u_upper": 5.646491992195024e-06,
+        "ramp_lower": 6590.938022195562,
+        "ramp_upper": 0.0005524339940166101,
+        "modulation": 2.8312558077354683e-09
+      },
+      "certified_numeric_inner": false
+    },
+    "prefix_outer": {
+      "minimum_margin_kJ": -0.006362610947967529,
+      "time_s": 0.017089307459155843,
+      "constraint": "mod",
+      "excluded": true,
+      "scope": "necessary prefix max-port envelope; favorable relaxation omits other-state and terminal constraints"
+    }
+  }
+]

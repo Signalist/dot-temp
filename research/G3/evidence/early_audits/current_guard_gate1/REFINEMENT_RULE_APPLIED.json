@@ -1,0 +1,9 @@
+{
+  "scope": "Same physical conditions; no additional scenario or policy",
+  "frozen_rule": "Same-condition 5us only if required by hard-contact or near-boundary numerical audit",
+  "selected_conditions": ["C50-slow", "C50-fast", "C1-slow", "C1-fast"],
+  "reason": "All four fault primary records end at the DC upper hard boundary; uniformly refine all four root times and peak-current values to separate physical termination from one integration grid.",
+  "excluded_conditions": ["C0-slow", "C0-fast"],
+  "exclusion_reason": "No-fault cases completed with no hard contact or near-boundary flag; no duplicate 5us long trajectories requested.",
+  "unchanged": ["100us controller clock", "cold-start solver", "N/K", "hard limits", "initial checkpoint", "fault onset and clearance", "port parameters"]
+}

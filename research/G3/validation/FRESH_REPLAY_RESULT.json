@@ -1,0 +1,46 @@
+{
+  "mode": "exact",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "cvxpy": null,
+    "clarabel": null,
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.8"
+  },
+  "files_verified_before": 1121,
+  "stages": [
+    {
+      "script": "review/check_exact_zoh_certificate.py",
+      "exit_code": 0,
+      "seconds": 5.922,
+      "log": "01_check_exact_zoh_certificate.log",
+      "log_sha256": "9d8f4f141834397bc5088444e02ea2e851f829656bccf4c6991cc47f88a0ed5c"
+    },
+    {
+      "script": "review/check_profile_rationals.py",
+      "exit_code": 0,
+      "seconds": 7.274,
+      "log": "02_check_profile_rationals.log",
+      "log_sha256": "c44dc9631a4c716fbc2a7ab28ab15d1015a7d02e8d1bf36e6be8e85f5f1c666d"
+    },
+    {
+      "script": "review/check_interval_export.py",
+      "exit_code": 0,
+      "seconds": 18.492,
+      "log": "03_check_interval_export.log",
+      "log_sha256": "d5c00dab255d391cef251febc54c1230ac7c98ef21668f3d1204e588b338bdf5"
+    },
+    {
+      "script": "src/verify_package.py",
+      "exit_code": 0,
+      "seconds": 0.068,
+      "log": "04_verify_package.log",
+      "log_sha256": "37d8385273749743456e7b7b7409b76af9ad269fe0ce7a75db795970bd904300"
+    }
+  ],
+  "note": "Exact certificates and source assertions are checked; full optimizer coordinates need not be byte-identical. No hardware claim.",
+  "all_passed": true,
+  "files_verified_after": 1121
+}

@@ -1,0 +1,17 @@
+{
+  "date_utc":"2026-10-04",
+  "historical_sources":"HISTORICAL_SOURCE_FREEZE.json records2476 unchanged old files; the copied implementation/proof modules in prior_core are byte-verified",
+  "local_principal_inputs":["outputs/round2_candidate_audit_20261003/CANDIDATE_PAPER_AUDIT_ZH.md G3 section","outputs/round2_g3_port_20261003/theory/EXACT_PORT_CONTRACT_THEORY.md","outputs/round2_g3_port_20261003/src/model.py","outputs/round2_g3_port_20261003/src/admission.py","outputs/round2_g3_port_20261003/src/envelope.py","outputs/round2_g3_port_20261003/theory/vector_weak_certificate.py","outputs/round2_g3_port_20261003/results/BOUNDARY_RESULTS.json","outputs/round2_g3_port_20261003/validation/BOUNDARY_VALIDATION_REPORT.md","outputs/round2_g3_port_20261003/recovery_phase3_workload_match/REPORT_PHASE3.md"],
+  "primary_web_sources":[
+    {"url":"https://web.stanford.edu/~boyd/cvxbook/","work":"Boyd and Vandenberghe Convex Optimization","read_level":"author page plus indexed3.3/5 excerpts; PDF direct tool internal error","use":"classical convex conjugacy/supporting tangent/duality attribution"},
+    {"url":"https://arxiv.org/html/2603.17135v1","work":"Streitmatter et al Convexity and Optimal Online Control of Grid-Interfacing Converters with Current Limits","read_level":"primaryHTML sectionsII-IV theorem1","use":"static output region/converter convexity direct prior"},
+    {"url":"https://arxiv.org/html/2110.08549v1","work":"Evans Tindemans Angeli Flexibility Framework with Recovery Guarantees","read_level":"primaryHTML retrieved; relevant II/III with inherited theorem-level audit","use":"service/recovery/loss prior"},
+    {"url":"https://motion.cs.illinois.edu/papers/ICRA2012-Johnson-optimal.pdf","work":"Johnson Hauser2012","read_level":"primaryPDF retrieved; inherited exact corridor comparison","use":"acceleration/ramp corridor reachability tools"},
+    {"url":"https://optimization-online.org/wp-content/uploads/2015/06/4966.pdf","work":"Xia Alizadeh polynomial nonnegativity SOCP","read_level":"primaryPDF retrieved; inherited sections2/4 comparison","use":"mature polynomial SOCP baseline attribution"},
+    {"url":"https://arxiv.org/html/1504.06167","work":"Schönlein Helmke Controllability of ensembles of linear dynamical systems","read_level":"primaryHTML retrieved","use":"common open-loop parameter-family background; exact reset note is proved directly, not falsely attributed"},
+    {"url":"https://arxiv.org/abs/0810.5116","work":"Jr-Shin Li Ensemble Control of Finite Dimensional Time-Varying Linear Systems","read_level":"primaryabstract","use":"integral operator/ensemble context only"},
+    {"url":"https://www.mdpi.com/1996-1073/19/18/4464","doi":"10.3390/en19184464","work":"Jaramillo Carrion Aguila Tellez Service-Constrained Critical Energy-Headroom Boundaries for Current-Limited Grid-Forming Battery Converters","publication_date":"2026-09-21","read_level":"publisher search-index body sections1,2,8 and abstract; direct article andHTML tools internal error","use":"new directly relevant combined-service boundary antecedent; full theorem-level containment remains unverified"},
+    {"url":"https://www.mdpi.com/1996-1073/19/18/4464/notes","read_level":"publisher version notes","use":"publication/version date verification"}
+  ],
+  "search_limit":"Targeted primary-source pass, not exhaustive novelty proof; no author contact, paid source, hardware or access-bypass actions"
+}

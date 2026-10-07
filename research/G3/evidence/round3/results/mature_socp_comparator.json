@@ -1,0 +1,26 @@
+{
+  "status": "optimal",
+  "alpha": 100,
+  "beta": 808,
+  "n": 320,
+  "intervals": 321,
+  "current_squared_margin": 0.9052785327066886,
+  "runtime_s": 0.37590649200137705,
+  "gamma_kW": 5.30763054184861,
+  "energy_residual_kJ": 1.6815954011206754e-14,
+  "margin_kJ": 0.0071382825773217765,
+  "polynomial_residual_min": {
+    "W_lower": 1.7288062428473399,
+    "W_upper": 1.7650189803611702,
+    "B_lower": 35.80421736416561,
+    "B_upper": 49.99999999999999,
+    "b_lower": 173.12756156897007,
+    "b_upper": 22.420352576817514,
+    "u_lower": 162.48849088071995,
+    "u_upper": 5.603503041129443e-06,
+    "ramp_lower": 6501.966467387301,
+    "ramp_upper": 0.0005507794157892931,
+    "modulation": 2.343191193838025e-09
+  },
+  "certified_numeric_inner": true
+}

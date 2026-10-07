@@ -1,0 +1,33 @@
+{
+  "run_at_utc": "2026-10-03T09:34:10.759562+00:00",
+  "source_case": "tau4_r25_o73_h05_s1",
+  "original_command": [
+    "./recovery_phase2/recovery",
+    "case",
+    "./recovery_phase2/original_input.csv",
+    "./recovery_phase2/tau4_r25_o73_h05_s1",
+    "5e-07",
+    "./recovery_phase2/checkpoint_h05.csv",
+    "0.004",
+    "25000000.0",
+    "7.3e-05",
+    "1"
+  ],
+  "audit_command": [
+    "./recovery_phase2/recovery",
+    "case",
+    "./recovery_phase2/original_input.csv",
+    "./recovery_phase2/audit/reproduce_tau4_r25_o73_h05_s1",
+    "5e-07",
+    "./recovery_phase2/checkpoint_h05.csv",
+    "0.004",
+    "25000000.0",
+    "7.3e-05",
+    "1"
+  ],
+  "extrema_identical": true,
+  "main_csv_identical": true,
+  "snapshots_identical": true,
+  "bins_identical": true,
+  "dense_arrays_identical": true
+}

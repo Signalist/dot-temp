@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.8"
+  },
+  "scientific_import_paths": {
+    "model": "prior_core/src/model.py",
+    "admission": "prior_core/src/admission.py",
+    "envelope": "prior_core/src/envelope.py",
+    "vector_weak_certificate": "prior_core/theory/vector_weak_certificate.py",
+    "explore_coupled": "src/explore_coupled.py",
+    "account_and_ablate": "src/account_and_ablate.py"
+  },
+  "all_scientific_imports_within_unpacked_bundle": true
+}

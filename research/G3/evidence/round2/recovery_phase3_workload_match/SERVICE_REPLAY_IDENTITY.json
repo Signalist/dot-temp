@@ -1,0 +1,36 @@
+[
+  {
+    "case": "nominal_h1",
+    "metrics_bitwise_equal": {
+      "steps": true,
+      "clipped_cycles": true,
+      "all": true,
+      "service": true,
+      "recovery": true
+    },
+    "outputs_byte_or_array_bitwise_equal": {
+      ".csv": true,
+      "_snapshots.csv": true,
+      "_bins.csv": true,
+      "dense_npz_arrays": true
+    },
+    "pass": true
+  },
+  {
+    "case": "nominal_h05",
+    "metrics_bitwise_equal": {
+      "steps": true,
+      "clipped_cycles": true,
+      "all": true,
+      "service": true,
+      "recovery": true
+    },
+    "outputs_byte_or_array_bitwise_equal": {
+      ".csv": true,
+      "_snapshots.csv": true,
+      "_bins.csv": true,
+      "dense_npz_arrays": true
+    },
+    "pass": true
+  }
+]

@@ -1,0 +1,231 @@
+{
+  "selected_certificate_audits": [
+    {
+      "epsilon_kJ": 0,
+      "beta_kvar": 809.710721670912,
+      "window_s": [
+        0.015,
+        0.020000000000000004
+      ],
+      "angle_rad": -0.09999999999999999,
+      "independent_threshold_kvar": 809.7007216709301,
+      "independent_terms": {
+        "margin_kV_s": 3.108121919125767e-09,
+        "Mbar_kV_s": 0.0016345212272602775,
+        "error_kV_s": 0.0,
+        "rhs_kV_s": 0.0016345181191383584,
+        "active_error_ratio": 0.19202039940142976,
+        "reactive_error_ratio": 0.2127004536084141,
+        "rho_kJ": 0.0,
+        "adplus": 0.18978399808627466,
+        "aqminus": 0.003617429905292992
+      },
+      "tail_gamma_kW": 5.3294617287455885
+    },
+    {
+      "epsilon_kJ": 0.001,
+      "beta_kvar": 813.3278715312669,
+      "window_s": [
+        0.014000000000000002,
+        0.020000000000000004
+      ],
+      "angle_rad": -0.09999999999999999,
+      "independent_threshold_kvar": 813.3178715309632,
+      "independent_terms": {
+        "margin_kV_s": 3.726905620921039e-09,
+        "Mbar_kV_s": 0.0019626360559235854,
+        "error_kV_s": 1.8980080636135172e-07,
+        "rhs_kV_s": 0.0019624425282116034,
+        "active_error_ratio": 0.16039571928216698,
+        "reactive_error_ratio": 0.14868813002867065,
+        "rho_kJ": 0.02141160466717018,
+        "adplus": 0.15852764068913175,
+        "aqminus": 0.002540058817857235
+      },
+      "tail_gamma_kW": 5.398308108689051
+    },
+    {
+      "epsilon_kJ": 0.01,
+      "beta_kvar": 821.0296816329852,
+      "window_s": [
+        0.013000000000000001,
+        0.022000000000000002
+      ],
+      "angle_rad": -0.09999999999999999,
+      "independent_threshold_kvar": 821.0196816330044,
+      "independent_terms": {
+        "margin_kV_s": 5.6017777196396e-09,
+        "Mbar_kV_s": 0.002947820532207402,
+        "error_kV_s": 1.2743435263471202e-06,
+        "rhs_kV_s": 0.0029465405869033355,
+        "active_error_ratio": 0.10769145318164483,
+        "reactive_error_ratio": 0.06642049686486244,
+        "rho_kJ": 0.058556147496450155,
+        "adplus": 0.10643720463160979,
+        "aqminus": 0.0011454148161071775
+      },
+      "tail_gamma_kW": 5.700416601460943
+    },
+    {
+      "epsilon_kJ": 0.1,
+      "beta_kvar": 834.414530875619,
+      "window_s": [
+        0.009000000000000001,
+        0.027000000000000003
+      ],
+      "angle_rad": -0.09999999999999999,
+      "independent_threshold_kvar": 834.4045308778184,
+      "independent_terms": {
+        "margin_kV_s": 1.1233982376290808e-08,
+        "Mbar_kV_s": 0.005909079938448641,
+        "error_kV_s": 6.508670492676077e-06,
+        "rhs_kV_s": 0.005902560033973589,
+        "active_error_ratio": 0.05500307955783126,
+        "reactive_error_ratio": 0.01648674008225714,
+        "rho_kJ": 0.09687108880514118,
+        "adplus": 0.054362475956108935,
+        "aqminus": 0.0002889471852847061
+      },
+      "tail_gamma_kW": 7.903375690044078
+    },
+    {
+      "epsilon_kJ": 1.0,
+      "beta_kvar": 860.219488646091,
+      "window_s": [
+        0.005,
+        0.035
+      ],
+      "angle_rad": -0.09999999999999999,
+      "independent_threshold_kvar": 860.2094885981315,
+      "independent_terms": {
+        "margin_kV_s": 1.8873598373395084e-08,
+        "Mbar_kV_s": 0.009891648419754772,
+        "error_kV_s": 4.017391881987685e-05,
+        "rhs_kV_s": 0.009851455627336522,
+        "active_error_ratio": 0.03394993271645888,
+        "reactive_error_ratio": 0.005768448903639582,
+        "rho_kJ": 0.09687108880514118,
+        "adplus": 0.033554528507254065,
+        "aqminus": 0.00010422457815941917
+      },
+      "tail_gamma_kW": 28.534786676828908
+    }
+  ],
+  "max_difference_from_target": {
+    "margin_kV_s": 8.673617379884035e-19,
+    "Mbar_kV_s": 8.673617379884035e-19,
+    "error_kV_s": 0,
+    "rhs_kV_s": 8.673617379884035e-19,
+    "active_error_ratio": 2.7755575615628914e-17,
+    "reactive_error_ratio": 2.498001805406602e-16,
+    "rho_kJ": 5.551115123125783e-17
+  },
+  "all_higher_beta_exclusion": {
+    "free_allocation_current_ceiling_beta_kvar": 1267.6109418902945,
+    "gamma_at_100J_and_current_ceiling_kW": 15.087518807178386,
+    "gamma_below_alpha_through_current_range": true,
+    "argument": "For fixed chosen test at epsilon=0.1, all beta from the strict upper witness to S*Imax have gamma<alpha; mu,K,rho stay fixed. Mbar increases with beta, joint error=max(const,const/beta) does not increase, H falls with beta squared. Therefore margin is increasing until a DC ceiling itself excludes. Beyond S*Imax the Q floor alone violates current."
+  },
+  "constructive_808_witness": {
+    "file": "boundary_a100_q808_n320.npz",
+    "alpha_kW": 100.0,
+    "beta_kvar": 808.0,
+    "nominal_n": 320,
+    "intervals": 321,
+    "sigma_kJ": 0.0071382825773217765,
+    "independent_admitted_numeric": true,
+    "profile_max_error": 5.115907697472721e-13,
+    "gamma_kW": 5.307630541848399,
+    "grid_energy_closure_kJ": 1.7583157152500923e-15,
+    "analytic_minimum_slacks": {
+      "W_lower_kJ": 1.7359445254245836,
+      "W_upper_kJ": 1.7721572629388225,
+      "B_lower_kJ": 35.80421736416579,
+      "B_upper_kJ": 49.99999999999944,
+      "modulation_kJ": 0.007138284920434811,
+      "b_lower": 173.12756156897007,
+      "b_upper": 22.420352576817518,
+      "u_lower": 162.48849088071995,
+      "u_upper": 5.603503040685354e-06,
+      "ramp_lower": 6501.966467387301,
+      "ramp_upper": 0.0005507794121513143
+    },
+    "minimum_locations_s": {
+      "W_lower_kJ": 0.01709824141309684,
+      "W_upper_kJ": 0.10758714416868083,
+      "B_lower_kJ": 0.05413574994445985,
+      "B_upper_kJ": 0.2,
+      "modulation_kJ": 0.01709824141309684,
+      "b_lower": 0.08970503637529478,
+      "b_upper": 0.023453324672750207,
+      "u_lower": 0.08375,
+      "u_upper": 0.01125,
+      "ramp_lower": 0.035,
+      "ramp_upper": 0.00125
+    },
+    "reconstructed_coeff_max_errors": {
+      "W_coeff_kJ": 5.755396159656812e-13,
+      "B_coeff_kJ": 5.542233338928781e-13,
+      "u_coeff_kW": 5.684341886080802e-14
+    },
+    "dense_physical_identity_errors": {
+      "power_balance_kW": 2.0747847884194925e-12,
+      "total_energy_derivative_kW": 2.0463630789890885e-12,
+      "phase_power_kW": 2.0463630789890885e-12,
+      "phase_norm_sq_kA2": 1.887379141862766e-15
+    },
+    "terminal_residuals": {
+      "b0_kW": 1.538170865627344e-17,
+      "bT_kW": -8.197321529417343e-19,
+      "integral_b_kJ": -5.618920855942483e-13,
+      "W_restore_kJ": -5.684341886080801e-13,
+      "B_restore_kJ": 5.618920855942483e-13,
+      "initial_hold_b_coeff_kW": 1.349771544344089e-16,
+      "b_continuity_kW": 1.1368683772161603e-13,
+      "C_continuity_kJ": 3.1030733538273125e-14
+    },
+    "current_envelope_squared_margin_kA2": 0.9052785327066886,
+    "sampled_phase_peak_kA": 1.159621259411228,
+    "sampled_modulation_circle_ratio": 0.9998143983533663,
+    "timestamps_strict_and_cover_horizon": true,
+    "timestamp_has_hold_boundary": true,
+    "independent_SI_abc_replay": {
+      "method": "independent SI abc DOP853; physical converter circle/input/ramp clipping active in RHS; each knot is an integration boundary",
+      "rtol": 2e-10,
+      "rhs_evaluations": 23022,
+      "max_errors_and_clipping": {
+        "i_abc_A": 3.558398020686582e-11,
+        "W_J": 8.003553375601768e-11,
+        "B_J": 1.4551915228366852e-11,
+        "b_W": 1.1059455573558807e-09,
+        "P_W": 1.7229467630386353e-08,
+        "Q_var": 3.170434947786189e-08,
+        "energy_closure_J": 3.943569026887417e-09,
+        "command_clip_W": 0.0,
+        "modulation_clip_V": 0.0,
+        "ramp_clip_Wps": 0.0
+      },
+      "sampled_limits": {
+        "Vdc_V": 1132.3116359907906,
+        "Vdc_upper_slack_V": 45.536944633486655,
+        "B_lower_J": 35804.217528259716,
+        "B_upper_J": 49999.99999999946
+      },
+      "sampled_phase_peak_A": 1159.6209816604082,
+      "terminal": {
+        "W_error_J": -6.111804395914078e-10,
+        "B_error_J": 5.384208634495735e-10,
+        "b_W": 3.299602506357518e-11
+      }
+    }
+  },
+  "capacity_bracket": {
+    "epsilon_kJ": 0.1,
+    "lower_exhibited_beta_kvar": 808.0,
+    "strict_upper_excluded_beta_kvar": 834.414530875619,
+    "width_relative_to_lower_percent": 3.269125108368687,
+    "lower_actual_gamma_kW": 5.307630541848399,
+    "lower_allowed_100J_cap_gamma_kW": 7.5611250191802615,
+    "scope": "Supremal beta over all admissible time-varying P/Q in the explicitly tail-expanded-cap, nonnegative-import, positive-reactive-floor contract family. Numerical, not directed interval, certificate."
+  }
+}

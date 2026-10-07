@@ -1,0 +1,12 @@
+{
+  "candidate": "G3",
+  "date_utc": "2026-10-04",
+  "main_report": "G3_THIRD_ROUND_RESEARCH_DOSSIER_ZH.md",
+  "theorem": "theory/PREFIX_COUPLED_CERTIFICATE.md",
+  "independent_review": "review/INDEPENDENT_SUPPORT_REVIEW.md",
+  "review_addendum": "review/ORDERED_ROBUSTNESS_ADDENDUM.md",
+  "closure": "SCIENTIFIC_CLOSURE.json",
+  "qa": "QA.json",
+  "evidence_zip": "../round3_g3_20261004_evidence.zip",
+  "result": "808kvar exact averaged held-buffer feasible;812.5kvar and above prefix-only all-allocation excluded; completePWMsamecontract stillopen"
+}

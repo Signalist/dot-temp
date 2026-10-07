@@ -1,0 +1,81 @@
+{
+  "scientific_status": "CORE_THEORY_MODEL_CANDIDATE_PLUS_FINITE_CAUSAL_PWM_RECOVERY_WITNESS; HIGH_ORIGINALITY_UNESTABLISHED",
+  "core_scope": "Ideal averaged model, prescribed positive continuing compute workload, import P cap/reactive Q floor, same device and initial-state/information contracts",
+  "all_allocation_100J_bracket": {
+    "active_curtailment_kW": 100,
+    "extra_net_cap_slack_J": 100,
+    "feasible_lower_kvar": 808,
+    "strict_excluded_upper_kvar": 834.414530875619,
+    "relative_width_percent": 3.2691251083686876,
+    "interface": "ideal averaged model exact service/return over0-.2s; not exact-PWM transfer"
+  },
+  "core_files_verified_unchanged": 437,
+  "core_changed": [],
+  "recovery_V1A": {
+    "runs": 18,
+    "unique_configurations": 9,
+    "full_pass": 14,
+    "retained_fail": 4,
+    "failure": "incremental correction5059.18W>5000W in2heldout configurations at2steps",
+    "recovery_energy_budget_J": 1000
+  },
+  "recovery_V2": {
+    "runs": 34,
+    "unique_configurations": 17,
+    "nominal_configurations": 1,
+    "known_regression_configurations": 8,
+    "fresh_confirmation_configurations": 8,
+    "integration_steps_us": [
+      1,
+      0.5
+    ],
+    "full_pass": 34,
+    "service_witness": "alpha100kW,q600kvar,n160 only",
+    "recovery_deadline_from_onset_s": 0.7,
+    "observation_end_s": 0.9,
+    "service_duration_s": 0.2,
+    "state_tolerances": {
+      "W_J": 2,
+      "B_J": 2,
+      "each_phase_A": 2
+    },
+    "actual_worst": {
+      "W_J": 0.226772,
+      "B_J": 0.22567,
+      "phase_current_A": 0.000296632,
+      "incremental_correction_W": 31.5206,
+      "recovery_abs_energy_J": 0.565316,
+      "recovery_positive_energy_J": 0.136859,
+      "recovery_signed_magnitude_J": 0.311569
+    },
+    "energy_budgets_J": {
+      "signed_magnitude": 100,
+      "positive": 100,
+      "absolute": 100
+    },
+    "energy_interface": "signed physical accumulated AC quadrature, positive/absolute on phase-matched PWM-cycle mean incremental P versus healthy, recovery .2-.7s",
+    "same_as_core_100J_contract": false,
+    "controller": "causal sampled capacitor-plus-inventoryPI; filterZ separately retained in ledger",
+    "limits": "finite enumerated configurations, ideal noiseless measurements, sampled return/extrema, no general hybrid stability or continuous uncertainty box guarantee"
+  },
+  "recovery_file_count": 994,
+  "recovery_bytes": 1559827045,
+  "recovery_raw_numeric_files": 805,
+  "recovery_raw_numeric_bytes": 1556340862,
+  "final_manifests": {
+    "SCIENCE_MANIFEST.json": "ac5c99778f0a2172ae493eef444b1b503dad6f9fe09102071738ef55cadd7287",
+    "RECOVERY_COMPLETE_MANIFEST.json": "9adf0d666dac02f74046818912ea1f52693508e4479a456ac5569db1671fba5b",
+    "recovery_phase2/FINAL_INDEX.json": "1765d71724b1a7e9b2ba1eb9554448753704952f392f739b368ae30d786a4b8b",
+    "recovery_phase2/audit/AUDIT_FINAL_MANIFEST.json": "4ffc94ab4fcc7cf0b242ae3908fd7631fdc1cb9e957ededf700f7ee5f91e8fce",
+    "recovery_phase2/V2/DELIVERABLE_SHA256.json": "004d92a5cd4fd5017ec55c7c013a8598e1ad251eaabdfddeab43be88d85e1aa6"
+  },
+  "final_reports": [
+    "reports/G3_RESEARCH_REPORT_ZH.md",
+    "theory/EXACT_PORT_CONTRACT_THEORY.md",
+    "recovery_phase2/REPORT_V1A.md",
+    "recovery_phase2/V2/REPORT_V2.md",
+    "recovery_phase2/audit/v2/AUDIT_REPORT_V2.md"
+  ],
+  "novelty_limit": "Standard energy accounting, exact reachability, Hermite/SOCP, sharp interpolation and ordinary PI recovery are explicitly attributed; no new controller or high-originality proof claim",
+  "no_further_scientific_runs_planned": true
+}

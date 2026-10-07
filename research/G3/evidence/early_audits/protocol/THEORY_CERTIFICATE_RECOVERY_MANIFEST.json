@@ -1,0 +1,47 @@
+{
+  "status": "Text recovery only; no numeric calculator or simulation execution in this recovery step",
+  "original_bytes_available": false,
+  "old_trajectory_or_raw_logs_recreated": false,
+  "numeric_revalidation_pending_parent_completion_notification": true,
+  "files": [
+    {
+      "path": "recovered_source/dc_bound_gate_a.py",
+      "sha256": "5ea0dec4a8009887808240a3af57b9274018c281b2feac53f9263502701c26bf",
+      "bytes": 9845,
+      "syntax_parse": "passed; not executed"
+    },
+    {
+      "path": "recovered_source/recover_v2_1_from_legacy.py",
+      "sha256": "d5e2ae387df6ac4e0e956dd5549772b420c9baba2ab18d93c1a12c89a4070fc3",
+      "bytes": 5614,
+      "syntax_parse": "passed; not executed"
+    },
+    {
+      "path": "recovered_source/dc_bound_gate_a_v2_1.py",
+      "sha256": "584586ded70e29f6296ed7da857cd126cf2e207574bb260ac56e843a4c02fec6",
+      "bytes": 11998,
+      "syntax_parse": "passed; not executed"
+    },
+    {
+      "path": "gate_a/dc_bound_gate_a_v2_1.py",
+      "sha256": "0e1bace60a38d1f2385c2caeb4436a0a952350d432160cc9f2bf94bd98a9e8bf",
+      "bytes": 12867,
+      "syntax_parse": "passed; not executed"
+    },
+    {
+      "path": "protocol/THEORY_REVIEW_RECOVERED.md",
+      "sha256": "0419800f68d2ea93672224beee316656732f686d20da4100130d7168b85ac451",
+      "bytes": 14090
+    },
+    {
+      "path": "protocol/DC_CERTIFICATE_HISTORICAL_RECORD.md",
+      "sha256": "4b270e666770fdbb1e1e547231c47e51230dba414a38ffeb49c7f0612edab3eb",
+      "bytes": 5229
+    },
+    {
+      "path": "protocol/THEORY_CERTIFICATE_RECOVERY_PROVENANCE.md",
+      "sha256": "a7aa3dae2af5bfacf3b537000d3e7fdb767103babe962fa974a57899c6346148",
+      "bytes": 4395
+    }
+  ]
+}

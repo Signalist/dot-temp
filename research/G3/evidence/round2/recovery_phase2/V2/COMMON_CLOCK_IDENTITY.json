@@ -1,0 +1,4 @@
+{
+  "bitwise_identical_healthy_forks": true,
+  "method": "Same full nominal checkpoint, actual parameters, absolute clock, controller and service-clock gates; independent process runs"
+}

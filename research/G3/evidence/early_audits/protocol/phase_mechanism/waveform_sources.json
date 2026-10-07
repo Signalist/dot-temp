@@ -1,0 +1,277 @@
+{
+  "audit_date_utc": "2026-10-02",
+  "audit_kind": "targeted_primary_source_review_only",
+  "paper_ready": false,
+  "scope": "Fixed grid-side BESS; exogenous computing load and fixed internal supply chain; no workload scheduling or UPS control",
+  "new_simulations": false,
+  "external_code_installed_or_executed": false,
+  "raw_power_data_downloaded": false,
+  "source_binaries_retained": false,
+  "existing_files_modified": false,
+  "selected_primary_source_groups": [
+    {
+      "id": "W1",
+      "title": "Electromagnetic Transient Modeling of Large Data Centers for Grid-Level Studies",
+      "authors": [
+        "Brett A. Ross",
+        "Jim Follum"
+      ],
+      "identifier": "PNNL-38817",
+      "version": "Alpha Release",
+      "document_date": "2025-12",
+      "url_path_date": "2026-01",
+      "date_note": "Cover date governs; URL path is not publication-date evidence",
+      "url": "https://www.energy.gov/sites/default/files/2026-01/Data_Center_EMT_Models.pdf",
+      "inspection": "Primary report text read through public web; relevant PDF pages requested as screenshots; no binary saved",
+      "anchors": [
+        {
+          "section": "4.1.1",
+          "printed_pages": "26-27",
+          "pdf_pages_1_based": "37-38",
+          "role": "Double-conversion UPS and grid-side converter boundary"
+        },
+        {
+          "section": "4.1.3",
+          "printed_pages": "33-36",
+          "pdf_pages_1_based": "44-47",
+          "figures": [
+            26,
+            27,
+            28
+          ],
+          "role": "Voltage response and four-stage AI training illustration"
+        },
+        {
+          "section": "6.12",
+          "printed_pages": "65-66",
+          "pdf_pages_1_based": "76-77",
+          "table": 23,
+          "figure": 51,
+          "role": "Simplified time-varying-resistance generator"
+        },
+        {
+          "section": "6.13",
+          "printed_pages": "66-69",
+          "pdf_pages_1_based": "77-80",
+          "table": 24,
+          "figures": [
+            52,
+            53,
+            54
+          ],
+          "role": "Playback, filtered current, current limit, UV cessation and reconnection"
+        }
+      ],
+      "evidence_type": "Generic EMT model and engineering synthesis; not a metrologically documented PCC dataset",
+      "measurement_point": "Figure 28 calls its illustration site-level; originating instrument and raw samples unidentified",
+      "raw_sample_interval_s": null,
+      "synchronized_fraction": null,
+      "raw_dataset_url": null,
+      "parameter_semantics": {
+        "table24_current_source_time_constant_s": [
+          0.002,
+          0.01
+        ],
+        "meaning": "Generic first-order electronic current-source control approximation; neither a measured facility transfer pole nor the BESS source time constant"
+      },
+      "limitations": [
+        "Do not interpret load_ai_train resistance law as a valid deep-sag training-load law",
+        "Keep playback protection and internal support assumptions explicit",
+        "No facility-specific waveform calibration"
+      ]
+    },
+    {
+      "id": "W2",
+      "title": "Power Stabilization for AI Training Datacenters",
+      "authors": "Esha Choukse et al.",
+      "identifier": "arXiv:2508.14318v1",
+      "document_date": "2025-08-20",
+      "url": "https://arxiv.org/html/2508.14318v1",
+      "inspection": "Primary full HTML read",
+      "anchors": [
+        "Sections II-B and II-C; Figures 1-3",
+        "Section III-A",
+        "Section IV-C; Figure 7"
+      ],
+      "evidence_type": "Production training telemetry plus explicitly separate simulation and mitigation examples",
+      "measurement_point": "Fig.1 describes DGX-H100 rack training readings; exact instrument and PCC mapping not disclosed",
+      "raw_sample_interval_s": null,
+      "synchronized_fraction": null,
+      "raw_dataset_url": null,
+      "raw_data_status": "No original CSV/repository for Fig.1 identified in inspected paper",
+      "limitations": [
+        "1 ms GPU polling in the software-mitigation section does not establish Fig.1 acquisition rate",
+        "Reported 0.2-3 Hz spectral concentration is not a universal iteration fundamental",
+        "Storage smoothing figures do not constitute field PCC validation"
+      ]
+    },
+    {
+      "id": "W3",
+      "title": "AI Load Dynamics–A Power Electronics Perspective",
+      "authors": [
+        "Yuzhuo Li",
+        "Yunwei Li"
+      ],
+      "identifier": "arXiv:2502.01647v2",
+      "document_date": "2025-02-06",
+      "url": "https://arxiv.org/html/2502.01647v2",
+      "inspection": "Primary full HTML read",
+      "anchors": [
+        "Section III instrumentation statement",
+        "Section VI-A; Figure 11"
+      ],
+      "evidence_type": "Single-workstation synchronized oscilloscope experiment",
+      "measurement_point": "GPU motherboard DC current, single-phase PSU AC input current, and AC voltage",
+      "equipment_scope": "Single RTX4090; 1 kW Gold PSU",
+      "raw_sample_interval_s": null,
+      "probe_bandwidth_hz": null,
+      "raw_dataset_url": null,
+      "observed_lag_s": [
+        0.02,
+        0.05
+      ],
+      "lag_semantics": "Approximate AC-current-amplitude lag reported for this setup, not an identified one-pole time constant",
+      "limitations": [
+        "No direct multiplied-to-MW extrapolation",
+        "No facility UPS or PCC voltage-sag calibration",
+        "Oscilloscope plots do not equal publicly released raw samples"
+      ]
+    },
+    {
+      "id": "W4",
+      "title": "The MIT Supercloud Dataset",
+      "authors": "Siddharth Samsi et al.",
+      "identifier": "10.1109/HPEC49654.2021.9622850; arXiv:2108.02037",
+      "document_date": "2021",
+      "url": "https://arxiv.org/pdf/2108.02037",
+      "publication_and_distribution_links": [
+        "https://github.com/MIT-AI-Accelerator/MIT-Supercloud-Dataset",
+        "https://dcc.mit.edu/data/",
+        "https://registry.opendata.aws/dcc/"
+      ],
+      "anchors": [
+        "Paper Section III, Tables I, II, V",
+        "Author repository: Data Organization / GPU utilization",
+        "MIT Data page January 2022 release listing",
+        "AWS Registry: Resources on AWS and License"
+      ],
+      "evidence_type": "Original GPU telemetry dataset; original paper also describes physical facility monitoring",
+      "measurement_point": "GPU onboard telemetry via nvidia-smi; not a declared facility PCC meter",
+      "record_interval_s": {
+        "gpu": 0.1,
+        "cpu": 10.0,
+        "node_snapshot": 300.0
+      },
+      "gpu_power_field": "power_draw W; timestamp, node and GPU index accompany measurements",
+      "sensor_independent_refresh_interval_s": null,
+      "clock_alignment_accuracy_s": null,
+      "public_release_uri": "s3://mit-supercloud-dataset/datacenter-challenge/202201/",
+      "public_access": "Publisher/author documentation and AWS Registry confirm no-account public S3 access",
+      "raw_bytes_verified": false,
+      "access_check": {
+        "s3_listing_attempt": "https://mit-supercloud-dataset.s3.amazonaws.com/?list-type=2&prefix=datacenter-challenge/202201/gpu/&max-keys=2",
+        "result": "Public web tool reported URL inaccessible; no conclusion of dataset absence",
+        "mit_data_page": "Search-index content read; direct page request returned 502"
+      },
+      "facility_data_status": "Paper describes EcoPOD IT/HVAC, line voltage/current and PUE monitoring; raw facility file release path, interval and PCC equivalence remain unverified in this bounded review",
+      "data_license_registry": "CC BY-NC-ND 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "license_caution": "Repository code MIT license does not by itself govern raw data; check specific downloaded object license before redistribution",
+      "limitations": [
+        "100 ms logging does not identify millisecond electrical edges",
+        "Cannot infer aggregate facility load by duplicating a single GPU trace",
+        "No facility fault P/Q/V and internal chain identification established"
+      ]
+    }
+  ],
+  "requested_prior_sources_reviewed_but_not_selected_as_waveform_calibration": [
+    {
+      "identifier": "arXiv:2508.11080v1",
+      "url": "https://arxiv.org/html/2508.11080v1",
+      "anchors": [
+        "Section II",
+        "Section IV"
+      ],
+      "finding": "MIT-derived synthetic profiles scaled to approximately 1.5 GW peak with simplified ZIP; not original measured facility PCC validation"
+    },
+    {
+      "identifier": "arXiv:2605.00769v1",
+      "url": "https://arxiv.org/html/2605.00769v1",
+      "anchors": [
+        "Sections III-IV"
+      ],
+      "finding": "P/Q voltage-support feasibility and UPS transfer analysis; no newly reproducible raw workload trace"
+    },
+    {
+      "identifier": "arXiv:2409.11416v1",
+      "url": "https://arxiv.org/html/2409.11416v1",
+      "anchors": [
+        "Section IV-A",
+        "Reference 46"
+      ],
+      "finding": "Intermediate citation in 2508.11080; followed to original MIT dataset rather than treating its aggregate BERT plot as PCC instrumentation evidence"
+    }
+  ],
+  "proposed_template": {
+    "name": "literature-structured synthetic four-stage exogenous demand",
+    "field_calibrated": false,
+    "healthy_gate_passed": false,
+    "implemented_or_simulated": false,
+    "period_s": 30.0,
+    "period_design_bracket_s": [
+      20.0,
+      60.0
+    ],
+    "normalized_breakpoints": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      1.0
+    ],
+    "dimensionless_plateau_levels": [
+      0.5,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "dimensionless_mean": 0.85,
+    "nominal_profile_definition": "tau_e*dz/dt=g-z in periodic steady state; P_L0=P_bar+DeltaP_pp*(z-0.85)/0.5",
+    "synthetic_edge_time_constant_s": 0.01,
+    "possible_edge_diagnostic_s": [
+      0.002,
+      0.005,
+      0.01
+    ],
+    "initial_peak_to_peak_fraction_of_load_mean": 0.05,
+    "possible_amplitude_design_bracket": [
+      0.02,
+      0.1
+    ],
+    "amplitude_status": "Research design choices, not inferred field ranges; subject to unchanged BESS limits and healthy admission",
+    "aggregation_coherent_fraction": null,
+    "possible_coherence_counterfactuals": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "reactive_power": "Fixed declared baseline in the first diagnostic; zero only if explicitly identified as a model assumption",
+    "not_included": [
+      "Clean phase labels in controller input",
+      "Future fault/clearance times",
+      "Internal workload scheduling",
+      "Internal UPS control",
+      "Automatically inserted notch/burst/checkpoint events"
+    ]
+  },
+  "protocol_requirements": [
+    "Nominal P/Q demand must be distinguished from voltage-dependent actual electrical load",
+    "AI and industrial labels must give identical responses for identical nominal P/Q, dynamic load law, supply-chain state, network and controls",
+    "Every new waveform requires a no-fault loss-compensated safe continuous orbit before fault claims",
+    "Controller receives only current measurements and causal history; phase/stage indexes remain offline",
+    "No per-phase or per-cycle resets of source, DC energy, integrators, delays, or SoC",
+    "Internal buffers, if modeled, require bounded power and energy accounting; no free UPS reserve",
+    "No binary raw-data reproducibility or facility FRT validation claim in this audit"
+  ]
+}

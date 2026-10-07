@@ -1,0 +1,78 @@
+{
+  "motulator_installed_version": "0.7.8",
+  "component_source_sha256": {
+    "model_audit/abc_reference/.venv_motulator/lib/python3.12/site-packages/motulator/grid/model/_ac_filter.py": "ca06ff98a5418c47c7df3857f12f447701b46393cb619426c45f5dbd2f4ed1a8",
+    "model_audit/abc_reference/.venv_motulator/lib/python3.12/site-packages/motulator/common/model/_converter.py": "5d823e90c5b248e9ca33d0af7b77996b0563b692fc788dcfd72ae17cce2f65c1"
+  },
+  "method": "8 deterministic algebraic points, not new trajectory experiments; official LFilter RHS/PCC and ideal capacitive converter RHS evaluated directly against independent abc circuit algebra. Loss is placed as external bus current for DC check; battery actuator/control not externally validated.",
+  "rows": [
+    {
+      "phase_rad": 0.0,
+      "loading": 0.3,
+      "retained_source": 1.0,
+      "current_rhs_error_A_per_s": 4.802269825611469e-11,
+      "pcc_voltage_error_V": 1.163751005191159e-13,
+      "dc_energy_rhs_error_W": 1.0186340659856796e-10
+    },
+    {
+      "phase_rad": 0.0,
+      "loading": 0.3,
+      "retained_source": 0.4,
+      "current_rhs_error_A_per_s": 4.737760346644705e-10,
+      "pcc_voltage_error_V": 1.1374233532693354e-13,
+      "dc_energy_rhs_error_W": 1.0186340659856796e-10
+    },
+    {
+      "phase_rad": 0.0,
+      "loading": -0.4,
+      "retained_source": 1.0,
+      "current_rhs_error_A_per_s": 5.246767651208195e-11,
+      "pcc_voltage_error_V": 1.1718571004216928e-13,
+      "dc_energy_rhs_error_W": 1.1641532182693481e-10
+    },
+    {
+      "phase_rad": 0.0,
+      "loading": -0.4,
+      "retained_source": 0.4,
+      "current_rhs_error_A_per_s": 4.665698955615924e-10,
+      "pcc_voltage_error_V": 1.1506624801925828e-13,
+      "dc_energy_rhs_error_W": 1.1641532182693481e-10
+    },
+    {
+      "phase_rad": 0.7,
+      "loading": 0.3,
+      "retained_source": 1.0,
+      "current_rhs_error_A_per_s": 2.346425826049686e-10,
+      "pcc_voltage_error_V": 1.2710574864626038e-13,
+      "dc_energy_rhs_error_W": 1.7462298274040222e-10
+    },
+    {
+      "phase_rad": 0.7,
+      "loading": 0.3,
+      "retained_source": 0.4,
+      "current_rhs_error_A_per_s": 4.197414120966556e-10,
+      "pcc_voltage_error_V": 1.1368683772161603e-13,
+      "dc_energy_rhs_error_W": 1.7462298274040222e-10
+    },
+    {
+      "phase_rad": 0.7,
+      "loading": -0.4,
+      "retained_source": 1.0,
+      "current_rhs_error_A_per_s": 2.3283064365386963e-10,
+      "pcc_voltage_error_V": 1.6077746776921858e-13,
+      "dc_energy_rhs_error_W": 0.0
+    },
+    {
+      "phase_rad": 0.7,
+      "loading": -0.4,
+      "retained_source": 0.4,
+      "current_rhs_error_A_per_s": 3.681375715146283e-10,
+      "pcc_voltage_error_V": 6.355287432313019e-14,
+      "dc_energy_rhs_error_W": 0.0
+    }
+  ],
+  "max_current_rhs_error_A_per_s": 4.737760346644705e-10,
+  "max_pcc_voltage_error_V": 1.6077746776921858e-13,
+  "max_dc_energy_rhs_error_W": 1.7462298274040222e-10,
+  "pass": true
+}

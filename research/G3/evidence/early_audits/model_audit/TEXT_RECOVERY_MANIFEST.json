@@ -1,0 +1,56 @@
+{
+  "recovery_date_UTC": "2026-10-02",
+  "original_root_missing": "model_audit",
+  "source": "This worker's own visible prior tool-call payloads and tool results",
+  "files": [
+    {
+      "path": "abc_reference/reference_abc.py",
+      "sha256": "005b8379f91f0997f81d15cbdf2b7423b7f22ee3a4e5343ef04d6c981177e847",
+      "bytes": 12994,
+      "historical_sha256": "005b8379f91f0997f81d15cbdf2b7423b7f22ee3a4e5343ef04d6c981177e847",
+      "historical_hash_match": true,
+      "recovery_status": "byte_identical_verified_against_prior_tool_result",
+      "path_changes": "none; CLI or relative paths already portable"
+    },
+    {
+      "path": "abc_reference/preconditioned_abc.py",
+      "sha256": "6168d8bd6ca0385825575c06da157c9ae45f74479aac4d2479c9f7e10a69dbe0",
+      "bytes": 8139,
+      "historical_sha256": "6168d8bd6ca0385825575c06da157c9ae45f74479aac4d2479c9f7e10a69dbe0",
+      "historical_hash_match": true,
+      "recovery_status": "byte_identical_verified_against_prior_tool_result",
+      "path_changes": "none; CLI or relative paths already portable"
+    },
+    {
+      "path": "abc_reference/check_motulator_rhs.py",
+      "sha256": "b8aa009c6f2163e91fca99bfaeee065b18d35737c2416cbc6bbac1d64fef1070",
+      "bytes": 2664,
+      "historical_sha256": null,
+      "historical_hash_match": null,
+      "recovery_status": "recovered_from_prior_tool_call_text_no_historical_hash_available",
+      "path_changes": "none; CLI or relative paths already portable"
+    },
+    {
+      "path": "abc_reference/verify_reference.py",
+      "sha256": "a8c4e966b9c3cd6978a59b9e2c101e06d4371a3f1b95b028fa080b25a4097829",
+      "bytes": 2622,
+      "historical_sha256": null,
+      "historical_hash_match": null,
+      "recovery_status": "recovered_from_prior_tool_call_text_no_historical_hash_available",
+      "path_changes": "none; CLI or relative paths already portable"
+    },
+    {
+      "path": "DC_BOUND_INDEPENDENT_REVIEW.md",
+      "sha256": "30a96c34434b7bb306eccd4f7df2483a812c45848d3908e5bf91bfe351bd59f2",
+      "bytes": 5849,
+      "historical_sha256": null,
+      "historical_hash_match": null,
+      "recovery_status": "recovered_from_prior_tool_call_text_no_historical_hash_available",
+      "path_changes": "none; CLI or relative paths already portable"
+    }
+  ],
+  "original_trajectory_binaries_recovered": false,
+  "simulation_revalidation_authorized_by_parent": true,
+  "simulation_revalidation_status": "completed_authorized_nominal_and_V2_1_10us_5us; new outputs under abc_reference/revalidation_results",
+  "public_RHS_revalidation": "passed; abc_reference/MOTULATOR_RHS_CHECK.json"
+}

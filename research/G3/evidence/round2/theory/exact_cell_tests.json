@@ -1,0 +1,30 @@
+{
+  "seed": 20261003,
+  "random_cases": 600,
+  "global_tangent_checks": 48000,
+  "max_integral_absolute_error": 9.860468108691123e-09,
+  "max_gradient_absolute_error": 1.5036548395297444e-12,
+  "max_global_tangent_violation": 1.4210854715202004e-13,
+  "max_pure_lag_closed_form_error": 4.440892098500626e-15,
+  "cheap_outer_false_positive": {
+    "b0": 0,
+    "b1": 0,
+    "h": 1,
+    "charge": 0.245,
+    "sharp_ramp_only_upper": 0.25,
+    "exact_lag_upper": 0.22796904633820209
+  },
+  "sharp_chord_constant": {
+    "h": 1,
+    "ramp": 1,
+    "C_t": "t*(t-1)/2",
+    "node_C": [
+      0,
+      0
+    ],
+    "midpoint_C": -0.125,
+    "bound": 0.125
+  },
+  "all_checks_pass": true,
+  "warning": "Floating point numerical checks, not interval arithmetic or a proof."
+}

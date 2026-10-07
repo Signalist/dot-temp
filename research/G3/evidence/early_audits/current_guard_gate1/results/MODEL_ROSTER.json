@@ -1,0 +1,50 @@
+{
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "safety_scope": "conditional_current_only",
+  "no_100us_real_time_claim": true,
+  "cases": [
+    {
+      "case": "C0-slow",
+      "status": "EXECUTED",
+      "stop_reason": "completed",
+      "no_fault_physical_admission": true,
+      "result_file": "C0-slow_h1e-05.json"
+    },
+    {
+      "case": "C0-fast",
+      "status": "EXECUTED",
+      "stop_reason": "completed",
+      "no_fault_physical_admission": true,
+      "result_file": "C0-fast_h1e-05.json"
+    },
+    {
+      "case": "C50-slow",
+      "status": "EXECUTED",
+      "stop_reason": "dc_high",
+      "no_fault_physical_admission": null,
+      "result_file": "C50-slow_h1e-05.json"
+    },
+    {
+      "case": "C50-fast",
+      "status": "EXECUTED",
+      "stop_reason": "dc_high",
+      "no_fault_physical_admission": null,
+      "result_file": "C50-fast_h1e-05.json"
+    },
+    {
+      "case": "C1-slow",
+      "status": "EXECUTED",
+      "stop_reason": "dc_high",
+      "no_fault_physical_admission": null,
+      "result_file": "C1-slow_h1e-05.json"
+    },
+    {
+      "case": "C1-fast",
+      "status": "EXECUTED",
+      "stop_reason": "dc_high",
+      "no_fault_physical_admission": null,
+      "result_file": "C1-fast_h1e-05.json"
+    }
+  ]
+}

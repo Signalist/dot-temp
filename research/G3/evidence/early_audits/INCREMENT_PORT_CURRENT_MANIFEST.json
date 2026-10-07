@@ -1,0 +1,546 @@
+{
+  "package_type": "increment_only_requires_G3_complete_v2",
+  "created_UTC": "2026-10-02T02:04:01.479769+00:00",
+  "base_archive": {
+    "filename": "G3_GateA_with_extension_20261002.zip",
+    "bytes": 211699716,
+    "sha256": "0d23d57e94eb17407570be7c7a336a703240e68232195af62e40e610c3c53ab5",
+    "version_label": "G3 complete v2"
+  },
+  "main_report": "G3_PORT_AND_CURRENT_AUDIT_REPORT_ZH.md",
+  "paper_ready": false,
+  "all_new_files_nonoverlapping_with_base_v2": true,
+  "excluded": [
+    "guard proposal/current_guard_sources",
+    "all downloaded third-party PDF originals",
+    "all dependency wheels/virtualenvs",
+    "bytecode caches",
+    "base v2 raw data duplicated into increment"
+  ],
+  "new_files": [
+    {
+      "path": "G3_PORT_AND_CURRENT_AUDIT_REPORT_ZH.md",
+      "bytes": 11495,
+      "sha256": "9a23405084e27fbc7edbb7e5b72925108552fb497e6b703e8a2dc4a8a9136291",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "G3_PORT_AND_CURRENT_AUDIT_SUMMARY.json",
+      "bytes": 969,
+      "sha256": "43bdf8db7f142c53f8fcc55af256c82686320dc1a4c7336bb6859656640b7876",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "INCREMENT_PORT_CURRENT_README.md",
+      "bytes": 1725,
+      "sha256": "59e905584c08a9652935eb6dc8c6a2a5081b9aa6c5e05ac624362af92855b41c",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/ALLOCATION_CHANGE_AUDIT.json",
+      "bytes": 846,
+      "sha256": "85564727c62ee684df98ea9050420c4c3d89a54ab90a8087828b932f1cd8a0db",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/allocators.py",
+      "bytes": 2369,
+      "sha256": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/freeze.py",
+      "bytes": 3363,
+      "sha256": "ccbff57a7b90745fd2fef112c523f50406154c8f5ec963346cb47e4d877f529a",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/reconstruct_diagnostics.py",
+      "bytes": 5798,
+      "sha256": "1061927803810a067830ba584e5bbf4ab2520c01706cef728c786fc9555403f0",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/fast_p_priority.log",
+      "bytes": 3643,
+      "sha256": "cbe9ce0095f521a119cfe0398e28e65675063847cc07c6aa9725bfe19e88e2a6",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/fast_p_priority_h1e-05.json",
+      "bytes": 3643,
+      "sha256": "cbe9ce0095f521a119cfe0398e28e65675063847cc07c6aa9725bfe19e88e2a6",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/fast_p_priority_h1e-05.npz",
+      "bytes": 49536,
+      "sha256": "9c5e1ccb15716be544f37b0a521ee128f2401303a4df86b7afd9eacddbb0dc54",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/fast_p_priority_same_window_diagnostics.csv",
+      "bytes": 8391,
+      "sha256": "88c5088915237fad966bb48a3a4166b19968bd017a19c9c3008df85feae06221",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/fast_p_priority_same_window_diagnostics.json",
+      "bytes": 1042,
+      "sha256": "7719ee3d39180a8e085511370be645a70fac5835096298cd655c95c7fab46832",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/fast_p_priority_same_window_diagnostics.png",
+      "bytes": 317305,
+      "sha256": "43a9ac0c2534f21fcdf3438766ad22e1d840c549c45b630e2a9359b3c80a1907",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/fast_radial.log",
+      "bytes": 4646,
+      "sha256": "8015e818628453ee6e99de5d827f7c696f196e334993c998c01eb30c6d685958",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/fast_radial_h1e-05.json",
+      "bytes": 4646,
+      "sha256": "8015e818628453ee6e99de5d827f7c696f196e334993c998c01eb30c6d685958",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/fast_radial_h1e-05.npz",
+      "bytes": 9055943,
+      "sha256": "87688846d3b2bce7612065e351ebd62757b69e77dde2669e6ebcbc3ca17f88e0",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/slow_p_priority.log",
+      "bytes": 3621,
+      "sha256": "d26944c70a3fc2fe0a46d1b326261f7f81464c1c5c7f1db87e3b3b5b400884a2",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/slow_p_priority_h1e-05.json",
+      "bytes": 3621,
+      "sha256": "d26944c70a3fc2fe0a46d1b326261f7f81464c1c5c7f1db87e3b3b5b400884a2",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/slow_p_priority_h1e-05.npz",
+      "bytes": 49242,
+      "sha256": "c9a588a8703e1107dca77c5a772f0f00cff0f05c46dca1d694d10f797479352e",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/slow_radial.log",
+      "bytes": 3611,
+      "sha256": "55795049c64b1ad04f30564d530d642178798ec17dc5047de2f3920322792c15",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/slow_radial_h1e-05.json",
+      "bytes": 3611,
+      "sha256": "55795049c64b1ad04f30564d530d642178798ec17dc5047de2f3920322792c15",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/results/slow_radial_h1e-05.npz",
+      "bytes": 259632,
+      "sha256": "2f909cb10db171bfa7c123453bb2209b4ab74f414f5726bb8401d7558536a068",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "baseline_allocation/run_baselines.py",
+      "bytes": 7954,
+      "sha256": "b83ec7e6ba75c65ef1ab115d6aff91d7de6a55259dc2655b8cd2226eed8b0ef1",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/COMPARISON.json",
+      "bytes": 11201,
+      "sha256": "a730464d4d967493a37fe64bc55409545b18ee878a6059dace8cc2816d28a91b",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/IMPLEMENTATION_AUDIT.json",
+      "bytes": 3618,
+      "sha256": "fe922558fb8a1d87acf2346ef2340028203d0d505bcd4eb822d248ff4b843970",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/MANIFEST.json",
+      "bytes": 5032,
+      "sha256": "ca4cc4cf95d35a3c5dfaa4af3d7d68a010af110330b776e632f7494ac09082a3",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/README_REPRODUCE.md",
+      "bytes": 3178,
+      "sha256": "cb903a8acf9397310b3d9193347afd2196e273849ba2d46d081d70edf7a0c535",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/REPORT_ZH.md",
+      "bytes": 5317,
+      "sha256": "3ee6e3f634ec3a7cba1db056fd3feae2fea254ac885e9f16874602c2ae8468f9",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/VALIDATION.json",
+      "bytes": 659,
+      "sha256": "c09b30bf247249d617135db44fbcd0136a89601dae3252199fd7f2728462a550",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/compare_and_report.py",
+      "bytes": 16211,
+      "sha256": "c208051e9771107baffb6f4f6e7113890bbc91cd95f9774e3432db5a9439f48c",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/diagnostic_window.png",
+      "bytes": 264014,
+      "sha256": "f9eb8272a854a3357370262a7f02d4ad498bf9d8c7d489ff2120689d4f899eb9",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/dq_saved_state_diagnostics.npz",
+      "bytes": 9238,
+      "sha256": "7941c3fbab6b22d09236089b030fd9be2bf3dc10061dc379037b3d2506a028cd",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/fast_p_priority_abc_h1e-05.json",
+      "bytes": 4287,
+      "sha256": "c8b8ce8d0868342af6764d188737b95a20ea9b6301afde291974e033f5401e74",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/fast_p_priority_abc_h1e-05.npz",
+      "bytes": 57355,
+      "sha256": "414170059ff825895bea81512a3ad7980c6b6d3b10989579076b1cf1875848a5",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/fast_p_priority_abc_h5e-06.json",
+      "bytes": 4288,
+      "sha256": "e2be716869d89356f690190a63566d8e30c0dff2284e55c3f83106c4276978f9",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/fast_p_priority_abc_h5e-06.npz",
+      "bytes": 92787,
+      "sha256": "4fbc62a2a54add09b9fa40a17ab5a0e8211796c79952811e492270f3ff1ecc48",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/plot_window.py",
+      "bytes": 2573,
+      "sha256": "a00faf47cf097c15ecf64370e596ee826dbf17b9a5df2437e33e59726b3826cd",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/run_10us.log",
+      "bytes": 4287,
+      "sha256": "c8b8ce8d0868342af6764d188737b95a20ea9b6301afde291974e033f5401e74",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/run_5us.log",
+      "bytes": 4288,
+      "sha256": "e2be716869d89356f690190a63566d8e30c0dff2284e55c3f83106c4276978f9",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/run_abc.py",
+      "bytes": 12323,
+      "sha256": "5d6ecf78e446f754bd4b6400507e848fd4af3cb08ff72af9105871c9ed6cc1fe",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/same_window_control_snapshots.csv",
+      "bytes": 17705,
+      "sha256": "5b5841479f26108fc7602ddb00695c84fb9afbdfc4b16b9bfe05adc4917f3833",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/sample_p_priority.py",
+      "bytes": 2160,
+      "sha256": "2c84cca44d9f3f5e30bf1c628a76dbcc555b444d32b52684466a18db4396c22f",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "model_audit/p_priority_abc/validate_outputs.py",
+      "bytes": 2249,
+      "sha256": "d2688c2a018990c314fb96eea1598f7fc024e0ccbf3ac726585afd38db979bf7",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/GATE_A_ALLOCATION_BASELINES_V1.json",
+      "bytes": 3998,
+      "sha256": "1e65c7c2781d6ecc12cfa7fc1f224f68e76934d82afa45cc93a2540d254d63d6",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/GATE_A_ALLOCATION_BASELINES_V1.sha256",
+      "bytes": 65,
+      "sha256": "bcf1e86cac9428dd5d1e0ff36a1080cab9f2dc42bb1633211c9069e1a5f36bfb",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/GATE_A_SOURCE_SPEED_V1.json",
+      "bytes": 3568,
+      "sha256": "038754241a24782fd09a3834b8d6d7d1aea1da868949dee71f71871d70dd1ba0",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/GATE_A_SOURCE_SPEED_V1.sha256",
+      "bytes": 65,
+      "sha256": "9c551a88568c72425309d7b564950657949ad85e0698e44c917793b518303f2e",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/phase_mechanism/dc_topology_scope.md",
+      "bytes": 17777,
+      "sha256": "913566d46b5bff27979989f2824e30d7e71e287c76216c2b05566faa0027d8b5",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/phase_mechanism/dc_topology_sources.json",
+      "bytes": 16161,
+      "sha256": "e36adf538c9e6bdcf397706f1c4400932b9b818477df0648507152a098420f8f",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/phase_mechanism/exogenous_waveform_scope.md",
+      "bytes": 13717,
+      "sha256": "dd3330fa8673a50c9f3bcdc2bc2b839cddce90973317f79f68dfc81af6845cf7",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/phase_mechanism/literature_collision.md",
+      "bytes": 4669,
+      "sha256": "833085c01108e945f66a242c804c53aaf5412d9e435d55730970abc7249f35fe",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/phase_mechanism/phase_certificate_diagnostic.json",
+      "bytes": 29441,
+      "sha256": "6d629f2f5922e263b92ebe178efde5b383e53f187d1e6c0f7ceb5977b84dbfa9",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/phase_mechanism/phase_certificate_diagnostic.py",
+      "bytes": 16949,
+      "sha256": "f29874a8447e229104b85537e9f5d6a890df2acfc5603229b8a10784db083dac",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/phase_mechanism/sources.json",
+      "bytes": 15267,
+      "sha256": "39726c92d58833f1afd18101a8c0feccb99e1db06496c8e9264d9e8cd8936e8d",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/phase_mechanism/theory_proposal.md",
+      "bytes": 25117,
+      "sha256": "11119423cc192570dc756e37cace6590b2dd97d2a3e92c8f1647fac0d218466c",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "protocol/phase_mechanism/waveform_sources.json",
+      "bytes": 11437,
+      "sha256": "5541acfa733fcca46af220002303b221055ba24ee2f7b589ca0f9f20b96cf79c",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/INDEPENDENT_REVIEW.md",
+      "bytes": 14164,
+      "sha256": "8254490123f4294abb377ab530da30809a09765d849550f2cd3964ae8d30dcc5",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/analyze_results.py",
+      "bytes": 8861,
+      "sha256": "880e5ee7d30c5e3383e5eb528e662ef64b30b5b09bce961016493ba984e3c177",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/build_report.py",
+      "bytes": 13051,
+      "sha256": "6555fced907c60910d75eabe3ed4a5be17a5962d51ba083107da59fb77eab410",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/freeze.py",
+      "bytes": 3662,
+      "sha256": "159777ecce606de03adca8b9dd6ed7873c1cb7f0ec057df74b96be31f078244c",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/package_increment.py",
+      "bytes": 6435,
+      "sha256": "2a2bd8742e9fc6cd1f4a48b1fe8c4ac251ed8dd6acc0322cbb6f2b2a4fea89ae",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/results/AUTHORITATIVE_RESULTS.json",
+      "bytes": 38047,
+      "sha256": "f552a7f4b33ac6493eddfe293d6bc0b7a16ae5f2f0929196396a67297a8d90a7",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/results/fast_reference.log",
+      "bytes": 4400,
+      "sha256": "7e09e506f28ebca00c1e2ee380e630f4b537fc99be1095b844eebb62fee46159",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/results/fast_reference_h1e-05.json",
+      "bytes": 4400,
+      "sha256": "7e09e506f28ebca00c1e2ee380e630f4b537fc99be1095b844eebb62fee46159",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/results/fast_reference_h1e-05.npz",
+      "bytes": 4544751,
+      "sha256": "0e7c12eafe5b4336269756deab71bed39255bcdfc32b6c13953abfb1eebb7c03",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/results/fast_sag04.log",
+      "bytes": 3431,
+      "sha256": "5257ac8725bb5d0560eddc233518906c83060cd620127c908323c1dafeb11c59",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/results/fast_sag04_h1e-05.json",
+      "bytes": 3431,
+      "sha256": "5257ac8725bb5d0560eddc233518906c83060cd620127c908323c1dafeb11c59",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/results/fast_sag04_h1e-05.npz",
+      "bytes": 165210,
+      "sha256": "1734d9b76ec18bac9da7728f98980e0d4c97a4f3c75ee8555742bbfa9a29fcbe",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/results/fast_sag04_h5e-06.json",
+      "bytes": 3413,
+      "sha256": "b0e94f975bf696aeff846dfed3ed8efc34ac91de9c2c625f0b97ed596e46de00",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/results/fast_sag04_h5e-06.npz",
+      "bytes": 280855,
+      "sha256": "846f1ee8d63353138e3459cf9971a4f34e1a19097cfc0b9f6157b8c968b78346",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/results/fast_sag04_refinement.log",
+      "bytes": 3413,
+      "sha256": "b0e94f975bf696aeff846dfed3ed8efc34ac91de9c2c625f0b97ed596e46de00",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/run_fast_port.py",
+      "bytes": 7585,
+      "sha256": "359946ce807beeeaf7f19230fa890570199fa5587c8b52669d1f12f9e224113c",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    },
+    {
+      "path": "source_speed_ablation/verify_increment_dependencies.py",
+      "bytes": 504,
+      "sha256": "95f148064d963eb027242dab3052e60e5f59cb11b8eea6a13d61928cf0d62fe1",
+      "evidence_role": "new diagnostic, authored analysis/code, or research summary as marked in file"
+    }
+  ],
+  "base_v2_dependencies": [
+    {
+      "path": "GATE_A_EXTENSION_REPORT_ZH.md",
+      "bytes": 11915,
+      "sha256": "4a52dda92ab08efafe5c786a8382a43867f9771db840dcde1a7804d1ba19afc7",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "gate_a/dq_bench.py",
+      "bytes": 9494,
+      "sha256": "5185085c3843c2b12d0663f25a4d3e6a0290fcb7d46be3b338e3ee2c261b0616",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "gate_a/dq_preconditioned.py",
+      "bytes": 6691,
+      "sha256": "8060e78b876bb50c1eb1025cece11d22c75c33ffbd38b445525b7df95d145996",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "gate_a/preconditioned_dq/h1e-05.json",
+      "bytes": 5519,
+      "sha256": "ed0f2d3dd5f5a150f87da826862dfba6fc1ab8520317564a8083ccad1223f79c",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "gate_a/preconditioned_dq/h1e-05.npz",
+      "bytes": 7552100,
+      "sha256": "232f9c9e77519eb0f9eb91aef3bd09245162459c037d9f57eea135b1fe5f1c4b",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+      "bytes": 1528,
+      "sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "gate_a_extension/results/signed_periodic_h1e-05.npz",
+      "bytes": 39198114,
+      "sha256": "719a732583267400a6b1c7bbfd4e28b4201073b113e635153ec5f5a055f7ca97",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "model_audit/abc_reference/preconditioned_abc.py",
+      "bytes": 8139,
+      "sha256": "6168d8bd6ca0385825575c06da157c9ae45f74479aac4d2479c9f7e10a69dbe0",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "model_audit/abc_reference/reference_abc.py",
+      "bytes": 12994,
+      "sha256": "005b8379f91f0997f81d15cbdf2b7423b7f22ee3a4e5343ef04d6c981177e847",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "model_audit/abc_reference/revalidation_results/preconditioned_v2_1_h10us.json",
+      "bytes": 5014,
+      "sha256": "a079cb00695f79bea7366c106d47cea8c6a88a4e792060eafe2f050b52ba3f95",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.json",
+      "bytes": 12771,
+      "sha256": "fd8a03b0c25977d9bef2f2fb84a1474ebe6bc06ec8f4327b05adabc8770d3a0f",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.md",
+      "bytes": 11501,
+      "sha256": "0554aeef0b188838d0f7e532574799b2ed68ade8d18afb5dd129d2ca12f165e4",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "protocol/GATE_A_LOCKED_V1_1.json",
+      "bytes": 5461,
+      "sha256": "d760dc40b8784fe51e7cb503d4bde064139563e82b48255fb8699998e87eddc9",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    },
+    {
+      "path": "protocol/GATE_A_LOCKED_V2_1.json",
+      "bytes": 6912,
+      "sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+      "role": "Required unchanged base-v2 evidence/code; NOT included in this increment"
+    }
+  ]
+}

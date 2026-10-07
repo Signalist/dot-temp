@@ -1,0 +1,38 @@
+{
+  "finalized_at_utc": "2026-10-03T09:44:29.088736+00:00",
+  "status": "Complete: V1A14/18 full-contract passes with4 preserved failures; V2 independently audited34/34 full-contract passes",
+  "claim_scope": "One original witness;2 nominal runs,16 known regression runs,16 fresh confirmation runs at two integration resolutions. Finite approximate service/recovery contract; not uniform robustness or core exact-contract validation.",
+  "authoritative_V2_contract": "V2/PROTOCOL_V2.json plus V2/LEDGER_ADDENDUM_PRE_RESULT.json",
+  "controlled_quantity": "S=W+B capacitor-plus-inventory energy; filter Z separately accounted, with -Zdot disturbance",
+  "worst_V2": {
+    "W_return_J": 0.22677230115004932,
+    "B_return_J": 0.22566951900807908,
+    "phase_current_return_A": 0.0002966316678794101,
+    "incremental_recovery_cP_W": 31.52056619629002,
+    "abs_net_recovery_grid_J": 0.31156884966185316,
+    "positive_recovery_grid_J": 0.1368585150102935,
+    "absolute_integral_recovery_grid_J": 0.5653160707602921
+  },
+  "preservation": "Own full457-file scan unchanged; independent auditor core437-file selection unchanged; V1A complete freeze and V2 execution freeze unchanged",
+  "files": {
+    "V1A_COMPLETE_FREEZE.json": "8e7e3bef7f0b61a7b42332038a7a77b5b0d4e9018ad3b401d4684ca3e84c5b79",
+    "REPORT_V1A.md": "dbe7fda1f0cb3b0c0ecc206a2bc7e88afe6714e2b48379751f5c636f2fbd532f",
+    "SUMMARY_V1A.json": "692b42a5e8c69834303535e9415be02533f0a7b6afd6e5f8ee1aea5b379cb19d",
+    "V2/PROTOCOL_V2.json": "5764b17d169a62d1d28325fb089b85d7bc26d2e40456d961c52c6b34b2648182",
+    "V2/LEDGER_ADDENDUM_PRE_RESULT.json": "37998a9426ec13c04c1be180462737b3ec94b89c4a3da6095425eff0d091b2a2",
+    "V2/EXECUTION_FREEZE_V2.json": "300a4a338111b79a68282bacc2383ad7d9add576ffa323048a5db1ac11e117f7",
+    "V2/REPORT_V2.md": "d36bb1b4904e0a1c5c83b234c384121fdde4c629b191ba4e8f0404b4ab92026a",
+    "V2/SUMMARY_V2.json": "69649c9149a3e8cacffd2d5d0e67f19f1b0c1ab760818cc8d8931ec468811d60",
+    "V2/DELIVERABLE_SHA256.json": "004d92a5cd4fd5017ec55c7c013a8598e1ad251eaabdfddeab43be88d85e1aa6",
+    "V2/PRESERVATION_AND_COMPLETION.json": "9d552303b9d487f4dca9828aeadfb2ddb9cec8d7763b0420e34933fd0e979ec3",
+    "V2/ACCEPTANCE_TABLE_V2.csv": "904677f420d89102b280bbd6ee71d94db65ed8ac9abd40a721de8e8655f24b0a",
+    "V2/ENERGY_COST_TABLE_V2.csv": "b597155635da17e1579c3e109d77d35ef5526419cc3890967901e0a99a3cca99",
+    "V2/FILTER_ENERGY_ACCOUNTING.json": "e95fa425bdc277b429a6fdb6cf01e642b6c3ca5c290563b583ed72121ac5190d",
+    "V2/WARMUP_COSTS.json": "f45e9870e35847314fc9563568d68e293b66d45245b9a554aa9bb4412a13ef67",
+    "V2/V1A_V2_REGRESSION_COMPARISON.png": "447d70c95d14f3ecfee44b874390e61a2f3ea71141e59f820451943bf65cfa28",
+    "V2/FRESH_CONFIRMATION_V2.png": "58b29606955efb7b0c0d7529d134885d1286c872c77c1ff7e9af96e514147aa9",
+    "audit/AUDIT_REPORT_V1A.md": "02243f7d89f19cd923581aa7703feb96d9fe90d5de6e7eea0bba4cba22fc3336",
+    "audit/v2/AUDIT_REPORT_V2.md": "f3f4cb3f6845008b7f87cb6f0d5cad534d8486adee78a93e5b4ce9880d39ba45",
+    "audit/AUDIT_FINAL_MANIFEST.json": "4ffc94ab4fcc7cf0b242ae3908fd7631fdc1cb9e957ededf700f7ee5f91e8fce"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "h": "1e-05",
+      "trace_rows": 272,
+      "sample_updates": 21,
+      "array_schema_valid": true,
+      "dynamics_alignment_checked": true,
+      "documented_missing_prior_reference_only": true
+    },
+    {
+      "h": "5e-06",
+      "trace_rows": 480,
+      "sample_updates": 21,
+      "array_schema_valid": true,
+      "dynamics_alignment_checked": true,
+      "documented_missing_prior_reference_only": true
+    }
+  ],
+  "sources_unchanged": true,
+  "no_DQ_runtime_imports": true,
+  "remark": "Output self-consistency checks; thresholds are reporting checks, not a newly frozen physical-performance gate."
+}

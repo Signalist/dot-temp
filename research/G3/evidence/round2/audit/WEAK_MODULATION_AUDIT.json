@@ -1,0 +1,117 @@
+{
+  "independence": "No model/admission/theory modules imported. Plateau offset derived from first-ramp integral, cap gamma from an independent scalar balance, weak coefficient from direct scalar maximization, RHS from separate quadrature.",
+  "independent_checks": [
+    {
+      "epsilon_kJ": 0,
+      "gamma_kW": 6.5472210559744175,
+      "Pmax_kW": 754.4987248565303,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 0,
+      "rho_kJ": 0.0,
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 0.0,
+      "rhs_kV_s": 0.007190107364639997,
+      "margin_kV_s": 7.512132503994986e-05
+    },
+    {
+      "epsilon_kJ": 0.001,
+      "gamma_kW": 6.569756058112802,
+      "Pmax_kW": 754.4987248565303,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 65.10276793216016,
+      "rho_kJ": 0.02141160466717018,
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 4.859164935337497e-08,
+      "rhs_kV_s": 0.007194109921285401,
+      "margin_kV_s": 7.10701767451926e-05
+    },
+    {
+      "epsilon_kJ": 0.005,
+      "gamma_kW": 6.659896170825536,
+      "Pmax_kW": 754.4987248565303,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 145.53260416426957,
+      "rho_kJ": 0.04417629111324554,
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 2.429582467668749e-07,
+      "rhs_kV_s": 0.007198362973889852,
+      "margin_kV_s": 6.66227575433281e-05
+    },
+    {
+      "epsilon_kJ": 0.01,
+      "gamma_kW": 6.772571546075736,
+      "Pmax_kW": 754.4987248565303,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 205.77014312887016,
+      "rho_kJ": 0.05855614749645014,
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 4.859164935337497e-07,
+      "rhs_kV_s": 0.007201048221343687,
+      "margin_kV_s": 6.369455184272645e-05
+    },
+    {
+      "epsilon_kJ": 0.05,
+      "gamma_kW": 7.673983922660871,
+      "Pmax_kW": 754.4987248565303,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 459.7015992147378,
+      "rho_kJ": 0.09403980492677137,
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 2.4295824676687486e-06,
+      "rhs_kV_s": 0.00720767004365097,
+      "margin_kV_s": 5.512906356130824e-05
+    },
+    {
+      "epsilon_kJ": 0.1,
+      "gamma_kW": 8.800772830880284,
+      "Pmax_kW": 754.4987248565303,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 649.6787905567926,
+      "rho_kJ": 0.09687108880514118,
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 4.859164935337497e-06,
+      "rhs_kV_s": 0.007208198144790386,
+      "margin_kV_s": 5.217137995422363e-05
+    },
+    {
+      "epsilon_kJ": 1.0,
+      "gamma_kW": 29.087428340457418,
+      "Pmax_kW": 754.4987248565303,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 2044.3938503102768,
+      "rho_kJ": 0.09687108880514118,
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 4.8591649353374974e-05,
+      "rhs_kV_s": 0.007208198144790386,
+      "margin_kV_s": 8.438895536186375e-06
+    }
+  ],
+  "independent_positive_slack_limit_kJ": 1.173669666465023,
+  "max_difference_from_target": {
+    "epsilon_kJ": 0,
+    "gamma_kW": 2.5579538487363607e-13,
+    "Pmax_kW": 1.1368683772161603e-13,
+    "mu": 0,
+    "K_kW_per_s": 0,
+    "deficit_amplitude_bound_kW": 0,
+    "rho_kJ": 5.551115123125783e-17,
+    "Mbar_kV_s": 0,
+    "error_kV_s": 6.776263578034403e-21,
+    "rhs_kV_s": 1.708702623837155e-16,
+    "margin_kV_s": 1.708702623837155e-16
+  },
+  "alpha200_q0_all_late_slack_prefix_witness": {
+    "time_s": 0.03561073948454363,
+    "W_ceiling_after_granting_all_inductor_release_kJ": 17.105941162326797,
+    "Wmin_kJ": 17.496000000000002,
+    "upper_ceiling_minus_Wmin_kJ": -0.39005883767320526,
+    "scope": "Any early-time 0<=P<=the same alpha200 cap and Q>=0, same initial state/workload/battery. Arbitrary late recovery slack cannot alter this earlier necessary bound. No exact terminal recovery is needed for this prefix obstruction."
+  }
+}

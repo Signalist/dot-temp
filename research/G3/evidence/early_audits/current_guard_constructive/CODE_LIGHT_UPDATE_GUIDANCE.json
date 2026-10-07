@@ -1,0 +1,32 @@
+{
+  "purpose": "Guidance for updating the existing Library-backed light code/report artifact; no replacement is performed here",
+  "observed_existing_local_filename": "算力电网_G3代码与审计报告.zip",
+  "observed_existing_local_sha256": "b036e0c80c4d510e171e3489752074028c5d1029a66d341362d04b194b8b980c",
+  "observed_existing_members": 323,
+  "keep_existing_members": true,
+  "new_sources": [
+    "current_guard_constructive/",
+    "protocol/next_constructive/",
+    "G3_CONSTRUCTIVE_AND_CLOSURE_REPORT_ZH.md",
+    "INCREMENT_CONSTRUCTIVE_README.md",
+    "INCREMENT_CONSTRUCTIVE_MANIFEST.json"
+  ],
+  "exclude_suffixes": [
+    ".npz",
+    ".jsonl.gz",
+    ".pyc"
+  ],
+  "exclude_directories": [
+    "__pycache__",
+    ".venv"
+  ],
+  "keep_summary_and_audits_and_plots": true,
+  "duplicate_existing_proposal_members": [
+    "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.json",
+    "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.sha256",
+    "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_ZH.md"
+  ],
+  "duplicate_rule": "These frozen proposal bytes are unchanged; keep the existing identical members once, never duplicate ZIP names. Verify hashes when merging.",
+  "library_write_rule": "Use the same Library item identity and current version guard; refresh identity/version if changed. Do not create an unrelated new light archive item.",
+  "not_standalone_reproduction": "Raw NPZ and per-sample gzip remain in the full increment. Include explicit dependency/data index rather than implying the light archive holds all raw evidence."
+}

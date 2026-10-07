@@ -1,0 +1,24 @@
+{
+  "definition": "P_L=2d/(1+sqrt(1-4cd)),Q_L=0,b_L=u_L=0,B_L=B0,W_L=W0-k(P_L\u00b2-p0\u00b2); exact pointwise common d",
+  "bounds_over_all_piecewise_affine_workload_segments": {
+    "W_kJ": [
+      "21.444800939404474631140824033399546546014209257",
+      "21.696080552386843900604523151183772534598324767"
+    ],
+    "modulation_floor_kJ": [
+      "12.995778583283389167691927903046351192587342727",
+      "15.812700024817101119951976120400660386733732543"
+    ],
+    "current_kA": [
+      "0.415698573001950112067483145587765665261205806",
+      "1.13560714312542911382867090264130619592756234"
+    ],
+    "W_minus_modulation_floor_kJ": [
+      "5.632100914587373511188847912998886159280476714",
+      "8.700301969103454732912595248137421342010982039"
+    ]
+  },
+  "pass": true,
+  "endpoint_exact": "d(0)=d(T)=650 impliesP_L=p0,Q=0,W_L=W0,B_L=B0,b_L=0; continuous nominal continuation",
+  "scope": "Feasible explicit policy, not minimum-energy no-service optimizer; no service P/Q cap imposed on L"
+}

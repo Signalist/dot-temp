@@ -1,0 +1,45 @@
+{
+  "status": "reconstructed_then_rerun",
+  "original_npz_recovered": false,
+  "records": [
+    {
+      "max_step_s": 1e-05,
+      "shared_control_clock_samples": 6060,
+      "max_current_vector_error_A": 1.9558660730410036e-09,
+      "max_DC_energy_error_J": 2.1849700715392828e-08,
+      "max_battery_power_error_W": 9.923242032527924e-07,
+      "max_PCC_P_error_W": 1.4588003978133202e-06,
+      "max_PCC_Q_error_var": 9.638024494051933e-07,
+      "dq_checkpoint_s": 0.6,
+      "abc_checkpoint_s": 0.6,
+      "dq_DC_stop_s": 0.60594596979813,
+      "abc_DC_stop_s": 0.6059459697981101,
+      "dc_stop_difference_s": 1.9872992140790302e-14,
+      "source_hashes": {
+        "gate_a/preconditioned_dq/h1e-05.npz": "232f9c9e77519eb0f9eb91aef3bd09245162459c037d9f57eea135b1fe5f1c4b",
+        "model_audit/abc_reference/revalidation_results/preconditioned_v2_1_h10us.npz": "e88162071551b6497446abc0222b8648aefabce00837d75cdb2d8c36c79faa05"
+      },
+      "scope": "Independent phase-state RK4 abc versus rotating-nominal-dq DOP853. Same frozen controller equations/resources; distinct plant implementations and solvers. Control-boundary physical states and pre-promotion powers compared."
+    },
+    {
+      "max_step_s": 5e-06,
+      "shared_control_clock_samples": 6060,
+      "max_current_vector_error_A": 4.987071638246186e-09,
+      "max_DC_energy_error_J": 4.1640305425971746e-08,
+      "max_battery_power_error_W": 2.9312213882803917e-06,
+      "max_PCC_P_error_W": 3.521563485264778e-06,
+      "max_PCC_Q_error_var": 1.9925646483898163e-06,
+      "dq_checkpoint_s": 0.6,
+      "abc_checkpoint_s": 0.6,
+      "dq_DC_stop_s": 0.6059459697981268,
+      "abc_DC_stop_s": 0.6059459697981607,
+      "dc_stop_difference_s": 3.397282455352979e-14,
+      "source_hashes": {
+        "gate_a/preconditioned_dq/h5e-06.npz": "e579459f0a229b57d5ae9761231f09513e000ebf6e96e1a1aff301bf4219662b",
+        "model_audit/abc_reference/revalidation_results/preconditioned_v2_1_h5us.npz": "9b19745f35669ae33ba4145c9d8ad38b6772e08ab35808dc54c363299716cd56"
+      },
+      "scope": "Independent phase-state RK4 abc versus rotating-nominal-dq DOP853. Same frozen controller equations/resources; distinct plant implementations and solvers. Control-boundary physical states and pre-promotion powers compared."
+    }
+  ],
+  "all_tests_pass": true
+}

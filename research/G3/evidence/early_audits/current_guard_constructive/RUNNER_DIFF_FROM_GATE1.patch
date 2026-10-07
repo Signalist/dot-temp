@@ -1,0 +1,334 @@
+--- current_guard_gate1/run_models.py
++++ current_guard_constructive/run_constructive.py
+@@ -1,7 +1,8 @@
+-"""Frozen Gate 1 physical-model driver. Importing this file runs no trajectory.
+-
++"""Constructive four-baseline driver. Importing this file runs no trajectory.
++
++Adapted transparently from the sealed Gate 1 driver; see RUNNER_DIFF_FROM_GATE1.patch.
+ Run exactly one declared condition at a time, only after the separate interface
+-review. C0-slow and C0-fast must be reported before the fault conditions. Existing
++review. Each allocator's own healthy run must pass before its fault. Existing
+ runs are never overwritten. A same-condition 5 us numerical refinement requires
+ its completed primary record to show a hard contact or near-boundary interval.
+ 
+@@ -25,6 +26,9 @@
+ import time
+ import traceback
+ 
++# Read-only imports must not write bytecode into the sealed source directories.
++sys.dont_write_bytecode = True
++
+ # Set before importing NumPy/SciPy, rather than merely documenting the setting.
+ os.environ['OPENBLAS_NUM_THREADS'] = '1'
+ os.environ['OMP_NUM_THREADS'] = '1'
+@@ -35,11 +39,21 @@
+ ROOT = Path(__file__).resolve().parents[1]
+ HERE = Path(__file__).resolve().parent
+ sys.path.insert(0, str(ROOT / 'gate_a'))
+-from dq_bench import battery_draw, controller, rhs, signals
++sys.path.insert(0, str(ROOT / 'current_guard_gate1'))
++sys.path.insert(0, str(ROOT / 'baseline_allocation'))
++sys.path.insert(0, str(HERE))
++from dq_bench import battery_draw, rhs, signals
++from allocators import controller as allocator_controller
+ from dq_preconditioned import normstate, serial_ctl
+ 
+-PROTOCOL = ROOT / 'protocol/GATE1_MPSC_SIX_MODELS_V1.json'
+-EXPECTED_PROTOCOL_SHA256 = 'be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3'
++PROTOCOL = ROOT / 'protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.json'
++EXPECTED_PROTOCOL_SHA256 = '104b5f9102c286a2005e856da777b2a203a475c368fccd56d447e54ea43275f3'
++GUARD_SOURCE = ROOT / 'current_guard_gate1/common_guard.py'
++EXPECTED_GUARD_SHA256 = '89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03'
++ALLOCATOR_SOURCE = ROOT / 'baseline_allocation/allocators.py'
++EXPECTED_ALLOCATOR_SHA256 = '485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a'
++CASE_IDS = ('P0-fast', 'R0-fast', 'P50-fast', 'R50-fast')
++HEALTHY_CASE = {'p_priority': 'P0-fast', 'radial': 'R0-fast'}
+ OUTPUT = HERE / 'results'
+ STATE_NAMES = ['id', 'iq', 'Wdc', 'Pb', 'deltaEb', 'intPsource', 'intLoss',
+                'intPpcc', 'intQpcc', 'intPb', 'intBatteryDraw',
+@@ -95,9 +109,20 @@
+ 
+ 
+ def load_design(case_id):
++    """Verify the complete frozen chain and adapt only the approved four-case list."""
+     if sha(PROTOCOL) != EXPECTED_PROTOCOL_SHA256:
+-        raise RuntimeError('Frozen six-model protocol changed; no trajectory was started')
+-    f = json.loads(PROTOCOL.read_text())
++        raise RuntimeError('Frozen constructive proposal changed; no trajectory was started')
++    proposal = json.loads(PROTOCOL.read_text())
++    fixed = ROOT / proposal['fixed_guard_protocol']
++    if sha(fixed) != proposal['fixed_guard_protocol_sha256']:
++        raise RuntimeError('Frozen six-model guard protocol changed')
++    if proposal['guard_source_sha256'] != EXPECTED_GUARD_SHA256 or sha(GUARD_SOURCE) != EXPECTED_GUARD_SHA256:
++        raise RuntimeError('Frozen shared common guard hash mismatch')
++    if proposal['allocator_source_sha256'] != EXPECTED_ALLOCATOR_SHA256 or sha(ALLOCATOR_SOURCE) != EXPECTED_ALLOCATOR_SHA256:
++        raise RuntimeError('Frozen nominal allocator hash mismatch')
++    if Path(sys.modules[allocator_controller.__module__].__file__).resolve() != ALLOCATOR_SOURCE:
++        raise RuntimeError('Nominal allocator resolved to an unexpected source path')
++    f = json.loads(fixed.read_text())
+     gpath = ROOT / f['base_Gate0_design']
+     if sha(gpath) != f['base_Gate0_design_sha256']:
+         raise RuntimeError('Frozen Gate 0 design hash mismatch')
+@@ -105,16 +130,22 @@
+     ppath, cppath = ROOT / g['base_protocol'], ROOT / f['initial_checkpoint']
+     if sha(ppath) != g['base_sha256'] or sha(cppath) != g['checkpoint_sha256']:
+         raise RuntimeError('Frozen physical protocol/checkpoint hash mismatch')
++    if ROOT / proposal['checkpoint'] != cppath or sha(cppath) != proposal['checkpoint_sha256']:
++        raise RuntimeError('Constructive checkpoint does not match the frozen full-state checkpoint')
++    if tuple(c['id'] for c in proposal['cases']) != CASE_IDS:
++        raise ValueError('Only the four frozen constructive case IDs are permitted')
++    f['execution_order'] = [dict(c, port='fast', end_time_s=c['end_s']) for c in proposal['cases']]
++    f['constructive_proposal'] = proposal
+     case = next((c for c in f['execution_order'] if c['id'] == case_id), None)
+     if case is None:
+-        raise ValueError('Only the six frozen case IDs are permitted')
++        raise ValueError('Only the four frozen constructive case IDs are permitted')
+     full_d = json.loads(ppath.read_text())
+     # A numeric whitelist strips case/event metadata before the guard sees D.
+     d = {k: v for k, v in full_d.items() if isinstance(v, (int, float)) and not isinstance(v, bool)}
+-    port = f['ports'][case['port']]
++    port = proposal['port']
+     d.update(battery_source_tau_s=port['tau_s'],
+-             battery_source_ramp_up_W_per_s=port['ramp_W_per_s'],
+-             battery_source_ramp_down_W_per_s=port['ramp_W_per_s'])
++             battery_source_ramp_up_W_per_s=port['ramp_up_W_per_s'],
++             battery_source_ramp_down_W_per_s=port['ramp_down_W_per_s'])
+     cp = json.loads(cppath.read_text())
+     if cp['time_s'] != .6 or len(cp['plant_state']) != 7 or d['control_sample_s'] != 1e-4:
+         raise RuntimeError('Frozen state or sample-clock contract does not match')
+@@ -125,29 +156,54 @@
+     return f'{case_id}_h{h:g}'
+ 
+ 
++def healthy_case_id(case):
++    return HEALTHY_CASE[case['allocator']]
++
++
++def read_healthy_reference(case):
++    """Own-allocator provenance is mandatory; historical Q data cannot satisfy it."""
++    path = OUTPUT / (tag_for(healthy_case_id(case), 1e-5) + '.json')
++    if not path.exists():
++        raise RuntimeError('Own-allocator healthy result is required before fault execution')
++    ref = json.loads(path.read_text())
++    if (ref.get('case') != healthy_case_id(case) or ref.get('allocator') != case['allocator']
++            or ref.get('source_port') != 'fast' or ref.get('event') is not None
++            or ref.get('protocol_sha256') != EXPECTED_PROTOCOL_SHA256
++            or ref.get('guard_source_sha256') != EXPECTED_GUARD_SHA256
++            or ref.get('allocator_source_sha256') != EXPECTED_ALLOCATOR_SHA256
++            or ref.get('controller_source_sha256') != sha(HERE / 'guarded_allocator_controller.py')
++            or ref.get('runner_source_sha256') != sha(__file__)
++            or ref.get('checkpoint_sha256') != 'ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152'
++            or ref.get('same_full_state') is not True
++            or ref.get('source_tau_s') != .002 or ref.get('source_ramp_W_per_s') != 50000000.):
++        raise RuntimeError('Healthy result is not a frozen own-allocator reference')
++    if ref.get('no_fault_physical_admission') is not True:
++        raise RuntimeError('NOT_RUN_PENDING_REVIEW: this allocator failed healthy physical/guard admission')
++    trace = OUTPUT / (tag_for(healthy_case_id(case), 1e-5) + '.npz')
++    if not trace.exists() or sha(trace) != ref.get('trace_sha256'):
++        raise RuntimeError('Own-allocator healthy trace is missing or its hash changed')
++    return ref
++
++
+ def check_run_admission(f, case, h):
+-    """No implicit suite, no silent repeated physical condition, no failed-port fault."""
++    """No implicit suite, no slow port, no repeated condition, no failed-allocator fault."""
+     if h not in (1e-5, 5e-6):
+         raise ValueError('Only frozen 10 us primary and conditional 5 us refinement allowed')
+     tag = tag_for(case['id'], h)
+     if any(OUTPUT.glob(tag + '.*')):
+         raise RuntimeError(f'{tag} already has evidence; refusing to overwrite or retry')
+     ids = [c['id'] for c in f['execution_order']]
+-    if case['id'] == 'C0-fast' and not (OUTPUT / (tag_for('C0-slow', 1e-5) + '.json')).exists():
+-        raise RuntimeError('C0-slow must be run and recorded first')
++    if case['id'] == 'R0-fast' and not (OUTPUT / (tag_for('P0-fast', 1e-5) + '.json')).exists():
++        raise RuntimeError('P0-fast must be run and recorded first')
+     if case['event'] is not None:
+-        # Both no-fault cases are reviewed before any fault. The explicit one-case
+-        # invocation remains the caller\'s stage choice; no fault is auto-launched.
++        # Both healthy records precede faults; admission itself is allocator-specific.
++        # Explicit one-case invocations remain the caller's stage choice.
+         for cid in ids[:2]:
+-            p = OUTPUT / (tag_for(cid, 1e-5) + '.json')
+-            if not p.exists():
+-                raise RuntimeError('Both C0 records are required before fault execution')
+-        ref = json.loads((OUTPUT / (tag_for('C0-' + case['port'], 1e-5) + '.json')).read_text())
+-        if ref.get('no_fault_physical_admission') is not True:
+-            raise RuntimeError('NOT_RUN_PENDING_REVIEW: this port failed C0 physical/guard admission')
+-        # Enforce declared ordering for earlier cases whose ports are admitted.
++            if not (OUTPUT / (tag_for(cid, 1e-5) + '.json')).exists():
++                raise RuntimeError('Both healthy records are required before fault execution')
++        read_healthy_reference(case)
+         for previous in f['execution_order'][2:ids.index(case['id'])]:
+-            rp = OUTPUT / (tag_for('C0-' + previous['port'], 1e-5) + '.json')
++            rp = OUTPUT / (tag_for(healthy_case_id(previous), 1e-5) + '.json')
+             admitted = json.loads(rp.read_text()).get('no_fault_physical_admission') is True
+             if admitted and not (OUTPUT / (tag_for(previous['id'], 1e-5) + '.json')).exists():
+                 raise RuntimeError(f"Frozen execution order requires {previous['id']} first")
+@@ -284,31 +340,31 @@
+ 
+ 
+ def reference_comparison(case, endpoints, normalized, d):
+-    """Report existing-reference coverage; never fabricate the unobserved tail."""
+-    if case['event']:
+-        path = OUTPUT / (tag_for('C0-' + case['port'], 1e-5) + '.npz')
+-        label = 'same_port_guarded_no_fault'
+-    elif case['port'] == 'fast':
+-        path = ROOT / 'source_speed_ablation/results/fast_reference_h1e-05.npz'
+-        label = 'existing_same_full_state_unguarded_fast_Q_priority'
+-    else:
+-        path = ROOT / 'gate_a_extension/results/matched_no_fault_reference_v2.npz'
+-        label = 'existing_same_full_state_unguarded_slow_Q_priority'
+-    if not path.exists():
+-        return {'status': 'REFERENCE_UNAVAILABLE', 'reference': str(path.relative_to(ROOT))}, None
++    """Faults use their own allocator's healthy run; healthy scores stay absolute."""
++    if not case['event']:
++        return dict(status='NOT_AVAILABLE', reference=None, allocator=case['allocator'],
++                    reason='No frozen same-allocator unguarded healthy trajectory exists; existing fast_reference is Q-priority and is not matched',
++                    primary_healthy_score='absolute_request_errors_and_actual_electrical_energy_metrics'), None
++    read_healthy_reference(case)
++    path = OUTPUT / (tag_for(healthy_case_id(case), 1e-5) + '.npz')
++    label = 'same_allocator_same_port_guarded_no_fault'
+     with np.load(path, allow_pickle=False) as z:
+         ra = z['endpoint_trace'].copy()
+         rn = z['normalized_state'].copy() if 'normalized_state' in z else None
+     if not np.allclose(ra[0, 1:8], endpoints[0, 1:8], rtol=0, atol=1e-8) or abs(ra[0,0]-.6)>1e-12:
+         raise RuntimeError('Reference initial physical/passive state is not identical')
++    if rn is None or rn.shape[1] != normalized.shape[1] or not np.array_equal(rn[0], normalized[0]):
++        raise RuntimeError('Own-allocator reference must preserve the identical full normalized initial state')
+     end = min(float(endpoints[-1,0]), float(ra[-1,0]))
+     own = np.array([np.interp(end, endpoints[:,0], endpoints[:,j]) for j in range(endpoints.shape[1])])
+     ref = np.array([np.interp(end, ra[:,0], ra[:,j]) for j in range(ra.shape[1])])
+-    # Both existing references place cumulative PCC P/Q immediately after the
+-    # original seven physical/passive states, even though their tails differ.
++    # Own-allocator healthy runs use the unchanged Gate 1 endpoint schema.
+     result = dict(status='OBSERVED_COMMON_WINDOW_ONLY', reference=label,
++                  reference_case=healthy_case_id(case), allocator=case['allocator'],
++                  reference_summary_sha256=sha(OUTPUT / (tag_for(healthy_case_id(case), 1e-5) + '.json')),
+                   reference_file=str(path.relative_to(ROOT)), reference_sha256=sha(path),
+                   same_initial_7_state_exact=bool(np.array_equal(ra[0,1:8],endpoints[0,1:8])),
++                  same_initial_normalized_full_state_exact=True,
+                   common_start_s=.6, common_end_s=end,
+                   full_observed_case_covered=bool(ra[-1,0]>=endpoints[-1,0]-1e-12),
+                   comparison_interpolation='Linear on stored100us endpoints if terminal time is off clock; not a new physical replay',
+@@ -331,7 +387,7 @@
+                 nmax=max(nmax,float(np.max(abs(row[1:]-rn[j,1:])))); count+=1
+         result.update(matched_sample_count=count, max_normalized_state_difference=nmax if count else None)
+     else:
+-        result['normalized_state_comparison'] = 'NOT_AVAILABLE_IN_EXISTING_SLOW_REFERENCE'
++        result['normalized_state_comparison'] = 'NOT_AVAILABLE_IN_OWN_ALLOCATOR_REFERENCE'
+     return result, rn
+ 
+ 
+@@ -377,19 +433,39 @@
+                 earlier_violation_cannot_be_erased=True,battery_inventory_excluded_from_orbit=True)
+ 
+ 
++def external_q_guard_controls():
++    """Retain sealed Q+guard as explicitly unmatched external context only."""
++    rows = []
++    for cid in ('C0-fast', 'C50-fast'):
++        path = ROOT / 'current_guard_gate1/results' / (tag_for(cid, 1e-5) + '.json')
++        row = dict(case=cid, allocator='q_priority', role='external_known_Q_plus_guard_control',
++                   matched_own_allocator_reference=False, used_for_recovery_scoring=False,
++                   file=str(path.relative_to(ROOT)))
++        if path.exists():
++            q = json.loads(path.read_text())
++            row.update(status='EXISTING_SEALED_RESULT', sha256=sha(path),
++                       stop_reason=q.get('stop_reason'), simulation_completed=q.get('simulation_completed'),
++                       complete_hard_safe=q.get('complete_hard_safe'), service=q.get('service'),
++                       inventory=q.get('inventory'), metrics=q.get('metrics'))
++        else:
++            row['status'] = 'NOT_AVAILABLE'
++        rows.append(row)
++    return rows
++
++
+ def update_roster(f):
+     rows=[]
+     for case in f['execution_order']:
+         p=OUTPUT/(tag_for(case['id'],1e-5)+'.json')
+         if p.exists():
+             s=json.loads(p.read_text())
+-            row=dict(case=case['id'],status='EXECUTED',stop_reason=s['stop_reason'],
++            row=dict(case=case['id'],allocator=case['allocator'],status='EXECUTED',stop_reason=s['stop_reason'],
+                      no_fault_physical_admission=s.get('no_fault_physical_admission'),result_file=p.name)
+         else:
+-            ref=OUTPUT/(tag_for('C0-'+case['port'],1e-5)+'.json')
++            ref=OUTPUT/(tag_for(healthy_case_id(case),1e-5)+'.json')
+             blocked=case['event'] is not None and ref.exists() and json.loads(ref.read_text()).get('no_fault_physical_admission') is not True
+-            row=dict(case=case['id'],status='NOT_RUN_PENDING_REVIEW',
+-                     reason='same_port_C0_not_admitted' if blocked else 'staged_execution_not_yet_requested',
++            row=dict(case=case['id'],allocator=case['allocator'],status='NOT_RUN_PENDING_REVIEW',
++                     reason='own_allocator_healthy_not_admitted' if blocked else 'staged_execution_not_yet_requested',
+                      fault_onset_state='UNOBSERVED' if case['event'] else None,
+                      recovery='UNOBSERVED')
+         rows.append(row)
+@@ -401,8 +477,10 @@
+     f,g,case,d,full_d,cp=load_design(case_id)
+     check_run_admission(f,case,h)
+     # Lazy imports let reviewers inspect pure scoring without invoking a guard.
+-    from guarded_controller import guarded_controller, GuardFailure
++    from guarded_allocator_controller import guarded_controller, GuardFailure
+     from common_guard import CommonGuard
++    if Path(sys.modules[CommonGuard.__module__].__file__).resolve() != GUARD_SOURCE:
++        raise RuntimeError('CommonGuard resolved to an unexpected source path')
+     OUTPUT.mkdir(exist_ok=True)
+     tag=tag_for(case_id,h)
+     # Exclusive reservation is durable even if a process crashes before summary.
+@@ -418,6 +496,7 @@
+     if not np.allclose(initial_norm,cp['normalized_state'],rtol=0,atol=1e-12):
+         raise RuntimeError('The complete frozen .6s state was not reconstructed exactly')
+     guard=CommonGuard(d)
++    guard.nominal_allocator=case['allocator']
+     req={'P_req_W':800000.,'Q_req_var':700000.}
+     Ts=d['control_sample_s'];t0=.6;end=case['end_time_s'];event=case['event']
+     mmax=d['svpwm_linear_voltage_derating']/np.sqrt(3)
+@@ -492,7 +571,7 @@
+                     reason=stopping;emit(dict(record='pre_sample_physical_stop',k=k,time_s=tt,
+                                              plant_state=y,controller=serial_ctl(ctl),contacts=bad));break
+                 nominal_ctl=copy.deepcopy(ctl)
+-                nominal_cc=controller(tt,y.copy(),nominal_ctl,d,req,vs)
++                nominal_cc=allocator_controller(tt,y.copy(),nominal_ctl,d,req,vs,case['allocator'])
+                 m_nom=nominal_ctl['queued']
+                 call_start=time.perf_counter()
+                 try:
+@@ -649,14 +728,17 @@
+     cleared=next((v for v in event_states.values() if event and abs(v['time_s']-event['end_s'])<1e-12),None)
+     comparison,refstates=reference_comparison(case,ep,states,d)
+     recovery=recovery_score(case,completed,physical_safe,states,intervals,refstates,d)
+-    q=dict(case=case_id,evidence='new_frozen_gate1_offline_model_diagnostic',
++    q=dict(case=case_id,allocator=case['allocator'],evidence='constructive_known_baseline_offline_model_diagnostic',
+            status='EXECUTED',current_guard_qualified=False,paper_ready=False,
+            safety_scope='conditional_current_only',no_100us_real_time_claim=True,
+            topology_scope='Synthetic controlled DC port only; no validated DC/DC or directly connected battery claim',
+            same_full_state=True,initial_checkpoint=f['initial_checkpoint'],checkpoint_sha256=g['checkpoint_sha256'],
+            protocol_sha256=sha(PROTOCOL),physical_protocol_sha256=g['base_sha256'],
+-           runner_source_sha256=sha(__file__),controller_source_sha256=sha(HERE/'guarded_controller.py'),
+-           guard_source_sha256=sha(HERE/'common_guard.py'),physical_rhs_source_sha256=sha(ROOT/'gate_a/dq_bench.py'),
++           runner_source_sha256=sha(__file__),controller_source_path=str((HERE/'guarded_allocator_controller.py').relative_to(ROOT)),
++           controller_source_sha256=sha(HERE/'guarded_allocator_controller.py'),
++           guard_source_path=str(GUARD_SOURCE.relative_to(ROOT)),guard_source_sha256=sha(GUARD_SOURCE),
++           allocator_source_path=str(ALLOCATOR_SOURCE.relative_to(ROOT)),allocator_source_sha256=sha(ALLOCATOR_SOURCE),
++           physical_rhs_source_sha256=sha(ROOT/'gate_a/dq_bench.py'),
+            source_port=case['port'],source_tau_s=d['battery_source_tau_s'],
+            source_ramp_W_per_s=d['battery_source_ramp_up_W_per_s'],
+            h_s=h,control_sample_s=Ts,initial_time_s=t0,planned_end_s=end,final_time_s=final_time,
+@@ -672,7 +754,7 @@
+                        full_recovery_observation_completed=completed if event else None,
+                        unobserved_remainder_s=max(0.,end-final_time)),
+            service=service(ys,y,final_time-t0),inventory=inventory(ys,y,d),
+-           matched_reference=comparison,recovery=recovery,
++           matched_reference=comparison,recovery=recovery,external_known_Q_guard_controls=external_q_guard_controls(),
+            actual_onset_energy_necessary_condition=energy_necessary_condition(onset,event,d) if event else {'status':'NOT_APPLICABLE_NO_FAULT'},
+            timing=timing.result(),guard_exception=exception_info,
+            health_gate=dict(physical_admitted=admitted if not event else None,
+@@ -703,7 +785,7 @@
+ 
+ if __name__=='__main__':
+     parser=argparse.ArgumentParser(description=__doc__)
+-    parser.add_argument('--case',required=True,choices=('C0-slow','C0-fast','C50-slow','C50-fast','C1-slow','C1-fast'))
++    parser.add_argument('--case',required=True,choices=CASE_IDS)
+     parser.add_argument('--h',type=float,default=1e-5,choices=(1e-5,5e-6))
+     args=parser.parse_args()
+     run(args.case,args.h)

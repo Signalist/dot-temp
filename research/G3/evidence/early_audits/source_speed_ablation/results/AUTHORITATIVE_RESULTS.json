@@ -1,0 +1,928 @@
+{
+  "status": "completed_small_fixed_diagnostics",
+  "topology_scope": "Synthetic controlled DC port only; neither validated DC/DC nor directly connected battery",
+  "baseline_Q_slow_source": "gate_a/preconditioned_dq/h1e-05.json; retained earlier result, no new repeat",
+  "analytic_function_source_sha256": "f29874a8447e229104b85537e9f5d6a890df2acfc5603229b8a10784db083dac",
+  "fast_no_fault_reference": {
+    "raw_file": "source_speed_ablation/results/fast_reference_h1e-05.json",
+    "complete_hard_safe": true,
+    "metrics": {
+      "I_peak_pu": 0.8353580928610971,
+      "Vdc_min_pu": 1.0072593769319618,
+      "Vdc_max_pu": 1.0072683906712483,
+      "S_peak_VA": 1063014.6092848468,
+      "P_abs_peak_W": 800000.0043642087,
+      "Pb_abs_peak_W": 815639.6825018511,
+      "soc_min": 0.49968190464889967,
+      "soc_max": 0.49993044008718335,
+      "energy_residual_max_J": 4.3865547922905535e-06,
+      "modulation_max": 0.4605089622790201,
+      "reference_I_peak_pu": 0.8353580730601242
+    },
+    "P_abs_error_J": 13471.75697806786,
+    "Q_abs_error_var_s": 11562.661505587255
+  },
+  "results": [
+    {
+      "case": "fast_sag04",
+      "h_s": 1e-05,
+      "port_tau_s": 0.002,
+      "port_ramp_W_per_s": 50000000.0,
+      "allocator": "q_priority",
+      "source_result_file": "source_speed_ablation/results/fast_sag04_h1e-05.json",
+      "raw_sha256": "5257ac8725bb5d0560eddc233518906c83060cd620127c908323c1dafeb11c59",
+      "trace_sha256": "1734d9b76ec18bac9da7728f98980e0d4c97a4f3c75ee8555742bbfa9a29fcbe",
+      "stop_reason": "dc_high",
+      "end_time_s": 0.6072381448299963,
+      "complete_hard_safe": false,
+      "first_actual_I_crossing_s": 0.6003996858959045,
+      "metrics": {
+        "I_peak_pu": 1.0000771313979464,
+        "Vdc_min_pu": 1.0069410930101688,
+        "Vdc_max_pu": 1.0999999999999999,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 800000.0043642087,
+        "Pb_abs_peak_W": 823722.9429263425,
+        "soc_min": 0.499929765899483,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 4.5838532969355583e-10,
+        "modulation_max": 0.4605089622790201,
+        "reference_I_peak_pu": 0.9500000000000002
+      },
+      "actual_onset_certificate": {
+        "upper_headroom_J": 4341.250139440053,
+        "lower_headroom_J": 8367.847362579983,
+        "upper_max_prefix_gain_J": 887.0613586655236,
+        "upper_margin_J": -3454.1887807745297,
+        "lower_margin_J": -8367.847362579983,
+        "upper_peak_prefix_s": 0.005986723893448303,
+        "meaning": "Positive excludes every actualI/DC-safe controller under this fixed synthetic port. Nonpositive does not prove reachability."
+      },
+      "service": {
+        "observed_fault_duration_s": 0.007188144829996301,
+        "fraction_of_planned_fault_observed": 0.04792096553330868,
+        "P_absolute_error_integral_J": 5424.84025635181,
+        "Q_absolute_error_integral_var_s": 1877.2822278946776,
+        "P_actual_signed_integral_J": 325.6756076452363,
+        "Q_actual_integral_var_s": 3154.4191531027304,
+        "P_net_error_integral_J": -5424.840256351805,
+        "Q_net_error_integral_var_s": -1877.28222789468,
+        "full_observed_P_abs_error_J": 5425.309897499799,
+        "full_observed_Q_abs_error_var_s": 1877.7018709134131,
+        "warning": "Observed-prefix costs with different stop times cannot be ranked as completed mission performance. Unobserved service after a hard stop is not fabricated."
+      },
+      "limiter_release": {
+        "current_reference": {
+          "status": "not_observed_before_stop",
+          "last_active_s": 0.6072000000000001,
+          "release_s": null
+        },
+        "voltage": {
+          "status": "never_active",
+          "release_s": null
+        },
+        "source_command": {
+          "status": "observed_exit_no_later_reactivation",
+          "last_active_s": 0.6002000000000001,
+          "release_s": 0.6003000000000001
+        },
+        "PLL_frequency": {
+          "status": "never_active",
+          "release_s": null
+        }
+      },
+      "electrical_recovery_time_s": null,
+      "electrical_recovery_checks": [],
+      "global_safe_recovery": false,
+      "paired_reference": {
+        "time_s": 0.6072381448299963,
+        "stored_battery_energy_fault_minus_no_fault_J": 1170.0507429115241,
+        "PCC_active_energy_fault_minus_no_fault_J": -5379.8102883241545,
+        "PCC_reactive_integral_fault_minus_no_fault_var_s": -1915.9339511897515,
+        "absolute_P_error_excess_over_no_fault_J": 5379.810288063616,
+        "absolute_Q_error_excess_over_no_fault_var_s": 1838.6305045996103,
+        "DC_energy_difference_J": 4220.886176031141,
+        "note": "Same-state, same hypothetical fast-port no-fault reference. Inventory difference does not restore past service."
+      }
+    },
+    {
+      "case": "fast_sag04",
+      "h_s": 5e-06,
+      "port_tau_s": 0.002,
+      "port_ramp_W_per_s": 50000000.0,
+      "allocator": "q_priority",
+      "source_result_file": "source_speed_ablation/results/fast_sag04_h5e-06.json",
+      "raw_sha256": "b0e94f975bf696aeff846dfed3ed8efc34ac91de9c2c625f0b97ed596e46de00",
+      "trace_sha256": "846f1ee8d63353138e3459cf9971a4f34e1a19097cfc0b9f6157b8c968b78346",
+      "stop_reason": "dc_high",
+      "end_time_s": 0.6072381448299955,
+      "complete_hard_safe": false,
+      "first_actual_I_crossing_s": 0.6003996858959048,
+      "metrics": {
+        "I_peak_pu": 1.0000771313978791,
+        "Vdc_min_pu": 1.0069410930101694,
+        "Vdc_max_pu": 1.1000000000000003,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 800000.0043642087,
+        "Pb_abs_peak_W": 823722.9429263433,
+        "soc_min": 0.499929765899483,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 1.407897798344493e-09,
+        "modulation_max": 0.4605089622790201,
+        "reference_I_peak_pu": 0.9500000000000002
+      },
+      "actual_onset_certificate": {
+        "upper_headroom_J": 4341.250139440054,
+        "lower_headroom_J": 8367.847362579983,
+        "upper_max_prefix_gain_J": 887.061358665525,
+        "upper_margin_J": -3454.1887807745293,
+        "lower_margin_J": -8367.847362579983,
+        "upper_peak_prefix_s": 0.005986723893448305,
+        "meaning": "Positive excludes every actualI/DC-safe controller under this fixed synthetic port. Nonpositive does not prove reachability."
+      },
+      "service": {
+        "observed_fault_duration_s": 0.007188144829995524,
+        "fraction_of_planned_fault_observed": 0.047920965533303495,
+        "P_absolute_error_integral_J": 5424.840256351477,
+        "Q_absolute_error_integral_var_s": 1877.2822278951858,
+        "P_actual_signed_integral_J": 325.67560764493777,
+        "Q_actual_integral_var_s": 3154.4191531016863,
+        "P_net_error_integral_J": -5424.840256351482,
+        "Q_net_error_integral_var_s": -1877.2822278951803,
+        "full_observed_P_abs_error_J": 5425.30989749947,
+        "full_observed_Q_abs_error_var_s": 1877.7018709139238,
+        "warning": "Observed-prefix costs with different stop times cannot be ranked as completed mission performance. Unobserved service after a hard stop is not fabricated."
+      },
+      "limiter_release": {
+        "current_reference": {
+          "status": "not_observed_before_stop",
+          "last_active_s": 0.6072000000000001,
+          "release_s": null
+        },
+        "voltage": {
+          "status": "never_active",
+          "release_s": null
+        },
+        "source_command": {
+          "status": "observed_exit_no_later_reactivation",
+          "last_active_s": 0.6002000000000001,
+          "release_s": 0.6003000000000001
+        },
+        "PLL_frequency": {
+          "status": "never_active",
+          "release_s": null
+        }
+      },
+      "electrical_recovery_time_s": null,
+      "electrical_recovery_checks": [],
+      "global_safe_recovery": false,
+      "paired_reference": {
+        "time_s": 0.6072381448299955,
+        "stored_battery_energy_fault_minus_no_fault_J": 1170.050742911466,
+        "PCC_active_energy_fault_minus_no_fault_J": -5379.810288323841,
+        "PCC_reactive_integral_fault_minus_no_fault_var_s": -1915.933951190244,
+        "absolute_P_error_excess_over_no_fault_J": 5379.810288063293,
+        "absolute_Q_error_excess_over_no_fault_var_s": 1838.630504600126,
+        "DC_energy_difference_J": 4220.8861760311665,
+        "note": "Same-state, same hypothetical fast-port no-fault reference. Inventory difference does not restore past service."
+      }
+    },
+    {
+      "case": "slow_p_priority",
+      "h_s": 1e-05,
+      "port_tau_s": 0.02,
+      "port_ramp_W_per_s": 5000000.0,
+      "allocator": "p_priority",
+      "source_result_file": "baseline_allocation/results/slow_p_priority_h1e-05.json",
+      "raw_sha256": "d26944c70a3fc2fe0a46d1b326261f7f81464c1c5c7f1db87e3b3b5b400884a2",
+      "trace_sha256": "c9a588a8703e1107dca77c5a772f0f00cff0f05c46dca1d694d10f797479352e",
+      "stop_reason": "current_emergency",
+      "end_time_s": 0.6020732801105443,
+      "complete_hard_safe": false,
+      "first_actual_I_crossing_s": 0.6003908196379067,
+      "metrics": {
+        "I_peak_pu": 1.1,
+        "Vdc_min_pu": 1.00693791680049,
+        "Vdc_max_pu": 1.0174290988180814,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 800000.0043642087,
+        "Pb_abs_peak_W": 816454.9857243015,
+        "soc_min": 0.49993020132495347,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 3.67435859516263e-10,
+        "modulation_max": 0.4605089622790201,
+        "reference_I_peak_pu": 0.9500000000000002
+      },
+      "actual_onset_certificate": {
+        "upper_headroom_J": 4341.250139445716,
+        "lower_headroom_J": 8367.847362574323,
+        "upper_max_prefix_gain_J": 8870.613573156861,
+        "upper_margin_J": 4529.363433711145,
+        "lower_margin_J": -8367.847362574323,
+        "upper_peak_prefix_s": 0.05986723888893316,
+        "meaning": "Positive excludes every actualI/DC-safe controller under this fixed synthetic port. Nonpositive does not prove reachability."
+      },
+      "service": {
+        "observed_fault_duration_s": 0.002023280110544312,
+        "fraction_of_planned_fault_observed": 0.013488534070295415,
+        "P_absolute_error_integral_J": 598.5306862546785,
+        "Q_absolute_error_integral_var_s": 772.8819942350086,
+        "P_actual_signed_integral_J": 1020.0934021807703,
+        "Q_actual_integral_var_s": 643.4140831460102,
+        "P_net_error_integral_J": -598.5306862546794,
+        "Q_net_error_integral_var_s": -772.8819942350083,
+        "full_observed_P_abs_error_J": 599.000327402668,
+        "full_observed_Q_abs_error_var_s": 773.3016372537435,
+        "warning": "Observed-prefix costs with different stop times cannot be ranked as completed mission performance. Unobserved service after a hard stop is not fabricated."
+      },
+      "limiter_release": {
+        "current_reference": {
+          "status": "not_observed_before_stop",
+          "last_active_s": 0.602,
+          "release_s": null
+        },
+        "voltage": {
+          "status": "never_active",
+          "release_s": null
+        },
+        "source_command": {
+          "status": "observed_exit_no_later_reactivation",
+          "last_active_s": 0.6002000000000001,
+          "release_s": 0.6003000000000001
+        },
+        "PLL_frequency": {
+          "status": "observed_exit_no_later_reactivation",
+          "last_active_s": 0.6015,
+          "release_s": 0.6016
+        }
+      },
+      "electrical_recovery_time_s": null,
+      "electrical_recovery_checks": [],
+      "global_safe_recovery": false,
+      "paired_reference": null
+    },
+    {
+      "case": "slow_radial",
+      "h_s": 1e-05,
+      "port_tau_s": 0.02,
+      "port_ramp_W_per_s": 5000000.0,
+      "allocator": "radial",
+      "source_result_file": "baseline_allocation/results/slow_radial_h1e-05.json",
+      "raw_sha256": "55795049c64b1ad04f30564d530d642178798ec17dc5047de2f3920322792c15",
+      "trace_sha256": "2f909cb10db171bfa7c123453bb2209b4ab74f414f5726bb8401d7558536a068",
+      "stop_reason": "dc_high",
+      "end_time_s": 0.6116747752929932,
+      "complete_hard_safe": false,
+      "first_actual_I_crossing_s": 0.6003574714332915,
+      "metrics": {
+        "I_peak_pu": 1.0303895638660405,
+        "Vdc_min_pu": 1.00693791680049,
+        "Vdc_max_pu": 1.1000000000000005,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 800000.0043642087,
+        "Pb_abs_peak_W": 816454.9857243015,
+        "soc_min": 0.49992913505707715,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 2.077285898849368e-09,
+        "modulation_max": 0.4605089622790201,
+        "reference_I_peak_pu": 0.9500000000000003
+      },
+      "actual_onset_certificate": {
+        "upper_headroom_J": 4341.250139445716,
+        "lower_headroom_J": 8367.847362574323,
+        "upper_max_prefix_gain_J": 8870.613573156861,
+        "upper_margin_J": 4529.363433711145,
+        "lower_margin_J": -8367.847362574323,
+        "upper_peak_prefix_s": 0.05986723888893316,
+        "meaning": "Positive excludes every actualI/DC-safe controller under this fixed synthetic port. Nonpositive does not prove reachability."
+      },
+      "service": {
+        "observed_fault_duration_s": 0.011624775292993217,
+        "fraction_of_planned_fault_observed": 0.07749850195328811,
+        "P_absolute_error_integral_J": 4657.489769760606,
+        "Q_absolute_error_integral_var_s": 4610.912712847905,
+        "P_actual_signed_integral_J": 4642.3304646339675,
+        "Q_actual_integral_var_s": 3526.42999224735,
+        "P_net_error_integral_J": -4657.489769760607,
+        "Q_net_error_integral_var_s": -4610.912712847901,
+        "full_observed_P_abs_error_J": 4657.959410908596,
+        "full_observed_Q_abs_error_var_s": 4611.33235586664,
+        "warning": "Observed-prefix costs with different stop times cannot be ranked as completed mission performance. Unobserved service after a hard stop is not fabricated."
+      },
+      "limiter_release": {
+        "current_reference": {
+          "status": "not_observed_before_stop",
+          "last_active_s": 0.6116,
+          "release_s": null
+        },
+        "voltage": {
+          "status": "never_active",
+          "release_s": null
+        },
+        "source_command": {
+          "status": "observed_exit_no_later_reactivation",
+          "last_active_s": 0.6002000000000001,
+          "release_s": 0.6003000000000001
+        },
+        "PLL_frequency": {
+          "status": "never_active",
+          "release_s": null
+        }
+      },
+      "electrical_recovery_time_s": null,
+      "electrical_recovery_checks": [],
+      "global_safe_recovery": false,
+      "paired_reference": null
+    },
+    {
+      "case": "fast_p_priority",
+      "h_s": 1e-05,
+      "port_tau_s": 0.002,
+      "port_ramp_W_per_s": 50000000.0,
+      "allocator": "p_priority",
+      "source_result_file": "baseline_allocation/results/fast_p_priority_h1e-05.json",
+      "raw_sha256": "cbe9ce0095f521a119cfe0398e28e65675063847cc07c6aa9725bfe19e88e2a6",
+      "trace_sha256": "9c5e1ccb15716be544f37b0a521ee128f2401303a4df86b7afd9eacddbb0dc54",
+      "stop_reason": "current_emergency",
+      "end_time_s": 0.6020772872134732,
+      "complete_hard_safe": false,
+      "first_actual_I_crossing_s": 0.6003908116664819,
+      "metrics": {
+        "I_peak_pu": 1.1000000000000014,
+        "Vdc_min_pu": 1.0069410930101688,
+        "Vdc_max_pu": 1.016163425526592,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 800000.0043642087,
+        "Pb_abs_peak_W": 823722.9429263425,
+        "soc_min": 0.4999302090172874,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 1.709850039333105e-10,
+        "modulation_max": 0.4605089622790201,
+        "reference_I_peak_pu": 0.9500000000000002
+      },
+      "actual_onset_certificate": {
+        "upper_headroom_J": 4341.250139440053,
+        "lower_headroom_J": 8367.847362579983,
+        "upper_max_prefix_gain_J": 887.0613586655236,
+        "upper_margin_J": -3454.1887807745297,
+        "lower_margin_J": -8367.847362579983,
+        "upper_peak_prefix_s": 0.005986723893448303,
+        "meaning": "Positive excludes every actualI/DC-safe controller under this fixed synthetic port. Nonpositive does not prove reachability."
+      },
+      "service": {
+        "observed_fault_duration_s": 0.002027287213473228,
+        "fraction_of_planned_fault_observed": 0.013515248089821519,
+        "P_absolute_error_integral_J": 599.9635081425178,
+        "Q_absolute_error_integral_var_s": 775.9286258846428,
+        "P_actual_signed_integral_J": 1021.8662626360641,
+        "Q_actual_integral_var_s": 643.1724235466165,
+        "P_net_error_integral_J": -599.9635081425182,
+        "Q_net_error_integral_var_s": -775.928625884643,
+        "full_observed_P_abs_error_J": 600.4331492905065,
+        "full_observed_Q_abs_error_var_s": 776.3482689033783,
+        "warning": "Observed-prefix costs with different stop times cannot be ranked as completed mission performance. Unobserved service after a hard stop is not fabricated."
+      },
+      "limiter_release": {
+        "current_reference": {
+          "status": "not_observed_before_stop",
+          "last_active_s": 0.602,
+          "release_s": null
+        },
+        "voltage": {
+          "status": "never_active",
+          "release_s": null
+        },
+        "source_command": {
+          "status": "observed_exit_no_later_reactivation",
+          "last_active_s": 0.6002000000000001,
+          "release_s": 0.6003000000000001
+        },
+        "PLL_frequency": {
+          "status": "observed_exit_no_later_reactivation",
+          "last_active_s": 0.6015,
+          "release_s": 0.6016
+        }
+      },
+      "electrical_recovery_time_s": null,
+      "electrical_recovery_checks": [],
+      "global_safe_recovery": false,
+      "paired_reference": {
+        "time_s": 0.6020772872134732,
+        "stored_battery_energy_fault_minus_no_fault_J": 65.19254184758756,
+        "PCC_active_energy_fault_minus_no_fault_J": -587.3075587710334,
+        "PCC_reactive_integral_fault_minus_no_fault_var_s": -786.7798706930332,
+        "absolute_P_error_excess_over_no_fault_J": 587.3075586945504,
+        "absolute_Q_error_excess_over_no_fault_var_s": 765.0773810762523,
+        "DC_energy_difference_J": 388.8854989956708,
+        "note": "Same-state, same hypothetical fast-port no-fault reference. Inventory difference does not restore past service."
+      }
+    },
+    {
+      "case": "fast_radial",
+      "h_s": 1e-05,
+      "port_tau_s": 0.002,
+      "port_ramp_W_per_s": 50000000.0,
+      "allocator": "radial",
+      "source_result_file": "baseline_allocation/results/fast_radial_h1e-05.json",
+      "raw_sha256": "8015e818628453ee6e99de5d827f7c696f196e334993c998c01eb30c6d685958",
+      "trace_sha256": "87688846d3b2bce7612065e351ebd62757b69e77dde2669e6ebcbc3ca17f88e0",
+      "stop_reason": "completed",
+      "end_time_s": 2.75005,
+      "complete_hard_safe": false,
+      "first_actual_I_crossing_s": 0.600357465758903,
+      "metrics": {
+        "I_peak_pu": 1.0303943280163241,
+        "Vdc_min_pu": 0.9701089993769522,
+        "Vdc_max_pu": 1.044498004344934,
+        "S_peak_VA": 1144667.1405039225,
+        "P_abs_peak_W": 812427.7500243811,
+        "Pb_abs_peak_W": 894431.4231170702,
+        "soc_min": 0.49969041184616214,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 2.792203304124996e-06,
+        "modulation_max": 0.48725368969436,
+        "reference_I_peak_pu": 0.9500000000000003
+      },
+      "actual_onset_certificate": {
+        "upper_headroom_J": 4341.250139440053,
+        "lower_headroom_J": 8367.847362579983,
+        "upper_max_prefix_gain_J": 887.0613586655236,
+        "upper_margin_J": -3454.1887807745297,
+        "lower_margin_J": -8367.847362579983,
+        "upper_peak_prefix_s": 0.005986723893448303,
+        "meaning": "Positive excludes every actualI/DC-safe controller under this fixed synthetic port. Nonpositive does not prove reachability."
+      },
+      "service": {
+        "observed_fault_duration_s": 0.15000000000000002,
+        "fraction_of_planned_fault_observed": 1.0000000000000002,
+        "P_absolute_error_integral_J": 61022.25563282867,
+        "Q_absolute_error_integral_var_s": 54442.37892744473,
+        "P_actual_signed_integral_J": 58977.74436716887,
+        "Q_actual_integral_var_s": 50557.62107255557,
+        "P_net_error_integral_J": -61022.25563283115,
+        "Q_net_error_integral_var_s": -54442.37892744444,
+        "full_observed_P_abs_error_J": 73646.82379262018,
+        "full_observed_Q_abs_error_var_s": 70082.00861038688,
+        "warning": "Observed-prefix costs with different stop times cannot be ranked as completed mission performance. Unobserved service after a hard stop is not fabricated."
+      },
+      "limiter_release": {
+        "current_reference": {
+          "status": "observed_exit_no_later_reactivation",
+          "last_active_s": 0.7502000000000001,
+          "release_s": 0.7503000000000001
+        },
+        "voltage": {
+          "status": "never_active",
+          "release_s": null
+        },
+        "source_command": {
+          "status": "observed_exit_no_later_reactivation",
+          "last_active_s": 0.6002000000000001,
+          "release_s": 0.6003000000000001
+        },
+        "PLL_frequency": {
+          "status": "never_active",
+          "release_s": null
+        }
+      },
+      "electrical_recovery_time_s": 1.3000000000000005,
+      "electrical_recovery_checks": [
+        {
+          "time_s": 0.8,
+          "same_time_target_difference": 0.48925092501489936,
+          "self_50ms_difference": 0.4870906293169106,
+          "safe_150ms": true,
+          "unclipped_150ms": false,
+          "PLL_max_error_Hz": 3.7672740165750085,
+          "qualifying": false,
+          "successive": 0
+        },
+        {
+          "time_s": 0.8500000000000001,
+          "same_time_target_difference": 0.025702782195093588,
+          "self_50ms_difference": 0.49965082233153096,
+          "safe_150ms": true,
+          "unclipped_150ms": false,
+          "PLL_max_error_Hz": 3.7672740165750085,
+          "qualifying": false,
+          "successive": 0
+        },
+        {
+          "time_s": 0.9000000000000001,
+          "same_time_target_difference": 0.006946564197101379,
+          "self_50ms_difference": 0.018756218106447453,
+          "safe_150ms": true,
+          "unclipped_150ms": false,
+          "PLL_max_error_Hz": 3.7672740165750085,
+          "qualifying": false,
+          "successive": 0
+        },
+        {
+          "time_s": 0.9500000000000002,
+          "same_time_target_difference": 0.0018769300602122785,
+          "self_50ms_difference": 0.005069634166162684,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 0.008146353483567736,
+          "qualifying": false,
+          "successive": 0
+        },
+        {
+          "time_s": 1.0000000000000002,
+          "same_time_target_difference": 0.0005068070558330584,
+          "self_50ms_difference": 0.0013701230122751262,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 0.00040922135079313193,
+          "qualifying": false,
+          "successive": 0
+        },
+        {
+          "time_s": 1.0500000000000003,
+          "same_time_target_difference": 0.0001368376799133486,
+          "self_50ms_difference": 0.00036996937809896657,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.144380651320944e-05,
+          "qualifying": false,
+          "successive": 0
+        },
+        {
+          "time_s": 1.1000000000000003,
+          "same_time_target_difference": 3.694534015274975e-05,
+          "self_50ms_difference": 9.98923403198182e-05,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 9.444199385200136e-06,
+          "qualifying": false,
+          "successive": 0
+        },
+        {
+          "time_s": 1.1500000000000004,
+          "same_time_target_difference": 9.97492282395207e-06,
+          "self_50ms_difference": 2.6970417417282455e-05,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 2.665468365137258e-06,
+          "qualifying": false,
+          "successive": 0
+        },
+        {
+          "time_s": 1.2000000000000004,
+          "same_time_target_difference": 2.6931244744288207e-06,
+          "self_50ms_difference": 7.281798337421819e-06,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 7.482089969812478e-07,
+          "qualifying": true,
+          "successive": 1
+        },
+        {
+          "time_s": 1.2500000000000004,
+          "same_time_target_difference": 7.271106741146838e-07,
+          "self_50ms_difference": 1.9660138497190616e-06,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 2.0980399995096377e-07,
+          "qualifying": true,
+          "successive": 2
+        },
+        {
+          "time_s": 1.3000000000000005,
+          "same_time_target_difference": 1.9630972714068662e-07,
+          "self_50ms_difference": 5.308009651816548e-07,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 5.878023046079761e-08,
+          "qualifying": true,
+          "successive": 3
+        },
+        {
+          "time_s": 1.3500000000000005,
+          "same_time_target_difference": 5.3000534627756224e-08,
+          "self_50ms_difference": 1.4330918063354403e-07,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.645656055870859e-08,
+          "qualifying": true,
+          "successive": 4
+        },
+        {
+          "time_s": 1.4000000000000006,
+          "same_time_target_difference": 1.4309201490370071e-08,
+          "self_50ms_difference": 3.8691313930527826e-08,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 4.603428749305749e-09,
+          "qualifying": true,
+          "successive": 5
+        },
+        {
+          "time_s": 1.4500000000000006,
+          "same_time_target_difference": 3.863054875985483e-09,
+          "self_50ms_difference": 1.0446210119141597e-08,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.2906369306620036e-09,
+          "qualifying": true,
+          "successive": 6
+        },
+        {
+          "time_s": 1.5000000000000007,
+          "same_time_target_difference": 1.0429950236812147e-09,
+          "self_50ms_difference": 2.8200548563006578e-09,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.632223410932056e-10,
+          "qualifying": true,
+          "successive": 7
+        },
+        {
+          "time_s": 1.5500000000000007,
+          "same_time_target_difference": 2.815433441938353e-10,
+          "self_50ms_difference": 7.614399111233183e-10,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.837676677496347e-10,
+          "qualifying": true,
+          "successive": 8
+        },
+        {
+          "time_s": 1.6000000000000008,
+          "same_time_target_difference": 7.599698648164122e-11,
+          "self_50ms_difference": 2.055241532517016e-10,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.9754866065777605e-11,
+          "qualifying": true,
+          "successive": 9
+        },
+        {
+          "time_s": 1.6500000000000008,
+          "same_time_target_difference": 2.0514479004418718e-11,
+          "self_50ms_difference": 5.54754020498649e-11,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.9754866065777605e-11,
+          "qualifying": true,
+          "successive": 10
+        },
+        {
+          "time_s": 1.7000000000000008,
+          "same_time_target_difference": 5.539124714459831e-12,
+          "self_50ms_difference": 1.494104839849797e-11,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.929301328753354e-11,
+          "qualifying": true,
+          "successive": 11
+        },
+        {
+          "time_s": 1.7500000000000009,
+          "same_time_target_difference": 1.4938050796331481e-12,
+          "self_50ms_difference": 4.0564218650729345e-12,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.922195901395753e-11,
+          "qualifying": true,
+          "successive": 12
+        },
+        {
+          "time_s": 1.800000000000001,
+          "same_time_target_difference": 4.035660694512444e-13,
+          "self_50ms_difference": 1.1710632463746151e-12,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.922195901395753e-11,
+          "qualifying": true,
+          "successive": 13
+        },
+        {
+          "time_s": 1.850000000000001,
+          "same_time_target_difference": 1.1368683772161603e-13,
+          "self_50ms_difference": 3.076428001236309e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.922195901395753e-11,
+          "qualifying": true,
+          "successive": 14
+        },
+        {
+          "time_s": 1.900000000000001,
+          "same_time_target_difference": 1.1368683772161603e-13,
+          "self_50ms_difference": 1.4643841694805815e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.9264591578103136e-11,
+          "qualifying": true,
+          "successive": 15
+        },
+        {
+          "time_s": 1.950000000000001,
+          "same_time_target_difference": 1.1368683772161603e-13,
+          "self_50ms_difference": 2.2737367544323206e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.9264591578103136e-11,
+          "qualifying": true,
+          "successive": 16
+        },
+        {
+          "time_s": 2.000000000000001,
+          "same_time_target_difference": 1.1368683772161603e-13,
+          "self_50ms_difference": 2.2737367544323206e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.9264591578103136e-11,
+          "qualifying": true,
+          "successive": 17
+        },
+        {
+          "time_s": 2.050000000000001,
+          "same_time_target_difference": 1.2212453270876722e-15,
+          "self_50ms_difference": 1.4779288903810084e-12,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.906563961209031e-11,
+          "qualifying": true,
+          "successive": 18
+        },
+        {
+          "time_s": 2.1000000000000014,
+          "same_time_target_difference": 1.1368683772161603e-13,
+          "self_50ms_difference": 1.3642420526593924e-12,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.881694965457427e-11,
+          "qualifying": true,
+          "successive": 19
+        },
+        {
+          "time_s": 2.1500000000000012,
+          "same_time_target_difference": 1.1368683772161603e-13,
+          "self_50ms_difference": 2.5202062658991053e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 3.608136012189789e-11,
+          "qualifying": true,
+          "successive": 20
+        },
+        {
+          "time_s": 2.200000000000001,
+          "same_time_target_difference": 1.887379141862766e-15,
+          "self_50ms_difference": 2.2737367544323206e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.41895384331292e-11,
+          "qualifying": true,
+          "successive": 21
+        },
+        {
+          "time_s": 2.2500000000000013,
+          "same_time_target_difference": 1.1368683772161603e-13,
+          "self_50ms_difference": 2.6567636979279996e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.41895384331292e-11,
+          "qualifying": true,
+          "successive": 22
+        },
+        {
+          "time_s": 2.3000000000000016,
+          "same_time_target_difference": 1.1368683772161603e-13,
+          "self_50ms_difference": 2.5790480862042386e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.4161116723698797e-11,
+          "qualifying": true,
+          "successive": 23
+        },
+        {
+          "time_s": 2.3500000000000014,
+          "same_time_target_difference": 1.1368683772161603e-13,
+          "self_50ms_difference": 2.2737367544323206e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.4161116723698797e-11,
+          "qualifying": true,
+          "successive": 24
+        },
+        {
+          "time_s": 2.4000000000000012,
+          "same_time_target_difference": 1.6653345369377348e-15,
+          "self_50ms_difference": 2.582378755278114e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.4161116723698797e-11,
+          "qualifying": true,
+          "successive": 25
+        },
+        {
+          "time_s": 2.4500000000000015,
+          "same_time_target_difference": 1.7763568394002505e-15,
+          "self_50ms_difference": 2.5557334026871104e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.4345857834996423e-11,
+          "qualifying": true,
+          "successive": 26
+        },
+        {
+          "time_s": 2.5000000000000018,
+          "same_time_target_difference": 1.5543122344752192e-15,
+          "self_50ms_difference": 2.5490720645393594e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.4345857834996423e-11,
+          "qualifying": true,
+          "successive": 27
+        },
+        {
+          "time_s": 2.5500000000000016,
+          "same_time_target_difference": 1.2212453270876722e-15,
+          "self_50ms_difference": 2.6556534749033744e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.4345857834996423e-11,
+          "qualifying": true,
+          "successive": 28
+        },
+        {
+          "time_s": 2.6000000000000014,
+          "same_time_target_difference": 1.887379141862766e-15,
+          "self_50ms_difference": 2.55351295663786e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.4232170997274807e-11,
+          "qualifying": true,
+          "successive": 29
+        },
+        {
+          "time_s": 2.6500000000000017,
+          "same_time_target_difference": 1.6653345369377348e-15,
+          "self_50ms_difference": 2.049471703458039e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.4232170997274807e-11,
+          "qualifying": true,
+          "successive": 30
+        },
+        {
+          "time_s": 2.700000000000002,
+          "same_time_target_difference": 1.1368683772161603e-13,
+          "self_50ms_difference": 2.6334490144108713e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.4310330698208418e-11,
+          "qualifying": true,
+          "successive": 31
+        },
+        {
+          "time_s": 2.7500000000000018,
+          "same_time_target_difference": 1.3322676295501878e-15,
+          "self_50ms_difference": 2.615685446016869e-13,
+          "safe_150ms": true,
+          "unclipped_150ms": true,
+          "PLL_max_error_Hz": 1.4310330698208418e-11,
+          "qualifying": true,
+          "successive": 32
+        }
+      ],
+      "global_safe_recovery": false,
+      "paired_reference": {
+        "time_s": 2.75005,
+        "stored_battery_energy_fault_minus_no_fault_J": 61251.82028975384,
+        "PCC_active_energy_fault_minus_no_fault_J": -59969.63148654299,
+        "PCC_reactive_integral_fault_minus_no_fault_var_s": -50452.513531765435,
+        "absolute_P_error_excess_over_no_fault_J": 60175.06681455232,
+        "absolute_Q_error_excess_over_no_fault_var_s": 58519.34710479963,
+        "DC_energy_difference_J": -3.637978807091713e-12,
+        "note": "Same-state, same hypothetical fast-port no-fault reference. Inventory difference does not restore past service."
+      }
+    }
+  ],
+  "reference_subinterval_re_evaluations": [
+    {
+      "requested_time_s": 0.6072381448299963,
+      "replayed_interval_start_s": 0.6072000000000001,
+      "replayed_interval_end_s": 0.6073000000000001,
+      "max_state_error_at_recorded_next_endpoint_SI": 3.552713678800501e-14,
+      "method": "Local <=100us re-evaluation from saved full no-fault state; no new physical condition or full trajectory."
+    },
+    {
+      "requested_time_s": 0.6072381448299955,
+      "replayed_interval_start_s": 0.6072000000000001,
+      "replayed_interval_end_s": 0.6073000000000001,
+      "max_state_error_at_recorded_next_endpoint_SI": 3.552713678800501e-14,
+      "method": "Local <=100us re-evaluation from saved full no-fault state; no new physical condition or full trajectory."
+    },
+    {
+      "requested_time_s": 0.6020772872134732,
+      "replayed_interval_start_s": 0.602,
+      "replayed_interval_end_s": 0.6021000000000001,
+      "max_state_error_at_recorded_next_endpoint_SI": 2.2737367544323206e-13,
+      "method": "Local <=100us re-evaluation from saved full no-fault state; no new physical condition or full trajectory."
+    }
+  ],
+  "interpretation": "Faster port removes the old all-policy DC energy exclusion, but all tested fixed allocation rules still violate actual current; Q-priority additionally reaches DC upper limit. Static reference circles do not constitute dynamic current limiting. There is no new method, complete safe fault witness or joint-service success."
+}

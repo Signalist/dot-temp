@@ -1,0 +1,23 @@
+{
+  "origin": "Manually reconstructed from retained prior tool-call and tool-result text. No original filesystem file survived. Matching digest verifies reconstructed parameter bytes only; not restored trajectory evidence.",
+  "results": [
+    {
+      "file": "GATE_A_LOCKED_V1.json",
+      "historical_sha256": "666371d90a95db4d60f1eef5c23188e3089b00abd4b6432c14d836c37663f310",
+      "reconstructed_sha256": "666371d90a95db4d60f1eef5c23188e3089b00abd4b6432c14d836c37663f310",
+      "byte_identity_to_historical_digest": true
+    },
+    {
+      "file": "GATE_A_LOCKED_V1_1.json",
+      "historical_sha256": "d760dc40b8784fe51e7cb503d4bde064139563e82b48255fb8699998e87eddc9",
+      "reconstructed_sha256": "d760dc40b8784fe51e7cb503d4bde064139563e82b48255fb8699998e87eddc9",
+      "byte_identity_to_historical_digest": true
+    },
+    {
+      "file": "GATE_A_LOCKED_V2_1.json",
+      "historical_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+      "reconstructed_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+      "byte_identity_to_historical_digest": true
+    }
+  ]
+}

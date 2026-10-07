@@ -1,0 +1,1252 @@
+{
+  "schema_version": "1.0",
+  "title": "G3 科学假设账本",
+  "created_utc": "2026-10-02T03:35:23.166760+00:00",
+  "scope": "仅审计已存在的报告、来源登记和六个主JSON；不运行新轨迹、不调整控制器、不开展性能搜索、不制定下一四条基线执行协议。",
+  "model_name": "合成受控DC端口",
+  "paper_ready": false,
+  "current_guard_qualified": false,
+  "new_high_novelty_evidence_established": false,
+  "overall_judgment": "当前证据支持模型复核、已知安全层适配的条件数值诊断和慢端口条件排除；不足支持论文级高创新。H07有独立分析新增的可能，H08有条件服务取舍研究的可能，均未建立。H05的可行性仍开放，不预设其正负结论。",
+  "evidence_policy": {
+    "new_model_runs": 0,
+    "new_trajectory_integrations": 0,
+    "controller_performance_search": false,
+    "new_web_fetches": 0,
+    "literature_scope": "复用2026-10-02已核验来源记录和其中限制；本轮未声称穷尽检索、刷新全文或发现文献空白。",
+    "source_binaries_copied": false,
+    "source_files_modified": false,
+    "historical_proposal_status": "phase_mechanism文件中的未实现/未运行是历史时点；当前执行状态取六个主JSON与Gate1报告。"
+  },
+  "logical_separation": [
+    "某控制器失败不能推出所有同信息控制不可能；必要界未排除不能推出存在安全控制。",
+    "有限轨迹数值通过不能推出全称不变性；条件电流/调制保证不能推出DC/SoC/服务与恢复。",
+    "构造性可行见证不能推出最优或新方法优越；成熟MPC复现前沿不自动否定一个独立非平凡解析定理。",
+    "健康有限观察窗不是无限持续或库存周期闭合；服务透明性null不等于通过，也不能事后补为正式失败。",
+    "故障停止前I安全只是前缀；清除/恢复未观察就是未知，早停积分不可排名。",
+    "固定SLSQP墙钟超100μs不是成熟MPSC普遍无法实时的证据。"
+  ],
+  "fixed_request": {
+    "P_W": 800000,
+    "Q_var": 700000,
+    "constant_in_all_six_MPSC_cases": true,
+    "ongoing_compute_waveform_validated": false,
+    "dangerous_service_phase_validated": false,
+    "earlier_300kW_periodic_scope": "健康周期存在性与损耗/库存记账诊断，不是持续算力波形或危险相位验证"
+  },
+  "six_primary_results": [
+    {
+      "case": "C0-slow",
+      "source_path": "current_guard_gate1/results/C0-slow_h1e-05.json",
+      "port": "slow",
+      "tau_s": 0.02,
+      "ramp_W_per_s": 5000000.0,
+      "observation_start_s": 0.6,
+      "observation_end_s": 2.75005,
+      "observed_duration_s": 2.15005,
+      "fault_duration_observed_s": null,
+      "stop_reason": "completed",
+      "current_peak_pu": 0.8353580928610971,
+      "dc_peak_pu": 1.0384830775422873,
+      "complete_hard_safe_numerical_window": true,
+      "clearance_observed": null,
+      "full_recovery_observation_completed": null,
+      "mean_P_W": 705517.0699200066,
+      "mean_Q_var": 644839.3535940786,
+      "P_absolute_request_error_integral_J": 203143.0238167945,
+      "Q_absolute_request_error_integral_var_s": 118599.223372077,
+      "service_transparency_pass": null,
+      "initial_modulation_change_norm": 0.2145806922403564,
+      "intervention_count": 21500,
+      "total_control_calls": 21501,
+      "actual_backup_calls": 0,
+      "controller_wall_median_s": 0.009270780996303074,
+      "controller_over_100us_count": 21501,
+      "onset_energy_bound": {
+        "status": "NOT_APPLICABLE_NO_FAULT"
+      },
+      "request_error_json_pointer": "/service",
+      "matched_reference_json_pointer": "/matched_reference",
+      "boundary_scope": "Numerical observed prefix only; no post-stop extension or hardware certificate"
+    },
+    {
+      "case": "C0-fast",
+      "source_path": "current_guard_gate1/results/C0-fast_h1e-05.json",
+      "port": "fast",
+      "tau_s": 0.002,
+      "ramp_W_per_s": 50000000.0,
+      "observation_start_s": 0.6,
+      "observation_end_s": 2.75005,
+      "observed_duration_s": 2.15005,
+      "fault_duration_observed_s": null,
+      "stop_reason": "completed",
+      "current_peak_pu": 0.8353580928610971,
+      "dc_peak_pu": 1.0140678753030221,
+      "complete_hard_safe_numerical_window": true,
+      "clearance_observed": null,
+      "full_recovery_observation_completed": null,
+      "mean_P_W": 705440.9749621407,
+      "mean_Q_var": 644794.6054541062,
+      "P_absolute_request_error_integral_J": 203306.63178106348,
+      "Q_absolute_request_error_integral_var_s": 118695.43411041252,
+      "service_transparency_pass": null,
+      "initial_modulation_change_norm": 0.2145806922403564,
+      "intervention_count": 21495,
+      "total_control_calls": 21501,
+      "actual_backup_calls": 0,
+      "controller_wall_median_s": 0.008979653001006227,
+      "controller_over_100us_count": 21501,
+      "onset_energy_bound": {
+        "status": "NOT_APPLICABLE_NO_FAULT"
+      },
+      "request_error_json_pointer": "/service",
+      "matched_reference_json_pointer": "/matched_reference",
+      "boundary_scope": "Numerical observed prefix only; no post-stop extension or hardware certificate"
+    },
+    {
+      "case": "C50-slow",
+      "source_path": "current_guard_gate1/results/C50-slow_h1e-05.json",
+      "port": "slow",
+      "tau_s": 0.02,
+      "ramp_W_per_s": 5000000.0,
+      "observation_start_s": 0.6,
+      "observation_end_s": 0.6062743257054102,
+      "observed_duration_s": 0.0062743257054102,
+      "fault_duration_observed_s": 0.006224325705410205,
+      "stop_reason": "dc_high",
+      "current_peak_pu": 0.8881688763699422,
+      "dc_peak_pu": 1.0999999999999994,
+      "complete_hard_safe_numerical_window": false,
+      "clearance_observed": false,
+      "full_recovery_observation_completed": false,
+      "mean_P_W": 128392.40537768006,
+      "mean_Q_var": 275360.54408197314,
+      "P_absolute_request_error_integral_J": 4213.884794887543,
+      "Q_absolute_request_error_integral_var_s": 2665.1655398353496,
+      "service_transparency_pass": null,
+      "initial_modulation_change_norm": 0.2145806922403564,
+      "intervention_count": 60,
+      "total_control_calls": 63,
+      "actual_backup_calls": 0,
+      "controller_wall_median_s": 0.013016406999668106,
+      "controller_over_100us_count": 63,
+      "onset_energy_bound": {
+        "status": "RECOMPUTED_FROM_ACTUAL_ONSET",
+        "onset_time_s": 0.60005,
+        "source_Pb0_W": 815639.6755381202,
+        "source_ramp_down_W_per_s": 5000000.0,
+        "source_tau_s": 0.02,
+        "source_voltage_pu": 0.4,
+        "WL0_J": 276.7121693063766,
+        "aggregate_headroom_J": 4341.250139445723,
+        "exit_upper_W": 511140.44628251996,
+        "initial_excess_power_lower_W": 296342.832500219,
+        "excess_power_down_slope_W_per_s": 4950000.0,
+        "valid_positive_source_horizon_s": 0.15000000000000002,
+        "peak_prefix_s": 0.05986723888893313,
+        "maximum_prefix_gain_J": 8870.613573156854,
+        "maximum_headroom_excess_J": 4529.363433711131,
+        "first_headroom_equality_after_fault_s": 0.017088203932513927,
+        "first_headroom_equality_absolute_s": 0.617138203932514,
+        "excludes_all_actual_I_DC_safe_control": true,
+        "scope": "Outer slew-only necessary condition; lag/control constraints relaxed; no copied historical onset time"
+      },
+      "request_error_json_pointer": "/service",
+      "matched_reference_json_pointer": "/matched_reference",
+      "boundary_scope": "Numerical observed prefix only; no post-stop extension or hardware certificate"
+    },
+    {
+      "case": "C50-fast",
+      "source_path": "current_guard_gate1/results/C50-fast_h1e-05.json",
+      "port": "fast",
+      "tau_s": 0.002,
+      "ramp_W_per_s": 50000000.0,
+      "observation_start_s": 0.6,
+      "observation_end_s": 0.608646762771277,
+      "observed_duration_s": 0.008646762771277072,
+      "fault_duration_observed_s": 0.008596762771277078,
+      "stop_reason": "dc_high",
+      "current_peak_pu": 0.8881692839356681,
+      "dc_peak_pu": 1.1,
+      "complete_hard_safe_numerical_window": false,
+      "clearance_observed": false,
+      "full_recovery_observation_completed": false,
+      "mean_P_W": 121593.56756351361,
+      "mean_Q_var": 276046.5359014338,
+      "P_absolute_request_error_integral_J": 5866.0194837867075,
+      "Q_absolute_request_error_integral_var_s": 3666.664316158907,
+      "service_transparency_pass": null,
+      "initial_modulation_change_norm": 0.2145806922403564,
+      "intervention_count": 84,
+      "total_control_calls": 87,
+      "actual_backup_calls": 0,
+      "controller_wall_median_s": 0.013808622999931686,
+      "controller_over_100us_count": 87,
+      "onset_energy_bound": {
+        "status": "RECOMPUTED_FROM_ACTUAL_ONSET",
+        "onset_time_s": 0.60005,
+        "source_Pb0_W": 815639.6757658696,
+        "source_ramp_down_W_per_s": 50000000.0,
+        "source_tau_s": 0.002,
+        "source_voltage_pu": 0.4,
+        "WL0_J": 276.71216930637837,
+        "aggregate_headroom_J": 4341.250139440061,
+        "exit_upper_W": 511140.44628251996,
+        "initial_excess_power_lower_W": 296342.8327256909,
+        "excess_power_down_slope_W_per_s": 49500000.0,
+        "valid_positive_source_horizon_s": 0.016312793515317392,
+        "peak_prefix_s": 0.005986723893448301,
+        "maximum_prefix_gain_J": 887.0613586655234,
+        "maximum_headroom_excess_J": -3454.188780774537,
+        "first_headroom_equality_after_fault_s": null,
+        "first_headroom_equality_absolute_s": null,
+        "excludes_all_actual_I_DC_safe_control": false,
+        "scope": "Outer slew-only necessary condition; lag/control constraints relaxed; no copied historical onset time"
+      },
+      "request_error_json_pointer": "/service",
+      "matched_reference_json_pointer": "/matched_reference",
+      "boundary_scope": "Numerical observed prefix only; no post-stop extension or hardware certificate"
+    },
+    {
+      "case": "C1-slow",
+      "source_path": "current_guard_gate1/results/C1-slow_h1e-05.json",
+      "port": "slow",
+      "tau_s": 0.02,
+      "ramp_W_per_s": 5000000.0,
+      "observation_start_s": 0.6,
+      "observation_end_s": 0.6061931095199046,
+      "observed_duration_s": 0.006193109519904594,
+      "fault_duration_observed_s": 0.006192109519904565,
+      "stop_reason": "dc_high",
+      "current_peak_pu": 0.9082257097807515,
+      "dc_peak_pu": 1.1000000000000003,
+      "complete_hard_safe_numerical_window": false,
+      "clearance_observed": false,
+      "full_recovery_observation_completed": false,
+      "mean_P_W": 121116.08155405511,
+      "mean_Q_var": 264106.2415266196,
+      "P_absolute_request_error_integral_J": 4204.402458237716,
+      "Q_absolute_request_error_integral_var_s": 2699.5617443952515,
+      "service_transparency_pass": null,
+      "initial_modulation_change_norm": 0.2145806922403564,
+      "intervention_count": 59,
+      "total_control_calls": 62,
+      "actual_backup_calls": 0,
+      "controller_wall_median_s": 0.013402383996435674,
+      "controller_over_100us_count": 62,
+      "onset_energy_bound": {
+        "status": "RECOMPUTED_FROM_ACTUAL_ONSET",
+        "onset_time_s": 0.600001,
+        "source_Pb0_W": 815639.6755130102,
+        "source_ramp_down_W_per_s": 5000000.0,
+        "source_tau_s": 0.02,
+        "source_voltage_pu": 0.4,
+        "WL0_J": 277.0881119045528,
+        "aggregate_headroom_J": 4341.250406115872,
+        "exit_upper_W": 511140.44628251996,
+        "initial_excess_power_lower_W": 296342.83247536013,
+        "excess_power_down_slope_W_per_s": 4950000.0,
+        "valid_positive_source_horizon_s": 0.15000000000000002,
+        "peak_prefix_s": 0.059867238883911135,
+        "maximum_prefix_gain_J": 8870.613571668622,
+        "maximum_headroom_excess_J": 4529.363165552751,
+        "first_headroom_equality_after_fault_s": 0.01708820519384614,
+        "first_headroom_equality_absolute_s": 0.6170892051938461,
+        "excludes_all_actual_I_DC_safe_control": true,
+        "scope": "Outer slew-only necessary condition; lag/control constraints relaxed; no copied historical onset time"
+      },
+      "request_error_json_pointer": "/service",
+      "matched_reference_json_pointer": "/matched_reference",
+      "boundary_scope": "Numerical observed prefix only; no post-stop extension or hardware certificate"
+    },
+    {
+      "case": "C1-fast",
+      "source_path": "current_guard_gate1/results/C1-fast_h1e-05.json",
+      "port": "fast",
+      "tau_s": 0.002,
+      "ramp_W_per_s": 50000000.0,
+      "observation_start_s": 0.6,
+      "observation_end_s": 0.6083636354764193,
+      "observed_duration_s": 0.008363635476419273,
+      "fault_duration_observed_s": 0.008362635476419245,
+      "stop_reason": "dc_high",
+      "current_peak_pu": 0.9082257097807738,
+      "dc_peak_pu": 1.1,
+      "complete_hard_safe_numerical_window": false,
+      "clearance_observed": false,
+      "full_recovery_observation_completed": false,
+      "mean_P_W": 115078.96034730748,
+      "mean_Q_var": 265380.00636209175,
+      "P_absolute_request_error_integral_J": 5728.429905785229,
+      "Q_absolute_request_error_integral_var_s": 3635.0271566778947,
+      "service_transparency_pass": null,
+      "initial_modulation_change_norm": 0.2145806922403564,
+      "intervention_count": 81,
+      "total_control_calls": 84,
+      "actual_backup_calls": 0,
+      "controller_wall_median_s": 0.013490421999449609,
+      "controller_over_100us_count": 84,
+      "onset_energy_bound": {
+        "status": "RECOMPUTED_FROM_ACTUAL_ONSET",
+        "onset_time_s": 0.600001,
+        "source_Pb0_W": 815639.6755176269,
+        "source_ramp_down_W_per_s": 50000000.0,
+        "source_tau_s": 0.002,
+        "source_voltage_pu": 0.4,
+        "WL0_J": 277.0881119045528,
+        "aggregate_headroom_J": 4341.250406115872,
+        "exit_upper_W": 511140.44628251996,
+        "initial_excess_power_lower_W": 296342.8324799307,
+        "excess_power_down_slope_W_per_s": 49500000.0,
+        "valid_positive_source_horizon_s": 0.016312793510352537,
+        "peak_prefix_s": 0.0059867238884834485,
+        "maximum_prefix_gain_J": 887.061357194225,
+        "maximum_headroom_excess_J": -3454.1890489216466,
+        "first_headroom_equality_after_fault_s": null,
+        "first_headroom_equality_absolute_s": null,
+        "excludes_all_actual_I_DC_safe_control": false,
+        "scope": "Outer slew-only necessary condition; lag/control constraints relaxed; no copied historical onset time"
+      },
+      "request_error_json_pointer": "/service",
+      "matched_reference_json_pointer": "/matched_reference",
+      "boundary_scope": "Numerical observed prefix only; no post-stop extension or hardware certificate"
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H01",
+      "title": "冻结模型的一致性与复现可信度",
+      "category": "已知建模与数值工程补齐",
+      "current_status": "限定支持",
+      "hypothesis": "独立坐标实现、守恒与事件细化足以支撑当前合成平均模型的数值诊断。",
+      "current_evidence": [
+        "G3_PORT_AND_CURRENT_AUDIT_REPORT_ZH.md §§3–5：旧快端口P优先的参考始终≤0.95pu而实际触1.1pu；独立abc与dq的首次过流/停止及状态一致。",
+        "GATE1_MPSC_MODEL_REPORT_ZH.md §3及REFINEMENT_COMPARISON.json：四个新DC终止在10/5μs下最大时刻差2.255e−10s、峰I差3.941e−13pu；所查终态能量导数向外。"
+      ],
+      "prior_collision_ids": [
+        "dc:Z7a",
+        "dc:Z7b",
+        "dc:Z7c"
+      ],
+      "possible_independent_increment": "可提供有价值的可复核基准、方程/接口纠错与失败归因，但数值一致性本身不构成新控制理论、实机标定或新服务机制。",
+      "minimum_evidence_to_change_judgment": [
+        "如拟提出新的物理结论，须由明确的额外物理假设或非平凡定理支撑，不能再增加同类步长/坐标一致性图作为创新替代。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "发现守恒/符号/队列差错时暂停受影响结论并纠正；不得靠当前步长一致性外推开关模型、传感器不确定性或所有连续极值。"
+      ],
+      "currently_allowed_claim": "当前平均模型内若干固定轨迹得到独立数值复核。",
+      "currently_unsupported_claim": "仿真与硬件等价、所有连续约束严格认证、复现完成即可paper_ready。"
+    },
+    {
+      "id": "H02",
+      "title": "共同实际电流层能补上参考限幅缺口",
+      "category": "已知控制方法适配",
+      "current_status": "已观察前缀支持但未总资格",
+      "hypothesis": "现有tube-MPSC经队列增广及采样间包络适配后，可以作为上层分配共同的实际电流约束层。",
+      "current_evidence": [
+        "GATE0_MPSC_REPORT_ZH.md §§2–6：理想实数条件电流/调制RPI、结构化初态数值计划与首段包络成立；外向舍入、联合DC/SoC不变性和部署未闭合。",
+        "六个主JSON /metrics、/current_continuous_crossings_s、/phases：两条健康窗通过；四个故障停止前I峰0.888169或0.908226pu，无I=1记录，随后DC触顶。",
+        "各JSON /timing/counts：实际备份调用均为0；动态轨迹并未检验真实求解失败时的备份切换。"
+      ],
+      "prior_collision_ids": [
+        "guard:S1",
+        "guard:S2",
+        "guard:S3",
+        "guard:S4"
+      ],
+      "possible_independent_increment": "队列、电压乘积和拍间合同的具体适配有工程价值；一般安全滤波、最小改动、鲁棒管、终端备份均是已有方法。尚无独立高创新依据。",
+      "minimum_evidence_to_change_judgment": [
+        "若要称合格共同内层，需在明确合同与数值误差预算下完成相应资格；若用于服务比较，还需联合物理安全及服务准入，不能把电流条件保证直接升级。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "任何合同内轨迹越过I硬界却仍报告认证，应撤回对应证书并查错。",
+        "DC退出后停止证书适用；求解成功或六个有限轨迹未过流都不等于任意扰动的机器严格保证。"
+      ],
+      "currently_allowed_claim": "已有方法的适配在已观察、DC域有效的前缀中消除了旧过流现象。",
+      "currently_unsupported_claim": "新限流原理、完整150ms故障安全、全装置认证或部署资格。"
+    },
+    {
+      "id": "H03",
+      "title": "健康接入能够保持原服务",
+      "category": "已知工程准入问题",
+      "current_status": "显著偏离已观察 正式透明性未评分",
+      "hypothesis": "共同安全层在健康状态下接入时，可用可接受的预留代价保持已约定的P/Q服务。",
+      "current_evidence": [
+        "C0-slow/fast /service：2.15005s均值P分别705.517070/705.440975kW，Q分别644.839354/644.794605kvar，请求800kW/700kvar。",
+        "C0-slow/fast /health_gate：初始调制改动均0.2145806922403564，介入21500/21495次，总调用均21501；service_transparency_pass=null。",
+        "健康P绝对误差203.143024/203.306632kJ、Q绝对误差118.599223/118.695434kvar·s；健康物理通过不能替代服务质量。"
+      ],
+      "prior_collision_ids": [
+        "guard:S1",
+        "phase:C3",
+        "phase:S10"
+      ],
+      "possible_independent_increment": "量化安全预留与服务损失是必要评估；对固定短预测域/终端/外包的代价诊断不是新的不可避免安全成本下界。",
+      "minimum_evidence_to_change_judgment": [
+        "对预先声明的服务/预留合同，获得服务合格的健康准入证据；须分别保留绝对请求误差与同窗无guard增量。若想宣称代价不可避免，另需对全部允许控制的下界。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "不得事后设置容差把本结果追认为透明通过，也不能把null补写成正式失败。",
+        "不能把保守外包、固定终端或冷启动实现导致的偏离说成设备的物理极限。"
+      ],
+      "currently_allowed_claim": "两个有限健康窗物理安全，显著服务偏离被量化，尚无透明性判定。",
+      "currently_unsupported_claim": "透明接入、健康服务已通过、95kW左右损失是不可消除的鲁棒预留代价。"
+    },
+    {
+      "id": "H04",
+      "title": "慢端口的控制无关能量排除",
+      "category": "条件物理结论 已有能量工具应用",
+      "current_status": "在冻结对象上成立",
+      "hypothesis": "在20ms/5MW·s⁻¹合成受控DC端口和锁定故障初态下，0.4pu跌落存在所有电流/DC安全控制都必须面对的前缀能量矛盾。",
+      "current_evidence": [
+        "C50-slow /actual_onset_energy_necessary_condition：可用总余量4341.250139J，最大前缀增加下界8870.613573J，排除裕度4529.363434J，首等式17.088203933ms。",
+        "C1-slow由自身故障起点重算：排除裕度4529.363166J、首等式17.088205194ms。",
+        "当前Q优先+guard分别6.224326/6.192110ms触DC界，早于该乐观外界，逻辑一致。"
+      ],
+      "prior_collision_ids": [
+        "phase:C1",
+        "phase:C2",
+        "dc:Z3"
+      ],
+      "possible_independent_increment": "该冻结对象的规范推导与明确适用域具有分析价值；能量积分、头寸与源爬坡不是新原理。当前证据不足支持一般BESS的新普适定理。",
+      "minimum_evidence_to_change_judgment": [
+        "若要提升科学贡献，需要证明一个非平凡、带误差预算且有辨别力的状态条件边界，并与最近能量/服务边界工作逐条区分；不能只重复这个单初态数值根。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "若在严格正排除裕度且全部假设满足时发现全程I/DC安全见证，必须查证书、包络或数值错误。",
+        "拓扑、R、允许保护路径或真实初态改变后，原数值根不可照搬；更早控制失败不反证必要界。"
+      ],
+      "currently_allowed_claim": "约17.088ms为冻结控制集合的能量必要界等式；20ms保守矛盾表述保留。",
+      "currently_unsupported_claim": "所有BESS的17.088ms极限、精确控制失效时刻、此前保证安全、guard可以消除该负控制。"
+    },
+    {
+      "id": "H05",
+      "title": "快端口是否存在完整安全恢复见证",
+      "category": "待决的构造性可行性问题",
+      "current_status": "开放 尚无见证",
+      "hypothesis": "在2ms/50MW·s⁻¹纯假设端口及相同信息/设备合同下，可能存在完整故障及恢复阶段均硬安全的因果控制。",
+      "current_evidence": [
+        "C50-fast/C1-fast实际起点的能量必要界最大裕度约−3454.188781/−3454.189049J，只是不排除。",
+        "同两行当前Q优先+guard故障后8.596763/8.362635ms DC触顶；清除与恢复均未观察。",
+        "旧快径向记录完成但I峰1.030394pu；旧快P优先实际过流。均不构成安全见证，也不构成对所有分配的反证。"
+      ],
+      "prior_collision_ids": [
+        "phase:C3",
+        "phase:S10",
+        "guard:S1",
+        "phase:G1"
+      ],
+      "possible_independent_increment": "一个普通因果控制的完整安全见证可以闭合当前存在性问题，并为比较准入；见证本身不自动证明高创新或新仲裁优势。",
+      "minimum_evidence_to_change_judgment": [
+        "最小改变是同一假设端口、完整因果信息合同与硬约束下，一个不借用故障/清除预知、观察到清除和规定恢复终点的可复核见证；或一个确实覆盖全部允许控制的更强必要排除证书。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "任何硬越限使该见证失败，即使后来回轨也不能恢复资格。",
+        "若有限几个分配都失败，仅停止这些实现的可行性主张；不能升级为全策略不可能。",
+        "不得为找到见证默改电容、额定值、源速度、故障或初态。"
+      ],
+      "currently_allowed_claim": "快端口的本必要界失活，当前控制仍失败，其他分配是否可行未知。",
+      "currently_unsupported_claim": "快端口已可行、当前失败证明无解、更快端口属于已验证硬件。"
+    },
+    {
+      "id": "H06",
+      "title": "危险相位偏离功率峰值构成新机制",
+      "category": "已知普通机制",
+      "current_status": "弱创新主张不成立",
+      "hypothesis": "仅观察最危险慢服务相位偏离P峰值、上下头寸不同或同P升降沿状态不同，即可构成新的物理机制。",
+      "current_evidence": [
+        "literature_collision.md的无损一阶源零假设已产生偏峰；theory_proposal.md §§3–4保留DC反馈后仍属分支局部普通谐波机制。",
+        "当前代理的临界电压相对P极值仅提升0.000277965/0.000167270pu，等效14.68/11.29J；不是完整模型新轨道。",
+        "既有300kW/1Hz健康周期在登记跌落幅值下双侧必要界不活跃；800kW/.5Hz只是未执行提案。"
+      ],
+      "prior_collision_ids": [
+        "phase:C7",
+        "phase:P1",
+        "phase:P2",
+        "phase:P3",
+        "phase:C3"
+      ],
+      "possible_independent_increment": "偏峰本身没有独立新增依据；可能保留的对象是H07的非平凡状态条件定理，而非相位标签或几度移动。",
+      "minimum_evidence_to_change_judgment": [
+        "只有超出LTI积分/普通周期可行集、且效果严格大于模型/测量/数值误差的额外结构证据，才会改变这一判断。相位曲线变得更明显本身不够。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "若完整结果可被普通滞后和状态记忆解释，停止偏峰创新主张。",
+        "若移相分类差低于误差预算，按无可辨信息处理，不能提频或改电容专门放大。",
+        "完整Markov状态与时钟/未来输入相同，不能再宣称独立于状态的神秘历史效应。"
+      ],
+      "currently_allowed_claim": "常规动态记忆可使危险指标偏峰；现有小幅代理结果不支持高创新。",
+      "currently_unsupported_claim": "首创相位安全、AI特有记忆、把相位并入状态就是新方法。"
+    },
+    {
+      "id": "H07",
+      "title": "双侧排除区与构造性恢复集的定量缺口",
+      "category": "可能独立的分析贡献",
+      "current_status": "条件性待证命题",
+      "hypothesis": "在完整健康轨道索引下，能给出带可核验误差的双侧状态条件必要排除区与联合约束构造性恢复内集，并定量说明二者缺口、主导切换及边界信息。",
+      "current_evidence": [
+        "theory_proposal.md §§2–3已给上下能量外界和源lag/ramp/效率分支语义；必要界非充分。",
+        "同q代理60°/120°能量差约1.015kJ、上侧裕度差约1.023kJ，但两点都未被排除，且未控制其他状态；不证明不同可行性。",
+        "当前没有联合I、调制、DC、Pb、SoC与恢复的充分证书；Gate0的Ω仅含电流/队列，Gate1未到清除。"
+      ],
+      "prior_collision_ids": [
+        "phase:C1",
+        "phase:C2",
+        "phase:C7",
+        "phase:P1",
+        "phase:P2",
+        "phase:P3",
+        "phase:G1",
+        "phase:G2"
+      ],
+      "possible_independent_increment": "若在固定外生合同及本物理组合下，获得不可由已有能量积分/标准周期集合命名直接替代的紧性、切换或可计算误差定理，并说明操作上的新判别价值，可能形成独立贡献。现有“未检出完全相同组合”不是空白证明。",
+      "minimum_evidence_to_change_judgment": [
+        "先给一个具体可核验命题及最近文献的假设/结论逐项差异；在一个健康合格完整状态族上，给有严格余量的新分类及至少一个对应构造性内集/见证，使外内差可度量。无须以大幅频/全参数搜索替代此证据。",
+        "若只主张解析定理，不必预先要求启发式控制击败MPC；但定理须独立新增、非平凡并正确。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "若只能得到普通比较原理加三角积分、已知周期前驱集合或松外界，停止高创新表述。",
+        "若全登记状态均不活跃或仅按瞬时P单调排序且没有新增稳健判别，停止主机制主张。",
+        "若首要失败一直由别的约束主导，保留正确数学外界但撤回其主导解释。",
+        "严格正排除区内出现满足全部假设的安全见证，直接触发推导/证据纠错。"
+      ],
+      "currently_allowed_claim": "这是尚有独立新增可能、但目前未完成的窄分析问题。",
+      "currently_unsupported_claim": "双侧公式已经首次提出、相位扇区已充分认证、已有完整恢复定理或paper_ready。"
+    },
+    {
+      "id": "H08",
+      "title": "同信息上层服务仲裁保留增量价值",
+      "category": "可能的算法或服务结果",
+      "current_status": "尚无公平比较证据",
+      "hypothesis": "在共同且合格的动态电流层、同源端口和相同因果信息下，上层分配能够在既定硬安全及恢复要求内提供超出成熟动态分配的可复现服务取舍。",
+      "current_evidence": [
+        "旧P/Q优先与径向仅是冻结PI下诊断性弱基线；其实际过流削弱任何基于这些失败的优越性结论。",
+        "新六行上层只有Q优先；无健康服务透明资格、无完整安全故障见证，也无共同guard下分配比较。",
+        "P/Q有符号/绝对误差、同窗无故障增量与库存各有独立记录；早停前缀不得按积分大小排名。"
+      ],
+      "prior_collision_ids": [
+        "phase:C3",
+        "phase:S10",
+        "phase:C2",
+        "phase:C7",
+        "phase:P3",
+        "guard:S1",
+        "guard:S3"
+      ],
+      "possible_independent_increment": "可能来自具体非平凡的合同/信息约束下、经强基线验证的服务前沿或可解释结构；不能来自多看未来、松Q、忽略库存/恢复或替基线补限流。动态P/Q、静态能力圆、一般安全滤波均已知。",
+      "minimum_evidence_to_change_judgment": [
+        "先取得H05的构造性准入，再以预先声明的服务合同/安全优先级、同窗成本和成熟同信息动态方法证明一个可复现、非支配的增量；若涉及计算优势，采用合理优化的成熟实现及相同计算预算。此为证据门槛，不是执行协议。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "强方法在同信息/资源/合同下复现前沿，则停止新分配优越性主张；这不自动反证H07的独立定理。",
+        "收益仅来自服务放松、未来故障泄露、更多预览、额外能源、较弱恢复或早停删失时，否定该收益。",
+        "共用内层弥合差异时，降级为已知控制工程修补，不改名保留创新。"
+      ],
+      "currently_allowed_claim": "上层增量仍待验证，当前未建立新服务仲裁优势。",
+      "currently_unsupported_claim": "Q优先+guard失败证明新分配必要、一个快端口成功就是最优、优于弱静态基线即可论文级算法结论。"
+    },
+    {
+      "id": "H09",
+      "title": "微时序与扰动合同产生新的普适限流结论",
+      "category": "已知延迟与鲁棒性问题的具体实例",
+      "current_status": "合同相关的局部结论已支持",
+      "hypothesis": "采样后1μs与50μs的故障偏移、一拍队列和源方向合同，必须计入初态可准入与安全声明。",
+      "current_evidence": [
+        "GATE0_MPSC_REPORT_ZH.md §§1、3–4：宽全相位圆容许180°突跳，旧队列在首100μs有1.065060034pu投影下界；结构化幅值/60Hz/无相跳合同首段上界0.914045145pu。",
+        "C1/C50只是控制拍内偏移，四行峰I与DC时间不同；不是慢服务相位扫描，也不是交流故障初相普遍性验证。"
+      ],
+      "prior_collision_ids": [
+        "guard:S1",
+        "guard:S3",
+        "phase:P1"
+      ],
+      "possible_independent_increment": "不可更改首保持段可产生有用的本模型不可准入见证，但采样延迟、增广状态和扰动集合依赖性本身已知；暂未形成独立一般定理。",
+      "minimum_evidence_to_change_judgment": [
+        "若要升级为独立分析贡献，需要对明确定义合同给出非平凡的队列/可用电压/状态必要边界及可达紧性，先与既有延迟鲁棒控制区分。仅新增更多拍内偏移不改变创新判断。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "不能用宽合同反例否定窄幅值合同；不能由两个微时序推断任意相角跳跃/频率偏移。",
+        "任何通过篡改旧队列、故障预知或缩小未声明扰动集合得到的准入均无效。"
+      ],
+      "currently_allowed_claim": "现有准入与安全结论明确依赖结构化合同；两种微时序是有限诊断。",
+      "currently_unsupported_claim": "已覆盖任意电网相位扰动、C1/C50就是慢服务相位效应、新命令能立即改首保持段。"
+    },
+    {
+      "id": "H10",
+      "title": "DC端口响应代表真实BESS硬件",
+      "category": "物理适用性前置条件",
+      "current_status": "尚未标定",
+      "hypothesis": "锁定lag/ramp端口可代表目标真实设备故障下不可绕过的DC功率响应，因此相关边界有实物适用性。",
+      "current_evidence": [
+        "dc_topology_scope.md §§1–5：模型有独立Pb指令、连续Pb、lag/ramp和固定效率，缺少电池I–V、DC/DC电感/占空比及内部储能。",
+        "已核验资料区分50ms通信、1s上层P/Q、SMA参考梯度、内环近似和输出阶跃；没有与本功率/电压/拓扑/故障状态相匹配的快速下降/反向数据。",
+        "更快端口仅改变行为参数；τ趋零不变成直连电池。"
+      ],
+      "prior_collision_ids": [
+        "dc:Z1",
+        "dc:Z2",
+        "dc:Z3",
+        "dc:Z4",
+        "dc:Z5",
+        "dc:Z6"
+      ],
+      "possible_independent_increment": "目前可做明确标注的合成机制研究；实物证据可以改变适用性判断，但获得参数标定本身不等于新控制原理。",
+      "minimum_evidence_to_change_judgment": [
+        "只有在计划作实物外推时，补一个明确目标拓扑及可溯源下降/反转数据，核验其限幅/保护是否能绕过所用硬R、内部能量是否被正确计入；否则保留合成范围即可，无需无目的扩展。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "若真实响应或保护使排除区消失，撤回该设备上的主导机制解释；不反挑慢R或小C追回结论。",
+        "直连电池必须另有正确状态/端口方程，不能以快速行为端口冒名。"
+      ],
+      "currently_allowed_claim": "全部本地结果属于合成受控DC端口；快慢参数均非实机校准。",
+      "currently_unsupported_claim": "已验证DC/DC、直连电池实证、一般utility BESS固有5MW/s极限。"
+    },
+    {
+      "id": "H11",
+      "title": "AI阶段标签能够形成独立电气创新",
+      "category": "应用场景与数据真实性问题",
+      "current_status": "标签不构成机制 波形研究未准入",
+      "hypothesis": "非正弦阶段需求可作为有依据的外生合成输入；AI身份或阶段名称本身产生区别于相同工业电气输入的BESS机制。",
+      "current_evidence": [
+        "exogenous_waveform_scope.md §§1–4：生产训练形态、单工作站PSU滞后与通用设施EMT是不同证据层；未确认可复现毫秒级设施PCC故障波形。",
+        "GPU100ms数据不能插值冒充5ms电气测量，0.2–3Hz频谱摘要不是普遍基频；合成30s四阶段模板未执行健康资格或故障试验。",
+        "相同名义P/Q、欠压动态律、供电链状态、网络和控制信息的AI/工业重标签，应得到相同电气响应。"
+      ],
+      "prior_collision_ids": [
+        "wave:W1",
+        "wave:W2",
+        "wave:W3",
+        "wave:W4",
+        "phase:C2"
+      ],
+      "possible_independent_increment": "有校准依据的电气负荷律/聚合差异可能增加应用辨识价值；仅换标签、波形形状或控制相位不构成新机制。当前仅支持结构启发的合成外生服务研究。",
+      "minimum_evidence_to_change_judgment": [
+        "若后续科学命题确实依赖非正弦输入，先有同服务、损耗补偿和全部硬约束合格的健康持续轨道，并确认相同电气输入重标签等价；若要主张设施真实性，需测点与同步明晰的PCC/内部链数据。"
+      ],
+      "falsification_or_stopping_conditions": [
+        "相同电气输入只因AI标签不同而输出不同，应视为实现/信息泄露错误。",
+        "健康轨道不能闭合或引入无限UPS缓冲时停止故障机制研究；不能调度内部工作负载、控制UPS或给干净未来阶段标签制造收益。"
+      ],
+      "currently_allowed_claim": "非正弦合成外生阶段是有结构依据的研究对象，尚无设施故障复现或AI独有机制证据。",
+      "currently_unsupported_claim": "典型真实PCC波形已标定、AI标签本身创新、GPU/PSU滞后等于设施或BESS时间常数。"
+    }
+  ],
+  "primary_source_registry": {
+    "phase:C1": {
+      "id": "phase:C1",
+      "title": "Service-Constrained Critical Energy-Headroom Boundaries for Current-Limited Grid-Forming Battery Converters",
+      "url": "https://www.mdpi.com/1996-1073/19/18/4464",
+      "evidence_registry_path": "protocol/phase_mechanism/sources.json",
+      "original_registry_id": "C1",
+      "anchors": [
+        "Equations (30)-(34)",
+        "Table 2",
+        "Tables 4-5",
+        "Sections 7.8 and 8.4"
+      ],
+      "inspection_limit": "Fresh publisher-indexed body sections and tables; direct HTML/PDF open returned 429/unavailable. Supplement not re-downloaded.",
+      "claim_limit": "Inspected service definitions do not impose a bidirectional periodic contract or phase-indexed return to continuing forcing. Reserve is an event allocation, separate from DC capacitor energy and installed battery capacity."
+    },
+    "phase:C2": {
+      "id": "phase:C2",
+      "title": "Impedance-passivity coordination of hydrogen-coupled AI data centers for oscillation damping and fault ride-through at transmission interfaces",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378779626008503",
+      "evidence_registry_path": "protocol/phase_mechanism/sources.json",
+      "original_registry_id": "C2",
+      "anchors": [
+        "Equations (7)-(11)",
+        "Equations (31)-(34)",
+        "Sections 4.1-4.4",
+        "Section 5.3, Figure 10",
+        "Section 5.6"
+      ],
+      "inspection_limit": "Fresh publisher-indexed full-text passages; direct publisher open returned 403.",
+      "claim_limit": "The inspected definitions do not provide a signed utility-BESS two-sided DC-energy/SoC impossibility sector by service phase. No fresh code or supplement inspection; no claim about absent features outside inspected text."
+    },
+    "phase:C3": {
+      "id": "phase:C3",
+      "title": "Optimal Provision of Concurrent Primary Frequency and Local Voltage Control from a BESS Considering Variable Capability Curves: Modelling and Experimental Assessment",
+      "url": "https://arxiv.org/html/1910.04052v2",
+      "evidence_registry_path": "protocol/phase_mechanism/sources.json",
+      "original_registry_id": "C3",
+      "anchors": [
+        "Equations (3)-(14)",
+        "Section II",
+        "Section III, Table II"
+      ],
+      "inspection_limit": "Fresh primary author full HTML.",
+      "claim_limit": "One-step operating-point allocation using a 1 s discretization, not a subcycle sag/recovery certificate. Dynamic capability and internal battery memory are prior art."
+    },
+    "phase:S10": {
+      "id": "phase:S10",
+      "title": "Optimal Grid-Forming Control of Battery Energy Storage Systems Providing Multiple Services: Modelling and Experimental Validation",
+      "url": "https://arxiv.org/html/2110.10052v1",
+      "evidence_registry_path": "protocol/phase_mechanism/sources.json",
+      "original_registry_id": "S10",
+      "anchors": [
+        "Section III-B, equations (12a)-(12h)",
+        "Equations (16)-(25)",
+        "Section II"
+      ],
+      "inspection_limit": "Fresh primary author full HTML.",
+      "claim_limit": "10 s MPC and 1 s reference conversion do not establish fast fault-current safety or return to a mandated continuing oscillatory service."
+    },
+    "phase:C7": {
+      "id": "phase:C7",
+      "title": "Periodic constraint-tightening MPC for switched PV battery operation",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-cta.2017.1174",
+      "evidence_registry_path": "protocol/phase_mechanism/sources.json",
+      "original_registry_id": "C7",
+      "anchors": [
+        "Section 3, equation (10)",
+        "Section 5, Proposition 1",
+        "Equations (28), (33)-(34)",
+        "Propositions 1-2 and Theorem 1",
+        "Section 6, equation (38)",
+        "Sections 2 and 8"
+      ],
+      "inspection_limit": "Fresh primary publisher full text; equation-level review also completed by the targeted periodic-safety reviewer.",
+      "claim_limit": "Scalar hourly energy balance; only one primary-to-secondary schedule switch. It does not include GFL current dynamics or a separate converter DC-link energy state."
+    },
+    "phase:P1": {
+      "id": "phase:P1",
+      "title": "Reference Governors and Maximal Output Admissible Sets for Linear Periodic Systems",
+      "url": "https://arxiv.org/html/1804.09262v1",
+      "evidence_registry_path": "protocol/phase_mechanism/sources.json",
+      "original_registry_id": "P1",
+      "anchors": [
+        "Section III, Definition 1",
+        "Equations (11)-(12)",
+        "Section IV-A, equation (21)",
+        "Section IV-B"
+      ],
+      "inspection_limit": "Fresh primary author full HTML; equation anchors refer to v1.",
+      "claim_limit": "General linear-periodic system. Holding a governed command is allowed; this is not a guarantee for an immutable signed service through a grid sag."
+    },
+    "phase:P2": {
+      "id": "phase:P2",
+      "title": "Finite Control Set Model Predictive Control with Limit Cycle Stability Guarantees",
+      "url": "https://arxiv.org/html/2407.07615v1",
+      "evidence_registry_path": "protocol/phase_mechanism/sources.json",
+      "original_registry_id": "P2",
+      "anchors": [
+        "Section 2, equation (3)",
+        "Equation (14f)",
+        "Definition 5 and equation (18)",
+        "Equation (19)",
+        "Theorem 9",
+        "Section 4"
+      ],
+      "inspection_limit": "Fresh primary author full HTML. Journal version not used for equation numbering.",
+      "claim_limit": "Switched affine model with constant exogenous source. It does not jointly establish the stated GFL sag, immutable signed service, source lag, SoC and two-sided DC-energy boundary."
+    },
+    "phase:P3": {
+      "id": "phase:P3",
+      "title": "Configuration-Constrained Tube MPC for Periodic Operation",
+      "url": "https://arxiv.org/html/2512.04239v2",
+      "evidence_registry_path": "protocol/phase_mechanism/sources.json",
+      "original_registry_id": "P3",
+      "anchors": [
+        "Section 2.2, Definitions 1-2",
+        "Equation (8)",
+        "Section 3, equation (10)",
+        "Equation (13), Theorem 1",
+        "Section 3.3, Corollary 1"
+      ],
+      "inspection_limit": "Fresh primary author full HTML and abstract version metadata.",
+      "claim_limit": "General LDI framework with an optimizable artificial periodic target. It is a preprint, not direct evidence for a fixed externally imposed converter service contract."
+    },
+    "phase:G1": {
+      "id": "phase:G1",
+      "title": "Consideration of Control-Loop Interaction in Transient Stability of Grid-Following Inverters using Bandwidth Separation Method",
+      "url": "https://arxiv.org/html/2605.05932v1",
+      "evidence_registry_path": "protocol/phase_mechanism/sources.json",
+      "original_registry_id": "G1",
+      "anchors": [
+        "Section II-A, equations (1)-(4)",
+        "Section III-A, equation (7), Figures 2-3",
+        "Section III-D",
+        "Sections IV-A and IV-C",
+        "Appendix C, Table A1"
+      ],
+      "inspection_limit": "Fresh primary author full HTML.",
+      "claim_limit": "Reduced analysis idealizes inner current tracking, with constant or step input power. Hardware-in-loop evidence includes a rectangular current limiter and chopper. No signed slow-service phase/SoC certificate is supplied."
+    },
+    "phase:G2": {
+      "id": "phase:G2",
+      "title": "The Impact of Different Current Limiting Strategies on the Dynamic Behavior of Terminal Voltage in Grid-Following Converter After Faults",
+      "url": "https://journals.sagepub.com/doi/10.3233/ATDE260653",
+      "evidence_registry_path": "protocol/phase_mechanism/sources.json",
+      "original_registry_id": "G2",
+      "anchors": [
+        "Section 2",
+        "Section 4, equation (9)",
+        "Section 5"
+      ],
+      "inspection_limit": "Fresh primary publisher full HTML.",
+      "claim_limit": "No quantitative state/phase feasibility region; authors explicitly leave LVRT-control interaction and quantitative recovery/stability-region analysis for future work."
+    },
+    "dc:Z1": {
+      "id": "dc:Z1",
+      "title": "Optimal Provision of Concurrent Primary Frequency and Local Voltage Control from a BESS Considering Variable Capability Curves: Modelling and Experimental Assessment",
+      "url": "https://arxiv.org/pdf/1910.04052",
+      "evidence_registry_path": "protocol/phase_mechanism/dc_topology_sources.json",
+      "original_registry_id": "Z1",
+      "anchors": {
+        "ratings_and_modbus": "PDF p4, Section III, Table I",
+        "TTC_equations": "PDF pp2-3, Eqs.(4)-(9), Fig.2",
+        "efficiency": "PDF p3, Eq.(11)",
+        "seven_string_parameters": "PDF p5, Table III",
+        "supervisory_interval": "PDF p6, Section IV"
+      },
+      "inspection_limit": "Access and scope restrictions remain those recorded in the cited registry.",
+      "claim_limit": [
+        "As-built absence of an internal DC/DC stage",
+        "DC/DC current-loop bandwidth",
+        "G3 20 ms lag or 5 MW/s hardware slew limit",
+        "Fast fault-time DC power step data"
+      ]
+    },
+    "dc:Z2": {
+      "id": "dc:Z2",
+      "title": "PCS100 ESS User Manual",
+      "url": "https://library.e.abb.com/public/8b613f6b51914388b996de018db1dd22/2UCD190000E001_j%20PCS100%20ESS%20User%20Manual.pdf",
+      "evidence_registry_path": "protocol/phase_mechanism/dc_topology_sources.json",
+      "original_registry_id": "Z2",
+      "anchors": {
+        "dc_connection_and_precharge": "p60, Section 6.13, Fig.6-19",
+        "control_mode_response": "p41, Section 6.3",
+        "analog_setpoints": "p151, Appendix D"
+      },
+      "inspection_limit": "Access and scope restrictions remain those recorded in the cited registry.",
+      "claim_limit": [
+        "Numerical DC/DC inner-loop time constant",
+        "G3 source slew calibration",
+        "That software CSI mode means a current-source DC-link circuit"
+      ]
+    },
+    "dc:Z3": {
+      "id": "dc:Z3",
+      "title": "Medium Voltage Power Station with Sunny Central Storage US for AC-coupled Storage Solutions: System Manual",
+      "url": "https://files.sma.de/downloads/MVPS-S2-SCS-US-B8-SH-en-11.pdf",
+      "evidence_registry_path": "protocol/phase_mechanism/dc_topology_sources.json",
+      "original_registry_id": "Z3",
+      "anchors": {
+        "direct_precharge": "p205, Section 14.1.5.2",
+        "power_reference_ramp": "p223, Section 14.4.2, Fig.90",
+        "ramp_parameter": "p248, parameter 726 WGra",
+        "mode_override": "p137, DC Voltage Control mode"
+      },
+      "inspection_limit": "web PDF open exceeded tool content-size limit; official PDF downloaded read-only and locally text-extracted",
+      "claim_limit": [
+        "Physical DC-port slew capability at parameter range endpoints",
+        "Conversion to G3 MW/s without verified rating/base",
+        "Calibrated DC/DC dynamic model"
+      ]
+    },
+    "dc:Z4": {
+      "id": "dc:Z4",
+      "title": "Sungrow Powers JEA’s SolarSmart Program with 1500VDC DC-Coupled System",
+      "url": "https://www.sungrowpower.com/us/en/newsdetail/336",
+      "evidence_registry_path": "protocol/phase_mechanism/dc_topology_sources.json",
+      "original_registry_id": "Z4",
+      "anchors": {
+        "system": "project description and paragraph naming SG2500U and ST1918KWH-D750HV"
+      },
+      "inspection_limit": "Access and scope restrictions remain those recorded in the cited registry.",
+      "claim_limit": [
+        "DC/DC loop gain, time constant or transient slew"
+      ]
+    },
+    "dc:Z5": {
+      "id": "dc:Z5",
+      "title": "Dynamic Improvement with a Feedforward Control Strategy of Bidirectional DC-DC Converter for Battery Charging and Discharging",
+      "url": "https://www.mdpi.com/2079-9292/9/10/1738",
+      "evidence_registry_path": "protocol/phase_mechanism/dc_topology_sources.json",
+      "original_registry_id": "Z5",
+      "anchors": {
+        "averaged_model": "p8, Eqs.(6)-(7)",
+        "inner_loop": "p10, Eqs.(19)-(21)",
+        "parameters": "p10, Table 1",
+        "experiment_scale_and_load": "pp13-14, Section 5.2",
+        "transient_response": "pp14-15, Fig.16"
+      },
+      "inspection_limit": "Access and scope restrictions remain those recorded in the cited registry.",
+      "claim_limit": [
+        "Experimental battery replaced by resistor",
+        "Platform nameplate is not actual full-power step test magnitude",
+        "Inner-loop approximation is not measured output-current settling",
+        "Not a matched utility BESS calibration"
+      ]
+    },
+    "dc:Z6": {
+      "id": "dc:Z6",
+      "title": "Study and Implementation of a Two-Phase Interleaved Bidirectional DC/DC Converter for Vehicle and DC-Microgrid Systems",
+      "url": "https://www.mdpi.com/1996-1073/8/9/9969/pdf",
+      "evidence_registry_path": "protocol/phase_mechanism/dc_topology_sources.json",
+      "original_registry_id": "Z6",
+      "anchors": {
+        "compensated_loop_gain": "PDF p15 / printed p9983, Eqs.(28)-(29), Figs.14-15",
+        "prototype": "PDF p16 / printed p9984, Section 5, Table 1"
+      },
+      "inspection_limit": "Access and scope restrictions remain those recorded in the cited registry.",
+      "claim_limit": [
+        "Loop-gain crossover is not identical to first-order closed-loop bandwidth",
+        "Small-power prototype cannot calibrate MW system",
+        "Existence evidence only"
+      ]
+    },
+    "dc:Z7a": {
+      "id": "dc:Z7a",
+      "title": "10-kVA, DC bus, GFL",
+      "url": "https://aalto-electric-drives.github.io/motulator/grid_examples/grid_following/plot_10kva_dc_bus_gfl.html",
+      "evidence_registry_path": "protocol/phase_mechanism/dc_topology_sources.json",
+      "original_registry_id": "Z7a",
+      "anchors": {
+        "configuration": "Configure the system model and control system",
+        "external_current": "Set the time-dependent reference and disturbance signals"
+      },
+      "inspection_limit": "Access and scope restrictions remain those recorded in the cited registry.",
+      "claim_limit": [
+        "External current is prescribed, not a battery/DC/DC model",
+        "Dimensionless energy scaling only",
+        "Rolling documentation: observed page version 0.7.9; no code installed or executed"
+      ]
+    },
+    "dc:Z7b": {
+      "id": "dc:Z7b",
+      "title": "DC-Bus Voltage Control",
+      "url": "https://aalto-electric-drives.github.io/motulator/control/grid/dc_voltage_ctrl.html",
+      "evidence_registry_path": "protocol/phase_mechanism/dc_topology_sources.json",
+      "original_registry_id": "Z7b",
+      "anchors": {
+        "energy_balance": "Eq.(3)",
+        "tuning": "Eq.(5)"
+      },
+      "inspection_limit": "Access and scope restrictions remain those recorded in the cited registry.",
+      "claim_limit": [
+        "Lossless ideal-output-control analysis",
+        "No utility battery timing calibration",
+        "Rolling documentation: observed page version 0.8.0"
+      ]
+    },
+    "dc:Z7c": {
+      "id": "dc:Z7c",
+      "title": "motulator.common.model._converter",
+      "url": "https://aalto-electric-drives.github.io/motulator/_modules/motulator/common/model/_converter.html",
+      "evidence_registry_path": "protocol/phase_mechanism/dc_topology_sources.json",
+      "original_registry_id": "Z7c",
+      "anchors": {
+        "classes": "VoltageSourceConverter; CapacitiveDCBusConverter",
+        "dynamics": "CapacitiveDCBusConverter.rhs"
+      },
+      "inspection_limit": "Access and scope restrictions remain those recorded in the cited registry.",
+      "claim_limit": [
+        "Read-only source inspection; no downloaded code execution",
+        "Rolling documentation: observed page version 0.8.0"
+      ]
+    },
+    "wave:W1": {
+      "id": "wave:W1",
+      "title": "Electromagnetic Transient Modeling of Large Data Centers for Grid-Level Studies",
+      "url": "https://www.energy.gov/sites/default/files/2026-01/Data_Center_EMT_Models.pdf",
+      "evidence_registry_path": "protocol/phase_mechanism/waveform_sources.json",
+      "original_registry_id": "W1",
+      "anchors": [
+        {
+          "section": "4.1.1",
+          "printed_pages": "26-27",
+          "pdf_pages_1_based": "37-38",
+          "role": "Double-conversion UPS and grid-side converter boundary"
+        },
+        {
+          "section": "4.1.3",
+          "printed_pages": "33-36",
+          "pdf_pages_1_based": "44-47",
+          "figures": [
+            26,
+            27,
+            28
+          ],
+          "role": "Voltage response and four-stage AI training illustration"
+        },
+        {
+          "section": "6.12",
+          "printed_pages": "65-66",
+          "pdf_pages_1_based": "76-77",
+          "table": 23,
+          "figure": 51,
+          "role": "Simplified time-varying-resistance generator"
+        },
+        {
+          "section": "6.13",
+          "printed_pages": "66-69",
+          "pdf_pages_1_based": "77-80",
+          "table": 24,
+          "figures": [
+            52,
+            53,
+            54
+          ],
+          "role": "Playback, filtered current, current limit, UV cessation and reconnection"
+        }
+      ],
+      "inspection_limit": "Primary report text read through public web; relevant PDF pages requested as screenshots; no binary saved",
+      "claim_limit": [
+        "Do not interpret load_ai_train resistance law as a valid deep-sag training-load law",
+        "Keep playback protection and internal support assumptions explicit",
+        "No facility-specific waveform calibration"
+      ]
+    },
+    "wave:W2": {
+      "id": "wave:W2",
+      "title": "Power Stabilization for AI Training Datacenters",
+      "url": "https://arxiv.org/html/2508.14318v1",
+      "evidence_registry_path": "protocol/phase_mechanism/waveform_sources.json",
+      "original_registry_id": "W2",
+      "anchors": [
+        "Sections II-B and II-C; Figures 1-3",
+        "Section III-A",
+        "Section IV-C; Figure 7"
+      ],
+      "inspection_limit": "Primary full HTML read",
+      "claim_limit": [
+        "1 ms GPU polling in the software-mitigation section does not establish Fig.1 acquisition rate",
+        "Reported 0.2-3 Hz spectral concentration is not a universal iteration fundamental",
+        "Storage smoothing figures do not constitute field PCC validation"
+      ]
+    },
+    "wave:W3": {
+      "id": "wave:W3",
+      "title": "AI Load Dynamics–A Power Electronics Perspective",
+      "url": "https://arxiv.org/html/2502.01647v2",
+      "evidence_registry_path": "protocol/phase_mechanism/waveform_sources.json",
+      "original_registry_id": "W3",
+      "anchors": [
+        "Section III instrumentation statement",
+        "Section VI-A; Figure 11"
+      ],
+      "inspection_limit": "Primary full HTML read",
+      "claim_limit": [
+        "No direct multiplied-to-MW extrapolation",
+        "No facility UPS or PCC voltage-sag calibration",
+        "Oscilloscope plots do not equal publicly released raw samples"
+      ]
+    },
+    "wave:W4": {
+      "id": "wave:W4",
+      "title": "The MIT Supercloud Dataset",
+      "url": "https://arxiv.org/pdf/2108.02037",
+      "evidence_registry_path": "protocol/phase_mechanism/waveform_sources.json",
+      "original_registry_id": "W4",
+      "anchors": [
+        "Paper Section III, Tables I, II, V",
+        "Author repository: Data Organization / GPU utilization",
+        "MIT Data page January 2022 release listing",
+        "AWS Registry: Resources on AWS and License"
+      ],
+      "inspection_limit": "Access and scope restrictions remain those recorded in the cited registry.",
+      "claim_limit": [
+        "100 ms logging does not identify millisecond electrical edges",
+        "Cannot infer aggregate facility load by duplicating a single GPU trace",
+        "No facility fault P/Q/V and internal chain identification established"
+      ]
+    },
+    "guard:S1": {
+      "id": "guard:S1",
+      "title": "Linear model predictive safety certification for learning-based control",
+      "url": "https://arxiv.org/html/1803.08552v6",
+      "evidence_registry_path": "protocol/phase_mechanism/current_guard_sources.json",
+      "original_registry_id": "S1",
+      "anchors": [
+        "Section II Eq. (1) and nonlinear/time-varying inclusion paragraph",
+        "Section III-A Eqs. (2)-(5)",
+        "Algorithm 1",
+        "Theorem III.5",
+        "Section III-B Theorem III.7",
+        "Section IV-A Eq. (8)"
+      ],
+      "inspection_limit": "Full author manuscript HTML inspected",
+      "claim_limit": [
+        "RPI tube and safe terminal controller must exist",
+        "Initial state must lie in certified safe set",
+        "Discrete state constraints alone do not imply intersample current safety",
+        "Scenario synthesis is probabilistic unless constraints are enforced over the entire deterministic disturbance set"
+      ]
+    },
+    "guard:S2": {
+      "id": "guard:S2",
+      "title": "A predictive safety filter for learning-based control of constrained nonlinear dynamical systems",
+      "url": "https://arxiv.org/html/1812.05506v4",
+      "evidence_registry_path": "protocol/phase_mechanism/current_guard_sources.json",
+      "original_registry_id": "S2",
+      "anchors": [
+        "Section 3 Eqs. (1)-(4)",
+        "Eqs. (5)-(6)",
+        "Algorithms 1-2",
+        "Section 4.2 assumptions and Theorem 4.6"
+      ],
+      "inspection_limit": "Full author manuscript HTML inspected",
+      "claim_limit": []
+    },
+    "guard:S3": {
+      "id": "guard:S3",
+      "title": "Advanced Safety Filter for Smooth Transient Operation of a Battery Energy Storage System",
+      "url": "https://arxiv.org/html/2405.14427v1",
+      "evidence_registry_path": "protocol/phase_mechanism/current_guard_sources.json",
+      "original_registry_id": "S3",
+      "anchors": [
+        "Section II-A Eqs. (1)-(2)",
+        "Section II-C Eq. (6) and Problem 1 assumptions",
+        "Section III Eq. (7)",
+        "Section III-B QCQP and Eqs. (18a)-(18b)",
+        "Section III-C Eqs. (19a)-(19c)",
+        "Section IV-A and Table I"
+      ],
+      "inspection_limit": "Full author manuscript HTML inspected",
+      "claim_limit": []
+    },
+    "guard:S4": {
+      "id": "guard:S4",
+      "title": "Multifunctional Control of Grid-Connected Converters with Model Predictive Control and Disturbance Observer",
+      "url": "https://aaltodoc.aalto.fi/items/79bb654e-a84c-47b7-bb2f-39bc6a0e6763",
+      "evidence_registry_path": "protocol/phase_mechanism/current_guard_sources.json",
+      "original_registry_id": "S4",
+      "anchors": [
+        "Institutional abstract",
+        "Indexed Section III-A reference-limiting discussion",
+        "Indexed cost discussion around Eq. (16), slack variable zeta and high lambda_zeta"
+      ],
+      "inspection_limit": "Institutional manuscript/search-index text only; Aalto direct fetch returned 403 and Trepo returned challenge page. No full-text or PDF-equation completeness claim",
+      "claim_limit": []
+    }
+  },
+  "input_manifest": [
+    {
+      "path_from_G3": "GATE0_MPSC_REPORT_ZH.md",
+      "sha256": "2a17151d15b60007d23d9b4660d5b8fae4583d2b57bae83cdccd9901f684fc2a",
+      "bytes": 9550
+    },
+    {
+      "path_from_G3": "G3_PORT_AND_CURRENT_AUDIT_REPORT_ZH.md",
+      "sha256": "9a23405084e27fbc7edbb7e5b72925108552fb497e6b703e8a2dc4a8a9136291",
+      "bytes": 11495
+    },
+    {
+      "path_from_G3": "GATE1_MPSC_MODEL_REPORT_ZH.md",
+      "sha256": "e29c53b9d3e9332ceb5b117ff861b2e19c76869c0a4919d557b3a55866e28ad2",
+      "bytes": 6325
+    },
+    {
+      "path_from_G3": "current_guard_gate1/REFINEMENT_COMPARISON.json",
+      "sha256": "47d6234f4b2c7bf2cedc18c681ad78052e82aff17e61b46b891ba3fb2759e8f8",
+      "bytes": 2111
+    },
+    {
+      "path_from_G3": "protocol/phase_mechanism/literature_collision.md",
+      "sha256": "833085c01108e945f66a242c804c53aaf5412d9e435d55730970abc7249f35fe",
+      "bytes": 4669
+    },
+    {
+      "path_from_G3": "protocol/phase_mechanism/sources.json",
+      "sha256": "39726c92d58833f1afd18101a8c0feccb99e1db06496c8e9264d9e8cd8936e8d",
+      "bytes": 15267
+    },
+    {
+      "path_from_G3": "protocol/phase_mechanism/theory_proposal.md",
+      "sha256": "11119423cc192570dc756e37cace6590b2dd97d2a3e92c8f1647fac0d218466c",
+      "bytes": 25117
+    },
+    {
+      "path_from_G3": "protocol/phase_mechanism/dc_topology_scope.md",
+      "sha256": "913566d46b5bff27979989f2824e30d7e71e287c76216c2b05566faa0027d8b5",
+      "bytes": 17777
+    },
+    {
+      "path_from_G3": "protocol/phase_mechanism/dc_topology_sources.json",
+      "sha256": "e36adf538c9e6bdcf397706f1c4400932b9b818477df0648507152a098420f8f",
+      "bytes": 16161
+    },
+    {
+      "path_from_G3": "protocol/phase_mechanism/exogenous_waveform_scope.md",
+      "sha256": "dd3330fa8673a50c9f3bcdc2bc2b839cddce90973317f79f68dfc81af6845cf7",
+      "bytes": 13717
+    },
+    {
+      "path_from_G3": "protocol/phase_mechanism/waveform_sources.json",
+      "sha256": "5541acfa733fcca46af220002303b221055ba24ee2f7b589ca0f9f20b96cf79c",
+      "bytes": 11437
+    },
+    {
+      "path_from_G3": "protocol/phase_mechanism/dynamic_current_baseline_proposal.md",
+      "sha256": "4e6ba6853f90208b9c4cf554202df7b4f2f9a92c3825c91ea8e92abdcf688875",
+      "bytes": 21335
+    },
+    {
+      "path_from_G3": "protocol/phase_mechanism/current_guard_sources.json",
+      "sha256": "b068ab3b66a9c68040f7fbc71a3b1fd481d3452c42c55b7960de4e8e98433956",
+      "bytes": 13988
+    },
+    {
+      "path_from_G3": "current_guard_gate1/results/C0-slow_h1e-05.json",
+      "sha256": "c2ccdd42d6978cb59e9f2d55e9489cbf7c96ee9ded7b5f2c0c49ad5b86bd7200",
+      "bytes": 9548
+    },
+    {
+      "path_from_G3": "current_guard_gate1/results/C0-fast_h1e-05.json",
+      "sha256": "02f572aa8522f141aa6a22a313b073f7d508293244ef6904b410b37e879ab653",
+      "bytes": 9695
+    },
+    {
+      "path_from_G3": "current_guard_gate1/results/C50-slow_h1e-05.json",
+      "sha256": "dfa9886fffe724282e1a0366452c730f4d6df84d6d807a56d22686d828a41b06",
+      "bytes": 15235
+    },
+    {
+      "path_from_G3": "current_guard_gate1/results/C50-fast_h1e-05.json",
+      "sha256": "96d169ae535ad682b4e828a050e6b253c0ecbab207283e24deacae26c8a3c514",
+      "bytes": 15194
+    },
+    {
+      "path_from_G3": "current_guard_gate1/results/C1-slow_h1e-05.json",
+      "sha256": "458c28b6b5e42be1a1c58284a9b742cba1a80e1f53d71f870a259bfb00a801cc",
+      "bytes": 15247
+    },
+    {
+      "path_from_G3": "current_guard_gate1/results/C1-fast_h1e-05.json",
+      "sha256": "418752054ce0fa82c548ead80e8b2b58df217f4955f9bc92a6de22d147058037",
+      "bytes": 15191
+    }
+  ],
+  "minimum_decisive_evidence_order": [
+    {
+      "id": "D1",
+      "purpose": "厘清本假设端口的构造性可行性",
+      "evidence": "在同一假设快端口与原合同下，完整因果硬安全故障及规定恢复见证，或覆盖允许控制集合的更强必要排除。",
+      "changes": "改变H05的存在性判断；不自动改变创新判断。",
+      "stop": "见证硬越限即失败；几个控制失败不足推出全策略无解。"
+    },
+    {
+      "id": "D2",
+      "purpose": "检验高创新是否真实存在",
+      "evidence": "H07的具体非平凡定理/误差可控且有判别力的外内边界，或H08在公平成熟动态对照下的预声明服务前沿增量。",
+      "changes": "可能改变新贡献判断；各自须有明确最近文献差异和独立验证。",
+      "stop": "普通理论即可解释、差异小于误差预算或只在弱基线/信息不公平下成立时，结束对应创新主张。"
+    },
+    {
+      "id": "D3",
+      "purpose": "仅在提出实物或设施外推时核验范围",
+      "evidence": "匹配目标拓扑及快速DC下降/反转证据，或与命题相关且测点同步明晰的设施电气数据。",
+      "changes": "改变H10/H11的外推范围；不会自动产生方法创新。",
+      "stop": "无匹配资料则保持合成范围；不以广泛搜集新设备/波形替代当前决定性证据。"
+    }
+  ],
+  "not_authorized_or_not_needed_now": [
+    "新模型/新轨迹",
+    "控制增益、预测域、终端、幅频或相位性能搜索",
+    "为追求显著机制缩小电容或改变源速度",
+    "四条基线的执行/配额/参数协议",
+    "复制原论文或厂家手册原件"
+  ]
+}

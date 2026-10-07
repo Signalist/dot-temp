@@ -1,0 +1,179 @@
+{
+  "status": "FINAL_CHECKLIST_PENDING_CLOSED_LOOP_APPROVAL",
+  "created_UTC": "2026-10-02T02:43:25.468309+00:00",
+  "closed_loop_authorized_or_executed": false,
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "scope": "Six offline numerical common-current-layer model gates only; not new allocation strategy performance comparison",
+  "base_Gate0_design": "protocol/GATE0_MPSC_DESIGN_V1.json",
+  "base_Gate0_design_sha256": "c9cfc39a28552b48240e07925b37e2404f4ab6cfeee8d3d8a0f6cdb6703a1579",
+  "initial_checkpoint": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+  "ports": {
+    "slow": {
+      "tau_s": 0.02,
+      "ramp_W_per_s": 5000000.0
+    },
+    "fast": {
+      "tau_s": 0.002,
+      "ramp_W_per_s": 50000000.0,
+      "label": "hypothetical synthetic controlled DC port, not calibrated hardware"
+    }
+  },
+  "fixed_nominal_requests": {
+    "P_W": 800000,
+    "Q_var": 700000,
+    "allocator": "existing Q priority",
+    "Iref_max_pu": 0.95
+  },
+  "fixed_guard_design": {
+    "N": 10,
+    "Ts_s": 0.0001,
+    "K": [
+      [
+        -2.6512912641821282,
+        -0.0,
+        -0.9969901096078266,
+        -0.0
+      ],
+      [
+        -0.0,
+        -2.6512912641821282,
+        -0.0,
+        -0.9969901096078266
+      ]
+    ],
+    "contract": "structured_amplitude exactly as Gate0; .4..1pu magnitude can jump at any unknown time, initial phase from current measurements, known60Hz rotation, no phase jumps",
+    "r_current": 0.08638673804161986,
+    "Omega": "same W plus AclW as audited; same globalVdc inclusion and fixed center .7pu",
+    "Vdc_domain": [
+      1120,
+      1540
+    ],
+    "terminal_center_sbar": [
+      0.0,
+      0.0,
+      0.2816245505116678,
+      0.005311794542590372
+    ],
+    "terminal_input_mbar": [
+      0.2812242460568321,
+      0.01592250112036326
+    ],
+    "no_retuning": "Do not alter N,K,r, hard bounds, current headroom, legal voltage set, source parameters or checkpoint to reduce the observed .21458 initial intervention."
+  },
+  "execution_order": [
+    {
+      "id": "C0-slow",
+      "port": "slow",
+      "event": null,
+      "end_time_s": 2.75005
+    },
+    {
+      "id": "C0-fast",
+      "port": "fast",
+      "event": null,
+      "end_time_s": 2.75005
+    },
+    {
+      "id": "C50-slow",
+      "port": "slow",
+      "event": {
+        "start_s": 0.60005,
+        "end_s": 0.75005,
+        "retained_source_pu": 0.4
+      },
+      "end_time_s": 2.75005
+    },
+    {
+      "id": "C50-fast",
+      "port": "fast",
+      "event": {
+        "start_s": 0.60005,
+        "end_s": 0.75005,
+        "retained_source_pu": 0.4
+      },
+      "end_time_s": 2.75005
+    },
+    {
+      "id": "C1-slow",
+      "port": "slow",
+      "event": {
+        "start_s": 0.600001,
+        "end_s": 0.750001,
+        "retained_source_pu": 0.4
+      },
+      "end_time_s": 2.750001
+    },
+    {
+      "id": "C1-fast",
+      "port": "fast",
+      "event": {
+        "start_s": 0.600001,
+        "end_s": 0.750001,
+        "retained_source_pu": 0.4
+      },
+      "end_time_s": 2.750001
+    }
+  ],
+  "no_fault_admission_gate": "Run C0-slow and C0-fast first. If either has a physical hard violation, loss of the certified domain, unadmitted guard state, or unhandled solver/backup failure, mark that port not admitted and leave its scheduled fault cases NOT_RUN_PENDING_REVIEW. Do not fix by silently changing parameters. A numerical no-fault pass is not a service-transparency pass; report absolute request errors and matched-reference differences.",
+  "safety_scope": "Conditional actual-current and modulation only. No joint DC/SoC invariant-set proof, no machine interval certification, no100us hardware runtime claim. Original slow-source energy contradiction remains a negative control.",
+  "coordinate_and_clock_interface": {
+    "phase_origin": "At .6s use current electrical measurements to reconstruct source phase through the audited PCC algebra. Store theta_hat0; use theta_hat0+omega*(t-.6) under the explicit60Hz/no-phase-jump contract. Do not read omega0*t as a true source angle, event objects, future voltage, or clean workload phases.",
+    "queue": "Read old applied and queued before update; new guard input m_k only replaces NEW queue. Applied over[k,k+1) remains old queued. No clearing or rewriting committed queue.",
+    "backup_frames": "Every planned z_j,v_j is indexed by its future sample in the same causal rotating frame; store origin sample index and phase origin. At shifted sample use the corresponding z_j,v_j, not z0/v0 again. Physical output rotates the chosen normalized modulation back to stationary alpha-beta.",
+    "source_feedback": "Source command uses pre-promotion measured actual inverter power and unchanged DC feedback/lag/ramp; guard never directly changes source power."
+  },
+  "antiwindup_interface": {
+    "insertion": "After original voltage-circle saturation and normalization, before new queue assignment",
+    "common_rule": "Compute nominal sample without mutating physical states; preserve original PLL/source updates and Ki error. Replace only new-command back-calculation voltage with Vdc_sample*m_safe*exp(-j theta_PLL_sample), using original Kaw1000/s. Apply the same rule for an optimized, shifted-plan or terminal backup command.",
+    "forbidden": "No physical-current projection, no DC/SOC clipping, no integrator/PLL reset, no gain change, no future event access."
+  },
+  "solver_and_validation": {
+    "program": "Same affine lifted convex QCQP/SLSQP procedure, constraints, ordering and tolerances as Gate0; not a new optimizer search",
+    "maxiter": 500,
+    "ftol": 1e-12,
+    "initialization": "Same deterministic terminal-equality minimum-norm initialization for each solve; no restart/gain/horizon sweep",
+    "acceptance": "Finite candidate plus independent max equality/norm residual<=1e-8, valid measured-state Omega witness, domain/contract check and actual new modulation norm<=mmax. Record solver success separately; any accepted non-optimal but feasible candidate must be flagged.",
+    "terminal_tolerance": "Record exact residual. Optional numerical tail equality correction is not applied silently; if used, use only the audited fixed last-two-input formula, recompute all constraints and record changes. It never projects a physical state. No machine-verified claim follows."
+  },
+  "plan_and_failure_backup": {
+    "seed": "The existing audited Gate0 nominal plan may initialize a backup only if current rotating state minus its z0 is inside the fixedOmega and all domain/contract checks pass. The plan was computed without fault timing; it is not a future-trajectory oracle. Otherwise return unadmitted unless a new current-sample feasible solve succeeds.",
+    "on_accepted_solve": "Save origin sample k, all z0:N,v0:N-1, source-phase frame, certificate version, residuals and backup-ready flag. Apply v0+K(s-z0) as the new queue.",
+    "on_rejected_or_failed_solve": "For the last certified plan originating at k0, j=k-k0. If j<N and s-z_j belongs toOmega, use v_j+K(s-z_j). If j>=N and s-sbar belongs toOmega, use mbar+K(s-sbar). Check modulation/domain before queueing.",
+    "no_valid_backup": "Stop the guard/model diagnostic as unadmitted or lost certificate and preserve the complete state/queue; do not reuse old PI, zero voltage or a random command and call it safe.",
+    "membership": "Use the explicit inverse of the fixedOmega witness map; report both disk norms and residuals, not a sampled approximation."
+  },
+  "timing_mode": {
+    "primary": "Offline virtual-sample-time model verification. Simulation time retains100us and one-sample transport delay; computation completes offline before advancing model time.",
+    "wall_times": "Record setup, solver, validation and total wall times per call, iterations and finite residuals; flag each >100us total and solve duration.",
+    "deadline_interpretation": "An offline overrun is not hidden and does not qualify real-time operation. This primary model gate does not pretend wall time was met. Real deadline-driven behavior requires a separate approved target-platform test using the same indexed backup; no such hardware test is claimed."
+  },
+  "required_nontrajectory_interface_tests": [
+    "With guard output equal to m_nom, sample update/queue/source/PLL/PI matches original frozen sample within declared numeric tolerance",
+    "Given a stored plan and an artificial algebraic state inside itsOmega, check j=1, j=N-1 and j=N backup indexing and alpha-beta rotation; no new physical fault trajectory",
+    "Reject failed wide-contract solver output; never use its large-residual values as a command",
+    "Audit controller field whitelist; events stay only in the test driver",
+    "Check new-command antiwindup back-calculation for optimized and backup inputs with the same Kaw"
+  ],
+  "physical_evaluation": {
+    "integrator": "Original balanced DOP853 physical RHS, exact sample/fault splits, rtol1e-10 atol1e-8, max step10us",
+    "refinement": "Same-condition5us only if required by hard-contact/near-boundary numerical audit; not extra physical conditions",
+    "hard_limits": "All original actualI1.0, numericalI1.1 stop, DC .8..1.1, Pb±1MW, P±.95MW, S1.2MVA, SoC.2..8 and modulation constraints retained. I1 crossing records failure even if integration is continued only to original numerical-stop thresholds for diagnosis.",
+    "unmodeled_scope": "No switching, unbalanced source, arbitrary phase/frequency jump, sensor noise or direct-battery topology claim."
+  },
+  "score_and_store": {
+    "records": [
+      "100us full plant/PLL/PI/source/queue state",
+      "m_nom,m_safe,guard modification and antiwindup correction",
+      "plan origin/index,optimizer status,primal/KKT residuals when available",
+      "backup type,index,Omega membership,domain/contract checks",
+      "wall-time components and100us overrun flags",
+      "certified tube bounds and observed intersample extrema/events",
+      "signed and absolute P/Q integrals,matched no-fault differences,SoC/battery/DC/RL energy",
+      "first actualI/DC/other hard contact and all not-run/unobserved phases"
+    ],
+    "recovery": "Only for actually completed cases: original50ms self-cycle AND same-time same-port guarded no-fault reference target, three consecutive passes,150ms hard/unclipped window. Earlier physical violation cannot be erased by later recovery. Inventory is recorded separately.",
+    "healthy_service": "Do not equate physical no-fault safety with preserving the800/700 service. Keep .21458 initial intervention and all subsequent service/energy cost; no retuning for a better picture."
+  },
+  "closure": "Results will be finite offline model evidence only. Dynamic waveform/phase sweeps and new P/Q algorithms remain closed until an explicit later review."
+}

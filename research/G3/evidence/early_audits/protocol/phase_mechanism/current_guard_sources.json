@@ -1,0 +1,299 @@
+{
+  "created_UTC": "2026-10-02T01:58:00Z",
+  "status": "Literature and equation proposal only; no controller implementation, simulation, gain search, package download, or safety qualification",
+  "selected_method": {
+    "source_id": "S1",
+    "name": "Deterministic bounded-disturbance tube model predictive safety certification",
+    "version": "arXiv:1803.08552v6, 2019-04-08; CDC 2018 method",
+    "qualification": false,
+    "adaptation": "Normalized stationary-modulation input; one-sample queue augmentation; certified Lf+Lg/R electrical flow inclusion; dynamic-Vdc and grid-voltage envelopes; intersample-safe augmented-state set; original hard thresholds",
+    "claim_limit": "Existing general method selected; no inspected paper or code proves the complete locked G3 implementation"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Linear model predictive safety certification for learning-based control",
+      "authors": [
+        "Kim P. Wabersich",
+        "Melanie N. Zeilinger"
+      ],
+      "conference_year": 2018,
+      "arxiv_version": "1803.08552v6",
+      "version_date": "2019-04-08",
+      "doi": "10.1109/CDC.2018.8619829",
+      "url": "https://arxiv.org/html/1803.08552v6",
+      "metadata_url": "https://arxiv.org/abs/1803.08552",
+      "primary": true,
+      "access": "Full author manuscript HTML inspected",
+      "anchors": [
+        "Section II Eq. (1) and nonlinear/time-varying inclusion paragraph",
+        "Section III-A Eqs. (2)-(5)",
+        "Algorithm 1",
+        "Theorem III.5",
+        "Section III-B Theorem III.7",
+        "Section IV-A Eq. (8)"
+      ],
+      "verified_scope": "Linear discrete-time system with compact additive disturbances; nominal tube dynamics and auxiliary feedback; minimal first-input modification; terminal-safe backup",
+      "important_conditions": [
+        "RPI tube and safe terminal controller must exist",
+        "Initial state must lie in certified safe set",
+        "Discrete state constraints alone do not imply intersample current safety",
+        "Scenario synthesis is probabilistic unless constraints are enforced over the entire deterministic disturbance set"
+      ],
+      "gfl_gfm": "Generic control framework; not a GFL/GFM converter paper",
+      "g3_choice": "Selected as existing common inner-layer method; implement only after approval and model admission",
+      "version_warning": "Earlier v2 uses a polytopic-model formulation and different equation numbers. The proposal intentionally uses v6 fixed A,B plus bounded additive residual, not v2 equation numbers."
+    },
+    {
+      "id": "S2",
+      "title": "A predictive safety filter for learning-based control of constrained nonlinear dynamical systems",
+      "authors": [
+        "Kim P. Wabersich",
+        "Melanie N. Zeilinger"
+      ],
+      "year": 2021,
+      "journal": "Automatica 129, 109597",
+      "doi": "10.1016/j.automatica.2021.109597",
+      "arxiv_version": "1812.05506v4",
+      "version_date": "2021-05-17",
+      "url": "https://arxiv.org/html/1812.05506v4",
+      "metadata_url": "https://arxiv.org/abs/1812.05506",
+      "primary": true,
+      "access": "Full author manuscript HTML inspected",
+      "anchors": [
+        "Section 3 Eqs. (1)-(4)",
+        "Eqs. (5)-(6)",
+        "Algorithms 1-2",
+        "Section 4.2 assumptions and Theorem 4.6"
+      ],
+      "verified_scope": "Nominal and uncertainty-aware nonlinear predictive safety filter with backup to terminal safe set; uncertainty treatment tied to model belief and constraint tightening",
+      "gfl_gfm": "Generic nonlinear control framework",
+      "g3_choice": "Not selected for minimal common baseline; nonlinear Wdc/Pb co-optimization can be nonconvex and the original probabilistic/discrete-time guarantee cannot be called deterministic continuous-time zero violation",
+      "code_status": "No paper-exact official implementation verified in this pass; not a claim that none exists"
+    },
+    {
+      "id": "S3",
+      "title": "Advanced Safety Filter for Smooth Transient Operation of a Battery Energy Storage System",
+      "authors": [
+        "Michael Schneeberger",
+        "Florian Dörfler",
+        "Silvia Mastellone"
+      ],
+      "year": 2024,
+      "arxiv_version": "2405.14427v1",
+      "version_date": "2024-05-23",
+      "url": "https://arxiv.org/html/2405.14427v1",
+      "metadata_url": "https://arxiv.org/abs/2405.14427",
+      "primary": true,
+      "access": "Full author manuscript HTML inspected",
+      "anchors": [
+        "Section II-A Eqs. (1)-(2)",
+        "Section II-C Eq. (6) and Problem 1 assumptions",
+        "Section III Eq. (7)",
+        "Section III-B QCQP and Eqs. (18a)-(18b)",
+        "Section III-C Eqs. (19a)-(19c)",
+        "Section IV-A and Table I"
+      ],
+      "verified_scope": "Actual-current CBF/CLF safety filter acting on EDPC voltage and filtered-PCC-voltage dynamics; averaged converter; online QCQP; offline SOS",
+      "gfl_gfm": "EDPC is intended to preserve GFM behavior; transient current limiting may temporarily use fast GFL-like behavior",
+      "g3_choice": "Important prior art but not plug-compatible: constant Vdc, constant dq PCC/reference in reduced certificate, extra voltage-filter control, and no demonstrated G3 queue/intersample certificate",
+      "code_status": "Author repository verified; exact paper-version-to-code equivalence not established"
+    },
+    {
+      "id": "S4",
+      "title": "Multifunctional Control of Grid-Connected Converters with Model Predictive Control and Disturbance Observer",
+      "authors": [
+        "Arttu Ruusila",
+        "Petros Karamanakos",
+        "Marko Hinkkanen"
+      ],
+      "year": 2025,
+      "venue": "IEEE ECCE 2025",
+      "url": "https://aaltodoc.aalto.fi/items/79bb654e-a84c-47b7-bb2f-39bc6a0e6763",
+      "author_institution_manuscript_url": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/f6dbb8e8-4ae7-4879-a1a3-900ac5a5539f/content",
+      "second_institution_manuscript_url": "https://trepo.tuni.fi/bitstream/handle/10024/233660/Multifunctional_Control_of_Grid-Connected_Converters_with_Model_Predictive_Control_and_Disturbance_Observer.pdf?isAllowed=y&sequence=1",
+      "primary": true,
+      "access": "Institutional manuscript/search-index text only; Aalto direct fetch returned 403 and Trepo returned challenge page. No full-text or PDF-equation completeness claim",
+      "anchors": [
+        "Institutional abstract",
+        "Indexed Section III-A reference-limiting discussion",
+        "Indexed cost discussion around Eq. (16), slack variable zeta and high lambda_zeta"
+      ],
+      "verified_scope": "LCL multifunctional GFM/GFL controller with observer-based reference limiter and explicit MPC current constraints; indexed body identifies converter-current soft constraint",
+      "gfl_gfm": "Both GFL and GFM",
+      "g3_choice": "Not selected for strict zero-overload current certificate; soft constraints admit violation and topology differs",
+      "not_verified": [
+        "Complete delay-compensation equations",
+        "G3-relevant Vdc dynamics",
+        "Full intersample or deterministic robustness guarantee",
+        "Paper-exact official implementation"
+      ]
+    }
+  ],
+  "code_references": [
+    {
+      "id": "C1",
+      "owner": "IntelligentControlSystems, ETH Zurich",
+      "url": "https://github.com/IntelligentControlSystems/ampyc/blob/main/ampyc/controllers/psf.py",
+      "inspection": "Full 58-line file visible online; class explicitly says standard linear nominal PSF",
+      "license_visible": "MIT header",
+      "limitations": [
+        "Nominal model",
+        "No G3 queue or dynamic Vdc",
+        "No G3 intersample bound",
+        "Mutable main not a pinned reproducibility commit"
+      ],
+      "downloaded_or_run": false
+    },
+    {
+      "id": "C2",
+      "owner": "learnsyslab",
+      "url": "https://github.com/learnsyslab/safe-control-gym/blob/main/safe_control_gym/safety_filters/mpsc/linear_mpsc.py",
+      "inspection": "Public LINEAR_MPSC class, tube-MPC description, disturbance/RPI sampling and horizon options read online",
+      "limitations": [
+        "Sample-based uncertainty/RPI options require deterministic verification",
+        "Not converter-specific",
+        "Not a real-time 100us proof",
+        "Mutable main not pinned"
+      ],
+      "downloaded_or_run": false
+    },
+    {
+      "id": "C3",
+      "owner": "MichaelSchneeberger",
+      "url": "https://github.com/MichaelSchneeberger/advanced-safety-filter",
+      "inspection": "Author README lists Jupyter SOS template and power_converter_case_study; cites related arXiv:2401.06901",
+      "limitations": [
+        "Exact correspondence to 2405.14427 not proven",
+        "No G3 adaptation verified",
+        "No software installed"
+      ],
+      "downloaded_or_run": false
+    }
+  ],
+  "minimal_gate": {
+    "proposal_only": true,
+    "new_controller_runs_executed": 0,
+    "qualification_allocator": "Existing Q-priority only; no new allocation candidate",
+    "control_sample_s": 0.0001,
+    "delay_samples": 1,
+    "initial_checkpoint": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+    "initial_time_s": 0.6,
+    "ports": {
+      "slow": {
+        "tau_s": 0.02,
+        "ramp_W_per_s": 5000000.0
+      },
+      "fast": {
+        "tau_s": 0.002,
+        "ramp_W_per_s": 50000000.0
+      }
+    },
+    "conditions_per_port": [
+      {
+        "id": "C0",
+        "event": null,
+        "end_s": 2.75005
+      },
+      {
+        "id": "C50",
+        "onset_s": 0.60005,
+        "clearance_s": 0.75005,
+        "retained_voltage_pu": 0.4,
+        "end_s": 2.75005
+      },
+      {
+        "id": "C1",
+        "onset_s": 0.600001,
+        "clearance_s": 0.750001,
+        "retained_voltage_pu": 0.4,
+        "end_s": 2.750001
+      }
+    ],
+    "microphase_meaning": "Position within the 100us control interval, not slow service phase or oracle AC phase",
+    "stopping": "Original actual-current/DC/SoC hard termination; no state projection, controller reset, queue clearing or later checkpoint substitution",
+    "current_limit_pu": 1.0,
+    "reference_limit_pu": 0.95,
+    "emergency_stop_pu": 1.1,
+    "allowed_overload_s": 0,
+    "dc_bounds_pu": [
+      0.8,
+      1.1
+    ],
+    "source_envelope": "Measured present alpha-beta source estimate; unknown-time balanced amplitude jumps within [0.4,1]pu and locked 60Hz/no phase-jump test class; no actual future event schedule",
+    "preconditions": [
+      "Certified flow inclusion and intersample state-set inner approximation",
+      "Certified RPI tube/terminal backup with queue",
+      "Frozen design parameters before performance observations",
+      "Information firewall",
+      "100us deadline with certified failure fallback"
+    ],
+    "performance_comparison_allowed": false,
+    "slow_negative_control": "Preserve existing C50 slow-source control-independent DC obstruction; recalculate the same necessary bound with the event-state for C1 rather than copying numbers",
+    "fast_interpretation": "Slow certificate inactive does not establish feasibility; current-only success is not joint physical/service success"
+  },
+  "local_evidence": [
+    {
+      "path": "protocol/GATE_A_LOCKED_V2_1.json",
+      "sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+      "read_only": true
+    },
+    {
+      "path": "gate_a/dq_bench.py",
+      "sha256": "5185085c3843c2b12d0663f25a4d3e6a0290fcb7d46be3b338e3ee2c261b0616",
+      "read_only": true
+    },
+    {
+      "path": "baseline_allocation/allocators.py",
+      "sha256": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a",
+      "read_only": true
+    },
+    {
+      "path": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+      "sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+      "read_only": true
+    },
+    {
+      "path": "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.json",
+      "sha256": "fd8a03b0c25977d9bef2f2fb84a1474ebe6bc06ec8f4327b05adabc8770d3a0f",
+      "read_only": true
+    },
+    {
+      "path": "protocol/GATE_A_ALLOCATION_BASELINES_V1.json",
+      "sha256": "1e65c7c2781d6ecc12cfa7fc1f224f68e76934d82afa45cc93a2540d254d63d6",
+      "read_only": true
+    },
+    {
+      "path": "protocol/GATE_A_SOURCE_SPEED_V1.json",
+      "sha256": "038754241a24782fd09a3834b8d6d7d1aea1da868949dee71f71871d70dd1ba0",
+      "read_only": true
+    },
+    {
+      "path": "baseline_allocation/results/fast_radial_h1e-05.json",
+      "sha256": "8015e818628453ee6e99de5d827f7c696f196e334993c998c01eb30c6d685958",
+      "read_only": true
+    },
+    {
+      "path": "baseline_allocation/results/fast_p_priority_h1e-05.json",
+      "sha256": "cbe9ce0095f521a119cfe0398e28e65675063847cc07c6aa9725bfe19e88e2a6",
+      "read_only": true
+    },
+    {
+      "path": "model_audit/p_priority_abc/REPORT_ZH.md",
+      "sha256": "3ee6e3f634ec3a7cba1db056fd3feae2fea254ac885e9f16874602c2ae8468f9",
+      "read_only": true
+    },
+    {
+      "path": "model_audit/p_priority_abc/COMPARISON.json",
+      "sha256": "a730464d4d967493a37fe64bc55409545b18ee878a6059dace8cc2816d28a91b",
+      "read_only": true
+    }
+  ],
+  "unchanged_files_verified": true,
+  "proposal_path": "protocol/phase_mechanism/dynamic_current_baseline_proposal.md",
+  "updated_UTC": "2026-10-02T02:00:32.337243+00:00",
+  "information_scope": "Internal measurements, modulation queue, PLL/PI and source controller states are benchmark observability assumptions, not assumed available through a commercial BESS external P/Q interface.",
+  "certificate_scope": "Conditional actual-current/modulation safety only while the Vdc and grid envelopes remain valid; no DC-containing recursively feasible set or perpetual Vdc safety claim.",
+  "mechanism_caution": "Independent abc audit: current 1pu crossing precedes PLL75Hz contact; voltage saturation and current-PI antiwindup were inactive. Not an antiwindup-bug diagnosis.",
+  "proposal_sha256": "4e6ba6853f90208b9c4cf554202df7b4f2f9a92c3825c91ea8e92abdcf688875"
+}

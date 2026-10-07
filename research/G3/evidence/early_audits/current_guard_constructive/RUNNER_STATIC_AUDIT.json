@@ -1,0 +1,68 @@
+{
+  "status": "PASS_STATIC_ONLY_NO_PHYSICAL_RUN",
+  "physical_trajectories_executed": 0,
+  "guard_instances_constructed": 0,
+  "guard_solve_calls": 0,
+  "unchanged_top_level_definitions": [
+    "sha",
+    "jsonable",
+    "dump",
+    "tag_for",
+    "service",
+    "inventory",
+    "energy_necessary_condition",
+    "flattened_scalars",
+    "TimingSummary",
+    "recovery_score"
+  ],
+  "unchanged_nested_run_helpers": [
+    "fun",
+    "level",
+    "margins",
+    "measure",
+    "row_margins"
+  ],
+  "unchanged_physical_schemas": [
+    "STATE_NAMES",
+    "COLS",
+    "CI",
+    "CONTROL_COLS",
+    "INTERVAL_COLS",
+    "NORMALIZED_NAMES",
+    "HARD_NAMES"
+  ],
+  "full_trajectory_and_logging_block": "AST_IDENTICAL_AFTER_ONE_SAME_ALLOCATOR_NOMINAL_SAMPLER_SUBSTITUTION",
+  "modified_top_level_definitions": [
+    "check_run_admission",
+    "load_design",
+    "reference_comparison",
+    "run",
+    "update_roster"
+  ],
+  "new_top_level_definitions": [
+    "external_q_guard_controls",
+    "healthy_case_id",
+    "read_healthy_reference"
+  ],
+  "source_hashes": {
+    "current_guard_gate1/run_models.py": "9e4ca7f83570e6e62bf7f3fef9096cde5c44782a0ca7b27026dcd47978662eae",
+    "current_guard_constructive/run_constructive.py": "e9bceab631ec7f26c9639aa3a2887ddf21f8cefdd63390c76fbeb1d3d30563c5",
+    "current_guard_gate1/common_guard.py": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03",
+    "baseline_allocation/allocators.py": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a",
+    "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.json": "104b5f9102c286a2005e856da777b2a203a475c368fccd56d447e54ea43275f3",
+    "current_guard_constructive/guarded_allocator_controller.py": "50f4b5f97cb8caad08463451e3dfe959528119cf10b140c78af57409608f52f6"
+  },
+  "dynamic_checks": [
+    "read-only module import; no eager CommonGuard import",
+    "four-case frozen protocol/hash/port/event/full-checkpoint load",
+    "reject undeclared and slow cases",
+    "healthy matched reference NOT_AVAILABLE",
+    "absolute service arithmetic and no-fault recovery status",
+    "own-allocator fault admission and strict reference provenance",
+    "both healthy before faults; failed allocator does not block other admitted allocator",
+    "synthetic paired-reference scoring, full normalized initial-state match",
+    "existing evidence and unindicated5us rejection",
+    "historical Q+guard explicitly unmatched external context"
+  ],
+  "scope": "AST/import/pure arithmetic and temporary synthetic admission fixtures only; no physical propagation or optimizer calls"
+}

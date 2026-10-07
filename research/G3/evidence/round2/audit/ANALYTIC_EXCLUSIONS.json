@@ -1,0 +1,175 @@
+{
+  "method": "Necessary scalar comparison: maximum physically reachable buffer charge under u=umax and slew, starting held at zero. Ignores endpoint recovery and inventory bounds so it is optimistic. Exclusion uses this upper energy ceiling. One explicit violating time suffices; global minimization is not required to validate that witness.",
+  "cases": [
+    {
+      "alpha_kW": 0.0,
+      "beta_kvar": 0.0,
+      "margin_kJ": 3.053999999999995,
+      "time_s": 0.011000000014832104,
+      "segment": 9,
+      "side_fraction": 0.8000000118656825,
+      "violated_floor": "DC_lower",
+      "analytic_envelope_excludes": false
+    },
+    {
+      "alpha_kW": 0.0,
+      "beta_kvar": 300.0,
+      "margin_kJ": 3.01838331488473,
+      "time_s": 0.01103160585365889,
+      "segment": 9,
+      "side_fraction": 0.8252846829271122,
+      "violated_floor": "DC_lower",
+      "analytic_envelope_excludes": false
+    },
+    {
+      "alpha_kW": 0.0,
+      "beta_kvar": 600.0,
+      "margin_kJ": 2.4852802436403465,
+      "time_s": 0.011127639669031122,
+      "segment": 9,
+      "side_fraction": 0.9021117352248975,
+      "violated_floor": "modulation",
+      "analytic_envelope_excludes": false
+    },
+    {
+      "alpha_kW": 0.0,
+      "beta_kvar": 900.0,
+      "margin_kJ": 0.31536006807143835,
+      "time_s": 0.005,
+      "segment": 4,
+      "side_fraction": 1.0,
+      "violated_floor": "modulation",
+      "analytic_envelope_excludes": false
+    },
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 0.0,
+      "margin_kJ": 2.0345181440688727,
+      "time_s": 0.01636767733812715,
+      "segment": 14,
+      "side_fraction": 0.0941418705017188,
+      "violated_floor": "DC_lower",
+      "analytic_envelope_excludes": false
+    },
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 300.0,
+      "margin_kJ": 1.9937991279467155,
+      "time_s": 0.01646071534724876,
+      "segment": 14,
+      "side_fraction": 0.16857227779900644,
+      "violated_floor": "DC_lower",
+      "analytic_envelope_excludes": false
+    },
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 600.0,
+      "margin_kJ": 1.4828897831389831,
+      "time_s": 0.016750689038029235,
+      "segment": 14,
+      "side_fraction": 0.4005512304233886,
+      "violated_floor": "modulation",
+      "analytic_envelope_excludes": false
+    },
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 900.0,
+      "margin_kJ": -0.6725527567735163,
+      "time_s": 0.01727480168597002,
+      "segment": 14,
+      "side_fraction": 0.8198413487760134,
+      "violated_floor": "modulation",
+      "analytic_envelope_excludes": true
+    },
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 0.0,
+      "margin_kJ": -0.4623248492045775,
+      "time_s": 0.03561073948454363,
+      "segment": 29,
+      "side_fraction": 0.4885915876349029,
+      "violated_floor": "DC_lower",
+      "analytic_envelope_excludes": true
+    },
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 300.0,
+      "margin_kJ": -0.5150560485032614,
+      "time_s": 0.035515482698341316,
+      "segment": 29,
+      "side_fraction": 0.4123861586730547,
+      "violated_floor": "DC_lower",
+      "analytic_envelope_excludes": true
+    },
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 600.0,
+      "margin_kJ": -1.038617346190918,
+      "time_s": 0.035,
+      "segment": 28,
+      "side_fraction": 1.0,
+      "violated_floor": "modulation",
+      "analytic_envelope_excludes": true
+    },
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 900.0,
+      "margin_kJ": -3.279087447336167,
+      "time_s": 0.035,
+      "segment": 28,
+      "side_fraction": 1.0,
+      "violated_floor": "modulation",
+      "analytic_envelope_excludes": true
+    },
+    {
+      "alpha_kW": 300.0,
+      "beta_kvar": 0.0,
+      "margin_kJ": -3.7513093983863612,
+      "time_s": 0.03637471178421798,
+      "segment": 30,
+      "side_fraction": 0.09976942737438775,
+      "violated_floor": "DC_lower",
+      "analytic_envelope_excludes": true
+    },
+    {
+      "alpha_kW": 300.0,
+      "beta_kvar": 1200.0,
+      "margin_kJ": -8.918215372489541,
+      "time_s": 0.035,
+      "segment": 28,
+      "side_fraction": 1.0,
+      "violated_floor": "modulation",
+      "analytic_envelope_excludes": true
+    },
+    {
+      "alpha_kW": 300.0,
+      "beta_kvar": 300.0,
+      "margin_kJ": -3.797380330708828,
+      "time_s": 0.03630774353355126,
+      "segment": 30,
+      "side_fraction": 0.04619482684101264,
+      "violated_floor": "DC_lower",
+      "analytic_envelope_excludes": true
+    },
+    {
+      "alpha_kW": 300.0,
+      "beta_kvar": 600.0,
+      "margin_kJ": -4.219671142916358,
+      "time_s": 0.035,
+      "segment": 28,
+      "side_fraction": 1.0,
+      "violated_floor": "modulation",
+      "analytic_envelope_excludes": true
+    },
+    {
+      "alpha_kW": 300.0,
+      "beta_kvar": 900.0,
+      "margin_kJ": -6.4601412440615995,
+      "time_s": 0.035,
+      "segment": 28,
+      "side_fraction": 1.0,
+      "violated_floor": "modulation",
+      "analytic_envelope_excludes": true
+    }
+  ]
+}

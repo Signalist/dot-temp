@@ -1,0 +1,223 @@
+{
+  "audit_date": "2026-10-03",
+  "publication_cutoff": "2026-10-03",
+  "method": "Fresh public-web primary-source inspection; search-indexed full text used where direct open failed; scope and limits in reports.",
+  "entries": [
+    {
+      "id": "T01",
+      "heading": "T01. Streitmatter, Joswig-Jones, Zhang: convex current-limited converter region",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/html/2603.17135v1"
+      ]
+    },
+    {
+      "id": "T02",
+      "heading": "T02. Evans, Tindemans, Angeli: exact discharge and guaranteed recovery",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/html/2110.08549v1",
+        "https://atiro.turing.ac.uk/esploro/outputs/journalArticle/Flexibility-Framework-With-Recovery-Guarantees-for/9919628909548"
+      ]
+    },
+    {
+      "id": "T03",
+      "heading": "T03. Jensen et al.: EasyRider directly combines compute, LC, and buffer sizing",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/html/2604.15522v2",
+        "https://arxiv.org/abs/2604.15522"
+      ]
+    },
+    {
+      "id": "T04",
+      "heading": "T04. Liu, Shin, Deka: compute contracts plus constrained grid withdrawal and storage",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/html/2605.16190v1"
+      ]
+    },
+    {
+      "id": "T05",
+      "heading": "T05. Hashmi et al.: ramp/energy/deadline linear modeling",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/html/2409.08084v1"
+      ]
+    },
+    {
+      "id": "T06",
+      "heading": "T06. Murgovski, Johannesson, Sjöberg: energy-state convexification",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://publications.lib.chalmers.se/records/fulltext/164597/local_164597.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S1474667015351442"
+      ]
+    },
+    {
+      "id": "T07",
+      "heading": "T07. Despeghel, Tant, Driesen: quadratic converter-loss SOCP and slack caveat",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/html/2307.15507v1"
+      ]
+    },
+    {
+      "id": "T08",
+      "heading": "T08. Ardakanian, Rosenberg, Keshav: import-capacity/storage tradeoffs",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://uwspace.uwaterloo.ca/items/f3ce54be-4999-405c-897b-7b1f74fa90b6",
+        "https://cs.uwaterloo.ca/sites/default/files/uploads/documents/cs-2012-08.pdf"
+      ]
+    },
+    {
+      "id": "T09",
+      "heading": "T09. Al Taha, Vincent, Bitar: certified inner flexibility approximation",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/abs/2207.07067",
+        "https://arxiv.org/pdf/2207.07067v3"
+      ]
+    },
+    {
+      "id": "T10",
+      "heading": "T10. East, Cannon: convex hybrid-buffer allocation with hard energy constraints",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/html/2005.03678v1",
+        "https://ieeexplore.ieee.org/document/9193947/"
+      ]
+    },
+    {
+      "id": "T11",
+      "heading": "T11. Carpinelli, Mottola, Proto: data-center UPS active/reactive optimization",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-gtd.2013.0758"
+      ]
+    },
+    {
+      "id": "T12",
+      "heading": "T12. Gururprasad et al.: compute elasticity with a small physical battery",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://ieeexplore.ieee.org/document/8274094/"
+      ]
+    },
+    {
+      "id": "T13",
+      "heading": "T13. Ulbig, Andersson: power–ramp–energy reach sets",
+      "report": "PRIMARY_NOVELTY_THREATS.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/abs/1312.7618",
+        "https://www.sciencedirect.com/science/article/pii/S0142061515001118"
+      ]
+    },
+    {
+      "id": "N01",
+      "heading": "N01. Johnson–Hauser 2012: exact endpoint/corridor reachability",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://motion.cs.illinois.edu/papers/ICRA2012-Johnson-optimal.pdf"
+      ]
+    },
+    {
+      "id": "N02",
+      "heading": "N02. Pham–Pham 2017/2018: forward/backward intervals and intersample error",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/html/1707.07239v2",
+        "https://dr.ntu.edu.sg/bitstream/10356/105499/1/A%20New%20Approach%20to%20Time-Optimal.pdf"
+      ]
+    },
+    {
+      "id": "N03",
+      "heading": "N03. Xia–Alizadeh 2015: exact cubic nonnegativity SOCP",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://optimization-online.org/wp-content/uploads/2015/06/4966.pdf"
+      ]
+    },
+    {
+      "id": "N04",
+      "heading": "N04. Al Taha–Bitar 2024: exact energy-profile reformulation",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/abs/2403.14010",
+        "https://bitar.engineering.cornell.edu/papers/AlTahaSubmitted2024.pdf"
+      ]
+    },
+    {
+      "id": "N05",
+      "heading": "N05. Baier–Lempio 1994: second-order reachable-set approximation",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://epub.uni-bayreuth.de/id/eprint/5434/"
+      ]
+    },
+    {
+      "id": "B01",
+      "heading": "B01. Sz.-Nagy 1941: the exact interpolation ingredient and tent limit",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://acta.bibl.u-szeged.hu/13524/1/math_010_064-074.pdf",
+        "https://acta.hu/download.phtml?id=2490",
+        "https://acta.bibl.u-szeged.hu/13524/"
+      ]
+    },
+    {
+      "id": "B02",
+      "heading": "B02. Willems 1972: endpoint cancellation and supply accounting",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://homes.esat.kuleuven.be/~sistawww/smc/jwillems/Articles/JournalArticles/1972.1.pdf",
+        "https://doi.org/10.1007/BF00276493"
+      ]
+    },
+    {
+      "id": "B03",
+      "heading": "B03. Faulwasser–Korda–Jones–Bonvin 2015/2017: integral coercivity and trajectory concentration",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/abs/1509.07315",
+        "https://arxiv.org/pdf/1509.07315v2"
+      ]
+    },
+    {
+      "id": "B04",
+      "heading": "B04. Burke–Ferris 1993: linear gap-to-distance error bounds",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://sites.math.washington.edu/~burke/papers/reprints/19-WSM-burke-ferris.pdf",
+        "https://epubs.siam.org/doi/10.1137/0331063"
+      ]
+    },
+    {
+      "id": "B05",
+      "heading": "B05. Chaudhary–Benidris–Mitra 2026: the lossless load-envelope precursor",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/html/2607.04564v1"
+      ]
+    },
+    {
+      "id": "B06",
+      "heading": "B06. Guthrie–Mallada 2020: import-only dynamic loading with conic feasibility and periodic endpoints",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://guthriejd1.github.io/files/ecc2020.pdf"
+      ]
+    },
+    {
+      "id": "B07",
+      "heading": "B07. Deakin et al. 2017/2018: loss-induced nonmonotonic power transfer",
+      "report": "FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "verified_primary_urls": [
+        "https://arxiv.org/abs/1710.07787",
+        "https://arxiv.org/pdf/1710.07787v1"
+      ]
+    }
+  ],
+  "bridge_extension_date": "2026-10-03"
+}

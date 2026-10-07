@@ -1,0 +1,15 @@
+{
+  "frozen_at_utc": "2026-10-03T10:11:33.080067+00:00",
+  "no_phase3_simulations_run_yet": true,
+  "files": {
+    "PROTOCOL_PHASE3.json": "3715ead78af9e8b3da1375be449ea340ccac1f9b84513f984ca11779941bf3a5",
+    "rectifier_load_match.cpp": "6aaa29d01b6c68106f3e2fd7ae05408b39c10afe04fb7e8dae3a151a8f005f21",
+    "rectifier_load_match": "77d77af1deacbf876031eb917bbb05cf93f4dd59b35c2b651d9cc06141cb4df7",
+    "run_phase3.py": "037dede9cb0059f42ca158d096008995f5c4e750e5bb396fc40e566baeb55b72",
+    "evaluate_phase3.py": "14ff4c5e5cb68c537ca82e42e59d6ab30fc2a6670834d9194274351a6d579319",
+    "original_input.csv": "0bd31f7247e3de42082edae130fef2b7393b4c42e55cdb38ef9931b02d451946",
+    "checkpoint_h1.csv": "f7bfd5090ccaccb062776b14499ec851455abbee8b7d630f69790d60b815efed",
+    "checkpoint_h05.csv": "feac5737023cd607d6ccb81dc3fb7d50f934e8e12361088fe8ed0e79b6e330fe",
+    "BEFORE_PRESERVATION_SHA256.json": "708943a5211074ee163db1954fff20d663732fb981d8b1477fd576d32fa844ee"
+  }
+}

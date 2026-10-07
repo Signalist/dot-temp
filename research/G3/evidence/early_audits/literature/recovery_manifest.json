@@ -1,0 +1,37 @@
+{
+  "status": "recovered_text",
+  "recovered_on_utc": "2026-10-02",
+  "original_as_of": "2026-10-01",
+  "paper_ready": false,
+  "method": "Restored retained own file-writing tool-call text; added explicit recovery metadata. No fresh literature search, download, simulation or source validation.",
+  "missing_requested_text": [],
+  "byte_identity_with_original_not_claimed": true,
+  "not_recovered": [
+    "Jaramillo2026_primary.html",
+    "Jaramillo2026_primary.txt",
+    "Jaramillo2026_supplement_download",
+    "Jaramillo2026_supplement_inspected/",
+    "Shamseldein2026_crossref.json",
+    "Shamseldein2026_primary_fetch_status.html",
+    "Shamseldein2026_elsevier_fetch_status.html",
+    "source_artifact_inventory.json",
+    "Any original source PDFs or other source binaries"
+  ],
+  "files": [
+    {
+      "file": "novelty_audit.md",
+      "bytes": 17444,
+      "sha256": "5df56034fc0ce316ba897a598d62f9ea3f09f8cfa37111f51d8f459ecac50b0f"
+    },
+    {
+      "file": "sources.json",
+      "bytes": 7288,
+      "sha256": "735284f7652c402e83bf9fc81bb72e769a948cd85cb5f0a5d4117203440fc746"
+    },
+    {
+      "file": "artifact_audit.md",
+      "bytes": 3481,
+      "sha256": "31b8c34419705e321d04b6ec439b5e0df0fa7ac92f592620abb8b47489823ae8"
+    }
+  ]
+}

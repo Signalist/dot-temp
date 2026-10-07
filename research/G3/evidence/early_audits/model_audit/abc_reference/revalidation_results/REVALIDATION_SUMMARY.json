@@ -1,0 +1,69 @@
+{
+  "stage": "reconstructed_then_rerun",
+  "scope": "Only the two authorized nominal/preconditioned cases at10/5us; no legacyfault or policysearch",
+  "records": {
+    "conservation_h10us": {
+      "json_sha256": "ad963ce8cdb41f46f3fc88012989a724fc8233f6237628dac70a55dda521b3f6",
+      "npz_sha256": "e472c123126849ae8effb41017cbbb98df061dcd08ffc3363c9ee7d06d08be26",
+      "trace_rows": 55000,
+      "trace_columns": 26,
+      "all_finite": true,
+      "protocol_sha256": "d760dc40b8784fe51e7cb503d4bde064139563e82b48255fb8699998e87eddc9",
+      "status": "completed"
+    },
+    "conservation_h5us": {
+      "json_sha256": "8057407ed00ee9b0a092078ccb70edb4c028d6d309ff9ec6e5f77fcc94fbc584",
+      "npz_sha256": "4659de6768498214c5408a938c47f25377e6ceb2f72c1cc1c5a8acbf78ec4fea",
+      "trace_rows": 105000,
+      "trace_columns": 26,
+      "all_finite": true,
+      "protocol_sha256": "d760dc40b8784fe51e7cb503d4bde064139563e82b48255fb8699998e87eddc9",
+      "status": "completed"
+    },
+    "preconditioned_v2_1_h10us": {
+      "json_sha256": "a079cb00695f79bea7366c106d47cea8c6a88a4e792060eafe2f050b52ba3f95",
+      "npz_sha256": "e88162071551b6497446abc0222b8648aefabce00837d75cdb2d8c36c79faa05",
+      "trace_rows": 66655,
+      "trace_columns": 26,
+      "all_finite": true,
+      "protocol_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+      "status": "dc_overvoltage"
+    },
+    "preconditioned_v2_1_h5us": {
+      "json_sha256": "b4b6c48a9319ea6b37febfc8247c0e912bc5515a78253ad565bf6f22aeb24c68",
+      "npz_sha256": "9b19745f35669ae33ba4145c9d8ad38b6772e08ab35808dc54c363299716cd56",
+      "trace_rows": 127250,
+      "trace_columns": 26,
+      "all_finite": true,
+      "protocol_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+      "status": "dc_overvoltage"
+    }
+  },
+  "convergence_checkpoint_both_s": [
+    0.6,
+    0.6
+  ],
+  "post_checkpoint_current_peaks_pu": [
+    1.0000746498724458,
+    1.0000746498732698
+  ],
+  "post_checkpoint_peak_difference_pu": 8.240075288767912e-13,
+  "dc_event_times_s": [
+    0.6059459697981101,
+    0.6059459697981607
+  ],
+  "dc_event_time_difference_s": 5.062616992290714e-14,
+  "normalized_checkpoint_max_difference": 6.0538241086760536e-12,
+  "nominal_current_peak_difference_pu": 2.672306820272752e-13,
+  "historical_scalar_comparison": "Exact historical printed scalar match; additionally full coarse V2.1 NPZ matches the prior known hash; other original binary hashes unavailable.",
+  "startup_screen_failure": "Initial high-PQ transient Smax>1.2MVA retained in outputs. Settled fault begins only after first V2.1 qualifyingcheckpoint0.6s.",
+  "current_excess_percent": 0.007464987326977202,
+  "no_hardware_validation": true,
+  "historical_binary_hash_check": {
+    "artifact": "preconditioned_v2_1_h10us.npz",
+    "prior_hash_from_visible_tool_result": "e88162071551b6497446abc0222b8648aefabce00837d75cdb2d8c36c79faa05",
+    "new_hash": "e88162071551b6497446abc0222b8648aefabce00837d75cdb2d8c36c79faa05",
+    "match": true,
+    "meaning": "Full coarse artifact reproduced byte-identically; original file itself was not retrieved. No original binary-hash anchor was available for the other three trajectories."
+  }
+}

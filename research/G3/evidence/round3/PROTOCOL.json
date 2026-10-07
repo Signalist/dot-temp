@@ -1,0 +1,14 @@
+{
+  "date_utc": "2026-10-04",
+  "status": "exploratory mathematics followed by frozen verification; not a blind empirical confirmation",
+  "scope": "G3 only; historical outputs read-only; identical pointwise compute workload in all comparisons",
+  "new_direction": "Couple weak voltage testing to cumulative net-delivery deficit and inductive-energy release before taking a convex support bound",
+  "core_contract": {"alpha_kW":100,"epsilon_kJ":0.1,"T_s":0.2,"workload_source":"round2_g3_port_20261003/src/model.py:profiles", "physical_model":"unchanged Params; exact averaged full state recovery"},
+  "planned_outer_verification": "A rationally specified sine-squared vector weak test, outward interval arithmetic, prefix-only relaxation if justified; no root advertised as formal certificate",
+  "planned_inner_verification": "Exact ZOH buffer commands with lag and ramp, event-aligned grids, inward all-time curvature margins, terminal b/C return under the original prescribed recoverable P/Q path",
+  "inner_cases": {"beta_kvar":808,"critical_hold_us":[25,50,100],"later_hold_us":100},
+  "implementation_scope": "Exact ZOH battery-port realization within averaged AC model; finite-switching instantaneous contract is separately examined and not silently replaced by finite tolerances",
+  "comparator": "Existing mature continuous-polynomial CLARABEL SOCP plus new standard HiGHS sparse LP and independent analytic/interval evaluation",
+  "failure_reporting": "Retain failed grids and changes; extra grid points are discretization refinements, not independent N",
+  "independent_review": "Separate proof and numeric reviewer; no root-to-certificate conflation"
+}

@@ -1,0 +1,11 @@
+{
+  "recorded_UTC": "2026-10-02T02:53:24Z",
+  "status": "Six offline model gates approved after frozen checklist review",
+  "frozen_protocol": "protocol/GATE1_MPSC_SIX_MODELS_V1.json",
+  "frozen_protocol_sha256": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3",
+  "order": "Algebra/function interface checks, then C0-slow and C0-fast. Report those results before eligible fault cases.",
+  "fault_admission": "A port failing its no-fault admission, physical or backup gate keeps corresponding fault rows NOT_RUN_PENDING_REVIEW.",
+  "model_scope": "Conditional current/modulation under declared structured source and Vdc domains. No joint DC/SoC invariance or machine interval proof.",
+  "runtime_interpretation": "Offline virtual 100us clock with fixed one-sample transport. Wall time describes this fixed cold-start SLSQP implementation only, not the best attainable MPSC or dedicated QP/SOCP runtime.",
+  "not_authorized": ["N/K/headroom/checkpoint/contract retuning", "new allocation strategy ranking", "phase or waveform performance sweeps", "target-platform real-time deployment claim"]
+}

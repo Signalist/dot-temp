@@ -1,0 +1,36 @@
+{
+  "status": "Fresh minimal Gate A DC certificate calculation completed after parent authorization; no Gate B or performance search",
+  "historical_state_injected": false,
+  "fresh_dq_refinements_used": [
+    "h1e-05",
+    "h5e-06"
+  ],
+  "independent_fresh_abc_bound_cited": true,
+  "files": [
+    {
+      "path": "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.md",
+      "sha256": "0554aeef0b188838d0f7e532574799b2ed68ade8d18afb5dd129d2ca12f165e4",
+      "bytes": 11501
+    },
+    {
+      "path": "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.json",
+      "sha256": "fd8a03b0c25977d9bef2f2fb84a1474ebe6bc06ec8f4327b05adabc8770d3a0f",
+      "bytes": 12771
+    },
+    {
+      "path": "gate_a/dc_bound_gate_a_v2_1.py",
+      "sha256": "0e1bace60a38d1f2385c2caeb4436a0a952350d432160cc9f2bf94bd98a9e8bf",
+      "bytes": 12867
+    },
+    {
+      "path": "gate_a/dc_bound_gate_a_v2_1_revalidation.log",
+      "sha256": "23e41d6e85e6833f36d7fe74f2f874cfe58b868ea663184e2fa16aa328408666",
+      "bytes": 914
+    },
+    {
+      "path": "model_audit/DC_BOUND_ABC_REVALIDATED.json",
+      "sha256": "c242ab76e1b99f7b23e64f9c6c1292df2e2b7ade090eabcd66ec7d13da940157",
+      "bytes": 890
+    }
+  ]
+}

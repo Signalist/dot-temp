@@ -1,0 +1,35 @@
+{
+  "scope": "Classical pure-lag illustration; finite parameter checks do not prove continuum exact reset",
+  "times_s": [
+    0.0,
+    0.005,
+    0.01,
+    0.015,
+    0.02
+  ],
+  "common_commands_kW": [
+    -58.10227492959427,
+    100.0,
+    -49.132299122965264,
+    7.2345740525595374
+  ],
+  "command_integral_kJ": 0.0,
+  "endpoints": [
+    {
+      "tau_s": 0.004,
+      "bT_kW": -3.552713678800501e-15,
+      "CT_kJ": 1.4210854715202004e-17
+    },
+    {
+      "tau_s": 0.005,
+      "bT_kW": -0.12604629511046284,
+      "CT_kJ": 0.0006302314755523142
+    },
+    {
+      "tau_s": 0.006,
+      "bT_kW": 0.0,
+      "CT_kJ": 0.0
+    }
+  ],
+  "rank": 3
+}

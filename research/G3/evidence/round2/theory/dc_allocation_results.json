@@ -1,0 +1,97 @@
+{
+  "scope": "Any time-varying nonnegative import P<=declared first-event cap and Q>=floor; same positive workload, physical current/modulation bounds, initial held command. Later recharge and final recovery are not needed for the unlimited-slack prefix exclusion.",
+  "checks": [
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 0.0,
+      "epsilon_kJ": 0,
+      "no_late_recharge_limit_needed": false,
+      "gamma_kW": 0.6310191680162078,
+      "excluded": true,
+      "time_s": 0.035610739530278504,
+      "fixed_margin_kJ": -0.4623248492045704,
+      "favorable_inductive_release_kJ": 0.0,
+      "all_allocation_margin_kJ": -0.4623248492045704,
+      "Pcap_kW": 478.9283060676705
+    },
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 0.0,
+      "epsilon_kJ": 0.001,
+      "no_late_recharge_limit_needed": false,
+      "gamma_kW": 0.6535514359594157,
+      "excluded": true,
+      "time_s": 0.03559407491140519,
+      "fixed_margin_kJ": -0.4623111292505797,
+      "favorable_inductive_release_kJ": 0.018342855414783164,
+      "all_allocation_margin_kJ": -0.44396827383579657,
+      "Pcap_kW": 478.26172131273796
+    },
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 0.0,
+      "epsilon_kJ": 0.005,
+      "no_late_recharge_limit_needed": false,
+      "gamma_kW": 0.7436806118535368,
+      "excluded": true,
+      "time_s": 0.035573487876752255,
+      "fixed_margin_kJ": -0.46225629148793956,
+      "favorable_inductive_release_kJ": 0.03721490473137232,
+      "all_allocation_margin_kJ": -0.4250413867565672,
+      "Pcap_kW": 477.43823992662055
+    },
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 0.0,
+      "epsilon_kJ": 0.01,
+      "no_late_recharge_limit_needed": false,
+      "gamma_kW": 0.8563423159951736,
+      "excluded": true,
+      "time_s": 0.03555806936396149,
+      "fixed_margin_kJ": -0.4621877936612506,
+      "favorable_inductive_release_kJ": 0.04860599613353154,
+      "all_allocation_margin_kJ": -0.41358179752771906,
+      "Pcap_kW": 476.82149941498994
+    },
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 0.0,
+      "epsilon_kJ": 0.05,
+      "no_late_recharge_limit_needed": false,
+      "gamma_kW": 1.7576453202998643,
+      "excluded": true,
+      "time_s": 0.0354930750951161,
+      "fixed_margin_kJ": -0.46164083460244143,
+      "favorable_inductive_release_kJ": 0.07079994406437431,
+      "all_allocation_margin_kJ": -0.39084089053806714,
+      "Pcap_kW": 474.2217286611743
+    },
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 0.0,
+      "epsilon_kJ": 0.1,
+      "no_late_recharge_limit_needed": false,
+      "gamma_kW": 2.884297504638256,
+      "excluded": true,
+      "time_s": 0.035489810027289376,
+      "fixed_margin_kJ": -0.4616023458638203,
+      "favorable_inductive_release_kJ": 0.07081360923211792,
+      "all_allocation_margin_kJ": -0.3907887366317024,
+      "Pcap_kW": 474.0911259481053
+    },
+    {
+      "alpha_kW": 200.0,
+      "beta_kvar": 0.0,
+      "epsilon_kJ": null,
+      "no_late_recharge_limit_needed": true,
+      "gamma_kW": null,
+      "excluded": true,
+      "time_s": 0.035489810027289376,
+      "fixed_margin_kJ": -0.4616023458638203,
+      "favorable_inductive_release_kJ": 0.07081360923211792,
+      "all_allocation_margin_kJ": -0.3907887366317024,
+      "Pcap_kW": 474.0911259481053
+    }
+  ],
+  "warning": "Floating point evaluation of an analytic necessary bound; not interval-arithmetic certification."
+}

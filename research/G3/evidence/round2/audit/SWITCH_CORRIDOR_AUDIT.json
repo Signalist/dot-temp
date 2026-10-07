@@ -1,0 +1,1021 @@
+{
+  "witnesses": [
+    {
+      "file": "spline_R10000_q1000.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 1000.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": 0.19414359987376278,
+      "independent_admitted_numeric": true,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 50.7829063030255,
+      "grid_energy_closure_kJ": -5.440092820663267e-15,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 3.241387262869171,
+        "W_upper_kJ": 0.19414366807345343,
+        "B_lower_kJ": 42.22767957086296,
+        "B_upper_kJ": 50.0,
+        "modulation_kJ": 0.19414365375970935,
+        "b_lower": 298.476197344707,
+        "b_upper": 277.53722456232816,
+        "u_lower": 248.8300565921436,
+        "u_upper": 251.3282245538978,
+        "ramp_lower": 0.007026222154308925,
+        "ramp_upper": 0.005924794861130067
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.14013162844739693,
+        "W_upper_kJ": 0.12029678327713902,
+        "B_lower_kJ": 0.22483844290730437,
+        "B_upper_kJ": 0.0,
+        "modulation_kJ": 0.14013162844739693,
+        "b_lower": 0.24,
+        "b_upper": 0.08,
+        "u_lower": 0.24,
+        "u_upper": 0.08,
+        "ramp_lower": 0.14,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 1.6427748050773516e-11,
+        "B_coeff_kJ": 1.6427748050773516e-11,
+        "u_coeff_kW": 2.842170943040401e-14
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 4.362732397567015e-12,
+        "total_energy_derivative_kW": 4.320099833421409e-12,
+        "phase_power_kW": 3.637978807091713e-12,
+        "phase_norm_sq_kA2": 6.217248937900877e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": 1.741377632653781e-18,
+        "bT_kW": -1.0597920653338016e-18,
+        "integral_b_kJ": 1.6413832966410968e-11,
+        "W_restore_kJ": 1.6413537196058314e-11,
+        "B_restore_kJ": -1.6413832966410968e-11,
+        "initial_hold_b_coeff_kW": 2.861248736015452e-18,
+        "b_continuity_kW": 2.842170943040401e-14,
+        "C_continuity_kJ": 1.647137721355607e-11
+      },
+      "current_envelope_squared_margin_kA2": 0.24990396857967578,
+      "sampled_phase_peak_kA": 1.4142468697936708,
+      "sampled_modulation_circle_ratio": 0.9953079596660518,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": true,
+      "independent_SI_abc_replay": {
+        "method": "independent SI abc DOP853; physical converter circle/input/ramp clipping active in RHS; each knot is an integration boundary",
+        "rtol": 2e-10,
+        "rhs_evaluations": 11647,
+        "max_errors_and_clipping": {
+          "i_abc_A": 2.106048668792937e-10,
+          "W_J": 3.00715328194201e-08,
+          "B_J": 4.3655745685100555e-11,
+          "b_W": 7.523340173065662e-09,
+          "P_W": 1.7276033759117126e-07,
+          "Q_var": 1.4738179743289948e-07,
+          "energy_closure_J": 2.1245796233415604e-09,
+          "command_clip_W": 0.0,
+          "modulation_clip_V": 0.0,
+          "ramp_clip_Wps": 0.0
+        },
+        "sampled_limits": {
+          "Vdc_V": 1175.794447017139,
+          "Vdc_upper_slack_V": 4.911757227728231,
+          "B_lower_J": 42227.68293602542,
+          "B_upper_J": 50000.0
+        },
+        "sampled_phase_peak_A": 1414.2412667891683,
+        "terminal": {
+          "W_error_J": -1.3384124031290412e-08,
+          "B_error_J": -1.6385456547141075e-08,
+          "b_W": -1.868612582142935e-11
+        }
+      }
+    },
+    {
+      "file": "spline_R10000_q1050.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 1050.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": 0.02400461935890436,
+      "independent_admitted_numeric": true,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 55.991053821606805,
+      "grid_energy_closure_kJ": -2.886579864025407e-15,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 3.4115237220877543,
+        "W_upper_kJ": 0.024004771445269944,
+        "B_lower_kJ": 41.82442905267261,
+        "B_upper_kJ": 50.0,
+        "modulation_kJ": 0.0240047321892053,
+        "b_lower": 299.62591866698403,
+        "b_upper": 277.02918532689546,
+        "u_lower": 250.25908730269458,
+        "u_upper": 255.9918432818159,
+        "ramp_lower": 0.015164654889304074,
+        "ramp_upper": 0.012785484104824718
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.1401316257086694,
+        "W_upper_kJ": 0.12029677772940076,
+        "B_lower_kJ": 0.22494606311845122,
+        "B_upper_kJ": 0.0,
+        "modulation_kJ": 0.1401316257086694,
+        "b_lower": 0.24,
+        "b_upper": 0.08,
+        "u_lower": 0.24,
+        "u_upper": 0.08,
+        "ramp_lower": 0.14,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 3.986500018982042e-11,
+        "B_coeff_kJ": 3.9889869185572024e-11,
+        "u_coeff_kW": 2.842170943040401e-14
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 4.533262654149439e-12,
+        "total_energy_derivative_kW": 4.547473508864641e-12,
+        "phase_power_kW": 3.751665644813329e-12,
+        "phase_norm_sq_kA2": 7.105427357601002e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": 5.079546241313209e-17,
+        "bT_kW": -3.406567521074635e-17,
+        "integral_b_kJ": 3.991474685494101e-11,
+        "W_restore_kJ": 3.990763275396603e-11,
+        "B_restore_kJ": -3.991474685494101e-11,
+        "initial_hold_b_coeff_kW": 8.399655129013823e-17,
+        "b_continuity_kW": 2.842170943040401e-14,
+        "C_continuity_kJ": 4.0023815425088705e-11
+      },
+      "current_envelope_squared_margin_kA2": 0.10637669839834096,
+      "sampled_phase_peak_kA": 1.4641117391002927,
+      "sampled_modulation_circle_ratio": 0.9994257364863068,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": true,
+      "independent_SI_abc_replay": {
+        "method": "independent SI abc DOP853; physical converter circle/input/ramp clipping active in RHS; each knot is an integration boundary",
+        "rtol": 2e-10,
+        "rhs_evaluations": 11662,
+        "max_errors_and_clipping": {
+          "i_abc_A": 2.2669155441690236e-10,
+          "W_J": 3.0042428988963366e-08,
+          "B_J": 4.3655745685100555e-11,
+          "b_W": 7.508788257837296e-09,
+          "P_W": 1.8870923668146133e-07,
+          "Q_var": 1.6472768038511276e-07,
+          "energy_closure_J": 1.7462298274040222e-09,
+          "command_clip_W": 0.0,
+          "modulation_clip_V": 0.0,
+          "ramp_clip_Wps": 0.0
+        },
+        "sampled_limits": {
+          "Vdc_V": 1180.6078994189456,
+          "Vdc_upper_slack_V": 0.606320781326076,
+          "B_lower_J": 41824.42941930521,
+          "B_upper_J": 50000.0
+        },
+        "sampled_phase_peak_A": 1464.1109325463992,
+        "terminal": {
+          "W_error_J": 1.0142684914171696e-08,
+          "B_error_J": -4.0003214962780476e-08,
+          "b_W": -3.953061171018557e-12
+        }
+      }
+    },
+    {
+      "file": "spline_R10000_q900.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 900.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": 0.5302082241088701,
+      "independent_admitted_numeric": true,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 41.13020635910202,
+      "grid_energy_closure_kJ": -6.38378239159465e-16,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 2.905320463611026,
+        "W_upper_kJ": 0.5302084207150536,
+        "B_lower_kJ": 42.99555861311209,
+        "B_upper_kJ": 50.0,
+        "modulation_kJ": 0.5302082928652003,
+        "b_lower": 296.57575553144306,
+        "b_upper": 279.56686237455034,
+        "u_lower": 247.2964847464939,
+        "u_upper": 256.6559857274732,
+        "ramp_lower": 0.014377335370227229,
+        "ramp_upper": 0.012276750649107271
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.17986837292930719,
+        "W_upper_kJ": 0.1202967803530535,
+        "B_lower_kJ": 0.22463887817167702,
+        "B_upper_kJ": 0.0,
+        "modulation_kJ": 0.17986837292930719,
+        "b_lower": 0.24,
+        "b_upper": 0.08,
+        "u_lower": 0.24,
+        "u_upper": 0.08,
+        "ramp_lower": 0.14,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 3.1867841698840493e-11,
+        "B_coeff_kJ": 3.1874947126198094e-11,
+        "u_coeff_kW": 1.4210854715202004e-14
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 4.007461029686965e-12,
+        "total_energy_derivative_kW": 4.007461029686965e-12,
+        "phase_power_kW": 3.410605131648481e-12,
+        "phase_norm_sq_kA2": 5.551115123125783e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": 2.0997460754956195e-18,
+        "bT_kW": -2.747955650577551e-18,
+        "integral_b_kJ": 3.1868748308697126e-11,
+        "W_restore_kJ": 3.186428898516169e-11,
+        "B_restore_kJ": -3.1868748308697126e-11,
+        "initial_hold_b_coeff_kW": 3.5796677916255086e-18,
+        "b_continuity_kW": 2.842170943040401e-14,
+        "C_continuity_kJ": 3.18991152936654e-11
+      },
+      "current_envelope_squared_margin_kA2": 0.5159545181841005,
+      "sampled_phase_peak_kA": 1.3168314775583478,
+      "sampled_modulation_circle_ratio": 0.9869199646357203,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": true,
+      "independent_SI_abc_replay": {
+        "method": "independent SI abc DOP853; physical converter circle/input/ramp clipping active in RHS; each knot is an integration boundary",
+        "rtol": 2e-10,
+        "rhs_evaluations": 11662,
+        "max_errors_and_clipping": {
+          "i_abc_A": 2.013678113144124e-10,
+          "W_J": 2.996966941282153e-08,
+          "B_J": 4.3655745685100555e-11,
+          "b_W": 7.523340173065662e-09,
+          "P_W": 1.6298145055770874e-07,
+          "Q_var": 1.4586839824914932e-07,
+          "energy_closure_J": 1.6007106751203537e-09,
+          "command_clip_W": 0.0,
+          "modulation_clip_V": 0.0,
+          "ramp_clip_Wps": 0.0
+        },
+        "sampled_limits": {
+          "Vdc_V": 1166.2281630588298,
+          "Vdc_upper_slack_V": 13.457704273553873,
+          "B_lower_J": 42995.559576124826,
+          "B_upper_J": 50000.0
+        },
+        "sampled_phase_peak_A": 1316.8314775584342,
+        "terminal": {
+          "W_error_J": 2.1718733478337526e-09,
+          "B_error_J": -3.181776264682412e-08,
+          "b_W": 1.962476541975382e-11
+        }
+      }
+    },
+    {
+      "file": "spline_R30000_q1000.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 1000.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": 1.2286308605277023,
+      "independent_admitted_numeric": true,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 50.7829063030255,
+      "grid_energy_closure_kJ": -5.440092820663267e-15,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 4.103999999999996,
+        "W_upper_kJ": 1.2286309170414413,
+        "B_lower_kJ": 41.152263477898146,
+        "B_upper_kJ": 50.0,
+        "modulation_kJ": 1.2286309628890624,
+        "b_lower": 96.12496659494352,
+        "b_upper": 61.922367301162296,
+        "u_lower": 0.0026626218554692827,
+        "u_upper": 0.00019291312225577784,
+        "ramp_lower": 0.011932672347419416,
+        "ramp_upper": 0.0103629850460752
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.0,
+        "W_upper_kJ": 0.16000535574359545,
+        "B_lower_kJ": 0.2227471518902991,
+        "B_upper_kJ": 0.0,
+        "modulation_kJ": 0.17964241447656265,
+        "b_lower": 0.235,
+        "b_upper": 0.085,
+        "u_lower": 0.23433844699511086,
+        "u_upper": 0.17,
+        "ramp_lower": 0.18,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 1.5218759585877706e-10,
+        "B_coeff_kJ": 1.5219114857245586e-10,
+        "u_coeff_kW": 5.684341886080802e-14
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 4.376943252282217e-12,
+        "total_energy_derivative_kW": 4.376943252282217e-12,
+        "phase_power_kW": 3.637978807091713e-12,
+        "phase_norm_sq_kA2": 6.217248937900877e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": -3.281450070541533e-18,
+        "bT_kW": 4.3272136333541264e-18,
+        "integral_b_kJ": 1.5130662781720483e-10,
+        "W_restore_kJ": 1.5130297015275573e-10,
+        "B_restore_kJ": -1.5130662781720483e-10,
+        "initial_hold_b_coeff_kW": 5.916792581638226e-18,
+        "b_continuity_kW": 5.684341886080802e-14,
+        "C_continuity_kJ": 1.5226275795754418e-10
+      },
+      "current_envelope_squared_margin_kA2": 0.24990396857967578,
+      "sampled_phase_peak_kA": 1.4142468697936708,
+      "sampled_modulation_circle_ratio": 0.9713742580045295,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": true,
+      "independent_SI_abc_replay": {
+        "method": "independent SI abc DOP853; physical converter circle/input/ramp clipping active in RHS; each knot is an integration boundary",
+        "rtol": 2e-10,
+        "rhs_evaluations": 11692,
+        "max_errors_and_clipping": {
+          "i_abc_A": 2.0912693798891269e-10,
+          "W_J": 3.002423909492791e-08,
+          "B_J": 1.0186340659856796e-10,
+          "b_W": 1.955777406692505e-08,
+          "P_W": 1.7299316823482513e-07,
+          "Q_var": 1.5087425708770752e-07,
+          "energy_closure_J": 1.862645149230957e-09,
+          "command_clip_W": 0.0,
+          "modulation_clip_V": 0.0,
+          "ramp_clip_Wps": 0.0
+        },
+        "sampled_limits": {
+          "Vdc_V": 1200.0,
+          "Vdc_upper_slack_V": 31.399493891788325,
+          "B_lower_J": 41152.263599573955,
+          "B_upper_J": 50000.0
+        },
+        "sampled_phase_peak_A": 1414.241266789173,
+        "terminal": {
+          "W_error_J": 1.2156669981777668e-07,
+          "B_error_J": -1.5128898667171597e-07,
+          "b_W": 2.826650207430125e-10
+        }
+      }
+    },
+    {
+      "file": "spline_R30000_q1050.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 1050.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": 1.0584626332476206,
+      "independent_admitted_numeric": true,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 55.991053821606805,
+      "grid_energy_closure_kJ": -2.886579864025407e-15,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 4.103999999999996,
+        "W_upper_kJ": 1.0584625330831918,
+        "B_lower_kJ": 40.75125991973591,
+        "B_upper_kJ": 50.0,
+        "modulation_kJ": 1.0584626611341954,
+        "b_lower": 96.9172924136126,
+        "b_upper": 60.847956205914784,
+        "u_lower": 0.000878499234591601,
+        "u_upper": 5.747690327240207e-05,
+        "ramp_lower": 0.0034893506513098615,
+        "ramp_upper": 0.0030231980640994713
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.0,
+        "W_upper_kJ": 0.1600056732681313,
+        "B_lower_kJ": 0.22278357503584226,
+        "B_upper_kJ": 0.0,
+        "modulation_kJ": 0.17964206982967929,
+        "b_lower": 0.235,
+        "b_upper": 0.085,
+        "u_lower": 0.23449120463528975,
+        "u_upper": 0.17,
+        "ramp_lower": 0.18,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 1.438955621324567e-10,
+        "B_coeff_kJ": 1.438991148461355e-10,
+        "u_coeff_kW": 5.684341886080802e-14
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 4.575895218295045e-12,
+        "total_energy_derivative_kW": 4.547473508864641e-12,
+        "phase_power_kW": 3.751665644813329e-12,
+        "phase_norm_sq_kA2": 7.105427357601002e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": 6.808340643374644e-19,
+        "bT_kW": -8.120500741939812e-19,
+        "integral_b_kJ": 1.437518333535781e-10,
+        "W_restore_kJ": 1.4374634815794707e-10,
+        "B_restore_kJ": -1.437518333535781e-10,
+        "initial_hold_b_coeff_kW": 1.127695358993016e-18,
+        "b_continuity_kW": 1.1368683772161603e-13,
+        "C_continuity_kJ": 1.4409580473273564e-10
+      },
+      "current_envelope_squared_margin_kA2": 0.10637669839834096,
+      "sampled_phase_peak_kA": 1.4641117391002927,
+      "sampled_modulation_circle_ratio": 0.9755823002769601,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": true,
+      "independent_SI_abc_replay": {
+        "method": "independent SI abc DOP853; physical converter circle/input/ramp clipping active in RHS; each knot is an integration boundary",
+        "rtol": 2e-10,
+        "rhs_evaluations": 11692,
+        "max_errors_and_clipping": {
+          "i_abc_A": 2.1998403099132702e-10,
+          "W_J": 3.013337845914066e-08,
+          "B_J": 9.458744898438454e-11,
+          "b_W": 1.9615981727838516e-08,
+          "P_W": 1.802109181880951e-07,
+          "Q_var": 1.591397449374199e-07,
+          "energy_closure_J": 1.8044374883174896e-09,
+          "command_clip_W": 0.0,
+          "modulation_clip_V": 0.0,
+          "ramp_clip_Wps": 0.0
+        },
+        "sampled_limits": {
+          "Vdc_V": 1200.0,
+          "Vdc_upper_slack_V": 27.005098220105538,
+          "B_lower_J": 40751.272469534444,
+          "B_upper_J": 50000.0
+        },
+        "sampled_phase_peak_A": 1464.1109325463885,
+        "terminal": {
+          "W_error_J": 1.1389784049242735e-07,
+          "B_error_J": -1.437656464986503e-07,
+          "b_W": 2.643723390590149e-10
+        }
+      }
+    },
+    {
+      "file": "spline_R30000_q900.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 900.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": 1.5647543484137194,
+      "independent_admitted_numeric": true,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 41.13020635910202,
+      "grid_energy_closure_kJ": -6.38378239159465e-16,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 3.93986658226563,
+        "W_upper_kJ": 1.5647542978734716,
+        "B_lower_kJ": 41.916183588778374,
+        "B_upper_kJ": 50.0,
+        "modulation_kJ": 1.5647544115198042,
+        "b_lower": 94.74024319859728,
+        "b_upper": 63.909520186701,
+        "u_lower": 0.001255062316204203,
+        "u_upper": 0.00012086347424355992,
+        "ramp_lower": 0.00736188870899711,
+        "ramp_upper": 0.006440320113137872
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.17964307340921742,
+        "W_upper_kJ": 0.1600047819652852,
+        "B_lower_kJ": 0.2226795211385704,
+        "B_upper_kJ": 0.0,
+        "modulation_kJ": 0.17964307340921742,
+        "b_lower": 0.235,
+        "b_upper": 0.085,
+        "u_lower": 0.23403134546263452,
+        "u_upper": 0.17,
+        "ramp_lower": 0.18,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 1.2220979783705843e-10,
+        "B_coeff_kJ": 1.2222045597809483e-10,
+        "u_coeff_kW": 5.684341886080802e-14
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 3.979039320256561e-12,
+        "total_energy_derivative_kW": 3.979039320256561e-12,
+        "phase_power_kW": 3.410605131648481e-12,
+        "phase_norm_sq_kA2": 5.551115123125783e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": -2.9243501582544807e-18,
+        "bT_kW": 4.107264344932803e-18,
+        "integral_b_kJ": 1.2139794378085433e-10,
+        "W_restore_kJ": 1.2139622640461312e-10,
+        "B_restore_kJ": -1.2139794378085433e-10,
+        "initial_hold_b_coeff_kW": 5.318249605373409e-18,
+        "b_continuity_kW": 1.1368683772161603e-13,
+        "C_continuity_kJ": 1.2217594991259517e-10
+      },
+      "current_envelope_squared_margin_kA2": 0.5159545181841005,
+      "sampled_phase_peak_kA": 1.3168314775583478,
+      "sampled_modulation_circle_ratio": 0.9628099222100638,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": true,
+      "independent_SI_abc_replay": {
+        "method": "independent SI abc DOP853; physical converter circle/input/ramp clipping active in RHS; each knot is an integration boundary",
+        "rtol": 2e-10,
+        "rhs_evaluations": 11677,
+        "max_errors_and_clipping": {
+          "i_abc_A": 1.8394530343357474e-10,
+          "W_J": 3.011882654391229e-08,
+          "B_J": 9.458744898438454e-11,
+          "b_W": 1.949956640601158e-08,
+          "P_W": 1.4866236597299576e-07,
+          "Q_var": 1.291045919060707e-07,
+          "energy_closure_J": 1.8335413187742233e-09,
+          "command_clip_W": 0.0,
+          "modulation_clip_V": 0.0,
+          "ramp_clip_Wps": 0.0
+        },
+        "sampled_limits": {
+          "Vdc_V": 1195.432072853458,
+          "Vdc_upper_slack_V": 40.123819584336616,
+          "B_lower_J": 41916.184543711155,
+          "B_upper_J": 50000.0
+        },
+        "sampled_phase_peak_A": 1316.831477558429,
+        "terminal": {
+          "W_error_J": 9.156065061688423e-08,
+          "B_error_J": -1.2139207683503628e-07,
+          "b_W": 3.561534672180834e-10
+        }
+      }
+    },
+    {
+      "file": "spline_R3000_q1000.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 1000.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": -0.18222050009525298,
+      "independent_admitted_numeric": false,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 50.7829063030255,
+      "grid_energy_closure_kJ": -5.440092820663267e-15,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 2.865023225061568,
+        "W_upper_kJ": -0.18222035302811437,
+        "B_lower_kJ": 42.63950175508046,
+        "B_upper_kJ": 50.0,
+        "modulation_kJ": -0.1822203840478938,
+        "b_lower": 387.0471407650269,
+        "b_upper": 344.9020583598428,
+        "u_lower": 386.4636901822071,
+        "u_upper": 342.01101035309495,
+        "ramp_lower": 0.018192120145613444,
+        "ramp_upper": 0.015309461242395628
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.1400401124258627,
+        "W_upper_kJ": 0.1600000000174037,
+        "B_lower_kJ": 0.2277995458605282,
+        "B_upper_kJ": 0.0,
+        "modulation_kJ": 0.1400401124258627,
+        "b_lower": 0.27,
+        "b_upper": 0.0525,
+        "u_lower": 0.265,
+        "u_upper": 0.05,
+        "ramp_lower": 0.18,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 3.2656544135534205e-11,
+        "B_coeff_kJ": 3.2663649562891806e-11,
+        "u_coeff_kW": 7.105427357601002e-15
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 4.32720526077901e-12,
+        "total_energy_derivative_kW": 4.320099833421409e-12,
+        "phase_power_kW": 3.637978807091713e-12,
+        "phase_norm_sq_kA2": 6.217248937900877e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": 1.1698727453897801e-17,
+        "bT_kW": -3.619086195545711e-18,
+        "integral_b_kJ": 3.2649407537364145e-11,
+        "W_restore_kJ": 3.2652991421855404e-11,
+        "B_restore_kJ": -3.2649407537364145e-11,
+        "initial_hold_b_coeff_kW": 2.3023556386795553e-17,
+        "b_continuity_kW": 2.842170943040401e-14,
+        "C_continuity_kJ": 3.2724777748738276e-11
+      },
+      "current_envelope_squared_margin_kA2": 0.24990396857967578,
+      "sampled_phase_peak_kA": 1.4142468697936708,
+      "sampled_modulation_circle_ratio": 1.0044647631193706,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": false
+    },
+    {
+      "file": "spline_R3000_q1050.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 1050.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": -0.35235783250066327,
+      "independent_admitted_numeric": false,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 55.991053821606805,
+      "grid_energy_closure_kJ": -2.886579864025407e-15,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 3.0351612467635913,
+        "W_upper_kJ": -0.35235777625929,
+        "B_lower_kJ": 42.232924515457626,
+        "B_upper_kJ": 49.999999999988454,
+        "modulation_kJ": -0.35235774313495716,
+        "b_lower": 385.6977324401031,
+        "b_upper": 338.8443254316104,
+        "u_lower": 385.2830046839961,
+        "u_upper": 335.58340385213137,
+        "ramp_lower": 0.01598677783704261,
+        "ramp_upper": 0.013490232930507773
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.179959887205072,
+        "W_upper_kJ": 0.1599999999976315,
+        "B_lower_kJ": 0.22815839080530045,
+        "B_upper_kJ": 0.4,
+        "modulation_kJ": 0.179959887205072,
+        "b_lower": 0.27442325016411856,
+        "b_upper": 0.0525,
+        "u_lower": 0.2688587344480456,
+        "u_upper": 0.05,
+        "ramp_lower": 0.18,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 1.1574741165532032e-11,
+        "B_coeff_kJ": 1.1567635738174431e-11,
+        "u_coeff_kW": 7.105427357601002e-15
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 4.568789790937444e-12,
+        "total_energy_derivative_kW": 4.604316927725449e-12,
+        "phase_power_kW": 3.751665644813329e-12,
+        "phase_norm_sq_kA2": 7.105427357601002e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": 9.353402592651341e-18,
+        "bT_kW": -3.1464255298101384e-18,
+        "integral_b_kJ": -1.1541245118883853e-11,
+        "W_restore_kJ": -1.1549872169780429e-11,
+        "B_restore_kJ": 1.1541245118883853e-11,
+        "initial_hold_b_coeff_kW": 1.837450550080543e-17,
+        "b_continuity_kW": 2.842170943040401e-14,
+        "C_continuity_kJ": 1.1543238587208293e-11
+      },
+      "current_envelope_squared_margin_kA2": 0.10637669839834096,
+      "sampled_phase_peak_kA": 1.4641117391002927,
+      "sampled_modulation_circle_ratio": 1.0085445382333866,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": false
+    },
+    {
+      "file": "spline_R3000_q900.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 900.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": 0.15384569265368495,
+      "independent_admitted_numeric": true,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 41.13020635910202,
+      "grid_energy_closure_kJ": -6.38378239159465e-16,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 2.528957966181718,
+        "W_upper_kJ": 0.15384577563716562,
+        "B_lower_kJ": 43.412820827519006,
+        "B_upper_kJ": 50.0,
+        "modulation_kJ": 0.15384579543589175,
+        "b_lower": 390.25702215215284,
+        "b_upper": 356.63916514703516,
+        "u_lower": 389.50180213806436,
+        "u_upper": 354.6961849525079,
+        "ramp_lower": 0.015133494878227793,
+        "ramp_upper": 0.012758657053836941
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.14004011298160435,
+        "W_upper_kJ": 0.16,
+        "B_lower_kJ": 0.22713442885887844,
+        "B_upper_kJ": 0.0,
+        "modulation_kJ": 0.14004011298160435,
+        "b_lower": 0.264606670753035,
+        "b_upper": 0.055,
+        "u_lower": 0.2575,
+        "u_upper": 0.05,
+        "ramp_lower": 0.18,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 1.3354650718611083e-11,
+        "B_coeff_kJ": 1.3365308859647484e-11,
+        "u_coeff_kW": 1.4210854715202004e-14
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 4.035882739117369e-12,
+        "total_energy_derivative_kW": 3.979039320256561e-12,
+        "phase_power_kW": 3.410605131648481e-12,
+        "phase_norm_sq_kA2": 5.551115123125783e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": 3.877646235367073e-18,
+        "bT_kW": -4.128590018429166e-18,
+        "integral_b_kJ": 1.3358222785298662e-11,
+        "W_restore_kJ": 1.3351098004932282e-11,
+        "B_restore_kJ": -1.3358222785298662e-11,
+        "initial_hold_b_coeff_kW": 7.60141353620646e-18,
+        "b_continuity_kW": 2.842170943040401e-14,
+        "C_continuity_kJ": 1.3383835706370917e-11
+      },
+      "current_envelope_squared_margin_kA2": 0.5159545181841005,
+      "sampled_phase_peak_kA": 1.3168314775583478,
+      "sampled_modulation_circle_ratio": 0.9961512378310079,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": true,
+      "independent_SI_abc_replay": {
+        "method": "independent SI abc DOP853; physical converter circle/input/ramp clipping active in RHS; each knot is an integration boundary",
+        "rtol": 2e-10,
+        "rhs_evaluations": 11677,
+        "max_errors_and_clipping": {
+          "i_abc_A": 1.9315393728902563e-10,
+          "W_J": 2.9933289624750614e-08,
+          "B_J": 1.4551915228366852e-11,
+          "b_W": 1.9063008949160576e-09,
+          "P_W": 1.5867408365011215e-07,
+          "Q_var": 1.4156103134155273e-07,
+          "energy_closure_J": 1.3969838619232178e-09,
+          "command_clip_W": 0.0,
+          "modulation_clip_V": 0.0,
+          "ramp_clip_Wps": 0.0
+        },
+        "sampled_limits": {
+          "Vdc_V": 1155.420949183372,
+          "Vdc_upper_slack_V": 3.890728337271412,
+          "B_lower_J": 43412.820960871315,
+          "B_upper_J": 50000.0
+        },
+        "sampled_phase_peak_A": 1316.8314775584342,
+        "terminal": {
+          "W_error_J": -1.6305421013385057e-08,
+          "B_error_J": -1.3431417755782604e-08,
+          "b_W": -9.626737833340619e-11
+        }
+      }
+    },
+    {
+      "file": "spline_R5000_q1000.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 1000.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": -0.07398952545319229,
+      "independent_admitted_numeric": false,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 50.7829063030255,
+      "grid_energy_closure_kJ": -5.440092820663267e-15,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 2.97325415681046,
+        "W_upper_kJ": -0.07398940784243317,
+        "B_lower_kJ": 42.52296211790409,
+        "B_upper_kJ": 49.99999999997446,
+        "modulation_kJ": -0.07398945229900168,
+        "b_lower": 368.71991706812025,
+        "b_upper": 347.06430164855647,
+        "u_lower": 356.28449779996,
+        "u_upper": 345.4203915350776,
+        "ramp_lower": 0.012149883293204766,
+        "ramp_upper": 0.010232792104943655
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.17993351280494166,
+        "W_upper_kJ": 0.12015009703802691,
+        "B_lower_kJ": 0.2262506955992542,
+        "B_upper_kJ": 0.4,
+        "modulation_kJ": 0.17993351280494166,
+        "b_lower": 0.25,
+        "b_upper": 0.07,
+        "u_lower": 0.24,
+        "u_upper": 0.065,
+        "ramp_lower": 0.18,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 2.5565327632648405e-11,
+        "B_coeff_kJ": 2.5558222205290804e-11,
+        "u_coeff_kW": 1.4210854715202004e-14
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 4.334310688136611e-12,
+        "total_energy_derivative_kW": 4.320099833421409e-12,
+        "phase_power_kW": 3.637978807091713e-12,
+        "phase_norm_sq_kA2": 6.217248937900877e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": 1.254753641540589e-18,
+        "bT_kW": 5.137493587494844e-19,
+        "integral_b_kJ": -2.5540240929100566e-11,
+        "W_restore_kJ": -2.5544011350575602e-11,
+        "B_restore_kJ": 2.5540240929100566e-11,
+        "initial_hold_b_coeff_kW": 2.4584717808896945e-18,
+        "b_continuity_kW": 2.842170943040401e-14,
+        "C_continuity_kJ": 2.553916973735415e-11
+      },
+      "current_envelope_squared_margin_kA2": 0.24990396857967578,
+      "sampled_phase_peak_kA": 1.4142468697936708,
+      "sampled_modulation_circle_ratio": 1.001805637709984,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": false
+    },
+    {
+      "file": "spline_R5000_q1050.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 1050.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": -0.24412692204425965,
+      "independent_admitted_numeric": false,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 55.991053821606805,
+      "grid_energy_closure_kJ": -2.886579864025407e-15,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 3.1433921277315924,
+        "W_upper_kJ": -0.24412682517570433,
+        "B_lower_kJ": 42.11812967131015,
+        "B_upper_kJ": 49.99999999998794,
+        "modulation_kJ": -0.24412686216695695,
+        "b_lower": 368.28366115571134,
+        "b_upper": 343.5798472151494,
+        "u_lower": 357.35565898235313,
+        "u_upper": 342.0131266320231,
+        "ramp_lower": 0.010145443859073566,
+        "ramp_upper": 0.008539467387890909
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.17993351245193587,
+        "W_upper_kJ": 0.1201500977954301,
+        "B_lower_kJ": 0.22646599843725826,
+        "B_upper_kJ": 0.4,
+        "modulation_kJ": 0.17993351245193587,
+        "b_lower": 0.25127489173492684,
+        "b_upper": 0.0675,
+        "u_lower": 0.24,
+        "u_upper": 0.065,
+        "ramp_lower": 0.18,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 1.2899903367724619e-11,
+        "B_coeff_kJ": 1.2896350654045818e-11,
+        "u_coeff_kW": 1.4210854715202004e-14
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 4.575895218295045e-12,
+        "total_energy_derivative_kW": 4.547473508864641e-12,
+        "phase_power_kW": 3.751665644813329e-12,
+        "phase_norm_sq_kA2": 7.105427357601002e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": 2.5360949740430825e-17,
+        "bT_kW": -4.830928893643889e-17,
+        "integral_b_kJ": -1.2054746198648936e-11,
+        "W_restore_kJ": -1.20614629395277e-11,
+        "B_restore_kJ": 1.2054746198648936e-11,
+        "initial_hold_b_coeff_kW": 4.135160523742764e-17,
+        "b_continuity_kW": 2.842170943040401e-14,
+        "C_continuity_kJ": 1.1872641758614577e-11
+      },
+      "current_envelope_squared_margin_kA2": 0.10637669839834096,
+      "sampled_phase_peak_kA": 1.4641117391002927,
+      "sampled_modulation_circle_ratio": 1.0058966513220358,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": false
+    },
+    {
+      "file": "spline_R5000_q900.npz",
+      "alpha_kW": 0.0,
+      "beta_kvar": 900.0,
+      "nominal_n": 160,
+      "intervals": 161,
+      "sigma_kJ": 0.26207654043637396,
+      "independent_admitted_numeric": true,
+      "profile_max_error": 4.320099833421409e-12,
+      "gamma_kW": 41.13020635910202,
+      "grid_energy_closure_kJ": -6.38378239159465e-16,
+      "analytic_minimum_slacks": {
+        "W_lower_kJ": 2.6371887691090135,
+        "W_upper_kJ": 0.26207663385128976,
+        "B_lower_kJ": 43.293456600958734,
+        "B_upper_kJ": 49.99999999998574,
+        "modulation_kJ": 0.2620765983631878,
+        "b_lower": 368.77722011326404,
+        "b_upper": 352.03874792668677,
+        "u_lower": 354.2831732502059,
+        "u_upper": 350.04658703955243,
+        "ramp_lower": 0.009814109187573195,
+        "ramp_upper": 0.008262019571702695
+      },
+      "minimum_locations_s": {
+        "W_lower_kJ": 0.17993351240800767,
+        "W_upper_kJ": 0.12015009790753606,
+        "B_lower_kJ": 0.22585162800798672,
+        "B_upper_kJ": 0.4,
+        "modulation_kJ": 0.17993351240800767,
+        "b_lower": 0.24892919211661071,
+        "b_upper": 0.07024048274036344,
+        "u_lower": 0.24,
+        "u_upper": 0.0675,
+        "ramp_lower": 0.18,
+        "ramp_upper": 0.16
+      },
+      "reconstructed_coeff_max_errors": {
+        "W_coeff_kJ": 1.4274803561420413e-11,
+        "B_coeff_kJ": 1.4267698134062812e-11,
+        "u_coeff_kW": 1.4210854715202004e-14
+      },
+      "dense_physical_identity_errors": {
+        "power_balance_kW": 3.979039320256561e-12,
+        "total_energy_derivative_kW": 3.979039320256561e-12,
+        "phase_power_kW": 3.410605131648481e-12,
+        "phase_norm_sq_kA2": 5.551115123125783e-15
+      },
+      "terminal_residuals": {
+        "b0_kW": 8.217363463472316e-19,
+        "bT_kW": -2.1969567479993134e-18,
+        "integral_b_kJ": -1.4257164025754943e-11,
+        "W_restore_kJ": -1.4264145420384011e-11,
+        "B_restore_kJ": 1.4257164025754943e-11,
+        "initial_hold_b_coeff_kW": 1.5937692879017566e-18,
+        "b_continuity_kW": 1.4210854715202004e-14,
+        "C_continuity_kJ": 1.4236559847669028e-11
+      },
+      "current_envelope_squared_margin_kA2": 0.5159545181841005,
+      "sampled_phase_peak_kA": 1.3168314775583478,
+      "sampled_modulation_circle_ratio": 0.9934700447860803,
+      "timestamps_strict_and_cover_horizon": true,
+      "timestamp_has_hold_boundary": true,
+      "campaign_certified": true,
+      "independent_SI_abc_replay": {
+        "method": "independent SI abc DOP853; physical converter circle/input/ramp clipping active in RHS; each knot is an integration boundary",
+        "rtol": 2e-10,
+        "rhs_evaluations": 11677,
+        "max_errors_and_clipping": {
+          "i_abc_A": 1.9315393728902563e-10,
+          "W_J": 2.999513526447117e-08,
+          "B_J": 2.1827872842550278e-11,
+          "b_W": 3.3251126296818256e-09,
+          "P_W": 1.6030389815568924e-07,
+          "Q_var": 1.414446160197258e-07,
+          "energy_closure_J": 2.153683453798294e-09,
+          "command_clip_W": 0.0,
+          "modulation_clip_V": 0.0,
+          "ramp_clip_Wps": 0.0
+        },
+        "sampled_limits": {
+          "Vdc_V": 1158.5390034533423,
+          "Vdc_upper_slack_V": 6.6347717485100475,
+          "B_lower_J": 43293.45796657241,
+          "B_upper_J": 49999.9999999858
+        },
+        "sampled_phase_peak_A": 1316.8314775584342,
+        "terminal": {
+          "W_error_J": -4.39868017565459e-08,
+          "B_error_J": 1.4202669262886047e-08,
+          "b_W": -7.652242396268393e-11
+        }
+      }
+    }
+  ],
+  "summary": {
+    "cases_checked": 12,
+    "admitted": 8,
+    "disagreements": []
+  }
+}

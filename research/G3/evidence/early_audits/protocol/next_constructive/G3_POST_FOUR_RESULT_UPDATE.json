@@ -1,0 +1,876 @@
+{
+  "schema_version": "1.0",
+  "title": "G3 四个标准基线之后的结果与收束更新",
+  "created_utc": "2026-10-02T04:24:18.372651+00:00",
+  "status": "FINAL_POST_FOUR_AUDITED_LIMITED_SCOPE",
+  "model_name": "合成受控DC端口",
+  "paper_ready": false,
+  "current_guard_qualified": false,
+  "engineering_feasibility_positive_evidence": true,
+  "independent_high_novelty_evidence_established": false,
+  "audit_status": "PASS_ALL_FOUR_COMPLETED_ARTIFACTS",
+  "pending_primary_artifact_audits": [],
+  "scope": {
+    "new_executed_conditions_in_separate_authorized_baseline_package": 4,
+    "new_conditions_executed_by_this_writing_task": 0,
+    "new_optimizer_calls_by_this_writing_task": 0,
+    "new_literature_searches": 0,
+    "new_numerical_refinement_runs": 0,
+    "no_parameter_or_performance_search": true,
+    "port": {
+      "tau_s": 0.002,
+      "ramp_W_per_s": 50000000,
+      "calibration": "purely hypothetical synthetic controlled DC port"
+    },
+    "controller": "existing P-priority or radial plus same frozen existing tube-MPSC",
+    "fault": {
+      "retained_source_pu": 0.4,
+      "start_s": 0.60005,
+      "clearance_s": 0.75005
+    },
+    "observation": {
+      "start_s": 0.6,
+      "end_s": 2.75005,
+      "post_clearance_observation_s": 2.0
+    },
+    "new_workload_waveform_validated": false,
+    "dangerous_slow_service_phase_validated": false,
+    "hardware_topology_transfer_validated": false
+  },
+  "historical_ledger_preserved": {
+    "created_utc": "2026-10-02T03:35:23.166760+00:00",
+    "snapshot_primary_result_count": 6,
+    "input_manifest_count": 19,
+    "files": [
+      {
+        "path_from_G3": "protocol/next_constructive/G3_HYPOTHESIS_LEDGER.md",
+        "sha256": "5a310d6ceee5730037abcaa227f458a57c83d2c54abe0fd7a8556796cc22cd50"
+      },
+      {
+        "path_from_G3": "protocol/next_constructive/G3_HYPOTHESIS_LEDGER.json",
+        "sha256": "b308397c2d9d4e71fd92c697893d45a7457b7406bbf69da2c0dcf8144cbe7ded"
+      },
+      {
+        "path_from_G3": "protocol/next_constructive/CONCLUSION_MATRIX_DRAFT.md",
+        "sha256": "528a0cd87dd082e6244dbb88a45b153b78b7a626d2849147fd199cb182ed9ea2"
+      }
+    ],
+    "policy": "Old six-result and proposal-time snapshots remain unchanged; this file records a separate post-four evidence time."
+  },
+  "H05_layer_update": {
+    "H05_P": {
+      "claim": "Existence of finite complete hard-safe numerical physical trajectories under the frozen fast-port/event/causal contract",
+      "status": "SUPPORTED_FOR_TWO_AUDITED_FIXED_CASES",
+      "witness_cases": [
+        "P50-fast",
+        "R50-fast"
+      ],
+      "not_claimed": [
+        "universal robust invariance",
+        "hardware safety",
+        "full original P/Q service",
+        "new algorithm superiority"
+      ]
+    },
+    "H05_R": {
+      "claim": "Satisfaction of the frozen complete recovery contract including all limiting inactive",
+      "status": "NOT_SATISFIED_IN_BOTH_AUDITED_TRAJECTORIES",
+      "cases": [
+        "P50-fast",
+        "R50-fast"
+      ],
+      "joint_recovery_time_s": null,
+      "reason": "persistent guard intervention; target/self orbit and hard-safe subconditions do not replace unclipped condition",
+      "physical_nonrecoverability_claimed": false,
+      "all_future_guard_activity_claimed": false
+    }
+  },
+  "four_results": [
+    {
+      "case": "P0-fast",
+      "source_path_from_G3": "current_guard_constructive/results/P0-fast_h1e-05.json",
+      "source_sha256": "8f9ad64944f827a180b64a1c253d0c8e8646efe4dbd692221395af19472e171e",
+      "independent_audit_status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "constant_request": {
+        "P_W": 800000,
+        "Q_var": 700000
+      },
+      "initial_time_s": 0.6,
+      "final_time_s": 2.75005,
+      "stop_reason": "completed",
+      "simulation_completed": true,
+      "complete_hard_safe": true,
+      "physical_proof_scope": "Audited finite averaged-model numerical trajectory, not a universal invariant-set or hardware certificate",
+      "metrics": {
+        "I_peak_pu": 0.8353580928610971,
+        "Vdc_min_pu": 1.0065354312408497,
+        "Vdc_max_pu": 1.0140228616841669,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 800000.0043642087,
+        "Pb_abs_peak_W": 815639.6764858381,
+        "soc_min": 0.49970979341430455,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 7.00230521033518e-06,
+        "modulation_max": 0.4605089622790201
+      },
+      "service_entire_observation": {
+        "duration_s": 2.15005,
+        "P_actual_integral_J": 1516737.6563299515,
+        "Q_actual_integral_var_s": 1386333.4741480388,
+        "P_signed_request_error_integral_J": -203302.34367004829,
+        "Q_signed_request_error_integral_var_s": -118701.52585196099,
+        "P_absolute_request_error_integral_J": 203302.34366846172,
+        "Q_absolute_request_error_integral_var_s": 118702.60141897976,
+        "mean_P_W": 705442.9693867359,
+        "mean_Q_var": 644791.2718997414,
+        "mean_absolute_P_error_W": 94557.0306125261,
+        "mean_absolute_Q_error_var": 55209.22835235449
+      },
+      "observed_fault_service": null,
+      "phases": {
+        "checkpoint_observed": true,
+        "fault_onset_observed": null,
+        "clearance_observed": null,
+        "full_recovery_observation_completed": null,
+        "unobserved_remainder_s": 0.0
+      },
+      "health_gate": {
+        "physical_admitted": true,
+        "service_transparency_pass": null,
+        "reason": "No service-transparency tolerance was predeclared; retain request errors and matched-reference differences",
+        "initial_guard_modification_norm": 0.2145806922403564,
+        "max_guard_modification_norm": 0.2145806922403564,
+        "intervention_count": 21496
+      },
+      "inventory": {
+        "initial_soc": 0.49993044008718335,
+        "final_soc": 0.49970979341430455,
+        "battery_stored_energy_change_J": -1588656.0447271415,
+        "DC_energy_change_J": -31.13732664622512,
+        "RL_energy_change_J": -50.77191588092455,
+        "remote_source_active_integral_J": 1502125.524850778,
+        "total_loss_integral_J": 86612.42912589268,
+        "battery_terminal_power_integral_J": 1556882.9238350675,
+        "battery_draw_integral_J": 1588656.0447269673,
+        "initial_Pb_W": 815639.6755124972,
+        "final_Pb_W": 724382.70717098,
+        "battery_energy_restoration_claimed": false
+      },
+      "matched_reference": {
+        "status": "NOT_AVAILABLE",
+        "reference": null,
+        "allocator": "p_priority",
+        "reason": "No frozen same-allocator unguarded healthy trajectory exists; existing fast_reference is Q-priority and is not matched",
+        "primary_healthy_score": "absolute_request_errors_and_actual_electrical_energy_metrics"
+      },
+      "recovery": {
+        "status": "NOT_APPLICABLE_NO_FAULT",
+        "joint_recovery_time_s": null,
+        "official_check_count": 0,
+        "checks_with_unclipped_true": 0,
+        "last_check": null,
+        "full_checks_source_pointer": "/recovery/checks"
+      },
+      "timing_counts": {
+        "calls": 21501,
+        "guard_failures": 0,
+        "solver_success_false": 0,
+        "backup_calls": 0,
+        "accepted_nonoptimal_calls": 0
+      },
+      "controller_wall_time": {
+        "n": 21501,
+        "minimum_s": 0.007290627996553667,
+        "median_s": 0.009269357004086487,
+        "p95_s": 0.01445623699692078,
+        "maximum_s": 0.22544233799999347,
+        "sum_s": 217.53473340906203,
+        "over_100us_count": 21501
+      },
+      "late_window_compatibility": {
+        "case": "P0-fast",
+        "window_start_s": 2.6,
+        "window_end_s": 2.75,
+        "full_intervals": 1500,
+        "flags_order": [
+          "current_ref_clip",
+          "voltage_clip",
+          "source_cmd_clip",
+          "PLL_clip",
+          "guard_intervened"
+        ],
+        "active_interval_counts": [
+          0,
+          0,
+          0,
+          0,
+          1500
+        ],
+        "guard_modification_norm_min": 0.0003375570888362068,
+        "guard_modification_norm_max": 0.00033755708911401873,
+        "frozen_unclipped_condition_in_this_window": false,
+        "physical_complete_hard_safe": true,
+        "source_summary_sha256": "8f9ad64944f827a180b64a1c253d0c8e8646efe4dbd692221395af19472e171e",
+        "source_npz_sha256": "9d4e8a577680299912540aeee7dea5b62f4dd35619012ca80609bd6c07325230"
+      },
+      "numerical_refinement_indicated": false
+    },
+    {
+      "case": "R0-fast",
+      "source_path_from_G3": "current_guard_constructive/results/R0-fast_h1e-05.json",
+      "source_sha256": "734bbf3ece2952ec7b8bb98e9b31014c3b0362b22206779c15ad46005a210466",
+      "independent_audit_status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "constant_request": {
+        "P_W": 800000,
+        "Q_var": 700000
+      },
+      "initial_time_s": 0.6,
+      "final_time_s": 2.75005,
+      "stop_reason": "completed",
+      "simulation_completed": true,
+      "complete_hard_safe": true,
+      "physical_proof_scope": "Audited finite averaged-model numerical trajectory, not a universal invariant-set or hardware certificate",
+      "metrics": {
+        "I_peak_pu": 0.8353580928610971,
+        "Vdc_min_pu": 1.006535431354487,
+        "Vdc_max_pu": 1.0140475159973645,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 800000.0043642087,
+        "Pb_abs_peak_W": 815639.6764858381,
+        "soc_min": 0.4997097937531098,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 7.015984010649845e-06,
+        "modulation_max": 0.4605089622790201
+      },
+      "service_entire_observation": {
+        "duration_s": 2.15005,
+        "P_actual_integral_J": 1516735.2772766214,
+        "Q_actual_integral_var_s": 1386337.592286165,
+        "P_signed_request_error_integral_J": -203304.72272337833,
+        "Q_signed_request_error_integral_var_s": -118697.40771383466,
+        "P_absolute_request_error_integral_J": 203304.72272179264,
+        "Q_absolute_request_error_integral_var_s": 118698.48328084742,
+        "mean_P_W": 705441.8628760362,
+        "mean_Q_var": 644793.18726828,
+        "mean_absolute_P_error_W": 94558.13712322628,
+        "mean_absolute_Q_error_var": 55207.312983813135
+      },
+      "observed_fault_service": null,
+      "phases": {
+        "checkpoint_observed": true,
+        "fault_onset_observed": null,
+        "clearance_observed": null,
+        "full_recovery_observation_completed": null,
+        "unobserved_remainder_s": 0.0
+      },
+      "health_gate": {
+        "physical_admitted": true,
+        "service_transparency_pass": null,
+        "reason": "No service-transparency tolerance was predeclared; retain request errors and matched-reference differences",
+        "initial_guard_modification_norm": 0.2145806922403564,
+        "max_guard_modification_norm": 0.2145806922403564,
+        "intervention_count": 21496
+      },
+      "inventory": {
+        "initial_soc": 0.49993044008718335,
+        "final_soc": 0.4997097937531098,
+        "battery_stored_energy_change_J": -1588653.6053293208,
+        "DC_energy_change_J": -31.13732664622512,
+        "RL_energy_change_J": -50.77191588092475,
+        "remote_source_active_integral_J": 1502123.137605263,
+        "total_loss_integral_J": 86612.37697360075,
+        "battery_terminal_power_integral_J": 1556880.5332252162,
+        "battery_draw_integral_J": 1588653.6053291564,
+        "initial_Pb_W": 815639.6755124972,
+        "final_Pb_W": 724382.7071709794,
+        "battery_energy_restoration_claimed": false
+      },
+      "matched_reference": {
+        "status": "NOT_AVAILABLE",
+        "reference": null,
+        "allocator": "radial",
+        "reason": "No frozen same-allocator unguarded healthy trajectory exists; existing fast_reference is Q-priority and is not matched",
+        "primary_healthy_score": "absolute_request_errors_and_actual_electrical_energy_metrics"
+      },
+      "recovery": {
+        "status": "NOT_APPLICABLE_NO_FAULT",
+        "joint_recovery_time_s": null,
+        "official_check_count": 0,
+        "checks_with_unclipped_true": 0,
+        "last_check": null,
+        "full_checks_source_pointer": "/recovery/checks"
+      },
+      "timing_counts": {
+        "calls": 21501,
+        "guard_failures": 0,
+        "solver_success_false": 0,
+        "backup_calls": 0,
+        "accepted_nonoptimal_calls": 0
+      },
+      "controller_wall_time": {
+        "n": 21501,
+        "minimum_s": 0.007303955004317686,
+        "median_s": 0.009253925003577024,
+        "p95_s": 0.013151953993656207,
+        "maximum_s": 0.23183224700187566,
+        "sum_s": 211.43294956994941,
+        "over_100us_count": 21501
+      },
+      "late_window_compatibility": {
+        "case": "R0-fast",
+        "window_start_s": 2.6,
+        "window_end_s": 2.75,
+        "full_intervals": 1500,
+        "flags_order": [
+          "current_ref_clip",
+          "voltage_clip",
+          "source_cmd_clip",
+          "PLL_clip",
+          "guard_intervened"
+        ],
+        "active_interval_counts": [
+          0,
+          0,
+          0,
+          0,
+          1500
+        ],
+        "guard_modification_norm_min": 0.0003375570888366914,
+        "guard_modification_norm_max": 0.0003375570891141223,
+        "frozen_unclipped_condition_in_this_window": false,
+        "physical_complete_hard_safe": true,
+        "source_summary_sha256": "734bbf3ece2952ec7b8bb98e9b31014c3b0362b22206779c15ad46005a210466",
+        "source_npz_sha256": "708e08a1635893f07186a35e17db4c6bf9574cf02a304cfa553d37390525d89c"
+      },
+      "numerical_refinement_indicated": false
+    },
+    {
+      "case": "P50-fast",
+      "source_path_from_G3": "current_guard_constructive/results/P50-fast_h1e-05.json",
+      "source_sha256": "e29a6ac27a07ea588d21532a12e652c8ee76ed65d947845d505766d7d8ed20a7",
+      "independent_audit_status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "constant_request": {
+        "P_W": 800000,
+        "Q_var": 700000
+      },
+      "initial_time_s": 0.6,
+      "final_time_s": 2.75005,
+      "stop_reason": "completed",
+      "simulation_completed": true,
+      "complete_hard_safe": true,
+      "physical_proof_scope": "Audited finite averaged-model numerical trajectory, not a universal invariant-set or hardware certificate",
+      "metrics": {
+        "I_peak_pu": 0.9146507273802033,
+        "Vdc_min_pu": 0.9914103748433045,
+        "Vdc_max_pu": 1.056608623921266,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 824512.0545819633,
+        "Pb_abs_peak_W": 818722.9429263435,
+        "soc_min": 0.49971617232204435,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 5.097532266518101e-06,
+        "modulation_max": 0.4863426814722901
+      },
+      "service_entire_observation": {
+        "duration_s": 2.15005,
+        "P_actual_integral_J": 1471607.165449992,
+        "Q_actual_integral_var_s": 1290804.8506829843,
+        "P_signed_request_error_integral_J": -248432.8345500077,
+        "Q_signed_request_error_integral_var_s": -214230.14931701543,
+        "P_absolute_request_error_integral_J": 248433.78067730815,
+        "Q_absolute_request_error_integral_var_s": 215036.41592850717,
+        "mean_P_W": 684452.5315457744,
+        "mean_Q_var": 600360.3872854047,
+        "mean_absolute_P_error_W": 115547.9085032014,
+        "mean_absolute_Q_error_var": 100014.61171996334
+      },
+      "observed_fault_service": {
+        "duration_s": 0.15000000000000002,
+        "P_actual_integral_J": 62664.27102310332,
+        "Q_actual_integral_var_s": -1369.2718601902143,
+        "P_signed_request_error_integral_J": -57335.728976896695,
+        "Q_signed_request_error_integral_var_s": -106369.27186019023,
+        "P_absolute_request_error_integral_J": 57335.72897689755,
+        "Q_absolute_request_error_integral_var_s": 106369.27186018715,
+        "mean_P_W": 417761.8068206887,
+        "mean_Q_var": -9128.47906793476,
+        "mean_absolute_P_error_W": 382238.193179317,
+        "mean_absolute_Q_error_var": 709128.4790679142
+      },
+      "phases": {
+        "checkpoint_observed": true,
+        "fault_onset_observed": true,
+        "clearance_observed": true,
+        "full_recovery_observation_completed": true,
+        "unobserved_remainder_s": 0.0
+      },
+      "health_gate": {
+        "physical_admitted": null,
+        "service_transparency_pass": null,
+        "reason": "No service-transparency tolerance was predeclared; retain request errors and matched-reference differences",
+        "initial_guard_modification_norm": 0.2145806922403564,
+        "max_guard_modification_norm": 0.2145806922403564,
+        "intervention_count": 21366
+      },
+      "inventory": {
+        "initial_soc": 0.49993044008718335,
+        "final_soc": 0.49971617232204435,
+        "battery_stored_energy_change_J": -1542727.9090007306,
+        "DC_energy_change_J": -31.13732664622512,
+        "RL_energy_change_J": -50.77191588092478,
+        "remote_source_active_integral_J": 1456616.2474598144,
+        "total_loss_integral_J": 86193.57078854064,
+        "battery_terminal_power_integral_J": 1511873.3508226078,
+        "battery_draw_integral_J": 1542727.9090005173,
+        "initial_Pb_W": 815639.6755124972,
+        "final_Pb_W": 724382.7071709802,
+        "battery_energy_restoration_claimed": false
+      },
+      "matched_reference": {
+        "status": "OBSERVED_COMMON_WINDOW_ONLY",
+        "reference": "same_allocator_same_port_guarded_no_fault",
+        "reference_case": "P0-fast",
+        "allocator": "p_priority",
+        "reference_summary_sha256": "8f9ad64944f827a180b64a1c253d0c8e8646efe4dbd692221395af19472e171e",
+        "reference_file": "current_guard_constructive/results/P0-fast_h1e-05.npz",
+        "reference_sha256": "9d4e8a577680299912540aeee7dea5b62f4dd35619012ca80609bd6c07325230",
+        "same_initial_7_state_exact": true,
+        "same_initial_normalized_full_state_exact": true,
+        "common_start_s": 0.6,
+        "common_end_s": 2.75005,
+        "full_observed_case_covered": true,
+        "comparison_interpolation": "Linear on stored100us endpoints if terminal time is off clock; not a new physical replay",
+        "P_integral_difference_J": -45130.49087995943,
+        "Q_integral_difference_var_s": -95528.62346505444,
+        "battery_stored_energy_difference_J": 45928.135726410896,
+        "DC_energy_difference_J": 0.0,
+        "RL_energy_difference_J": -2.177999882116649e-13,
+        "remote_source_integral_difference_J": -45509.27739096363,
+        "total_loss_integral_difference_J": -418.8583373520378,
+        "no_past_service_restoration_claim": true,
+        "P_absolute_error_integral_difference_J": 45131.437008846435,
+        "Q_absolute_error_integral_difference_var_s": 96333.81450952741,
+        "matched_sample_count": 21502,
+        "max_normalized_state_difference": 1.0730359326209724
+      },
+      "recovery": {
+        "status": "SCORED_COMPLETED_TRAJECTORY",
+        "joint_recovery_time_s": null,
+        "global_safe_recovery": false,
+        "earlier_violation_cannot_be_erased": true,
+        "battery_inventory_excluded_from_orbit": true,
+        "official_check_count": 37,
+        "checks_with_unclipped_true": 0,
+        "last_check": {
+          "time_s": 2.749999999999998,
+          "self_50ms_difference": 5.734301922188934e-13,
+          "same_time_guarded_no_fault_difference": 2.2737367544323206e-13,
+          "safe_150ms": true,
+          "unclipped_including_guard_150ms": false,
+          "PLL_max_error_Hz": 1.5411671938636573e-11,
+          "qualifying": false,
+          "successive": 0
+        },
+        "full_checks_source_pointer": "/recovery/checks"
+      },
+      "timing_counts": {
+        "calls": 21501,
+        "guard_failures": 0,
+        "solver_success_false": 0,
+        "backup_calls": 0,
+        "accepted_nonoptimal_calls": 0
+      },
+      "controller_wall_time": {
+        "n": 21501,
+        "minimum_s": 0.004125452003790997,
+        "median_s": 0.009108751997700892,
+        "p95_s": 0.012800371994671877,
+        "maximum_s": 0.21716709400061518,
+        "sum_s": 207.06515446490084,
+        "over_100us_count": 21501
+      },
+      "late_window_compatibility": {
+        "case": "P50-fast",
+        "window_start_s": 2.6,
+        "window_end_s": 2.75,
+        "full_intervals": 1500,
+        "flags_order": [
+          "current_ref_clip",
+          "voltage_clip",
+          "source_cmd_clip",
+          "PLL_clip",
+          "guard_intervened"
+        ],
+        "active_interval_counts": [
+          0,
+          0,
+          0,
+          0,
+          1500
+        ],
+        "guard_modification_norm_min": 0.0003375570888361855,
+        "guard_modification_norm_max": 0.00033755708911356835,
+        "frozen_unclipped_condition_in_this_window": false,
+        "physical_complete_hard_safe": true,
+        "source_summary_sha256": "e29a6ac27a07ea588d21532a12e652c8ee76ed65d947845d505766d7d8ed20a7",
+        "source_npz_sha256": "2c48dcea706f8848d4ea894dbeb18a78f0dce43bf927b7e4f7d09fcca8501938",
+        "official_recovery_unchanged": null,
+        "official_checks_count": 37,
+        "official_checks_with_unclipped_true": 0,
+        "official_last_check": {
+          "time_s": 2.749999999999998,
+          "self_50ms_difference": 5.734301922188934e-13,
+          "same_time_guarded_no_fault_difference": 2.2737367544323206e-13,
+          "safe_150ms": true,
+          "unclipped_including_guard_150ms": false,
+          "PLL_max_error_Hz": 1.5411671938636573e-11,
+          "qualifying": false,
+          "successive": 0
+        }
+      },
+      "numerical_refinement_indicated": false
+    },
+    {
+      "case": "R50-fast",
+      "source_path_from_G3": "current_guard_constructive/results/R50-fast_h1e-05.json",
+      "source_sha256": "cbb38fab46138d22ae26fd3c5103d175196264352fd4015931c571c585646f53",
+      "independent_audit_status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "constant_request": {
+        "P_W": 800000,
+        "Q_var": 700000
+      },
+      "initial_time_s": 0.6,
+      "final_time_s": 2.75005,
+      "stop_reason": "completed",
+      "simulation_completed": true,
+      "complete_hard_safe": true,
+      "physical_proof_scope": "Audited finite averaged-model numerical trajectory, not a universal invariant-set or hardware certificate",
+      "metrics": {
+        "I_peak_pu": 0.9052409661036275,
+        "Vdc_min_pu": 0.9868343003634322,
+        "Vdc_max_pu": 1.0569601736411032,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 800000.0043642087,
+        "Pb_abs_peak_W": 818722.9429263435,
+        "soc_min": 0.4997171391532966,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 5.172547389520332e-06,
+        "modulation_max": 0.4700193839104886
+      },
+      "service_entire_observation": {
+        "duration_s": 2.15005,
+        "P_actual_integral_J": 1464850.6668868272,
+        "Q_actual_integral_var_s": 1339520.0833735713,
+        "P_signed_request_error_integral_J": -255189.33311317256,
+        "Q_signed_request_error_integral_var_s": -165514.9166264285,
+        "P_absolute_request_error_integral_J": 255189.33311179944,
+        "Q_absolute_request_error_integral_var_s": 165717.02664351554,
+        "mean_P_W": 681310.0471555672,
+        "mean_Q_var": 623018.108124728,
+        "mean_absolute_P_error_W": 118689.95284379408,
+        "mean_absolute_Q_error_var": 77075.8943482782
+      },
+      "observed_fault_service": {
+        "duration_s": 0.15000000000000002,
+        "P_actual_integral_J": 55145.930206776306,
+        "Q_actual_integral_var_s": 47694.13146436522,
+        "P_signed_request_error_integral_J": -64854.06979322371,
+        "Q_signed_request_error_integral_var_s": -57305.86853563479,
+        "P_absolute_request_error_integral_J": 64854.069793224015,
+        "Q_absolute_request_error_integral_var_s": 57305.86853563588,
+        "mean_P_W": 367639.53471184196,
+        "mean_Q_var": 317960.87642910145,
+        "mean_absolute_P_error_W": 432360.46528816,
+        "mean_absolute_Q_error_var": 382039.12357090577
+      },
+      "phases": {
+        "checkpoint_observed": true,
+        "fault_onset_observed": true,
+        "clearance_observed": true,
+        "full_recovery_observation_completed": true,
+        "unobserved_remainder_s": 0.0
+      },
+      "health_gate": {
+        "physical_admitted": null,
+        "service_transparency_pass": null,
+        "reason": "No service-transparency tolerance was predeclared; retain request errors and matched-reference differences",
+        "initial_guard_modification_norm": 0.2145806922403564,
+        "max_guard_modification_norm": 0.2145806922403564,
+        "intervention_count": 21382
+      },
+      "inventory": {
+        "initial_soc": 0.49993044008718335,
+        "final_soc": 0.4997171391532966,
+        "battery_stored_energy_change_J": -1535766.7239844901,
+        "DC_energy_change_J": -31.13732664622148,
+        "RL_energy_change_J": -50.771915880924695,
+        "remote_source_active_integral_J": 1449857.9201108203,
+        "total_loss_integral_J": 85990.71312136903,
+        "battery_terminal_power_integral_J": 1505051.3895066867,
+        "battery_draw_integral_J": 1535766.7239842492,
+        "initial_Pb_W": 815639.6755124972,
+        "final_Pb_W": 724382.7071709798,
+        "battery_energy_restoration_claimed": false
+      },
+      "matched_reference": {
+        "status": "OBSERVED_COMMON_WINDOW_ONLY",
+        "reference": "same_allocator_same_port_guarded_no_fault",
+        "reference_case": "R0-fast",
+        "allocator": "radial",
+        "reference_summary_sha256": "734bbf3ece2952ec7b8bb98e9b31014c3b0362b22206779c15ad46005a210466",
+        "reference_file": "current_guard_constructive/results/R0-fast_h1e-05.npz",
+        "reference_sha256": "708e08a1635893f07186a35e17db4c6bf9574cf02a304cfa553d37390525d89c",
+        "same_initial_7_state_exact": true,
+        "same_initial_normalized_full_state_exact": true,
+        "common_start_s": 0.6,
+        "common_end_s": 2.75005,
+        "full_observed_case_covered": true,
+        "comparison_interpolation": "Linear on stored100us endpoints if terminal time is off clock; not a new physical replay",
+        "P_integral_difference_J": -51884.61038979422,
+        "Q_integral_difference_var_s": -46817.508912593825,
+        "battery_stored_energy_difference_J": 52886.88134483085,
+        "DC_energy_difference_J": 3.637978807091713e-12,
+        "RL_energy_difference_J": 4.585262909719261e-14,
+        "remote_source_integral_difference_J": -52265.21749444259,
+        "total_loss_integral_difference_J": -621.6638522317226,
+        "no_past_service_restoration_claim": true,
+        "P_absolute_error_integral_difference_J": 51884.6103900068,
+        "Q_absolute_error_integral_difference_var_s": 47018.54336266812,
+        "matched_sample_count": 21502,
+        "max_normalized_state_difference": 0.45731780201953465
+      },
+      "recovery": {
+        "status": "SCORED_COMPLETED_TRAJECTORY",
+        "joint_recovery_time_s": null,
+        "global_safe_recovery": false,
+        "earlier_violation_cannot_be_erased": true,
+        "battery_inventory_excluded_from_orbit": true,
+        "official_check_count": 37,
+        "checks_with_unclipped_true": 0,
+        "last_check": {
+          "time_s": 2.749999999999998,
+          "self_50ms_difference": 5.722089468918057e-13,
+          "same_time_guarded_no_fault_difference": 2.2737367544323206e-13,
+          "safe_150ms": true,
+          "unclipped_including_guard_150ms": false,
+          "PLL_max_error_Hz": 1.7536194718559273e-11,
+          "qualifying": false,
+          "successive": 0
+        },
+        "full_checks_source_pointer": "/recovery/checks"
+      },
+      "timing_counts": {
+        "calls": 21501,
+        "guard_failures": 0,
+        "solver_success_false": 0,
+        "backup_calls": 0,
+        "accepted_nonoptimal_calls": 0
+      },
+      "controller_wall_time": {
+        "n": 21501,
+        "minimum_s": 0.006092278003052343,
+        "median_s": 0.009215903999574948,
+        "p95_s": 0.01435173800564371,
+        "maximum_s": 0.2256534170010127,
+        "sum_s": 215.42860338408354,
+        "over_100us_count": 21501
+      },
+      "late_window_compatibility": {
+        "case": "R50-fast",
+        "window_start_s": 2.6,
+        "window_end_s": 2.75,
+        "full_intervals": 1500,
+        "flags_order": [
+          "current_ref_clip",
+          "voltage_clip",
+          "source_cmd_clip",
+          "PLL_clip",
+          "guard_intervened"
+        ],
+        "active_interval_counts": [
+          0,
+          0,
+          0,
+          0,
+          1500
+        ],
+        "guard_modification_norm_min": 0.000337557088837039,
+        "guard_modification_norm_max": 0.0003375570891131806,
+        "frozen_unclipped_condition_in_this_window": false,
+        "physical_complete_hard_safe": true,
+        "source_summary_sha256": "cbb38fab46138d22ae26fd3c5103d175196264352fd4015931c571c585646f53",
+        "source_npz_sha256": "ae5738056f3e2168f81370a37ed5b8378dc55f5bc5892864fc3a3984b5d1ef00",
+        "official_recovery_unchanged": null,
+        "official_checks_count": 37,
+        "official_checks_with_unclipped_true": 0,
+        "official_last_check": {
+          "time_s": 2.749999999999998,
+          "self_50ms_difference": 5.722089468918057e-13,
+          "same_time_guarded_no_fault_difference": 2.2737367544323206e-13,
+          "safe_150ms": true,
+          "unclipped_including_guard_150ms": false,
+          "PLL_max_error_Hz": 1.7536194718559273e-11,
+          "qualifying": false,
+          "successive": 0
+        }
+      },
+      "numerical_refinement_indicated": false
+    }
+  ],
+  "recovery_contract_compatibility": {
+    "status": "READ_ONLY_CRITERION_COMPATIBILITY_DIAGNOSIS_NOT_RESCORING",
+    "source_path_from_G3": "current_guard_constructive/RECOVERY_CRITERION_COMPATIBILITY.json",
+    "window_s": [
+      2.6,
+      2.75
+    ],
+    "full_intervals_per_case": 1500,
+    "flags_order": [
+      "current_ref_clip",
+      "voltage_clip",
+      "source_cmd_clip",
+      "PLL_clip",
+      "guard_intervened"
+    ],
+    "counts_each_case": [
+      0,
+      0,
+      0,
+      0,
+      1500
+    ],
+    "interpretation": "The recorded healthy targets themselves require guard intervention in this observed window. Exact return to these fixed recorded targets does not meet the separate all-limiters-off predicate. Keep frozen failure scores; do not infer physical nonrecoverability, inventory restoration, or inevitable intervention for all future time.",
+    "official_scores_changed": false,
+    "inventory_rebalanced": false
+  },
+  "four_axis_assessment": {
+    "novelty": {
+      "status": "NOT_ESTABLISHED",
+      "strongest_claim": "Known-control adaptation and constructive feasibility; standard success weakens algorithmic necessity. H07 remains conditional and unproved.",
+      "closure": "Stop high-novelty algorithm claims and performance search absent a concrete independent proposition."
+    },
+    "significance": {
+      "status": "ENGINEERING_MAGNITUDES_OBSERVED_NOT_NEW_METHOD_OR_STATISTICAL_EFFECT",
+      "strongest_claim": "Healthy service compression and fault P/Q tradeoff quantified; hard safety, recovery, service and inventory remain distinct.",
+      "missing": [
+        "independent confirmation seeds",
+        "ongoing workload controls",
+        "matched hardware calibration",
+        "predeclared transparency tolerance"
+      ]
+    },
+    "ablation": {
+      "status": "AUTHORIZED_MINIMAL_FOUR_CASE_PACKAGE_COMPLETE",
+      "strongest_claim": "Same frozen common layer, standard allocation changed; finite physical existence and standard tradeoffs identified.",
+      "not_isolated": [
+        "individual tau versus ramp numerical causal effects",
+        "guard versus shared antiwindup adaptation"
+      ],
+      "closure": "No additional tuning, timing, amplitude/frequency or phase grid."
+    },
+    "transfer": {
+      "status": "SYNTHETIC_FIXED_SCOPE_ONLY",
+      "strongest_claim": "Frozen averaged model, fixed 60Hz/no-phase-jump voltage contract and specified initial state.",
+      "not_validated": [
+        "real DC/DC",
+        "direct battery",
+        "switching/unbalanced/frequency/phase-jump transfer",
+        "continuous compute waveform",
+        "real facility PCC faults"
+      ]
+    }
+  },
+  "closure_recommendation": {
+    "decision": "CLOSE_THIS_EXPERIMENTAL_BRANCH_AS_REPRODUCIBLE_ENGINEERING_AND_BOUNDARY_ANALYSIS",
+    "preserve_positive_result": true,
+    "no_paper_ready_claim": true,
+    "additional_experiments_authorized_by_this_update": false,
+    "reopen_only_with": "A concrete independently motivated falsifiable proposition, nearest-prior distinction, minimal decisive evidence and stopping condition; not merely remaining failed metrics or desire for a paper."
+  },
+  "qualified_conclusions": [
+    "Both standard allocations provide audited finite full-window physical witnesses in the synthetic fast-port case.",
+    "Both preserve original formal recovery failure because guard remains active; observed electrical/control return is reported separately.",
+    "Healthy references also activate guard in all 1500 final-window samples; this is target/criterion compatibility evidence, not proof all future controls must intervene.",
+    "P/Q service and battery inventory remain materially different from requests and respective no-fault references.",
+    "Slow-port energy exclusion remains valid in its own frozen scope.",
+    "Engineering feasibility is positive evidence; independent high innovation and paper readiness remain unestablished."
+  ],
+  "source_manifest": [
+    {
+      "path_from_G3": "current_guard_constructive/results/P0-fast_h1e-05.json",
+      "sha256": "8f9ad64944f827a180b64a1c253d0c8e8646efe4dbd692221395af19472e171e",
+      "bytes": 13674
+    },
+    {
+      "path_from_G3": "current_guard_constructive/results/R0-fast_h1e-05.json",
+      "sha256": "734bbf3ece2952ec7b8bb98e9b31014c3b0362b22206779c15ad46005a210466",
+      "bytes": 13666
+    },
+    {
+      "path_from_G3": "current_guard_constructive/results/P50-fast_h1e-05.json",
+      "sha256": "e29a6ac27a07ea588d21532a12e652c8ee76ed65d947845d505766d7d8ed20a7",
+      "bytes": 32860
+    },
+    {
+      "path_from_G3": "current_guard_constructive/results/R50-fast_h1e-05.json",
+      "sha256": "cbb38fab46138d22ae26fd3c5103d175196264352fd4015931c571c585646f53",
+      "bytes": 32862
+    },
+    {
+      "path_from_G3": "current_guard_constructive/audit_artifact_results.json",
+      "sha256": "67a0c00be67904b639182bcad74aa892d58c43205a279e3f386e93bc2793a18c",
+      "bytes": 16450
+    },
+    {
+      "path_from_G3": "current_guard_constructive/audit_event_results.json",
+      "sha256": "850ab78760501ed6295db16c5baacc650712044cdf8cda2ba0503b5ebc9fcfe1",
+      "bytes": 6991
+    },
+    {
+      "path_from_G3": "current_guard_constructive/INDEPENDENT_ARTIFACT_AUDIT.md",
+      "sha256": "cea5ec5cd80b94faff725678703befda84a59136432f412dcab5d6530226bc36",
+      "bytes": 6574
+    },
+    {
+      "path_from_G3": "current_guard_constructive/ARTIFACT_AUDIT_MANIFEST.json",
+      "sha256": "56e0bc33b189fab7a00c92e599e33927137a1714592cdd4da2f888223f0252e4",
+      "bytes": 1540
+    },
+    {
+      "path_from_G3": "current_guard_constructive/RECOVERY_CRITERION_COMPATIBILITY.json",
+      "sha256": "fce7c19df13c73e40c7d8341d65825c40058cfc8a14ae99882db24375742117a",
+      "bytes": 4941
+    },
+    {
+      "path_from_G3": "current_guard_constructive/check_recovery_compatibility.py",
+      "sha256": "6c1796932fe24b238748da84a47585e0cb1cc1c0a7b856280b1f101a610cb800",
+      "bytes": 2228
+    },
+    {
+      "path_from_G3": "current_guard_constructive/INDEPENDENT_AUDIT.md",
+      "sha256": "a94cab1266d471c6ab44d0d5c3c8abae261904b19d4a536363b7eda845444e52",
+      "bytes": 9825
+    },
+    {
+      "path_from_G3": "current_guard_constructive/IMPLEMENTATION_V1.json",
+      "sha256": "239dd0205d8cd0d41448e23d1a001c268a08073f51b7b3aeb2f4c50e09a3c5ac",
+      "bytes": 1638
+    },
+    {
+      "path_from_G3": "current_guard_constructive/EXECUTION_SCOPE.json",
+      "sha256": "ee18f2d5522009bc8f1decabea6c4c54104852953c1304462c83a0ba85cac506",
+      "bytes": 999
+    },
+    {
+      "path_from_G3": "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.json",
+      "sha256": "104b5f9102c286a2005e856da777b2a203a475c368fccd56d447e54ea43275f3",
+      "bytes": 3290
+    }
+  ],
+  "independent_audit_manifest_verified": true,
+  "historical_files_unchanged": true,
+  "output_documents": [
+    "protocol/next_constructive/CONCLUSION_MATRIX_FINAL.md",
+    "protocol/next_constructive/G3_CLOSURE_RECOMMENDATION.md"
+  ]
+}

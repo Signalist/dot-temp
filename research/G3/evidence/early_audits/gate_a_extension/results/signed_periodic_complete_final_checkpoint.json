@@ -1,0 +1,80 @@
+{
+  "time_s": 10.6,
+  "plant_state": [
+    -9.178968186571547,
+    -0.18986851892284062,
+    20851.173937072406,
+    -7128.52163191782,
+    -8542.149365497482,
+    -71610.00622103838,
+    80900.96504986973,
+    -67854.10298638043,
+    1238.104467351151,
+    -30696.881978220663,
+    8542.149365497522
+  ],
+  "plant_state_names": [
+    "id",
+    "iq",
+    "Wdc",
+    "Pb",
+    "deltaEb",
+    "intPsource",
+    "intLoss",
+    "intPpcc",
+    "intQpcc",
+    "intPb",
+    "intBatteryDraw"
+  ],
+  "controller": {
+    "theta": 3996.0976780952165,
+    "zpll": 0.15597174614150947,
+    "omega": 377.1478111491928,
+    "zi": [
+      -0.8292254523693188,
+      36.100091883818266
+    ],
+    "applied": [
+      0.4098547742119673,
+      -0.008396040681573822
+    ],
+    "queued": [
+      0.4098817543229714,
+      0.007073534359891997
+    ],
+    "pb_command": 30758.145675612905
+  },
+  "normalized_state": [
+    -0.006464089171422782,
+    -0.0001337107845039429,
+    0.9653321267163151,
+    -0.00712852163191782,
+    -0.008177271000022301,
+    0.00041372790635159145,
+    -0.001471869014516947,
+    0.06407739477024862,
+    0.4098547742119717,
+    -0.008396040681358543,
+    0.4098817543229677,
+    0.00707353436010729,
+    1.0004156403447113,
+    0.030758145675612903
+  ],
+  "protocol_sha256": "a1c399415c6a4b8d17ccf6193963ed73b712fca0890856fbbbf9dcfe1af6bdb8",
+  "note": "Full plant/controller/queue state; battery inventory retained. Fixed P equilibrium is a finite-energy state, not sustainable constant SoC.",
+  "forcing_state": {
+    "forcing_start_s": 0.6,
+    "frequency_Hz": 1.0,
+    "amplitude_W": 300000.0,
+    "Q_var": 0.0,
+    "bias_W": -7599.491858162698,
+    "bias_frozen": true,
+    "phase_rad": 0.0,
+    "calibration_cycles_completed": 7,
+    "confirmation_cycles_completed": 3,
+    "remaining_bias_updates": 0,
+    "next_controller_clock_index": 106000,
+    "state_sampling_side": "At completed interval end immediately before next control sample",
+    "purpose": "Complete reproducible final checkpoint; no post-freeze bias reset or physical-state reset."
+  }
+}

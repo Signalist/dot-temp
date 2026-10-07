@@ -1,0 +1,209 @@
+{
+  "independent_healthy_twin_bitwise_equality": true,
+  "service_gate_checks": [
+    {
+      "case": "nominal_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "nominal_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4_r25_o37_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4_r25_o37_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4_r25_o73_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4_r25_o73_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4_r35_o37_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4_r35_o37_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4_r35_o73_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4_r35_o73_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau6_r25_o37_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau6_r25_o37_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau6_r25_o73_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau6_r25_o73_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau6_r35_o37_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau6_r35_o37_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau6_r35_o73_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau6_r35_o73_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4.5_r27_o19_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4.5_r27_o19_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4.5_r27_o61_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4.5_r27_o61_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4.5_r33_o19_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4.5_r33_o19_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4.5_r33_o61_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau4.5_r33_o61_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau5.5_r27_o19_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau5.5_r27_o19_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau5.5_r27_o61_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau5.5_r27_o61_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau5.5_r33_o19_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau5.5_r33_o19_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau5.5_r33_o61_h1",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    },
+    {
+      "case": "tau5.5_r33_o61_h05",
+      "cp_held": true,
+      "integral_held": true,
+      "inventory_disabled": true
+    }
+  ]
+}

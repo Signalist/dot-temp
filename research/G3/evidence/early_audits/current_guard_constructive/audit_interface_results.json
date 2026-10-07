@@ -1,0 +1,2861 @@
+{
+  "status": "PASS_STATIC_INTERFACE_ONLY",
+  "physical_trajectory_count": 0,
+  "new_physical_conditions_executed": 0,
+  "real_optimization_calls": 0,
+  "test_groups": 5,
+  "results": [
+    {
+      "name": "Frozen protocol, guard, nominal allocator and full-state checkpoint hashes",
+      "status": "PASS",
+      "details": {
+        "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.json": "104b5f9102c286a2005e856da777b2a203a475c368fccd56d447e54ea43275f3",
+        "current_guard_gate1/common_guard.py": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03",
+        "baseline_allocation/allocators.py": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a",
+        "gate_a/preconditioned_dq/h1e-05_checkpoint.json": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+        "protocol/GATE1_MPSC_SIX_MODELS_V1.json": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3"
+      }
+    },
+    {
+      "name": "Two allocators: four-quadrant low-voltage saturation full-field passthrough plus independent oracle",
+      "status": "PASS",
+      "details": {
+        "fixture_count": 72,
+        "voltage_saturated_count": 52,
+        "below_PLL_floor_count": 24,
+        "max_independent_state_error": 4.547473508864641e-13,
+        "max_independent_control_error": 3.410605131648481e-13,
+        "fixtures": [
+          {
+            "allocator": "p_priority",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 1.1102230246251565e-16,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.9195013347563645
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.17518546158938011
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 1,
+            "P_W": 1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.211373569652506
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 2.7755575615628914e-17,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 2.7755575615628914e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.18776270122830152
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 1,
+            "P_W": 1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.1994714671363945
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 1.3877787807814457e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.19455439545093542
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 1,
+            "P_W": 1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.19491396743554765
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 2.7755575615628914e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.18589664867505423
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 2,
+            "P_W": -1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.20009877690020672
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 2.98453111774546e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 3.469446951953614e-18,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.19851494837399683
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 2,
+            "P_W": -1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.19365406872275906
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 5.551115123125783e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 2.7755575615628914e-17,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.20133277039370154
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 2,
+            "P_W": -1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.19250995057873677
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 1.734723475976807e-18,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.20654579038953505
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 3,
+            "P_W": -1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.18145075279356176
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 4.3885418357208765e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.1982616517438895
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 3,
+            "P_W": -1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.19209846873524763
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 2.220446049250313e-16,
+              "applied": 0.0,
+              "queued": 3.7367087251761353e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.19724687162148424
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 3,
+            "P_W": -1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.19523847625341315
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 1.1102230246251565e-14,
+              "applied": 0.0,
+              "queued": 1.6653345369377348e-16,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 2.220446049250313e-16,
+            "voltage_saturation_factor": 0.7097141851193169
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.2350261121124273
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 4,
+            "P_W": 1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 3.410605131648481e-13,
+            "voltage_saturation_factor": 0.1635592743466752
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 1.1102230246251565e-16,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 2.220446049250313e-16,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.21915822948370972
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 4,
+            "P_W": 1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.173993880182556
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 6.206335383118183e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.21347906154632748
+          },
+          {
+            "allocator": "p_priority",
+            "quadrant": 4,
+            "P_W": 1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.17958296457057035
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 1.1102230246251565e-16,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.9195013347563645
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.17518546158938011
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 1,
+            "P_W": 1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.21165615194369886
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 2.7755575615628914e-17,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 6.938893903907228e-18,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.18527895035555209
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 1,
+            "P_W": 1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.20388980225732442
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 1.3877787807814457e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 2.7755575615628914e-17,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 1,
+            "P_W": 800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.1916639368638326
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 1,
+            "P_W": 1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.1989456933091265
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 2.7755575615628914e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.18589664867505423
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 2,
+            "P_W": -1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.2005127937187963
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.19112055901304678
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 2,
+            "P_W": -1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 3.3306690738754696e-16,
+            "voltage_saturation_factor": 0.19959628916356245
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 5.594315114139762e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 2,
+            "P_W": -800000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.19375424532222277
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 2,
+            "P_W": -1200000.0,
+            "Q_var": 700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 4.547473508864641e-13,
+              "applied": 0.0,
+              "queued": 1.2412670766236366e-16,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 3.3306690738754696e-16,
+            "voltage_saturation_factor": 0.19843648957099622
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 1.734723475976807e-18,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.20654579038953505
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 3,
+            "P_W": -1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 3.3306690738754696e-16,
+            "voltage_saturation_factor": 0.18104762076218747
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 8.326672684688674e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 8.326672684688674e-17,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.20597864638731161
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 3,
+            "P_W": -1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.18647040844183835
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 2.2215299868541707e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.3877787807814457e-17,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 3,
+            "P_W": -800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.20497675723862768
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 3,
+            "P_W": -1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.18941789788470478
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 1.1102230246251565e-14,
+              "applied": 0.0,
+              "queued": 1.6653345369377348e-16,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 2.220446049250313e-16,
+            "voltage_saturation_factor": 0.7097141851193169
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1102230246251565e-16,
+            "voltage_saturation_factor": 0.2350261121124273
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 4,
+            "P_W": 1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 1.0,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 1.1368683772161603e-13,
+            "voltage_saturation_factor": 0.16354046401535272
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 5.551115123125783e-17,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 5.551115123125783e-17,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.22552021576847178
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 4,
+            "P_W": 1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.4,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.17224168838926826
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1120.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 1.0
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 4,
+            "P_W": 800000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1400.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.21914029096981077
+          },
+          {
+            "allocator": "radial",
+            "quadrant": 4,
+            "P_W": 1200000.0,
+            "Q_var": -700000.0,
+            "PCC_voltage_pu": 0.05,
+            "Vdc_V": 1540.0,
+            "exact_passthrough_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_field_differences": {
+              "theta": 0.0,
+              "zpll": 0.0,
+              "omega": 0.0,
+              "zi": 0.0,
+              "applied": 0.0,
+              "queued": 0.0,
+              "pb_command": 0.0
+            },
+            "oracle_control_max_error": 0.0,
+            "voltage_saturation_factor": 0.17759366816057687
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zero PCC voltage, zero/axis requests: finite result and frozen low-voltage PLL",
+      "status": "PASS",
+      "details": [
+        {
+          "allocator": "p_priority",
+          "request": {
+            "P_req_W": 0.0,
+            "Q_req_var": 0.0
+          },
+          "PLL_state_frozen": true
+        },
+        {
+          "allocator": "p_priority",
+          "request": {
+            "P_req_W": 800000.0,
+            "Q_req_var": 0.0
+          },
+          "PLL_state_frozen": true
+        },
+        {
+          "allocator": "p_priority",
+          "request": {
+            "P_req_W": 0.0,
+            "Q_req_var": -700000.0
+          },
+          "PLL_state_frozen": true
+        },
+        {
+          "allocator": "radial",
+          "request": {
+            "P_req_W": 0.0,
+            "Q_req_var": 0.0
+          },
+          "PLL_state_frozen": true
+        },
+        {
+          "allocator": "radial",
+          "request": {
+            "P_req_W": 800000.0,
+            "Q_req_var": 0.0
+          },
+          "PLL_state_frozen": true
+        },
+        {
+          "allocator": "radial",
+          "request": {
+            "P_req_W": 0.0,
+            "Q_req_var": -700000.0
+          },
+          "PLL_state_frozen": true
+        }
+      ]
+    },
+    {
+      "name": "Common AW, immutable committed hold, atomic rejection, exact causal observation fields",
+      "status": "PASS",
+      "details": {
+        "AW_fixtures": [
+          {
+            "allocator": "p_priority",
+            "selection": "optimized",
+            "quadrant": 1,
+            "max_AW_error": 2.0471501066083613e-15
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "optimized",
+            "quadrant": 2,
+            "max_AW_error": 2.1220227966643612e-13
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "optimized",
+            "quadrant": 3,
+            "max_AW_error": 7.246176570411206e-14
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "optimized",
+            "quadrant": 4,
+            "max_AW_error": 2.673771110915334e-15
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "shifted_plan",
+            "quadrant": 1,
+            "max_AW_error": 2.0471501066083613e-15
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "shifted_plan",
+            "quadrant": 2,
+            "max_AW_error": 2.1220227966643612e-13
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "shifted_plan",
+            "quadrant": 3,
+            "max_AW_error": 7.246176570411206e-14
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "shifted_plan",
+            "quadrant": 4,
+            "max_AW_error": 2.673771110915334e-15
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "terminal",
+            "quadrant": 1,
+            "max_AW_error": 2.0471501066083613e-15
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "terminal",
+            "quadrant": 2,
+            "max_AW_error": 2.1220227966643612e-13
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "terminal",
+            "quadrant": 3,
+            "max_AW_error": 7.246176570411206e-14
+          },
+          {
+            "allocator": "p_priority",
+            "selection": "terminal",
+            "quadrant": 4,
+            "max_AW_error": 2.673771110915334e-15
+          },
+          {
+            "allocator": "radial",
+            "selection": "optimized",
+            "quadrant": 1,
+            "max_AW_error": 2.0471501066083613e-15
+          },
+          {
+            "allocator": "radial",
+            "selection": "optimized",
+            "quadrant": 2,
+            "max_AW_error": 2.1220227966643612e-13
+          },
+          {
+            "allocator": "radial",
+            "selection": "optimized",
+            "quadrant": 3,
+            "max_AW_error": 7.246176570411206e-14
+          },
+          {
+            "allocator": "radial",
+            "selection": "optimized",
+            "quadrant": 4,
+            "max_AW_error": 2.673771110915334e-15
+          },
+          {
+            "allocator": "radial",
+            "selection": "shifted_plan",
+            "quadrant": 1,
+            "max_AW_error": 2.0471501066083613e-15
+          },
+          {
+            "allocator": "radial",
+            "selection": "shifted_plan",
+            "quadrant": 2,
+            "max_AW_error": 2.1220227966643612e-13
+          },
+          {
+            "allocator": "radial",
+            "selection": "shifted_plan",
+            "quadrant": 3,
+            "max_AW_error": 7.246176570411206e-14
+          },
+          {
+            "allocator": "radial",
+            "selection": "shifted_plan",
+            "quadrant": 4,
+            "max_AW_error": 2.673771110915334e-15
+          },
+          {
+            "allocator": "radial",
+            "selection": "terminal",
+            "quadrant": 1,
+            "max_AW_error": 2.0471501066083613e-15
+          },
+          {
+            "allocator": "radial",
+            "selection": "terminal",
+            "quadrant": 2,
+            "max_AW_error": 2.1220227966643612e-13
+          },
+          {
+            "allocator": "radial",
+            "selection": "terminal",
+            "quadrant": 3,
+            "max_AW_error": 7.246176570411206e-14
+          },
+          {
+            "allocator": "radial",
+            "selection": "terminal",
+            "quadrant": 4,
+            "max_AW_error": 2.673771110915334e-15
+          }
+        ],
+        "failed_allocators_preserve_full_controller_and_plant": [
+          "p_priority",
+          "radial"
+        ],
+        "rejected_undeclared_policies": [
+          "q_priority",
+          "adaptive",
+          "",
+          null
+        ],
+        "guard_command_arguments": [
+          "t",
+          "k",
+          "observation",
+          "mnom"
+        ],
+        "observation_fields": [
+          "applied_ab",
+          "i_ab",
+          "queued_ab",
+          "vdc",
+          "vp_ab"
+        ]
+      }
+    },
+    {
+      "name": "Unmodified common guard: independent fixed N/K/envelope and saved-plan backup regressions",
+      "status": "PASS",
+      "details": {
+        "legacy_test_functions": [
+          "test_geometry",
+          "test_observation",
+          "test_primal",
+          "test_solver_failure_paths",
+          "test_backup_frames",
+          "test_no_valid_backup",
+          "test_plan_metadata"
+        ],
+        "legacy_results": [
+          {
+            "name": "Omega explicit inverse and correlated-set rejection",
+            "status": "PASS",
+            "details": {
+              "fixtures": [
+                {
+                  "witnesses": [
+                    [
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      -0.0,
+                      -0.0
+                    ]
+                  ],
+                  "disk_norms": [
+                    0.0,
+                    0.0
+                  ],
+                  "max_disk_excess": -0.08638673804161986,
+                  "inverse_residual_inf": 0.0,
+                  "inside_numeric": true
+                },
+                {
+                  "witnesses": [
+                    [
+                      0.03301136121107783,
+                      0.0102116106715434
+                    ],
+                    [
+                      0.04990863609313513,
+                      -0.03414433500544446
+                    ]
+                  ],
+                  "disk_norms": [
+                    0.03455469521664795,
+                    0.06047071662913389
+                  ],
+                  "max_disk_excess": -0.025916021412485973,
+                  "inverse_residual_inf": 2.7755575615628914e-17,
+                  "inside_numeric": true
+                },
+                {
+                  "witnesses": [
+                    [
+                      0.08725060542203607,
+                      0.0
+                    ],
+                    [
+                      -0.0,
+                      -0.0
+                    ]
+                  ],
+                  "disk_norms": [
+                    0.08725060542203607,
+                    0.0
+                  ],
+                  "max_disk_excess": 0.0008638673804162028,
+                  "inverse_residual_inf": 0.0,
+                  "inside_numeric": false
+                }
+              ]
+            }
+          },
+          {
+            "name": "Measured nonzero phase, fixed 60Hz advancement, zero-current handling and whitelist",
+            "status": "PASS",
+            "details": {
+              "clock_checks": [
+                {
+                  "sample": 1,
+                  "phase_error": -4.218847493575595e-15
+                },
+                {
+                  "sample": 9,
+                  "phase_error": 4.440892098500626e-15
+                },
+                {
+                  "sample": 10,
+                  "phase_error": 0.0
+                },
+                {
+                  "sample": 500,
+                  "phase_error": 1.4210854715202004e-14
+                }
+              ]
+            }
+          },
+          {
+            "name": "Independent full-plan primal checks and invalid candidate rejection",
+            "status": "PASS",
+            "details": {
+              "saved_plan": {
+                "accepted": true,
+                "max_residual": 1.6609977282477928e-16,
+                "dynamics_inf": 1.6609977282477928e-16,
+                "terminal_inf": 5.551115123125783e-17,
+                "input_norm_excess": -0.028172144963628243,
+                "queue_norm_excess": -0.0029493001639609995,
+                "current_node_norm_excess": 1.1102230246251565e-16,
+                "actual_command_norm_excess": -0.2160185014156074,
+                "initial_witness_equality_inf": 2.7755575615628914e-17,
+                "initial_Omega": {
+                  "witnesses": [
+                    [
+                      0.008152271187373335,
+                      -0.08598515955542468
+                    ],
+                    [
+                      -0.051203756679873945,
+                      -0.03247018740299258
+                    ]
+                  ],
+                  "disk_norms": [
+                    0.0863707542475132,
+                    0.06063116169196492
+                  ],
+                  "max_disk_excess": -1.5983794106666505e-05,
+                  "inverse_residual_inf": 1.3877787807814457e-17,
+                  "inside_numeric": true
+                },
+                "terminal_tail_correction_applied": false
+              },
+              "bad_candidates": {
+                "input": {
+                  "accepted": false,
+                  "max_residual": 2.9283633909652207,
+                  "dynamics_inf": 2.9283633909652207,
+                  "terminal_inf": 5.551115123125783e-17,
+                  "input_norm_excess": 2.6868210542968347,
+                  "queue_norm_excess": -0.0029493001639609995,
+                  "current_node_norm_excess": 1.1102230246251565e-16,
+                  "actual_command_norm_excess": -0.2160185014156074,
+                  "initial_witness_equality_inf": 0.0,
+                  "initial_Omega": {
+                    "witnesses": [
+                      [
+                        0.008152271187373335,
+                        -0.08598515955542468
+                      ],
+                      [
+                        -0.051203756679873945,
+                        -0.03247018740299258
+                      ]
+                    ],
+                    "disk_norms": [
+                      0.0863707542475132,
+                      0.06063116169196492
+                    ],
+                    "max_disk_excess": -1.5983794106666505e-05,
+                    "inverse_residual_inf": 1.3877787807814457e-17,
+                    "inside_numeric": true
+                  },
+                  "terminal_tail_correction_applied": false
+                },
+                "queue": {
+                  "accepted": false,
+                  "max_residual": 2.9382966692129124,
+                  "dynamics_inf": 2.9382966692129124,
+                  "terminal_inf": 5.551115123125783e-17,
+                  "input_norm_excess": -0.028172144963628243,
+                  "queue_norm_excess": 2.686918252825342,
+                  "current_node_norm_excess": 0.8021448035094839,
+                  "actual_command_norm_excess": -0.2160185014156074,
+                  "initial_witness_equality_inf": 0.0,
+                  "initial_Omega": {
+                    "witnesses": [
+                      [
+                        0.008152271187373335,
+                        -0.08598515955542468
+                      ],
+                      [
+                        -0.051203756679873945,
+                        -0.03247018740299258
+                      ]
+                    ],
+                    "disk_norms": [
+                      0.0863707542475132,
+                      0.06063116169196492
+                    ],
+                    "max_disk_excess": -1.5983794106666505e-05,
+                    "inverse_residual_inf": 1.3877787807814457e-17,
+                    "inside_numeric": true
+                  },
+                  "terminal_tail_correction_applied": false
+                },
+                "current": {
+                  "accepted": false,
+                  "max_residual": 2.3233948904486854,
+                  "dynamics_inf": 2.3233948904486854,
+                  "terminal_inf": 5.551115123125783e-17,
+                  "input_norm_excess": -0.028172144963628243,
+                  "queue_norm_excess": -0.0029493001639609995,
+                  "current_node_norm_excess": 2.210127840840314,
+                  "actual_command_norm_excess": -0.2160185014156074,
+                  "initial_witness_equality_inf": 0.0,
+                  "initial_Omega": {
+                    "witnesses": [
+                      [
+                        0.008152271187373335,
+                        -0.08598515955542468
+                      ],
+                      [
+                        -0.051203756679873945,
+                        -0.03247018740299258
+                      ]
+                    ],
+                    "disk_norms": [
+                      0.0863707542475132,
+                      0.06063116169196492
+                    ],
+                    "max_disk_excess": -1.5983794106666505e-05,
+                    "inverse_residual_inf": 1.3877787807814457e-17,
+                    "inside_numeric": true
+                  },
+                  "terminal_tail_correction_applied": false
+                },
+                "terminal": {
+                  "accepted": false,
+                  "max_residual": 0.010000000000000056,
+                  "dynamics_inf": 0.00999999999999994,
+                  "terminal_inf": 0.010000000000000056,
+                  "input_norm_excess": -0.028172144963628243,
+                  "queue_norm_excess": -0.0029493001639609995,
+                  "current_node_norm_excess": 1.1102230246251565e-16,
+                  "actual_command_norm_excess": -0.2160185014156074,
+                  "initial_witness_equality_inf": 0.0,
+                  "initial_Omega": {
+                    "witnesses": [
+                      [
+                        0.008152271187373335,
+                        -0.08598515955542468
+                      ],
+                      [
+                        -0.051203756679873945,
+                        -0.03247018740299258
+                      ]
+                    ],
+                    "disk_norms": [
+                      0.0863707542475132,
+                      0.06063116169196492
+                    ],
+                    "max_disk_excess": -1.5983794106666505e-05,
+                    "inverse_residual_inf": 1.3877787807814457e-17,
+                    "inside_numeric": true
+                  },
+                  "terminal_tail_correction_applied": false
+                },
+                "nonfinite": {
+                  "accepted": false,
+                  "reason": "bad_shape_or_nonfinite"
+                }
+              },
+              "broad_failed_plan": {
+                "accepted": false,
+                "max_residual": 1943.1090314915823,
+                "dynamics_inf": 0.10558322563454339,
+                "terminal_inf": 0.28162455051166363,
+                "input_norm_excess": 1943.109031491582,
+                "queue_norm_excess": 1943.1090314915823,
+                "current_node_norm_excess": 479.9809965260954,
+                "actual_command_norm_excess": 0.3601017503045555,
+                "initial_witness_equality_inf": 0.0,
+                "initial_Omega": {
+                  "witnesses": [
+                    [
+                      0.29423452238883196,
+                      -0.17558612885648284
+                    ],
+                    [
+                      0.7183241231530654,
+                      -3.6311482731108566
+                    ]
+                  ],
+                  "disk_norms": [
+                    0.342643317185947,
+                    3.7015168954388926
+                  ],
+                  "max_disk_excess": 3.6151301573972727,
+                  "inverse_residual_inf": 1.7763568394002505e-15,
+                  "inside_numeric": false
+                },
+                "terminal_tail_correction_applied": false
+              }
+            }
+          },
+          {
+            "name": "Reject failed wide/nonfinite output despite success flag; flag feasible nonoptimal acceptance",
+            "status": "PASS",
+            "details": {
+              "wide_injections": [
+                {
+                  "claimed_success": true,
+                  "chosen": {
+                    "valid": true,
+                    "type": "shifted_plan",
+                    "plan_origin_k": 0,
+                    "plan_index": 0,
+                    "membership": {
+                      "witnesses": [
+                        [
+                          0.008152271187373335,
+                          -0.08598515955542468
+                        ],
+                        [
+                          -0.051203756679873945,
+                          -0.03247018740299258
+                        ]
+                      ],
+                      "disk_norms": [
+                        0.0863707542475132,
+                        0.06063116169196492
+                      ],
+                      "max_disk_excess": -1.5983794106666505e-05,
+                      "inverse_residual_inf": 2.7755575615628914e-17,
+                      "inside_numeric": true
+                    },
+                    "modulation_norm": 0.3324642543145371,
+                    "source": "audited_Gate0_plan"
+                  },
+                  "candidate_residual": 1943.1090314915823
+                },
+                {
+                  "claimed_success": false,
+                  "chosen": {
+                    "valid": true,
+                    "type": "shifted_plan",
+                    "plan_origin_k": 0,
+                    "plan_index": 0,
+                    "membership": {
+                      "witnesses": [
+                        [
+                          0.008152271187373335,
+                          -0.08598515955542468
+                        ],
+                        [
+                          -0.051203756679873945,
+                          -0.03247018740299258
+                        ]
+                      ],
+                      "disk_norms": [
+                        0.0863707542475132,
+                        0.06063116169196492
+                      ],
+                      "max_disk_excess": -1.5983794106666505e-05,
+                      "inverse_residual_inf": 2.7755575615628914e-17,
+                      "inside_numeric": true
+                    },
+                    "modulation_norm": 0.3324642543145371,
+                    "source": "audited_Gate0_plan"
+                  },
+                  "candidate_residual": 1943.1090314915823
+                }
+              ]
+            }
+          },
+          {
+            "name": "Forced backup j=1,N-1,N,N+3, negative/outside index, phase and immutable observation",
+            "status": "PASS",
+            "details": {
+              "fixtures": [
+                {
+                  "j": 1,
+                  "selection": {
+                    "valid": true,
+                    "type": "shifted_plan",
+                    "plan_origin_k": 0,
+                    "plan_index": 1,
+                    "membership": {
+                      "witnesses": [
+                        [
+                          0.01648974308225535,
+                          0.007562542849400472
+                        ],
+                        [
+                          0.026407600799500094,
+                          -0.02092153197796152
+                        ]
+                      ],
+                      "disk_norms": [
+                        0.01814121498874335,
+                        0.03369082783623199
+                      ],
+                      "max_disk_excess": -0.05269591020538787,
+                      "inverse_residual_inf": 1.3877787807814457e-17,
+                      "inside_numeric": true
+                    },
+                    "modulation_norm": 0.179089520750157,
+                    "source": "audited_Gate0_plan"
+                  },
+                  "phase_rad": 0.7676991118430775,
+                  "modulation_error": 1.0263147185266757e-14
+                },
+                {
+                  "j": 9,
+                  "selection": {
+                    "valid": true,
+                    "type": "shifted_plan",
+                    "plan_origin_k": 0,
+                    "plan_index": 9,
+                    "membership": {
+                      "witnesses": [
+                        [
+                          0.01648974308225354,
+                          0.007562542849396385
+                        ],
+                        [
+                          0.026407600799499654,
+                          -0.02092153197796111
+                        ]
+                      ],
+                      "disk_norms": [
+                        0.01814121498874,
+                        0.033690827836231396
+                      ],
+                      "max_disk_excess": -0.05269591020538847,
+                      "inverse_residual_inf": 1.3877787807814457e-17,
+                      "inside_numeric": true
+                    },
+                    "modulation_norm": 0.23754100532893527,
+                    "source": "audited_Gate0_plan"
+                  },
+                  "phase_rad": 1.0692920065876976,
+                  "modulation_error": 2.5202612873646857e-15
+                },
+                {
+                  "j": 10,
+                  "selection": {
+                    "valid": true,
+                    "type": "terminal",
+                    "plan_origin_k": 0,
+                    "plan_index": 10,
+                    "membership": {
+                      "witnesses": [
+                        [
+                          0.016489743082253448,
+                          0.007562542849396938
+                        ],
+                        [
+                          0.026407600799500074,
+                          -0.02092153197796117
+                        ]
+                      ],
+                      "disk_norms": [
+                        0.018141214988740148,
+                        0.03369082783623176
+                      ],
+                      "max_disk_excess": -0.05269591020538811,
+                      "inverse_residual_inf": 1.734723475976807e-18,
+                      "inside_numeric": true
+                    },
+                    "modulation_norm": 0.23754100532893552,
+                    "source": "audited_Gate0_plan"
+                  },
+                  "phase_rad": 1.1069911184307752,
+                  "modulation_error": 0.0
+                },
+                {
+                  "j": 13,
+                  "selection": {
+                    "valid": true,
+                    "type": "terminal",
+                    "plan_origin_k": 0,
+                    "plan_index": 13,
+                    "membership": {
+                      "witnesses": [
+                        [
+                          0.016489743082253348,
+                          0.00756254284939843
+                        ],
+                        [
+                          0.026407600799500393,
+                          -0.020921531977962142
+                        ]
+                      ],
+                      "disk_norms": [
+                        0.01814121498874068,
+                        0.03369082783623262
+                      ],
+                      "max_disk_excess": -0.05269591020538725,
+                      "inverse_residual_inf": 6.938893903907228e-18,
+                      "inside_numeric": true
+                    },
+                    "modulation_norm": 0.23754100532893585,
+                    "source": "audited_Gate0_plan"
+                  },
+                  "phase_rad": 1.2200884539600076,
+                  "modulation_error": 6.885634726874615e-15
+                }
+              ]
+            }
+          },
+          {
+            "name": "No valid backup stops; domain rejection precedes optimization; no observation mutation",
+            "status": "PASS",
+            "details": {}
+          },
+          {
+            "name": "Saved plan provenance, numeric parameter whitelist, and metadata tamper rejection",
+            "status": "PASS",
+            "details": {
+              "rejections": [
+                {
+                  "tampered": "backup_ready",
+                  "rejection": "plan_not_ready_or_certificate_mismatch"
+                },
+                {
+                  "tampered": "certificate_version",
+                  "rejection": "plan_not_ready_or_certificate_mismatch"
+                },
+                {
+                  "tampered": "phase_origin_rad",
+                  "rejection": "plan_frame_mismatch"
+                },
+                {
+                  "tampered": "phase_origin_time_s",
+                  "rejection": "plan_frame_mismatch"
+                }
+              ],
+              "later_plan_origin": 7
+            }
+          }
+        ],
+        "N": 10,
+        "K": [
+          [
+            -2.6512912641821282,
+            -0.0,
+            -0.9969901096078266,
+            -0.0
+          ],
+          [
+            -0.0,
+            -2.6512912641821282,
+            -0.0,
+            -0.9969901096078266
+          ]
+        ],
+        "r": 0.08638673804161986,
+        "itight": 0.8274499749030236,
+        "utight": 0.3194463518192078,
+        "chord": 3.655362657926889e-05,
+        "optimizer_calls": "mocked only; no real optimization or physical trajectory"
+      }
+    }
+  ],
+  "audited_source_sha256": {
+    "guarded_allocator_controller.py": "50f4b5f97cb8caad08463451e3dfe959528119cf10b140c78af57409608f52f6",
+    "audit_interface_tests.py": "d0e19bba668878775d3b9380eaf073922d960c6dad8fa240669881ac1f0aac69"
+  },
+  "frozen_sources_before_and_after": {
+    "current_guard_gate1/verify_gate1_package.py": "6338e8baae4922e2a74217bfdf66cf825e521575dc3ebeb0c302b9464d4088ac",
+    "current_guard_gate1/guarded_controller.py": "9379032e4edc99a204ce0db3947e61f71dee30b8a876dce0d5740312bfda4af5",
+    "current_guard_gate1/run_models.py": "9e4ca7f83570e6e62bf7f3fef9096cde5c44782a0ca7b27026dcd47978662eae",
+    "current_guard_gate1/audit_interface_tests.py": "3ea62339be08d21a60db5373f7d0e3be6e0b5be94e57a0fde89494994d57d6fd",
+    "current_guard_gate1/plot_faults_and_refinement.py": "7d0c3ef61a88200d05b0c4e0de1d1c266e78ef08bc8a538593e05cfa5db07a0c",
+    "current_guard_gate1/common_guard.py": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03",
+    "current_guard_gate1/package_gate1.py": "357f35f2caf6d22f18d6c59798b9673231dcb1506ff319d35a3d1b26505100bc",
+    "current_guard_gate1/plot_results.py": "4c84258300f06005eb2bd8e3590dfaf000df16e4a224d6c58c868a70f261a8f5",
+    "current_guard_gate1/build_report.py": "8bdc7cb30fe6174891aba946b09e1fc0ef69d5b9a7321760bb7ac6cbd6fd47e7",
+    "current_guard_gate1/audit_runner_checks.py": "aee75449172192d4f73425fab0c726b12c37ea4ee739ec6d9d7437e0e79641ff",
+    "current_guard_gate1/audit_algebra_oracle.py": "de339bc42b1d833e9b11ba4f044bee4890d5e11c77f095b4e2e7330c20b0e2fb",
+    "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.json": "104b5f9102c286a2005e856da777b2a203a475c368fccd56d447e54ea43275f3",
+    "baseline_allocation/allocators.py": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a",
+    "gate_a/preconditioned_dq/h1e-05_checkpoint.json": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+    "protocol/GATE1_MPSC_SIX_MODELS_V1.json": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3"
+  },
+  "frozen_files_unchanged": true,
+  "qualification": "Finite static arithmetic/interface and saved-plan tests only. Does not establish closed-loop safety, successful health admission, joint DC/SoC invariance, interval proof, or real-time feasibility."
+}

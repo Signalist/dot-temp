@@ -1,0 +1,116 @@
+{
+  "status": "Preselected analytically before any new controller trajectory; not a feasibility certificate",
+  "diagnostic_sag_budget": 3,
+  "total_planned_diagnostic_budget": 12,
+  "extra_trajectory_conditions_added": 0,
+  "source_paths_and_hashes": {
+    "protocol/GATE_A_LOCKED_V2_1.json": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+    "gate_a/preconditioned_dq/h1e-05.json": "ed0f2d3dd5f5a150f87da826862dfba6fc1ab8520317564a8083ccad1223f79c",
+    "gate_a/preconditioned_dq/h1e-05_checkpoint.json": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+    "gate_a/preconditioned_dq/h1e-05.npz": "232f9c9e77519eb0f9eb91aef3bd09245162459c037d9f57eea135b1fe5f1c4b",
+    "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.json": "fd8a03b0c25977d9bef2f2fb84a1474ebe6bc06ec8f4327b05adabc8770d3a0f"
+  },
+  "exact_onset_state": {
+    "t": 0.6000499999999998,
+    "id": 929.346177558162,
+    "iq": -735.8027745282857,
+    "Wdc": 21915.135193267946,
+    "Pb": 815639.6755381202,
+    "WL": 276.7121693063766,
+    "Ipu": 0.8347675377506103,
+    "Vdcpu": 1.0072683814559669
+  },
+  "qualified_checkpoint_time_s": 0.6,
+  "full_checkpoint_preservation": "Restore all plant/controller/held/queued states, absolute clock, and the existing 50 us fault offset; no phase reset or state projection.",
+  "constants": {
+    "S_source_per_pu_W": 1200000.0,
+    "loss_upper_W": 31140.446282519868,
+    "eta": 0.99,
+    "ramp_down_W_per_s": 5000000.0,
+    "quadratic_coefficient_W_per_s": 4950000.0,
+    "Wdcmax_J": 26136.00000000001,
+    "WLmax_J": 397.09750202003335,
+    "H_J": 4341.250139445723,
+    "source_lower_zero_time_s": 0.16312793510762405,
+    "conservative_H_upper_J": 4344
+  },
+  "boundary": {
+    "duration_s": 0.15,
+    "critical_retained_voltage_pu": 0.4741921372499138,
+    "critical_prefix_time_s": 0.04188126622228738,
+    "initially_nonpositive_energy_gain_threshold_voltage_pu": 0.6469523604168492,
+    "near_point_rule": "ceil(1000*critical_retained_voltage_pu)/1000; common duration 150 ms",
+    "equality_is_not_strict_impossibility": true
+  },
+  "selected_conditions": [
+    {
+      "id": "shallow_085",
+      "retained_source_voltage_pu": 0.85,
+      "duration_s": 0.15,
+      "restore_full_checkpoint_time_s": 0.6,
+      "fault_after_checkpoint_s": 5e-05,
+      "fault_start_s": 0.60005,
+      "a_initial_excess_power_lower_W": -243657.1674997809,
+      "source_active_export_upper_W": 1020000.0,
+      "prefix_max_time_s": 0.0,
+      "maximum_energy_gain_lower_J": -0.0,
+      "headroom_J": 4341.250139445723,
+      "signed_impossibility_margin_J": -4341.250139445723,
+      "margin_divided_by_headroom": -1.0,
+      "clearance_energy_gain_lower_J": -92236.07512496713,
+      "outward_rounded_margin_J": -4344.0,
+      "verdict": "not excluded by this necessary DC-overvoltage bound; feasibility is NOT established"
+    },
+    {
+      "id": "shallow_075",
+      "retained_source_voltage_pu": 0.75,
+      "duration_s": 0.15,
+      "restore_full_checkpoint_time_s": 0.6,
+      "fault_after_checkpoint_s": 5e-05,
+      "fault_start_s": 0.60005,
+      "a_initial_excess_power_lower_W": -123657.16749978089,
+      "source_active_export_upper_W": 900000.0,
+      "prefix_max_time_s": 0.0,
+      "maximum_energy_gain_lower_J": -0.0,
+      "headroom_J": 4341.250139445723,
+      "signed_impossibility_margin_J": -4341.250139445723,
+      "margin_divided_by_headroom": -1.0,
+      "clearance_energy_gain_lower_J": -74236.07512496713,
+      "outward_rounded_margin_J": -4344.0,
+      "verdict": "not excluded by this necessary DC-overvoltage bound; feasibility is NOT established"
+    },
+    {
+      "id": "near_dc_boundary",
+      "retained_source_voltage_pu": 0.475,
+      "duration_s": 0.15,
+      "restore_full_checkpoint_time_s": 0.6,
+      "fault_after_checkpoint_s": 5e-05,
+      "fault_start_s": 0.60005,
+      "a_initial_excess_power_lower_W": 206342.8325002191,
+      "source_active_export_upper_W": 570000.0,
+      "prefix_max_time_s": 0.04168542070711497,
+      "maximum_energy_gain_lower_J": 4300.743891334695,
+      "headroom_J": 4341.250139445723,
+      "signed_impossibility_margin_J": -40.50624811102807,
+      "margin_divided_by_headroom": -0.009330549221980509,
+      "clearance_energy_gain_lower_J": -24736.075124967134,
+      "outward_rounded_margin_J": -44.95806020202144,
+      "verdict": "not excluded by this necessary DC-overvoltage bound; feasibility is NOT established"
+    }
+  ],
+  "local_sensitivity_at_near_point": {
+    "d_margin_d_voltage_J_per_pu": -50022.50484853797,
+    "d_margin_d_initial_Pb_J_per_W": 0.04126856650004382,
+    "interpretation": "Near-boundary case is deliberately sensitive; no hardware robustness claim."
+  },
+  "limitations": [
+    "A positive signed margin rules out joint current/DC safety in the locked model; a nonpositive margin proves no feasibility claim.",
+    "Current is actual continuous 1 pu; no overload is granted. All current is nevertheless granted to ideal-source active export for an optimistic outer bound.",
+    "Reactive service, modulation, tracking, source-lag restrictions beyond the slew floor, and sampled-loop behavior are relaxed.",
+    "No candidate postfault PCC voltage or power appears in the bound.",
+    "No brake/chopper/additional storage/extra bypass or freewheel energy-disposal path/source disconnect/shutdown reset is modeled.",
+    "The source can charge but cannot reverse instantaneously; its lower envelope remains positive for the selected 150 ms events.",
+    "The near point is a diagnostic of a relaxed necessary bound, not the true feasible/infeasible plant boundary.",
+    "Do not replace a planned point after observing its trajectory; any replacement needs a new preregistration and must remain within the 12-condition budget."
+  ]
+}

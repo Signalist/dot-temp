@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-10-03T09:36:35.822088+00:00",
+  "no_V2_simulations_run_yet": true,
+  "files": {
+    "PROTOCOL_V2.json": "5764b17d169a62d1d28325fb089b85d7bc26d2e40456d961c52c6b34b2648182",
+    "recovery.cpp": "7a119809c9d66e5f9bfcafac19fe23eeeaeed00966be9e07a3d5d99c67d9e42f",
+    "recovery": "fde26f43711b1a6ea59b34353e83590133a4b374ccc4c3a419421c6183aa35d1",
+    "run_campaign.py": "3b93b382264606ee2a77f596b0640ebb28efa25b4528fad4703fa424ae68aee9",
+    "summarize.py": "fc640ac354c9cb925fd740ddf81b8ba14e0137596ab4d1795864ec3f334fae5e",
+    "original_input.csv": "0bd31f7247e3de42082edae130fef2b7393b4c42e55cdb38ef9931b02d451946"
+  }
+}

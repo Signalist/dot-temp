@@ -1,0 +1,70 @@
+{
+  "status": "PASS_SAME_CONDITION_RECONCILIATION",
+  "comparisons": [
+    {
+      "case": "C50-slow",
+      "primary_stop_s": 0.6062743257054102,
+      "refined_stop_s": 0.6062743255080387,
+      "stop_time_shift_s": -1.9737145251497168e-10,
+      "peak_current_primary_pu": 0.8881688763699422,
+      "peak_current_refined_pu": 0.8881688763703363,
+      "peak_current_shift_pu": 3.9401815143946806e-13,
+      "guard_failures_refined": 0,
+      "refined_full_step_count": 62,
+      "refined_dense_node_count": 1568,
+      "refined_max_disk_excess": -1.598379411170414e-05,
+      "refined_max_dense_current_error": 0.12447718082571352,
+      "terminal_DC_energy_derivative_W": 664466.6895368077,
+      "scope": "Observed only until DC upper contact; no clearance or full150ms fault observation"
+    },
+    {
+      "case": "C50-fast",
+      "primary_stop_s": 0.608646762771277,
+      "refined_stop_s": 0.6086467628993103,
+      "stop_time_shift_s": 1.2803325066812477e-10,
+      "peak_current_primary_pu": 0.8881692839356681,
+      "peak_current_refined_pu": 0.8881692839356123,
+      "peak_current_shift_pu": -5.573319583618286e-14,
+      "guard_failures_refined": 0,
+      "refined_full_step_count": 86,
+      "refined_dense_node_count": 2163,
+      "refined_max_disk_excess": -1.598379411170414e-05,
+      "refined_max_dense_current_error": 0.12447718082571352,
+      "terminal_DC_energy_derivative_W": 277021.19565249694,
+      "scope": "Observed only until DC upper contact; no clearance or full150ms fault observation"
+    },
+    {
+      "case": "C1-slow",
+      "primary_stop_s": 0.6061931095199046,
+      "refined_stop_s": 0.6061931092944314,
+      "stop_time_shift_s": -2.2547319566967872e-10,
+      "peak_current_primary_pu": 0.9082257097807515,
+      "peak_current_refined_pu": 0.9082257097807264,
+      "peak_current_shift_pu": -2.5091040356528538e-14,
+      "guard_failures_refined": 0,
+      "refined_full_step_count": 61,
+      "refined_dense_node_count": 1548,
+      "refined_max_disk_excess": -1.598379411170414e-05,
+      "refined_max_dense_current_error": 0.13678557136617753,
+      "terminal_DC_energy_derivative_W": 668857.5530224469,
+      "scope": "Observed only until DC upper contact; no clearance or full150ms fault observation"
+    },
+    {
+      "case": "C1-fast",
+      "primary_stop_s": 0.6083636354764193,
+      "refined_stop_s": 0.608363635274523,
+      "stop_time_shift_s": -2.0189627747413397e-10,
+      "peak_current_primary_pu": 0.9082257097807738,
+      "peak_current_refined_pu": 0.9082257097807488,
+      "peak_current_shift_pu": -2.4980018054066022e-14,
+      "guard_failures_refined": 0,
+      "refined_full_step_count": 83,
+      "refined_dense_node_count": 2092,
+      "refined_max_disk_excess": -1.598379411170414e-05,
+      "refined_max_dense_current_error": 0.13678557136618197,
+      "terminal_DC_energy_derivative_W": 296628.7342442583,
+      "scope": "Observed only until DC upper contact; no clearance or full150ms fault observation"
+    }
+  ],
+  "audit_executed_physical_trajectories": 0
+}

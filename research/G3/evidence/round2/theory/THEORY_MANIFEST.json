@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "name": "EXACT_PORT_CONTRACT_THEORY.md",
+      "bytes": 29946,
+      "sha256": "b029df4b235fd7377d26f40982091246af2c6b60cc257cc5deed43ecbba9c177"
+    },
+    {
+      "name": "dc_allocation_certificate.py",
+      "bytes": 2736,
+      "sha256": "a000a258c43a73e597334919292b31c9ad0a574604915304740393247ce72cb1"
+    },
+    {
+      "name": "dc_allocation_results.json",
+      "bytes": 3386,
+      "sha256": "2faeadcc64b8d01f2f1091f81eb7a4a548684827178e1dec0134131a3261b62c"
+    },
+    {
+      "name": "exact_cell.py",
+      "bytes": 5800,
+      "sha256": "c10cc1c302380c07c3970d79b0a7f9ec9d8615657727ae2514e22c2025e10fa4"
+    },
+    {
+      "name": "exact_cell_tests.json",
+      "bytes": 766,
+      "sha256": "c4a15cef45f5152a3395a9db94e58061eba2902c653d69f05559969f9c9dbe29"
+    },
+    {
+      "name": "optimize_weak_window.py",
+      "bytes": 2934,
+      "sha256": "3129a820349ca61e3a696b74e1e96ab9c4c6d9edd181c0a95876a25fb80cbe56"
+    },
+    {
+      "name": "optimized_weak_windows.json",
+      "bytes": 2083,
+      "sha256": "c5e9b32a755c838b2d3b7b6df8690d097d537e882ff99c3c1d9039f74471388f"
+    },
+    {
+      "name": "test_exact_cell.py",
+      "bytes": 3503,
+      "sha256": "34dd5fa047552d246686ea18c3fc01971aa1a9f560d8800c8d54492751259ee3"
+    },
+    {
+      "name": "vector_weak_certificate.py",
+      "bytes": 3755,
+      "sha256": "2c1785109d58b037da6b264cedd08cda219f75fff0daffa65176f106e5084632"
+    },
+    {
+      "name": "vector_weak_results.json",
+      "bytes": 5267,
+      "sha256": "7e274613dd6e37e74a6f3b9a203c5c9df69447d54c60ef07a96031b72fad22fd"
+    },
+    {
+      "name": "weak_modulation_certificate.py",
+      "bytes": 4272,
+      "sha256": "73f1ab7f0b56bfbd392b8da68db9e4d175c30ca6c390ae0d16074bc51fb5b89c"
+    },
+    {
+      "name": "weak_modulation_results.json",
+      "bytes": 5331,
+      "sha256": "f2097c1cfbec691492f7202c4dc7609a527bb7fbd40104b06d4aa72efe3f46d0"
+    }
+  ],
+  "scope": "Standalone theory/oracle/reproducible certificate outputs; all writes restricted to theory directory."
+}

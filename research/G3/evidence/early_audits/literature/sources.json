@@ -1,0 +1,142 @@
+{
+  "recovery_status": "recovered_text",
+  "recovered_on_utc": "2026-10-02",
+  "recovery_provenance": "Reconstructed from this worker’s retained 2026-10-01 file-writing tool call, including the final C6a author-initial correction. Verification fields describe the historical October 1 audit, not fresh verification.",
+  "fresh_searches_or_downloads": false,
+  "original_source_binaries_recovered": false,
+  "paper_ready": false,
+  "as_of": "2026-10-01",
+  "experiment_status": "No simulations or reproduction executed",
+  "sources": [
+    {
+      "id": "C1",
+      "title": "Service-Constrained Critical Energy-Headroom Boundaries for Current-Limited Grid-Forming Battery Converters",
+      "authors": "Manuel Jaramillo; Diego Carrión; Alexander Aguila Téllez",
+      "date": "2026-09-21",
+      "identifier": "10.3390/en19184464",
+      "url": "https://www.mdpi.com/1996-1073/19/18/4464",
+      "verification": "Full primary HTML and numerical supplement inspected; downloaded.",
+      "role": "Service-constrained recovery/headroom collision"
+    },
+    {
+      "id": "C2",
+      "title": "Impedance-passivity coordination of hydrogen-coupled AI data centers for oscillation damping and fault ride-through at transmission interfaces",
+      "authors": "Mohamed Shamseldein",
+      "date": "Issue 2027-01; online publication date unresolved; Crossref record created 2026-06-29",
+      "identifier": "10.1016/j.epsr.2026.113557",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378779626008503",
+      "verification": "Primary publisher full-text indexed sections inspected via web search; direct fetch unavailable. Crossref JSON downloaded.",
+      "role": "Sustained forcing plus sag QP coordination collision"
+    },
+    {
+      "id": "C3",
+      "title": "Optimal Provision of Concurrent Primary Frequency and Local Voltage Control from a BESS Considering Variable Capability Curves: Modelling and Experimental Assessment",
+      "authors": "Antonio Zecchino; Zhao Yuan; Fabrizio Sossan; Rachid Cherkaoui; Mario Paolone",
+      "date": "Preprint 2019-10-09; v2 2020-04-08; journal 2021",
+      "identifier": "10.1016/j.epsr.2020.106643",
+      "url": "https://arxiv.org/html/1910.04052v2",
+      "verification": "Primary arXiv full HTML inspected.",
+      "role": "AC/DC/SoC-dependent capability optimization collision"
+    },
+    {
+      "id": "S10",
+      "title": "Optimal Grid-Forming Control of Battery Energy Storage Systems Providing Multiple Services: Modelling and Experimental Validation",
+      "authors": "Francesco Gerini et al.",
+      "date": "Preprint 2021-10-19; journal 2022-11",
+      "identifier": "10.1016/j.epsr.2022.108567",
+      "url": "https://arxiv.org/html/2110.10052v1",
+      "verification": "Primary arXiv HTML and publisher abstract inspected.",
+      "role": "Multi-service GFM optimized references collision"
+    },
+    {
+      "id": "S8",
+      "title": "Voltage Ride-Through in Large Loads- A Dual PQ Approach",
+      "authors": "Amir Norouzi; Michael Morel",
+      "date": "2026-05-01",
+      "identifier": "10.48550/arXiv.2605.00769",
+      "url": "https://arxiv.org/html/2605.00769v1",
+      "verification": "Primary full HTML inspected.",
+      "role": "Physical voltage-support impossibility baseline"
+    },
+    {
+      "id": "S9",
+      "title": "Online Feedback Optimization of Energy Storage to Smooth Data Center Grid Impacts",
+      "authors": "Yanyong Mao; Johanna L. Mathieu; Vladimir Dvorkin",
+      "date": "2026-03-20",
+      "identifier": "10.48550/arXiv.2603.20564",
+      "url": "https://arxiv.org/html/2603.20564v1",
+      "verification": "Primary full HTML inspected.",
+      "role": "Pure grid-side exogenous-load P/Q/SoC controller collision"
+    },
+    {
+      "id": "S1",
+      "title": "Managing Risks from Large Digital Loads Using Coordinated Grid-Forming Storage Network",
+      "authors": "Kundu et al.",
+      "date": "2025-08-14",
+      "identifier": "10.48550/arXiv.2508.11080",
+      "url": "https://arxiv.org/html/2508.11080v1",
+      "verification": "Primary full HTML inspected.",
+      "role": "Utility-grid storage safety/oscillation mitigation collision"
+    },
+    {
+      "id": "S16",
+      "title": "Electromagnetic Transient Modeling of Large Data Centers for Grid-Level Studies",
+      "authors": "Brett A. Ross; James D. Follum",
+      "date": "2026-01",
+      "identifier": "PNNL-38817",
+      "url": "https://www.energy.gov/sites/default/files/2026-01/Data_Center_EMT_Models.pdf",
+      "verification": "Primary report inspected, particularly Sections 6.8–6.13.",
+      "role": "Generic external load/converter modeling reference"
+    },
+    {
+      "id": "C4",
+      "title": "Advanced Safety Filter for Smooth Transient Operation of a Battery Energy Storage System",
+      "authors": "Michael Schneeberger; Florian Dörfler; Silvia Mastellone",
+      "date": "2024-05-23",
+      "identifier": "10.48550/arXiv.2405.14427",
+      "url": "https://arxiv.org/abs/2405.14427",
+      "verification": "Primary arXiv abstract and ETH author PDF excerpt inspected.",
+      "role": "CBF/CLF current safety plus finite-time nominal return collision"
+    },
+    {
+      "id": "C5",
+      "title": "Modeling Fault Recovery and Transient Stability of Grid-Forming Converters Equipped With Current Reference Limitation",
+      "authors": "Ali Arjomandi-Nezhad; Yifei Guo; Bikash C. Pal; Guangya Yang",
+      "date": "Preprint 2024-03-08; journal 2025",
+      "identifier": "10.1109/TEC.2024.3507544",
+      "url": "https://arxiv.org/abs/2403.05236",
+      "verification": "Primary arXiv abstract, DTU publication record and author-PDF abstract inspected.",
+      "role": "Limiter-release conditions and saturated equilibria"
+    },
+    {
+      "id": "C6a",
+      "title": "Unified Model of Current-Limiting Grid-Forming Inverters for Large-Signal Analysis",
+      "authors": "N. Baeckeland; B. W. Yang; G.-S. Seo",
+      "date": "Online 2025-07-10; issue 2026-01",
+      "identifier": "10.1109/TPWRS.2025.3587224",
+      "url": "https://ieeexplore.ieee.org/document/11077947/",
+      "verification": "Primary IEEE indexed abstract/metadata inspected.",
+      "role": "Limiter-angle large-signal framework"
+    },
+    {
+      "id": "C6b",
+      "title": "Dynamic Evolution and Stability Analysis of GFM-Based Renewable Energy Resources Considering Repeated & Continuous Current Saturation",
+      "authors": "Not independently verified in this audit",
+      "date": "Online 2025-07-14; issue 2026-01",
+      "identifier": "10.1109/TSTE.2025.3588818",
+      "url": "https://ieeexplore.ieee.org/document/11079878/",
+      "verification": "Primary IEEE indexed abstract/metadata inspected.",
+      "role": "Hybrid repeated/continuous saturation and desaturation-region design"
+    },
+    {
+      "id": "C7",
+      "title": "Periodic constraint-tightening MPC for switched PV battery operation",
+      "authors": "Kotaro Hashikura; Kazuki Namba; Akira Kojima",
+      "date": "2018-10-01",
+      "identifier": "10.1049/iet-cta.2017.1174",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-cta.2017.1174",
+      "verification": "Primary publisher text inspected.",
+      "role": "Periodic-invariant battery recovery and recursive feasibility collision"
+    }
+  ]
+}

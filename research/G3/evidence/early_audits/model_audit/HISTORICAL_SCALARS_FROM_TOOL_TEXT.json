@@ -1,0 +1,44 @@
+{
+  "evidence_status": "historical_tool_result_text_recovered; original raw NPZ and result JSON absent after environment reset; not independently verified in current workspace when this file was written",
+  "V2_1_protocol_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+  "abc_source_sha256": "005b8379f91f0997f81d15cbdf2b7423b7f22ee3a4e5343ef04d6c981177e847",
+  "preconditioning_source_sha256": "6168d8bd6ca0385825575c06da157c9ae45f74479aac4d2479c9f7e10a69dbe0",
+  "historical_V2_1_10us": {
+    "checkpoint_s": 0.6,
+    "fault_s": 0.60005,
+    "actual_peak_pu": 1.0000746498724458,
+    "dc_stop_s": 0.6059459697981101
+  },
+  "historical_V2_1_5us": {
+    "checkpoint_s": 0.6,
+    "fault_s": 0.60005,
+    "actual_peak_pu": 1.0000746498732698,
+    "dc_stop_s": 0.6059459697981607
+  },
+  "historical_abc_bound_from_10us_onset": {
+    "Wdc_J": 21915.13519328606,
+    "Pbat_W": 815639.6755378965,
+    "WL_J": 276.712169306241,
+    "aggregate_headroom_J": 4341.250139427743,
+    "F_20ms_J": 4936.856649999954,
+    "margin_20ms_J": 595.6065105722109,
+    "first_root_s_after_fault": 0.017088203932447563,
+    "source_lower_positive_until_s": 0.16312793510757928
+  },
+  "historical_nominal_h5us": {
+    "duration_s": 0.5,
+    "actual_peak_pu": 0.5045272658686318,
+    "Vdc_min_pu": 0.9977063776103379,
+    "Vdc_max_pu": 1.00465916160315,
+    "ac_residual_J": -5.235712308149232e-08,
+    "dc_residual_J": 1.2357759260339662e-09,
+    "battery_residual_J": 0.00012361406697891653
+  },
+  "historical_motulator_RHS_check": {
+    "version": "0.7.8",
+    "max_dI_error_A_per_s": 4.737760346644705e-10,
+    "max_PCC_error_V": 1.6077746776921858e-13,
+    "max_DC_energy_error_W": 1.7462298274040222e-10
+  },
+  "startup_failure_disclosure": "Initial unconditioned high-PQ sampled transient exceeded1.2MVA S screen (~1.248563MVA at2.9ms); V2.1 uses first qualifying pre-registered checkpoint, not a safe-startup claim."
+}

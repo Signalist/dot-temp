@@ -1,0 +1,804 @@
+{
+  "status": "PASS_FUNCTION_LEVEL_ONLY",
+  "test_groups": 9,
+  "results": [
+    {
+      "name": "Omega explicit inverse and correlated-set rejection",
+      "status": "PASS",
+      "details": {
+        "fixtures": [
+          {
+            "witnesses": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                -0.0,
+                -0.0
+              ]
+            ],
+            "disk_norms": [
+              0.0,
+              0.0
+            ],
+            "max_disk_excess": -0.08638673804161986,
+            "inverse_residual_inf": 0.0,
+            "inside_numeric": true
+          },
+          {
+            "witnesses": [
+              [
+                0.03301136121107783,
+                0.0102116106715434
+              ],
+              [
+                0.04990863609313513,
+                -0.03414433500544446
+              ]
+            ],
+            "disk_norms": [
+              0.03455469521664795,
+              0.06047071662913389
+            ],
+            "max_disk_excess": -0.025916021412485973,
+            "inverse_residual_inf": 2.7755575615628914e-17,
+            "inside_numeric": true
+          },
+          {
+            "witnesses": [
+              [
+                0.08725060542203607,
+                0.0
+              ],
+              [
+                -0.0,
+                -0.0
+              ]
+            ],
+            "disk_norms": [
+              0.08725060542203607,
+              0.0
+            ],
+            "max_disk_excess": 0.0008638673804162028,
+            "inverse_residual_inf": 0.0,
+            "inside_numeric": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "Measured nonzero phase, fixed 60Hz advancement, zero-current handling and whitelist",
+      "status": "PASS",
+      "details": {
+        "clock_checks": [
+          {
+            "sample": 1,
+            "phase_error": -4.218847493575595e-15
+          },
+          {
+            "sample": 9,
+            "phase_error": 4.440892098500626e-15
+          },
+          {
+            "sample": 10,
+            "phase_error": 0.0
+          },
+          {
+            "sample": 500,
+            "phase_error": 1.4210854715202004e-14
+          }
+        ]
+      }
+    },
+    {
+      "name": "Independent full-plan primal checks and invalid candidate rejection",
+      "status": "PASS",
+      "details": {
+        "saved_plan": {
+          "accepted": true,
+          "max_residual": 1.6609977282477928e-16,
+          "dynamics_inf": 1.6609977282477928e-16,
+          "terminal_inf": 5.551115123125783e-17,
+          "input_norm_excess": -0.028172144963628243,
+          "queue_norm_excess": -0.0029493001639609995,
+          "current_node_norm_excess": 1.1102230246251565e-16,
+          "actual_command_norm_excess": -0.2160185014156074,
+          "initial_witness_equality_inf": 2.7755575615628914e-17,
+          "initial_Omega": {
+            "witnesses": [
+              [
+                0.008152271187373335,
+                -0.08598515955542468
+              ],
+              [
+                -0.051203756679873945,
+                -0.03247018740299258
+              ]
+            ],
+            "disk_norms": [
+              0.0863707542475132,
+              0.06063116169196492
+            ],
+            "max_disk_excess": -1.5983794106666505e-05,
+            "inverse_residual_inf": 1.3877787807814457e-17,
+            "inside_numeric": true
+          },
+          "terminal_tail_correction_applied": false
+        },
+        "bad_candidates": {
+          "input": {
+            "accepted": false,
+            "max_residual": 2.9283633909652207,
+            "dynamics_inf": 2.9283633909652207,
+            "terminal_inf": 5.551115123125783e-17,
+            "input_norm_excess": 2.6868210542968347,
+            "queue_norm_excess": -0.0029493001639609995,
+            "current_node_norm_excess": 1.1102230246251565e-16,
+            "actual_command_norm_excess": -0.2160185014156074,
+            "initial_witness_equality_inf": 0.0,
+            "initial_Omega": {
+              "witnesses": [
+                [
+                  0.008152271187373335,
+                  -0.08598515955542468
+                ],
+                [
+                  -0.051203756679873945,
+                  -0.03247018740299258
+                ]
+              ],
+              "disk_norms": [
+                0.0863707542475132,
+                0.06063116169196492
+              ],
+              "max_disk_excess": -1.5983794106666505e-05,
+              "inverse_residual_inf": 1.3877787807814457e-17,
+              "inside_numeric": true
+            },
+            "terminal_tail_correction_applied": false
+          },
+          "queue": {
+            "accepted": false,
+            "max_residual": 2.9382966692129124,
+            "dynamics_inf": 2.9382966692129124,
+            "terminal_inf": 5.551115123125783e-17,
+            "input_norm_excess": -0.028172144963628243,
+            "queue_norm_excess": 2.686918252825342,
+            "current_node_norm_excess": 0.8021448035094839,
+            "actual_command_norm_excess": -0.2160185014156074,
+            "initial_witness_equality_inf": 0.0,
+            "initial_Omega": {
+              "witnesses": [
+                [
+                  0.008152271187373335,
+                  -0.08598515955542468
+                ],
+                [
+                  -0.051203756679873945,
+                  -0.03247018740299258
+                ]
+              ],
+              "disk_norms": [
+                0.0863707542475132,
+                0.06063116169196492
+              ],
+              "max_disk_excess": -1.5983794106666505e-05,
+              "inverse_residual_inf": 1.3877787807814457e-17,
+              "inside_numeric": true
+            },
+            "terminal_tail_correction_applied": false
+          },
+          "current": {
+            "accepted": false,
+            "max_residual": 2.3233948904486854,
+            "dynamics_inf": 2.3233948904486854,
+            "terminal_inf": 5.551115123125783e-17,
+            "input_norm_excess": -0.028172144963628243,
+            "queue_norm_excess": -0.0029493001639609995,
+            "current_node_norm_excess": 2.210127840840314,
+            "actual_command_norm_excess": -0.2160185014156074,
+            "initial_witness_equality_inf": 0.0,
+            "initial_Omega": {
+              "witnesses": [
+                [
+                  0.008152271187373335,
+                  -0.08598515955542468
+                ],
+                [
+                  -0.051203756679873945,
+                  -0.03247018740299258
+                ]
+              ],
+              "disk_norms": [
+                0.0863707542475132,
+                0.06063116169196492
+              ],
+              "max_disk_excess": -1.5983794106666505e-05,
+              "inverse_residual_inf": 1.3877787807814457e-17,
+              "inside_numeric": true
+            },
+            "terminal_tail_correction_applied": false
+          },
+          "terminal": {
+            "accepted": false,
+            "max_residual": 0.010000000000000056,
+            "dynamics_inf": 0.00999999999999994,
+            "terminal_inf": 0.010000000000000056,
+            "input_norm_excess": -0.028172144963628243,
+            "queue_norm_excess": -0.0029493001639609995,
+            "current_node_norm_excess": 1.1102230246251565e-16,
+            "actual_command_norm_excess": -0.2160185014156074,
+            "initial_witness_equality_inf": 0.0,
+            "initial_Omega": {
+              "witnesses": [
+                [
+                  0.008152271187373335,
+                  -0.08598515955542468
+                ],
+                [
+                  -0.051203756679873945,
+                  -0.03247018740299258
+                ]
+              ],
+              "disk_norms": [
+                0.0863707542475132,
+                0.06063116169196492
+              ],
+              "max_disk_excess": -1.5983794106666505e-05,
+              "inverse_residual_inf": 1.3877787807814457e-17,
+              "inside_numeric": true
+            },
+            "terminal_tail_correction_applied": false
+          },
+          "nonfinite": {
+            "accepted": false,
+            "reason": "bad_shape_or_nonfinite"
+          }
+        },
+        "broad_failed_plan": {
+          "accepted": false,
+          "max_residual": 1943.1090314915823,
+          "dynamics_inf": 0.10558322563454339,
+          "terminal_inf": 0.28162455051166363,
+          "input_norm_excess": 1943.109031491582,
+          "queue_norm_excess": 1943.1090314915823,
+          "current_node_norm_excess": 479.9809965260954,
+          "actual_command_norm_excess": 0.3601017503045555,
+          "initial_witness_equality_inf": 0.0,
+          "initial_Omega": {
+            "witnesses": [
+              [
+                0.29423452238883196,
+                -0.17558612885648284
+              ],
+              [
+                0.7183241231530654,
+                -3.6311482731108566
+              ]
+            ],
+            "disk_norms": [
+              0.342643317185947,
+              3.7015168954388926
+            ],
+            "max_disk_excess": 3.6151301573972727,
+            "inverse_residual_inf": 1.7763568394002505e-15,
+            "inside_numeric": false
+          },
+          "terminal_tail_correction_applied": false
+        }
+      }
+    },
+    {
+      "name": "One fixed cold-start algebraic SLSQP and independent postcheck",
+      "status": "PASS",
+      "details": {
+        "solver": {
+          "success_flag": true,
+          "status": 0,
+          "message": "Optimization terminated successfully",
+          "iterations": 9,
+          "objective": 0.046044873482350895,
+          "independent_primal": {
+            "accepted": true,
+            "max_residual": 1.6609977282477928e-16,
+            "dynamics_inf": 1.6609977282477928e-16,
+            "terminal_inf": 5.551115123125783e-17,
+            "input_norm_excess": -0.02817214496362852,
+            "queue_norm_excess": -0.0029493001639608885,
+            "current_node_norm_excess": 1.1102230246251565e-16,
+            "actual_command_norm_excess": -0.21601850141560736,
+            "initial_witness_equality_inf": 2.7755575615628914e-17,
+            "initial_Omega": {
+              "witnesses": [
+                [
+                  0.008152271187373182,
+                  -0.08598515955542493
+                ],
+                [
+                  -0.0512037566798739,
+                  -0.03247018740299256
+                ]
+              ],
+              "disk_norms": [
+                0.08637075424751343,
+                0.06063116169196487
+              ],
+              "max_disk_excess": -1.5983794106430582e-05,
+              "inverse_residual_inf": 1.3877787807814457e-17,
+              "inside_numeric": true
+            },
+            "terminal_tail_correction_applied": false
+          },
+          "accepted_suboptimal": false,
+          "nominal_states": [
+            [
+              0.6986620123917746,
+              -0.402576092874935,
+              0.3162986432963547,
+              -0.011204996891985328
+            ],
+            [
+              0.6936936520665512,
+              -0.4340104705854829,
+              0.2882159644060707,
+              -0.0420977605203099
+            ],
+            [
+              0.6766051095513146,
+              -0.4763181570085988,
+              0.05406933865665732,
+              0.19721913502106386
+            ],
+            [
+              0.5736509703166279,
+              -0.42485985307878554,
+              0.061703330787087354,
+              0.19552016791006477
+            ],
+            [
+              0.47584927981452174,
+              -0.37046857863829946,
+              0.06928963457547005,
+              0.1935336349344121
+            ],
+            [
+              0.38326916184918636,
+              -0.3134559116903762,
+              0.07681767199009094,
+              0.19126051208788103
+            ],
+            [
+              0.29596382594209825,
+              -0.25413435403277784,
+              0.0842768608627536,
+              0.1887021568039834
+            ],
+            [
+              0.21397059563275492,
+              -0.1928165868545122,
+              0.09165662844010294,
+              0.18586031008983203
+            ],
+            [
+              0.13731096975346369,
+              -0.1298147295559493,
+              0.09894642510748952,
+              0.18273709818232678
+            ],
+            [
+              0.06599071649234517,
+              -0.06543960320080888,
+              0.10613573826848913,
+              0.17933503371604279
+            ],
+            [
+              5.551115123125783e-17,
+              0.0,
+              0.2816245505116678,
+              0.005311794542590372
+            ]
+          ],
+          "nominal_inputs": [
+            [
+              0.2895978513619469,
+              -0.031204936562834136
+            ],
+            [
+              0.04659769568728614,
+              0.19911688868064406
+            ],
+            [
+              0.05429029803820975,
+              0.1977068552901568
+            ],
+            [
+              0.06194608434092619,
+              0.1960076629761075
+            ],
+            [
+              0.06955444729431828,
+              0.19401988835085332
+            ],
+            [
+              0.0771047610871926,
+              0.19174448903956018
+            ],
+            [
+              0.08458639485954847,
+              0.18918280632330245
+            ],
+            [
+              0.0919887263542691,
+              0.1863365673113272
+            ],
+            [
+              0.09930115574276159,
+              0.1832078866312344
+            ],
+            [
+              0.2812242460568321,
+              0.01592250112036326
+            ]
+          ],
+          "initial_Omega_witnesses": [
+            [
+              0.008152271187373212,
+              -0.0859851595554249
+            ],
+            [
+              -0.0512037566798739,
+              -0.03247018740299257
+            ]
+          ],
+          "timing": {
+            "setup_s": 0.0014204629987943918,
+            "solve_s": 0.012549196006148122,
+            "validation_s": 0.0010641619956004433,
+            "point_total_s": 0.015033821000542957
+          },
+          "kkt_residual": null,
+          "kkt_note": "Not recomputed online; independent primal validation required each call."
+        },
+        "independent": {
+          "accepted": true,
+          "max_primal_residual": 2.220446049250313e-16,
+          "dynamics_residual_inf": 2.220446049250313e-16,
+          "terminal_residual_inf": 5.551115123125783e-17,
+          "queue_norm_violation": -0.002949300163960833,
+          "input_norm_violation": -0.02817214496362852,
+          "current_node_norm_violation": 1.1102230246251565e-16,
+          "Omega_norm_violation": -1.5983794106458338e-05,
+          "actual_modulation_norm_violation": -0.21601850141560736,
+          "membership": {
+            "witnesses": [
+              [
+                0.008152271187373182,
+                -0.08598515955542492
+              ],
+              [
+                -0.0512037566798739,
+                -0.03247018740299257
+              ]
+            ],
+            "disk_norms": [
+              0.0863707542475134,
+              0.06063116169196487
+            ],
+            "representation_residual_inf": 0.0,
+            "inside": true
+          },
+          "first_modulation": [
+            0.2679838059796207,
+            0.1967667658157704
+          ]
+        },
+        "first_modification": 0.21458069224035717
+      }
+    },
+    {
+      "name": "Reject failed wide/nonfinite output despite success flag; flag feasible nonoptimal acceptance",
+      "status": "PASS",
+      "details": {
+        "wide_injections": [
+          {
+            "claimed_success": true,
+            "chosen": {
+              "valid": true,
+              "type": "shifted_plan",
+              "plan_origin_k": 0,
+              "plan_index": 0,
+              "membership": {
+                "witnesses": [
+                  [
+                    0.008152271187373335,
+                    -0.08598515955542468
+                  ],
+                  [
+                    -0.051203756679873945,
+                    -0.03247018740299258
+                  ]
+                ],
+                "disk_norms": [
+                  0.0863707542475132,
+                  0.06063116169196492
+                ],
+                "max_disk_excess": -1.5983794106666505e-05,
+                "inverse_residual_inf": 2.7755575615628914e-17,
+                "inside_numeric": true
+              },
+              "modulation_norm": 0.3324642543145371,
+              "source": "audited_Gate0_plan"
+            },
+            "candidate_residual": 1943.1090314915823
+          },
+          {
+            "claimed_success": false,
+            "chosen": {
+              "valid": true,
+              "type": "shifted_plan",
+              "plan_origin_k": 0,
+              "plan_index": 0,
+              "membership": {
+                "witnesses": [
+                  [
+                    0.008152271187373335,
+                    -0.08598515955542468
+                  ],
+                  [
+                    -0.051203756679873945,
+                    -0.03247018740299258
+                  ]
+                ],
+                "disk_norms": [
+                  0.0863707542475132,
+                  0.06063116169196492
+                ],
+                "max_disk_excess": -1.5983794106666505e-05,
+                "inverse_residual_inf": 2.7755575615628914e-17,
+                "inside_numeric": true
+              },
+              "modulation_norm": 0.3324642543145371,
+              "source": "audited_Gate0_plan"
+            },
+            "candidate_residual": 1943.1090314915823
+          }
+        ]
+      }
+    },
+    {
+      "name": "Forced backup j=1,N-1,N,N+3, negative/outside index, phase and immutable observation",
+      "status": "PASS",
+      "details": {
+        "fixtures": [
+          {
+            "j": 1,
+            "selection": {
+              "valid": true,
+              "type": "shifted_plan",
+              "plan_origin_k": 0,
+              "plan_index": 1,
+              "membership": {
+                "witnesses": [
+                  [
+                    0.01648974308225535,
+                    0.007562542849400472
+                  ],
+                  [
+                    0.026407600799500094,
+                    -0.02092153197796152
+                  ]
+                ],
+                "disk_norms": [
+                  0.01814121498874335,
+                  0.03369082783623199
+                ],
+                "max_disk_excess": -0.05269591020538787,
+                "inverse_residual_inf": 1.3877787807814457e-17,
+                "inside_numeric": true
+              },
+              "modulation_norm": 0.179089520750157,
+              "source": "audited_Gate0_plan"
+            },
+            "phase_rad": 0.7676991118430775,
+            "modulation_error": 1.0263147185266757e-14
+          },
+          {
+            "j": 9,
+            "selection": {
+              "valid": true,
+              "type": "shifted_plan",
+              "plan_origin_k": 0,
+              "plan_index": 9,
+              "membership": {
+                "witnesses": [
+                  [
+                    0.01648974308225354,
+                    0.007562542849396385
+                  ],
+                  [
+                    0.026407600799499654,
+                    -0.02092153197796111
+                  ]
+                ],
+                "disk_norms": [
+                  0.01814121498874,
+                  0.033690827836231396
+                ],
+                "max_disk_excess": -0.05269591020538847,
+                "inverse_residual_inf": 1.3877787807814457e-17,
+                "inside_numeric": true
+              },
+              "modulation_norm": 0.23754100532893527,
+              "source": "audited_Gate0_plan"
+            },
+            "phase_rad": 1.0692920065876976,
+            "modulation_error": 2.5202612873646857e-15
+          },
+          {
+            "j": 10,
+            "selection": {
+              "valid": true,
+              "type": "terminal",
+              "plan_origin_k": 0,
+              "plan_index": 10,
+              "membership": {
+                "witnesses": [
+                  [
+                    0.016489743082253448,
+                    0.007562542849396938
+                  ],
+                  [
+                    0.026407600799500074,
+                    -0.02092153197796117
+                  ]
+                ],
+                "disk_norms": [
+                  0.018141214988740148,
+                  0.03369082783623176
+                ],
+                "max_disk_excess": -0.05269591020538811,
+                "inverse_residual_inf": 1.734723475976807e-18,
+                "inside_numeric": true
+              },
+              "modulation_norm": 0.23754100532893552,
+              "source": "audited_Gate0_plan"
+            },
+            "phase_rad": 1.1069911184307752,
+            "modulation_error": 0.0
+          },
+          {
+            "j": 13,
+            "selection": {
+              "valid": true,
+              "type": "terminal",
+              "plan_origin_k": 0,
+              "plan_index": 13,
+              "membership": {
+                "witnesses": [
+                  [
+                    0.016489743082253348,
+                    0.00756254284939843
+                  ],
+                  [
+                    0.026407600799500393,
+                    -0.020921531977962142
+                  ]
+                ],
+                "disk_norms": [
+                  0.01814121498874068,
+                  0.03369082783623262
+                ],
+                "max_disk_excess": -0.05269591020538725,
+                "inverse_residual_inf": 6.938893903907228e-18,
+                "inside_numeric": true
+              },
+              "modulation_norm": 0.23754100532893585,
+              "source": "audited_Gate0_plan"
+            },
+            "phase_rad": 1.2200884539600076,
+            "modulation_error": 6.885634726874615e-15
+          }
+        ]
+      }
+    },
+    {
+      "name": "Original Q-priority pass-through, pre-promotion source/PLL, held queue, same-Kaw AW and atomic failure",
+      "status": "PASS",
+      "details": {
+        "pass_through_fixtures": [
+          {
+            "variant": 0,
+            "all_controller_fields_max_error": 0.0
+          },
+          {
+            "variant": 1,
+            "all_controller_fields_max_error": 0.0
+          },
+          {
+            "variant": 2,
+            "all_controller_fields_max_error": 0.0
+          },
+          {
+            "variant": 3,
+            "all_controller_fields_max_error": 0.0
+          }
+        ],
+        "antiwindup": [
+          {
+            "selection": "optimized",
+            "delta_expected": [
+              2.23734401090541,
+              -3.3556985799059493
+            ],
+            "delta_observed": [
+              2.2373440109054115,
+              -3.35569857990595
+            ]
+          },
+          {
+            "selection": "shifted_plan",
+            "delta_expected": [
+              2.23734401090541,
+              -3.3556985799059493
+            ],
+            "delta_observed": [
+              2.2373440109054115,
+              -3.35569857990595
+            ]
+          },
+          {
+            "selection": "terminal",
+            "delta_expected": [
+              2.23734401090541,
+              -3.3556985799059493
+            ],
+            "delta_observed": [
+              2.2373440109054115,
+              -3.35569857990595
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "No valid backup stops; domain rejection precedes optimization; no observation mutation",
+      "status": "PASS",
+      "details": {}
+    },
+    {
+      "name": "Saved plan provenance, numeric parameter whitelist, and metadata tamper rejection",
+      "status": "PASS",
+      "details": {
+        "rejections": [
+          {
+            "tampered": "backup_ready",
+            "rejection": "plan_not_ready_or_certificate_mismatch"
+          },
+          {
+            "tampered": "certificate_version",
+            "rejection": "plan_not_ready_or_certificate_mismatch"
+          },
+          {
+            "tampered": "phase_origin_rad",
+            "rejection": "plan_frame_mismatch"
+          },
+          {
+            "tampered": "phase_origin_time_s",
+            "rejection": "plan_frame_mismatch"
+          }
+        ],
+        "later_plan_origin": 7
+      }
+    }
+  ],
+  "source_sha256": {
+    "common_guard.py": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03",
+    "guarded_controller.py": "9379032e4edc99a204ce0db3947e61f71dee30b8a876dce0d5740312bfda4af5",
+    "audit_interface_tests.py": "3ea62339be08d21a60db5373f7d0e3be6e0b5be94e57a0fde89494994d57d6fd",
+    "audit_algebra_oracle.py": "de339bc42b1d833e9b11ba4f044bee4890d5e11c77f095b4e2e7330c20b0e2fb"
+  },
+  "physical_trajectory_count": 0,
+  "new_physical_conditions_executed": 0,
+  "qualification": "Finite arithmetic/algebraic interface tests, not closed-loop qualification, interval proof, joint DC/SoC invariance or realtime feasibility."
+}

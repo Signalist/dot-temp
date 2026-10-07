@@ -1,0 +1,175 @@
+{
+  "protocol_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+  "max_step_s": 5e-06,
+  "stop_reason": "dc_high",
+  "last_time_s": 0.6059459697981268,
+  "checkpoint_time_s": 0.6,
+  "fault_start_s": 0.60005,
+  "fault_end_s": 0.75005,
+  "startup_max_pcc_S_VA": 1248563.0725468856,
+  "all_max_actual_current_pu": 1.000074649872547,
+  "max_reference_current_pu": 0.9500000000000002,
+  "max_abs_total_energy_residual_J": 3.971581463702023e-08,
+  "checks": [
+    {
+      "time_s": 0.1,
+      "max_normalized_cycle_difference": 0.13713489225407982,
+      "hard_safe": false,
+      "max_frequency_deviation_Hz": 1.3826412321087531,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.9617200091594735,
+        "max_pcc_S_VA": 1248563.0725468856,
+        "min_dc_pu": 0.9977121234173602,
+        "max_dc_pu": 1.0125527547847588
+      }
+    },
+    {
+      "time_s": 0.15,
+      "max_normalized_cycle_difference": 0.03661437173253945,
+      "hard_safe": false,
+      "max_frequency_deviation_Hz": 1.3826412321087531,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.9617200091594735,
+        "max_pcc_S_VA": 1248563.0725468856,
+        "min_dc_pu": 0.9977121234173602,
+        "max_dc_pu": 1.0125527547847588
+      }
+    },
+    {
+      "time_s": 0.2,
+      "max_normalized_cycle_difference": 0.009914832240445537,
+      "hard_safe": true,
+      "max_frequency_deviation_Hz": 0.0018178730745574967,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.8716409641060551,
+        "max_pcc_S_VA": 1114467.4960718574,
+        "min_dc_pu": 1.0069130629208687,
+        "max_dc_pu": 1.0125527547847588
+      }
+    },
+    {
+      "time_s": 0.25,
+      "max_normalized_cycle_difference": 0.0026698240571623177,
+      "hard_safe": true,
+      "max_frequency_deviation_Hz": 1.263664013606558e-05,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.8449431181995729,
+        "max_pcc_S_VA": 1076591.6106151477,
+        "min_dc_pu": 1.0069130629208687,
+        "max_dc_pu": 1.010130439982002
+      }
+    },
+    {
+      "time_s": 0.3,
+      "max_normalized_cycle_difference": 0.0007201912764772667,
+      "hard_safe": true,
+      "max_frequency_deviation_Hz": 1.1121774932121298e-05,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.837951083242677,
+        "max_pcc_S_VA": 1066684.0802688869,
+        "min_dc_pu": 1.0069130629208687,
+        "max_dc_pu": 1.0074054298949358
+      }
+    },
+    {
+      "time_s": 0.35000000000000003,
+      "max_normalized_cycle_difference": 0.00019528129607382372,
+      "hard_safe": true,
+      "max_frequency_deviation_Hz": 7.791155809400152e-06,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.8360569016976689,
+        "max_pcc_S_VA": 1064003.5377556775,
+        "min_dc_pu": 1.0072481214878135,
+        "max_dc_pu": 1.0074054298949358
+      }
+    },
+    {
+      "time_s": 0.4,
+      "max_normalized_cycle_difference": 5.2514719881879834e-05,
+      "hard_safe": true,
+      "max_frequency_deviation_Hz": 6.335816138403061e-07,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.8355451677388545,
+        "max_pcc_S_VA": 1063279.5093700786,
+        "min_dc_pu": 1.0072481214878135,
+        "max_dc_pu": 1.0073305947253477
+      }
+    },
+    {
+      "time_s": 0.45,
+      "max_normalized_cycle_difference": 1.417563676509026e-05,
+      "hard_safe": true,
+      "max_frequency_deviation_Hz": 2.7103342148393494e-07,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.835409054584778,
+        "max_pcc_S_VA": 1063086.715110282,
+        "min_dc_pu": 1.0072481500622763,
+        "max_dc_pu": 1.0072720015121532
+      }
+    },
+    {
+      "time_s": 0.5,
+      "max_normalized_cycle_difference": 3.846939443441499e-06,
+      "hard_safe": true,
+      "max_frequency_deviation_Hz": 1.7132967400357302e-07,
+      "qualifying": true,
+      "successive": 1,
+      "metrics": {
+        "max_actual_current_pu": 0.8353718003035446,
+        "max_pcc_S_VA": 1063034.0098354279,
+        "min_dc_pu": 1.0072590347317179,
+        "max_dc_pu": 1.0072720015121532
+      }
+    },
+    {
+      "time_s": 0.55,
+      "max_normalized_cycle_difference": 1.0977001017042909e-06,
+      "hard_safe": true,
+      "max_frequency_deviation_Hz": 2.2658198872704816e-08,
+      "qualifying": true,
+      "successive": 2,
+      "metrics": {
+        "max_actual_current_pu": 0.8353617457373488,
+        "max_pcc_S_VA": 1063019.7828885377,
+        "min_dc_pu": 1.0072590347317179,
+        "max_dc_pu": 1.0072696971567114
+      }
+    },
+    {
+      "time_s": 0.6,
+      "max_normalized_cycle_difference": 2.790773386829315e-07,
+      "hard_safe": true,
+      "max_frequency_deviation_Hz": 6.828095422406477e-09,
+      "qualifying": true,
+      "successive": 3,
+      "metrics": {
+        "max_actual_current_pu": 0.8353590774777099,
+        "max_pcc_S_VA": 1063016.0023265877,
+        "min_dc_pu": 1.0072590527128849,
+        "max_dc_pu": 1.0072684871108992
+      }
+    }
+  ],
+  "fault_metrics": {
+    "max_actual_current_pu": 1.000074649872547,
+    "max_dc_pu": 1.100000000000001,
+    "first_actual_current_crossing_s": 0.6003996959770732,
+    "elapsed_to_terminal_s": 0.005895969798126788
+  }
+}

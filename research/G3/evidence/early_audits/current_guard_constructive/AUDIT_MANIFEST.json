@@ -1,0 +1,14 @@
+{
+  "status": "PASS_STATIC_INTERFACE_AND_RUNNER_ONLY",
+  "audited_runner_sha256": "e9bceab631ec7f26c9639aa3a2887ddf21f8cefdd63390c76fbeb1d3d30563c5",
+  "audited_wrapper_sha256": "50f4b5f97cb8caad08463451e3dfe959528119cf10b140c78af57409608f52f6",
+  "physical_trajectories_executed_by_audit": 0,
+  "real_optimization_calls": 0,
+  "files": {
+    "audit_interface_tests.py": "d0e19bba668878775d3b9380eaf073922d960c6dad8fa240669881ac1f0aac69",
+    "audit_interface_results.json": "434cedd2109e36395bb675212a0de4c30a21318b96ae5190827a45e6680fcc4b",
+    "audit_interface_runner.py": "1438862e40a95dd22bb369af4740a0ad9c6c1ae2689a8ba422b9985943b02388",
+    "audit_interface_runner_results.json": "ff87d4b9253bcf1cbef33b199a571ec81e982f7cad2b61bed85003c4dedcd7a9",
+    "INDEPENDENT_AUDIT.md": "a94cab1266d471c6ab44d0d5c3c8abae261904b19d4a536363b7eda845444e52"
+  }
+}

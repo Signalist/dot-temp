@@ -1,0 +1,816 @@
+{
+  "status": "THEORY_ONLY_NO_GATE_B_NO_NEW_CONVERTER_INTEGRATION",
+  "constants": {
+    "Wref_J": 21600.0,
+    "Wmin_J": 13824.000000000002,
+    "Wmax_J": 26136.000000000004,
+    "WLmax_J": 397.09750202003335,
+    "lossmin_W": 1200.0,
+    "lossmax_W": 31140.446282519868
+  },
+  "input_sha256": {
+    "protocol/GATE_A_LOCKED_V2_1.json": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+    "gate_a/dq_bench.py": "5185085c3843c2b12d0663f25a4d3e6a0290fcb7d46be3b338e3ee2c261b0616",
+    "gate_a_extension/results/signed_periodic_h1e-05.npz": "719a732583267400a6b1c7bbfd4e28b4201073b113e635153ec5f5a055f7ca97",
+    "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.json": "fd8a03b0c25977d9bef2f2fb84a1474ebe6bc06ec8f4327b05adabc8770d3a0f",
+    "gate_a/preconditioned_dq/h1e-05_checkpoint.json": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152"
+  },
+  "existing_300kW_negative_control": {
+    "phase_sampling": "Existing 100 us endpoints, final cycle [9.6,10.6] s; interval-extrema bounds also reported; no new converter integration",
+    "endpoint_Pb_W": [
+      -307267.99210356775,
+      302865.56162814057
+    ],
+    "endpoint_Wdc_J": [
+      20837.54428412891,
+      22366.051521975318
+    ],
+    "interval_max_abs_Pb_W": 307267.99210356775,
+    "interval_Wdc_bounds_J": [
+      20837.544284128915,
+      22366.051521975314
+    ],
+    "rho_results": [
+      {
+        "rho": 0.85,
+        "endpoint_max_upper_margin_J": -4166.882309129589,
+        "endpoint_max_lower_margin_J": -7014.381618978956,
+        "all_continuous_phases_prefix_maxima_zero_from_extrema": true,
+        "upper_Fprime_global_upper_W": -746945.1340999877,
+        "lower_Gprime_global_upper_W": -708428.290804477
+      },
+      {
+        "rho": 0.75,
+        "endpoint_max_upper_margin_J": -4166.882309129589,
+        "endpoint_max_lower_margin_J": -7014.381618978956,
+        "all_continuous_phases_prefix_maxima_zero_from_extrema": true,
+        "upper_Fprime_global_upper_W": -626945.1340999877,
+        "lower_Gprime_global_upper_W": -588428.290804477
+      },
+      {
+        "rho": 0.475,
+        "endpoint_max_upper_margin_J": -4166.882309129589,
+        "endpoint_max_lower_margin_J": -7014.381618978956,
+        "all_continuous_phases_prefix_maxima_zero_from_extrema": true,
+        "upper_Fprime_global_upper_W": -296945.13409998774,
+        "lower_Gprime_global_upper_W": -258428.290804477
+      },
+      {
+        "rho": 0.4,
+        "endpoint_max_upper_margin_J": -4166.882309129589,
+        "endpoint_max_lower_margin_J": -7014.381618978956,
+        "all_continuous_phases_prefix_maxima_zero_from_extrema": true,
+        "upper_Fprime_global_upper_W": -206945.13409998777,
+        "lower_Gprime_global_upper_W": -168428.290804477
+      }
+    ]
+  },
+  "development_selection_rule": {
+    "bias_interval_W": [
+      -50000,
+      0
+    ],
+    "Q_grid_var": [
+      0,
+      300000,
+      700000
+    ],
+    "amplitude_grid_W": [
+      100000,
+      200000,
+      300000,
+      400000,
+      500000,
+      600000,
+      700000,
+      800000,
+      900000,
+      1000000
+    ],
+    "nominal_I_design_limit_pu": 0.9,
+    "nominal_Pb_design_limit_W": 900000.0,
+    "frequency_grid_Hz": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "omega_tau_limit": 0.1,
+    "source_equilibrium_slew_fraction_of_hard_R": 0.6,
+    "status": "Algebraic preregistration candidate; numerical screening, not validated dynamic feasibility"
+  },
+  "nominal_algebraic_screen": [
+    {
+      "A_W": 100000,
+      "nominal_screen_pass": true,
+      "Q_results": [
+        {
+          "Q_var": 0,
+          "max_I_pu": 0.1251655945556713,
+          "max_abs_Pb_W": 147032.82428760236,
+          "max_modulation_use_at_1400V": 0.7349405066961491,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0126203433167327,
+          "max_abs_Spcc_VA": 150000.0
+        },
+        {
+          "Q_var": 300000,
+          "max_I_pu": 0.2732258068931263,
+          "max_abs_Pb_W": 145981.69527353626,
+          "max_modulation_use_at_1400V": 0.779546529353542,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0124868324868652,
+          "max_abs_Spcc_VA": 335410.19662496843
+        },
+        {
+          "Q_var": 700000,
+          "max_I_pu": 0.5661440689702362,
+          "max_abs_Pb_W": 141600.34951628628,
+          "max_modulation_use_at_1400V": 0.8360000402137884,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0122884041655278,
+          "max_abs_Spcc_VA": 715891.0531638176
+        }
+      ]
+    },
+    {
+      "A_W": 200000,
+      "nominal_screen_pass": true,
+      "Q_results": [
+        {
+          "Q_var": 0,
+          "max_I_pu": 0.2088122729636496,
+          "max_abs_Pb_W": 245535.00228563682,
+          "max_modulation_use_at_1400V": 0.7362528363474867,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0151292721219314,
+          "max_abs_Spcc_VA": 250000.0
+        },
+        {
+          "Q_var": 300000,
+          "max_I_pu": 0.31840532137156946,
+          "max_abs_Pb_W": 244505.3736745628,
+          "max_modulation_use_at_1400V": 0.7807793185566001,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0148802194883304,
+          "max_abs_Spcc_VA": 390512.4837953327
+        },
+        {
+          "Q_var": 700000,
+          "max_I_pu": 0.5883298627171449,
+          "max_abs_Pb_W": 240143.92727235972,
+          "max_modulation_use_at_1400V": 0.837143811202998,
+          "max_abs_d_Pbeq_d_Ppcc": 1.014550175205365,
+          "max_abs_Spcc_VA": 743303.4373659253
+        }
+      ]
+    },
+    {
+      "A_W": 300000,
+      "nominal_screen_pass": true,
+      "Q_results": [
+        {
+          "Q_var": 0,
+          "max_I_pu": 0.2926429103840896,
+          "max_abs_Pb_W": 343785.89746317436,
+          "max_modulation_use_at_1400V": 0.7376261670331425,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0176299165871623,
+          "max_abs_Spcc_VA": 350000.0
+        },
+        {
+          "Q_var": 300000,
+          "max_I_pu": 0.3762300905563888,
+          "max_abs_Pb_W": 342789.59537586593,
+          "max_modulation_use_at_1400V": 0.7820671523976431,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0172658819301934,
+          "max_abs_Spcc_VA": 460977.22286464437
+        },
+        {
+          "Q_var": 700000,
+          "max_I_pu": 0.6200233752727823,
+          "max_abs_Pb_W": 338461.4754715354,
+          "max_modulation_use_at_1400V": 0.8383362631507424,
+          "max_abs_d_Pbeq_d_Ppcc": 1.01680482841533,
+          "max_abs_Spcc_VA": 782623.7921249263
+        }
+      ]
+    },
+    {
+      "A_W": 400000,
+      "nominal_screen_pass": true,
+      "Q_results": [
+        {
+          "Q_var": 0,
+          "max_I_pu": 0.3766764814648286,
+          "max_abs_Pb_W": 441783.6062405069,
+          "max_modulation_use_at_1400V": 0.739059975999356,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0201243623985898,
+          "max_abs_Spcc_VA": 450000.0
+        },
+        {
+          "Q_var": 300000,
+          "max_I_pu": 0.44187024018179394,
+          "max_abs_Pb_W": 440832.6573107988,
+          "max_modulation_use_at_1400V": 0.7834095971270155,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0196456320290217,
+          "max_abs_Spcc_VA": 540832.6913195984
+        },
+        {
+          "Q_var": 700000,
+          "max_I_pu": 0.6599195810085217,
+          "max_abs_Pb_W": 436551.4995324394,
+          "max_modulation_use_at_1400V": 0.8395770475494154,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0190538949342773,
+          "max_abs_Spcc_VA": 832165.8488546619
+        }
+      ]
+    },
+    {
+      "A_W": 500000,
+      "nominal_screen_pass": true,
+      "Q_results": [
+        {
+          "Q_var": 0,
+          "max_I_pu": 0.460932429230664,
+          "max_abs_Pb_W": 539525.9858890802,
+          "max_modulation_use_at_1400V": 0.7405537818294206,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0226146696793759,
+          "max_abs_Spcc_VA": 550000.0
+        },
+        {
+          "Q_var": 300000,
+          "max_I_pu": 0.5124351430305147,
+          "max_abs_Pb_W": 538632.6501950177,
+          "max_modulation_use_at_1400V": 0.7848062532946827,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0220212598099736,
+          "max_abs_Spcc_VA": 626498.2043070834
+        },
+        {
+          "Q_var": 700000,
+          "max_I_pu": 0.7066966803243007,
+          "max_abs_Pb_W": 534412.3320719716,
+          "max_modulation_use_at_1400V": 0.8408658433203143,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0212988871715494,
+          "max_abs_Spcc_VA": 890224.6907382428
+        }
+      ]
+    },
+    {
+      "A_W": 600000,
+      "nominal_screen_pass": true,
+      "Q_results": [
+        {
+          "Q_var": 0,
+          "max_I_pu": 0.5454307225539221,
+          "max_abs_Pb_W": 637010.6449252565,
+          "max_modulation_use_at_1400V": 0.7421071439009367,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0251028815639112,
+          "max_abs_Spcc_VA": 650000.0
+        },
+        {
+          "Q_var": 300000,
+          "max_I_pu": 0.5862504852332671,
+          "max_abs_Pb_W": 636187.4507678061,
+          "max_modulation_use_at_1400V": 0.7862567552883716,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0243945398977463,
+          "max_abs_Spcc_VA": 715891.0531638176
+        },
+        {
+          "Q_var": 700000,
+          "max_I_pu": 0.7591519102865345,
+          "max_abs_Pb_W": 632042.1268800701,
+          "max_modulation_use_at_1400V": 0.8422023564375929,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0235413039423198,
+          "max_abs_Spcc_VA": 955248.65872714
+        }
+      ]
+    },
+    {
+      "A_W": 700000,
+      "nominal_screen_pass": true,
+      "Q_results": [
+        {
+          "Q_var": 0,
+          "max_I_pu": 0.6301919175391727,
+          "max_abs_Pb_W": 734234.932180757,
+          "max_modulation_use_at_1400V": 0.7437196620100517,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0275910326088336,
+          "max_abs_Spcc_VA": 750000.0
+        },
+        {
+          "Q_var": 300000,
+          "max_I_pu": 0.6623296211731282,
+          "max_abs_Pb_W": 733494.7130073748,
+          "max_modulation_use_at_1400V": 0.7877607709988083,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0267672381728563,
+          "max_abs_Spcc_VA": 807774.7210701756
+        },
+        {
+          "Q_var": 700000,
+          "max_I_pu": 0.8162610778584445,
+          "max_abs_Pb_W": 729438.8521364215,
+          "max_modulation_use_at_1400V": 0.8435863196436656,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0257826354967423,
+          "max_abs_Spcc_VA": 1025914.2264341596
+        }
+      ]
+    },
+    {
+      "A_W": 800000,
+      "nominal_screen_pass": true,
+      "Q_results": [
+        {
+          "Q_var": 0,
+          "max_I_pu": 0.7152372233950184,
+          "max_abs_Pb_W": 831195.9244282946,
+          "max_modulation_use_at_1400V": 0.7453909761587553,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0300811571219681,
+          "max_abs_Spcc_VA": 850000.0
+        },
+        {
+          "Q_var": 300000,
+          "max_I_pu": 0.7400724085711813,
+          "max_abs_Pb_W": 830551.8582318769,
+          "max_modulation_use_at_1400V": 0.7893180016090207,
+          "max_abs_d_Pbeq_d_Ppcc": 1.029141118351783,
+          "max_abs_Spcc_VA": 901387.8188659974
+        },
+        {
+          "Q_var": 700000,
+          "max_I_pu": 0.8771867717356836,
+          "max_abs_Pb_W": 826600.2828087062,
+          "max_modulation_use_at_1400V": 0.8450174922538595,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0280243684824975,
+          "max_abs_Spcc_VA": 1101135.777277262
+        }
+      ]
+    },
+    {
+      "A_W": 900000,
+      "nominal_screen_pass": false,
+      "Q_results": [
+        {
+          "Q_var": 0,
+          "max_I_pu": 0.8005885734372425,
+          "max_abs_Pb_W": 927890.4124209762,
+          "max_modulation_use_at_1400V": 0.7471207665029158,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0325752974888838,
+          "max_abs_Spcc_VA": 950000.0
+        },
+        {
+          "Q_var": 300000,
+          "max_I_pu": 0.8191019149174528,
+          "max_abs_Pb_W": 927356.063984078,
+          "max_modulation_use_at_1400V": 0.7909281815057887,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0315179485483035,
+          "max_abs_Spcc_VA": 996242.9422585637
+        },
+        {
+          "Q_var": 700000,
+          "max_I_pu": 0.9412604629376219,
+          "max_abs_Pb_W": 924919.700426794,
+          "max_modulation_use_at_1400V": 0.8464956600488014,
+          "max_abs_d_Pbeq_d_Ppcc": 1.030267990879401,
+          "max_abs_Spcc_VA": 1180042.3721205946
+        }
+      ]
+    },
+    {
+      "A_W": 1000000,
+      "nominal_screen_pass": false,
+      "Q_results": [
+        {
+          "Q_var": 0,
+          "max_I_pu": 0.8862687019518974,
+          "max_abs_Pb_W": 1024314.8851810996,
+          "max_modulation_use_at_1400V": 0.7489087534603286,
+          "max_abs_d_Pbeq_d_Ppcc": 1.035075512576743,
+          "max_abs_Spcc_VA": 1050000.0
+        },
+        {
+          "Q_var": 300000,
+          "max_I_pu": 0.8991749684653487,
+          "max_abs_Pb_W": 1024306.6778452601,
+          "max_modulation_use_at_1400V": 0.7925910783124112,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0338995078730597,
+          "max_abs_Spcc_VA": 1092016.4833920777
+        },
+        {
+          "Q_var": 700000,
+          "max_I_pu": 1.0079553843518094,
+          "max_abs_Pb_W": 1028058.8153687825,
+          "max_modulation_use_at_1400V": 0.8480206352537432,
+          "max_abs_d_Pbeq_d_Ppcc": 1.0325149969443386,
+          "max_abs_Spcc_VA": 1261942.9464123962
+        }
+      ]
+    }
+  ],
+  "selected_candidate_A_W": 800000,
+  "selected_candidate_f_Hz": 0.5,
+  "frequency_screen": [
+    {
+      "f_Hz": 0.1,
+      "omega_tau": 0.012566370614359173,
+      "max_equilibrium_source_slew_bound_W_per_s": 517775.2633305038,
+      "pass": true
+    },
+    {
+      "f_Hz": 0.25,
+      "omega_tau": 0.031415926535897934,
+      "max_equilibrium_source_slew_bound_W_per_s": 1294438.1583262593,
+      "pass": true
+    },
+    {
+      "f_Hz": 0.5,
+      "omega_tau": 0.06283185307179587,
+      "max_equilibrium_source_slew_bound_W_per_s": 2588876.3166525187,
+      "pass": true
+    },
+    {
+      "f_Hz": 1.0,
+      "omega_tau": 0.12566370614359174,
+      "max_equilibrium_source_slew_bound_W_per_s": 5177752.633305037,
+      "pass": false
+    }
+  ],
+  "harmonic_proxy": {
+    "warning": "Branch-local harmonic algebra only; no signed-branch crossing validity, loss/bias fit, full-state orbit, or plant feasibility claim",
+    "A_W": 800000.0,
+    "f_Hz": 0.5,
+    "Q_var": 0,
+    "bias_W": 0,
+    "upper_critical_rho_surrogate": 0.4615907295075575,
+    "lower_critical_rho_surrogate": 0.43333322460557494,
+    "near_rho_rule": "ceil(1000*max(rho_critical_upper,rho_critical_lower))/1000, from surrogate before controllers",
+    "near_rho": 0.462,
+    "cases": [
+      {
+        "rho": 0.75,
+        "upper_peak_phi_deg": null,
+        "upper_peak_margin_J": -3917.690486851654,
+        "upper_margin_at_positive_request_peak_J": -4821.3120861106845,
+        "upper_gain_over_request_peak_J": null,
+        "upper_shift_from_request_peak_deg": null,
+        "upper_excluded_intervals_deg": [],
+        "lower_peak_phi_deg": null,
+        "lower_peak_margin_J": -6759.0639303153785,
+        "lower_margin_at_negative_request_peak_J": -8014.640649785144,
+        "lower_gain_over_request_peak_J": null,
+        "lower_shift_from_request_peak_deg": null,
+        "lower_excluded_intervals_deg": [],
+        "upper_positive_prefix_active": false,
+        "lower_positive_prefix_active": false
+      },
+      {
+        "rho": 0.462,
+        "upper_peak_phi_deg": 91.65040898798095,
+        "upper_peak_margin_J": -21.58651386956535,
+        "upper_margin_at_positive_request_peak_J": -36.329646337832855,
+        "upper_gain_over_request_peak_J": 14.743132468267504,
+        "upper_shift_from_request_peak_deg": 1.6504089879809527,
+        "upper_excluded_intervals_deg": [],
+        "lower_peak_phi_deg": 271.46525927234813,
+        "lower_peak_margin_J": -1817.921207480451,
+        "lower_margin_at_negative_request_peak_J": -1830.7652310517315,
+        "lower_gain_over_request_peak_J": 12.844023571280559,
+        "lower_shift_from_request_peak_deg": 1.4652592723481348,
+        "lower_excluded_intervals_deg": [],
+        "upper_positive_prefix_active": true,
+        "lower_positive_prefix_active": true
+      },
+      {
+        "rho": 0.4,
+        "upper_peak_phi_deg": 91.23526000494284,
+        "upper_peak_margin_J": 3805.2083223715035,
+        "upper_margin_at_positive_request_peak_J": 3794.1363013652362,
+        "upper_gain_over_request_peak_J": 11.072021006267278,
+        "upper_shift_from_request_peak_deg": 1.2352600049428446,
+        "upper_excluded_intervals_deg": [
+          [
+            66.93872475275981,
+            116.35155795195769
+          ]
+        ],
+        "lower_peak_phi_deg": 271.1290913087504,
+        "lower_peak_margin_J": 2408.8847803113586,
+        "lower_margin_at_negative_request_peak_J": 2398.9565755474814,
+        "lower_gain_over_request_peak_J": 9.928204763877147,
+        "lower_shift_from_request_peak_deg": 1.1290913087503895,
+        "lower_excluded_intervals_deg": [
+          [
+            253.0366249695106,
+            289.5413109715449
+          ]
+        ],
+        "upper_positive_prefix_active": true,
+        "lower_positive_prefix_active": true
+      }
+    ],
+    "fixed_same_request_pairs_at_rho_04": [
+      {
+        "phases_deg": [
+          60,
+          120
+        ],
+        "side": "upper",
+        "q_W": [
+          692820.3230275508,
+          692820.3230275509
+        ],
+        "Wdc_J": [
+          21036.262602068502,
+          22051.669618250657
+        ],
+        "Pb_W": [
+          702506.3693882505,
+          702711.6910726306
+        ],
+        "margin_J": [
+          -1931.9890206217515,
+          -909.0079957462749
+        ]
+      },
+      {
+        "phases_deg": [
+          75,
+          105
+        ],
+        "side": "upper",
+        "q_W": [
+          772740.6610312547,
+          772740.6610312547
+        ],
+        "Wdc_J": [
+          21274.69564246352,
+          21800.30899110085
+        ],
+        "Pb_W": [
+          783605.4040926084,
+          783711.6864171887
+        ],
+        "margin_J": [
+          1979.8449655420463,
+          2511.0845074854315
+        ]
+      },
+      {
+        "phases_deg": [
+          240,
+          300
+        ],
+        "side": "lower",
+        "q_W": [
+          -692820.3230275507,
+          -692820.3230275508
+        ],
+        "Wdc_J": [
+          22151.466136096675,
+          21156.185794501387
+        ],
+        "Pb_W": [
+          -688476.2462841211,
+          -688669.5526973658
+        ],
+        "margin_J": [
+          -3813.8811686673707,
+          -2810.221837596715
+        ]
+      },
+      {
+        "phases_deg": [
+          255,
+          285
+        ],
+        "side": "lower",
+        "q_W": [
+          -772740.6610312547,
+          -772740.6610312546
+        ],
+        "Wdc_J": [
+          21917.632571003756,
+          21402.43755576175
+        ],
+        "Pb_W": [
+          -767953.2442667412,
+          -768053.3070293174
+        ],
+        "margin_J": [
+          469.1217949227994,
+          990.2597554606928
+        ]
+      }
+    ],
+    "primary_critical_voltage_phase_metric": [
+      {
+        "side": "upper",
+        "phase_deg": 91.64674197301888,
+        "shift_from_request_extremum_deg": 1.6467419730188757,
+        "rho_critical": 0.4615907295075573,
+        "rho_critical_at_request_extremum": 0.46131276487087414,
+        "gain_rho_pu": 0.00027796463668317006,
+        "critical_prefix_s": 0.04400299000838868,
+        "equivalent_J_first_order": 14.677530156785906,
+        "margin_J_at_request_extremum_when_rho_equals_phasewise_max": -14.710727676939314
+      },
+      {
+        "side": "lower",
+        "phase_deg": 271.2876723901501,
+        "shift_from_request_extremum_deg": 1.28767239015007,
+        "rho_critical": 0.4333332246055745,
+        "rho_critical_at_request_extremum": 0.4331659550693325,
+        "gain_rho_pu": 0.00016726953624202068,
+        "critical_prefix_s": 0.05625743670399623,
+        "equivalent_J_first_order": 11.292186417170738,
+        "margin_J_at_request_extremum_when_rho_equals_phasewise_max": -11.304061276650827
+      }
+    ]
+  },
+  "minimal_source_speed_gate": {
+    "status": "PRIORITY_NEXT_GATE_THEORY_ONLY",
+    "warning": "Same historical states, changed reachable source envelope only; no claim these are new fast-port equilibria. Any future fast-port run from 0.6s must record its own actual 0.60005s state before recomputing the certificate.",
+    "rho": 0.4,
+    "T_s": 0.15,
+    "cases": [
+      {
+        "state_source": "historical_checkpoint_0p6s",
+        "port": "locked_original_synthetic_controlled_DC_port",
+        "R_W_per_s": 5000000.0,
+        "tau_s": 0.02,
+        "initial_Pb_W": 815639.6755124972,
+        "initial_Wdc_J": 21914.743372215053,
+        "initial_WL_J": 277.1038270595847,
+        "upper_headroom_J": 4341.250302745401,
+        "lower_headroom_J": 8367.847199274636,
+        "upper_max_prefix_gain_J": 8870.613571638227,
+        "lower_max_prefix_deficit_J": 0.0,
+        "upper_margin_J": 4529.3632688928255,
+        "lower_margin_J": -8367.847199274636,
+        "upper_optimal_prefix_s": 0.05986723888380856,
+        "lower_optimal_prefix_s": 0.0
+      },
+      {
+        "state_source": "historical_checkpoint_0p6s",
+        "port": "hypothetical_fast_synthetic_controlled_DC_port",
+        "R_W_per_s": 50000000.0,
+        "tau_s": 0.002,
+        "initial_Pb_W": 815639.6755124972,
+        "initial_Wdc_J": 21914.743372215053,
+        "initial_WL_J": 277.1038270595847,
+        "upper_headroom_J": 4341.250302745401,
+        "lower_headroom_J": 8367.847199274636,
+        "upper_max_prefix_gain_J": 887.0613571638228,
+        "lower_max_prefix_deficit_J": 0.0,
+        "upper_margin_J": -3454.1889455815785,
+        "lower_margin_J": -8367.847199274636,
+        "upper_optimal_prefix_s": 0.005986723888380856,
+        "lower_optimal_prefix_s": 0.0
+      },
+      {
+        "state_source": "historical_actual_fault_onset_0p60005s",
+        "port": "locked_original_synthetic_controlled_DC_port",
+        "R_W_per_s": 5000000.0,
+        "tau_s": 0.02,
+        "initial_Pb_W": 815639.6755381202,
+        "initial_Wdc_J": 21915.135193267946,
+        "initial_WL_J": 276.7121693063766,
+        "upper_headroom_J": 4341.250139445716,
+        "lower_headroom_J": 8367.847362574323,
+        "upper_max_prefix_gain_J": 8870.613573156861,
+        "lower_max_prefix_deficit_J": 0.0,
+        "upper_margin_J": 4529.363433711145,
+        "lower_margin_J": -8367.847362574323,
+        "upper_optimal_prefix_s": 0.05986723888893316,
+        "lower_optimal_prefix_s": 0.0
+      },
+      {
+        "state_source": "historical_actual_fault_onset_0p60005s",
+        "port": "hypothetical_fast_synthetic_controlled_DC_port",
+        "R_W_per_s": 50000000.0,
+        "tau_s": 0.002,
+        "initial_Pb_W": 815639.6755381202,
+        "initial_Wdc_J": 21915.135193267946,
+        "initial_WL_J": 276.7121693063766,
+        "upper_headroom_J": 4341.250139445716,
+        "lower_headroom_J": 8367.847362574323,
+        "upper_max_prefix_gain_J": 887.0613573156857,
+        "lower_max_prefix_deficit_J": 0.0,
+        "upper_margin_J": -3454.18878213003,
+        "lower_margin_J": -8367.847362574323,
+        "upper_optimal_prefix_s": 0.005986723888893316,
+        "lower_optimal_prefix_s": 0.0
+      }
+    ]
+  },
+  "source_response_sensitivity": {
+    "warning": "Synthetic sensitivity only, not literature-calibrated hardware or a directly paralleled battery model. Instant extreme commands relax sample holding.",
+    "rho": 0.4,
+    "cases": [
+      {
+        "R_W_per_s": 5000000.0,
+        "tau_s": 0.02,
+        "old_04_fixed_initial_state_upper_margin_J": 4529.363433711145,
+        "old_04_upper_prefix_s": 0.05986723888893316,
+        "proxy_04_fixed_original_healthy_states_upper_max_J": 3805.208155948856,
+        "proxy_04_fixed_original_healthy_states_lower_max_J": 2408.8842198970833,
+        "proxy_04_recomputed_harmonic_healthy_states_upper_max_J": 3805.208155948856,
+        "proxy_04_recomputed_harmonic_healthy_states_lower_max_J": 2408.8842198970833,
+        "proxy_recomputed_either_side_excluded": true
+      },
+      {
+        "R_W_per_s": 5000000.0,
+        "tau_s": 0.002,
+        "old_04_fixed_initial_state_upper_margin_J": 4529.363433711145,
+        "old_04_upper_prefix_s": 0.05986723888893316,
+        "proxy_04_fixed_original_healthy_states_upper_max_J": 3805.208155948856,
+        "proxy_04_fixed_original_healthy_states_lower_max_J": 2408.8842198970833,
+        "proxy_04_recomputed_harmonic_healthy_states_upper_max_J": 3683.9031868556112,
+        "proxy_04_recomputed_harmonic_healthy_states_lower_max_J": 2275.0401896177445,
+        "proxy_recomputed_either_side_excluded": true
+      },
+      {
+        "R_W_per_s": 5000000.0,
+        "tau_s": 0.0002,
+        "old_04_fixed_initial_state_upper_margin_J": 4529.363433711145,
+        "old_04_upper_prefix_s": 0.05986723888893316,
+        "proxy_04_fixed_original_healthy_states_upper_max_J": 3805.208155948856,
+        "proxy_04_fixed_original_healthy_states_lower_max_J": 2408.8842198970833,
+        "proxy_04_recomputed_harmonic_healthy_states_upper_max_J": 3672.8699901169994,
+        "proxy_04_recomputed_harmonic_healthy_states_lower_max_J": 2262.6511770873203,
+        "proxy_recomputed_either_side_excluded": true
+      },
+      {
+        "R_W_per_s": 50000000.0,
+        "tau_s": 0.02,
+        "old_04_fixed_initial_state_upper_margin_J": -3454.18878213003,
+        "old_04_upper_prefix_s": 0.005986723888893316,
+        "proxy_04_fixed_original_healthy_states_upper_max_J": -3855.064521831531,
+        "proxy_04_fixed_original_healthy_states_lower_max_J": -6759.063936147986,
+        "proxy_04_recomputed_harmonic_healthy_states_upper_max_J": -3855.064521831531,
+        "proxy_04_recomputed_harmonic_healthy_states_lower_max_J": -6759.063936147986,
+        "proxy_recomputed_either_side_excluded": false
+      },
+      {
+        "R_W_per_s": 50000000.0,
+        "tau_s": 0.002,
+        "old_04_fixed_initial_state_upper_margin_J": -3454.18878213003,
+        "old_04_upper_prefix_s": 0.005986723888893316,
+        "proxy_04_fixed_original_healthy_states_upper_max_J": -3855.064521831531,
+        "proxy_04_fixed_original_healthy_states_lower_max_J": -6759.063936147986,
+        "proxy_04_recomputed_harmonic_healthy_states_upper_max_J": -3917.329424082445,
+        "proxy_04_recomputed_harmonic_healthy_states_lower_max_J": -6934.258206315108,
+        "proxy_recomputed_either_side_excluded": false
+      },
+      {
+        "R_W_per_s": 50000000.0,
+        "tau_s": 0.0002,
+        "old_04_fixed_initial_state_upper_margin_J": -3454.18878213003,
+        "old_04_upper_prefix_s": 0.005986723888893316,
+        "proxy_04_fixed_original_healthy_states_upper_max_J": -3855.064521831531,
+        "proxy_04_fixed_original_healthy_states_lower_max_J": -6759.063936147986,
+        "proxy_04_recomputed_harmonic_healthy_states_upper_max_J": -3914.229363940618,
+        "proxy_04_recomputed_harmonic_healthy_states_lower_max_J": -6931.518638224641,
+        "proxy_recomputed_either_side_excluded": false
+      },
+      {
+        "R_W_per_s": 500000000.0,
+        "tau_s": 0.02,
+        "old_04_fixed_initial_state_upper_margin_J": -3823.3745400633443,
+        "old_04_upper_prefix_s": 0.003603247826688712,
+        "proxy_04_fixed_original_healthy_states_upper_max_J": -3917.690485837884,
+        "proxy_04_fixed_original_healthy_states_lower_max_J": -6759.063936147986,
+        "proxy_04_recomputed_harmonic_healthy_states_upper_max_J": -3917.690485837884,
+        "proxy_04_recomputed_harmonic_healthy_states_lower_max_J": -6759.063936147986,
+        "proxy_recomputed_either_side_excluded": false
+      },
+      {
+        "R_W_per_s": 500000000.0,
+        "tau_s": 0.002,
+        "old_04_fixed_initial_state_upper_margin_J": -4252.544003714147,
+        "old_04_upper_prefix_s": 0.0005986723888893316,
+        "proxy_04_fixed_original_healthy_states_upper_max_J": -3917.690485837884,
+        "proxy_04_fixed_original_healthy_states_lower_max_J": -6759.063936147986,
+        "proxy_04_recomputed_harmonic_healthy_states_upper_max_J": -4672.25114759147,
+        "proxy_04_recomputed_harmonic_healthy_states_lower_max_J": -7674.775501872404,
+        "proxy_recomputed_either_side_excluded": false
+      },
+      {
+        "R_W_per_s": 500000000.0,
+        "tau_s": 0.0002,
+        "old_04_fixed_initial_state_upper_margin_J": -4252.544003714147,
+        "old_04_upper_prefix_s": 0.0005986723888893316,
+        "proxy_04_fixed_original_healthy_states_upper_max_J": -3917.690485837884,
+        "proxy_04_fixed_original_healthy_states_lower_max_J": -6759.063936147986,
+        "proxy_04_recomputed_harmonic_healthy_states_upper_max_J": -4672.888007307079,
+        "proxy_04_recomputed_harmonic_healthy_states_lower_max_J": -7765.885132354748,
+        "proxy_recomputed_either_side_excluded": false
+      }
+    ]
+  },
+  "selfchecks_absolute_integral_errors_J": {
+    "integral_815639.6755381202_0.02_False": 9.094947017729282e-12,
+    "integral_815639.6755381202_0.02_True": 7.275957614183426e-12,
+    "integral_-400000_0.15_False": 4.3655745685100555e-11,
+    "integral_-400000_0.15_True": 2.2737367544323206e-12,
+    "integral_300000_0.15_False": 3.637978807091713e-12,
+    "integral_300000_0.15_True": 4.557875217869878e-05,
+    "exact_envelope_50000000.0_0.02_815639.6755381202_False": 7.275957614183426e-12,
+    "exact_envelope_500000000.0_0.02_-815639_True": 2.9103830456733704e-11,
+    "exact_envelope_5000000.0_0.0002_300000_False": 3.637978807091713e-12
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "case": "fast_radial",
+  "evidence": "new_fixed_standard_allocation_diagnostic",
+  "allocator": "radial",
+  "port": "fast",
+  "allocator_source_sha256": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a",
+  "topology_scope": "Synthetic controlled DC port, not a validated DC/DC loop and not a directly connected battery",
+  "counterfactual": "Same full initial state; standard allocation change and separately declared synthetic port speed",
+  "protocol_sha256": "1e65c7c2781d6ecc12cfa7fc1f224f68e76934d82afa45cc93a2540d254d63d6",
+  "source_sha256": "b83ec7e6ba75c65ef1ab115d6aff91d7de6a55259dc2655b8cd2226eed8b0ef1",
+  "source_tau_s": 0.002,
+  "source_ramp_W_per_s": 50000000.0,
+  "h_s": 1e-05,
+  "initial_time_s": 0.6,
+  "final_time_s": 2.75005,
+  "stop_reason": "completed",
+  "no_numerical_hard_violation_up_to_stop": false,
+  "complete_hard_safe": false,
+  "current_continuous_crossings_s": [
+    0.600357465758903
+  ],
+  "first_observed_beyond_roundoff": {
+    "actual_current": 0.6003599999999998
+  },
+  "terminal_contact": {},
+  "metrics": {
+    "I_peak_pu": 1.0303943280163241,
+    "Vdc_min_pu": 0.9701089993769522,
+    "Vdc_max_pu": 1.044498004344934,
+    "S_peak_VA": 1144667.1405039225,
+    "P_abs_peak_W": 812427.7500243811,
+    "Pb_abs_peak_W": 894431.4231170702,
+    "soc_min": 0.49969041184616214,
+    "soc_max": 0.49993044008718335,
+    "energy_residual_max_J": 2.792203304124996e-06,
+    "modulation_max": 0.48725368969436,
+    "reference_I_peak_pu": 0.9500000000000003
+  },
+  "event_boundary_states": {
+    "0.60005": {
+      "time_s": 0.60005,
+      "plant_state": [
+        929.3461775581675,
+        -735.802774528285,
+        21915.135193273607,
+        815639.6757658696,
+        -500872.9865492523,
+        472124.24016722117,
+        28434.537533742998,
+        39.530358852006785,
+        35.4196430187317,
+        40.781983781981076,
+        41.61426916528682,
+        0.46964114798880724,
+        0.41964301873554954
+      ],
+      "WL_J": 276.71216930637837,
+      "controller": {
+        "theta": 226.2431330121754,
+        "zpll": 6.026316738971263e-10,
+        "omega": 376.991118430287,
+        "zi": [
+          -0.9876990873474097,
+          38.25384815848013
+        ],
+        "applied": [
+          0.45520292726017053,
+          0.06970508830886338
+        ],
+        "queued": [
+          0.45225229559673497,
+          0.08681224241367079
+        ],
+        "pb_command": 815639.6857746067
+      },
+      "note": "Physical state at exact external-event boundary; controller phase still corresponds to interval start until held-frequency advancement."
+    },
+    "0.75005": {
+      "time_s": 0.75005,
+      "plant_state": [
+        1137.3702825555567,
+        -720.8099084131821,
+        21794.197325145557,
+        416819.6866124302,
+        -564197.9112638483,
+        529509.2381499056,
+        34415.0350936528,
+        59017.27472602087,
+        50593.0407155743,
+        62099.208204043185,
+        63366.53898371939,
+        61022.725273976655,
+        54442.79857046347
+      ],
+      "WL_J": 357.0792093972704,
+      "controller": {
+        "theta": 282.8955552864995,
+        "zpll": 0.00041052284202500167,
+        "omega": 376.99138741715353,
+        "zi": [
+          -0.29573444503060986,
+          17.218051984012625
+        ],
+        "applied": [
+          0.21594712454137627,
+          0.08008366899521298
+        ],
+        "queued": [
+          0.21277581523327954,
+          0.0881659921790482
+        ],
+        "pb_command": 416835.9471252655
+      },
+      "note": "Physical state at exact external-event boundary; controller phase still corresponds to interval start until held-frequency advancement."
+    }
+  },
+  "final_plant_state": [
+    929.3461731036939,
+    -735.8027349571842,
+    21915.135592875144,
+    815639.6604546205,
+    -2229034.7076326106,
+    2100425.4368682536,
+    128295.06152933974,
+    1646598.6115383948,
+    1466145.1479729002,
+    1693639.2686447927,
+    1728203.3353489253,
+    73646.82379262018,
+    70082.00861038688
+  ],
+  "final_controller": {
+    "theta": 1036.7928871942188,
+    "zpll": -4.6611188098964995e-11,
+    "omega": 376.99111843072285,
+    "zi": [
+      -0.9876997935268512,
+      38.25385450233894
+    ],
+    "applied": [
+      0.4552029203325115,
+      0.0697050873367722
+    ],
+    "queued": [
+      0.4522522887287875,
+      0.08681224118432987
+    ],
+    "pb_command": 815639.6604545424
+  },
+  "wall_time_s": 123.0383328099997,
+  "storage": "100us endpoints/full state/controls/interval extrema; dense fault-onset through50ms after clearance and near-hard-boundary intervals; no ordinary full dense duplicate"
+}

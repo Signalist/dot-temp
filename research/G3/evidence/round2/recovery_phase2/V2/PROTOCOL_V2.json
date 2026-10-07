@@ -1,0 +1,135 @@
+{
+  "phase": "G3 recovery phase2 V2: measured total stored-energy PI, separate pre-result revision",
+  "status": "Frozen before V2 implementation execution; V1A fully preserved as known regression evidence",
+  "primary_witness": "results/witness_a100_q600_n160.npz",
+  "scope": "Only recovery_phase2 writes; core theory/results, src, audit and validation retained read-only. No novelty claim for standard causal PI recovery.",
+  "physical": {
+    "Vrms_V": 690,
+    "f_Hz": 50,
+    "L_H": 0.0003,
+    "R_ohm": 0.005,
+    "C_F": 0.03,
+    "Vdc_V": [
+      1080,
+      1320
+    ],
+    "I_phase_A": 1500,
+    "I_space_vector_A": 1500,
+    "B_J": [
+      0,
+      100000
+    ],
+    "b_W": [
+      -450000,
+      450000
+    ],
+    "u_W": [
+      -450000,
+      450000
+    ],
+    "fs_Hz": 10000,
+    "current_PI_alpha_per_s": 2000
+  },
+  "controller": {
+    "warmup_s": 2.0,
+    "W_set_J": 21600,
+    "B_set_J": 50000,
+    "baseline_load_W": 650000,
+    "model_baseline_P_W": 654498.7248565304,
+    "DC_PI": "At PWM starts eS=71600-(W+B); cP=clip(100*eS+2500*zS,-4500,4500) W. Update zS+=Ts*eS unless this drives an already saturated raw output farther into saturation. Actual measured W+B and constant declared Wset+Bset only. The source legacy field zw now stores zS, in J*s.",
+    "inventory": "uB=clip(20*(B-Bset),-10000,10000) W during warmup and recovery, disabled during service. Actual measured B only. b follows actual tau and actual hard slew limiter.",
+    "service": "At first PWM period containing authorized onset, hold last current cP and zS through onset+T; original exact polynomial u feedforward byte-preserved, no uB. Existing known P/Q service schedule and current PI/feedforward retained. P command adds held pre-onset cP; no W/B feedback borrowing during service.",
+    "recovery": "After the first PWM boundary at or after onset+T, resume same total stored-energy PI and inventory feedback, original d=650 kW continues, P model baseline, Q=0, no future workload sensing, no counterfactual reference input, no parameter adaptation.",
+    "allowed_online_inputs": [
+      "actual present measured current/voltage, W, B",
+      "constant declared W/B and baseline setpoints",
+      "authorized service clock",
+      "original prerecorded authorized service P/Q/d/u schedule"
+    ],
+    "forbidden_online_inputs": [
+      "matched no-service trajectory",
+      "future measured workload",
+      "actual tau/ramp supplied to controller",
+      "post-holdout gain tuning"
+    ],
+    "checkpoint": "Fixed warmup completes on a PWM boundary at absolute grid time 2.0 s. Clone ALL state: iabc,W,B,b,current PI integrals,zS,last cP,held cP,clock/PWM phase. Each service and no-service pair has identical checkpoint, integration step and actual plant parameters. Healthy evolves freely with same PI/inventory control; evaluation only. No reset after service. The healthy fork uses the identical service-clock gates and PI freeze/resume timing, but P=baseline,Q=0,d=650 kW,uFeed=0 during that window. No-service output is never read by service control. ONE nominal tau5ms/ramp30MWs warmup checkpoint per integration resolution is reused across all holdouts at that resolution. Actual held-out tau/ramp changes only the plant after cloning; no fresh warmup or bias fit. New V2 warmup is generated once per dt under V2 itself; no reused held-out fit.",
+    "sampling_note": "Command/feedforward uses existing start/midpoint sampling with known schedule. Controller hold spans the first PWM period containing onset, at most 100 us early. Recovery enables at the first PWM boundary at or after T, at most 100 us late. This timing is identical across trials and not tuned.",
+    "why": "Battery power b cancels from d(W+B)/dt. Regulating measured W+B for the external active-power correction avoids asking the grid to counteract internal battery redistribution while B feedback restores inventory. Filter energy is not ignored in offline accounting; its derivative is a transient plant effect seen by actual energy control."
+  },
+  "execution_order": [
+    "V2 nominal warmup and two identical healthy fork identity",
+    "nominal tau5ms/ramp30MWs/onset0 at dt1us and0.5us",
+    "known-regression full factorial tau4/6ms x ramp25/35MWs x onset37/73us, each dt1us and0.5us",
+    "fresh blind confirmation full factorial tau4.5/5.5ms x ramp27/33MWs x onset19/61us, each dt1us and0.5us"
+  ],
+  "nominal_command_model": {
+    "tau_s": 0.005,
+    "ramp_W_per_s": 30000000,
+    "change_in_holdouts": false
+  },
+  "metrics": {
+    "warmup_periodicity": "Healthy warmup qualification: max successive-grid-cycle differences over last five 20 ms cycles: W/B<=0.1 J and abc currents<=0.2 A; same check on final healthy recovery window. Report cycle mean W\u221221600 J, W ripple and cycle-mean drift. These thresholds are frozen and failed qualification invalidates the corresponding matched-health result.",
+    "hard_bounds": "All numerical integration extrema: W-derived V, instantaneous abs each phase and space-vector current, B,b,u,actual bdot. Report requested raw commands, all clamping and PWM duty utilization; saturations alone are not failed health, physical-bound violation is.",
+    "service_tracking": "Ten 20 ms bins relative to declared onset. Max absolute bin mean actual P minus authorized nominal P <=2000 W, Q<=10000 var. Also report instantaneous and PWM-cycle extrema and tracking, with baseline held correction separately.",
+    "recovery_window": "Final five phase-matched 20 ms cycles ending onset+T+0.5 s. PWM-boundary samples and a fixed common 1 us grid in this final 100 ms are compared offline.",
+    "recovery_tolerance": {
+      "max_abs_dW_J": 2,
+      "max_abs_dB_J": 2,
+      "max_abs_phase_current_difference_A": 2
+    },
+    "tolerance_rationale": "2 J is 0.0093% Wset and 0.004% Bset, well above prior fine-step closure error; 2 A is 0.13% of phase rating. These are explicitly approximate engineering return tolerances, not exact finite-time recovery.",
+    "complete_orbit_diagnostics": [
+      "b",
+      "current PI integrals",
+      "total-energy PI integral zS and cP",
+      "duty and grid/PWM phase",
+      "filter energy"
+    ],
+    "recovery_budget": {
+      "max_abs_incremental_cP_W": 5000,
+      "abs_net_incremental_grid_energy_J": 100,
+      "positive_only_incremental_grid_energy_J": 100,
+      "absolute_integral_incremental_grid_energy_J": 100
+    },
+    "cost": "Recovery-window integral starts at declared onset+T and ends T+0.5 s, measured grid P minus independently evolved matched healthy P; report signed net, absolute net, positive-only energy, and whether abs net <=100 J. Also report all costs against model-baseline P and separately report healthy baseline correction/loss bias. Incremental cP budget uses service-minus-matched-health. Report main-service and total extra energies separately, exact stored-energy/loss/load decomposition and numerical residual. Continue both branches for an additional 0.2 s after the recovery deadline with d=650 kW; report incremental post-deadline energy and total service-through-observation cost to reveal downstream debt. Absolute and positive-only integrals use phase-matched PWM-cycle mean active power, explicitly distinguished from signed net exact quadrature. Positive-only and absolute incremental recovery energy integrals each also must be <=100 J; fixed before all runs. Every100J budget here is a separate engineering recovery-window contract, not the core100J service exact-return allowance.",
+    "numerics": "Event-aligned original explicit midpoint; two integration steps; preserve all V1 failures. Energy closure target <=0.1 J and coarse/fine terminal W/B delta<=0.1 J, phase-current delta<=0.1 A are quality checks; failure reported without hidden tuning.",
+    "post_deadline_observation_s": 0.2
+  },
+  "stop_rule": "Execute all frozen V2 nominal, regression and fresh confirmation cells; preserve any failure with no posthoc relaxation or tuning. Fresh interior cells do not imply uniform robustness over a parameter interval. Original V1A14pass/4fail remains unchanged.",
+  "regression_cases": {
+    "actual_tau_s": [
+      0.004,
+      0.006
+    ],
+    "actual_ramp_W_per_s": [
+      25000000,
+      35000000
+    ],
+    "onset_offset_s": [
+      3.7e-05,
+      7.3e-05
+    ],
+    "integration_step_s": [
+      1e-06,
+      5e-07
+    ]
+  },
+  "fresh_confirmation": {
+    "actual_tau_s": [
+      0.0045,
+      0.0055
+    ],
+    "actual_ramp_W_per_s": [
+      27000000,
+      33000000
+    ],
+    "onset_offset_s": [
+      1.9e-05,
+      6.1e-05
+    ],
+    "integration_step_s": [
+      1e-06,
+      5e-07
+    ]
+  }
+}

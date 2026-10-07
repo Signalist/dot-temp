@@ -1,0 +1,331 @@
+{
+  "stage": "Phase3 same-workload no-grid-service comparator",
+  "status": "Frozen before phase3 simulation results",
+  "authorized_scope": "new phase3 directory only; all prior core and recovery freezes preserved",
+  "branches": {
+    "F": "Immutable V2 mode0: Pbaseline,Q0,d650kW,uFeed0 through service, same gate and recovery controller",
+    "S": "Immutable V2 mode1: original prescribed P/Q/d/uFeed service and V2 gate/recovery controller",
+    "L": "New mode2: exactly S actual d(t) at every time, Qrequest0, uFeed0, load-following Prequest with nominal copper compensation; same checkpoint/current loop/gates/recovery"
+  },
+  "L_definition": {
+    "c": "R/(1.5*VP^2), fixed R=.005ohm VP=563.3826408401309V",
+    "P": "(1-sqrt(1-4*c*d))/(2*c), evaluated by algebraically identical stable form 2*d/(1+sqrt(1-4*c*d))",
+    "P_derivative": "d_dot/sqrt(1-4*c*d), where d_dot is exact local slope of existing authorized piecewise-linear workload schedule",
+    "Q": 0,
+    "u_feed": 0,
+    "actual_load": "same Signal.at(t-onset)[2] as S, same input file hash, same interval clipping; no curtailment, shift or reallocation",
+    "outside_service": "Pbaseline654498.72485653043W,Q0,d650000W,uFeed0",
+    "interpretation": "Feasible strong load-following no-grid-service comparator, not constant-import no-buffer operation"
+  },
+  "controller": "Exactly frozen V2 10kHz current loop, midpoint known-schedule preview, W+B energy PI100/2500 with absolute4500W clip and conditional integration, inventory20/s clip10000W, service hold gates and no inventory correction during service; ideal noiseless present-state inputs; no healthy trace input",
+  "initialization": "Reuse immutable V2 nominal checkpoint per integration step for all branches/configurations; absolute grid/PWM clock starts2s without relabel or state rotation; actual tau/ramp only plant",
+  "preview": "Known authorized schedule at PWM midpoint permitted identically to V2. No future actual measured d. Off-PWM onset states need not be equal due scheduled preview; pre-onset ledger explicit",
+  "execution_order": [
+    "new executable mode1 nominal replay at each integration step, must reproduce old S outputs byte-for-byte/array-bitwise and extrema exactly",
+    "generate L only for all34 enumerated rows; reuse all immutable F/S evidence",
+    "independent three-branch workload, energy, bound, return and cost assessment"
+  ],
+  "configurations": [
+    {
+      "tag": "nominal_h1",
+      "tau_s": 0.005,
+      "ramp_W_per_s": 30000000.0,
+      "offset_s": 0,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "nominal_h05",
+      "tau_s": 0.005,
+      "ramp_W_per_s": 30000000.0,
+      "offset_s": 0,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4_r25_o37_h1",
+      "tau_s": 0.004,
+      "ramp_W_per_s": 25000000.0,
+      "offset_s": 3.7e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4_r25_o37_h05",
+      "tau_s": 0.004,
+      "ramp_W_per_s": 25000000.0,
+      "offset_s": 3.7e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4_r25_o73_h1",
+      "tau_s": 0.004,
+      "ramp_W_per_s": 25000000.0,
+      "offset_s": 7.3e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4_r25_o73_h05",
+      "tau_s": 0.004,
+      "ramp_W_per_s": 25000000.0,
+      "offset_s": 7.3e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4_r35_o37_h1",
+      "tau_s": 0.004,
+      "ramp_W_per_s": 35000000.0,
+      "offset_s": 3.7e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4_r35_o37_h05",
+      "tau_s": 0.004,
+      "ramp_W_per_s": 35000000.0,
+      "offset_s": 3.7e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4_r35_o73_h1",
+      "tau_s": 0.004,
+      "ramp_W_per_s": 35000000.0,
+      "offset_s": 7.3e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4_r35_o73_h05",
+      "tau_s": 0.004,
+      "ramp_W_per_s": 35000000.0,
+      "offset_s": 7.3e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau6_r25_o37_h1",
+      "tau_s": 0.006,
+      "ramp_W_per_s": 25000000.0,
+      "offset_s": 3.7e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau6_r25_o37_h05",
+      "tau_s": 0.006,
+      "ramp_W_per_s": 25000000.0,
+      "offset_s": 3.7e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau6_r25_o73_h1",
+      "tau_s": 0.006,
+      "ramp_W_per_s": 25000000.0,
+      "offset_s": 7.3e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau6_r25_o73_h05",
+      "tau_s": 0.006,
+      "ramp_W_per_s": 25000000.0,
+      "offset_s": 7.3e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau6_r35_o37_h1",
+      "tau_s": 0.006,
+      "ramp_W_per_s": 35000000.0,
+      "offset_s": 3.7e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau6_r35_o37_h05",
+      "tau_s": 0.006,
+      "ramp_W_per_s": 35000000.0,
+      "offset_s": 3.7e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau6_r35_o73_h1",
+      "tau_s": 0.006,
+      "ramp_W_per_s": 35000000.0,
+      "offset_s": 7.3e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau6_r35_o73_h05",
+      "tau_s": 0.006,
+      "ramp_W_per_s": 35000000.0,
+      "offset_s": 7.3e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4.5_r27_o19_h1",
+      "tau_s": 0.0045,
+      "ramp_W_per_s": 27000000.0,
+      "offset_s": 1.9e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4.5_r27_o19_h05",
+      "tau_s": 0.0045,
+      "ramp_W_per_s": 27000000.0,
+      "offset_s": 1.9e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4.5_r27_o61_h1",
+      "tau_s": 0.0045,
+      "ramp_W_per_s": 27000000.0,
+      "offset_s": 6.1e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4.5_r27_o61_h05",
+      "tau_s": 0.0045,
+      "ramp_W_per_s": 27000000.0,
+      "offset_s": 6.1e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4.5_r33_o19_h1",
+      "tau_s": 0.0045,
+      "ramp_W_per_s": 33000000.0,
+      "offset_s": 1.9e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4.5_r33_o19_h05",
+      "tau_s": 0.0045,
+      "ramp_W_per_s": 33000000.0,
+      "offset_s": 1.9e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4.5_r33_o61_h1",
+      "tau_s": 0.0045,
+      "ramp_W_per_s": 33000000.0,
+      "offset_s": 6.1e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau4.5_r33_o61_h05",
+      "tau_s": 0.0045,
+      "ramp_W_per_s": 33000000.0,
+      "offset_s": 6.1e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau5.5_r27_o19_h1",
+      "tau_s": 0.0055,
+      "ramp_W_per_s": 27000000.0,
+      "offset_s": 1.9e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau5.5_r27_o19_h05",
+      "tau_s": 0.0055,
+      "ramp_W_per_s": 27000000.0,
+      "offset_s": 1.9e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau5.5_r27_o61_h1",
+      "tau_s": 0.0055,
+      "ramp_W_per_s": 27000000.0,
+      "offset_s": 6.1e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau5.5_r27_o61_h05",
+      "tau_s": 0.0055,
+      "ramp_W_per_s": 27000000.0,
+      "offset_s": 6.1e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau5.5_r33_o19_h1",
+      "tau_s": 0.0055,
+      "ramp_W_per_s": 33000000.0,
+      "offset_s": 1.9e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau5.5_r33_o19_h05",
+      "tau_s": 0.0055,
+      "ramp_W_per_s": 33000000.0,
+      "offset_s": 1.9e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau5.5_r33_o61_h1",
+      "tau_s": 0.0055,
+      "ramp_W_per_s": 33000000.0,
+      "offset_s": 6.1e-05,
+      "dt_s": 1e-06,
+      "status": "retrospective comparator check; already observed physical configuration"
+    },
+    {
+      "tag": "tau5.5_r33_o61_h05",
+      "tau_s": 0.0055,
+      "ramp_W_per_s": 33000000.0,
+      "offset_s": 6.1e-05,
+      "dt_s": 5e-07,
+      "status": "retrospective comparator check; already observed physical configuration"
+    }
+  ],
+  "sample_and_windows": {
+    "T_s": 0.2,
+    "checkpoint_absolute_s": 2,
+    "return_deadline_s_after_onset": 0.7,
+    "observation_end_s_after_onset": 0.9,
+    "dense_return_window_s_after_onset": [
+      0.6,
+      0.7
+    ],
+    "dense_common_clock_sampling_s": 1e-06,
+    "cost_windows": [
+      "checkpoint\u2192onset",
+      "onset\u2192T",
+      "T\u2192T+.5",
+      "T+.5\u2192T+.7",
+      "onset\u2192T+.7",
+      "checkpoint\u2192T+.7"
+    ]
+  },
+  "new_comparator_acceptance": {
+    "hard_bounds": "Both S and L: V1080\u20131320V; Iphase/Ispace\u22641500A; B0\u2013100kJ; |b|/|u|\u2264450kW; actual declared slew; modulation/circular utilization\u22641",
+    "service_tracking": "L tracks own non-service request; S tracks original request. Each20ms-cycle mean P/Q error\u22642kW/10kvar, with matching command-window means",
+    "return": "Dense final100ms S\u2212L max|\u0394W|/|\u0394B|\u22642J; each max|\u0394i_phase|\u22642A; diagnostic b/controller/duty/Z differences and individual final orbit periodicity",
+    "recovery_budgets": "FromT toT+.5: max paired |cP_S\u2212cP_L|\u22645000W, absolute net signed active energy\u2264100J, positive-only energy\u2264100J, absolute-integral energy\u2264100J",
+    "numerics": "Midpoint physical energy residual\u2264.1J; both integration resolutions retained; max cumulative S/L numerical load-energy discrepancy\u22641e-5J, with exact input function equality separately established; workload integration must be clipped to0\u2013.2s, not full .3s CSV",
+    "identity": "For signed every-window grossAC,copper,net-after-copper,load and stored-energy differences, S\u2212F=(S\u2212L)+(L\u2212F), residual\u22641e-8J up to floating cancellation. Do NOT subtract positive/absolute integrals linearly; recompute directly for each paired waveform"
+  },
+  "interpretation": "All phase3 cells retrospective; no new blind robustness evidence. Original F/S cost over recovery[.2,.7] already has identical650kW input and remains valid baseline-orbit return cost with differing prehistories. New S/L holds whole time-resolved actual workload fixed and changes grid-service/buffer strategy versus a declared load-following counterfactual, not a uniquely causal universal service attribution. Original V2 claims/freeze not retroactively changed.",
+  "stop_rule": "Preserve all old results and any new failure. No post-result controller, comparator, bounds or budget changes."
+}

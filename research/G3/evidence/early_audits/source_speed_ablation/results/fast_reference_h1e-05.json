@@ -1,0 +1,145 @@
+{
+  "case": "fast_reference",
+  "evidence": "new_hypothetical_port_speed_diagnostic",
+  "topology_scope": "Synthetic controlled DC port, not a validated DC/DC loop and not a directly connected battery",
+  "counterfactual": "Same full initial state; declared tau/ramp change only",
+  "protocol_sha256": "038754241a24782fd09a3834b8d6d7d1aea1da868949dee71f71871d70dd1ba0",
+  "source_sha256": "359946ce807beeeaf7f19230fa890570199fa5587c8b52669d1f12f9e224113c",
+  "source_tau_s": 0.002,
+  "source_ramp_W_per_s": 50000000.0,
+  "h_s": 1e-05,
+  "initial_time_s": 0.6,
+  "final_time_s": 2.75005,
+  "stop_reason": "completed",
+  "no_numerical_hard_violation_up_to_stop": true,
+  "complete_hard_safe": true,
+  "current_continuous_crossings_s": [],
+  "first_observed_beyond_roundoff": {},
+  "terminal_contact": {},
+  "metrics": {
+    "I_peak_pu": 0.8353580928610971,
+    "Vdc_min_pu": 1.0072593769319618,
+    "Vdc_max_pu": 1.0072683906712483,
+    "S_peak_VA": 1063014.6092848468,
+    "P_abs_peak_W": 800000.0043642087,
+    "Pb_abs_peak_W": 815639.6825018511,
+    "soc_min": 0.49968190464889967,
+    "soc_max": 0.49993044008718335,
+    "energy_residual_max_J": 4.3865547922905535e-06,
+    "modulation_max": 0.4605089622790201,
+    "reference_I_peak_pu": 0.8353580730601242
+  },
+  "event_boundary_states": {
+    "0.60005": {
+      "time_s": 0.60005,
+      "plant_state": [
+        929.3461775581675,
+        -735.802774528285,
+        21915.135193273607,
+        815639.6757658696,
+        -500872.9865492523,
+        472124.24016722117,
+        28434.537533742998,
+        39.530358852006785,
+        35.4196430187317,
+        40.781983781981076,
+        41.61426916528682,
+        0.46964114798880724,
+        0.41964301873554954
+      ],
+      "WL_J": 276.71216930637837,
+      "controller": {
+        "theta": 226.2431330121754,
+        "zpll": 6.026316738971263e-10,
+        "omega": 376.991118430287,
+        "zi": [
+          -0.9876990873474097,
+          38.25384815848013
+        ],
+        "applied": [
+          0.45520292726017053,
+          0.06970508830886338
+        ],
+        "queued": [
+          0.45225229559673497,
+          0.08681224241367079
+        ],
+        "pb_command": 815639.6857746067
+      },
+      "note": "Physical state at exact external-event boundary; controller phase still corresponds to interval start until held-frequency advancement."
+    },
+    "0.75005": {
+      "time_s": 0.75005,
+      "plant_state": [
+        929.3461731778319,
+        -735.8027357392526,
+        21915.135593598363,
+        815639.6605145591,
+        -625715.7922968881,
+        589935.7129593587,
+        35465.8701017864,
+        119099.67323678831,
+        105842.08898531742,
+        122386.7316164911,
+        124884.4200168229,
+        940.3267646102559,
+        807.0889853193509
+      ],
+      "WL_J": 276.71215646148414,
+      "controller": {
+        "theta": 282.79180077674687,
+        "zpll": -5.174726098299582e-11,
+        "omega": 376.99111843071637,
+        "zi": [
+          -0.9876997810907725,
+          38.25385437726142
+        ],
+        "applied": [
+          0.4552029203798617,
+          0.06970508734126347
+        ],
+        "queued": [
+          0.4522522887758074,
+          0.08681224119059236
+        ],
+        "pb_command": 815639.6605109954
+      },
+      "note": "Physical state at exact external-event boundary; controller phase still corresponds to interval start until held-frequency advancement."
+    }
+  },
+  "final_plant_state": [
+    929.3461731036941,
+    -735.8027349571839,
+    21915.135592875147,
+    815639.6604546208,
+    -2290286.5279223644,
+    2160755.348397263,
+    129216.97028984543,
+    1706568.2430249378,
+    1516597.6615046656,
+    1753666.0525287439,
+    1789455.1556372452,
+    13471.75697806786,
+    11562.661505587255
+  ],
+  "final_controller": {
+    "theta": 1036.7928871942188,
+    "zpll": -4.689100217513363e-11,
+    "omega": 376.99111843072257,
+    "zi": [
+      -0.9876997935267974,
+      38.253854502338974
+    ],
+    "applied": [
+      0.4552029203325114,
+      0.06970508733677218
+    ],
+    "queued": [
+      0.45225228872878753,
+      0.08681224118432984
+    ],
+    "pb_command": 815639.6604545423
+  },
+  "wall_time_s": 131.13772365399927,
+  "storage": "100us endpoints/full state/controls/interval extrema; dense fault-onset through50ms after clearance and near-hard-boundary intervals; no ordinary full dense duplicate"
+}

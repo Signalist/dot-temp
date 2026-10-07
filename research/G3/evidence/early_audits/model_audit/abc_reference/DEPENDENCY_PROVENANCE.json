@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "installed_motulator": "0.7.8",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "tqdm": "4.70.1",
+  "install_scope": "private .venv_motulator with read-only system-site-packages; --no-deps for motulator and tqdm; no Torch/CUDA install",
+  "official_source": "https://pypi.org/project/motulator/0.7.8/",
+  "wheel_surviving_cache_path": ".cache/pip-unpack-7i_equea/motulator-0.7.8-py3-none-any.whl",
+  "wheel_in_deliverable": false,
+  "wheel_sha256": "67f7e713c0ecd933250ec9f2d06023e54b5f65d03bf629633effb8e85fdf045e",
+  "wheel_bytes": 129270,
+  "official_wheel_metadata": [
+    {
+      "filename": "motulator-0.7.8-py3-none-any.whl",
+      "size": 129270,
+      "digests": {
+        "blake2b_256": "1212e978184025db75a2672b5cd8a4678fe79c02506bd7023c76a07171c35b34",
+        "md5": "4886bd23f75e953ef917230a9583b61a",
+        "sha256": "67f7e713c0ecd933250ec9f2d06023e54b5f65d03bf629633effb8e85fdf045e"
+      },
+      "url": "https://files.pythonhosted.org/packages/12/12/e978184025db75a2672b5cd8a4678fe79c02506bd7023c76a07171c35b34/motulator-0.7.8-py3-none-any.whl"
+    }
+  ],
+  "wheel_matches_official_pypi": true
+}

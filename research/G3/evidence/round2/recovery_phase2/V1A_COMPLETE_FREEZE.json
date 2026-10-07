@@ -1,0 +1,19 @@
+{
+  "complete_at_utc": "2026-10-03T09:36:34.739843+00:00",
+  "14_pass_4_fail_retained": true,
+  "files": {
+    "PROTOCOL_V1.json": "e1952a799ffec1988d3fb0bca3ef22ca33d7313001b635ad44929cfe29cb8f63",
+    "PROTOCOL_V1A.json": "e781acb04587aac37eb5f8c3ba40980d17dc392beceb1a9c2d1e8b41ace5f2fc",
+    "EXECUTION_FREEZE.json": "9e3ac8054a9f7b4bbb224fcb7b21c0ac024aa1396747702553442ffb46a195a7",
+    "recovery.cpp": "62581893afc289718d9ca8f9ec374ceac457dce5510ef1c8a887f2ffeca99ef7",
+    "recovery": "3e3b09dc90e97ca0e23863b787e8dab0031ea2c3a89ea6a9430b9ac72710080a",
+    "run_campaign.py": "5fe75e0e08dc23914847b7ac0511c6bc06eefaed384142e9507e20ed2bdc0a6b",
+    "summarize.py": "6fb29c4b38e28f82516fbfceaa264b4ee991f51412ab8d0bf611f186902c3dec",
+    "make_report.py": "d94fb10e16d8049a90106bee025a5c3ab2f2ff4a385a2c2863690cfaa9d1fc4a",
+    "SUMMARY_V1A.json": "692b42a5e8c69834303535e9415be02533f0a7b6afd6e5f8ee1aea5b379cb19d",
+    "REPORT_V1A.md": "dbe7fda1f0cb3b0c0ecc206a2bc7e88afe6714e2b48379751f5c636f2fbd532f",
+    "ENERGY_COST_TABLE_V1A.csv": "e8d0fa1ab68984a53a06b0042f01646335933ebbaebca1c9a2e3932eaeb0fe9d",
+    "ACCEPTANCE_TABLE_V1A.csv": "420be9637896e229f62da2445fe141092d79df76eefa2e1397e69b73a185b6fa",
+    "RECOVERY_V1A.png": "ca58547fc80155220f79fd6e9fbe7fd64bb71870fe09c07fc1b00f628aa6cebd"
+  }
+}

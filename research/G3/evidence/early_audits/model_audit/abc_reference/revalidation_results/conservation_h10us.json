@@ -1,0 +1,33 @@
+{
+  "case": "conservation_nominal",
+  "h_max_s": 1e-05,
+  "status": "completed",
+  "last_time_s": 0.5,
+  "actual_current_max_pu": 0.5045272658683646,
+  "reference_current_max_pu": 0.4283537194395693,
+  "first_actual_current_gt_1_s": null,
+  "dc_voltage_min_pu": 0.997706377610505,
+  "dc_voltage_max_pu": 1.0046591616033016,
+  "modulation_max": 0.4382132958952993,
+  "initial_root_residual": 4.850638409455617e-17,
+  "max_abc_current_sum_A": 1.4495071809506044e-10,
+  "energy": {
+    "ac_residual_J": -8.110466893640478e-07,
+    "dc_residual_J": -6.489244697149843e-10,
+    "battery_residual_J": 0.00018352351617068052,
+    "dc_initial_J": 21600.0,
+    "inductor_initial_J": 72.86219320048508,
+    "inductor_final_J": 72.76451763276965,
+    "integral_Pinv_J": 251087.4578161837,
+    "integral_Psource_J": 248837.5099093239,
+    "integral_copper_J": 2250.0455832385633,
+    "integral_inverter_loss_J": 1163.910686547582,
+    "integral_Pbus_J": 252321.28871487564,
+    "integral_Pbat_J": 254869.9886008837,
+    "delta_battery_energy_J": -260071.4167561531,
+    "delta_dc_energy_J": 69.92021214499619
+  },
+  "claims": "Fundamental switching-cycle-average abc model only; no protection after stop, no state projection",
+  "protocol_sha256": "d760dc40b8784fe51e7cb503d4bde064139563e82b48255fb8699998e87eddc9",
+  "source_sha256": "005b8379f91f0997f81d15cbdf2b7423b7f22ee3a4e5343ef04d6c981177e847"
+}

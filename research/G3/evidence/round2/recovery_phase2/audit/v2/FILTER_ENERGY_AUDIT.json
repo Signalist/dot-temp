@@ -1,0 +1,789 @@
+{
+  "exact_identity": "d(W+B)/dt = Pgrid - copper_loss - load - dZ/dt, Z=(L/2)*sum(iabc^2)",
+  "analytic_terminal_bound_J": 1.9091883092036779,
+  "bound_scope": "At any instant where all three current differences <=2A and each branch space-vector current<=1500A. Numerical traces establish these premises only at sampled times.",
+  "cases": [
+    {
+      "tag": "nominal_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.010308402431775221,
+        "final_PWM_boundary_J": 4.426455575412547e-07,
+        "postdeadline_PWM_boundary_J": 8.584504485042999e-08,
+        "final_common_1us_J": 4.684434031787532e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.672353033492255e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.5076067181071267e-05,
+        "B": 0.0,
+        "ia": 7.431750304931484e-06,
+        "ib": 4.4303508275334025e-06,
+        "ic": 6.0354572042342625e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.0552289914994617,
+      "healthy_dense_W_ripple_J": 10.119921583154792
+    },
+    {
+      "tag": "nominal_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.01030847269103674,
+        "final_PWM_boundary_J": 4.4396858811524e-07,
+        "postdeadline_PWM_boundary_J": 8.66006644173467e-08,
+        "final_common_1us_J": 4.69716013640209e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.6649438987078798e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.203838999383152e-06,
+        "B": 0.0,
+        "ia": 1.4402978649741272e-06,
+        "ib": 8.706780363354483e-07,
+        "ic": 1.1814316849267925e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05524781379790511,
+      "healthy_dense_W_ripple_J": 10.11989080229614
+    },
+    {
+      "tag": "tau4_r25_o37_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.014381180554607909,
+        "final_PWM_boundary_J": 5.846635843909098e-06,
+        "postdeadline_PWM_boundary_J": 1.546585735923145e-06,
+        "final_common_1us_J": 9.468566568671122e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -3.2500315372968602e-15,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.488957711146213e-05,
+        "B": 0.0,
+        "ia": 7.447402254001645e-06,
+        "ib": 4.437277539182105e-06,
+        "ic": 6.041204642315279e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05527342757341103,
+      "healthy_dense_W_ripple_J": 10.119921679048275
+    },
+    {
+      "tag": "tau4_r25_o37_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.014381343750216047,
+        "final_PWM_boundary_J": 5.846828429412199e-06,
+        "postdeadline_PWM_boundary_J": 1.5464060254544165e-06,
+        "final_common_1us_J": 9.468598906892112e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 3.247284440042325e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.169114491669461e-06,
+        "B": 0.0,
+        "ia": 1.4433494470722508e-06,
+        "ib": 8.716154979993007e-07,
+        "ic": 1.183649374070228e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.055292249999183696,
+      "healthy_dense_W_ripple_J": 10.119890822454181
+    },
+    {
+      "tag": "tau4_r25_o73_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.010550389481295497,
+        "final_PWM_boundary_J": 5.846481400340053e-06,
+        "postdeadline_PWM_boundary_J": 1.5453361754680373e-06,
+        "final_common_1us_J": 9.468528972433887e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 6.394590532001615e-15,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.504798926063813e-05,
+        "B": 0.0,
+        "ia": 7.417167353196419e-06,
+        "ib": 4.46058515990444e-06,
+        "ic": 6.071474444979685e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.055213293846463785,
+      "healthy_dense_W_ripple_J": 10.119922015233897
+    },
+    {
+      "tag": "tau4_r25_o73_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.010550582248043838,
+        "final_PWM_boundary_J": 5.846081478466658e-06,
+        "postdeadline_PWM_boundary_J": 1.545228855093228e-06,
+        "final_common_1us_J": 9.468495142073152e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.3918347133460782e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.194911399390548e-06,
+        "B": 0.0,
+        "ia": 1.4383297184394905e-06,
+        "ib": 8.749876769797993e-07,
+        "ic": 1.1884776540682651e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05523211497347802,
+      "healthy_dense_W_ripple_J": 10.119890883048356
+    },
+    {
+      "tag": "tau4_r35_o37_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.012731020085709588,
+        "final_PWM_boundary_J": 3.1615269335816265e-07,
+        "postdeadline_PWM_boundary_J": 5.672339398188342e-08,
+        "final_common_1us_J": 8.823057271456491e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -2.4550257228478056e-08,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.488957711146213e-05,
+        "B": 0.0,
+        "ia": 7.447402254001645e-06,
+        "ib": 4.437277539182105e-06,
+        "ic": 6.041204642315279e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05527342757341103,
+      "healthy_dense_W_ripple_J": 10.119921679048275
+    },
+    {
+      "tag": "tau4_r35_o37_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.01273093874664255,
+        "final_PWM_boundary_J": 3.1633945241082984e-07,
+        "postdeadline_PWM_boundary_J": 5.7458208857497084e-08,
+        "final_common_1us_J": 8.829141506794258e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -2.4524864815987416e-08,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.169114491669461e-06,
+        "B": 0.0,
+        "ia": 1.4433494470722508e-06,
+        "ib": 8.716154979993007e-07,
+        "ic": 1.183649374070228e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.055292249999183696,
+      "healthy_dense_W_ripple_J": 10.119890822454181
+    },
+    {
+      "tag": "tau4_r35_o73_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.008906652152433026,
+        "final_PWM_boundary_J": 3.1738156280880503e-07,
+        "postdeadline_PWM_boundary_J": 5.855656581843505e-08,
+        "final_common_1us_J": 8.835709763843624e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -5.94869387251111e-09,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.504798926063813e-05,
+        "B": 0.0,
+        "ia": 7.417167353196419e-06,
+        "ib": 4.46058515990444e-06,
+        "ic": 6.071474444979685e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.055213293846463785,
+      "healthy_dense_W_ripple_J": 10.119922015233897
+    },
+    {
+      "tag": "tau4_r35_o73_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.008906589832093914,
+        "final_PWM_boundary_J": 3.170083857639838e-07,
+        "postdeadline_PWM_boundary_J": 5.8529622037895024e-08,
+        "final_common_1us_J": 8.831920865759457e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -5.966364030836538e-09,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.194911399390548e-06,
+        "B": 0.0,
+        "ia": 1.4383297184394905e-06,
+        "ib": 8.749876769797993e-07,
+        "ic": 1.1884776540682651e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05523211497347802,
+      "healthy_dense_W_ripple_J": 10.119890883048356
+    },
+    {
+      "tag": "tau6_r25_o37_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.01330534129994021,
+        "final_PWM_boundary_J": 1.1381731894744007e-06,
+        "postdeadline_PWM_boundary_J": 3.0093383429630194e-07,
+        "final_common_1us_J": 1.3822049396594593e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 1.3461237756662e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.488957711146213e-05,
+        "B": 0.0,
+        "ia": 7.447402254001645e-06,
+        "ib": 4.437277539182105e-06,
+        "ic": 6.041204642315279e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05527342757341103,
+      "healthy_dense_W_ripple_J": 10.119921679048275
+    },
+    {
+      "tag": "tau6_r25_o37_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.013305250101382171,
+        "final_PWM_boundary_J": 1.138569018621638e-06,
+        "postdeadline_PWM_boundary_J": 3.0082728130764735e-07,
+        "final_common_1us_J": 1.3822474812741348e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 4.890176584932673e-15,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.169114491669461e-06,
+        "B": 0.0,
+        "ia": 1.4433494470722508e-06,
+        "ib": 8.716154979993007e-07,
+        "ic": 1.183649374070228e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.055292249999183696,
+      "healthy_dense_W_ripple_J": 10.119890822454181
+    },
+    {
+      "tag": "tau6_r25_o73_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.00946781157998089,
+        "final_PWM_boundary_J": 1.137168823106549e-06,
+        "postdeadline_PWM_boundary_J": 2.9963447900627216e-07,
+        "final_common_1us_J": 1.3822381760064673e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 1.8939828224777975e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.504798926063813e-05,
+        "B": 0.0,
+        "ia": 7.417167353196419e-06,
+        "ib": 4.46058515990444e-06,
+        "ic": 6.071474444979685e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.055213293846463785,
+      "healthy_dense_W_ripple_J": 10.119922015233897
+    },
+    {
+      "tag": "tau6_r25_o73_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.009467763713786326,
+        "final_PWM_boundary_J": 1.1373956567695132e-06,
+        "postdeadline_PWM_boundary_J": 2.996270609401108e-07,
+        "final_common_1us_J": 1.3822087879589162e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 1.5448054437246803e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.194911399390548e-06,
+        "B": 0.0,
+        "ia": 1.4383297184394905e-06,
+        "ib": 8.749876769797993e-07,
+        "ic": 1.1884776540682651e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05523211497347802,
+      "healthy_dense_W_ripple_J": 10.119890883048356
+    },
+    {
+      "tag": "tau6_r35_o37_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.012619103652582453,
+        "final_PWM_boundary_J": 5.076198590359127e-07,
+        "postdeadline_PWM_boundary_J": 9.49810612382862e-08,
+        "final_common_1us_J": 5.800522444587841e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -2.1336828640859502e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.488957711146213e-05,
+        "B": 0.0,
+        "ia": 7.447402254001645e-06,
+        "ib": 4.437277539182105e-06,
+        "ic": 6.041204642315279e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05527342757341103,
+      "healthy_dense_W_ripple_J": 10.119921679048275
+    },
+    {
+      "tag": "tau6_r35_o37_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.01261903603054293,
+        "final_PWM_boundary_J": 5.080353844277852e-07,
+        "postdeadline_PWM_boundary_J": 9.572246995048772e-08,
+        "final_common_1us_J": 5.804763247851952e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -2.1418743567863062e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.169114491669461e-06,
+        "B": 0.0,
+        "ia": 1.4433494470722508e-06,
+        "ib": 8.716154979993007e-07,
+        "ic": 1.183649374070228e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.055292249999183696,
+      "healthy_dense_W_ripple_J": 10.119890822454181
+    },
+    {
+      "tag": "tau6_r35_o73_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.008768655549118876,
+        "final_PWM_boundary_J": 5.082934251277038e-07,
+        "postdeadline_PWM_boundary_J": 9.651674304222979e-08,
+        "final_common_1us_J": 5.799533653316757e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -2.0020707750601876e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.504798926063813e-05,
+        "B": 0.0,
+        "ia": 7.417167353196419e-06,
+        "ib": 4.46058515990444e-06,
+        "ic": 6.071474444979685e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.055213293846463785,
+      "healthy_dense_W_ripple_J": 10.119922015233897
+    },
+    {
+      "tag": "tau6_r35_o73_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.008768623925618613,
+        "final_PWM_boundary_J": 5.091349635222286e-07,
+        "postdeadline_PWM_boundary_J": 9.664992717262066e-08,
+        "final_common_1us_J": 5.806319620660361e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -2.0009289406487023e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.194911399390548e-06,
+        "B": 0.0,
+        "ia": 1.4383297184394905e-06,
+        "ib": 8.749876769797993e-07,
+        "ic": 1.1884776540682651e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05523211497347802,
+      "healthy_dense_W_ripple_J": 10.119890883048356
+    },
+    {
+      "tag": "tau4.5_r27_o19_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.01279009572385803,
+        "final_PWM_boundary_J": 2.327846289063018e-06,
+        "postdeadline_PWM_boundary_J": 5.988724183225713e-07,
+        "final_common_1us_J": 3.217506554165084e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 5.163905022716794e-15,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.4976783101446927e-05,
+        "B": 0.0,
+        "ia": 7.427867785736453e-06,
+        "ib": 4.434141374076717e-06,
+        "ic": 6.038593596713326e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05522432463840232,
+      "healthy_dense_W_ripple_J": 10.119921626432188
+    },
+    {
+      "tag": "tau4.5_r27_o19_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.012790062978723427,
+        "final_PWM_boundary_J": 2.327686360104053e-06,
+        "postdeadline_PWM_boundary_J": 5.990308409309364e-07,
+        "final_common_1us_J": 3.217526597154574e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 1.0821742062031882e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.186194802168757e-06,
+        "B": 0.0,
+        "ia": 1.4396891856449656e-06,
+        "ib": 8.715074955034652e-07,
+        "ic": 1.183166318696749e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05524314722788404,
+      "healthy_dense_W_ripple_J": 10.119890812758968
+    },
+    {
+      "tag": "tau4.5_r27_o61_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.009382996716567504,
+        "final_PWM_boundary_J": 2.3266582047654083e-06,
+        "postdeadline_PWM_boundary_J": 5.97433825078042e-07,
+        "final_common_1us_J": 3.217373500774556e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 1.667229857860511e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.510603321250528e-05,
+        "B": 0.0,
+        "ia": 7.407238854284515e-06,
+        "ib": 4.457711270333675e-06,
+        "ic": 6.068372840672964e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05517843924826593,
+      "healthy_dense_W_ripple_J": 10.11992197734071
+    },
+    {
+      "tag": "tau4.5_r27_o61_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.009382989322205049,
+        "final_PWM_boundary_J": 2.3267984659014473e-06,
+        "postdeadline_PWM_boundary_J": 5.976730790280271e-07,
+        "final_common_1us_J": 3.217354000639716e-05
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 1.859583840401911e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.205858077621087e-06,
+        "B": 0.0,
+        "ia": 1.4361600051415735e-06,
+        "ib": 8.754060445426148e-07,
+        "ic": 1.188364194604219e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05519726085549337,
+      "healthy_dense_W_ripple_J": 10.119890874233533
+    },
+    {
+      "tag": "tau4.5_r33_o19_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.011545228345482883,
+        "final_PWM_boundary_J": 4.0404722767561907e-07,
+        "postdeadline_PWM_boundary_J": 7.692239023526781e-08,
+        "final_common_1us_J": 4.502021511143539e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.5220257803538709e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.4976783101446927e-05,
+        "B": 0.0,
+        "ia": 7.427867785736453e-06,
+        "ib": 4.434141374076717e-06,
+        "ic": 6.038593596713326e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05522432463840232,
+      "healthy_dense_W_ripple_J": 10.119921626432188
+    },
+    {
+      "tag": "tau4.5_r33_o19_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.011545183893133526,
+        "final_PWM_boundary_J": 4.037979692839144e-07,
+        "postdeadline_PWM_boundary_J": 7.748255370643164e-08,
+        "final_common_1us_J": 4.4995641701461864e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.5196838002403456e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.186194802168757e-06,
+        "B": 0.0,
+        "ia": 1.4396891856449656e-06,
+        "ib": 8.715074955034652e-07,
+        "ic": 1.183166318696749e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05524314722788404,
+      "healthy_dense_W_ripple_J": 10.119890812758968
+    },
+    {
+      "tag": "tau4.5_r33_o61_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.008126813476451389,
+        "final_PWM_boundary_J": 4.0508575693820603e-07,
+        "postdeadline_PWM_boundary_J": 7.827179615560453e-08,
+        "final_common_1us_J": 4.512056648309226e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.4029739572639243e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.510603321250528e-05,
+        "B": 0.0,
+        "ia": 7.407238854284515e-06,
+        "ib": 4.457711270333675e-06,
+        "ic": 6.068372840672964e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05517843924826593,
+      "healthy_dense_W_ripple_J": 10.11992197734071
+    },
+    {
+      "tag": "tau4.5_r33_o61_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.008126786568453781,
+        "final_PWM_boundary_J": 4.0509212340111844e-07,
+        "postdeadline_PWM_boundary_J": 7.862527695579047e-08,
+        "final_common_1us_J": 4.51212031293835e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.3964744967144444e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.205858077621087e-06,
+        "B": 0.0,
+        "ia": 1.4361600051415735e-06,
+        "ib": 8.754060445426148e-07,
+        "ic": 1.188364194604219e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05519726085549337,
+      "healthy_dense_W_ripple_J": 10.119890874233533
+    },
+    {
+      "tag": "tau5.5_r27_o19_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.011917272355333353,
+        "final_PWM_boundary_J": 5.203395119224297e-07,
+        "postdeadline_PWM_boundary_J": 1.5237597494888178e-07,
+        "final_common_1us_J": 9.21703258427442e-06
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 2.4330448815607433e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.4976783101446927e-05,
+        "B": 0.0,
+        "ia": 7.427867785736453e-06,
+        "ib": 4.434141374076717e-06,
+        "ic": 6.038593596713326e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05522432463840232,
+      "healthy_dense_W_ripple_J": 10.119921626432188
+    },
+    {
+      "tag": "tau5.5_r27_o19_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.011917199420452107,
+        "final_PWM_boundary_J": 5.199694612656458e-07,
+        "postdeadline_PWM_boundary_J": 1.5158602195697313e-07,
+        "final_common_1us_J": 9.21687441746144e-06
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 2.1853145107299937e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.186194802168757e-06,
+        "B": 0.0,
+        "ia": 1.4396891856449656e-06,
+        "ib": 8.715074955034652e-07,
+        "ic": 1.183166318696749e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05524314722788404,
+      "healthy_dense_W_ripple_J": 10.119890812758968
+    },
+    {
+      "tag": "tau5.5_r27_o61_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.008489783397124029,
+        "final_PWM_boundary_J": 5.190648835196043e-07,
+        "postdeadline_PWM_boundary_J": 1.506548414909048e-07,
+        "final_common_1us_J": 9.216392129474116e-06
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 1.6506753612360783e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.510603321250528e-05,
+        "B": 0.0,
+        "ia": 7.407238854284515e-06,
+        "ib": 4.457711270333675e-06,
+        "ic": 6.068372840672964e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05517843924826593,
+      "healthy_dense_W_ripple_J": 10.11992197734071
+    },
+    {
+      "tag": "tau5.5_r27_o61_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.008489729223981612,
+        "final_PWM_boundary_J": 5.190105980545923e-07,
+        "postdeadline_PWM_boundary_J": 1.5076287240844977e-07,
+        "final_common_1us_J": 9.216122577981878e-06
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": 2.37632073679737e-14,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.205858077621087e-06,
+        "B": 0.0,
+        "ia": 1.4361600051415735e-06,
+        "ib": 8.754060445426148e-07,
+        "ic": 1.188364194604219e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05519726085549337,
+      "healthy_dense_W_ripple_J": 10.119890874233533
+    },
+    {
+      "tag": "tau5.5_r33_o19_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.011498633840972161,
+        "final_PWM_boundary_J": 4.745532464767166e-07,
+        "postdeadline_PWM_boundary_J": 9.012578061629029e-08,
+        "final_common_1us_J": 5.079043887690204e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.9315961973296234e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.4976783101446927e-05,
+        "B": 0.0,
+        "ia": 7.427867785736453e-06,
+        "ib": 4.434141374076717e-06,
+        "ic": 6.038593596713326e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05522432463840232,
+      "healthy_dense_W_ripple_J": 10.119921626432188
+    },
+    {
+      "tag": "tau5.5_r33_o19_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.01149857539508048,
+        "final_PWM_boundary_J": 4.740782060252968e-07,
+        "postdeadline_PWM_boundary_J": 8.993961841952114e-08,
+        "final_common_1us_J": 5.074178091035719e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.9337670372234097e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.186194802168757e-06,
+        "B": 0.0,
+        "ia": 1.4396891856449656e-06,
+        "ib": 8.715074955034652e-07,
+        "ic": 1.183166318696749e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05524314722788404,
+      "healthy_dense_W_ripple_J": 10.119890812758968
+    },
+    {
+      "tag": "tau5.5_r33_o61_h1",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.008066609170953143,
+        "final_PWM_boundary_J": 4.7579806050634943e-07,
+        "postdeadline_PWM_boundary_J": 9.116237720263598e-08,
+        "final_common_1us_J": 5.08798535747701e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.8019056938598982e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 4.510603321250528e-05,
+        "B": 0.0,
+        "ia": 7.407238854284515e-06,
+        "ib": 4.457711270333675e-06,
+        "ic": 6.068372840672964e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05517843924826593,
+      "healthy_dense_W_ripple_J": 10.11992197734071
+    },
+    {
+      "tag": "tau5.5_r33_o61_h05",
+      "Z_sampled_maxima": {
+        "recovery_PWM_boundary_J": 0.00806647786407666,
+        "final_PWM_boundary_J": 4.7577040618307365e-07,
+        "postdeadline_PWM_boundary_J": 9.108055110118585e-08,
+        "final_common_1us_J": 5.087682382054481e-07
+      },
+      "Z_formula_max_error_J": 0.0,
+      "Cauchy_bound_max_defect_J": -1.8060907169651704e-07,
+      "hard_limit_derived_bound_J": 1.9091883092036779,
+      "healthy_dense_periodicity": {
+        "W": 9.205858077621087e-06,
+        "B": 0.0,
+        "ia": 1.4361600051415735e-06,
+        "ib": 8.754060445426148e-07,
+        "ic": 1.188364194604219e-06
+      },
+      "healthy_dense_periodic_pass": true,
+      "healthy_dense_W_mean_offset_J": 0.05519726085549337,
+      "healthy_dense_W_ripple_J": 10.119890874233533
+    }
+  ],
+  "warmup": [
+    {
+      "W": 0.07613064709948958,
+      "B": 0.0,
+      "filter_energy": 0.01982499274842553,
+      "grid_energy": 1308999.7752626543,
+      "loss_energy": 8999.704740501149,
+      "load_energy": 1299999.9999977248,
+      "battery_energy": 0.0,
+      "bridge_energy": 1300000.0761300484,
+      "grid_after_copper": 1300000.070522153,
+      "full_conservation_residual": 0.025431211572140455,
+      "bridge_balance_residual": -1.6763806343078613e-06,
+      "inventory_balance_residual": 0.0,
+      "tag": "warmup_h1",
+      "grid_minus_model_baseline_J": 2.32554959342815
+    },
+    {
+      "W": 0.07613185165973846,
+      "B": 0.0,
+      "filter_energy": 0.01982878317036807,
+      "grid_energy": 1308999.796214664,
+      "loss_energy": 8999.706716346744,
+      "load_energy": 1299999.9999999406,
+      "battery_energy": 0.0,
+      "bridge_energy": 1300000.0761317473,
+      "grid_after_copper": 1300000.089498317,
+      "full_conservation_residual": 0.0064622582867741585,
+      "bridge_balance_residual": 4.493631422519684e-08,
+      "inventory_balance_residual": 0.0,
+      "tag": "warmup_h05",
+      "grid_minus_model_baseline_J": 2.3465016030240804
+    }
+  ]
+}

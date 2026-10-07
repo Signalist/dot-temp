@@ -1,0 +1,119 @@
+[
+  {
+    "file": "zoh_q808_h100.npz",
+    "terminal_b_kW": 6.572520305780927e-13,
+    "terminal_C_kJ": 2.800572274086477e-13,
+    "stored_node_b_error_kW": 4.530598118890339e-11,
+    "stored_node_C_error_kJ": 2.8178490357050334e-13,
+    "port_polynomial_A_max_difference": 1.7763568394002505e-15,
+    "port_polynomial_M_max_difference": 2.1316282072803006e-14,
+    "terminal_net_energy_kJ": 1.3635635826567735e-13,
+    "max_initial_cell_derivative_kW_s": 30000.00000000853,
+    "ramp_bound_excess_kW_s": 8.531060302630067e-09,
+    "maximum_command_kW": 450.0,
+    "minimum_command_kW": -450.0,
+    "b_magnitude_bound_margin_kW": 0.23473516193871546,
+    "queue_max_command_kW": 0.0,
+    "current_sq_margin_kA2": 0.9052785327066886,
+    "nodal_slack_min_kJ": [
+      1.7114633335572798,
+      -0.017344214719756224,
+      -0.017342906946868908,
+      31.262725402308746,
+      50.0
+    ],
+    "continuous_tube_slack_min_kJ": [
+      1.7114258335572798,
+      -0.01738040694707853,
+      -0.017380406946868907,
+      31.262687902308745,
+      49.9999625
+    ],
+    "constraint_order": [
+      "W_lower",
+      "W_upper",
+      "modulation",
+      "B_lower",
+      "B_upper"
+    ],
+    "scope": "Floating-point repropagation and independent energy/modulation polynomial construction, not interval proof"
+  },
+  {
+    "file": "zoh_q808_h25.npz",
+    "terminal_b_kW": 9.130474154517287e-13,
+    "terminal_C_kJ": -9.893995345233719e-14,
+    "stored_node_b_error_kW": 6.980660494093627e-11,
+    "stored_node_C_error_kJ": 2.6290081223123707e-13,
+    "port_polynomial_A_max_difference": 1.7763568394002505e-15,
+    "port_polynomial_M_max_difference": 7.815970093361102e-14,
+    "terminal_net_energy_kJ": -1.3364988132316073e-13,
+    "max_initial_cell_derivative_kW_s": 30000.000000140222,
+    "ramp_bound_excess_kW_s": 1.4022225514054298e-07,
+    "maximum_command_kW": 450.0,
+    "minimum_command_kW": -450.0,
+    "b_magnitude_bound_margin_kW": 0.23589687759033495,
+    "queue_max_command_kW": 0.0,
+    "current_sq_margin_kA2": 0.9052785327066886,
+    "nodal_slack_min_kJ": [
+      1.7306652674881704,
+      0.0018928754607792087,
+      0.0018590269840217388,
+      31.281962492489352,
+      49.9999999999999
+    ],
+    "continuous_tube_slack_min_kJ": [
+      1.7306629237381703,
+      0.0018566832338018817,
+      0.0018566832340217387,
+      31.28192499248935,
+      49.9999624999999
+    ],
+    "constraint_order": [
+      "W_lower",
+      "W_upper",
+      "modulation",
+      "B_lower",
+      "B_upper"
+    ],
+    "scope": "Floating-point repropagation and independent energy/modulation polynomial construction, not interval proof"
+  },
+  {
+    "file": "zoh_q808_h50.npz",
+    "terminal_b_kW": 5.453415496958769e-13,
+    "terminal_C_kJ": 5.156985949383852e-14,
+    "stored_node_b_error_kW": 4.733929914735313e-11,
+    "stored_node_C_error_kJ": 1.5543122344752192e-13,
+    "port_polynomial_A_max_difference": 3.774758283725532e-15,
+    "port_polynomial_M_max_difference": 3.907985046680551e-14,
+    "terminal_net_energy_kJ": 1.6833078137488185e-13,
+    "max_initial_cell_derivative_kW_s": 30000.00000005816,
+    "ramp_bound_excess_kW_s": 5.8160367188975215e-08,
+    "maximum_command_kW": 450.0,
+    "minimum_command_kW": -450.0,
+    "b_magnitude_bound_margin_kW": 0.23238775242680276,
+    "queue_max_command_kW": 0.0,
+    "current_sq_margin_kA2": 0.9052785327066886,
+    "nodal_slack_min_kJ": [
+      1.7242693977185866,
+      -0.004510025552811214,
+      -0.004536842785562101,
+      31.275559591470095,
+      50.0
+    ],
+    "continuous_tube_slack_min_kJ": [
+      1.7242600227185865,
+      -0.004546217785714824,
+      -0.0045462177855621014,
+      31.275522091470094,
+      49.99996250000005
+    ],
+    "constraint_order": [
+      "W_lower",
+      "W_upper",
+      "modulation",
+      "B_lower",
+      "B_upper"
+    ],
+    "scope": "Floating-point repropagation and independent energy/modulation polynomial construction, not interval proof"
+  }
+]

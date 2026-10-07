@@ -1,0 +1,9 @@
+{
+  "science_files_verified": 437,
+  "science_bytes": 132309563,
+  "archive": "./deliverables/G3_core_theory_models_audit_frozen.zip",
+  "archive_bytes": 66370464,
+  "archive_sha256": "19f816a41cade792784643ee4accf44365a9141b8d6664a689b8784e7633349a",
+  "scope": "core only; recovery_phase2 separate and not yet included",
+  "errors": []
+}

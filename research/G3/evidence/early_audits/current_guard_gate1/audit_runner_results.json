@@ -1,0 +1,540 @@
+{
+  "static": {
+    "status": "PASS_STATIC_FUNCTION_CHECKS",
+    "runner_sha256": "9e4ca7f83570e6e62bf7f3fef9096cde5c44782a0ca7b27026dcd47978662eae",
+    "saved_left_right_row_margins_checked": true,
+    "timing_excludes_simulation_clock": {
+      "counts": {
+        "calls": 1,
+        "guard_failures": 0,
+        "solver_success_false": 1,
+        "backup_calls": 1,
+        "accepted_nonoptimal_calls": 1
+      },
+      "backup_types": {
+        "shifted_plan": 1
+      },
+      "seconds": {
+        "controller_total_wall_s_including_PI_guard_AW": {
+          "n": 1,
+          "minimum_s": 0.008,
+          "median_s": 0.008,
+          "p95_s": 0.008,
+          "maximum_s": 0.008,
+          "sum_s": 0.008,
+          "over_100us_count": 1
+        },
+        "solver.timing.setup_s": {
+          "n": 1,
+          "minimum_s": 0.001,
+          "median_s": 0.001,
+          "p95_s": 0.001,
+          "maximum_s": 0.001,
+          "sum_s": 0.001,
+          "over_100us_count": 1
+        },
+        "solver.timing.solve_s": {
+          "n": 1,
+          "minimum_s": 0.002,
+          "median_s": 0.002,
+          "p95_s": 0.002,
+          "maximum_s": 0.002,
+          "sum_s": 0.002,
+          "over_100us_count": 1
+        },
+        "solver.timing.validation_s": {
+          "n": 1,
+          "minimum_s": 0.003,
+          "median_s": 0.003,
+          "p95_s": 0.003,
+          "maximum_s": 0.003,
+          "sum_s": 0.003,
+          "over_100us_count": 1
+        },
+        "solver.timing.point_total_s": {
+          "n": 1,
+          "minimum_s": 0.006,
+          "median_s": 0.006,
+          "p95_s": 0.006,
+          "maximum_s": 0.006,
+          "sum_s": 0.006,
+          "over_100us_count": 1
+        },
+        "total_wall_s": {
+          "n": 1,
+          "minimum_s": 0.007,
+          "median_s": 0.007,
+          "p95_s": 0.007,
+          "maximum_s": 0.007,
+          "sum_s": 0.007,
+          "over_100us_count": 1
+        }
+      },
+      "note": "All raw timing/solver/backup fields are retained per call; offline virtual time only"
+    },
+    "admission_negative_checks": [
+      "C0-fast:blocked_before_C0",
+      "C50-slow:blocked_before_C0",
+      "C50-fast:blocked_before_C0",
+      "C1-slow:blocked_before_C0",
+      "C1-fast:blocked_before_C0",
+      "failed_slow_fault_blocked",
+      "admitted_port_declared_order_enforced",
+      "unindicated_refinement_blocked",
+      "previous_started_evidence_not_overwritten"
+    ],
+    "clock_algebra": [
+      {
+        "case": "C0-slow",
+        "sample_count_if_completed": 21501,
+        "last_sample_s": 2.75,
+        "exact_planned_end_s": 2.75005
+      },
+      {
+        "case": "C0-fast",
+        "sample_count_if_completed": 21501,
+        "last_sample_s": 2.75,
+        "exact_planned_end_s": 2.75005
+      },
+      {
+        "case": "C50-slow",
+        "sample_count_if_completed": 21501,
+        "last_sample_s": 2.75,
+        "exact_planned_end_s": 2.75005
+      },
+      {
+        "case": "C50-fast",
+        "sample_count_if_completed": 21501,
+        "last_sample_s": 2.75,
+        "exact_planned_end_s": 2.75005
+      },
+      {
+        "case": "C1-slow",
+        "sample_count_if_completed": 21501,
+        "last_sample_s": 2.75,
+        "exact_planned_end_s": 2.750001
+      },
+      {
+        "case": "C1-fast",
+        "sample_count_if_completed": 21501,
+        "last_sample_s": 2.75,
+        "exact_planned_end_s": 2.750001
+      }
+    ]
+  },
+  "completed_artifacts": [
+    {
+      "case": "C0-slow",
+      "h_s": 1e-05,
+      "summary_file": "C0-slow_h1e-05.json",
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "updates": 21501,
+      "intervals": 21501,
+      "guard_failures": 0,
+      "contacts": 0,
+      "independent_inventory_energy_and_endpoint_power_checks": true,
+      "stop_reason": "completed",
+      "final_time_s": 2.75005,
+      "no_fault_admission": true,
+      "selection_counts": {
+        "optimized": 21501
+      },
+      "max_antiwindup_error": 7.105427357601002e-15,
+      "terminal_DC_energy_derivative_W": null,
+      "energy_necessary_condition_independent": {
+        "status": "NOT_APPLICABLE_NO_FAULT"
+      },
+      "observed_next_step_and_dense_tube_check": {
+        "complete_sample_transitions": 21500,
+        "partial_intervals_excluded": 1,
+        "max_witness_disk_norm": 0.08638673804243822,
+        "max_witness_disk_excess": 8.183592692390107e-13,
+        "max_inverse_residual": 2.7755575615628914e-17,
+        "numeric_membership_failures": [],
+        "max_exact_terminal_disk_excess": null,
+        "dense_nodes_checked": 846,
+        "dense_intervals_checked": 50,
+        "maximum_observed_hold_current_error_pu": 0.14298892347313594,
+        "max_observed_error_minus_tube_radius": -0.029524537997261124,
+        "dense_tube_failures": []
+      },
+      "raw_sha256": "ae002dd18174105fba3857a90334ddfb82de9c972e1678dcebabebcc0ed583b0",
+      "trace_sha256": "15691ce04b6a0b889d4ce53e1b374eed2e91b8a094bfc6eea4232374627bd60b"
+    },
+    {
+      "case": "C0-fast",
+      "h_s": 1e-05,
+      "summary_file": "C0-fast_h1e-05.json",
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "updates": 21501,
+      "intervals": 21501,
+      "guard_failures": 0,
+      "contacts": 0,
+      "independent_inventory_energy_and_endpoint_power_checks": true,
+      "stop_reason": "completed",
+      "final_time_s": 2.75005,
+      "no_fault_admission": true,
+      "selection_counts": {
+        "optimized": 21501
+      },
+      "max_antiwindup_error": 7.105427357601002e-15,
+      "terminal_DC_energy_derivative_W": null,
+      "energy_necessary_condition_independent": {
+        "status": "NOT_APPLICABLE_NO_FAULT"
+      },
+      "observed_next_step_and_dense_tube_check": {
+        "complete_sample_transitions": 21500,
+        "partial_intervals_excluded": 1,
+        "max_witness_disk_norm": 0.08638673804592269,
+        "max_witness_disk_excess": 4.30282198760068e-12,
+        "max_inverse_residual": 5.551115123125783e-17,
+        "numeric_membership_failures": [],
+        "max_exact_terminal_disk_excess": null,
+        "dense_nodes_checked": 846,
+        "dense_intervals_checked": 50,
+        "maximum_observed_hold_current_error_pu": 0.1433868570366351,
+        "max_observed_error_minus_tube_radius": -0.02912660443376197,
+        "dense_tube_failures": []
+      },
+      "raw_sha256": "27aec08b83df375bbaf1025aeb44ddea9033aa502e0570599b1cf4f817f28c22",
+      "trace_sha256": "9b08b8226fffcf29d072822cd5eb52254690e9dc77709f08a4ac7c78b4226259"
+    },
+    {
+      "case": "C50-slow",
+      "h_s": 1e-05,
+      "summary_file": "C50-slow_h1e-05.json",
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "updates": 63,
+      "intervals": 63,
+      "guard_failures": 0,
+      "contacts": 1,
+      "independent_inventory_energy_and_endpoint_power_checks": true,
+      "stop_reason": "dc_high",
+      "final_time_s": 0.6062743257054102,
+      "no_fault_admission": null,
+      "selection_counts": {
+        "optimized": 63
+      },
+      "max_antiwindup_error": 3.552713678800501e-15,
+      "terminal_DC_energy_derivative_W": 664466.6337969834,
+      "energy_necessary_condition_independent": {
+        "status": "PASS_INDEPENDENT_ALGEBRA",
+        "headroom_J": 4341.250139445723,
+        "maximum_prefix_gain_J": 8870.613573156854,
+        "obstruction_after_fault_s": 0.017088203932514617,
+        "excludes_all_safe_control": true
+      },
+      "observed_next_step_and_dense_tube_check": {
+        "complete_sample_transitions": 62,
+        "partial_intervals_excluded": 1,
+        "max_witness_disk_norm": 0.08637075424750816,
+        "max_witness_disk_excess": -1.598379411170414e-05,
+        "max_inverse_residual": 2.7755575615628914e-17,
+        "numeric_membership_failures": [],
+        "max_exact_terminal_disk_excess": null,
+        "dense_nodes_checked": 1066,
+        "dense_intervals_checked": 63,
+        "maximum_observed_hold_current_error_pu": 0.12447718082571352,
+        "max_observed_error_minus_tube_radius": -0.04803628064468354,
+        "dense_tube_failures": []
+      },
+      "raw_sha256": "3dc599f2c9f0858b318bd3bc7b820efcfe0f905cbca45858647adcde9a3c9bef",
+      "trace_sha256": "b04e8cee636b4c1ea39c38ced3ee982fe859c30e5af5df415993f8fb92c9c704"
+    },
+    {
+      "case": "C50-slow",
+      "h_s": 5e-06,
+      "summary_file": "C50-slow_h5e-06.json",
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "updates": 63,
+      "intervals": 63,
+      "guard_failures": 0,
+      "contacts": 1,
+      "independent_inventory_energy_and_endpoint_power_checks": true,
+      "stop_reason": "dc_high",
+      "final_time_s": 0.6062743255080387,
+      "no_fault_admission": null,
+      "selection_counts": {
+        "optimized": 63
+      },
+      "max_antiwindup_error": 3.552713678800501e-15,
+      "terminal_DC_energy_derivative_W": 664466.6895368077,
+      "energy_necessary_condition_independent": {
+        "status": "PASS_INDEPENDENT_ALGEBRA",
+        "headroom_J": 4341.25013944572,
+        "maximum_prefix_gain_J": 8870.613573156854,
+        "obstruction_after_fault_s": 0.017088203932514603,
+        "excludes_all_safe_control": true
+      },
+      "observed_next_step_and_dense_tube_check": {
+        "complete_sample_transitions": 62,
+        "partial_intervals_excluded": 1,
+        "max_witness_disk_norm": 0.08637075424750816,
+        "max_witness_disk_excess": -1.598379411170414e-05,
+        "max_inverse_residual": 2.7755575615628914e-17,
+        "numeric_membership_failures": [],
+        "max_exact_terminal_disk_excess": null,
+        "dense_nodes_checked": 1568,
+        "dense_intervals_checked": 63,
+        "maximum_observed_hold_current_error_pu": 0.12447718082571352,
+        "max_observed_error_minus_tube_radius": -0.04803628064468354,
+        "dense_tube_failures": []
+      },
+      "raw_sha256": "29b1710292abc83be872b880b95e542faec597d453f4be24005fca810734cab7",
+      "trace_sha256": "81e335ea0c60c5799b60619da53a7e0f56f218624d3e72b222f50da1708319e9"
+    },
+    {
+      "case": "C50-fast",
+      "h_s": 1e-05,
+      "summary_file": "C50-fast_h1e-05.json",
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "updates": 87,
+      "intervals": 87,
+      "guard_failures": 0,
+      "contacts": 1,
+      "independent_inventory_energy_and_endpoint_power_checks": true,
+      "stop_reason": "dc_high",
+      "final_time_s": 0.608646762771277,
+      "no_fault_admission": null,
+      "selection_counts": {
+        "optimized": 87
+      },
+      "max_antiwindup_error": 3.552713678800501e-15,
+      "terminal_DC_energy_derivative_W": 277021.223041671,
+      "energy_necessary_condition_independent": {
+        "status": "PASS_INDEPENDENT_ALGEBRA",
+        "headroom_J": 4341.250139440061,
+        "maximum_prefix_gain_J": 887.0613586655235,
+        "obstruction_after_fault_s": null,
+        "excludes_all_safe_control": false
+      },
+      "observed_next_step_and_dense_tube_check": {
+        "complete_sample_transitions": 86,
+        "partial_intervals_excluded": 1,
+        "max_witness_disk_norm": 0.08637075424750816,
+        "max_witness_disk_excess": -1.598379411170414e-05,
+        "max_inverse_residual": 2.7755575615628914e-17,
+        "numeric_membership_failures": [],
+        "max_exact_terminal_disk_excess": null,
+        "dense_nodes_checked": 1471,
+        "dense_intervals_checked": 87,
+        "maximum_observed_hold_current_error_pu": 0.12447718082571352,
+        "max_observed_error_minus_tube_radius": -0.04803628064468354,
+        "dense_tube_failures": []
+      },
+      "raw_sha256": "d676aa0a110b5c8ce845c9941f937f34c7263dbf5cc7fbacc0b5baff6e6a3752",
+      "trace_sha256": "486a03bedbc16741cc831d15302f93ab628cbcc102b3a0e0caca763f5cbfbf99"
+    },
+    {
+      "case": "C50-fast",
+      "h_s": 5e-06,
+      "summary_file": "C50-fast_h5e-06.json",
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "updates": 87,
+      "intervals": 87,
+      "guard_failures": 0,
+      "contacts": 1,
+      "independent_inventory_energy_and_endpoint_power_checks": true,
+      "stop_reason": "dc_high",
+      "final_time_s": 0.6086467628993103,
+      "no_fault_admission": null,
+      "selection_counts": {
+        "optimized": 87
+      },
+      "max_antiwindup_error": 3.552713678800501e-15,
+      "terminal_DC_energy_derivative_W": 277021.19565249694,
+      "energy_necessary_condition_independent": {
+        "status": "PASS_INDEPENDENT_ALGEBRA",
+        "headroom_J": 4341.2501394400615,
+        "maximum_prefix_gain_J": 887.0613586655242,
+        "obstruction_after_fault_s": null,
+        "excludes_all_safe_control": false
+      },
+      "observed_next_step_and_dense_tube_check": {
+        "complete_sample_transitions": 86,
+        "partial_intervals_excluded": 1,
+        "max_witness_disk_norm": 0.08637075424750816,
+        "max_witness_disk_excess": -1.598379411170414e-05,
+        "max_inverse_residual": 2.7755575615628914e-17,
+        "numeric_membership_failures": [],
+        "max_exact_terminal_disk_excess": null,
+        "dense_nodes_checked": 2163,
+        "dense_intervals_checked": 87,
+        "maximum_observed_hold_current_error_pu": 0.12447718082571352,
+        "max_observed_error_minus_tube_radius": -0.04803628064468354,
+        "dense_tube_failures": []
+      },
+      "raw_sha256": "699a9c70357d5bdb4f970a8b4fc4374b2f6ea6f6c84282be0d0877add67c2cf8",
+      "trace_sha256": "696e7b6d40e7adcb2a8276197164b898c24eb1e6dbadcbb6c8b214a2da2cb816"
+    },
+    {
+      "case": "C1-slow",
+      "h_s": 1e-05,
+      "summary_file": "C1-slow_h1e-05.json",
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "updates": 62,
+      "intervals": 62,
+      "guard_failures": 0,
+      "contacts": 1,
+      "independent_inventory_energy_and_endpoint_power_checks": true,
+      "stop_reason": "dc_high",
+      "final_time_s": 0.6061931095199046,
+      "no_fault_admission": null,
+      "selection_counts": {
+        "optimized": 62
+      },
+      "max_antiwindup_error": 7.105427357601002e-15,
+      "terminal_DC_energy_derivative_W": 668857.4871632602,
+      "energy_necessary_condition_independent": {
+        "status": "PASS_INDEPENDENT_ALGEBRA",
+        "headroom_J": 4341.250406115872,
+        "maximum_prefix_gain_J": 8870.613571668624,
+        "obstruction_after_fault_s": 0.017088205193846833,
+        "excludes_all_safe_control": true
+      },
+      "observed_next_step_and_dense_tube_check": {
+        "complete_sample_transitions": 61,
+        "partial_intervals_excluded": 1,
+        "max_witness_disk_norm": 0.08637075424750816,
+        "max_witness_disk_excess": -1.598379411170414e-05,
+        "max_inverse_residual": 2.7755575615628914e-17,
+        "numeric_membership_failures": [],
+        "max_exact_terminal_disk_excess": null,
+        "dense_nodes_checked": 1049,
+        "dense_intervals_checked": 62,
+        "maximum_observed_hold_current_error_pu": 0.13678557136619232,
+        "max_observed_error_minus_tube_radius": -0.03572789010420474,
+        "dense_tube_failures": []
+      },
+      "raw_sha256": "fdbd327c906ea841bd9168a5ad09fa2146f66ca5d334e797ae8483d00e7622c4",
+      "trace_sha256": "538bc7c0577e011b23f6150853c05a61ba5bb8b2b3ba1ce857bc2f9b4e56d84f"
+    },
+    {
+      "case": "C1-slow",
+      "h_s": 5e-06,
+      "summary_file": "C1-slow_h5e-06.json",
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "updates": 62,
+      "intervals": 62,
+      "guard_failures": 0,
+      "contacts": 1,
+      "independent_inventory_energy_and_endpoint_power_checks": true,
+      "stop_reason": "dc_high",
+      "final_time_s": 0.6061931092944314,
+      "no_fault_admission": null,
+      "selection_counts": {
+        "optimized": 62
+      },
+      "max_antiwindup_error": 1.4210854715202004e-14,
+      "terminal_DC_energy_derivative_W": 668857.5530224469,
+      "energy_necessary_condition_independent": {
+        "status": "PASS_INDEPENDENT_ALGEBRA",
+        "headroom_J": 4341.250406115872,
+        "maximum_prefix_gain_J": 8870.613571668624,
+        "obstruction_after_fault_s": 0.017088205193846833,
+        "excludes_all_safe_control": true
+      },
+      "observed_next_step_and_dense_tube_check": {
+        "complete_sample_transitions": 61,
+        "partial_intervals_excluded": 1,
+        "max_witness_disk_norm": 0.08637075424750816,
+        "max_witness_disk_excess": -1.598379411170414e-05,
+        "max_inverse_residual": 2.7755575615628914e-17,
+        "numeric_membership_failures": [],
+        "max_exact_terminal_disk_excess": null,
+        "dense_nodes_checked": 1548,
+        "dense_intervals_checked": 62,
+        "maximum_observed_hold_current_error_pu": 0.13678557136617753,
+        "max_observed_error_minus_tube_radius": -0.035727890104219534,
+        "dense_tube_failures": []
+      },
+      "raw_sha256": "069a9285b737e3c157ee76a095520b2ae130c9f1f9bdce3ca8754ea551daab90",
+      "trace_sha256": "0da8c74906b9f5e109f933c96abd7e5f01924e4469f9ed6831e8daa669d98227"
+    },
+    {
+      "case": "C1-fast",
+      "h_s": 1e-05,
+      "summary_file": "C1-fast_h1e-05.json",
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "updates": 84,
+      "intervals": 84,
+      "guard_failures": 0,
+      "contacts": 1,
+      "independent_inventory_energy_and_endpoint_power_checks": true,
+      "stop_reason": "dc_high",
+      "final_time_s": 0.6083636354764193,
+      "no_fault_admission": null,
+      "selection_counts": {
+        "optimized": 84
+      },
+      "max_antiwindup_error": 7.105427357601002e-15,
+      "terminal_DC_energy_derivative_W": 296628.6909143216,
+      "energy_necessary_condition_independent": {
+        "status": "PASS_INDEPENDENT_ALGEBRA",
+        "headroom_J": 4341.250406115872,
+        "maximum_prefix_gain_J": 887.0613571942251,
+        "obstruction_after_fault_s": null,
+        "excludes_all_safe_control": false
+      },
+      "observed_next_step_and_dense_tube_check": {
+        "complete_sample_transitions": 83,
+        "partial_intervals_excluded": 1,
+        "max_witness_disk_norm": 0.08637075424750816,
+        "max_witness_disk_excess": -1.598379411170414e-05,
+        "max_inverse_residual": 2.7755575615628914e-17,
+        "numeric_membership_failures": [],
+        "max_exact_terminal_disk_excess": null,
+        "dense_nodes_checked": 1420,
+        "dense_intervals_checked": 84,
+        "maximum_observed_hold_current_error_pu": 0.13678557136619685,
+        "max_observed_error_minus_tube_radius": -0.035727890104200216,
+        "dense_tube_failures": []
+      },
+      "raw_sha256": "343ef1cba100fe4105987b9c4d2255ed614de21619b8ba279d2e8333b7e76f69",
+      "trace_sha256": "23c66560c8c981cf9505a68cd485a46b88940738399d71da5f6bc290285d35e5"
+    },
+    {
+      "case": "C1-fast",
+      "h_s": 5e-06,
+      "summary_file": "C1-fast_h5e-06.json",
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "updates": 84,
+      "intervals": 84,
+      "guard_failures": 0,
+      "contacts": 1,
+      "independent_inventory_energy_and_endpoint_power_checks": true,
+      "stop_reason": "dc_high",
+      "final_time_s": 0.608363635274523,
+      "no_fault_admission": null,
+      "selection_counts": {
+        "optimized": 84
+      },
+      "max_antiwindup_error": 1.4217791915866692e-14,
+      "terminal_DC_energy_derivative_W": 296628.7342442583,
+      "energy_necessary_condition_independent": {
+        "status": "PASS_INDEPENDENT_ALGEBRA",
+        "headroom_J": 4341.250406115872,
+        "maximum_prefix_gain_J": 887.0613571942251,
+        "obstruction_after_fault_s": null,
+        "excludes_all_safe_control": false
+      },
+      "observed_next_step_and_dense_tube_check": {
+        "complete_sample_transitions": 83,
+        "partial_intervals_excluded": 1,
+        "max_witness_disk_norm": 0.08637075424750816,
+        "max_witness_disk_excess": -1.598379411170414e-05,
+        "max_inverse_residual": 5.551115123125783e-17,
+        "numeric_membership_failures": [],
+        "max_exact_terminal_disk_excess": null,
+        "dense_nodes_checked": 2092,
+        "dense_intervals_checked": 84,
+        "maximum_observed_hold_current_error_pu": 0.13678557136618197,
+        "max_observed_error_minus_tube_radius": -0.03572789010421509,
+        "dense_tube_failures": []
+      },
+      "raw_sha256": "e3d932adaf4c48edf5bbaa6665bc04d4fff0ac8906a73928c94fd0e8e3fdca4f",
+      "trace_sha256": "afe45f1b9be9d262c01f1d51b4c97bf35f2a0255d2477cea0e439d08df8591d2"
+    }
+  ],
+  "physical_trajectories_executed_by_audit": 0
+}

@@ -1,0 +1,1078 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "name": "constant_avg_f10000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00317445272231
+    },
+    {
+      "name": "constant_avg_f10000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 9.00399754755199e-11
+    },
+    {
+      "name": "constant_avg_f10000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "constant_avg_f10000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "constant_avg_f10000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "constant_avg_f10000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.69305201002844
+    },
+    {
+      "name": "constant_avg_f10000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "constant_avg_f10000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "constant_avg_f10000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "constant_pwm_f10000_h2e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.0166218574595
+    },
+    {
+      "name": "constant_pwm_f10000_h2e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 9.993073035730049e-11
+    },
+    {
+      "name": "constant_pwm_f10000_h2e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "constant_pwm_f10000_h2e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "constant_pwm_f10000_h2e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "constant_pwm_f10000_h2e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.69312183287943
+    },
+    {
+      "name": "constant_pwm_f10000_h2e-06.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "constant_pwm_f10000_h2e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "constant_pwm_f10000_h2e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "constant_pwm_f10000_h2e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "constant_pwm_f10000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00449043010303
+    },
+    {
+      "name": "constant_pwm_f10000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.0300027497578412e-10
+    },
+    {
+      "name": "constant_pwm_f10000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "constant_pwm_f10000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "constant_pwm_f10000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "constant_pwm_f10000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.69312179741337
+    },
+    {
+      "name": "constant_pwm_f10000_h1e-06.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "constant_pwm_f10000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "constant_pwm_f10000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "constant_pwm_f10000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "constant_pwm_f10000_h5e-07.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.0011854628392
+    },
+    {
+      "name": "constant_pwm_f10000_h5e-07.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.000444171950221e-10
+    },
+    {
+      "name": "constant_pwm_f10000_h5e-07.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "constant_pwm_f10000_h5e-07.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "constant_pwm_f10000_h5e-07.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "constant_pwm_f10000_h5e-07.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.6931217870721
+    },
+    {
+      "name": "constant_pwm_f10000_h5e-07.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "constant_pwm_f10000_h5e-07.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "constant_pwm_f10000_h5e-07.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "constant_pwm_f10000_h5e-07.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "constant_avg_f5000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00316116235626
+    },
+    {
+      "name": "constant_avg_f5000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 9.00399754755199e-11
+    },
+    {
+      "name": "constant_avg_f5000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "constant_avg_f5000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "constant_avg_f5000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "constant_avg_f5000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.69360758344638
+    },
+    {
+      "name": "constant_avg_f5000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "constant_avg_f5000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "constant_avg_f5000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "constant_pwm_f5000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00472260091919
+    },
+    {
+      "name": "constant_pwm_f5000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.000444171950221e-10
+    },
+    {
+      "name": "constant_pwm_f5000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "constant_pwm_f5000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "constant_pwm_f5000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "constant_pwm_f5000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.69389195397154
+    },
+    {
+      "name": "constant_pwm_f5000_h1e-06.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "constant_pwm_f5000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "constant_pwm_f5000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "constant_pwm_f5000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "constant_avg_f20000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00317597339745
+    },
+    {
+      "name": "constant_avg_f20000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 8.01492205937393e-11
+    },
+    {
+      "name": "constant_avg_f20000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "constant_avg_f20000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "constant_avg_f20000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "constant_avg_f20000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.69291594480026
+    },
+    {
+      "name": "constant_avg_f20000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "constant_avg_f20000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "constant_avg_f20000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "constant_pwm_f20000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00427262259473
+    },
+    {
+      "name": "constant_pwm_f20000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.000444171950221e-10
+    },
+    {
+      "name": "constant_pwm_f20000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "constant_pwm_f20000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "constant_pwm_f20000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "constant_pwm_f20000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.69293372113666
+    },
+    {
+      "name": "constant_pwm_f20000_h1e-06.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "constant_pwm_f20000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "constant_pwm_f20000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "constant_pwm_f20000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "constant_avg_f40000_h5e-07.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00079719859059
+    },
+    {
+      "name": "constant_avg_f40000_h5e-07.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.000444171950221e-10
+    },
+    {
+      "name": "constant_avg_f40000_h5e-07.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "constant_avg_f40000_h5e-07.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "constant_avg_f40000_h5e-07.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "constant_avg_f40000_h5e-07.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.69288028943605
+    },
+    {
+      "name": "constant_avg_f40000_h5e-07.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "constant_avg_f40000_h5e-07.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "constant_avg_f40000_h5e-07.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "constant_pwm_f40000_h5e-07.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00106745606172
+    },
+    {
+      "name": "constant_pwm_f40000_h5e-07.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.0106759873451665e-10
+    },
+    {
+      "name": "constant_pwm_f40000_h5e-07.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "constant_pwm_f40000_h5e-07.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "constant_pwm_f40000_h5e-07.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "constant_pwm_f40000_h5e-07.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.69288465529839
+    },
+    {
+      "name": "constant_pwm_f40000_h5e-07.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "constant_pwm_f40000_h5e-07.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "constant_pwm_f40000_h5e-07.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "constant_pwm_f40000_h5e-07.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "smooth_service_avg_f10000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00307821994647
+    },
+    {
+      "name": "smooth_service_avg_f10000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 9.00399754755199e-11
+    },
+    {
+      "name": "smooth_service_avg_f10000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "smooth_service_avg_f10000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "smooth_service_avg_f10000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "smooth_service_avg_f10000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.72794191009029
+    },
+    {
+      "name": "smooth_service_avg_f10000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "smooth_service_avg_f10000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "smooth_service_avg_f10000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h2e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.0166825955093
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h2e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.000444171950221e-10
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h2e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h2e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h2e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h2e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.72798143764371
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h2e-06.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h2e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h2e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h2e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00450991917751
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.0402345651527867e-10
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.72798140417002
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h1e-06.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h5e-07.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00118752730486
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h5e-07.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.1107204045401886e-10
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h5e-07.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h5e-07.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h5e-07.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h5e-07.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.72798139468736
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h5e-07.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h5e-07.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h5e-07.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "smooth_service_pwm_f10000_h5e-07.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "smooth_service_avg_f5000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00306441138673
+    },
+    {
+      "name": "smooth_service_avg_f5000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 9.00399754755199e-11
+    },
+    {
+      "name": "smooth_service_avg_f5000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "smooth_service_avg_f5000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "smooth_service_avg_f5000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "smooth_service_avg_f5000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.72813176791318
+    },
+    {
+      "name": "smooth_service_avg_f5000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "smooth_service_avg_f5000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "smooth_service_avg_f5000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "smooth_service_pwm_f5000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00470451453293
+    },
+    {
+      "name": "smooth_service_pwm_f5000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.000444171950221e-10
+    },
+    {
+      "name": "smooth_service_pwm_f5000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "smooth_service_pwm_f5000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "smooth_service_pwm_f5000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "smooth_service_pwm_f5000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.7282908389287
+    },
+    {
+      "name": "smooth_service_pwm_f5000_h1e-06.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "smooth_service_pwm_f5000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "smooth_service_pwm_f5000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "smooth_service_pwm_f5000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "smooth_service_avg_f20000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.0030779166409
+    },
+    {
+      "name": "smooth_service_avg_f20000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 8.208189683500677e-11
+    },
+    {
+      "name": "smooth_service_avg_f20000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "smooth_service_avg_f20000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "smooth_service_avg_f20000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "smooth_service_avg_f20000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.72787205087841
+    },
+    {
+      "name": "smooth_service_avg_f20000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "smooth_service_avg_f20000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "smooth_service_avg_f20000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "smooth_service_pwm_f20000_h1e-06.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.00421345188806
+    },
+    {
+      "name": "smooth_service_pwm_f20000_h1e-06.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.0402345651527867e-10
+    },
+    {
+      "name": "smooth_service_pwm_f20000_h1e-06.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "smooth_service_pwm_f20000_h1e-06.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "smooth_service_pwm_f20000_h1e-06.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "smooth_service_pwm_f20000_h1e-06.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.72788196378806
+    },
+    {
+      "name": "smooth_service_pwm_f20000_h1e-06.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "smooth_service_pwm_f20000_h1e-06.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "smooth_service_pwm_f20000_h1e-06.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "smooth_service_pwm_f20000_h1e-06.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "smooth_service_avg_f40000_h5e-07.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.000772662475356
+    },
+    {
+      "name": "smooth_service_avg_f40000_h5e-07.csv:balanced_abc",
+      "passed": true,
+      "detail": 8.992628863779828e-11
+    },
+    {
+      "name": "smooth_service_avg_f40000_h5e-07.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "smooth_service_avg_f40000_h5e-07.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "smooth_service_avg_f40000_h5e-07.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "smooth_service_avg_f40000_h5e-07.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.72787466702454
+    },
+    {
+      "name": "smooth_service_avg_f40000_h5e-07.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "smooth_service_avg_f40000_h5e-07.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "smooth_service_avg_f40000_h5e-07.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "smooth_service_pwm_f40000_h5e-07.csv:total_energy_conservation",
+      "passed": true,
+      "detail": 0.001055077606
+    },
+    {
+      "name": "smooth_service_pwm_f40000_h5e-07.csv:balanced_abc",
+      "passed": true,
+      "detail": 1.000444171950221e-10
+    },
+    {
+      "name": "smooth_service_pwm_f40000_h5e-07.csv:DC_bridge_energy",
+      "passed": true,
+      "detail": "W-W0=bridge input-load+battery discharge"
+    },
+    {
+      "name": "smooth_service_pwm_f40000_h5e-07.csv:storage_energy",
+      "passed": true,
+      "detail": "B-B0=-integral b"
+    },
+    {
+      "name": "smooth_service_pwm_f40000_h5e-07.csv:positive_compute_load",
+      "passed": true,
+      "detail": 650000.0
+    },
+    {
+      "name": "smooth_service_pwm_f40000_h5e-07.csv:modulation_no_clipping",
+      "passed": true,
+      "detail": 0.7278771420416
+    },
+    {
+      "name": "smooth_service_pwm_f40000_h5e-07.csv:genuine_binary_switches",
+      "passed": true,
+      "detail": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "smooth_service_pwm_f40000_h5e-07.csv:instantaneous_bridge_power",
+      "passed": true,
+      "detail": "sum e_k*i_k is bridge DC input power"
+    },
+    {
+      "name": "smooth_service_pwm_f40000_h5e-07.csv:DC_current_switch_identity",
+      "passed": true,
+      "detail": "i_dc=sum(s_k*i_k); grid->DC sign"
+    },
+    {
+      "name": "smooth_service_pwm_f40000_h5e-07.csv:abc_power_signs",
+      "passed": true,
+      "detail": "Qsupport computed independently from abc cross products"
+    },
+    {
+      "name": "constant:time_step_convergence",
+      "passed": true,
+      "detail": [
+        0.004359221999038709,
+        0.0012135100005252752
+      ]
+    },
+    {
+      "name": "constant:frequency_convergence:W_rms_difference",
+      "passed": true,
+      "detail": [
+        10.325317234325427,
+        2.5849495204372013,
+        0.648463361588667,
+        0.162128153234862
+      ]
+    },
+    {
+      "name": "constant:frequency_convergence:Pmean_rms_difference",
+      "passed": true,
+      "detail": [
+        533.583729067967,
+        133.40272065378016,
+        33.359915861133814,
+        8.341599519101539
+      ]
+    },
+    {
+      "name": "constant:frequency_convergence:Qmean_rms_difference",
+      "passed": true,
+      "detail": [
+        382.36520978715396,
+        95.66506506591294,
+        23.93833828124596,
+        5.985047486333028
+      ]
+    },
+    {
+      "name": "smooth_service:time_step_convergence",
+      "passed": true,
+      "detail": [
+        0.004712050998932682,
+        0.0012996709992876276
+      ]
+    },
+    {
+      "name": "smooth_service:frequency_convergence:W_rms_difference",
+      "passed": true,
+      "detail": [
+        10.281386681794698,
+        2.5739839669612317,
+        0.6457174754362006,
+        0.16144154239416636
+      ]
+    },
+    {
+      "name": "smooth_service:frequency_convergence:Pmean_rms_difference",
+      "passed": true,
+      "detail": [
+        539.0869971587592,
+        134.78119590605834,
+        33.70498902225471,
+        8.427939719355185
+      ]
+    },
+    {
+      "name": "smooth_service:frequency_convergence:Qmean_rms_difference",
+      "passed": true,
+      "detail": [
+        377.5179242637852,
+        94.45161572171645,
+        23.63505018239519,
+        5.909218818902402
+      ]
+    }
+  ],
+  "test_count": 200
+}

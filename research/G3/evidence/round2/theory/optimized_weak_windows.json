@@ -1,0 +1,66 @@
+{
+  "alpha_kW": 100.0,
+  "grid_windows": 295,
+  "left_grid": "0.005:0.001:0.020",
+  "right_grid": "0.011:0.001:0.035",
+  "minimum_width_s": 0.005,
+  "Gauss_Legendre_order": 160,
+  "scope": "Valid sufficient weak-form all-allocation outer cuts; optimizing the chosen test does not establish exact capacity.",
+  "results": [
+    {
+      "epsilon_kJ": 0,
+      "selected_window_s": [
+        0.015,
+        0.020000000000000004
+      ],
+      "upper_threshold_beta_kvar": 837.0299101800841,
+      "quad_margin_at_threshold_kV_s": -4.9873299934333204e-18,
+      "verified_excluded_beta_kvar": 837.0399101800841,
+      "verified_margin_kV_s": 3.1182346791475135e-09
+    },
+    {
+      "epsilon_kJ": 0.001,
+      "selected_window_s": [
+        0.014000000000000002,
+        0.020000000000000004
+      ],
+      "upper_threshold_beta_kvar": 840.6589023730237,
+      "quad_margin_at_threshold_kV_s": -5.637851296924623e-18,
+      "verified_excluded_beta_kvar": 840.6689023730237,
+      "verified_margin_kV_s": 3.73889021002341e-09
+    },
+    {
+      "epsilon_kJ": 0.01,
+      "selected_window_s": [
+        0.013000000000000001,
+        0.022000000000000002
+      ],
+      "upper_threshold_beta_kvar": 848.237234244205,
+      "quad_margin_at_threshold_kV_s": -9.974659986866641e-18,
+      "verified_excluded_beta_kvar": 848.247234244205,
+      "verified_margin_kV_s": 5.619878852211602e-09
+    },
+    {
+      "epsilon_kJ": 0.1,
+      "selected_window_s": [
+        0.009000000000000001,
+        0.027000000000000003
+      ],
+      "upper_threshold_beta_kvar": 861.1820328747459,
+      "quad_margin_at_threshold_kV_s": -2.5934115965853266e-15,
+      "verified_excluded_beta_kvar": 861.1920328747459,
+      "verified_margin_kV_s": 1.1269953238864094e-08
+    },
+    {
+      "epsilon_kJ": 1.0,
+      "selected_window_s": [
+        0.005,
+        0.035
+      ],
+      "upper_threshold_beta_kvar": 884.4329545530205,
+      "quad_margin_at_threshold_kV_s": 9.024551939074144e-14,
+      "verified_excluded_beta_kvar": 884.4429545530205,
+      "verified_margin_kV_s": 1.893001098755842e-08
+    }
+  ]
+}

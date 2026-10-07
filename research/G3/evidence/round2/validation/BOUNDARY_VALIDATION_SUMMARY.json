@@ -1,0 +1,246 @@
+{
+  "preregistered_protocol": "./BOUNDARY_PROTOCOL.json",
+  "protocol_sha256": "faef5864bd093c9b952aa5ec6ae458c5c1394e1d19597b6dea29e06ace7537a8",
+  "requested_batch_beta_kvar": [
+    790,
+    800,
+    805,
+    808,
+    810
+  ],
+  "all_admitted_cases_tested": [
+    790,
+    800,
+    805,
+    808
+  ],
+  "omitted_simulation": {
+    "beta_kvar": 810,
+    "reason": "Analytically excluded; negative-margin NPZ is not an admissible witness; the protocol excluded simulation of that non-witness"
+  },
+  "physical_model_unmodified": true,
+  "no_retuning": true,
+  "results": [
+    {
+      "Vmin": 1132.47926229,
+      "Vmax": 1272.83175845,
+      "Ipeak": 1169.76553285,
+      "modulation_max": 0.996109615083,
+      "circular_modulation_max": 0.996356011289,
+      "clipped_cycles": 0,
+      "tracking_horizon_0p2s": {
+        "Pmean_rms_error": 116.93589995060032,
+        "Qmean_rms_error": 404.61386453614637
+      },
+      "Pmean_max_abs_error_W": 334.32275394001044,
+      "Qmean_max_abs_error_W": 561.3267894700402,
+      "u_clamp_max_change_W": 0,
+      "rate_clamp_max_change_W_per_s": 0,
+      "all_tested_hardware_bounds_satisfied": true,
+      "state_at_0.200s": {
+        "W": 21588.083679506,
+        "B": 50000.000004762,
+        "b": -0.00023429999688851,
+        "id": 774.48453190496,
+        "iq": 0.00053019064657178,
+        "filter_energy": 134.96091528607,
+        "energy_closure": 0.0025613483594498,
+        "W_error_J": -11.916320494001411,
+        "B_error_J": 4.761997843161225e-06
+      },
+      "state_at_0.300s": {
+        "W": 21582.674368666,
+        "B": 50000.00000592,
+        "b": -4.8292834784339e-13,
+        "id": 774.48706013347,
+        "iq": -0.00061897361990759,
+        "filter_energy": 134.96179642078,
+        "energy_closure": 0.0038410911511164,
+        "W_error_J": -17.3256313339989,
+        "B_error_J": 5.9200028772465885e-06
+      },
+      "beta_kvar": 790,
+      "analytic_margin_J": 138.2861216011362,
+      "source_sha256": "1fb076503130cfa734b16974dfb0070dc728233ad03b0b71718ca292bda86ec7",
+      "result_file": "boundary_a100_q790_n320_TARGET_RESULTS.json",
+      "step_convergence": [
+        {
+          "coarse_step": 1e-06,
+          "fine_step": 5e-07,
+          "W_max_abs_difference": 0.0027538640024431515,
+          "B_max_abs_difference": 6.547998054884374e-06,
+          "b_max_abs_difference": 0.0003904299810528755,
+          "Pmean_max_abs_difference": 0.00853058008942753,
+          "Qmean_max_abs_difference": 0.0628964799689129,
+          "Imax_max_abs_difference": 2.5098000833168044e-06
+        }
+      ]
+    },
+    {
+      "Vmin": 1132.26532288,
+      "Vmax": 1273.52899186,
+      "Ipeak": 1179.58063615,
+      "modulation_max": 0.998011182636,
+      "circular_modulation_max": 0.998250837454,
+      "clipped_cycles": 0,
+      "tracking_horizon_0p2s": {
+        "Pmean_rms_error": 117.21434653153493,
+        "Qmean_rms_error": 404.82414604548103
+      },
+      "Pmean_max_abs_error_W": 334.1252494099317,
+      "Qmean_max_abs_error_W": 563.2712667899905,
+      "u_clamp_max_change_W": 0,
+      "rate_clamp_max_change_W_per_s": 0,
+      "all_tested_hardware_bounds_satisfied": true,
+      "state_at_0.200s": {
+        "W": 21588.086538877,
+        "B": 50000.000004656,
+        "b": -0.00023604893888951,
+        "id": 774.48446398131,
+        "iq": 0.0005633282566464,
+        "filter_energy": 134.96089161347,
+        "energy_closure": 0.002559644926805,
+        "W_error_J": -11.913461123000161,
+        "B_error_J": 4.656001692637801e-06
+      },
+      "state_at_0.300s": {
+        "W": 21582.675971052,
+        "B": 50000.000005823,
+        "b": -4.8653318643593e-13,
+        "id": 774.48705395341,
+        "iq": -0.00061746204576707,
+        "filter_energy": 134.96179426691,
+        "energy_closure": 0.0038393732102122,
+        "W_error_J": -17.324028948001796,
+        "B_error_J": 5.822999810334295e-06
+      },
+      "beta_kvar": 800,
+      "analytic_margin_J": 65.50912520315862,
+      "source_sha256": "509ad88a7c632d4c56fe8ff9637ced9c5bc6a4cf8d6570ef365844c8ed2ce5fe",
+      "result_file": "boundary_a100_q800_n320_TARGET_RESULTS.json",
+      "step_convergence": [
+        {
+          "coarse_step": 1e-06,
+          "fine_step": 5e-07,
+          "W_max_abs_difference": 0.0027531109990377445,
+          "B_max_abs_difference": 6.476002454292029e-06,
+          "b_max_abs_difference": 0.0003858800046145916,
+          "Pmean_max_abs_difference": 0.008205499965697527,
+          "Qmean_max_abs_difference": 0.06291204993613064,
+          "Imax_max_abs_difference": 2.508850002413965e-06
+        }
+      ]
+    },
+    {
+      "Vmin": 1132.15734206,
+      "Vmax": 1273.89314302,
+      "Ipeak": 1184.5023795,
+      "modulation_max": 0.998963293379,
+      "circular_modulation_max": 0.999199572111,
+      "clipped_cycles": 0,
+      "tracking_horizon_0p2s": {
+        "Pmean_rms_error": 117.36191787454239,
+        "Qmean_rms_error": 404.93023207004893
+      },
+      "Pmean_max_abs_error_W": 334.0836705599213,
+      "Qmean_max_abs_error_W": 564.2493240500335,
+      "u_clamp_max_change_W": 0,
+      "rate_clamp_max_change_W_per_s": 0,
+      "all_tested_hardware_bounds_satisfied": true,
+      "state_at_0.200s": {
+        "W": 21588.087490333,
+        "B": 50000.000004808,
+        "b": -0.00023623857844202,
+        "id": 774.48447444477,
+        "iq": 0.00055960932880339,
+        "filter_energy": 134.96089526017,
+        "energy_closure": 0.0025590340082999,
+        "W_error_J": -11.91250966699954,
+        "B_error_J": 4.807996447198093e-06
+      },
+      "state_at_0.300s": {
+        "W": 21582.676671416,
+        "B": 50000.000005975,
+        "b": -4.8692406273553e-13,
+        "id": 774.48705263728,
+        "iq": -0.00061715494430814,
+        "filter_energy": 134.96179380821,
+        "energy_closure": 0.0038387508830056,
+        "W_error_J": -17.323328583999682,
+        "B_error_J": 5.975001840852201e-06
+      },
+      "beta_kvar": 805,
+      "analytic_margin_J": 29.04291098771817,
+      "source_sha256": "58601e08e6c4c2109fb4d68b1271cef74426bb0a0c79ce54c13be9c59886f0ee",
+      "result_file": "boundary_a100_q805_n320_TARGET_RESULTS.json",
+      "step_convergence": [
+        {
+          "coarse_step": 1e-06,
+          "fine_step": 5e-07,
+          "W_max_abs_difference": 0.002753010001470102,
+          "B_max_abs_difference": 6.513000698760152e-06,
+          "b_max_abs_difference": 0.0003873600217048079,
+          "Pmean_max_abs_difference": 0.00829451996833086,
+          "Qmean_max_abs_difference": 0.0630117499968037,
+          "Imax_max_abs_difference": 2.5092600708376267e-06
+        }
+      ]
+    },
+    {
+      "Vmin": 1132.09222941,
+      "Vmax": 1274.34445884,
+      "Ipeak": 1187.45989913,
+      "modulation_max": 0.999534929955,
+      "circular_modulation_max": 0.999769237994,
+      "clipped_cycles": 0,
+      "tracking_horizon_0p2s": {
+        "Pmean_rms_error": 117.43186389973724,
+        "Qmean_rms_error": 404.99788522740556
+      },
+      "Pmean_max_abs_error_W": 333.50898892001715,
+      "Qmean_max_abs_error_W": 564.8379806800513,
+      "u_clamp_max_change_W": 0,
+      "rate_clamp_max_change_W_per_s": 0,
+      "all_tested_hardware_bounds_satisfied": true,
+      "state_at_0.200s": {
+        "W": 21588.092219315,
+        "B": 50000.000004773,
+        "b": -0.00023866368335979,
+        "id": 774.48441145154,
+        "iq": 0.00059248442002513,
+        "filter_energy": 134.9608733059,
+        "energy_closure": 0.0025584877294023,
+        "W_error_J": -11.907780685000034,
+        "B_error_J": 4.772999091073871e-06
+      },
+      "state_at_0.300s": {
+        "W": 21582.677994852,
+        "B": 50000.000005953,
+        "b": -4.9192257714795e-13,
+        "id": 774.48703552525,
+        "iq": -0.00061330026579753,
+        "filter_energy": 134.96178784434,
+        "energy_closure": 0.0038382115890272,
+        "W_error_J": -17.322005147998425,
+        "B_error_J": 5.95299934502691e-06
+      },
+      "beta_kvar": 808,
+      "analytic_margin_J": 7.138282577321776,
+      "source_sha256": "332c8deb9b8f1a870aa4850b73c22b2750ea729686949573e62b961a13eacbc0",
+      "result_file": "boundary_a100_q808_n320_TARGET_RESULTS.json",
+      "step_convergence": [
+        {
+          "coarse_step": 1e-06,
+          "fine_step": 5e-07,
+          "W_max_abs_difference": 0.0027524860015546437,
+          "B_max_abs_difference": 6.503003532998264e-06,
+          "b_max_abs_difference": 0.0003871200024150312,
+          "Pmean_max_abs_difference": 0.008347279974259436,
+          "Qmean_max_abs_difference": 0.06307282007765025,
+          "Imax_max_abs_difference": 2.508049988136918e-06
+        }
+      ]
+    }
+  ],
+  "decision": "All four admitted cases satisfy tested finite-horizon bounds, inventory recovery passes, exact DC recovery and exact P/Q transfer fail."
+}

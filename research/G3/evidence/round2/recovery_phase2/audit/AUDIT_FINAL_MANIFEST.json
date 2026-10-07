@@ -1,0 +1,163 @@
+{
+  "frozen_at_utc": "2026-10-03T09:44:03.062496+00:00",
+  "scope": "Independent audit artifacts only. No further writes planned to any listed audit artifact. V1A failed result preserved; V2 finite contract all34 rows passed.",
+  "file_count": 39,
+  "files": {
+    "AUDIT_PLAN.md": {
+      "sha256": "9e2177df7882dd5bb87e97d237488d3827bbaf87c8decdd769c346d66f65f8f4",
+      "bytes": 2810
+    },
+    "AUDIT_REPORT_V1A.md": {
+      "sha256": "02243f7d89f19cd923581aa7703feb96d9fe90d5de6e7eea0bba4cba22fc3336",
+      "bytes": 7871
+    },
+    "CORE_INTEGRITY_INITIAL.json": {
+      "sha256": "163d69684b4b5d289077549b82c55b67464acbf8979898e8c17e557110a577e4",
+      "bytes": 200
+    },
+    "FINAL_STATE_COSTS.csv": {
+      "sha256": "295aae3099ff5e2909fe5ed1ba8ff3e7204708db81d926121704fea6dcced01e",
+      "bytes": 4706
+    },
+    "INDEPENDENT_RESULTS.json": {
+      "sha256": "cbb72de7e779c524ab1e0e43881a3dbffd36fccf0ff802f52ef2ade3bda838c4",
+      "bytes": 166472
+    },
+    "PHYSICAL_WAVEFORM_DIAGNOSTICS.json": {
+      "sha256": "d35b909d670a81380cd6a3390e241d3f34e4e7c6e00293a633b59846d6eead0a",
+      "bytes": 9834
+    },
+    "PREONSET_PREVIEW_AUDIT.json": {
+      "sha256": "765dfd42cd7417f3964e4c763305d663db09bc9a68950fddde7f52d47adfaa08",
+      "bytes": 5473
+    },
+    "PROTOCOL_REVIEW.json": {
+      "sha256": "005dcf81a2c1c85628837f564083424ddb1cae3a8731fc3ca5269aa0f84b5b5e",
+      "bytes": 1173
+    },
+    "PROTOCOL_V1A_REVIEW.json": {
+      "sha256": "29ea3c77d374a63dcafc4dd1b78db0effce3079e5ea984627a77e75ec922fca4",
+      "bytes": 819
+    },
+    "PROTOCOL_V1A_REVIEWED.json": {
+      "sha256": "e781acb04587aac37eb5f8c3ba40980d17dc392beceb1a9c2d1e8b41ace5f2fc",
+      "bytes": 7605
+    },
+    "PROTOCOL_V1_REVIEWED.json": {
+      "sha256": "e1952a799ffec1988d3fb0bca3ef22ca33d7313001b635ad44929cfe29cb8f63",
+      "bytes": 7069
+    },
+    "REPRODUCIBILITY_CHECK.json": {
+      "sha256": "c5c27a0c4c2fb08ebdf54c893c06d82e0cd4a88d23b9d2ac77e4ccc44db37df8",
+      "bytes": 1304
+    },
+    "STATIC_CODE_AUDIT.md": {
+      "sha256": "c2b5bc70130333d1fd012bb5114ebcf02e97ca8b101e2786ea7f9167a80d325f",
+      "bytes": 4722
+    },
+    "audit_recovery.py": {
+      "sha256": "d81bde3a096b8195484b8509cd48004c89fbfa6256c7550a4ef6d4f2b6400b32",
+      "bytes": 7607
+    },
+    "reproduce_tau4_r25_o73_h05_s1.csv": {
+      "sha256": "68dc5816b34ef5711e5d4e7a054ccd3e2f1c83a6a53676c8a79651d5163cb700",
+      "bytes": 5641629
+    },
+    "reproduce_tau4_r25_o73_h05_s1.json": {
+      "sha256": "a7a29a7ea5bedd0be8253afdb38d6e0f7c2446e12cbd3a43b9369cac197bc0da",
+      "bytes": 1791
+    },
+    "reproduce_tau4_r25_o73_h05_s1_bins.csv": {
+      "sha256": "a1d03ed21a03a05b407c7b47e6333dda72936803138e8f5237f718e3950f4bd7",
+      "bytes": 903
+    },
+    "reproduce_tau4_r25_o73_h05_s1_dense.csv": {
+      "sha256": "a80689933acc6c001400558a050b4df919984bff314d534c55f4f45312e789da",
+      "bytes": 43361001
+    },
+    "reproduce_tau4_r25_o73_h05_s1_snapshots.csv": {
+      "sha256": "99cbe5ed83b75389c62b3c5d40722dcd26ea23a4d1bb6c1fd824a78bacaf7fac",
+      "bytes": 2062
+    },
+    "v2/AUDIT_REPORT_V2.md": {
+      "sha256": "f3f4cb3f6845008b7f87cb6f0d5cad534d8486adee78a93e5b4ce9880d39ba45",
+      "bytes": 10506
+    },
+    "v2/CONVERGENCE_INDEPENDENT.json": {
+      "sha256": "bdd15981cfb22495036263ea77eb9f09c0abc18c5349c62f2485e91305fb3db4",
+      "bytes": 19906
+    },
+    "v2/DYNAMIC_GATE_IDENTITY_CHECK.json": {
+      "sha256": "29c5a53d7cb18127421af74e2339a0bdcbb0e46280e8c6b492d44df694b09b50",
+      "bytes": 4580
+    },
+    "v2/EXECUTION_FREEZE_V2.json": {
+      "sha256": "300a4a338111b79a68282bacc2383ad7d9add576ffa323048a5db1ac11e117f7",
+      "bytes": 649
+    },
+    "v2/FILTER_ENERGY_AUDIT.json": {
+      "sha256": "71621fa0a475790e3b4695a77a401cabeb0779d01190e1d6ffaa2513d8f2c4d0",
+      "bytes": 29661
+    },
+    "v2/FINAL_INTEGRITY_CHECK.json": {
+      "sha256": "9069529076e546fe685188dbf3cfe616c5d46c045cd64b4dbd2dba9c5628b39b",
+      "bytes": 140
+    },
+    "v2/FINAL_STATE_COSTS.csv": {
+      "sha256": "033665cece371e5f6f0e8adb01c6f1160d75d516f697f9e7c175f009199bf103",
+      "bytes": 10671
+    },
+    "v2/FULL_ENERGY_LEDGER.csv": {
+      "sha256": "a7708202bd69fb22578467a788b3fb3b8ccdfd4b11da7ac5242b7774c182f2db",
+      "bytes": 162006
+    },
+    "v2/INDEPENDENT_RESULTS.json": {
+      "sha256": "4e5d2e3b477e6aee1778d7d3fe8f43c33fcd19c27183df42863a819985618f94",
+      "bytes": 365746
+    },
+    "v2/LEDGER_ADDENDUM_PRE_RESULT.json": {
+      "sha256": "37998a9426ec13c04c1be180462737b3ec94b89c4a3da6095425eff0d091b2a2",
+      "bytes": 1046
+    },
+    "v2/PROTOCOL_REVIEW_V2.json": {
+      "sha256": "3bc0c8f781fc0c63f16a0d6e5a7795d3fb56c582460f3967a07c70ee552bd796",
+      "bytes": 1294
+    },
+    "v2/PROTOCOL_V2.json": {
+      "sha256": "5764b17d169a62d1d28325fb089b85d7bc26d2e40456d961c52c6b34b2648182",
+      "bytes": 8630
+    },
+    "v2/REPRODUCIBILITY_CHECK.json": {
+      "sha256": "d8acfa54c7303c0c491279472e61164894aea5062d6747d891b2794bb6a85bbe",
+      "bytes": 798
+    },
+    "v2/audit_energy_ledgers.py": {
+      "sha256": "6162bcfb4e03b8286aeb0ac2b7897e4bb2fb2ee9ef5347d863bf59f6bb66dff7",
+      "bytes": 4427
+    },
+    "v2/audit_recovery_v2.py": {
+      "sha256": "e611741d6a321c125f1a341dc391918db8501ddf00e6702ecd8c5cd861753c55",
+      "bytes": 8015
+    },
+    "v2/reproduce_tau4.5_r27_o19_h05_s1.csv": {
+      "sha256": "450a42158f52f02404ef116ee051eacd87f4f71f62d67270300bafe96e6d8bd1",
+      "bytes": 5660034
+    },
+    "v2/reproduce_tau4.5_r27_o19_h05_s1.json": {
+      "sha256": "6657e971b4fac8e2a5d8c5ca2310650fd08493bed87e94f2d823ec68a7064f2c",
+      "bytes": 1789
+    },
+    "v2/reproduce_tau4.5_r27_o19_h05_s1_bins.csv": {
+      "sha256": "f3cc07e4f8148b27e9462317804417150c33977201cd9ed83ee7c9dfa4b2bb88",
+      "bytes": 903
+    },
+    "v2/reproduce_tau4.5_r27_o19_h05_s1_dense.csv": {
+      "sha256": "6504ee033963cfc3a2d6a8c646c658a3ab350f47997b06fc1aacc5865780b28a",
+      "bytes": 43506965
+    },
+    "v2/reproduce_tau4.5_r27_o19_h05_s1_snapshots.csv": {
+      "sha256": "9c2bfea607bcd821d5ee7b35a30ee588823169d70f2784e717ea211d97f4cfc5",
+      "bytes": 2054
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "stage": "0_parameters_and_units",
+  "status": "reconstructed_then_rerun",
+  "original_artifacts_recovered": false,
+  "parameter_hash_identity_verified": true,
+  "new_trajectory_runs_included": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "files": [
+    {
+      "path": "recovery/restore_parameters.py",
+      "bytes": 8732,
+      "sha256": "1c5ca592187c9d89a3850a7365e92c726994a94ed87ee87e93269ffae8dda629"
+    },
+    {
+      "path": "recovery/PARAMETER_TEXT_RECONSTRUCTION.json",
+      "bytes": 1131,
+      "sha256": "2f2f7b3c042bb66ba74c7b6ad982c9687c50eb2c415d9eb4987dd6e5d532ef7e"
+    },
+    {
+      "path": "recovery/test_units_reconstructed.py",
+      "bytes": 1830,
+      "sha256": "929796f594710add1fec1829fd4f6a965720a9e3e39e699e16c6a4cb937f2f3a"
+    },
+    {
+      "path": "recovery/UNITS_REVALIDATED.json",
+      "bytes": 661,
+      "sha256": "6e80a3c477b72d18903cf9dfac8978780d83611d68943cdbf5d926fb5240c541"
+    },
+    {
+      "path": "recovery/RECOVERY_README.md",
+      "bytes": 991,
+      "sha256": "797404cb7e8a5943a1827b4f509109902b9d2defcc91496adb5725c2541a2ab4"
+    },
+    {
+      "path": "protocol/GATE_A_LOCKED_V1.json",
+      "bytes": 5287,
+      "sha256": "666371d90a95db4d60f1eef5c23188e3089b00abd4b6432c14d836c37663f310"
+    },
+    {
+      "path": "protocol/GATE_A_LOCKED_V1_1.json",
+      "bytes": 5461,
+      "sha256": "d760dc40b8784fe51e7cb503d4bde064139563e82b48255fb8699998e87eddc9"
+    },
+    {
+      "path": "protocol/GATE_A_LOCKED_V2_1.json",
+      "bytes": 6912,
+      "sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57"
+    },
+    {
+      "path": "protocol/GATE_A_LOCKED_V1.sha256",
+      "bytes": 88,
+      "sha256": "6749099b2478d9293554f0bfe8b2dcf1796fa615c75df2b950d5b815565c21fb"
+    },
+    {
+      "path": "protocol/GATE_A_LOCKED_V1_1.sha256",
+      "bytes": 90,
+      "sha256": "02f71770ba730efdd57fe83dbc3b5b18059eea6c19f4ff1e4c18ee5702a03f36"
+    },
+    {
+      "path": "protocol/GATE_A_LOCKED_V2_1.sha256",
+      "bytes": 90,
+      "sha256": "9970147cfc15f14bb734027cfda6b2abd1f6d60e830397dcb81c34720e3dbe09"
+    }
+  ]
+}

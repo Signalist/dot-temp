@@ -1,0 +1,8 @@
+{
+  "nodes": 3201,
+  "comparisons": 9603,
+  "all_enclose_exact_rational_time_reference": true,
+  "failure_count": 0,
+  "failures": [],
+  "reference_interval_precision_digits": 80
+}

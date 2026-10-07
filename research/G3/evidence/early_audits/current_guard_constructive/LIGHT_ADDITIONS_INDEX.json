@@ -1,0 +1,111 @@
+{
+  "kind": "Light code/report additions, not a full-data backup",
+  "included_paths": [
+    "G3_CONSTRUCTIVE_AND_CLOSURE_REPORT_ZH.md",
+    "INCREMENT_CONSTRUCTIVE_MANIFEST.json",
+    "INCREMENT_CONSTRUCTIVE_README.md",
+    "current_guard_constructive/ARTIFACT_AUDIT_MANIFEST.json",
+    "current_guard_constructive/AUDIT_MANIFEST.json",
+    "current_guard_constructive/CLOSURE_SUMMARY.json",
+    "current_guard_constructive/CODE_LIGHT_UPDATE_GUIDANCE.json",
+    "current_guard_constructive/CONSTRUCTIVE_FAULT_RESPONSE.png",
+    "current_guard_constructive/CONSTRUCTIVE_HEALTHY_RESPONSE.png",
+    "current_guard_constructive/CONSTRUCTIVE_INSERTION_TRANSIENT.png",
+    "current_guard_constructive/EXECUTION_SCOPE.json",
+    "current_guard_constructive/IMPLEMENTATION_V1.json",
+    "current_guard_constructive/INDEPENDENT_ARTIFACT_AUDIT.md",
+    "current_guard_constructive/INDEPENDENT_AUDIT.md",
+    "current_guard_constructive/LIGHT_ADDITIONS_INDEX.json",
+    "current_guard_constructive/P0-fast_console.log",
+    "current_guard_constructive/P50-fast_console.log",
+    "current_guard_constructive/R0-fast_console.log",
+    "current_guard_constructive/R50-fast_console.log",
+    "current_guard_constructive/RECOVERY_CRITERION_COMPATIBILITY.json",
+    "current_guard_constructive/RUNNER_AUDIT_NOTES_ZH.md",
+    "current_guard_constructive/RUNNER_DIFF_FROM_GATE1.patch",
+    "current_guard_constructive/RUNNER_STATIC_AUDIT.json",
+    "current_guard_constructive/audit_artifact_checks.py",
+    "current_guard_constructive/audit_artifact_results.json",
+    "current_guard_constructive/audit_event_boundaries.py",
+    "current_guard_constructive/audit_event_results.json",
+    "current_guard_constructive/audit_interface_results.json",
+    "current_guard_constructive/audit_interface_runner.py",
+    "current_guard_constructive/audit_interface_runner_results.json",
+    "current_guard_constructive/audit_interface_tests.py",
+    "current_guard_constructive/audit_recovery_fixture_results.json",
+    "current_guard_constructive/audit_recovery_fixture_tests.py",
+    "current_guard_constructive/build_independent_artifact_report.py",
+    "current_guard_constructive/build_report.py",
+    "current_guard_constructive/check_recovery_compatibility.py",
+    "current_guard_constructive/guarded_allocator_controller.py",
+    "current_guard_constructive/package_closure.py",
+    "current_guard_constructive/plot_faults.py",
+    "current_guard_constructive/plot_healthy.py",
+    "current_guard_constructive/results/MODEL_ROSTER.json",
+    "current_guard_constructive/results/P0-fast_h1e-05.json",
+    "current_guard_constructive/results/P0-fast_h1e-05.started.json",
+    "current_guard_constructive/results/P50-fast_h1e-05.json",
+    "current_guard_constructive/results/P50-fast_h1e-05.started.json",
+    "current_guard_constructive/results/R0-fast_h1e-05.json",
+    "current_guard_constructive/results/R0-fast_h1e-05.started.json",
+    "current_guard_constructive/results/R50-fast_h1e-05.json",
+    "current_guard_constructive/results/R50-fast_h1e-05.started.json",
+    "current_guard_constructive/run_constructive.py",
+    "current_guard_constructive/test_runner_static.py",
+    "current_guard_constructive/verify_package.py",
+    "protocol/next_constructive/CONCLUSION_MATRIX_DRAFT.md",
+    "protocol/next_constructive/CONCLUSION_MATRIX_FINAL.md",
+    "protocol/next_constructive/FOUR_BASELINE_ONE_PAGE.md",
+    "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.json",
+    "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.sha256",
+    "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_ZH.md",
+    "protocol/next_constructive/G3_CLOSURE_RECOMMENDATION.md",
+    "protocol/next_constructive/G3_HYPOTHESIS_LEDGER.json",
+    "protocol/next_constructive/G3_HYPOTHESIS_LEDGER.md",
+    "protocol/next_constructive/G3_POST_FOUR_RESULT_UPDATE.json"
+  ],
+  "excluded_raw_data": [
+    {
+      "path": "current_guard_constructive/results/P0-fast_h1e-05.jsonl.gz",
+      "bytes": 29355073,
+      "sha256": "367a375edc42236e15dc03fabd40a8f557e6ddfa869ff4ffb6f5f967e87baba7"
+    },
+    {
+      "path": "current_guard_constructive/results/P0-fast_h1e-05.npz",
+      "bytes": 5392669,
+      "sha256": "9d4e8a577680299912540aeee7dea5b62f4dd35619012ca80609bd6c07325230"
+    },
+    {
+      "path": "current_guard_constructive/results/P50-fast_h1e-05.jsonl.gz",
+      "bytes": 31127955,
+      "sha256": "048f08c1b1cc0363ab69fc2e0c42fcf1aca4e09b04796d0dd09c6d5cca58242c"
+    },
+    {
+      "path": "current_guard_constructive/results/P50-fast_h1e-05.npz",
+      "bytes": 9310742,
+      "sha256": "2c48dcea706f8848d4ea894dbeb18a78f0dce43bf927b7e4f7d09fcca8501938"
+    },
+    {
+      "path": "current_guard_constructive/results/R0-fast_h1e-05.jsonl.gz",
+      "bytes": 29343799,
+      "sha256": "15699e0bf51aa6e9d8dfc223c5db201b6c77fc5251a414696f5453dd92338ca3"
+    },
+    {
+      "path": "current_guard_constructive/results/R0-fast_h1e-05.npz",
+      "bytes": 5392355,
+      "sha256": "708e08a1635893f07186a35e17db4c6bf9574cf02a304cfa553d37390525d89c"
+    },
+    {
+      "path": "current_guard_constructive/results/R50-fast_h1e-05.jsonl.gz",
+      "bytes": 31023565,
+      "sha256": "ae7df5abb658fff7d9159fb95548398ff7a58f922938c1fac90580e53bbc18c5"
+    },
+    {
+      "path": "current_guard_constructive/results/R50-fast_h1e-05.npz",
+      "bytes": 9279088,
+      "sha256": "ae5738056f3e2168f81370a37ed5b8378dc55f5bc5892864fc3a3984b5d1ef00"
+    }
+  ],
+  "full_raw_archive": "G3_CONSTRUCTIVE_CLOSURE_INCREMENT_20261002.zip",
+  "merge_instruction": "Append to the existing light artifact under the same Library identity; deduplicate identical proposal paths; retain all old members. No raw-data completeness claim for this light ZIP."
+}

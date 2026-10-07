@@ -1,0 +1,8 @@
+{
+ "status":"Frozen before any V2 simulation, adds disclosure fields only; no controller, threshold, cost-window acceptance or campaign change",
+ "authoritative_with":"PROTOCOL_V2.json",
+ "required_cost_windows":["shared checkpoint2.0s to actual onset","actual onset to service end","service end to recovery deadline","deadline to final observation","actual onset to final observation","shared checkpoint2.0s to final observation"],
+ "reason":"Known authorized P/Q midpoint feedforward can produce a small causal scheduled pre-onset physical increment within first PWM period; the complete cost ledger must expose it rather than exclude it from total cost",
+ "cost_fields":"Each window reports gross AC, net after actual copper loss, matched-healthy and model-baseline increments, positive/absolute PWM-cycle-mean incremental energy, stored-energy/load/loss identity residual",
+ "service_command_preservation":"Original polynomial u input remains unchanged; known schedule midpoint prediction is inherited, not future measured-workload access"
+}

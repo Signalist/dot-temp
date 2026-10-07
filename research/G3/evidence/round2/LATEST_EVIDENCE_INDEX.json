@@ -1,0 +1,11 @@
+{
+  "scope": "Core theory plus V1A retained failures, V2 flat-baseline recovery, and retrospective identical-input L comparator",
+  "read_first": "READ_FIRST_ZH.md",
+  "core_and_V2_status": "FINAL_SCIENTIFIC_STATUS.json",
+  "phase3_status": "recovery_phase3_workload_match/PHASE3_INDEX.json",
+  "proof": "theory/EXACT_PORT_CONTRACT_THEORY.md",
+  "phase3_audit": "recovery_phase3_workload_match/audit/AUDIT_REPORT_PHASE3.md",
+  "raw_omissions": "OMITTED_RAW_TRACE_INDEX.csv",
+  "integrity": "PUBLIC_FILE_MANIFEST.json",
+  "boundary": "The original core100J exact-average contract remains distinct from the repair100J recovery-window budgets. V2 and phase3 concern only the100kW/600kvar interior witness. Retrospective comparisons add no blind configurations."
+}

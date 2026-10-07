@@ -1,0 +1,154 @@
+{
+  "alpha_kW": 100.0,
+  "windows": 295,
+  "angles": 19,
+  "angle_range_rad": [
+    -0.18,
+    0
+  ],
+  "angle_step_rad": 0.01,
+  "assumption": "First-event positive Q floor; reference gamma stays below100kW for the reported beta/epsilon range, so Pmax and cap Lipschitz constants are valid.",
+  "scope": "Optimized within a finite weak-test family only; exact all-allocation sufficient exclusion, numerically evaluated.",
+  "results": [
+    {
+      "epsilon_kJ": 0,
+      "upper_threshold_beta_kvar": 809.700721670912,
+      "window_s": [
+        0.015,
+        0.020000000000000004
+      ],
+      "angle_rad": -0.09999999999999999,
+      "quad_at_threshold": {
+        "margin_kV_s": -5.421010862427522e-18,
+        "Mbar_kV_s": 0.0016345184382706545,
+        "error_kV_s": 0.0,
+        "rhs_kV_s": 0.00163451843827066,
+        "active_error_ratio": 0.1920203994014298,
+        "reactive_error_ratio": 0.21270308051052633,
+        "rho_kJ": 0.0
+      },
+      "verified_excluded_beta_kvar": 809.710721670912,
+      "quad_exclusion": {
+        "margin_kV_s": 3.1081219197762883e-09,
+        "Mbar_kV_s": 0.001634521227260278,
+        "error_kV_s": 0.0,
+        "rhs_kV_s": 0.0016345181191383582,
+        "active_error_ratio": 0.1920203994014298,
+        "reactive_error_ratio": 0.21270045360841405,
+        "rho_kJ": 0.0
+      }
+    },
+    {
+      "epsilon_kJ": 0.001,
+      "upper_threshold_beta_kvar": 813.3178715312669,
+      "window_s": [
+        0.014000000000000002,
+        0.020000000000000004
+      ],
+      "angle_rad": -0.09999999999999999,
+      "quad_at_threshold": {
+        "margin_kV_s": 1.1275702593849246e-16,
+        "Mbar_kV_s": 0.0019626327091360365,
+        "error_kV_s": 1.8980080636135172e-07,
+        "rhs_kV_s": 0.0019624429083295626,
+        "active_error_ratio": 0.16039571928216698,
+        "reactive_error_ratio": 0.14868995819617087,
+        "rho_kJ": 0.021411604667170188
+      },
+      "verified_excluded_beta_kvar": 813.3278715312669,
+      "quad_exclusion": {
+        "margin_kV_s": 3.726905620921039e-09,
+        "Mbar_kV_s": 0.0019626360559235846,
+        "error_kV_s": 1.8980080636135172e-07,
+        "rhs_kV_s": 0.0019624425282116025,
+        "active_error_ratio": 0.16039571928216698,
+        "reactive_error_ratio": 0.1486881300286704,
+        "rho_kJ": 0.021411604667170188
+      }
+    },
+    {
+      "epsilon_kJ": 0.01,
+      "upper_threshold_beta_kvar": 821.0196816329852,
+      "window_s": [
+        0.013000000000000001,
+        0.022000000000000002
+      ],
+      "angle_rad": -0.09999999999999999,
+      "quad_at_threshold": {
+        "margin_kV_s": -9.540979117872439e-18,
+        "Mbar_kV_s": 0.0029478155120260807,
+        "error_kV_s": 1.2743435263471202e-06,
+        "rhs_kV_s": 0.0029465411684997432,
+        "active_error_ratio": 0.10769145318164482,
+        "reactive_error_ratio": 0.06642130586491882,
+        "rho_kJ": 0.05855614749645018
+      },
+      "verified_excluded_beta_kvar": 821.0296816329852,
+      "quad_exclusion": {
+        "margin_kV_s": 5.601777720506962e-09,
+        "Mbar_kV_s": 0.0029478205322074026,
+        "error_kV_s": 1.2743435263471202e-06,
+        "rhs_kV_s": 0.002946540586903335,
+        "active_error_ratio": 0.10769145318164482,
+        "reactive_error_ratio": 0.06642049686486254,
+        "rho_kJ": 0.05855614749645018
+      }
+    },
+    {
+      "epsilon_kJ": 0.1,
+      "upper_threshold_beta_kvar": 834.404530875619,
+      "window_s": [
+        0.009000000000000001,
+        0.027000000000000003
+      ],
+      "angle_rad": -0.09999999999999999,
+      "quad_at_threshold": {
+        "margin_kV_s": -2.469378868052985e-15,
+        "Mbar_kV_s": 0.005909069898085996,
+        "error_kV_s": 6.508670492676077e-06,
+        "rhs_kV_s": 0.005902561227595789,
+        "active_error_ratio": 0.05500307955783126,
+        "reactive_error_ratio": 0.01648693766915237,
+        "rho_kJ": 0.09687108880514124
+      },
+      "verified_excluded_beta_kvar": 834.414530875619,
+      "quad_exclusion": {
+        "margin_kV_s": 1.1233982375423446e-08,
+        "Mbar_kV_s": 0.00590907993844864,
+        "error_kV_s": 6.508670492676077e-06,
+        "rhs_kV_s": 0.005902560033973589,
+        "active_error_ratio": 0.05500307955783126,
+        "reactive_error_ratio": 0.016486740082256902,
+        "rho_kJ": 0.09687108880514124
+      }
+    },
+    {
+      "epsilon_kJ": 1.0,
+      "upper_threshold_beta_kvar": 860.209488646091,
+      "window_s": [
+        0.005,
+        0.035
+      ],
+      "angle_rad": -0.09999999999999999,
+      "quad_at_threshold": {
+        "margin_kV_s": 9.05178709764698e-14,
+        "Mbar_kV_s": 0.00989163168581703,
+        "error_kV_s": 4.017391881987685e-05,
+        "rhs_kV_s": 0.009851457766906635,
+        "active_error_ratio": 0.03394993271645888,
+        "reactive_error_ratio": 0.005768515962291752,
+        "rho_kJ": 0.09687108880514124
+      },
+      "verified_excluded_beta_kvar": 860.219488646091,
+      "quad_exclusion": {
+        "margin_kV_s": 1.8873598373395084e-08,
+        "Mbar_kV_s": 0.009891648419754772,
+        "error_kV_s": 4.017391881987685e-05,
+        "rhs_kV_s": 0.009851455627336522,
+        "active_error_ratio": 0.03394993271645888,
+        "reactive_error_ratio": 0.005768448903639415,
+        "rho_kJ": 0.09687108880514124
+      }
+    }
+  ]
+}

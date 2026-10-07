@@ -1,0 +1,19 @@
+{
+  "evidence_status": "reconstructed_then_rerun; independently recomputed from new actual fine abc trace",
+  "protocol_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+  "trace_sha256": "9b19745f35669ae33ba4145c9d8ad38b6772e08ab35808dc54c363299716cd56",
+  "time_s": 0.60005,
+  "Wdc_J": 21915.13519323016,
+  "Pbat_W": 815639.6755409637,
+  "WL_J": 276.71216930672244,
+  "WLmax_J": 397.09750202003335,
+  "Wdc_max_J": 26136.00000000001,
+  "energy_exit_upper_W": 511140.44628251984,
+  "aggregate_headroom_J": 4341.250139483163,
+  "F_20ms_J": 4936.856650060683,
+  "margin_20ms_J": 595.6065105775197,
+  "first_root_s_after_fault": 0.01708820393246425,
+  "prefix_peak_time_s": 0.05986723888950185,
+  "source_lower_positive_until_s": 0.16312793510819273,
+  "interpretation": "Model-conditioned finite-ramp/no-brake current/DC obstruction; not OEM or hardware result."
+}

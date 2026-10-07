@@ -1,0 +1,13 @@
+{
+  "frozen_at_utc": "2026-10-03T09:28:59.939630+00:00",
+  "no_phase2_simulations_run_yet": true,
+  "authoritative_protocol": "PROTOCOL_V1A.json",
+  "files": {
+    "PROTOCOL_V1A.json": "e781acb04587aac37eb5f8c3ba40980d17dc392beceb1a9c2d1e8b41ace5f2fc",
+    "recovery.cpp": "62581893afc289718d9ca8f9ec374ceac457dce5510ef1c8a887f2ffeca99ef7",
+    "recovery": "3e3b09dc90e97ca0e23863b787e8dab0031ea2c3a89ea6a9430b9ac72710080a",
+    "run_campaign.py": "5fe75e0e08dc23914847b7ac0511c6bc06eefaed384142e9507e20ed2bdc0a6b",
+    "original_rectifier.cpp": "4a36c3dea93e2e69e71191343a83137f2e13577ddd40a2b39593feab5e3115d3",
+    "original_input.csv": "0bd31f7247e3de42082edae130fef2b7393b4c42e55cdb38ef9931b02d451946"
+  }
+}

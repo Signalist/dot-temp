@@ -1,0 +1,69 @@
+{
+  "case": "sag0475",
+  "status": "new_gate_a_diagnostic",
+  "physical_controller_version": "unchanged_Gate_A_V2.1",
+  "protocol_sha256": "a1c399415c6a4b8d17ccf6193963ed73b712fca0890856fbbbf9dcfe1af6bdb8",
+  "source_sha256": "699bcda150232c3132e0e68d48420bd7e0e9c123abe37e389854d32a8ba32801",
+  "max_step_s": 1e-05,
+  "initial_record": {
+    "checkpoint_file": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+    "sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152"
+  },
+  "initial_time_s": 0.6,
+  "final_time_s": 0.6060234821815205,
+  "stop_reason": "dc_high",
+  "checkpoint_time_s": 0.6,
+  "event_start_s": 0.60005,
+  "event_clearance_s": 0.75005,
+  "recovered_time_s": null,
+  "recovery_delay_s": null,
+  "all_hard_limits_safe": true,
+  "complete_safe_recovery": false,
+  "checks": [],
+  "metrics": {
+    "max_actual_current_pu": 0.9841023551632394,
+    "min_dc_pu": 1.00697811322161,
+    "max_dc_pu": 1.0999999999999994,
+    "max_pcc_S_VA": 1061687.2209435108,
+    "max_abs_Ppcc_W": 793727.2088632328,
+    "max_abs_Pb_W": 816415.5663971019,
+    "min_soc": 0.4999297547693511,
+    "max_soc": 0.49993044008718335,
+    "max_frequency_error_Hz": 2.858097670046668,
+    "max_energy_residual_J": 1.5133991837501526e-09
+  },
+  "post_event_metrics": {
+    "max_actual_current_pu": 0.9841023551632394,
+    "min_dc_pu": 1.00697811322161,
+    "max_dc_pu": 1.0999999999999994,
+    "max_pcc_S_VA": 1061687.2209435108,
+    "max_abs_Ppcc_W": 793727.2088632328,
+    "max_abs_Pb_W": 816415.5663971019,
+    "min_soc": 0.4999297547693511,
+    "max_soc": 0.49993044008718335,
+    "max_frequency_error_Hz": 2.858097670046668,
+    "max_energy_residual_J": 1.5133991837501526e-09
+  },
+  "current_limit_crossings_s": [],
+  "first_observed_hard_violation_s": {},
+  "max_modulation_norm": 0.4605089622422201,
+  "max_reference_current_pu": 0.9500000000000002,
+  "last_limiter_sample_s": {
+    "current_reference": 0.606,
+    "voltage_modulation": null,
+    "battery_command": null,
+    "pll_frequency": null
+  },
+  "cycles": [],
+  "frozen_bias_W": null,
+  "calibration_cycles": 0,
+  "confirmation_cycles": 0,
+  "wall_time_s": 0.3222910639960901,
+  "storage": {
+    "dense_internal_trace": true,
+    "endpoint_count": 62,
+    "internal_interval_count": 61
+  },
+  "numerical_energy_quadrature_crosscheck_J": 7.166818249970675e-10,
+  "limits": "Balanced synthetic averaged topology only; electrical numerical recurrence is not an infinite-time proof. Necessary-energy-margin points are not certified feasible."
+}

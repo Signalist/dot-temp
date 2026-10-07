@@ -1,0 +1,51 @@
+{
+  "stage": "Gate1 fixed implementation v1",
+  "created_UTC": "2026-10-02T03:08:39.016776+00:00",
+  "timing_note": "Recorded after C0-slow had started; the same pre-run source hashes are independently recorded in its run reservation/header. No post-start controller or runner modification.",
+  "frozen_protocol_sha256": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3",
+  "files": [
+    {
+      "path": "current_guard_gate1/common_guard.py",
+      "sha256": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03"
+    },
+    {
+      "path": "current_guard_gate1/guarded_controller.py",
+      "sha256": "9379032e4edc99a204ce0db3947e61f71dee30b8a876dce0d5740312bfda4af5"
+    },
+    {
+      "path": "current_guard_gate1/run_models.py",
+      "sha256": "9e4ca7f83570e6e62bf7f3fef9096cde5c44782a0ca7b27026dcd47978662eae"
+    },
+    {
+      "path": "current_guard_gate1/audit_algebra_oracle.py",
+      "sha256": "de339bc42b1d833e9b11ba4f044bee4890d5e11c77f095b4e2e7330c20b0e2fb"
+    },
+    {
+      "path": "current_guard_gate1/audit_interface_tests.py",
+      "sha256": "3ea62339be08d21a60db5373f7d0e3be6e0b5be94e57a0fde89494994d57d6fd"
+    },
+    {
+      "path": "current_guard_gate1/audit_algebra_results.json",
+      "sha256": "6d883fa49a368e4ace236da688522069d26e90a8ab60c571553091794a468679"
+    },
+    {
+      "path": "current_guard_gate1/audit_interface_results.json",
+      "sha256": "481b22616cf7911172a7832dfc803a9ca3767c7a396edc7764dccbc3baa73fbb"
+    },
+    {
+      "path": "current_guard_gate1/INDEPENDENT_INTERFACE_AUDIT.md",
+      "sha256": "eb0e9db5c334a97768c96ede6f166e355a1fb9c4225dcc4e64fefc1a802d37a8"
+    }
+  ],
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "independent_interface_tests": "9 groups plus independent algebra; all passed before first physical run",
+  "runner_review": "independent read-only review underway; no final result claimed",
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "real_time_qualified": false,
+  "historical_document_hash_note": "Audit-document hashes are a snapshot at this record creation time; later reader-wording cleanup and appended trajectory audits are pinned separately in the final delivery manifest. Guard/wrapper/runner source hashes remained unchanged for all ten runs."
+}

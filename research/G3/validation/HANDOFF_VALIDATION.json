@@ -1,0 +1,28 @@
+{
+  "date_utc": "2026-10-07",
+  "route": "G3",
+  "validation_type": "Fresh local checks of sanitized handoff; no new scientific result",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "cvxpy": null,
+    "clarabel": null,
+    "mpmath": "1.3.0",
+    "sympy": "1.14.0",
+    "matplotlib": "3.10.8"
+  },
+  "python_sources_compiled": 151,
+  "python_compile_method": "compile(source, relative_filename, exec), no bytecode written",
+  "small_source_tests": "tools/smoke_test.py passed",
+  "replay": "Exact saved-payload/profile/export/assertion replay passed",
+  "evidence_record": "FRESH_REPLAY_RESULT.json",
+  "never_run_in_this_handoff": [
+    "Full G3 SOCP regeneration: cvxpy and clarabel not installed",
+    "Historical full PWM/recovery campaign",
+    "Fresh dependency installation",
+    "Hardware and measured workload validation"
+  ],
+  "privacy_scan": "No private execution roots, credential-like tokens, or upload receipts in included text; cache/bytecode directories removed",
+  "scope_warning": "Successful tests do not prove novelty, licensing, deployment benefit or paper readiness"
+}

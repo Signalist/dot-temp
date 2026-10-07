@@ -1,0 +1,94 @@
+{
+  "retrieval_policy": "Download only from the cited public author/publisher URL; no access bypass. Historical hashes identify versions, not availability or permission.",
+  "sources": [
+    {
+      "id": "g3-01",
+      "title": "Boyd and Vandenberghe Convex Optimization",
+      "url": "https://web.stanford.edu/~boyd/cvxbook/",
+      "sha256": null,
+      "hash_status": "No source-byte hash in the recovered third-round ledger",
+      "license_status": "Third-party text not bundled; redistribution license not established",
+      "inspection": "author page plus indexed3.3/5 excerpts; PDF direct tool internal error"
+    },
+    {
+      "id": "g3-02",
+      "title": "Streitmatter et al Convexity and Optimal Online Control of Grid-Interfacing Converters with Current Limits",
+      "url": "https://arxiv.org/html/2603.17135v1",
+      "sha256": null,
+      "hash_status": "No source-byte hash in the recovered third-round ledger",
+      "license_status": "Third-party text not bundled; redistribution license not established",
+      "inspection": "primaryHTML sectionsII-IV theorem1"
+    },
+    {
+      "id": "g3-03",
+      "title": "Evans Tindemans Angeli Flexibility Framework with Recovery Guarantees",
+      "url": "https://arxiv.org/html/2110.08549v1",
+      "sha256": null,
+      "hash_status": "No source-byte hash in the recovered third-round ledger",
+      "license_status": "Third-party text not bundled; redistribution license not established",
+      "inspection": "primaryHTML retrieved; relevant II/III with inherited theorem-level audit"
+    },
+    {
+      "id": "g3-04",
+      "title": "Johnson Hauser2012",
+      "url": "https://motion.cs.illinois.edu/papers/ICRA2012-Johnson-optimal.pdf",
+      "sha256": null,
+      "hash_status": "No source-byte hash in the recovered third-round ledger",
+      "license_status": "Third-party text not bundled; redistribution license not established",
+      "inspection": "primaryPDF retrieved; inherited exact corridor comparison"
+    },
+    {
+      "id": "g3-05",
+      "title": "Xia Alizadeh polynomial nonnegativity SOCP",
+      "url": "https://optimization-online.org/wp-content/uploads/2015/06/4966.pdf",
+      "sha256": null,
+      "hash_status": "No source-byte hash in the recovered third-round ledger",
+      "license_status": "Third-party text not bundled; redistribution license not established",
+      "inspection": "primaryPDF retrieved; inherited sections2/4 comparison"
+    },
+    {
+      "id": "g3-06",
+      "title": "Schönlein Helmke Controllability of ensembles of linear dynamical systems",
+      "url": "https://arxiv.org/html/1504.06167",
+      "sha256": null,
+      "hash_status": "No source-byte hash in the recovered third-round ledger",
+      "license_status": "Third-party text not bundled; redistribution license not established",
+      "inspection": "primaryHTML retrieved"
+    },
+    {
+      "id": "g3-07",
+      "title": "Jr-Shin Li Ensemble Control of Finite Dimensional Time-Varying Linear Systems",
+      "url": "https://arxiv.org/abs/0810.5116",
+      "sha256": null,
+      "hash_status": "No source-byte hash in the recovered third-round ledger",
+      "license_status": "Third-party text not bundled; redistribution license not established",
+      "inspection": "primaryabstract"
+    },
+    {
+      "id": "g3-08",
+      "title": "Jaramillo Carrion Aguila Tellez Service-Constrained Critical Energy-Headroom Boundaries for Current-Limited Grid-Forming Battery Converters",
+      "url": "https://www.mdpi.com/1996-1073/19/18/4464",
+      "sha256": null,
+      "hash_status": "No source-byte hash in the recovered third-round ledger",
+      "license_status": "Third-party text not bundled; redistribution license not established",
+      "inspection": "publisher search-index body sections1,2,8 and abstract; direct article andHTML tools internal error"
+    },
+    {
+      "id": "g3-09",
+      "title": "Publisher version record",
+      "url": "https://www.mdpi.com/1996-1073/19/18/4464/notes",
+      "sha256": null,
+      "hash_status": "No source-byte hash in the recovered third-round ledger",
+      "license_status": "Third-party text not bundled; redistribution license not established",
+      "inspection": "publisher version notes"
+    },
+    {
+      "id": "motulator-0.7.8-wheel",
+      "title": "motulator historical optional audit dependency",
+      "url": "https://files.pythonhosted.org/packages/12/12/e978184025db75a2672b5cd8a4678fe79c02506bd7023c76a07171c35b34/motulator-0.7.8-py3-none-any.whl",
+      "sha256": "67f7e713c0ecd933250ec9f2d06023e54b5f65d03bf629633effb8e85fdf045e",
+      "license_status": "Upstream MIT; confirm version-specific wheel notice",
+      "inspection": "Historical wheel checksum recorded; no wheel bundled"
+    }
+  ]
+}

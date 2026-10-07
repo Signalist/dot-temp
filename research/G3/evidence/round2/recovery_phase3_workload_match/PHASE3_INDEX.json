@@ -1,0 +1,34 @@
+{
+  "finalized_at_utc": "2026-10-03T10:19:25.217457+00:00",
+  "status": "Complete; independently audited34/34 retrospective same-workload comparator rows pass",
+  "claim": "S\u2212L service-strategy increment for identical time-resolved compute input relative to explicitly specified feasible load-following no-grid-service L, not globally optimal opportunity cost or new blind evidence",
+  "old_results_scope": "Immutable V2 S\u2212F remains flat-baseline orbit recovery; inputs match650kW during recovery but entering histories differ",
+  "preservation": {
+    "prior_files_checked": 1457,
+    "prior_changes": [],
+    "execution_freeze_files_checked": 9,
+    "execution_changes": []
+  },
+  "key_results": {
+    "max_SL_cumulative_task_energy_numerical_difference_J": 3.976747393608093e-07,
+    "worst_SL_recovery_absolute_integral_J": 0.5240380422420616,
+    "nominal_fine_checkpoint_total_SL_signed_J": 69.00273674400523,
+    "nominal_fine_checkpoint_total_SL_positive_J": 14248.770799352991,
+    "nominal_fine_checkpoint_total_SL_absolute_J": 28428.538861830402
+  },
+  "stage_manifest": "PHASE3_MANIFEST.json",
+  "files": {
+    "REPORT_PHASE3.md": "0348bfb03466a644c181ea62611c172e278bfd5de759acf60c60283c114f42be",
+    "SUMMARY_PHASE3.json": "b529eaea4ddcd713ed4447a29da4a7cda6e34b96ea4820c33de4b11014a87cdd",
+    "ACCEPTANCE_PHASE3.csv": "24ef39f215356397b9d3fefb7dbc08276e33f6a10b7cbda003e5badc1a92591c",
+    "ENERGY_ATTRIBUTION_PHASE3.csv": "8e30c3cd2f27bbe5206d71311cf7890f46bbf89c8810dd74e1b8db582be78ecd",
+    "PROTOCOL_PHASE3.json": "3715ead78af9e8b3da1375be449ea340ccac1f9b84513f984ca11779941bf3a5",
+    "EXECUTION_FREEZE_PHASE3.json": "d056f92e726d2d51cea073d4ab1197abcbb77cb4fa2401f083e801372c86c2bd",
+    "SERVICE_REPLAY_IDENTITY.json": "7fbd142393c67e4909f23acb219c9dd75892408ee6d4ca8dbdc6c84975c51698",
+    "BEFORE_PRESERVATION_SHA256.json": "708943a5211074ee163db1954fff20d663732fb981d8b1477fd576d32fa844ee",
+    "THREE_BRANCH_WORKLOAD_AND_POWER.png": "1e6b1d29a275be135a52c579214bab9d958992435fce3f069033108a3a4ce92e",
+    "THREE_BRANCH_ENERGY_ATTRIBUTION.png": "034f9f4d49101d258e77eaf749ee04f594f43268454877e782e421acc4d22760",
+    "audit/AUDIT_REPORT_PHASE3.md": "064018cc446ddbbf627dd4b8bac534551843023843db5b89030cb08109193f34",
+    "audit/AUDIT_MANIFEST.json": "4e32b1cff668246631397782e7b1a704e6f4cf84ac4f9ded388d270334cf4bed"
+  }
+}

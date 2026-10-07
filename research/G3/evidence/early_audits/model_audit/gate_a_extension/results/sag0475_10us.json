@@ -1,0 +1,250 @@
+{
+  "case": "sag0475",
+  "h_max_s": 1e-05,
+  "status": "dc_overvoltage",
+  "start_time_s": 0.6,
+  "onset_s": 0.60005,
+  "clearance_s": 0.75005,
+  "final_time_s": 0.6060234821815011,
+  "first_actual_current_crossing_gt_1_s": null,
+  "actual_current_peak_pu": 0.9841023551631182,
+  "reference_current_peak_pu": 0.9500000000000003,
+  "Vdc_min_pu": 1.0069781132220275,
+  "Vdc_max_pu": 1.1000000000000019,
+  "Ppcc_abs_peak_W": 800000.0043640955,
+  "Spcc_peak_VA": 1063014.609284732,
+  "modulation_peak": 0.46050896226059407,
+  "strict_safety_pass": false,
+  "roundoff_safety_pass": true,
+  "normalized_max_limit_violation": {
+    "actual_current": -0.01589764483688183,
+    "Ppcc": -0.1578947322483205,
+    "Spcc": -0.11415449226272334,
+    "dc_low": -0.20697811322202742,
+    "dc_high": 1.7763568394002505e-15,
+    "Pbat": -0.18358443360312615,
+    "soc_low": -0.29992975476935085,
+    "soc_high": -0.3000695599128169,
+    "modulation": -0.16039482104421865
+  },
+  "normalized_min_limit_margin": {
+    "actual_current": 0.01589764483688183,
+    "Ppcc": 0.1578947322483205,
+    "Spcc": 0.11415449226272334,
+    "dc_low": 0.20697811322202742,
+    "dc_high": -1.7763568394002505e-15,
+    "Pbat": 0.18358443360312615,
+    "soc_low": 0.29992975476935085,
+    "soc_high": 0.3000695599128169,
+    "modulation": 0.16039482104421865
+  },
+  "first_roundoff_exceeding_violation_s": {
+    "actual_current": null,
+    "Ppcc": null,
+    "Spcc": null,
+    "dc_low": null,
+    "dc_high": null,
+    "Pbat": null,
+    "soc_low": null,
+    "soc_high": null,
+    "modulation": null
+  },
+  "recovery": {
+    "state_restored_time_s": null,
+    "complete_safe_recovery_time_s": null,
+    "clearance_observed": false,
+    "post_clearance_observed_s": 0.0,
+    "checks": [],
+    "formal_limiter_names": [
+      "current_reference",
+      "modulation",
+      "battery_command",
+      "PLL_frequency"
+    ],
+    "first_active_s": {
+      "current_reference": 0.6001000000000001,
+      "modulation": null,
+      "battery_command": null,
+      "PLL_frequency": null
+    },
+    "last_active_s": {
+      "current_reference": 0.606,
+      "modulation": null,
+      "battery_command": null,
+      "PLL_frequency": null
+    },
+    "release_delay_after_clearance_s": {
+      "current_reference": 0.0,
+      "modulation": null,
+      "battery_command": null,
+      "PLL_frequency": null
+    },
+    "never_active": [
+      "modulation",
+      "battery_command",
+      "PLL_frequency"
+    ]
+  },
+  "energy_residual_J": {
+    "ac": -2.2296831048151944e-09,
+    "dc": 1.9826984498649836e-10,
+    "battery": -1.7479760572314262e-07
+  },
+  "energy_integrals_delta_J": {
+    "Pinv": 532.6108511388884,
+    "Psource": 388.9219840322621,
+    "copper": 104.34419687627997,
+    "inverter": 33.37911890811165,
+    "Pbus": 4787.246597814141,
+    "Pbat": 4835.6026240545325,
+    "depletion": 4934.288391892158,
+    "battery_stored": -4934.288392066956,
+    "dc_stored": 4221.256627766943,
+    "inductor_stored": 39.34467023257599
+  },
+  "initial_checkpoint": {
+    "time_s": 0.6,
+    "plant_state": [
+      929.5008337703088,
+      -1102.9747124321593,
+      173.47387866185812,
+      21914.74337223314,
+      815639.6755122746,
+      3599499168.6277184,
+      482309.2832194684,
+      472084.969833969,
+      10224.848073604784,
+      3282.5707941135065,
+      485906.5973858137,
+      490814.74483416637,
+      500831.3722797517
+    ],
+    "theta_PLL": 226.2431330121752,
+    "omega_PLL": 376.99111843070557,
+    "z_PLL": 1.016557505503432e-09,
+    "z_i": [
+      -0.9876990853644045,
+      38.25384814178379
+    ],
+    "m_applied": [
+      0.45750669065590166,
+      0.05249887945791927
+    ],
+    "m_queued": [
+      0.45520292726013306,
+      0.06970508830878325
+    ],
+    "source_command_W": 815639.6858390737,
+    "last_reference_ab": [
+      901.0643133795542,
+      -771.4673232617998
+    ],
+    "normalized_vector": [
+      0.6545807929907924,
+      -0.5189866363941673,
+      1.014571452418201,
+      0.8156396755122746,
+      0.048461953710130956,
+      2.6965025323006306e-12,
+      -0.0017531585351858226,
+      0.06790029611977154,
+      0.4575066906558997,
+      0.052498879457936305,
+      0.45520292726013045,
+      0.06970508830880019,
+      0.9999999999998155,
+      0.8156396858390738
+    ],
+    "check_record": {
+      "t_s": 0.6,
+      "normalized_orbit_error": 2.790770728955394e-07,
+      "converged": true,
+      "consecutive": 3,
+      "hard_safe_window": true,
+      "checkpoint": true
+    },
+    "source_integrals_at_checkpoint": [
+      482309.2832194684,
+      472084.969833969,
+      10224.848073604784,
+      3282.5707941135065,
+      485906.5973858137,
+      490814.74483416637,
+      500831.3722797517
+    ]
+  },
+  "final_checkpoint": {
+    "t": 0.6060234821815011,
+    "plant_state": [
+      1034.940682736642,
+      116.42304004882467,
+      -1151.3637227854206,
+      26136.000000000084,
+      787798.1554893714,
+      3599494234.3393264,
+      482841.89407060726,
+      472473.8918180013,
+      10329.192270481064,
+      3315.949913021618,
+      490693.84398362786,
+      495650.3474582209,
+      505765.66067164385
+    ],
+    "theta_PLL": 228.4456886048779,
+    "omega_PLL": 368.4820293507707,
+    "z_PLL": -4.858481022363023,
+    "z_i": [
+      -5.081942423946394,
+      33.176496913364915
+    ],
+    "m_applied": [
+      -0.15712311317849662,
+      0.20462059092214654
+    ],
+    "m_queued": [
+      -0.1645837607353296,
+      0.19806238001429613
+    ],
+    "source_command_W": -227345.7315554621,
+    "last_reference_ab": [
+      1073.2256470313807,
+      817.2958276220063
+    ],
+    "normalized_vector": [
+      -0.07528145185241512,
+      -0.8895147414234735,
+      1.210000000000004,
+      0.7877981554893714,
+      -0.01978173803917116,
+      -0.012887521177120675,
+      -0.009020410029616937,
+      0.058888035428090665,
+      0.25772391446231235,
+      -0.011646580547688426,
+      0.2575142285741253,
+      -0.0017154464680668446,
+      0.9774289401951337,
+      -0.2273457315554621
+    ]
+  },
+  "raw_side_codes": {
+    "-1": "interval endpoint or control preupdate, old applied/source side",
+    "0": "ordinary internal point",
+    "1": "control postupdate, newly promoted applied command",
+    "2": "right side of external source event"
+  },
+  "claims": "Independent fundamental switching-cycle-average abc model; no projection; stopped before unmodeled protection. All violations retained. Frozen extension recovery test only; periodic trajectory not independently replayed.",
+  "provenance": {
+    "extension_sha256": "a1c399415c6a4b8d17ccf6193963ed73b712fca0890856fbbbf9dcfe1af6bdb8",
+    "base_protocol_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+    "abc_source_sha256": "005b8379f91f0997f81d15cbdf2b7423b7f22ee3a4e5343ef04d6c981177e847",
+    "extension_source_sha256": "eff756aa3d99c65b0ad09b6ac86f3550021ce91ed9545c6f9327a1514adabed5",
+    "checkpoint_source_sha256": "a079cb00695f79bea7366c106d47cea8c6a88a4e792060eafe2f050b52ba3f95",
+    "checkpoint_source": "model_audit/abc_reference/revalidation_results/preconditioned_v2_1_h10us.json",
+    "new_experiment": true,
+    "numpy_version": "2.3.5"
+  },
+  "npz_sha256": "1426948799c7c57bea8ad32045d1bfae646fd418dcf01105cb92e8c76b2248b6",
+  "raw_rows": 666,
+  "control_rows": 122
+}

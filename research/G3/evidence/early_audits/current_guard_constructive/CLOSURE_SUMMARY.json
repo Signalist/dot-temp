@@ -1,0 +1,45 @@
+{
+  "status": "FOUR_FROZEN_CONDITIONS_COMPLETE_AND_AUDITED",
+  "engineering_evidence": "Two finite complete hard-safe fault/clearance trajectories in the locked synthetic average model",
+  "finite_hard_safe_fault_witnesses": [
+    "P50-fast",
+    "R50-fast"
+  ],
+  "all_four_hard_safe": true,
+  "paper_ready": false,
+  "current_guard_qualified": false,
+  "original_joint_service_fulfilled": false,
+  "frozen_formal_recovery_passed": false,
+  "recovery_criterion_target_incompatibility_observed": true,
+  "joint_DC_SOC_invariant_certificate": false,
+  "real_time_qualified": false,
+  "compute_load_specificity_established": false,
+  "hardware_or_facility_transfer_established": false,
+  "additional_search_planned": false,
+  "cases": {
+    "P0-fast": {
+      "result_file": "current_guard_constructive/results/P0-fast_h1e-05.json",
+      "sha256": "8f9ad64944f827a180b64a1c253d0c8e8646efe4dbd692221395af19472e171e",
+      "complete_hard_safe": true,
+      "stop_reason": "completed"
+    },
+    "R0-fast": {
+      "result_file": "current_guard_constructive/results/R0-fast_h1e-05.json",
+      "sha256": "734bbf3ece2952ec7b8bb98e9b31014c3b0362b22206779c15ad46005a210466",
+      "complete_hard_safe": true,
+      "stop_reason": "completed"
+    },
+    "P50-fast": {
+      "result_file": "current_guard_constructive/results/P50-fast_h1e-05.json",
+      "sha256": "e29a6ac27a07ea588d21532a12e652c8ee76ed65d947845d505766d7d8ed20a7",
+      "complete_hard_safe": true,
+      "stop_reason": "completed"
+    },
+    "R50-fast": {
+      "result_file": "current_guard_constructive/results/R50-fast_h1e-05.json",
+      "sha256": "cbb38fab46138d22ae26fd3c5103d175196264352fd4015931c571c585646f53",
+      "complete_hard_safe": true,
+      "stop_reason": "completed"
+    }
+  }
+}

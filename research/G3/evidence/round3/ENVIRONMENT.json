@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.8"
+  },
+  "purpose": "All scripts can run in one environment; initial andes environment lacks cvxpy so mature comparator used existing G3 environment."
+}

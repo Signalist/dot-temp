@@ -1,0 +1,141 @@
+{
+  "status": "READ_ONLY_CRITERION_COMPATIBILITY_DIAGNOSIS_NOT_RESCORING",
+  "rows": [
+    {
+      "case": "P0-fast",
+      "window_start_s": 2.6,
+      "window_end_s": 2.75,
+      "full_intervals": 1500,
+      "flags_order": [
+        "current_ref_clip",
+        "voltage_clip",
+        "source_cmd_clip",
+        "PLL_clip",
+        "guard_intervened"
+      ],
+      "active_interval_counts": [
+        0,
+        0,
+        0,
+        0,
+        1500
+      ],
+      "guard_modification_norm_min": 0.0003375570888362068,
+      "guard_modification_norm_max": 0.00033755708911401873,
+      "frozen_unclipped_condition_in_this_window": false,
+      "physical_complete_hard_safe": true,
+      "source_summary_sha256": "8f9ad64944f827a180b64a1c253d0c8e8646efe4dbd692221395af19472e171e",
+      "source_npz_sha256": "9d4e8a577680299912540aeee7dea5b62f4dd35619012ca80609bd6c07325230"
+    },
+    {
+      "case": "R0-fast",
+      "window_start_s": 2.6,
+      "window_end_s": 2.75,
+      "full_intervals": 1500,
+      "flags_order": [
+        "current_ref_clip",
+        "voltage_clip",
+        "source_cmd_clip",
+        "PLL_clip",
+        "guard_intervened"
+      ],
+      "active_interval_counts": [
+        0,
+        0,
+        0,
+        0,
+        1500
+      ],
+      "guard_modification_norm_min": 0.0003375570888366914,
+      "guard_modification_norm_max": 0.0003375570891141223,
+      "frozen_unclipped_condition_in_this_window": false,
+      "physical_complete_hard_safe": true,
+      "source_summary_sha256": "734bbf3ece2952ec7b8bb98e9b31014c3b0362b22206779c15ad46005a210466",
+      "source_npz_sha256": "708e08a1635893f07186a35e17db4c6bf9574cf02a304cfa553d37390525d89c"
+    },
+    {
+      "case": "P50-fast",
+      "window_start_s": 2.6,
+      "window_end_s": 2.75,
+      "full_intervals": 1500,
+      "flags_order": [
+        "current_ref_clip",
+        "voltage_clip",
+        "source_cmd_clip",
+        "PLL_clip",
+        "guard_intervened"
+      ],
+      "active_interval_counts": [
+        0,
+        0,
+        0,
+        0,
+        1500
+      ],
+      "guard_modification_norm_min": 0.0003375570888361855,
+      "guard_modification_norm_max": 0.00033755708911356835,
+      "frozen_unclipped_condition_in_this_window": false,
+      "physical_complete_hard_safe": true,
+      "source_summary_sha256": "e29a6ac27a07ea588d21532a12e652c8ee76ed65d947845d505766d7d8ed20a7",
+      "source_npz_sha256": "2c48dcea706f8848d4ea894dbeb18a78f0dce43bf927b7e4f7d09fcca8501938",
+      "official_recovery_unchanged": null,
+      "official_checks_count": 37,
+      "official_checks_with_unclipped_true": 0,
+      "official_last_check": {
+        "time_s": 2.749999999999998,
+        "self_50ms_difference": 5.734301922188934e-13,
+        "same_time_guarded_no_fault_difference": 2.2737367544323206e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.5411671938636573e-11,
+        "qualifying": false,
+        "successive": 0
+      }
+    },
+    {
+      "case": "R50-fast",
+      "window_start_s": 2.6,
+      "window_end_s": 2.75,
+      "full_intervals": 1500,
+      "flags_order": [
+        "current_ref_clip",
+        "voltage_clip",
+        "source_cmd_clip",
+        "PLL_clip",
+        "guard_intervened"
+      ],
+      "active_interval_counts": [
+        0,
+        0,
+        0,
+        0,
+        1500
+      ],
+      "guard_modification_norm_min": 0.000337557088837039,
+      "guard_modification_norm_max": 0.0003375570891131806,
+      "frozen_unclipped_condition_in_this_window": false,
+      "physical_complete_hard_safe": true,
+      "source_summary_sha256": "cbb38fab46138d22ae26fd3c5103d175196264352fd4015931c571c585646f53",
+      "source_npz_sha256": "ae5738056f3e2168f81370a37ed5b8378dc55f5bc5892864fc3a3984b5d1ef00",
+      "official_recovery_unchanged": null,
+      "official_checks_count": 37,
+      "official_checks_with_unclipped_true": 0,
+      "official_last_check": {
+        "time_s": 2.749999999999998,
+        "self_50ms_difference": 5.722089468918057e-13,
+        "same_time_guarded_no_fault_difference": 2.2737367544323206e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.7536194718559273e-11,
+        "qualifying": false,
+        "successive": 0
+      }
+    }
+  ],
+  "conclusion": "Both observed healthy reference trajectories themselves have persistent common-guard intervention in the final150ms. Exact return to those recorded targets cannot satisfy the frozen all-limiters-off condition in that window. Physical/reference-trajectory recovery and exit of the baseline guard are different predicates.",
+  "scope": "Observed fixed N/K/Omega/terminal implementation only; not a proof of unavoidable intervention for all future time, all guards or all safe control.",
+  "official_scores_changed": false,
+  "new_trajectories": 0,
+  "new_optimizer_calls": 0,
+  "inventory_rebalanced_claim": false
+}

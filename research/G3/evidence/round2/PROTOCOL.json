@@ -1,0 +1,16 @@
+{
+  "status":"predeclared new model, not historical replay",
+  "primary": "same-parameter P/Q-contract admission for fixed continuing positive compute load; exact continuous-time polynomial-spline inner and controller-independent outer",
+  "device": "src/model.py Params defaults, frozen 2026-10-03 UTC before case solves",
+  "information": "All requested profiles and compute workload are disclosed identically in advance; no forecast advantage. Initial held battery command is zero through 1ms, all cases share initial electrical and inventory state.",
+  "load": "650kW baseline; +300kW trapezoid on [0,.04]s and equal-work -300kW trapezoid on [.07,.11]s; continues 650kW before/after horizon; no load shedding or task rescaling",
+  "grid_active_contract": "baseline equilibrium import minus alpha times first pulse plus alpha times second pulse; separately disclosed copper-loss compensation gamma in [.125,.175]s determined by exact total-energy equality",
+  "grid_reactive_contract": "beta times first pulse, positive injection support; grid current remains import-positive",
+  "four_contracts": ["all-time electrical/current/modulation/battery limits", "return to ongoing baseline electrical and port state at .2s", "B(.2)=B(0)", "exact prescribed P/Q in ideal averaged model, cycle-average tolerance reported separately for PWM"],
+  "primary_grid": {"alpha_kW":[0,100,200,300],"beta_kvar":[0,300,600,900,1200],"n_uniform":[40,80,160]},
+  "secondary": "frontier bisection at each alpha only after checking feasibility monotonicity; otherwise report disconnected feasible slices",
+  "ablations": ["remove inductive energy only with all other physics retained; label inconsistent diagnostic", "delay=0", "tau=0", "ramp infinite", "omit terminal inventory only", "omit modulation only"],
+  "baselines": ["mature exact interval polynomial SOCP", "mature full-horizon direct collocation / endpoint LP or conic relaxation", "static current circle and prefix-energy only as diagnostic weak screens, not algorithm competition"],
+  "novelty_exclusions": ["comparison principle", "energy coordinates", "LP/SOCP/SOS solver", "static capability circle", "known finite-buffer/compute co-optimization"],
+  "scope":"synthetic device and deterministic scheduled compute task; no hardware, measured GPU, facility, field deployment or real-time control qualification"
+}

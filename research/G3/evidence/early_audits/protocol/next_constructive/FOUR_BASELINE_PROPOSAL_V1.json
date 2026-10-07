@@ -1,0 +1,76 @@
+{
+  "status": "PROPOSAL_FROZEN_PENDING_EXECUTION_APPROVAL",
+  "created_UTC": "2026-10-02T03:30:10.696148+00:00",
+  "executed_new_conditions": 0,
+  "purpose": "Constructive known-baseline feasibility diagnosis, not a new strategy ranking",
+  "resource_changes": [],
+  "fixed_guard_protocol": "protocol/GATE1_MPSC_SIX_MODELS_V1.json",
+  "fixed_guard_protocol_sha256": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3",
+  "guard_source": "current_guard_gate1/common_guard.py",
+  "guard_source_sha256": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03",
+  "allocator_source": "baseline_allocation/allocators.py",
+  "allocator_source_sha256": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a",
+  "checkpoint": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+  "checkpoint_sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+  "port": {
+    "label": "hypothetical synthetic controlled DC port",
+    "tau_s": 0.002,
+    "ramp_up_W_per_s": 50000000.0,
+    "ramp_down_W_per_s": 50000000.0
+  },
+  "nominal_request": {
+    "P_W": 800000,
+    "Q_var": 700000
+  },
+  "cases": [
+    {
+      "id": "P0-fast",
+      "allocator": "p_priority",
+      "event": null,
+      "end_s": 2.75005
+    },
+    {
+      "id": "R0-fast",
+      "allocator": "radial",
+      "event": null,
+      "end_s": 2.75005
+    },
+    {
+      "id": "P50-fast",
+      "allocator": "p_priority",
+      "event": {
+        "start_s": 0.60005,
+        "end_s": 0.75005,
+        "retained_source_pu": 0.4
+      },
+      "end_s": 2.75005
+    },
+    {
+      "id": "R50-fast",
+      "allocator": "radial",
+      "event": {
+        "start_s": 0.60005,
+        "end_s": 0.75005,
+        "retained_source_pu": 0.4
+      },
+      "end_s": 2.75005
+    }
+  ],
+  "conditional_admission": "Each allocator requires its own no-fault physical/guard pass before its fault; otherwise NOT_RUN_PENDING_REVIEW",
+  "all_other_constraints": "Same frozen six-model protocol, queue, nominal PI/PLL/source control and common antiwindup. Fixed N,K,Omega,terminal,legal disturbances,control clock and hard thresholds.",
+  "information": "Same present current/PCC voltage/DC voltage/queue and nominal controller states. No future event/clearance or clean workload labels.",
+  "required_tests_before_physical_run": [
+    "Original allocator passthrough full-state equality with identity guard",
+    "Common Kaw correction and immutable first hold",
+    "Saved-plan indexing/frame/metadata and failed-output rejection",
+    "Exact guard field whitelist"
+  ],
+  "scoring": "Absolute request errors and matched own-allocator reference differences; actual electrical limits and energy separately; unchanged conservative recovery with guard intervention counted as active limiting",
+  "numerical_refinement": "Same-case5us only for hard contact/near-boundary audit, no extra physical scenarios",
+  "stopping_interpretation": "Failure of both does not establish universal fast-port impossibility; successful known baseline reduces algorithmic novelty rather than proving it.",
+  "no_slow_port_rerun": true,
+  "no_gain_or_horizon_search": true,
+  "no_real_time_claim": true,
+  "paper_ready": false,
+  "reader_proposal_sha256": "bac63ff4f8a15461cf10ad099d2587acec43dda2afce4f193d745f83e68400fd"
+}

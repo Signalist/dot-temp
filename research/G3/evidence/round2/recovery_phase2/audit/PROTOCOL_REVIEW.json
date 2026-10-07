@@ -1,0 +1,14 @@
+{
+  "reviewed_utc": "2026-10-03T09:26:34.672379+00:00",
+  "sha256": "e1952a799ffec1988d3fb0bca3ef22ca33d7313001b635ad44929cfe29cb8f63",
+  "holdout_results_present": false,
+  "decision": "PROTOCOL ACCEPTABLE WITH SCOPE LIMITS; IMPLEMENTATION AND RESULTS PENDING",
+  "comments": [
+    "Finite physical W/B/current return tolerance only; controller and held-output diagnostics do not have frozen pass thresholds, so no complete closed-loop-state or exact periodic-orbit return may be claimed.",
+    "Resource guarantee is absolute net incremental recovery energy <=1 kJ and correction amplitude <=5 kW, not a positive-only or absolute-throughput budget.",
+    "One shared nominal warmup checkpoint per numerical integration step is required; no tau/ramp-specific prewarm or calibration may be characterized as the same held-out test.",
+    "All extrema are numerical integration extrema, not mathematically certified interstep continuous maxima.",
+    "Final-window sampling must be phase-matched on the actual continuing grid/PWM clocks.",
+    "Two identical healthy forks must be bitwise identical; hash and complete state comparisons must include all control state."
+  ]
+}

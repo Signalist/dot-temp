@@ -1,0 +1,74 @@
+{
+  "case": "sag075",
+  "max_step_s": 1e-05,
+  "raw_summary_file": "sag075_h1e-05.json",
+  "raw_summary_sha256": "deb516ba7a7bd31947554d904aed2cd2a1b7c854f4413c054f2390eafcbc6278",
+  "raw_trace_sha256": "dd8275dbc493909cecee40f427643e26da0d6afbf2a266a096470e767cc0a0e0",
+  "raw_summary_unchanged": true,
+  "score_version": "reporting_audit_v1",
+  "stop_reason": "completed",
+  "simulation_completed": true,
+  "no_hard_violation_observed_up_to_stop_with_roundoff": true,
+  "hard_limit_contacts": {},
+  "first_observed_strict_beyond_roundoff": {},
+  "contact_interpretation": "A terminal boundary contact ends the test even if the sampled state is still on the admissible equality. No-violation-up-to-stop does not mean complete safe recovery.",
+  "all_held_and_new_modulation_max_norm": 0.4917532588170993,
+  "modulation_norm_limit": 0.5484827557301445,
+  "modulation_safe": true,
+  "normalised_hard_margins": {
+    "current": 0.050508957755071804,
+    "dc_lower": 0.14619297306646095,
+    "dc_upper": 0.02514069943099928,
+    "apparent_power": 0.0502285749519612,
+    "active_power": 0.15450992345580405,
+    "battery_terminal_power": 0.11124546324557238,
+    "soc_lower": 0.29984158914065173,
+    "soc_upper": 0.3000695599128167,
+    "modulation": 0.10342986414864852
+  },
+  "electrical_control_recovery_joint_rule_time_s": 1.4000000000000001,
+  "electrical_control_target_only_recovery_time_s": 1.35,
+  "recovery_rule_clarification": "Official conservative common score requires both 50ms self-cycle convergence and return to pre-fault target for sag, each<=1e-5, plus three qualifying checks and a safe/unclipped150ms window. Target-only time is separately shown; no dynamics or threshold was changed.",
+  "complete_safe_electrical_control_recovery": true,
+  "battery_energy_restoration_claimed": false,
+  "battery_note": "Actual stored battery energy, passive integrals, and SoC are retained and bounded, but excluded from electrical orbit recurrence. Constant positive P keeps depleting inventory. See paired no-fault energy accounting for disturbance debt/surplus.",
+  "limiter_release": {
+    "current_reference": {
+      "status": "observed_exit_and_no_later_reactivation",
+      "release_sample_s": 0.7501,
+      "last_active_sample_s": 0.75,
+      "after_clearance_s": 4.999999999999449e-05
+    },
+    "voltage_modulation": {
+      "status": "never_active",
+      "release_sample_s": null,
+      "after_clearance_s": null
+    },
+    "battery_command": {
+      "status": "never_active",
+      "release_sample_s": null,
+      "after_clearance_s": null
+    },
+    "pll_frequency": {
+      "status": "never_active",
+      "release_sample_s": null,
+      "after_clearance_s": null
+    }
+  },
+  "metrics": {
+    "max_actual_current_pu": 0.9494910422449282,
+    "min_dc_pu": 0.946192973066461,
+    "max_dc_pu": 1.0748593005690008,
+    "max_pcc_S_VA": 1139725.7100576465,
+    "max_abs_Ppcc_W": 803215.5727169862,
+    "max_abs_Pb_W": 888754.5367544276,
+    "min_soc": 0.49984158914065174,
+    "max_soc": 0.49993044008718335,
+    "max_frequency_error_Hz": 0.45756775424943896,
+    "max_energy_residual_J": 8.009737939573824e-08
+  },
+  "terminal_battery_energy_change_since_test_start_J": -639726.8150272799,
+  "test_end_s": 1.4000000000000001,
+  "periodic_frozen_bias_W": null,
+  "periodic_cycles": []
+}

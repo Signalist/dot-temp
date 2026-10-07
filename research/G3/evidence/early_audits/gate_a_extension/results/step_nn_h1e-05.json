@@ -1,0 +1,268 @@
+{
+  "case": "step_nn",
+  "status": "new_gate_a_diagnostic",
+  "physical_controller_version": "unchanged_Gate_A_V2.1",
+  "protocol_sha256": "a1c399415c6a4b8d17ccf6193963ed73b712fca0890856fbbbf9dcfe1af6bdb8",
+  "source_sha256": "699bcda150232c3132e0e68d48420bd7e0e9c123abe37e389854d32a8ba32801",
+  "max_step_s": 1e-05,
+  "initial_record": {
+    "checkpoint_file": "gate_a_extension/results/steady_nn_h1e-05_checkpoint.json",
+    "sha256": "b244519a41514f8c747bd07884705a2001f69f74c918cda3862e33584b116ebc"
+  },
+  "initial_time_s": 0.6,
+  "final_time_s": 1.2,
+  "stop_reason": "completed",
+  "checkpoint_time_s": 0.6,
+  "event_start_s": 0.60005,
+  "event_clearance_s": 0.60005,
+  "recovered_time_s": 1.2,
+  "recovery_delay_s": 0.59995,
+  "all_hard_limits_safe": true,
+  "complete_safe_recovery": true,
+  "checks": [
+    {
+      "time_s": 0.7000000000000001,
+      "cycle_difference": 0.06769219842495883,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.3573042926737057,
+        "min_dc_pu": 0.9960039549752289,
+        "max_dc_pu": 1.0109267801376878,
+        "max_pcc_S_VA": 418928.7166944431,
+        "max_abs_Ppcc_W": 351530.11707920465,
+        "max_abs_Pb_W": 357219.7771106731,
+        "max_frequency_error_Hz": 0.15116863244051615
+      }
+    },
+    {
+      "time_s": 0.75,
+      "cycle_difference": 0.019721014256957825,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.3573042926737057,
+        "min_dc_pu": 0.9960039549752289,
+        "max_dc_pu": 1.0109267801376878,
+        "max_pcc_S_VA": 418928.7166944431,
+        "max_abs_Ppcc_W": 351530.11707920465,
+        "max_abs_Pb_W": 357219.7771106731,
+        "max_frequency_error_Hz": 0.15116863244051615
+      }
+    },
+    {
+      "time_s": 0.8,
+      "cycle_difference": 0.00506951716443288,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.35580808333105385,
+        "min_dc_pu": 0.9960039549752289,
+        "max_dc_pu": 1.0049139992055347,
+        "max_pcc_S_VA": 417290.6891065852,
+        "max_abs_Ppcc_W": 350587.7301867202,
+        "max_abs_Pb_W": 357206.5025496442,
+        "max_frequency_error_Hz": 0.0009378042784078389
+      }
+    },
+    {
+      "time_s": 0.8500000000000001,
+      "cycle_difference": 0.0015174206892707431,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.3553306013155917,
+        "min_dc_pu": 0.9960269545943052,
+        "max_dc_pu": 0.9986164175460346,
+        "max_pcc_S_VA": 416738.6145071624,
+        "max_abs_Ppcc_W": 350057.27317819325,
+        "max_abs_Pb_W": 341985.9704106213,
+        "max_frequency_error_Hz": 6.438062192160032e-05
+      }
+    },
+    {
+      "time_s": 0.9,
+      "cycle_difference": 0.0004782025348875063,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.35527787843797887,
+        "min_dc_pu": 0.9981791136524204,
+        "max_dc_pu": 0.9986164175460346,
+        "max_pcc_S_VA": 416678.43544202676,
+        "max_abs_Ppcc_W": 350022.2496642517,
+        "max_abs_Pb_W": 341985.9704106213,
+        "max_frequency_error_Hz": 6.827817955468163e-06
+      }
+    },
+    {
+      "time_s": 0.9500000000000001,
+      "cycle_difference": 0.00014468646810888997,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.35526572576790705,
+        "min_dc_pu": 0.9981791136524204,
+        "max_dc_pu": 0.9983813044724594,
+        "max_pcc_S_VA": 416664.88043822785,
+        "max_abs_Ppcc_W": 350012.8906660853,
+        "max_abs_Pb_W": 341963.39456555125,
+        "max_frequency_error_Hz": 5.946782124510719e-06
+      }
+    },
+    {
+      "time_s": 1.0,
+      "cycle_difference": 3.107856705308887e-05,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.3552550603140119,
+        "min_dc_pu": 0.9981844739979195,
+        "max_dc_pu": 0.9982568932283564,
+        "max_pcc_S_VA": 416652.516793789,
+        "max_abs_Ppcc_W": 350000.70871560083,
+        "max_abs_Pb_W": 341544.8205565399,
+        "max_frequency_error_Hz": 7.812471523038766e-07
+      }
+    },
+    {
+      "time_s": 1.05,
+      "cycle_difference": 1.2969984204747043e-05,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": false,
+      "successive": 0,
+      "metrics": {
+        "max_actual_current_pu": 0.3552544099358205,
+        "min_dc_pu": 0.9982420056627234,
+        "max_dc_pu": 0.9982568932283564,
+        "max_pcc_S_VA": 416651.7880158037,
+        "max_abs_Ppcc_W": 350000.56229840766,
+        "max_abs_Pb_W": 341544.8205565399,
+        "max_frequency_error_Hz": 1.6580691664103142e-07
+      }
+    },
+    {
+      "time_s": 1.1,
+      "cycle_difference": 3.848215414881118e-06,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": true,
+      "successive": 1,
+      "metrics": {
+        "max_actual_current_pu": 0.35525410159104276,
+        "min_dc_pu": 0.9982420056627234,
+        "max_dc_pu": 0.9982484621336313,
+        "max_pcc_S_VA": 416651.4395689412,
+        "max_abs_Ppcc_W": 350000.2777616845,
+        "max_abs_Pb_W": 341542.7586201062,
+        "max_frequency_error_Hz": 1.553129962417188e-07
+      }
+    },
+    {
+      "time_s": 1.1500000000000001,
+      "cycle_difference": 7.31794165376165e-07,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": true,
+      "successive": 2,
+      "metrics": {
+        "max_actual_current_pu": 0.3552538667365931,
+        "min_dc_pu": 0.9982423903139803,
+        "max_dc_pu": 0.9982464350674634,
+        "max_pcc_S_VA": 416651.1666901757,
+        "max_abs_Ppcc_W": 350000.014453626,
+        "max_abs_Pb_W": 341532.0454700932,
+        "max_frequency_error_Hz": 1.0430667884975264e-08
+      }
+    },
+    {
+      "time_s": 1.2,
+      "cycle_difference": 3.2862610954698113e-07,
+      "target_difference": null,
+      "safe_window": true,
+      "limiters_released": true,
+      "qualifying": true,
+      "successive": 3,
+      "metrics": {
+        "max_actual_current_pu": 0.3552538641989256,
+        "min_dc_pu": 0.9982438267203849,
+        "max_dc_pu": 0.9982464350674634,
+        "max_pcc_S_VA": 416651.1644040859,
+        "max_abs_Ppcc_W": 350000.014453626,
+        "max_abs_Pb_W": 341532.0454700932,
+        "max_frequency_error_Hz": 4.402920694701606e-09
+      }
+    }
+  ],
+  "metrics": {
+    "max_actual_current_pu": 0.3573042926737057,
+    "min_dc_pu": 0.9960039549752289,
+    "max_dc_pu": 1.0109267801376878,
+    "max_pcc_S_VA": 418928.7166944431,
+    "max_abs_Ppcc_W": 351530.11707920465,
+    "max_abs_Pb_W": 357219.7771106731,
+    "min_soc": 0.5000239347285277,
+    "max_soc": 0.5000518258111835,
+    "max_frequency_error_Hz": 0.15116863244051615,
+    "max_energy_residual_J": 1.69893610291183e-08
+  },
+  "post_event_metrics": {
+    "max_actual_current_pu": 0.3573042926737057,
+    "min_dc_pu": 0.9960039549752289,
+    "max_dc_pu": 1.0109267801376878,
+    "max_pcc_S_VA": 418928.7166944431,
+    "max_abs_Ppcc_W": 351530.11707920465,
+    "max_abs_Pb_W": 357219.7771106731,
+    "min_soc": 0.5000239347285277,
+    "max_soc": 0.5000518258111835,
+    "max_frequency_error_Hz": 0.15116863244051615,
+    "max_energy_residual_J": 1.69893610291183e-08
+  },
+  "current_limit_crossings_s": [],
+  "first_observed_hard_violation_s": {},
+  "max_modulation_norm": 0.3838659636759057,
+  "max_reference_current_pu": 0.3574768401058687,
+  "last_limiter_sample_s": {
+    "current_reference": null,
+    "voltage_modulation": null,
+    "battery_command": null,
+    "pll_frequency": null
+  },
+  "cycles": [],
+  "frozen_bias_W": null,
+  "calibration_cycles": 0,
+  "confirmation_cycles": 0,
+  "wall_time_s": 54.05891289599822,
+  "storage": {
+    "dense_internal_trace": false,
+    "endpoint_count": 6001,
+    "internal_interval_count": 6000
+  },
+  "numerical_energy_quadrature_crosscheck_J": 0.0,
+  "limits": "Balanced synthetic averaged topology only; electrical numerical recurrence is not an infinite-time proof. Necessary-energy-margin points are not certified feasible."
+}

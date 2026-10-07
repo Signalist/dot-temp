@@ -1,0 +1,30 @@
+{
+  "status": "reconstructed_then_rerun",
+  "paper_ready": false,
+  "scope": "Gate A limited audit subset; no Gate B performance search",
+  "original_shared_tree_recovered": false,
+  "completed": [
+    "parameter byte-identity recovery",
+    "abc/dq sign, power, unit and stored-energy algebra",
+    "nominal balanced average-value conservation",
+    "independent abc and dq dynamic reruns at 10/5us fixed100us control",
+    "preregistered first full-state converged safe checkpoint",
+    "deep-sag any-policy current/DC necessary obstruction",
+    "fresh-input independent abc bound audit",
+    "public motulator component RHS checks"
+  ],
+  "not_completed": [
+    "safe shallow-sag recovery",
+    "full actual-current-protection operating envelope",
+    "switching/PWM or hardware validation",
+    "persistent signed-load service experiment",
+    "strong MPC performance comparison",
+    "network transfer",
+    "novelty proof"
+  ],
+  "authoritative_protocol": "protocol/GATE_A_LOCKED_V2_1.json",
+  "independent_comparison": "gate_a/INDEPENDENT_COMPARISON_REVALIDATED.json",
+  "physical_certificate": "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.md",
+  "historical_hash_reproduction": "recovery/TRAJECTORY_REPRODUCTION_HASH_AUDIT.json",
+  "all_four_final_npz_reproduced_byte_identically": true
+}

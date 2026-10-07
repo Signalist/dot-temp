@@ -1,0 +1,525 @@
+{
+  "kind": "G3 common-MPSC six-model Gate1 increment, not standalone full archive",
+  "created_UTC": "2026-10-02T03:32:09.315704+00:00",
+  "scope": "Six primary conditions plus four same-condition5us boundary refinements; no new allocator or workload strategy experiment",
+  "new_files": [
+    {
+      "path": "current_guard_gate1/C0-fast_console.log",
+      "bytes": 9695,
+      "sha256": "02f572aa8522f141aa6a22a313b073f7d508293244ef6904b410b37e879ab653"
+    },
+    {
+      "path": "current_guard_gate1/C0-slow_console.log",
+      "bytes": 9548,
+      "sha256": "c2ccdd42d6978cb59e9f2d55e9489cbf7c96ee9ded7b5f2c0c49ad5b86bd7200"
+    },
+    {
+      "path": "current_guard_gate1/C1-fast_console.log",
+      "bytes": 15191,
+      "sha256": "418752054ce0fa82c548ead80e8b2b58df217f4955f9bc92a6de22d147058037"
+    },
+    {
+      "path": "current_guard_gate1/C1-fast_refinement_console.log",
+      "bytes": 15198,
+      "sha256": "99504abcf4c2046982f7af9561b54746bf7045ea858e960cfc5d8f0754cc4f65"
+    },
+    {
+      "path": "current_guard_gate1/C1-slow_console.log",
+      "bytes": 15247,
+      "sha256": "458c28b6b5e42be1a1c58284a9b742cba1a80e1f53d71f870a259bfb00a801cc"
+    },
+    {
+      "path": "current_guard_gate1/C1-slow_refinement_console.log",
+      "bytes": 15227,
+      "sha256": "287d8bb999a23dbeed5c5d172d732be7bd271cb95b77e4c364811770c41e51e4"
+    },
+    {
+      "path": "current_guard_gate1/C50-fast_console.log",
+      "bytes": 15194,
+      "sha256": "96d169ae535ad682b4e828a050e6b253c0ecbab207283e24deacae26c8a3c514"
+    },
+    {
+      "path": "current_guard_gate1/C50-fast_refinement_console.log",
+      "bytes": 15142,
+      "sha256": "c57e87c68ac0c1da98b75ca7c9f0296bface510f7f97c0cf8696193d31a95ced"
+    },
+    {
+      "path": "current_guard_gate1/C50-slow_console.log",
+      "bytes": 15235,
+      "sha256": "dfa9886fffe724282e1a0366452c730f4d6df84d6d807a56d22686d828a41b06"
+    },
+    {
+      "path": "current_guard_gate1/C50-slow_refinement_console.log",
+      "bytes": 15212,
+      "sha256": "e90113fc3c6d9c7e663b3152285fac1165a3c5056abe08f0313ff1665d234213"
+    },
+    {
+      "path": "current_guard_gate1/EXECUTION_SCOPE.json",
+      "bytes": 1112,
+      "sha256": "9880381c767bb591a18549368447041fe051e9b6cc0469d4c000634548bf5d6a"
+    },
+    {
+      "path": "current_guard_gate1/GATE1_FAULTS_UNTIL_DC_STOP.png",
+      "bytes": 287276,
+      "sha256": "3d9db01597951915d08dc29d9257f1047c945487ea3e39ab014aee9a1620b168"
+    },
+    {
+      "path": "current_guard_gate1/GATE1_INSERTION_TRANSIENT.png",
+      "bytes": 158315,
+      "sha256": "572bc6cd06e87569e9bf55292b4e984a179dec26ecfa0b34decc614dfe917020"
+    },
+    {
+      "path": "current_guard_gate1/GATE1_NO_FAULT_RESPONSE.png",
+      "bytes": 195165,
+      "sha256": "0ba1b53351c5c8567c5efd699583c0ff1446b92089c0ff9f663e12e69ab140f9"
+    },
+    {
+      "path": "current_guard_gate1/HEALTH_PROGRESS.json",
+      "bytes": 384,
+      "sha256": "51ea17822d2dd522b943717b5b9da60f82dfbbfac9e3bc4a80f29ec414d54576"
+    },
+    {
+      "path": "current_guard_gate1/IMPLEMENTATION_V1.json",
+      "bytes": 2371,
+      "sha256": "fa8d66107a67805631aed234d29843c08e5b00d748838f7d2a52b44c7b887c21"
+    },
+    {
+      "path": "current_guard_gate1/INDEPENDENT_INTERFACE_AUDIT.md",
+      "bytes": 10440,
+      "sha256": "1d18cb76b7d590ba6de8903bf393d998f596bc582134f2421bdb5b4b0e71b89b"
+    },
+    {
+      "path": "current_guard_gate1/MODEL_GATE_SUMMARY.json",
+      "bytes": 1689,
+      "sha256": "1ebc68f91823eaf4efd17ba94e51abaab75402f997424f741336b3f270db4b3a"
+    },
+    {
+      "path": "current_guard_gate1/REFINEMENT_COMPARISON.json",
+      "bytes": 2111,
+      "sha256": "47d6234f4b2c7bf2cedc18c681ad78052e82aff17e61b46b891ba3fb2759e8f8"
+    },
+    {
+      "path": "current_guard_gate1/REFINEMENT_RULE_APPLIED.json",
+      "bytes": 801,
+      "sha256": "ec674f4a70d6987ac4fb4e5662d9e8849bba36241907061c18be498e475caaa1"
+    },
+    {
+      "path": "current_guard_gate1/RUNNER_REVIEW.md",
+      "bytes": 11529,
+      "sha256": "44d0d50282f3c607bec840623e74a7d84a2e9bfddeab20b465e0edd6603b3f6b"
+    },
+    {
+      "path": "current_guard_gate1/audit_algebra_oracle.py",
+      "bytes": 11375,
+      "sha256": "de339bc42b1d833e9b11ba4f044bee4890d5e11c77f095b4e2e7330c20b0e2fb"
+    },
+    {
+      "path": "current_guard_gate1/audit_algebra_results.json",
+      "bytes": 7363,
+      "sha256": "6d883fa49a368e4ace236da688522069d26e90a8ab60c571553091794a468679"
+    },
+    {
+      "path": "current_guard_gate1/audit_interface_results.json",
+      "bytes": 25333,
+      "sha256": "481b22616cf7911172a7832dfc803a9ca3767c7a396edc7764dccbc3baa73fbb"
+    },
+    {
+      "path": "current_guard_gate1/audit_interface_tests.py",
+      "bytes": 15146,
+      "sha256": "3ea62339be08d21a60db5373f7d0e3be6e0b5be94e57a0fde89494994d57d6fd"
+    },
+    {
+      "path": "current_guard_gate1/audit_refinement_results.json",
+      "bytes": 3039,
+      "sha256": "3bca967f95a4a934344254832ce0990ae60e986a2e74e4da2c611a0027a11df4"
+    },
+    {
+      "path": "current_guard_gate1/audit_runner_checks.py",
+      "bytes": 21768,
+      "sha256": "aee75449172192d4f73425fab0c726b12c37ea4ee739ec6d9d7437e0e79641ff"
+    },
+    {
+      "path": "current_guard_gate1/audit_runner_results.json",
+      "bytes": 20408,
+      "sha256": "8d44fb32edf59aba028ec1a3bd14acb4079ea7c44d0778dbe5eb6266ad9d0360"
+    },
+    {
+      "path": "current_guard_gate1/build_report.py",
+      "bytes": 7675,
+      "sha256": "8bdc7cb30fe6174891aba946b09e1fc0ef69d5b9a7321760bb7ac6cbd6fd47e7"
+    },
+    {
+      "path": "current_guard_gate1/common_guard.py",
+      "bytes": 12971,
+      "sha256": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03"
+    },
+    {
+      "path": "current_guard_gate1/guarded_controller.py",
+      "bytes": 2038,
+      "sha256": "9379032e4edc99a204ce0db3947e61f71dee30b8a876dce0d5740312bfda4af5"
+    },
+    {
+      "path": "current_guard_gate1/package_gate1.py",
+      "bytes": 4646,
+      "sha256": "357f35f2caf6d22f18d6c59798b9673231dcb1506ff319d35a3d1b26505100bc"
+    },
+    {
+      "path": "current_guard_gate1/plot_faults_and_refinement.py",
+      "bytes": 2803,
+      "sha256": "7d0c3ef61a88200d05b0c4e0de1d1c266e78ef08bc8a538593e05cfa5db07a0c"
+    },
+    {
+      "path": "current_guard_gate1/plot_results.py",
+      "bytes": 3280,
+      "sha256": "4c84258300f06005eb2bd8e3590dfaf000df16e4a224d6c58c868a70f261a8f5"
+    },
+    {
+      "path": "current_guard_gate1/results/C0-fast_h1e-05.json",
+      "bytes": 9695,
+      "sha256": "02f572aa8522f141aa6a22a313b073f7d508293244ef6904b410b37e879ab653"
+    },
+    {
+      "path": "current_guard_gate1/results/C0-fast_h1e-05.jsonl.gz",
+      "bytes": 29341016,
+      "sha256": "27aec08b83df375bbaf1025aeb44ddea9033aa502e0570599b1cf4f817f28c22"
+    },
+    {
+      "path": "current_guard_gate1/results/C0-fast_h1e-05.npz",
+      "bytes": 5391944,
+      "sha256": "9b08b8226fffcf29d072822cd5eb52254690e9dc77709f08a4ac7c78b4226259"
+    },
+    {
+      "path": "current_guard_gate1/results/C0-fast_h1e-05.started.json",
+      "bytes": 252,
+      "sha256": "9d218a9d7927ce8ac92599b88f417bfe93ef0c43a778e14715dd818684cded2d"
+    },
+    {
+      "path": "current_guard_gate1/results/C0-slow_h1e-05.json",
+      "bytes": 9548,
+      "sha256": "c2ccdd42d6978cb59e9f2d55e9489cbf7c96ee9ded7b5f2c0c49ad5b86bd7200"
+    },
+    {
+      "path": "current_guard_gate1/results/C0-slow_h1e-05.jsonl.gz",
+      "bytes": 30101974,
+      "sha256": "ae002dd18174105fba3857a90334ddfb82de9c972e1678dcebabebcc0ed583b0"
+    },
+    {
+      "path": "current_guard_gate1/results/C0-slow_h1e-05.npz",
+      "bytes": 5652447,
+      "sha256": "15691ce04b6a0b889d4ce53e1b374eed2e91b8a094bfc6eea4232374627bd60b"
+    },
+    {
+      "path": "current_guard_gate1/results/C0-slow_h1e-05.started.json",
+      "bytes": 252,
+      "sha256": "7fff18d1135ed0e6e767c053367d9a9065ae758e999794649a9d469a4a421ed6"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-fast_h1e-05.json",
+      "bytes": 15191,
+      "sha256": "418752054ce0fa82c548ead80e8b2b58df217f4955f9bc92a6de22d147058037"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-fast_h1e-05.jsonl.gz",
+      "bytes": 166062,
+      "sha256": "343ef1cba100fe4105987b9c4d2255ed614de21619b8ba279d2e8333b7e76f69"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-fast_h1e-05.npz",
+      "bytes": 192367,
+      "sha256": "23c66560c8c981cf9505a68cd485a46b88940738399d71da5f6bc290285d35e5"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-fast_h1e-05.started.json",
+      "bytes": 252,
+      "sha256": "6c8fc24518ab7c4abab2751101800a7ecb2f4bfb12f043b36f0a492b8b5186e4"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-fast_h5e-06.json",
+      "bytes": 15198,
+      "sha256": "99504abcf4c2046982f7af9561b54746bf7045ea858e960cfc5d8f0754cc4f65"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-fast_h5e-06.jsonl.gz",
+      "bytes": 166202,
+      "sha256": "e3d932adaf4c48edf5bbaa6665bc04d4fff0ac8906a73928c94fd0e8e3fdca4f"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-fast_h5e-06.npz",
+      "bytes": 324322,
+      "sha256": "afe45f1b9be9d262c01f1d51b4c97bf35f2a0255d2477cea0e439d08df8591d2"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-fast_h5e-06.started.json",
+      "bytes": 252,
+      "sha256": "1057f42881bf47499bf8b70616c5ddda655e7f8077db916eedee18a037606e24"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-slow_h1e-05.json",
+      "bytes": 15247,
+      "sha256": "458c28b6b5e42be1a1c58284a9b742cba1a80e1f53d71f870a259bfb00a801cc"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-slow_h1e-05.jsonl.gz",
+      "bytes": 123906,
+      "sha256": "fdbd327c906ea841bd9168a5ad09fa2146f66ca5d334e797ae8483d00e7622c4"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-slow_h1e-05.npz",
+      "bytes": 143028,
+      "sha256": "538bc7c0577e011b23f6150853c05a61ba5bb8b2b3ba1ce857bc2f9b4e56d84f"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-slow_h1e-05.started.json",
+      "bytes": 252,
+      "sha256": "8e0b0ceb27a94911a1c9b1b471a9723be90323b08b08ec057c288ab9d4a73bf7"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-slow_h5e-06.json",
+      "bytes": 15227,
+      "sha256": "287d8bb999a23dbeed5c5d172d732be7bd271cb95b77e4c364811770c41e51e4"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-slow_h5e-06.jsonl.gz",
+      "bytes": 124233,
+      "sha256": "069a9285b737e3c157ee76a095520b2ae130c9f1f9bdce3ca8754ea551daab90"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-slow_h5e-06.npz",
+      "bytes": 240187,
+      "sha256": "0da8c74906b9f5e109f933c96abd7e5f01924e4469f9ed6831e8daa669d98227"
+    },
+    {
+      "path": "current_guard_gate1/results/C1-slow_h5e-06.started.json",
+      "bytes": 252,
+      "sha256": "3f0d533d03e1be271261736c8aabf39443e958cd4077be21ba9a1cad9d5b70c5"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-fast_h1e-05.json",
+      "bytes": 15194,
+      "sha256": "96d169ae535ad682b4e828a050e6b253c0ecbab207283e24deacae26c8a3c514"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-fast_h1e-05.jsonl.gz",
+      "bytes": 171514,
+      "sha256": "d676aa0a110b5c8ce845c9941f937f34c7263dbf5cc7fbacc0b5baff6e6a3752"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-fast_h1e-05.npz",
+      "bytes": 198800,
+      "sha256": "486a03bedbc16741cc831d15302f93ab628cbcc102b3a0e0caca763f5cbfbf99"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-fast_h1e-05.started.json",
+      "bytes": 253,
+      "sha256": "1bf51c279657e8418666aaa3a80baf19ed502520a4c5a1ba97ecc06f34975a7c"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-fast_h5e-06.json",
+      "bytes": 15142,
+      "sha256": "c57e87c68ac0c1da98b75ca7c9f0296bface510f7f97c0cf8696193d31a95ced"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-fast_h5e-06.jsonl.gz",
+      "bytes": 171895,
+      "sha256": "699a9c70357d5bdb4f970a8b4fc4374b2f6ea6f6c84282be0d0877add67c2cf8"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-fast_h5e-06.npz",
+      "bytes": 334858,
+      "sha256": "696e7b6d40e7adcb2a8276197164b898c24eb1e6dbadcbb6c8b214a2da2cb816"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-fast_h5e-06.started.json",
+      "bytes": 253,
+      "sha256": "73a768dc067e9cb54462e4dd7b04b23ecf37f46dedcd50ea73bb79d6359830ff"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-slow_h1e-05.json",
+      "bytes": 15235,
+      "sha256": "dfa9886fffe724282e1a0366452c730f4d6df84d6d807a56d22686d828a41b06"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-slow_h1e-05.jsonl.gz",
+      "bytes": 125920,
+      "sha256": "3dc599f2c9f0858b318bd3bc7b820efcfe0f905cbca45858647adcde9a3c9bef"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-slow_h1e-05.npz",
+      "bytes": 144750,
+      "sha256": "b04e8cee636b4c1ea39c38ced3ee982fe859c30e5af5df415993f8fb92c9c704"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-slow_h1e-05.started.json",
+      "bytes": 253,
+      "sha256": "773632d37df93536840912a6f54c496ad3f1868fcb14303fd415717e9bf6b43d"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-slow_h5e-06.json",
+      "bytes": 15212,
+      "sha256": "e90113fc3c6d9c7e663b3152285fac1165a3c5056abe08f0313ff1665d234213"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-slow_h5e-06.jsonl.gz",
+      "bytes": 126079,
+      "sha256": "29b1710292abc83be872b880b95e542faec597d453f4be24005fca810734cab7"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-slow_h5e-06.npz",
+      "bytes": 242875,
+      "sha256": "81e335ea0c60c5799b60619da53a7e0f56f218624d3e72b222f50da1708319e9"
+    },
+    {
+      "path": "current_guard_gate1/results/C50-slow_h5e-06.started.json",
+      "bytes": 253,
+      "sha256": "bbaec9e6a8640dd0b255c7d5aef595dd7567e4a53180815b2d8f3b72e0e2d01d"
+    },
+    {
+      "path": "current_guard_gate1/results/MODEL_ROSTER.json",
+      "bytes": 1274,
+      "sha256": "40cc8942923e7525a18b537e8e230a1e1fcb0667d29cec19e9679c8ec79bda21"
+    },
+    {
+      "path": "current_guard_gate1/run_models.py",
+      "bytes": 45481,
+      "sha256": "9e4ca7f83570e6e62bf7f3fef9096cde5c44782a0ca7b27026dcd47978662eae"
+    },
+    {
+      "path": "current_guard_gate1/verify_gate1_package.py",
+      "bytes": 702,
+      "sha256": "6338e8baae4922e2a74217bfdf66cf825e521575dc3ebeb0c302b9464d4088ac"
+    },
+    {
+      "path": "GATE1_MPSC_MODEL_REPORT_ZH.md",
+      "bytes": 6325,
+      "sha256": "e29c53b9d3e9332ceb5b117ff861b2e19c76869c0a4919d557b3a55866e28ad2"
+    },
+    {
+      "path": "INCREMENT_GATE1_README.md",
+      "bytes": 3361,
+      "sha256": "f7c92a67c50e2b6dd663a29fa41ef5a15904fa20de65990b7d9599eced3a6be7"
+    }
+  ],
+  "prior_dependencies": [
+    {
+      "path": "protocol/GATE_A_LOCKED_V2_1.json",
+      "sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+      "bytes": 6912,
+      "available_in_prior_archive": "G3_GateA_with_extension_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+      "sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+      "bytes": 1528,
+      "available_in_prior_archive": "G3_GateA_with_extension_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "gate_a/dq_bench.py",
+      "sha256": "5185085c3843c2b12d0663f25a4d3e6a0290fcb7d46be3b338e3ee2c261b0616",
+      "bytes": 9494,
+      "available_in_prior_archive": "G3_GateA_with_extension_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "gate_a/dq_preconditioned.py",
+      "sha256": "8060e78b876bb50c1eb1025cece11d22c75c33ffbd38b445525b7df95d145996",
+      "bytes": 6691,
+      "available_in_prior_archive": "G3_GateA_with_extension_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "gate_a_extension/results/matched_no_fault_reference_v2.npz",
+      "sha256": "90b70e6a8067a373766c15f3cd9a37b712eaaa84afa1340a3f1478633e3b69c3",
+      "bytes": 556095,
+      "available_in_prior_archive": "G3_GateA_with_extension_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "source_speed_ablation/results/fast_reference_h1e-05.npz",
+      "sha256": "0e7c12eafe5b4336269756deab71bed39255bcdfc32b6c13953abfb1eebb7c03",
+      "bytes": 4544751,
+      "available_in_prior_archive": "G3_PORT_CURRENT_INCREMENT_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "protocol/GATE0_MPSC_DESIGN_V1.json",
+      "sha256": "c9cfc39a28552b48240e07925b37e2404f4ab6cfeee8d3d8a0f6cdb6703a1579",
+      "bytes": 5143,
+      "available_in_prior_archive": "G3_GATE0_MPSC_INCREMENT_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "protocol/GATE1_MPSC_SIX_MODELS_V1.json",
+      "sha256": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3",
+      "bytes": 10765,
+      "available_in_prior_archive": "G3_GATE0_MPSC_INCREMENT_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "current_guard_gate0/GATE0_RESULTS.json",
+      "sha256": "5b817847658f912f72bff3c774855f5c863f3b6cf2e5825100a21b7b935adcca",
+      "bytes": 35313,
+      "available_in_prior_archive": "G3_GATE0_MPSC_INCREMENT_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "current_guard_gate0/INDEPENDENT_MATH_REVIEW.md",
+      "sha256": "35cdd21aa3322e7e628b68811a4640d8c17dbecb3ffeb576011fb7c8156da0bc",
+      "bytes": 21402,
+      "available_in_prior_archive": "G3_GATE0_MPSC_INCREMENT_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "protocol/phase_mechanism/dynamic_current_baseline_proposal.md",
+      "sha256": "4e6ba6853f90208b9c4cf554202df7b4f2f9a92c3825c91ea8e92abdcf688875",
+      "bytes": 21335,
+      "available_in_prior_archive": "G3_DYNAMIC_CURRENT_GUARD_PROPOSAL_20261002.zip",
+      "included_in_this_increment": false
+    },
+    {
+      "path": "protocol/phase_mechanism/current_guard_sources.json",
+      "sha256": "b068ab3b66a9c68040f7fbc71a3b1fd481d3452c42c55b7960de4e8e98433956",
+      "bytes": 13988,
+      "available_in_prior_archive": "G3_DYNAMIC_CURRENT_GUARD_PROPOSAL_20261002.zip",
+      "included_in_this_increment": false
+    }
+  ],
+  "prior_archives": [
+    {
+      "filename": "G3_GateA_with_extension_20261002.zip",
+      "sha256": "0d23d57e94eb17407570be7c7a336a703240e68232195af62e40e610c3c53ab5"
+    },
+    {
+      "filename": "G3_PORT_CURRENT_INCREMENT_20261002.zip",
+      "sha256": "8b783534e189f75952ec98d73f74925e304ce31924f147a38b17233e5c631a02"
+    },
+    {
+      "filename": "G3_DYNAMIC_CURRENT_GUARD_PROPOSAL_20261002.zip",
+      "sha256": "80fe75515f5cadbc2bb37f4f6b163afa72e7b09bd6329000765ca9c937f00712"
+    },
+    {
+      "filename": "G3_GATE0_MPSC_INCREMENT_20261002.zip",
+      "sha256": "549d872d2dd6f64ab05bdddedb73abd2130eb4ae25f7520a20f08cdd4c072d2f"
+    }
+  ],
+  "status": {
+    "primary_conditions_executed": 6,
+    "same_condition_refinements": 4,
+    "no_fault_finite_physical_passes": 2,
+    "faults_terminated_DC_before_clearance": 4,
+    "current_guard_qualified": false,
+    "paper_ready": false,
+    "joint_DC_SOC_invariance": false,
+    "machine_interval_certificate": false,
+    "real_time_qualified": false
+  },
+  "audit": "Independent algebra/interface and all ten raw/NPZ/summary records reconciled; no postrun change of three executed code hashes",
+  "provenance": "New authorized Gate1 averaged-model trajectories, using prior reconstructed_then_rerun physical protocol/checkpoint. No historical raw recovery claim.",
+  "exclusions": [
+    "next_constructive pending proposal/ledger",
+    "third-party PDFs/manuals/source copies",
+    "wheel/venv",
+    "previous large archives"
+  ]
+}

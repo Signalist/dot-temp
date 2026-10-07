@@ -1,0 +1,190 @@
+{
+  "comparison": "S uses original fixed recoverable P/Q with certified ZOH buffer; L is exact net-load following P_L=(1-sqrt(1-4cd))/(2c), Q_L=b_L=u_L=0; d_L=d_S pointwise",
+  "windows": [
+    {
+      "window": "critical_prefix",
+      "start_s": 0,
+      "end_s": 0.0239,
+      "signed_AC_increment_J": -8669.879559373283,
+      "positive_AC_increment_J": 0.0,
+      "absolute_AC_increment_J": 8669.879559373283,
+      "service_grid_J": 13502.519524071075,
+      "no_service_grid_J": 22172.39908344436,
+      "common_workload_J": 21955.000000000004,
+      "extra_copper_J": 3.8743619767190136,
+      "states_at_start": {
+        "W_S_kJ": 21.599999999999998,
+        "W_L_kJ": 21.599999999999998,
+        "B_S_kJ": 50.0,
+        "B_L_kJ": 50.0,
+        "Z_S_kJ": 0.13496174569591188,
+        "Z_L_kJ": 0.13496174569591188,
+        "b_S_kW": 0.0
+      },
+      "states_at_end": {
+        "W_S_kJ": 19.36325136248274,
+        "W_L_kJ": 21.444800939404473,
+        "B_S_kJ": 43.39539413172217,
+        "B_L_kJ": 50.0,
+        "Z_S_kJ": 0.30256233014099504,
+        "Z_L_kJ": 0.2901608062914372,
+        "b_S_kW": 438.57644028802133
+      },
+      "paired_state_change_J": {
+        "W": -2081.549576921734,
+        "B": -6604.605868277829,
+        "Z": 12.401523849557838
+      },
+      "energy_closure_residual_J": 3.637978807091713e-12
+    },
+    {
+      "window": "early_service",
+      "start_s": 0,
+      "end_s": 0.11,
+      "signed_AC_increment_J": -65.68709350279711,
+      "positive_AC_increment_J": 14113.720269488933,
+      "absolute_AC_increment_J": 28293.127632480664,
+      "service_grid_J": 71994.85973421835,
+      "no_service_grid_J": 72060.54682772115,
+      "common_workload_J": 71500.0,
+      "extra_copper_J": 169.86006045644467,
+      "states_at_start": {
+        "W_S_kJ": 21.599999999999998,
+        "W_L_kJ": 21.599999999999998,
+        "B_S_kJ": 50.0,
+        "B_L_kJ": 50.0,
+        "Z_S_kJ": 0.13496174569591188,
+        "Z_L_kJ": 0.13496174569591188,
+        "b_S_kW": 0.0
+      },
+      "states_at_end": {
+        "W_S_kJ": 25.973134441380193,
+        "W_L_kJ": 21.599999999999998,
+        "B_S_kJ": 45.39131840466055,
+        "B_L_kJ": 50.0,
+        "Z_S_kJ": 0.13496174569591193,
+        "Z_L_kJ": 0.13496174569591166,
+        "b_S_kW": -135.43493769278052
+      },
+      "paired_state_change_J": {
+        "W": 4373.134441380195,
+        "B": -4608.681595339448,
+        "Z": 2.7755575615628914e-13
+      },
+      "energy_closure_residual_J": 1.0629719326971099e-11
+    },
+    {
+      "window": "loss_compensation_tail",
+      "start_s": 0.125,
+      "end_s": 0.175,
+      "signed_AC_increment_J": 238.84337438318911,
+      "positive_AC_increment_J": 238.84337438318911,
+      "absolute_AC_increment_J": 238.84337438318911,
+      "service_grid_J": 32963.7796172097,
+      "no_service_grid_J": 32724.936242826516,
+      "common_workload_J": 32499.999999999993,
+      "extra_copper_J": 3.2962204239351136,
+      "states_at_start": {
+        "W_S_kJ": 26.13396285211393,
+        "W_L_kJ": 21.599999999999998,
+        "B_S_kJ": 45.23048999392682,
+        "B_L_kJ": 50.0,
+        "Z_S_kJ": 0.13496174569591188,
+        "Z_L_kJ": 0.13496174569591188,
+        "b_S_kW": 3.2705512110093005
+      },
+      "states_at_end": {
+        "W_S_kJ": 26.133517281441943,
+        "W_L_kJ": 21.599999999999998,
+        "B_S_kJ": 45.466482718558055,
+        "B_L_kJ": 50.0,
+        "Z_S_kJ": 0.13496174569591188,
+        "Z_L_kJ": 0.13496174569591188,
+        "b_S_kW": 1.9951856064170497
+      },
+      "paired_state_change_J": {
+        "W": -0.4455706719888042,
+        "B": 235.9927246312381,
+        "Z": 0.0
+      },
+      "energy_closure_residual_J": 4.689582056016661e-12
+    },
+    {
+      "window": "whole_task",
+      "start_s": 0,
+      "end_s": 0.2,
+      "signed_AC_increment_J": 173.15628088039202,
+      "positive_AC_increment_J": 14352.563643872121,
+      "absolute_AC_increment_J": 28531.971006863856,
+      "service_grid_J": 131138.5883456893,
+      "no_service_grid_J": 130965.4320648089,
+      "common_workload_J": 130000.0,
+      "extra_copper_J": 173.15628088037977,
+      "states_at_start": {
+        "W_S_kJ": 21.599999999999998,
+        "W_L_kJ": 21.599999999999998,
+        "B_S_kJ": 50.0,
+        "B_L_kJ": 50.0,
+        "Z_S_kJ": 0.13496174569591188,
+        "Z_L_kJ": 0.13496174569591188,
+        "b_S_kW": 0.0
+      },
+      "states_at_end": {
+        "W_S_kJ": 21.599999999999998,
+        "W_L_kJ": 21.599999999999998,
+        "B_S_kJ": 50.0,
+        "B_L_kJ": 50.0,
+        "Z_S_kJ": 0.13496174569591188,
+        "Z_L_kJ": 0.13496174569591188,
+        "b_S_kW": 0.0
+      },
+      "paired_state_change_J": {
+        "W": 0.0,
+        "B": 0.0,
+        "Z": 0.0
+      },
+      "energy_closure_residual_J": 1.2249756764504127e-11
+    },
+    {
+      "window": "continuing_nominal",
+      "start_s": 0.2,
+      "end_s": 0.3,
+      "signed_AC_increment_J": 0.0,
+      "positive_AC_increment_J": 0.0,
+      "absolute_AC_increment_J": 0.0,
+      "service_grid_J": 65449.87248565303,
+      "no_service_grid_J": 65449.87248565303,
+      "common_workload_J": 64999.999999999985,
+      "extra_copper_J": 0.0,
+      "states_at_start": {
+        "W_S_kJ": 21.599999999999998,
+        "W_L_kJ": 21.599999999999998,
+        "B_S_kJ": 50.0,
+        "B_L_kJ": 50.0,
+        "Z_S_kJ": 0.13496174569591188,
+        "Z_L_kJ": 0.13496174569591188,
+        "b_S_kW": 0.0
+      },
+      "states_at_end": {
+        "W_S_kJ": 21.599999999999998,
+        "W_L_kJ": 21.599999999999998,
+        "B_S_kJ": 50.0,
+        "B_L_kJ": 50.0,
+        "Z_S_kJ": 0.13496174569591188,
+        "Z_L_kJ": 0.13496174569591188,
+        "b_S_kW": 0.0
+      },
+      "paired_state_change_J": {
+        "W": 0.0,
+        "B": 0.0,
+        "Z": 0.0
+      },
+      "energy_closure_residual_J": 0.0
+    }
+  ],
+  "actual_gamma_kW": 5.30763054184861,
+  "allowed_gamma_at_epsilon100J_kW": 7.561125019180263,
+  "epsilon_meaning": "Reference-cap net delivery minus same compute workload over0-.2s is100J; it is neither total recovery import nor absolute service energy",
+  "endpoint_states": "Both W(T)=W0, B(T)=B0, i(T)=i0; S b(T)=0 by exact correction; L b identically0; thereafter both exact averaged nominal orbit",
+  "baseline_optimality_claim": false
+}

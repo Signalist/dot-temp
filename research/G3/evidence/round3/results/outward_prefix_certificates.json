@@ -1,0 +1,90 @@
+[
+  {
+    "beta_kvar": "813",
+    "window_s": [
+      ".0113",
+      ".0239"
+    ],
+    "direction": [
+      "1",
+      "-.102"
+    ],
+    "lambda": "0",
+    "epsilon_kJ": ".1",
+    "interval_precision_decimal": 30,
+    "cells": 2048,
+    "M_kV_s": [
+      "0.004142697294971417592305650969259227078",
+      "0.0041426972949714175923056509692661604259"
+    ],
+    "RHS_interval_kV_s": [
+      "0.0041418034296356658787616116007850309945",
+      "0.0041423991351469613736092193086547510482"
+    ],
+    "dual_interval_kV_s": [
+      "0.0000000184944007720304488142946458441044",
+      "0.000000038050133213026614958250825499359"
+    ],
+    "gap_interval_kV_s": [
+      "0.0000002601096912431920814734097789766709",
+      "0.0000008753709349796830952250738352853328"
+    ],
+    "strict_exclusion": true,
+    "prefix_only_without_recovery_budget": true,
+    "zero_positivepart_cells": 1923,
+    "tail_active_coefficient_upper": [
+      "-0.0056214139009850384430059083255880655521",
+      "-0.0056214139009850384430059083253631169345"
+    ],
+    "tail_reactive_coefficient_upper": [
+      "-0.0006866999668840250357887123493685212363",
+      "-0.0006866999668840250357887123493452174838"
+    ],
+    "runtime_s": 0.8020025470032124,
+    "arithmetic": "mpmath.iv directed intervals; interval Riemann enclosure, exact sine-squared cell weights"
+  },
+  {
+    "beta_kvar": "812.5",
+    "window_s": [
+      ".0113",
+      ".0239"
+    ],
+    "direction": [
+      "1",
+      "-.102"
+    ],
+    "lambda": "0",
+    "epsilon_kJ": ".1",
+    "interval_precision_decimal": 30,
+    "cells": 8192,
+    "M_kV_s": [
+      "0.0041423440868269859217173474801032323231",
+      "0.004142344086826985921717347480109395299"
+    ],
+    "RHS_interval_kV_s": [
+      "0.0041420674708246649192074711057044506071",
+      "0.0041422163943294809260940919899489233266"
+    ],
+    "dual_interval_kV_s": [
+      "0.0000000248999696667336558829075060053203",
+      "0.0000000297826280108521825175734140892434"
+    ],
+    "gap_interval_kV_s": [
+      "0.0000000979098694941434407379167402197473",
+      "0.0000002517160326542688539934668989394038"
+    ],
+    "strict_exclusion": true,
+    "prefix_only_without_recovery_budget": true,
+    "zero_positivepart_cells": 7714,
+    "tail_active_coefficient_upper": [
+      "-0.0056214139009850384430059083255880655521",
+      "-0.0056214139009850384430059083253631169345"
+    ],
+    "tail_reactive_coefficient_upper": [
+      "-0.0006866999668840250357887123493685212363",
+      "-0.0006866999668840250357887123493452174838"
+    ],
+    "runtime_s": 3.1205594110069796,
+    "arithmetic": "mpmath.iv directed intervals; interval Riemann enclosure, exact sine-squared cell weights"
+  }
+]

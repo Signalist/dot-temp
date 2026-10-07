@@ -1,0 +1,21 @@
+{
+  "status": "audited_Gate0_conditional_math_and_offline_point_only",
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "closed_loop_tests_executed": 0,
+  "discarded_solver_artifacts": [
+    "broad_circle failed candidate; never admissible controller command"
+  ],
+  "structured_point": {
+    "ideal_mathematical_first_hold_bound_pu": 0.9140451446257454,
+    "RPI_and_constraint_compatible_current_terminal_nonempty_conditional": true,
+    "numerically_feasible_one_point_plan": true,
+    "initial_modulation_change_norm": 0.21458069224035725,
+    "machine_outward_rounded_certificate": false,
+    "joint_DC_SOC_recursive_feasibility": false,
+    "real_time_100us_qualified": false
+  },
+  "next_six_model_protocol_sha256": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3",
+  "next_six_model_status": "Frozen checklist; requires separate closed-loop execution approval",
+  "independent_math_review_sha256": "35cdd21aa3322e7e628b68811a4640d8c17dbecb3ffeb576011fb7c8156da0bc"
+}

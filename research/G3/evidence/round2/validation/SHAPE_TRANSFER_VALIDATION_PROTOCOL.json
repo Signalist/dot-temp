@@ -1,0 +1,17 @@
+{
+  "declared_UTC": "2026-10-03T09:07:38Z",
+  "source_protocol": "../CORRIDOR_SWITCH_PROTOCOL.json",
+  "selection_before_PWM_results": true,
+  "case_files": ["spline_R5000_q900.npz", "spline_R10000_q1050.npz", "spline_R30000_q1000.npz"],
+  "physical_model_and_controller": "Unchanged rectifier.cpp and bandwidth 2000 rad/s; 10 kHz PWM",
+  "max_integrator_steps_s": [0.000001, 0.0000005],
+  "horizon_s": 0.4,
+  "continuation_s": 0.5,
+  "initial_state": "W=21600 J, B=50000 J, b=0, grid current=p0/(1.5*Vp), q0=0, PI integrals=0",
+  "changed_input": "Exactly the supplied p/q/d nodes and u polynomials; explicit battery ramp taken from each NPZ",
+  "load_source": "Actual d nodes are authoritative; no reconstruction from legacy Aload metadata",
+  "no_retuning": true,
+  "no_state_reset": true,
+  "no_excluded_trajectory_simulation": true,
+  "layer": "Six new PWM runs distinct from the original 41 runs"
+}

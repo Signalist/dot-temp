@@ -1,0 +1,154 @@
+{
+  "status": "PASS_SYNTHETIC_RECOVERY_ORACLE_SELFTEST",
+  "physical_trajectories_executed": 0,
+  "real_optimization_calls": 0,
+  "fixture_count": 11,
+  "results": [
+    {
+      "fixture": "all_pass",
+      "status": "PASS",
+      "joint_recovery_time_s": 1.05,
+      "global_safe_recovery": true,
+      "failed_subitem_counts": {
+        "self_cycle": 0,
+        "matched_target": 0,
+        "hard_safe_window": 0,
+        "unclipped_including_guard": 0,
+        "PLL_frequency": 0
+      }
+    },
+    {
+      "fixture": "guard_active",
+      "status": "PASS",
+      "joint_recovery_time_s": null,
+      "global_safe_recovery": false,
+      "failed_subitem_counts": {
+        "self_cycle": 0,
+        "matched_target": 0,
+        "hard_safe_window": 0,
+        "unclipped_including_guard": 10,
+        "PLL_frequency": 0
+      }
+    },
+    {
+      "fixture": "reference_current_clip",
+      "status": "PASS",
+      "joint_recovery_time_s": null,
+      "global_safe_recovery": false,
+      "failed_subitem_counts": {
+        "self_cycle": 0,
+        "matched_target": 0,
+        "hard_safe_window": 0,
+        "unclipped_including_guard": 10,
+        "PLL_frequency": 0
+      }
+    },
+    {
+      "fixture": "voltage_clip",
+      "status": "PASS",
+      "joint_recovery_time_s": null,
+      "global_safe_recovery": false,
+      "failed_subitem_counts": {
+        "self_cycle": 0,
+        "matched_target": 0,
+        "hard_safe_window": 0,
+        "unclipped_including_guard": 10,
+        "PLL_frequency": 0
+      }
+    },
+    {
+      "fixture": "source_clip",
+      "status": "PASS",
+      "joint_recovery_time_s": null,
+      "global_safe_recovery": false,
+      "failed_subitem_counts": {
+        "self_cycle": 0,
+        "matched_target": 0,
+        "hard_safe_window": 0,
+        "unclipped_including_guard": 10,
+        "PLL_frequency": 0
+      }
+    },
+    {
+      "fixture": "PLL_clip",
+      "status": "PASS",
+      "joint_recovery_time_s": null,
+      "global_safe_recovery": false,
+      "failed_subitem_counts": {
+        "self_cycle": 0,
+        "matched_target": 0,
+        "hard_safe_window": 0,
+        "unclipped_including_guard": 10,
+        "PLL_frequency": 0
+      }
+    },
+    {
+      "fixture": "hard_current",
+      "status": "PASS",
+      "joint_recovery_time_s": null,
+      "global_safe_recovery": false,
+      "failed_subitem_counts": {
+        "self_cycle": 0,
+        "matched_target": 0,
+        "hard_safe_window": 10,
+        "unclipped_including_guard": 0,
+        "PLL_frequency": 0
+      }
+    },
+    {
+      "fixture": "self_cycle",
+      "status": "PASS",
+      "joint_recovery_time_s": null,
+      "global_safe_recovery": false,
+      "failed_subitem_counts": {
+        "self_cycle": 10,
+        "matched_target": 0,
+        "hard_safe_window": 0,
+        "unclipped_including_guard": 0,
+        "PLL_frequency": 0
+      }
+    },
+    {
+      "fixture": "matched_target",
+      "status": "PASS",
+      "joint_recovery_time_s": null,
+      "global_safe_recovery": false,
+      "failed_subitem_counts": {
+        "self_cycle": 0,
+        "matched_target": 10,
+        "hard_safe_window": 0,
+        "unclipped_including_guard": 0,
+        "PLL_frequency": 0
+      }
+    },
+    {
+      "fixture": "PLL_frequency",
+      "status": "PASS",
+      "joint_recovery_time_s": null,
+      "global_safe_recovery": false,
+      "failed_subitem_counts": {
+        "self_cycle": 0,
+        "matched_target": 0,
+        "hard_safe_window": 0,
+        "unclipped_including_guard": 0,
+        "PLL_frequency": 10
+      }
+    },
+    {
+      "fixture": "earlier_violation",
+      "status": "PASS",
+      "joint_recovery_time_s": 1.05,
+      "global_safe_recovery": false,
+      "failed_subitem_counts": {
+        "self_cycle": 0,
+        "matched_target": 0,
+        "hard_safe_window": 0,
+        "unclipped_including_guard": 0,
+        "PLL_frequency": 0
+      }
+    }
+  ],
+  "source_sha256": "f1f260a349fb5f33b56ff8939e605427c95737a8050886311a1b78ce5c99ec93",
+  "artifact_checker_sha256": "b8ade441cadf57b912f9598b0f8f4df154460f89ab73aff52f3e90785473d73b",
+  "qualification": "Isolated synthetic arrays; no plant or optimization calls. Frozen guard-limiting and recovery criteria remain unchanged."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "AUDIT_COMPLETE_NO_FURTHER_WRITES_PLANNED",
+  "files": {
+    "AUDIT_REPORT_PHASE3.md": {
+      "bytes": 5777,
+      "sha256": "064018cc446ddbbf627dd4b8bac534551843023843db5b89030cb08109193f34"
+    },
+    "INDEPENDENT_AUDIT_FREEZE.json": {
+      "bytes": 836,
+      "sha256": "918a2dfcd29e4ee677178c7ff46fe7fc5042918c5bda0435f2e83d45b9f7d493"
+    },
+    "INDEPENDENT_RESULTS.json": {
+      "bytes": 1023258,
+      "sha256": "b72996447ea64d9248ececae66a7c4eebea70da7bf79c28495f88035fbfbfc0d"
+    },
+    "ORIGINAL_REFERENCE_DEFINITION.json": {
+      "bytes": 2237,
+      "sha256": "89fa894ed13c6fcf1ca3f65969ff5af3e3b3c6835f1f56e304332023071ef0fb"
+    },
+    "PRESERVATION_VERIFIED.json": {
+      "bytes": 220,
+      "sha256": "b6d4e31d99d5d05f2dbd84a19aa3ace95a4009180967e9ad1814b0622acba443"
+    },
+    "THREE_BRANCH_LEDGER.csv": {
+      "bytes": 169141,
+      "sha256": "7fd270375ee466313f1a05fc3f477203f18ccfbef334c56a531d807ea07fe411"
+    },
+    "audit_execution.log": {
+      "bytes": 1747,
+      "sha256": "764881b95d988601dea0e20a270b2427298a4d4e77fb9cb20dfb69f424a1e463"
+    },
+    "audit_workload_matched.py": {
+      "bytes": 7307,
+      "sha256": "3d6fc0a56115d5e0cad6e4f3efec1d2cbd06a1ddd17dfc6f2e72703a7334b30b"
+    },
+    "inspect_original_reference.py": {
+      "bytes": 2927,
+      "sha256": "b41318f9acc0acf67155d75acb3565f57d23fd64fa9b98e9c043ae310ec43730"
+    },
+    "verify_preservation.py": {
+      "bytes": 607,
+      "sha256": "9d4993b9d7fc9e80f921f004dcca859e52b220a7a020220fe1d55443a3d480b2"
+    }
+  }
+}

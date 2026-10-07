@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0",
+  "audit_date_UTC": "2026-10-02",
+  "scope": "DC topology/source-response applicability audit for frozen G3 Gate A and proposed next mechanism",
+  "status": "Research and algebra only; no new simulation; no external software installed or downloaded code executed",
+  "verdict": {
+    "current_model": "synthetic lag- and slew-limited controlled DC power port; possible DC/DC closed-loop reduced model, not hardware calibrated",
+    "direct_battery_equivalent": false,
+    "matched_utility_BESS_fast_DC_step_dataset_found": false,
+    "original_certificate_scope": "fixed V2.1 state, fixed 5 MW/s hard down-slew, fixed storage/loss/protection topology and 0.4 pu source sag",
+    "faster_source_values": "log-decade sensitivity assumptions only",
+    "physical_gate_status": {
+      "synthetic_behavioral_scope": "allowed with explicit qualification",
+      "utility_hardware_calibration": "not established; requires topology and matched DC transient evidence",
+      "direct_battery_scope": "not represented; state equations must change"
+    }
+  },
+  "source_reading_policy": "Primary research papers and manufacturer/maintainer documentation. Manufacturer capability language, external setpoint intervals and software ramps are not identified with inner DC current dynamics.",
+  "sources": [
+    {
+      "id": "Z1",
+      "type": "primary_research_author_preprint",
+      "authors": [
+        "Antonio Zecchino",
+        "Zhao Yuan",
+        "Fabrizio Sossan",
+        "Rachid Cherkaoui",
+        "Mario Paolone"
+      ],
+      "title": "Optimal Provision of Concurrent Primary Frequency and Local Voltage Control from a BESS Considering Variable Capability Curves: Modelling and Experimental Assessment",
+      "doi": "10.1016/j.epsr.2020.106643",
+      "journal_year": 2021,
+      "read_version": "arXiv:1910.04052v2, 2020-04-08, 9 pages",
+      "url": "https://arxiv.org/pdf/1910.04052",
+      "canonical_url": "https://doi.org/10.1016/j.epsr.2020.106643",
+      "locators": {
+        "ratings_and_modbus": "PDF p4, Section III, Table I",
+        "TTC_equations": "PDF pp2-3, Eqs.(4)-(9), Fig.2",
+        "efficiency": "PDF p3, Eq.(11)",
+        "seven_string_parameters": "PDF p5, Table III",
+        "supervisory_interval": "PDF p6, Section IV"
+      },
+      "quantities": {
+        "S_kVA": 720,
+        "E_kWh": 560,
+        "P_nom_kW": 640,
+        "Vdc_nom_V": 750,
+        "Vdc_range_V": [
+          500,
+          890
+        ],
+        "modbus_refresh_s": 0.05,
+        "optimization_and_acquisition_s": 1.0
+      },
+      "supports": [
+        "Battery-voltage-dependent capability",
+        "TTC terminal voltage model",
+        "Communication/supervisory timing distinction"
+      ],
+      "does_not_establish": [
+        "As-built absence of an internal DC/DC stage",
+        "DC/DC current-loop bandwidth",
+        "G3 20 ms lag or 5 MW/s hardware slew limit",
+        "Fast fault-time DC power step data"
+      ],
+      "visual_qa_pdf_pages": [
+        4
+      ],
+      "download_sha256": "30251b529ae3cf23622a4d928d52f599aa8d4682db8681a5d2ff1f85bab05049",
+      "download_size_bytes": 1011146,
+      "extraction": "pdftotext -layout; selected pages visually inspected where stated"
+    },
+    {
+      "id": "Z2",
+      "type": "manufacturer_official_manual",
+      "manufacturer": "ABB",
+      "title": "PCS100 ESS User Manual",
+      "document": "2UCD190000E001 rev. J",
+      "url": "https://library.e.abb.com/public/8b613f6b51914388b996de018db1dd22/2UCD190000E001_j%20PCS100%20ESS%20User%20Manual.pdf",
+      "locators": {
+        "dc_connection_and_precharge": "p60, Section 6.13, Fig.6-19",
+        "control_mode_response": "p41, Section 6.3",
+        "analog_setpoints": "p151, Appendix D"
+      },
+      "quantities": {
+        "analog_setpoint_interval_upper_s": 0.001,
+        "power_command_response_wording": "sub-cycle"
+      },
+      "supports": [
+        "Storage through DC breaker to internal DC-bus capacitors",
+        "Fast setpoint and power-response descriptions belong to distinct interfaces"
+      ],
+      "does_not_establish": [
+        "Numerical DC/DC inner-loop time constant",
+        "G3 source slew calibration",
+        "That software CSI mode means a current-source DC-link circuit"
+      ],
+      "visual_qa_pdf_pages": [
+        60
+      ],
+      "download_sha256": "305fdd366ee851dc6ddd044940791ea89e76993679cb5697f9564bc14a2385ac",
+      "download_size_bytes": 2748069,
+      "extraction": "pdftotext -layout; selected pages visually inspected where stated"
+    },
+    {
+      "id": "Z3",
+      "type": "manufacturer_official_manual",
+      "manufacturer": "SMA",
+      "title": "Medium Voltage Power Station with Sunny Central Storage US for AC-coupled Storage Solutions: System Manual",
+      "document": "MVPS-S2-SCS-US-B8-SH-en-11",
+      "url": "https://files.sma.de/downloads/MVPS-S2-SCS-US-B8-SH-en-11.pdf",
+      "locators": {
+        "direct_precharge": "p205, Section 14.1.5.2",
+        "power_reference_ramp": "p223, Section 14.4.2, Fig.90",
+        "ramp_parameter": "p248, parameter 726 WGra",
+        "mode_override": "p137, DC Voltage Control mode"
+      },
+      "quantities": {
+        "WGra_range_pu_per_s": [
+          0,
+          100
+        ],
+        "WGra_default_pu_per_s": 0.2
+      },
+      "supports": [
+        "Configured active-power ramp is a reference-path function",
+        "WGra/WGraRecon are inapplicable in documented DC Voltage Control mode"
+      ],
+      "does_not_establish": [
+        "Physical DC-port slew capability at parameter range endpoints",
+        "Conversion to G3 MW/s without verified rating/base",
+        "Calibrated DC/DC dynamic model"
+      ],
+      "access_note": "web PDF open exceeded tool content-size limit; official PDF downloaded read-only and locally text-extracted",
+      "download_sha256": "5b9e391531b4f28701b17c4c5c0a0ab279b071e2b52fc9d490136db6d2f75b69",
+      "download_size_bytes": 11661886,
+      "extraction": "pdftotext -layout; selected pages visually inspected where stated"
+    },
+    {
+      "id": "Z4",
+      "type": "manufacturer_official_project_announcement",
+      "manufacturer": "Sungrow",
+      "title": "Sungrow Powers JEA’s SolarSmart Program with 1500VDC DC-Coupled System",
+      "published_date": "2019-11-21",
+      "url": "https://www.sungrowpower.com/us/en/newsdetail/336",
+      "locators": {
+        "system": "project description and paragraph naming SG2500U and ST1918KWH-D750HV"
+      },
+      "quantities": {
+        "project_P_MW": 9,
+        "project_E_MWh": 3.836,
+        "dc_voltage_class_V": 1500
+      },
+      "supports": [
+        "Deployed utility PV-plus-storage architecture with DC/DC ESS"
+      ],
+      "does_not_establish": [
+        "DC/DC loop gain, time constant or transient slew"
+      ]
+    },
+    {
+      "id": "Z5",
+      "type": "primary_research_paper",
+      "authors": [
+        "Jingang Han",
+        "Xin Gu",
+        "Yi Yang",
+        "Tianhao Tang"
+      ],
+      "title": "Dynamic Improvement with a Feedforward Control Strategy of Bidirectional DC-DC Converter for Battery Charging and Discharging",
+      "doi": "10.3390/electronics9101738",
+      "published_date": "2020-10-21",
+      "url": "https://www.mdpi.com/2079-9292/9/10/1738",
+      "read_pdf_url": "https://pdfs.semanticscholar.org/d70e/ee9ded09e167ed31089c1dfe920efdbb146d.pdf",
+      "locators": {
+        "averaged_model": "p8, Eqs.(6)-(7)",
+        "inner_loop": "p10, Eqs.(19)-(21)",
+        "parameters": "p10, Table 1",
+        "experiment_scale_and_load": "pp13-14, Section 5.2",
+        "transient_response": "pp14-15, Fig.16"
+      },
+      "quantities": {
+        "platform_nameplate_kW": 450,
+        "Vbus_V": 700,
+        "L_H": 0.0016,
+        "fs_Hz": 5000,
+        "Cbus_F": 0.0021,
+        "Cout_F": 0.0021,
+        "reported_output_current_step_A": [
+          0,
+          100
+        ],
+        "PI_step_response_s": 0.0268,
+        "feedforward_step_response_s": 0.0082,
+        "feedforward_reversal_response_approx_s": 0.011
+      },
+      "model_equation_id": "Eq.(21): Gci(s) approximately 1/(1+3Ts*s)",
+      "derived_example_tau_s": 0.0006,
+      "important_limitations": [
+        "Experimental battery replaced by resistor",
+        "Platform nameplate is not actual full-power step test magnitude",
+        "Inner-loop approximation is not measured output-current settling",
+        "Not a matched utility BESS calibration"
+      ],
+      "visual_qa_pdf_pages": [
+        10,
+        14
+      ],
+      "download_sha256": "109dceb083dcbf10d121a576f346ee85993e95df8e000e5eb03ff647fb60bfde",
+      "download_size_bytes": 7908000,
+      "extraction": "pdftotext -layout; selected pages visually inspected where stated"
+    },
+    {
+      "id": "Z6",
+      "type": "primary_research_paper",
+      "authors": [
+        "Ching-Ming Lai",
+        "Yuan-Chih Lin",
+        "Dasheng Lee"
+      ],
+      "title": "Study and Implementation of a Two-Phase Interleaved Bidirectional DC/DC Converter for Vehicle and DC-Microgrid Systems",
+      "doi": "10.3390/en8099969",
+      "published_date": "2015-09-14",
+      "url": "https://www.mdpi.com/1996-1073/8/9/9969/pdf",
+      "locators": {
+        "compensated_loop_gain": "PDF p15 / printed p9983, Eqs.(28)-(29), Figs.14-15",
+        "prototype": "PDF p16 / printed p9984, Section 5, Table 1"
+      },
+      "quantities": {
+        "prototype_power_W": 500,
+        "Vlow_nom_V": 48,
+        "Vhigh_nom_V": 240,
+        "fs_Hz": 35000,
+        "discharge_current_loop_crossover_Hz": 1500,
+        "charge_current_loop_crossover_Hz": 1800
+      },
+      "important_limitations": [
+        "Loop-gain crossover is not identical to first-order closed-loop bandwidth",
+        "Small-power prototype cannot calibrate MW system",
+        "Existence evidence only"
+      ],
+      "visual_qa_pdf_pages": [
+        15
+      ],
+      "download_sha256": "100968ce9b29ba1854de395860ef3f7301c6a74fcd55cd0ea72cd97ed8a44605",
+      "download_size_bytes": 2113807,
+      "extraction": "pdftotext -layout; selected pages visually inspected where stated"
+    },
+    {
+      "id": "Z7a",
+      "type": "official_simulator_example",
+      "maintainer": "Aalto Electric Drives",
+      "title": "10-kVA, DC bus, GFL",
+      "url": "https://aalto-electric-drives.github.io/motulator/grid_examples/grid_following/plot_10kva_dc_bus_gfl.html",
+      "locators": {
+        "configuration": "Configure the system model and control system",
+        "external_current": "Set the time-dependent reference and disturbance signals"
+      },
+      "quantities": {
+        "nominal_power_W": 10000,
+        "Cdc_F": 0.001,
+        "Vdc_V": 600,
+        "dc_voltage_outer_loop_alpha_rad_per_s": 188.49555921538757,
+        "external_dc_current_step_A": 10,
+        "external_dc_current_step_time_s": 0.06
+      },
+      "derived_Hdc_s": 0.018,
+      "important_limitations": [
+        "External current is prescribed, not a battery/DC/DC model",
+        "Dimensionless energy scaling only",
+        "Rolling documentation: observed page version 0.7.9; no code installed or executed"
+      ]
+    },
+    {
+      "id": "Z7b",
+      "type": "official_simulator_documentation",
+      "maintainer": "Aalto Electric Drives",
+      "title": "DC-Bus Voltage Control",
+      "url": "https://aalto-electric-drives.github.io/motulator/control/grid/dc_voltage_ctrl.html",
+      "locators": {
+        "energy_balance": "Eq.(3)",
+        "tuning": "Eq.(5)"
+      },
+      "supports": [
+        "DC capacitor energy balance",
+        "DC voltage controller distinct from inner loop"
+      ],
+      "important_limitations": [
+        "Lossless ideal-output-control analysis",
+        "No utility battery timing calibration",
+        "Rolling documentation: observed page version 0.8.0"
+      ]
+    },
+    {
+      "id": "Z7c",
+      "type": "official_simulator_source_documentation",
+      "maintainer": "Aalto Electric Drives",
+      "title": "motulator.common.model._converter",
+      "url": "https://aalto-electric-drives.github.io/motulator/_modules/motulator/common/model/_converter.html",
+      "locators": {
+        "classes": "VoltageSourceConverter; CapacitiveDCBusConverter",
+        "dynamics": "CapacitiveDCBusConverter.rhs"
+      },
+      "supports": [
+        "Fixed-voltage and capacitive-bus models have different state contracts"
+      ],
+      "important_limitations": [
+        "Read-only source inspection; no downloaded code execution",
+        "Rolling documentation: observed page version 0.8.0"
+      ]
+    }
+  ],
+  "local_inputs": [
+    {
+      "path_from_G3": "protocol/GATE_A_LOCKED_V1_1.json",
+      "sha256": "d760dc40b8784fe51e7cb503d4bde064139563e82b48255fb8699998e87eddc9",
+      "use": "read only; no model changes or reruns"
+    },
+    {
+      "path_from_G3": "gate_a/dq_bench.py",
+      "sha256": "5185085c3843c2b12d0663f25a4d3e6a0290fcb7d46be3b338e3ee2c261b0616",
+      "use": "read only; no model changes or reruns"
+    },
+    {
+      "path_from_G3": "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.md",
+      "sha256": "0554aeef0b188838d0f7e532574799b2ed68ade8d18afb5dd129d2ca12f165e4",
+      "use": "read only; no model changes or reruns"
+    },
+    {
+      "path_from_G3": "protocol/DC_BOUND_GATE_A_V2_1_REVALIDATED.json",
+      "sha256": "fd8a03b0c25977d9bef2f2fb84a1474ebe6bc06ec8f4327b05adabc8770d3a0f",
+      "use": "read only; no model changes or reruns"
+    }
+  ],
+  "proposed_source_ablation": {
+    "not_executed": true,
+    "symmetric_up_down_ramp": true,
+    "preferred_full_factorial": {
+      "tau_s": [
+        0.02,
+        0.002,
+        0.0002
+      ],
+      "ramp_W_per_s": [
+        5000000.0,
+        50000000.0,
+        500000000.0
+      ]
+    },
+    "calibration_status": "all tau and ramp values remain synthetic; published examples motivate testing speed separation only",
+    "sample_s": 0.0001,
+    "required_separation": [
+      "Fixed-onset-state algebraic diagnostic versus separately re-warmed simulation",
+      "Inner source dynamics versus 50/s energy feedback versus sampling",
+      "Parameter robustness versus different-topology robustness"
+    ],
+    "minimum_diagnostic_set": [
+      {
+        "id": "S0",
+        "tau_s": 0.02,
+        "ramp_W_per_s": 5000000.0,
+        "role": "frozen baseline"
+      },
+      {
+        "id": "Stau",
+        "tau_s": 0.0002,
+        "ramp_W_per_s": 5000000.0,
+        "role": "lag-only acceleration"
+      },
+      {
+        "id": "SR",
+        "tau_s": 0.02,
+        "ramp_W_per_s": 500000000.0,
+        "role": "ramp-only relaxation"
+      },
+      {
+        "id": "S10",
+        "tau_s": 0.002,
+        "ramp_W_per_s": 50000000.0,
+        "role": "paired 10x acceleration"
+      },
+      {
+        "id": "S100",
+        "tau_s": 0.0002,
+        "ramp_W_per_s": 500000000.0,
+        "role": "paired 100x acceleration"
+      }
+    ]
+  },
+  "algebra_only_existing_state_diagnostic": {
+    "not_new_simulation": true,
+    "a_W": 296342.832500219,
+    "H_J": 4341.2501394457,
+    "eta_dc": 0.99,
+    "formula": "t_peak=a/(eta*R); F_peak=a^2/(2*eta*R), evaluated while source lower envelope is positive",
+    "ramp_critical_W_per_s": 10216657.976646183,
+    "cases": [
+      {
+        "ramp_W_per_s": 5000000.0,
+        "peak_time_s": 0.05986723888893313,
+        "peak_J": 8870.613573156854,
+        "slew_only_certificate_excludes_joint_safety": true
+      },
+      {
+        "ramp_W_per_s": 50000000.0,
+        "peak_time_s": 0.005986723888893313,
+        "peak_J": 887.0613573156854,
+        "slew_only_certificate_excludes_joint_safety": false
+      },
+      {
+        "ramp_W_per_s": 500000000.0,
+        "peak_time_s": 0.0005986723888893313,
+        "peak_J": 88.70613573156854,
+        "slew_only_certificate_excludes_joint_safety": false
+      }
+    ],
+    "warning": "Loss of this relaxed certificate is not proof of feasibility. Any changed warm-up state requires recalculation. Changing tau alone does not change the old slew-only bound at fixed onset state."
+  },
+  "report": {
+    "path_from_G3": "protocol/phase_mechanism/dc_topology_scope.md",
+    "sha256": "913566d46b5bff27979989f2824e30d7e71e287c76216c2b05566faa0027d8b5"
+  }
+}

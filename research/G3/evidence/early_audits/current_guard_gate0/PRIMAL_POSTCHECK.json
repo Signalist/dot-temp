@@ -1,0 +1,82 @@
+{
+  "status": "READ_ONLY_OFFLINE_PRIMAL_POSTCHECK_NO_CLOSED_LOOP",
+  "active_tolerance_norm": 1e-08,
+  "primal_max_norm_violation": 0.0,
+  "terminal_equality_inf": 5.551115123125783e-17,
+  "active_constraint_names": [
+    "current1_4",
+    "current2_0"
+  ],
+  "nonnegative_inequality_multipliers": [
+    0.6917109259975734,
+    0.0
+  ],
+  "equality_multipliers": [
+    4.600672754681137e-14,
+    3.54121379924087e-14,
+    0.0,
+    0.0
+  ],
+  "stationarity_inf": 4.951594689828198e-14,
+  "complementarity_max_abs": 0.0,
+  "dual_feasibility_min_multiplier": 0.0,
+  "interpretation": "Numerical KKT consistency for a convex QCQP; not a machine-verified optimality certificate. No gain,N,threshold or solver plan search was repeated.",
+  "terminal_tail_repair": {
+    "ideal_formula": "delta_tail = -[A B, B]^{-1} (z_N-sbar), only last2 nominal inputs; exact real arithmetic removes terminal equality residue. No physical state is projected.",
+    "stored_plan_kept_unchanged": true,
+    "delta_tail": [
+      -1.4764554419839463e-16,
+      -1.1153354988850371e-17,
+      0.0,
+      0.0
+    ],
+    "max_abs_delta": 1.4764554419839463e-16,
+    "candidate_repaired_terminal_residual_inf": 5.551115123125783e-17,
+    "first_modulation_change_due_to_repair": 0.0,
+    "affected_constraints": [
+      {
+        "name": "input8",
+        "old_norm_slack": 0.1110576542952495,
+        "change_norm_bound": 1.5265566588595902e-16
+      },
+      {
+        "name": "input9",
+        "old_norm_slack": 0.037771712186596196,
+        "change_norm_bound": 0.0
+      },
+      {
+        "name": "queue9",
+        "old_norm_slack": 0.1110576542952495,
+        "change_norm_bound": 1.52655665885959e-16
+      },
+      {
+        "name": "queue10",
+        "old_norm_slack": 0.03777171218659614,
+        "change_norm_bound": 0.0
+      },
+      {
+        "name": "current9_1",
+        "old_norm_slack": 0.7580410991060619,
+        "change_norm_bound": 1.432412073487163e-17
+      },
+      {
+        "name": "current9_2",
+        "old_norm_slack": 0.7813731935188216,
+        "change_norm_bound": 2.86374507741963e-17
+      },
+      {
+        "name": "current9_3",
+        "old_norm_slack": 0.8045096552035259,
+        "change_norm_bound": 4.293999824685763e-17
+      },
+      {
+        "name": "current9_4",
+        "old_norm_slack": 0.8274499749030235,
+        "change_norm_bound": 5.723177127561558e-17
+      }
+    ],
+    "minimum_affected_constraint_slack": 0.03777171218659614,
+    "max_constraint_change_bound": 1.5265566588595902e-16,
+    "limit": "Finite-precision/transcendental outward enclosure still not implemented. This bounds a tail-equality issue, not every implementation error."
+  }
+}

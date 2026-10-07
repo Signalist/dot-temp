@@ -1,0 +1,8 @@
+{
+  "status": "Both healthy cases completed and independently audited; all six primary cases and four same-condition refinements now recorded",
+  "no_fault_physical_admission": {"C0-slow": true, "C0-fast": true},
+  "health_service_transparency_claimed": false,
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "healthy_observation_is_finite_constant_P_discharge": true
+}

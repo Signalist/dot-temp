@@ -1,0 +1,23 @@
+{
+  "status": "PASS_ALL_FOUR_COMPLETED_ARTIFACTS",
+  "physical_trajectories_executed_by_audit": 0,
+  "real_optimization_calls": 0,
+  "files": {
+    "audit_artifact_checks.py": "b8ade441cadf57b912f9598b0f8f4df154460f89ab73aff52f3e90785473d73b",
+    "audit_artifact_results.json": "67a0c00be67904b639182bcad74aa892d58c43205a279e3f386e93bc2793a18c",
+    "audit_event_boundaries.py": "d1e1682f3880a8a1353c1e689da29f0c83c7f63b2c145d8f0ad85df89389031a",
+    "audit_event_results.json": "850ab78760501ed6295db16c5baacc650712044cdf8cda2ba0503b5ebc9fcfe1",
+    "audit_recovery_fixture_tests.py": "f1f260a349fb5f33b56ff8939e605427c95737a8050886311a1b78ce5c99ec93",
+    "audit_recovery_fixture_results.json": "103bf606cb77bb94d3e18b3a9ae89b9b7b868f1351fa762ca631a3c9e85a25b0",
+    "build_independent_artifact_report.py": "e0e9a514ad6cc7bf93fd69d64b5cba18d1505981cb9053d5bbdf0804f552946b",
+    "INDEPENDENT_ARTIFACT_AUDIT.md": "cea5ec5cd80b94faff725678703befda84a59136432f412dcab5d6530226bc36"
+  },
+  "audited_summaries": {
+    "P0-fast": "8f9ad64944f827a180b64a1c253d0c8e8646efe4dbd692221395af19472e171e",
+    "R0-fast": "734bbf3ece2952ec7b8bb98e9b31014c3b0362b22206779c15ad46005a210466",
+    "P50-fast": "e29a6ac27a07ea588d21532a12e652c8ee76ed65d947845d505766d7d8ed20a7",
+    "R50-fast": "cbb38fab46138d22ae26fd3c5103d175196264352fd4015931c571c585646f53"
+  },
+  "frozen_runner_sha256": "e9bceab631ec7f26c9639aa3a2887ddf21f8cefdd63390c76fbeb1d3d30563c5",
+  "frozen_wrapper_sha256": "50f4b5f97cb8caad08463451e3dfe959528119cf10b140c78af57409608f52f6"
+}

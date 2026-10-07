@@ -1,0 +1,34 @@
+[
+  {
+    "integration": "h1",
+    "warmup_duration_s": 2,
+    "gross_grid_energy_J": 1308999.7752626543,
+    "copper_loss_J": 8999.704740501149,
+    "load_energy_J": 1299999.9999977248,
+    "gross_grid_increment_vs_model_baseline_J": 2.32554959342815,
+    "net_after_copper_increment_vs_model_baseline_J": 0.07052215305157006,
+    "healthy_last5cycle_cp_mean_W": 52.40889601178747,
+    "held_cp_W": 45.12521860733242,
+    "healthy_grid_increment_mean_W": 1.1342583398800343,
+    "W_initial_J": 21600.0,
+    "W_final_J": 21600.0761306471,
+    "Z_initial_J": 134.96174569591193,
+    "Z_final_J": 134.98157068866036
+  },
+  {
+    "integration": "h05",
+    "warmup_duration_s": 2,
+    "gross_grid_energy_J": 1308999.796214664,
+    "copper_loss_J": 8999.706716346744,
+    "load_energy_J": 1299999.9999999406,
+    "gross_grid_increment_vs_model_baseline_J": 2.3465016030240804,
+    "net_after_copper_increment_vs_model_baseline_J": 0.08949831710197031,
+    "healthy_last5cycle_cp_mean_W": 52.418232679192464,
+    "held_cp_W": 45.134431031280094,
+    "healthy_grid_increment_mean_W": 1.1447315104305744,
+    "W_initial_J": 21600.0,
+    "W_final_J": 21600.07613185166,
+    "Z_initial_J": 134.96174569591193,
+    "Z_final_J": 134.9815744790823
+  }
+]

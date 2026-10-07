@@ -1,0 +1,87 @@
+{
+  "frozen_UTC": "2026-10-02T01:35:45.800048+00:00",
+  "scope": "Four fixed standard allocation baseline diagnostics; not a candidate method or a performance parameter search. Synthetic controlled DC ports only.",
+  "base_protocol": "protocol/GATE_A_LOCKED_V2_1.json",
+  "base_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+  "common_initial_checkpoint": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+  "checkpoint_sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+  "ports": {
+    "slow": {
+      "tau_s": 0.02,
+      "ramp_W_per_s": 5000000.0
+    },
+    "fast": {
+      "tau_s": 0.002,
+      "ramp_W_per_s": 50000000.0
+    }
+  },
+  "information": "Same measured PCC complex voltage before sample queue promotion, same nominal800kW/700kvar requests, same states and100us control clock. No future event/clearance information is used in allocation.",
+  "allocation_equations": {
+    "common": "Vn=max(|vPCC|,0.1Vbase); Icap=0.95Ibase; a0=clip(P_req,\u00b10.95MW)/(1.5Vn); b0=Q_req/(1.5Vn); iref=(a-jb)*vPLL/max(|vPLL|,epsilon).",
+    "p_priority": "a=clip(a0,\u00b1Icap); b=clip(b0,\u00b1sqrt(max(0,Icap^2-a^2))).",
+    "radial": "s=min(1,Icap/sqrt(a0^2+b0^2)); a=s*a0; b=s*b0; use s=1 if a0=b0=0.",
+    "existing_q_priority": "b=clip(b0,\u00b1Icap); a=clip(a0,\u00b1sqrt(max(0,Icap^2-b^2))). Existing Q-priority slow/fast data retained as comparators."
+  },
+  "unchanged": "All ratings, capacitance, losses, efficiencies, inner PI and antiwindup, PLL, DC feedback and source bounds, initial plant/controller/queue state, normalized-modulation delay, clocks and service requests. Allocation order/radial rule is the sole control difference; port tau/ramp is a separately declared sensitivity.",
+  "dynamic_runs": [
+    {
+      "id": "slow_p_priority",
+      "port": "slow",
+      "allocator": "p_priority",
+      "source_voltage_pu": 1.0,
+      "event": {
+        "start_s": 0.60005,
+        "end_s": 0.75005,
+        "retained_voltage_pu": 0.4
+      }
+    },
+    {
+      "id": "slow_radial",
+      "port": "slow",
+      "allocator": "radial",
+      "source_voltage_pu": 1.0,
+      "event": {
+        "start_s": 0.60005,
+        "end_s": 0.75005,
+        "retained_voltage_pu": 0.4
+      }
+    },
+    {
+      "id": "fast_p_priority",
+      "port": "fast",
+      "allocator": "p_priority",
+      "source_voltage_pu": 1.0,
+      "event": {
+        "start_s": 0.60005,
+        "end_s": 0.75005,
+        "retained_voltage_pu": 0.4
+      }
+    },
+    {
+      "id": "fast_radial",
+      "port": "fast",
+      "allocator": "radial",
+      "source_voltage_pu": 1.0,
+      "event": {
+        "start_s": 0.60005,
+        "end_s": 0.75005,
+        "retained_voltage_pu": 0.4
+      }
+    }
+  ],
+  "max_new_fault_conditions": 4,
+  "duration": {
+    "initial_time_s": 0.6,
+    "end_time_s": 2.75005
+  },
+  "numerics": {
+    "h_s": 1e-05,
+    "rtol": 1e-10,
+    "atol": 1e-08,
+    "event_location": "Exact root location for actualI1/1.1pu and DC/SoC bounds; exact event and sample splits.",
+    "refinement": "Any indispensable same-condition numerical refinement must be identified as such; no new physical case/gain/threshold is permitted."
+  },
+  "scoring": "Keep distinct actual-current violation, DC contact, full physical completion, electrical recovery, absolute P and Q service error integrals, signed supply integrals and battery inventory. No physical-safe result is joint-service success merely because Q is sacrificed. First bad contact/violation and all unobserved recovery remain explicit.",
+  "negative_control": "The slow port .4pu/150ms is excluded by the existing control-independent energy certificate assuming actualI<=1. Any alleged full hard-safe passage requires checking model, sampling, state, constraints and metrics before interpretation.",
+  "storage": "Same100us full state/control/interval-extrema and dense initial/fault/recovery-boundary recording as the source-speed diagnostic. Original comparison data unchanged."
+}

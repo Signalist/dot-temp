@@ -1,0 +1,41 @@
+{
+  "case": "conservation_nominal",
+  "representation": "nominal-rotating-dq",
+  "parameter_sha256": "d760dc40b8784fe51e7cb503d4bde064139563e82b48255fb8699998e87eddc9",
+  "max_step_s": 5e-06,
+  "stop_reason": "completed",
+  "final_time_s": 0.5,
+  "initial": {
+    "i0": [
+      589.0716164981569,
+      -151.57353092436512
+    ],
+    "v_pcc0": [
+      571.6920187794266,
+      22.65704498150033
+    ],
+    "u_inv0": [
+      583.0496801770192,
+      57.11280157440448
+    ],
+    "p_b0": 509598.7518800391,
+    "Wdc0": 21600.0,
+    "WL0": 72.86219320048511,
+    "initial_power_residual_W": 6.507814330688532e-11
+  },
+  "max_actual_current_pu": 0.5045272658686493,
+  "max_reference_current_pu": 0.4283537194395692,
+  "first_current_limit_crossing_s": null,
+  "min_dc_pu": 0.9977063776103278,
+  "max_dc_pu": 1.0046591616031397,
+  "max_abs_battery_terminal_power_W": 525457.5429492878,
+  "min_soc": 0.4999638789698695,
+  "max_soc": 0.5,
+  "max_pcc_apparent_VA": 625936.0686289701,
+  "max_abs_energy_conservation_residual_J": 2.6373527362011373e-08,
+  "max_modulation_norm": 0.43821329589523367,
+  "mean_last_20ms_pcc_P_W": 498719.7406646414,
+  "mean_last_20ms_pcc_Q_var": 152843.80149605448,
+  "gate_hard_safe": true,
+  "samples": 102951
+}

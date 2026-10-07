@@ -1,0 +1,26 @@
+{
+  "timestamp_UTC": "2026-10-03T08:36:04Z",
+  "scope": "Independent abc model reference tests frozen before the admission witness",
+  "parameters": {
+    "Vrms": 690.0,
+    "f": 50.0,
+    "L": 0.0001,
+    "R": 0.005,
+    "C": 0.02,
+    "Vdc0": 1400.0,
+    "W0": 19600.0,
+    "B0": 100000.0,
+    "b0": 0.0,
+    "tau": 0.02,
+    "umax": 500000.0,
+    "ramp": 1e+100,
+    "alpha": 2000.0
+  },
+  "baseline_import_W": 654498.7248565275,
+  "case_definitions": {
+    "constant": "d=650kW; p0 solves p0 - R*p0^2/(1.5*Vp^2)=d; q=0; u=0",
+    "smooth_service": "h=sin(pi*(t-.04)/.08)^2 on [.04,.12], otherwise 0; p=p0-100kW*h; q=200kvar*h; d=650kW; u=100kW*h"
+  },
+  "initialization": "iabc exactly initial reference, W0/B0/b0 fixed, controller integral zero, no warmup or state preconditioning",
+  "no_claim": "Synthetic software model only; no hardware or third-party simulator execution"
+}

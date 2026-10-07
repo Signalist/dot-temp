@@ -1,0 +1,73 @@
+{
+  "case": "steady_nn",
+  "max_step_s": 1e-05,
+  "raw_summary_file": "steady_nn_h1e-05.json",
+  "raw_summary_sha256": "0567d2118883097ddeccd74a60f4f6020ac20463350425f845ec7edf37e157ba",
+  "raw_trace_sha256": "9378b2aabe7097795105080f9474c50513ff8e4b8ac8a42754808b53d5c05c06",
+  "raw_summary_unchanged": true,
+  "score_version": "reporting_audit_v1",
+  "stop_reason": "completed",
+  "simulation_completed": true,
+  "no_hard_violation_observed_up_to_stop_with_roundoff": true,
+  "hard_limit_contacts": {},
+  "first_observed_strict_beyond_roundoff": {},
+  "contact_interpretation": "A terminal boundary contact ends the test even if the sampled state is still on the admissible equality. No-violation-up-to-stop does not mean complete safe recovery.",
+  "all_held_and_new_modulation_max_norm": 0.39960170110003107,
+  "modulation_norm_limit": 0.5484827557301445,
+  "modulation_safe": true,
+  "normalised_hard_margins": {
+    "current": 0.6929675477304871,
+    "dc_lower": 0.19840852409332776,
+    "dc_upper": 0.09903662285477588,
+    "apparent_power": 0.6990856216450791,
+    "active_power": 0.6653664429564787,
+    "battery_terminal_power": 0.7034020379216805,
+    "soc_lower": 0.3,
+    "soc_upper": 0.29997606527147236,
+    "modulation": 0.2714416325303095
+  },
+  "electrical_control_recovery_joint_rule_time_s": 0.6,
+  "electrical_control_target_only_recovery_time_s": null,
+  "recovery_rule_clarification": "Official conservative common score requires both 50ms self-cycle convergence and return to pre-fault target for sag, each<=1e-5, plus three qualifying checks and a safe/unclipped150ms window. Target-only time is separately shown; no dynamics or threshold was changed.",
+  "complete_safe_electrical_control_recovery": true,
+  "battery_energy_restoration_claimed": false,
+  "battery_note": "Actual stored battery energy, passive integrals, and SoC are retained and bounded, but excluded from electrical orbit recurrence. Constant positive P keeps depleting inventory. See paired no-fault energy accounting for disturbance debt/surplus.",
+  "limiter_release": {
+    "current_reference": {
+      "status": "never_active",
+      "release_sample_s": null,
+      "after_clearance_s": null
+    },
+    "voltage_modulation": {
+      "status": "never_active",
+      "release_sample_s": null,
+      "after_clearance_s": null
+    },
+    "battery_command": {
+      "status": "never_active",
+      "release_sample_s": null,
+      "after_clearance_s": null
+    },
+    "pll_frequency": {
+      "status": "never_active",
+      "release_sample_s": null,
+      "after_clearance_s": null
+    }
+  },
+  "metrics": {
+    "max_actual_current_pu": 0.30703245226951287,
+    "min_dc_pu": 0.9984085240933278,
+    "max_dc_pu": 1.0009633771452242,
+    "max_pcc_S_VA": 361097.25402590504,
+    "max_abs_Ppcc_W": 317901.8791913451,
+    "max_abs_Pb_W": 296597.9620783195,
+    "min_soc": 0.5,
+    "max_soc": 0.5000239347285277,
+    "max_frequency_error_Hz": 1.0488543363016305,
+    "max_energy_residual_J": 2.4854671210050583e-08
+  },
+  "terminal_battery_energy_change_since_test_start_J": 172330.04539955567,
+  "test_end_s": 0.6,
+  "periodic_frozen_bias_W": null,
+  "periodic_cycles": []
+}

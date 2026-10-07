@@ -1,0 +1,40 @@
+{
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "safety_scope": "conditional_current_only",
+  "no_100us_real_time_claim": true,
+  "cases": [
+    {
+      "case": "P0-fast",
+      "allocator": "p_priority",
+      "status": "EXECUTED",
+      "stop_reason": "completed",
+      "no_fault_physical_admission": true,
+      "result_file": "P0-fast_h1e-05.json"
+    },
+    {
+      "case": "R0-fast",
+      "allocator": "radial",
+      "status": "EXECUTED",
+      "stop_reason": "completed",
+      "no_fault_physical_admission": true,
+      "result_file": "R0-fast_h1e-05.json"
+    },
+    {
+      "case": "P50-fast",
+      "allocator": "p_priority",
+      "status": "EXECUTED",
+      "stop_reason": "completed",
+      "no_fault_physical_admission": null,
+      "result_file": "P50-fast_h1e-05.json"
+    },
+    {
+      "case": "R50-fast",
+      "allocator": "radial",
+      "status": "EXECUTED",
+      "stop_reason": "completed",
+      "no_fault_physical_admission": null,
+      "result_file": "R50-fast_h1e-05.json"
+    }
+  ]
+}

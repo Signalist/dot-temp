@@ -1,0 +1,12 @@
+{
+  "frozen_at_UTC": "2026-10-03T10:10:17.998122+00:00",
+  "scope": "Independent audit implementation frozen before inspecting any phase3 L result. No primary evaluator imports. Static old-reference calculations separately recorded.",
+  "files": {
+    "audit/audit_workload_matched.py": "3d6fc0a56115d5e0cad6e4f3efec1d2cbd06a1ddd17dfc6f2e72703a7334b30b",
+    "PROTOCOL_PHASE3.json": "3715ead78af9e8b3da1375be449ea340ccac1f9b84513f984ca11779941bf3a5",
+    "rectifier_load_match.cpp": "6aaa29d01b6c68106f3e2fd7ae05408b39c10afe04fb7e8dae3a151a8f005f21",
+    "original_input.csv": "0bd31f7247e3de42082edae130fef2b7393b4c42e55cdb38ef9931b02d451946",
+    "checkpoint_h1.csv": "f7bfd5090ccaccb062776b14499ec851455abbee8b7d630f69790d60b815efed",
+    "checkpoint_h05.csv": "feac5737023cd607d6ccb81dc3fb7d50f934e8e12361088fe8ed0e79b6e330fe"
+  }
+}

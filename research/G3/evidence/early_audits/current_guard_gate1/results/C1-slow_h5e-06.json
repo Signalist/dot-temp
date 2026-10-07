@@ -1,0 +1,463 @@
+{
+  "case": "C1-slow",
+  "evidence": "new_frozen_gate1_offline_model_diagnostic",
+  "status": "EXECUTED",
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "safety_scope": "conditional_current_only",
+  "no_100us_real_time_claim": true,
+  "topology_scope": "Synthetic controlled DC port only; no validated DC/DC or directly connected battery claim",
+  "same_full_state": true,
+  "initial_checkpoint": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+  "checkpoint_sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+  "protocol_sha256": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3",
+  "physical_protocol_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+  "runner_source_sha256": "9e4ca7f83570e6e62bf7f3fef9096cde5c44782a0ca7b27026dcd47978662eae",
+  "controller_source_sha256": "9379032e4edc99a204ce0db3947e61f71dee30b8a876dce0d5740312bfda4af5",
+  "guard_source_sha256": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03",
+  "physical_rhs_source_sha256": "5185085c3843c2b12d0663f25a4d3e6a0290fcb7d46be3b338e3ee2c261b0616",
+  "source_port": "slow",
+  "source_tau_s": 0.02,
+  "source_ramp_W_per_s": 5000000.0,
+  "h_s": 5e-06,
+  "control_sample_s": 0.0001,
+  "initial_time_s": 0.6,
+  "planned_end_s": 2.750001,
+  "final_time_s": 0.6061931092944314,
+  "stop_reason": "dc_high",
+  "simulation_completed": false,
+  "metrics": {
+    "I_peak_pu": 0.9082257097807264,
+    "Vdc_min_pu": 1.007118908489369,
+    "Vdc_max_pu": 1.0999999999999985,
+    "S_peak_VA": 1063014.6092848468,
+    "P_abs_peak_W": 800000.0043642087,
+    "Pb_abs_peak_W": 816139.6755636785,
+    "soc_min": 0.49992973649112143,
+    "soc_max": 0.49993044008718335,
+    "energy_residual_max_J": 1.076841726899147e-09,
+    "modulation_max": 0.4605089622790201
+  },
+  "no_physical_hard_contact_up_to_stop": false,
+  "complete_hard_safe": false,
+  "no_fault_physical_admission": null,
+  "first_contacts": {
+    "dc_high": {
+      "name": "dc_high",
+      "time_s": 0.6061931092944314,
+      "kind": "continuous_event_root",
+      "normalized_margin": 0.0,
+      "plant_state": [
+        272.37129309767255,
+        -686.7736605465257,
+        26135.999999999935,
+        786174.1290915743,
+        -505897.26392574806,
+        472877.4071494765,
+        28653.99917048554,
+        750.0850162944463,
+        1635.6386523373542,
+        4964.573812747745,
+        5065.891645660964,
+        4204.4024192506795,
+        2699.561812891396
+      ],
+      "controller": {
+        "theta": 228.5701877042205,
+        "zpll": -0.8558401847366904,
+        "omega": 372.3431036539806,
+        "zi": [
+          42.13382480267498,
+          116.19439628781723
+        ],
+        "applied": [
+          -0.14086113182195897,
+          0.13319258639418674
+        ],
+        "queued": [
+          -0.14566461302906744,
+          0.1276404974541467
+        ],
+        "pb_command": -112602.9640397416
+      },
+      "source_level_pu": 0.4
+    }
+  },
+  "all_hard_contacts": [
+    {
+      "name": "dc_high",
+      "time_s": 0.6061931092944314,
+      "kind": "continuous_event_root",
+      "normalized_margin": 0.0,
+      "plant_state": [
+        272.37129309767255,
+        -686.7736605465257,
+        26135.999999999935,
+        786174.1290915743,
+        -505897.26392574806,
+        472877.4071494765,
+        28653.99917048554,
+        750.0850162944463,
+        1635.6386523373542,
+        4964.573812747745,
+        5065.891645660964,
+        4204.4024192506795,
+        2699.561812891396
+      ],
+      "controller": {
+        "theta": 228.5701877042205,
+        "zpll": -0.8558401847366904,
+        "omega": 372.3431036539806,
+        "zi": [
+          42.13382480267498,
+          116.19439628781723
+        ],
+        "applied": [
+          -0.14086113182195897,
+          0.13319258639418674
+        ],
+        "queued": [
+          -0.14566461302906744,
+          0.1276404974541467
+        ],
+        "pb_command": -112602.9640397416
+      },
+      "source_level_pu": 0.4
+    }
+  ],
+  "first_observed_beyond_roundoff": {},
+  "terminal_contact": {
+    "dc_high": 0.6061931092944314
+  },
+  "current_continuous_crossings_s": [],
+  "event": {
+    "start_s": 0.600001,
+    "end_s": 0.750001,
+    "retained_source_pu": 0.4
+  },
+  "event_boundary_states": {
+    "0.600001000000": {
+      "time_s": 0.600001,
+      "plant_state": [
+        929.4941290512534,
+        -736.91225221956,
+        21914.75898399962,
+        815639.6755130102,
+        -500832.20456547017,
+        472085.7553282708,
+        28432.240655587055,
+        0.7875588832100338,
+        0.7119795634052506,
+        0.8156396755362084,
+        0.8322853832002124,
+        0.012441116812970304,
+        0.011979563385121997
+      ],
+      "controller": {
+        "theta": 226.24351000329384,
+        "zpll": 6.026316738971263e-10,
+        "omega": 376.991118430287,
+        "zi": [
+          -26.19092752018149,
+          54.99980988671425
+        ],
+        "applied": [
+          0.45520292726017053,
+          0.06970508830886338
+        ],
+        "queued": [
+          0.2679838059796277,
+          0.19676676581575994
+        ],
+        "pb_command": 815639.6857746067
+      },
+      "controller_theta_storage_before_advance": 226.2431330121754,
+      "WL_J": 277.0881119045528,
+      "source_left_pu": 1.0,
+      "source_right_pu": 0.4
+    }
+  },
+  "phases": {
+    "checkpoint_observed": true,
+    "fault_onset_observed": true,
+    "clearance_observed": false,
+    "full_recovery_observation_completed": false,
+    "unobserved_remainder_s": 2.1438078907055687
+  },
+  "service": {
+    "duration_s": 0.006193109294431398,
+    "P_actual_integral_J": 750.0850162944463,
+    "Q_actual_integral_var_s": 1635.6386523373542,
+    "P_signed_request_error_integral_J": -4204.402419250672,
+    "Q_signed_request_error_integral_var_s": -2699.5378537646247,
+    "P_absolute_request_error_integral_J": 4204.4024192506795,
+    "Q_absolute_request_error_integral_var_s": 2699.561812891396,
+    "mean_P_W": 121116.06313308461,
+    "mean_Q_var": 264106.2145969322,
+    "mean_absolute_P_error_W": 678883.9368669166,
+    "mean_absolute_Q_error_var": 435897.65407801484
+  },
+  "inventory": {
+    "initial_soc": 0.49993044008718335,
+    "final_soc": 0.49992973649112143,
+    "battery_stored_energy_change_J": -5065.89164566109,
+    "DC_energy_change_J": 4221.256627784882,
+    "RL_energy_change_J": -169.60770698267675,
+    "remote_source_active_integral_J": 792.4373153131455,
+    "total_loss_integral_J": 221.80540954474418,
+    "battery_terminal_power_integral_J": 4964.573812747745,
+    "battery_draw_integral_J": 5065.891645660964,
+    "initial_Pb_W": 815639.6755124972,
+    "final_Pb_W": 786174.1290915743,
+    "battery_energy_restoration_claimed": false
+  },
+  "matched_reference": {
+    "status": "OBSERVED_COMMON_WINDOW_ONLY",
+    "reference": "same_port_guarded_no_fault",
+    "reference_file": "current_guard_gate1/results/C0-slow_h1e-05.npz",
+    "reference_sha256": "15691ce04b6a0b889d4ce53e1b374eed2e91b8a094bfc6eea4232374627bd60b",
+    "same_initial_7_state_exact": true,
+    "common_start_s": 0.6,
+    "common_end_s": 0.6061931092944314,
+    "full_observed_case_covered": true,
+    "comparison_interpolation": "Linear on stored100us endpoints if terminal time is off clock; not a new physical replay",
+    "P_integral_difference_J": -3353.4507594173856,
+    "Q_integral_difference_var_s": -2139.9384440608674,
+    "battery_stored_energy_difference_J": -3.084855422610417,
+    "DC_energy_difference_J": 3435.7576681768332,
+    "RL_energy_difference_J": -100.12962130867864,
+    "remote_source_integral_difference_J": -3300.837184869859,
+    "total_loss_integral_difference_J": -31.706003824063373,
+    "no_past_service_restoration_claim": true,
+    "P_absolute_error_integral_difference_J": 3353.4507594134957,
+    "Q_absolute_error_integral_difference_var_s": 2138.8868384339303,
+    "matched_sample_count": 62,
+    "max_normalized_state_difference": 0.7553548215885701
+  },
+  "recovery": {
+    "status": "NOT_SCORED_INCOMPLETE_TRAJECTORY",
+    "joint_recovery_time_s": null,
+    "checks": [],
+    "clearance_observed": false
+  },
+  "actual_onset_energy_necessary_condition": {
+    "status": "RECOMPUTED_FROM_ACTUAL_ONSET",
+    "onset_time_s": 0.600001,
+    "onset_full_plant_state": [
+      929.4941290512534,
+      -736.91225221956,
+      21914.75898399962,
+      815639.6755130102,
+      -500832.20456547017,
+      472085.7553282708,
+      28432.240655587055,
+      0.7875588832100338,
+      0.7119795634052506,
+      0.8156396755362084,
+      0.8322853832002124,
+      0.012441116812970304,
+      0.011979563385121997
+    ],
+    "onset_controller": {
+      "theta": 226.24351000329384,
+      "zpll": 6.026316738971263e-10,
+      "omega": 376.991118430287,
+      "zi": [
+        -26.19092752018149,
+        54.99980988671425
+      ],
+      "applied": [
+        0.45520292726017053,
+        0.06970508830886338
+      ],
+      "queued": [
+        0.2679838059796277,
+        0.19676676581575994
+      ],
+      "pb_command": 815639.6857746067
+    },
+    "source_Pb0_W": 815639.6755130102,
+    "source_ramp_down_W_per_s": 5000000.0,
+    "source_tau_s": 0.02,
+    "source_voltage_pu": 0.4,
+    "WL0_J": 277.0881119045528,
+    "aggregate_headroom_J": 4341.250406115872,
+    "exit_upper_W": 511140.44628251996,
+    "initial_excess_power_lower_W": 296342.83247536013,
+    "excess_power_down_slope_W_per_s": 4950000.0,
+    "valid_positive_source_horizon_s": 0.15000000000000002,
+    "peak_prefix_s": 0.059867238883911135,
+    "maximum_prefix_gain_J": 8870.613571668622,
+    "maximum_headroom_excess_J": 4529.363165552751,
+    "first_headroom_equality_after_fault_s": 0.01708820519384614,
+    "first_headroom_equality_absolute_s": 0.6170892051938461,
+    "excludes_all_actual_I_DC_safe_control": true,
+    "scope": "Outer slew-only necessary condition; lag/control constraints relaxed; no copied historical onset time"
+  },
+  "timing": {
+    "counts": {
+      "calls": 62,
+      "guard_failures": 0,
+      "solver_success_false": 0,
+      "backup_calls": 0,
+      "accepted_nonoptimal_calls": 0
+    },
+    "backup_types": {},
+    "seconds": {
+      "controller_total_wall_s_including_PI_guard_AW": {
+        "n": 62,
+        "minimum_s": 0.006467181003245059,
+        "median_s": 0.012425778495526174,
+        "p95_s": 0.014972037351617472,
+        "maximum_s": 0.015831595002964605,
+        "sum_s": 0.7450508589899982,
+        "over_100us_count": 62
+      },
+      "solver.timing.setup_s": {
+        "n": 62,
+        "minimum_s": 0.0009207180046360008,
+        "median_s": 0.0010747790001914836,
+        "p95_s": 0.0018511313006456457,
+        "maximum_s": 0.0023837450062274,
+        "sum_s": 0.07324838003114564,
+        "over_100us_count": 62
+      },
+      "solver.timing.solve_s": {
+        "n": 62,
+        "minimum_s": 0.004599151005095337,
+        "median_s": 0.010392366497399053,
+        "p95_s": 0.012190346050192601,
+        "maximum_s": 0.013284005006426014,
+        "sum_s": 0.6123691860047984,
+        "over_100us_count": 62
+      },
+      "solver.timing.validation_s": {
+        "n": 62,
+        "minimum_s": 0.0005726579984184355,
+        "median_s": 0.0006924564950168133,
+        "p95_s": 0.0010449887966387905,
+        "maximum_s": 0.0017817510015447624,
+        "sum_s": 0.0465175269782776,
+        "over_100us_count": 62
+      },
+      "solver.timing.point_total_s": {
+        "n": 62,
+        "minimum_s": 0.006291761004831642,
+        "median_s": 0.012206493000121554,
+        "p95_s": 0.014708933347355922,
+        "maximum_s": 0.015644833001715597,
+        "sum_s": 0.7321350930142216,
+        "over_100us_count": 62
+      },
+      "total_wall_s": {
+        "n": 62,
+        "minimum_s": 0.006385063999914564,
+        "median_s": 0.012342380501650041,
+        "p95_s": 0.014887546347381429,
+        "maximum_s": 0.015746520999528002,
+        "sum_s": 0.7393650840313057,
+        "over_100us_count": 62
+      }
+    },
+    "note": "All raw timing/solver/backup fields are retained per call; offline virtual time only"
+  },
+  "guard_exception": null,
+  "health_gate": {
+    "physical_admitted": null,
+    "service_transparency_pass": null,
+    "reason": "No service-transparency tolerance was predeclared; retain request errors and matched-reference differences",
+    "initial_guard_modification_norm": 0.2145806922403564,
+    "max_guard_modification_norm": 0.2145806922403564,
+    "intervention_count": 59
+  },
+  "samples_attempted": 62,
+  "accepted_control_count": 62,
+  "near_boundary_interval_count": 1,
+  "numerical_refinement_indicated": true,
+  "initial_plant_state": [
+    929.5008337706373,
+    -736.9579376749007,
+    21914.743372215053,
+    815639.6755124972,
+    -500831.372280087,
+    472084.9698341634,
+    28432.193760940794,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_controller": {
+    "theta": 226.2431330121754,
+    "zpll": 6.12411578096056e-10,
+    "omega": 376.99111843029715,
+    "zi": [
+      -0.9876990854152526,
+      38.25384814185561
+    ],
+    "applied": [
+      0.4575066906559445,
+      0.052498879458002363
+    ],
+    "queued": [
+      0.45520292726017053,
+      0.06970508830886338
+    ],
+    "pb_command": 815639.6858398903
+  },
+  "final_plant_state": [
+    272.37129309767255,
+    -686.7736605465257,
+    26135.999999999935,
+    786174.1290915743,
+    -505897.26392574806,
+    472877.4071494765,
+    28653.99917048554,
+    750.0850162944463,
+    1635.6386523373542,
+    4964.573812747745,
+    5065.891645660964,
+    4204.4024192506795,
+    2699.561812891396
+  ],
+  "final_controller": {
+    "theta": 228.5701877042205,
+    "zpll": -0.8558401847366904,
+    "omega": 372.3431036539806,
+    "zi": [
+      42.13382480267498,
+      116.19439628781723
+    ],
+    "applied": [
+      -0.14086113182195897,
+      0.13319258639418674
+    ],
+    "queued": [
+      -0.14566461302906744,
+      0.1276404974541467
+    ],
+    "pb_command": -112602.9640397416
+  },
+  "wall_time_s": 1.6613383199946838,
+  "trace_file": "C1-slow_h5e-06.npz",
+  "trace_sha256": "0da8c74906b9f5e109f933c96abd7e5f01924e4469f9ed6831e8daa669d98227",
+  "full_sample_log_file": "C1-slow_h5e-06.jsonl.gz",
+  "full_sample_log_sha256": "069a9285b737e3c157ee76a095520b2ae130c9f1f9bdce3ca8754ea551daab90",
+  "storage": "Every100us full pre/post plant/PLL/PI/source/queue and full guard plan in gzip; endpoints/normalized state/extrema in NPZ; dense first5ms, fault through50ms after clearance, and near-boundary intervals",
+  "numerical_event_scope": "DOP853 root-located downward crossings plus explicit left/right jump screens; sampled extrema are not interval-certified bounds",
+  "observed_fault_service": {
+    "duration_s": 0.006192109294431369,
+    "P_actual_integral_J": 749.2974574112362,
+    "Q_actual_integral_var_s": 1634.926672773949,
+    "P_signed_request_error_integral_J": -4204.38997813386,
+    "Q_signed_request_error_integral_var_s": -2699.54983332801,
+    "P_absolute_request_error_integral_J": 4204.389978133867,
+    "Q_absolute_request_error_integral_var_s": 2699.549833328011,
+    "mean_P_W": 121008.43537840772,
+    "mean_Q_var": 264033.8849064334,
+    "mean_absolute_P_error_W": 678991.5646215935,
+    "mean_absolute_Q_error_var": 435966.1150935668
+  }
+}

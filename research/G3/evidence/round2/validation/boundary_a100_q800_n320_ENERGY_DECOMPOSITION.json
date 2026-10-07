@@ -1,0 +1,233 @@
+{
+  "case": "boundary_a100_q800_n320",
+  "service_horizon_s": 0.2,
+  "continued_horizon_s": 0.30000000000000004,
+  "sign_convention": "Each signed contribution sums to W_actual-W_ideal; numerical residual retained",
+  "runs": [
+    {
+      "mode": "avg",
+      "dt": 1e-06,
+      "fs": 10000,
+      "checkpoints": [
+        {
+          "t": 0.2,
+          "actual_minus_ideal_W_J": -12.091224975989462,
+          "signed_contributions": {
+            "grid_tracking_J": -12.553326145309256,
+            "negative_incremental_copper_J": 0.4576383914265989,
+            "negative_filter_endpoint_difference_J": 0.0012974966219303496,
+            "battery_discharge_difference_J": -4.834412213107514e-06,
+            "negative_load_integration_difference_J": 5.498732207342982e-07,
+            "numerical_total_energy_residual_J": 0.0031695670186309
+          },
+          "sum_J": -12.091224974781088,
+          "decomposition_error_J": 1.208373845429378e-09,
+          "actual_flows_J": {
+            "grid_energy": 131121.46850208,
+            "loss_energy": 1133.5641898342,
+            "load_energy": 129999.99999945,
+            "filter_energy": 134.96044819929,
+            "battery_energy": -4.8344049371499e-06
+          },
+          "ideal_flows_J": {
+            "grid_energy": 131134.02182822532,
+            "loss_energy": 1134.0218282256267,
+            "load_energy": 129999.99999999987,
+            "filter_energy": 134.96174569591193,
+            "battery_energy": 7.275957614183426e-12
+          }
+        },
+        {
+          "t": 0.30000000000000004,
+          "actual_minus_ideal_W_J": -17.63786579898806,
+          "signed_contributions": {
+            "grid_tracking_J": -18.177785818377743,
+            "negative_incremental_copper_J": 0.534740387466627,
+            "negative_filter_endpoint_difference_J": 0.00041196548193056515,
+            "battery_discharge_difference_J": -6.091449299305314e-06,
+            "negative_load_integration_difference_J": 1.1298980098217726e-06,
+            "numerical_total_energy_residual_J": 0.0047726113407407
+          },
+          "sum_J": -17.637865815639735,
+          "decomposition_error_J": -1.6651675593948312e-08,
+          "actual_flows_J": {
+            "grid_energy": 196565.71652806,
+            "loss_energy": 1583.3595734912,
+            "load_energy": 194999.99999887,
+            "filter_energy": 134.96133373043,
+            "battery_energy": -6.0914420233477e-06
+          },
+          "ideal_flows_J": {
+            "grid_energy": 196583.89431387838,
+            "loss_energy": 1583.8943138786667,
+            "load_energy": 194999.99999999988,
+            "filter_energy": 134.96174569591193,
+            "battery_energy": 7.275957614183426e-12
+          }
+        }
+      ],
+      "baseline_continuation": {
+        "start_s": 0.2,
+        "end_s": 0.30000000000000004,
+        "W_change_J": -5.546640822998597,
+        "average_W_decline_power_W": -55.46640822998597
+      },
+      "baseline_0p2_to_0p3": {
+        "start_s": 0.2,
+        "end_s": 0.30000000000000004,
+        "W_change_J": -5.546640822998597,
+        "average_W_decline_power_W": -55.46640822998597
+      }
+    },
+    {
+      "mode": "pwm",
+      "dt": 1e-06,
+      "fs": 10000,
+      "checkpoints": [
+        {
+          "t": 0.2,
+          "actual_minus_ideal_W_J": -11.913461122989247,
+          "signed_contributions": {
+            "grid_tracking_J": -12.134709935315186,
+            "negative_incremental_copper_J": 0.21783974472668888,
+            "negative_filter_endpoint_difference_J": 0.0008540824419185356,
+            "battery_discharge_difference_J": -4.655669524630214e-06,
+            "negative_load_integration_difference_J": -1.3096723705530167e-10,
+            "numerical_total_energy_residual_J": 0.002559644926805
+          },
+          "sum_J": -11.913461119020265,
+          "decomposition_error_J": 3.968981587831877e-09,
+          "actual_flows_J": {
+            "grid_energy": 131121.88711829,
+            "loss_energy": 1133.8039884809,
+            "load_energy": 130000.0,
+            "filter_energy": 134.96089161347,
+            "battery_energy": -4.6556622486726e-06
+          },
+          "ideal_flows_J": {
+            "grid_energy": 131134.02182822532,
+            "loss_energy": 1134.0218282256267,
+            "load_energy": 129999.99999999987,
+            "filter_energy": 134.96174569591193,
+            "battery_energy": 7.275957614183426e-12
+          }
+        },
+        {
+          "t": 0.30000000000000004,
+          "actual_minus_ideal_W_J": -17.324028947990882,
+          "signed_contributions": {
+            "grid_tracking_J": -17.50841127836611,
+            "negative_incremental_copper_J": 0.1805973372668177,
+            "negative_filter_endpoint_difference_J": -4.8570998075092575e-05,
+            "battery_discharge_difference_J": -5.835914216644914e-06,
+            "negative_load_integration_difference_J": 9.89530235528946e-09,
+            "numerical_total_energy_residual_J": 0.0038393732102122
+          },
+          "sum_J": -17.32402896490607,
+          "decomposition_error_J": -1.6915187472932303e-08,
+          "actual_flows_J": {
+            "grid_energy": 196566.3859026,
+            "loss_energy": 1583.7137165414,
+            "load_energy": 194999.99999999,
+            "filter_energy": 134.96179426691,
+            "battery_energy": -5.8359069406873e-06
+          },
+          "ideal_flows_J": {
+            "grid_energy": 196583.89431387838,
+            "loss_energy": 1583.8943138786667,
+            "load_energy": 194999.99999999988,
+            "filter_energy": 134.96174569591193,
+            "battery_energy": 7.275957614183426e-12
+          }
+        }
+      ],
+      "baseline_continuation": {
+        "start_s": 0.2,
+        "end_s": 0.30000000000000004,
+        "W_change_J": -5.410567825001635,
+        "average_W_decline_power_W": -54.105678250016354
+      },
+      "baseline_0p2_to_0p3": {
+        "start_s": 0.2,
+        "end_s": 0.30000000000000004,
+        "W_change_J": -5.410567825001635,
+        "average_W_decline_power_W": -54.105678250016354
+      }
+    },
+    {
+      "mode": "pwm",
+      "dt": 5e-07,
+      "fs": 10000,
+      "checkpoints": [
+        {
+          "t": 0.2,
+          "actual_minus_ideal_W_J": -11.91528872399067,
+          "signed_contributions": {
+            "grid_tracking_J": -12.13443210531841,
+            "negative_incremental_copper_J": 0.21764066182663555,
+            "negative_filter_endpoint_difference_J": 0.0008541201519278729,
+            "battery_discharge_difference_J": -1.2046804804753142e-06,
+            "negative_load_integration_difference_J": -2.0125298760831356e-08,
+            "numerical_total_energy_residual_J": 0.00064982872572728
+          },
+          "sum_J": -11.915288719419898,
+          "decomposition_error_J": 4.570772205170215e-09,
+          "actual_flows_J": {
+            "grid_energy": 131121.88739612,
+            "loss_energy": 1133.8041875638,
+            "load_energy": 130000.00000002,
+            "filter_energy": 134.96089157576,
+            "battery_energy": -1.2046732045177e-06
+          },
+          "ideal_flows_J": {
+            "grid_energy": 131134.02182822532,
+            "loss_energy": 1134.0218282256267,
+            "load_energy": 129999.99999999987,
+            "filter_energy": 134.96174569591193,
+            "battery_energy": 7.275957614183426e-12
+          }
+        },
+        {
+          "t": 0.30000000000000004,
+          "actual_minus_ideal_W_J": -17.32678205898992,
+          "signed_contributions": {
+            "grid_tracking_J": -17.50801822837093,
+            "negative_incremental_copper_J": 0.18031233156671078,
+            "negative_filter_endpoint_difference_J": -4.854021807432218e-05,
+            "battery_discharge_difference_J": -1.5082657536460142e-06,
+            "negative_load_integration_difference_J": -1.1641532182693481e-10,
+            "numerical_total_energy_residual_J": 0.0009738611697685
+          },
+          "sum_J": -17.326782084234694,
+          "decomposition_error_J": -2.5244773382837593e-08,
+          "actual_flows_J": {
+            "grid_energy": 196566.38629565,
+            "loss_energy": 1583.7140015471,
+            "load_energy": 195000.0,
+            "filter_energy": 134.96179423613,
+            "battery_energy": -1.5082584776884e-06
+          },
+          "ideal_flows_J": {
+            "grid_energy": 196583.89431387838,
+            "loss_energy": 1583.8943138786667,
+            "load_energy": 194999.99999999988,
+            "filter_energy": 134.96174569591193,
+            "battery_energy": 7.275957614183426e-12
+          }
+        }
+      ],
+      "baseline_continuation": {
+        "start_s": 0.2,
+        "end_s": 0.30000000000000004,
+        "W_change_J": -5.41149333499925,
+        "average_W_decline_power_W": -54.1149333499925
+      },
+      "baseline_0p2_to_0p3": {
+        "start_s": 0.2,
+        "end_s": 0.30000000000000004,
+        "W_change_J": -5.41149333499925,
+        "average_W_decline_power_W": -54.1149333499925
+      }
+    }
+  ]
+}

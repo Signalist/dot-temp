@@ -1,0 +1,17 @@
+{
+  "approved_UTC": "2026-10-02T03:35:27Z",
+  "scope": "At most four frozen fast-port standard-allocation conditions: own matched healthy cases then original50us fault cases",
+  "protocol": "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.json",
+  "protocol_sha256": "104b5f9102c286a2005e856da777b2a203a475c368fccd56d447e54ea43275f3",
+  "order": ["P0-fast", "R0-fast", "P50-fast", "R50-fast"],
+  "healthy_admission_required_per_allocator": true,
+  "common_guard_source": "current_guard_gate1/common_guard.py",
+  "common_guard_sha256": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03",
+  "no_retuning": true,
+  "no_slow_port_run": true,
+  "no_new_amplitude_frequency_phase_grid": true,
+  "no_new_algorithm_superiority_claim": true,
+  "real_time_claim": false,
+  "paper_ready": false,
+  "next_action_after_results": "Submit hypothesis ledger and bounded conclusion across novelty, significance, ablations and transfer. No large strategy search without independent new basis."
+}

@@ -1,0 +1,328 @@
+{
+  "status": "Calculation from newly supplied V2.1 trajectory evidence; analytic model-conditioned DC obstruction only, not full plant safety validation",
+  "parameter_path": "protocol/GATE_A_LOCKED_V2_1.json",
+  "parameter_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+  "checkpoint": {
+    "t": 0.6000499999999998,
+    "id": 929.346177558162,
+    "iq": -735.8027745282857,
+    "Wdc": 21915.135193267946,
+    "Pb": 815639.6755381202,
+    "WL": 276.7121693063766,
+    "Ipu": 0.8347675377506103,
+    "Vdcpu": 1.0072683814559669
+  },
+  "source_voltage_pu": 0.4,
+  "fault_duration_s": 0.15,
+  "constants": {
+    "I_phase_peak_limit_A": 1419.9940537873497,
+    "R_total_ohm": 0.007915310052158132,
+    "L_total_H": 0.00026258072321074704,
+    "source_power_upper_W": 480000.0000000001,
+    "inverter_loss_upper_W": 7200.0,
+    "copper_loss_upper_W": 23940.446282519868,
+    "total_energy_exit_upper_W": 511140.44628251996,
+    "Wdc_upper_J": 26136.00000000001,
+    "WL_upper_J": 397.09750202003335,
+    "aggregate_headroom_J": 4341.250139445723,
+    "Pb_lower_at_150ms_W": 65639.67553812021,
+    "source_lower_positive_until_s": 0.16312793510762405
+  },
+  "bound": {
+    "formula_until_source_zero": "F(t)=(eta*Pb0-Pexit_max)*t-0.5*eta*Rdown*t^2",
+    "initial_excess_power_lower_W": 296342.832500219,
+    "excess_power_down_slope_W_per_s": 4950000.0,
+    "first_headroom_equality_after_fault_s": 0.017088203932514614,
+    "first_headroom_equality_absolute_s": 0.6171382039325146,
+    "maximum_prefix_time_s": 0.05986723888893313,
+    "maximum_prefix_gain_J": 8870.613573156854,
+    "maximum_prefix_headroom_excess_J": 4529.363433711131,
+    "gain_at_20ms_J": 4936.85665000438,
+    "headroom_excess_at_20ms_J": 595.6065105586567,
+    "gain_at_150ms_J": -11236.075124967138,
+    "clearance_endpoint_alone_proves_failure": false
+  },
+  "conservative_20ms_certificate": {
+    "Pb0_lower_W": 815600,
+    "Wdc0_lower_J": 21915,
+    "WL0_lower_J": 276,
+    "source_export_upper_W": 480001,
+    "inverter_loss_upper_W": 7200,
+    "copper_loss_upper_W": 23941,
+    "Wdc_upper_J": 26137,
+    "WL_upper_J": 398,
+    "aggregate_headroom_upper_J": 4344,
+    "accumulated_energy_gain_lower_J": 4936.04,
+    "contradiction_margin_J": 592.04
+  },
+  "startup_and_observed_trace_audit": {
+    "trace_path": "gate_a/preconditioned_dq/h1e-05.npz",
+    "trace_sha256": "232f9c9e77519eb0f9eb91aef3bd09245162459c037d9f57eea135b1fe5f1c4b",
+    "report_path": "gate_a/preconditioned_dq/h1e-05.json",
+    "report_parameter_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+    "trace_layout_source": "gate_a/dq_preconditioned.py",
+    "trace_layout_source_sha256": "8060e78b876bb50c1eb1025cece11d22c75c33ffbd38b445525b7df95d145996",
+    "trace_columns": [
+      "t",
+      "id",
+      "iq",
+      "Wdc",
+      "Pb",
+      "deltaEb",
+      "intPsource",
+      "intLoss",
+      "Ipu",
+      "Vdcpu",
+      "Ppcc",
+      "Qpcc",
+      "Vpccpu",
+      "Pinv",
+      "Psource",
+      "WL",
+      "energy_residual",
+      "soc",
+      "Vs",
+      "PLL_Hz"
+    ],
+    "warmup_checkpoint_path": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+    "warmup_checkpoint_sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+    "warmup_checkpoint_time_s": 0.6,
+    "warmup_checkpoint": {
+      "Wdc_J": 21914.743372215053,
+      "WL_J": 277.1038270595847,
+      "Pb_W": 815639.6755124972,
+      "Wdc_normalized_to_nominal_energy": 1.0145714524173635,
+      "WL_normalized_to_rated_inductor_energy": 0.6978231433085292,
+      "energy_normalization_nominal_Wdc_J": 21600.0,
+      "energy_normalization_rated_WL_J": 397.09750202003335
+    },
+    "convergence_final_difference": 2.7907732236265304e-07,
+    "full_qualification_checks": [
+      {
+        "time_s": 0.1,
+        "max_normalized_cycle_difference": 0.1371348922540776,
+        "hard_safe": false,
+        "max_frequency_deviation_Hz": 1.3826412321087531,
+        "qualifying": false,
+        "successive": 0,
+        "metrics": {
+          "max_actual_current_pu": 0.961720009159474,
+          "max_pcc_S_VA": 1248563.0725468858,
+          "min_dc_pu": 0.9977121234173588,
+          "max_dc_pu": 1.0125527547847564
+        }
+      },
+      {
+        "time_s": 0.15,
+        "max_normalized_cycle_difference": 0.03661437173254023,
+        "hard_safe": false,
+        "max_frequency_deviation_Hz": 1.3826412321087531,
+        "qualifying": false,
+        "successive": 0,
+        "metrics": {
+          "max_actual_current_pu": 0.961720009159474,
+          "max_pcc_S_VA": 1248563.0725468858,
+          "min_dc_pu": 0.9977121234173588,
+          "max_dc_pu": 1.0125527547847564
+        }
+      },
+      {
+        "time_s": 0.2,
+        "max_normalized_cycle_difference": 0.00991483224048817,
+        "hard_safe": true,
+        "max_frequency_deviation_Hz": 0.001817873074479337,
+        "qualifying": false,
+        "successive": 0,
+        "metrics": {
+          "max_actual_current_pu": 0.8716409641060581,
+          "max_pcc_S_VA": 1114467.4960718616,
+          "min_dc_pu": 1.0069130629208844,
+          "max_dc_pu": 1.0125527547847564
+        }
+      },
+      {
+        "time_s": 0.25,
+        "max_normalized_cycle_difference": 0.0026698240571217946,
+        "hard_safe": true,
+        "max_frequency_deviation_Hz": 1.2636639937113614e-05,
+        "qualifying": false,
+        "successive": 0,
+        "metrics": {
+          "max_actual_current_pu": 0.8449431181995738,
+          "max_pcc_S_VA": 1076591.6106151484,
+          "min_dc_pu": 1.0069130629208844,
+          "max_dc_pu": 1.010130388477274
+        }
+      },
+      {
+        "time_s": 0.3,
+        "max_normalized_cycle_difference": 0.0007201912764600582,
+        "hard_safe": true,
+        "max_frequency_deviation_Hz": 1.1121775067124418e-05,
+        "qualifying": false,
+        "successive": 0,
+        "metrics": {
+          "max_actual_current_pu": 0.8379510832426339,
+          "max_pcc_S_VA": 1066684.0802688294,
+          "min_dc_pu": 1.0069130629208844,
+          "max_dc_pu": 1.0074054298949515
+        }
+      },
+      {
+        "time_s": 0.35000000000000003,
+        "max_normalized_cycle_difference": 0.0001952812960782646,
+        "hard_safe": true,
+        "max_frequency_deviation_Hz": 7.79115589466528e-06,
+        "qualifying": false,
+        "successive": 0,
+        "metrics": {
+          "max_actual_current_pu": 0.8360569016976568,
+          "max_pcc_S_VA": 1064003.5377556628,
+          "min_dc_pu": 1.0072481214878353,
+          "max_dc_pu": 1.0074054298949515
+        }
+      },
+      {
+        "time_s": 0.4,
+        "max_normalized_cycle_difference": 5.251471988354517e-05,
+        "hard_safe": true,
+        "max_frequency_deviation_Hz": 6.335812727797929e-07,
+        "qualifying": false,
+        "successive": 0,
+        "metrics": {
+          "max_actual_current_pu": 0.8355451677388545,
+          "max_pcc_S_VA": 1063279.5093700814,
+          "min_dc_pu": 1.0072481214878353,
+          "max_dc_pu": 1.0073305947253632
+        }
+      },
+      {
+        "time_s": 0.45,
+        "max_normalized_cycle_difference": 1.4175636758206878e-05,
+        "hard_safe": true,
+        "max_frequency_deviation_Hz": 2.7103342148393494e-07,
+        "qualifying": false,
+        "successive": 0,
+        "metrics": {
+          "max_actual_current_pu": 0.8354090545847717,
+          "max_pcc_S_VA": 1063086.7151102764,
+          "min_dc_pu": 1.0072481500622972,
+          "max_dc_pu": 1.0072720015121772
+        }
+      },
+      {
+        "time_s": 0.5,
+        "max_normalized_cycle_difference": 3.846939441887187e-06,
+        "hard_safe": true,
+        "max_frequency_deviation_Hz": 1.7132943952447022e-07,
+        "qualifying": true,
+        "successive": 1,
+        "metrics": {
+          "max_actual_current_pu": 0.8353718003035453,
+          "max_pcc_S_VA": 1063034.0098354318,
+          "min_dc_pu": 1.0072590347317387,
+          "max_dc_pu": 1.0072720015121772
+        }
+      },
+      {
+        "time_s": 0.55,
+        "max_normalized_cycle_difference": 1.0977001015932686e-06,
+        "hard_safe": true,
+        "max_frequency_deviation_Hz": 2.265812781843124e-08,
+        "qualifying": true,
+        "successive": 2,
+        "metrics": {
+          "max_actual_current_pu": 0.83536174573736,
+          "max_pcc_S_VA": 1063019.7828885561,
+          "min_dc_pu": 1.0072590347317387,
+          "max_dc_pu": 1.0072696971567328
+        }
+      },
+      {
+        "time_s": 0.6,
+        "max_normalized_cycle_difference": 2.7907732236265304e-07,
+        "hard_safe": true,
+        "max_frequency_deviation_Hz": 6.827924892149895e-09,
+        "qualifying": true,
+        "successive": 3,
+        "metrics": {
+          "max_actual_current_pu": 0.8353590774777188,
+          "max_pcc_S_VA": 1063016.0023266026,
+          "min_dc_pu": 1.0072590527129066,
+          "max_dc_pu": 1.0072684871108768
+        }
+      }
+    ],
+    "healthy_window_s": [
+      0.44999999999999996,
+      0.6
+    ],
+    "healthy_max_Ipu": 0.8353590774777188,
+    "healthy_max_pcc_apparent_VA": 1063016.0023266026,
+    "healthy_min_Vdcpu": 1.0072590527129066,
+    "healthy_max_Vdcpu": 1.0072684871108768,
+    "full_run_max_pcc_apparent_VA": 1248563.0725468858,
+    "full_run_max_pcc_apparent_time_s": 0.0029000000000000002,
+    "observed_first_current_crossing_after_fault_s": 0.00034969597707312783,
+    "observed_dc_stop_after_fault_s": 0.005895969798130007,
+    "observed_actual_current_peak_pu": 1.0000746498725568,
+    "observed_stop_reason": "dc_high",
+    "healthy_electrical_controller_cycle_is_not_closed_battery_energy_orbit": true
+  },
+  "refinement": {
+    "checkpoint": {
+      "t": 0.60005,
+      "id": 929.3461775580959,
+      "iq": -735.802774528359,
+      "Wdc": 21915.135193270922,
+      "Pb": 815639.6755380448,
+      "WL": 276.71216930637365,
+      "Ipu": 0.8347675377506057,
+      "Vdcpu": 1.0072683814560353
+    },
+    "trace_sha256": "e579459f0a229b57d5ae9761231f09513e000ebf6e96e1a1aff301bf4219662b",
+    "report_parameter_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+    "difference_5us_minus_10us": {
+      "t": 2.220446049250313e-16,
+      "id": -6.616573955398053e-11,
+      "iq": -7.332801033044234e-11,
+      "Wdc": 2.975866664201021e-09,
+      "Pb": -7.543712854385376e-08,
+      "WL": -2.9558577807620168e-12,
+      "Ipu": -4.551914400963142e-15,
+      "Vdcpu": 6.838973831690964e-14
+    }
+  },
+  "numeric_selfcheck": {
+    "WL_from_current_error_J": 0.0,
+    "Wdc_from_voltage_error_J": 7.275957614183426e-12,
+    "source_base_consistency_error_W": 1.1641532182693481e-10,
+    "identity_random_check_count": 25,
+    "max_energy_derivative_identity_error_W": 2.3283064365386963e-10,
+    "piecewise_source_integral_test_times_s": [
+      0.02,
+      0.15,
+      0.2,
+      0.4
+    ],
+    "max_piecewise_source_quadrature_error_J": 4.3655745685100555e-11,
+    "root_analytic_numeric_error_s": 7.077671781985373e-16,
+    "F_at_analytic_root_minus_headroom_J": 5.4569682106375694e-12,
+    "all_numeric_checks_passed": true
+  },
+  "limits": [
+    "The certificate starts at the exact fault-onset state read from the newly supplied trace and qualified checkpoint metadata; it does not certify sampled startup.",
+    "All-current-safe means actual current at or below 1 pu continuously, with no overload allowance.",
+    "All active export, maximum allowed passive losses, and full allowable inductor headroom are granted; Q service and modulation constraints are relaxed.",
+    "No candidate postfault PCC voltage or PCC power bounds are used.",
+    "No brake/chopper, additional storage, extra freewheel/bypass energy-disposal path, or shutdown/reset is modeled. The bidirectional battery source cannot disconnect or jump power; it obeys the locked continuous slew law.",
+    "The computed first root is an outer-relaxation obstruction, not an exact physical failure time.",
+    "The outward-rounded 20 ms certificate is robust to the displayed rounding intervals; numerical warm-up refinement is not a proof of a real-world state-estimation error bound."
+  ],
+  "recovery_provenance": {
+    "source_status": "Text reconstruction with documented execution guard and output/status-label edits",
+    "historical_numbers_used_as_checkpoint_inputs": false,
+    "input_root": ".",
+    "new_evidence_flag": true
+  }
+}

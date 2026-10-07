@@ -1,0 +1,726 @@
+{
+  "cases": [
+    {
+      "case": "boundary_a100_q790_n320_TARGET_RESULTS",
+      "runs": [
+        {
+          "trace": "boundary_a100_q790_n320_pwm_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "boundary_a100_q790_n320_pwm_f10000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        }
+      ]
+    },
+    {
+      "case": "boundary_a100_q800_n320_TARGET_RESULTS",
+      "runs": [
+        {
+          "trace": "boundary_a100_q800_n320_avg_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "boundary_a100_q800_n320_pwm_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "boundary_a100_q800_n320_pwm_f10000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        }
+      ]
+    },
+    {
+      "case": "boundary_a100_q805_n320_TARGET_RESULTS",
+      "runs": [
+        {
+          "trace": "boundary_a100_q805_n320_pwm_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "boundary_a100_q805_n320_pwm_f10000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        }
+      ]
+    },
+    {
+      "case": "boundary_a100_q808_n320_TARGET_RESULTS",
+      "runs": [
+        {
+          "trace": "boundary_a100_q808_n320_pwm_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "boundary_a100_q808_n320_pwm_f10000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        }
+      ]
+    },
+    {
+      "case": "spline_R10000_q1050_TARGET_RESULTS",
+      "runs": [
+        {
+          "trace": "spline_R10000_q1050_pwm_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "spline_R10000_q1050_pwm_f10000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        }
+      ]
+    },
+    {
+      "case": "spline_R30000_q1000_TARGET_RESULTS",
+      "runs": [
+        {
+          "trace": "spline_R30000_q1000_pwm_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "spline_R30000_q1000_pwm_f10000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        }
+      ]
+    },
+    {
+      "case": "spline_R5000_q900_TARGET_RESULTS",
+      "runs": [
+        {
+          "trace": "spline_R5000_q900_pwm_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "spline_R5000_q900_pwm_f10000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        }
+      ]
+    },
+    {
+      "case": "witness_a100_q600_n160_TARGET_RESULTS",
+      "runs": [
+        {
+          "trace": "witness_a100_q600_n160_avg_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "witness_a100_q600_n160_pwm_f10000_h2e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "witness_a100_q600_n160_pwm_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "witness_a100_q600_n160_pwm_f10000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "witness_a100_q600_n160_avg_f20000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "witness_a100_q600_n160_pwm_f20000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        }
+      ]
+    },
+    {
+      "case": "witness_a100_q600_n80_TARGET_RESULTS",
+      "runs": [
+        {
+          "trace": "witness_a100_q600_n80_avg_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "witness_a100_q600_n80_pwm_f10000_h2e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "witness_a100_q600_n80_pwm_f10000_h1e-06.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "witness_a100_q600_n80_pwm_f10000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "witness_a100_q600_n80_avg_f20000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        },
+        {
+          "trace": "witness_a100_q600_n80_pwm_f20000_h5e-07.csv",
+          "verification_checks": {
+            "all_finite": true,
+            "balanced_currents": true,
+            "DC_bridge_energy_identity": true,
+            "battery_energy_identity": true,
+            "total_energy_residual_below_0p1J": true,
+            "instantaneous_bridge_power_identity": true,
+            "DC_switch_current_identity": true,
+            "positive_continuing_load": true,
+            "same_battery_command_not_clamped": true,
+            "binary_PWM_or_averaged_duties": true
+          },
+          "all_numerical_verification_checks_pass": true,
+          "contract_verdicts": {
+            "finite_tested_bounds": true,
+            "inventory_recovery_at_service_end_0p001J_tolerance": true,
+            "inventory_recovery_at_continuation_end_0p001J_tolerance": true,
+            "DC_energy_recovery_at_service_end_0p01J_tolerance": false,
+            "DC_energy_recovery_at_continuation_end_0p01J_tolerance": false,
+            "exact_PQ_tracking": false,
+            "full_four_contract_transfer": false
+          }
+        }
+      ]
+    }
+  ],
+  "all_numerical_verification_checks_pass": true,
+  "note": "Passing numerical verification does not mean all physical contracts pass; exact DC recovery and exact P/Q transfer fail."
+}

@@ -1,0 +1,907 @@
+{
+  "case": "P50-fast",
+  "allocator": "p_priority",
+  "evidence": "constructive_known_baseline_offline_model_diagnostic",
+  "status": "EXECUTED",
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "safety_scope": "conditional_current_only",
+  "no_100us_real_time_claim": true,
+  "topology_scope": "Synthetic controlled DC port only; no validated DC/DC or directly connected battery claim",
+  "same_full_state": true,
+  "initial_checkpoint": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+  "checkpoint_sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+  "protocol_sha256": "104b5f9102c286a2005e856da777b2a203a475c368fccd56d447e54ea43275f3",
+  "physical_protocol_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+  "runner_source_sha256": "e9bceab631ec7f26c9639aa3a2887ddf21f8cefdd63390c76fbeb1d3d30563c5",
+  "controller_source_path": "current_guard_constructive/guarded_allocator_controller.py",
+  "controller_source_sha256": "50f4b5f97cb8caad08463451e3dfe959528119cf10b140c78af57409608f52f6",
+  "guard_source_path": "current_guard_gate1/common_guard.py",
+  "guard_source_sha256": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03",
+  "allocator_source_path": "baseline_allocation/allocators.py",
+  "allocator_source_sha256": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a",
+  "physical_rhs_source_sha256": "5185085c3843c2b12d0663f25a4d3e6a0290fcb7d46be3b338e3ee2c261b0616",
+  "source_port": "fast",
+  "source_tau_s": 0.002,
+  "source_ramp_W_per_s": 50000000.0,
+  "h_s": 1e-05,
+  "control_sample_s": 0.0001,
+  "initial_time_s": 0.6,
+  "planned_end_s": 2.75005,
+  "final_time_s": 2.75005,
+  "stop_reason": "completed",
+  "simulation_completed": true,
+  "metrics": {
+    "I_peak_pu": 0.9146507273802033,
+    "Vdc_min_pu": 0.9914103748433045,
+    "Vdc_max_pu": 1.056608623921266,
+    "S_peak_VA": 1063014.6092848468,
+    "P_abs_peak_W": 824512.0545819633,
+    "Pb_abs_peak_W": 818722.9429263435,
+    "soc_min": 0.49971617232204435,
+    "soc_max": 0.49993044008718335,
+    "energy_residual_max_J": 5.097532266518101e-06,
+    "modulation_max": 0.4863426814722901
+  },
+  "no_physical_hard_contact_up_to_stop": true,
+  "complete_hard_safe": true,
+  "no_fault_physical_admission": null,
+  "first_contacts": {},
+  "all_hard_contacts": [],
+  "first_observed_beyond_roundoff": {},
+  "terminal_contact": {},
+  "current_continuous_crossings_s": [],
+  "event": {
+    "start_s": 0.60005,
+    "end_s": 0.75005,
+    "retained_source_pu": 0.4
+  },
+  "event_boundary_states": {
+    "0.600050000000": {
+      "time_s": 0.60005,
+      "plant_state": [
+        929.3461775581675,
+        -735.802774528285,
+        21915.135193273607,
+        815639.6757658696,
+        -500872.9865492523,
+        472124.24016722117,
+        28434.537533742998,
+        39.530358852006785,
+        35.4196430187317,
+        40.781983781981076,
+        41.61426916528682,
+        0.46964114798880724,
+        0.41964301873554954
+      ],
+      "controller": {
+        "theta": 226.26198256809693,
+        "zpll": 6.026316738971263e-10,
+        "omega": 376.991118430287,
+        "zi": [
+          -26.19092752018149,
+          54.99980988671425
+        ],
+        "applied": [
+          0.45520292726017053,
+          0.06970508830886338
+        ],
+        "queued": [
+          0.2679838059796277,
+          0.19676676581575994
+        ],
+        "pb_command": 815639.6857746067
+      },
+      "controller_theta_storage_before_advance": 226.2431330121754,
+      "WL_J": 276.71216930637837,
+      "source_left_pu": 1.0,
+      "source_right_pu": 0.4
+    },
+    "0.750050000000": {
+      "time_s": 0.75005,
+      "plant_state": [
+        1266.9960684976904,
+        285.00970937151646,
+        21656.830928952084,
+        459167.64506707207,
+        -567578.5682788751,
+        533374.3718744828,
+        34092.87031236645,
+        62703.80138195532,
+        -1333.8522171714826,
+        65412.252078787875,
+        66747.19599876346,
+        57336.19861804554,
+        106369.69150320588
+      ],
+      "controller": {
+        "theta": 282.9837506912071,
+        "zpll": 1.0575630825786354e-05,
+        "omega": 376.9909224378111,
+        "zi": [
+          -7.989568104180253,
+          14.490809697123195
+        ],
+        "applied": [
+          0.1460637856573353,
+          0.09383686723789086
+        ],
+        "queued": [
+          0.14242404344027987,
+          0.09927559486538472
+        ],
+        "pb_command": 459188.0386132271
+      },
+      "controller_theta_storage_before_advance": 282.9649011450852,
+      "WL_J": 332.1336773430582,
+      "source_left_pu": 0.4,
+      "source_right_pu": 1.0
+    }
+  },
+  "phases": {
+    "checkpoint_observed": true,
+    "fault_onset_observed": true,
+    "clearance_observed": true,
+    "full_recovery_observation_completed": true,
+    "unobserved_remainder_s": 0.0
+  },
+  "service": {
+    "duration_s": 2.15005,
+    "P_actual_integral_J": 1471607.165449992,
+    "Q_actual_integral_var_s": 1290804.8506829843,
+    "P_signed_request_error_integral_J": -248432.8345500077,
+    "Q_signed_request_error_integral_var_s": -214230.14931701543,
+    "P_absolute_request_error_integral_J": 248433.78067730815,
+    "Q_absolute_request_error_integral_var_s": 215036.41592850717,
+    "mean_P_W": 684452.5315457744,
+    "mean_Q_var": 600360.3872854047,
+    "mean_absolute_P_error_W": 115547.9085032014,
+    "mean_absolute_Q_error_var": 100014.61171996334
+  },
+  "inventory": {
+    "initial_soc": 0.49993044008718335,
+    "final_soc": 0.49971617232204435,
+    "battery_stored_energy_change_J": -1542727.9090007306,
+    "DC_energy_change_J": -31.13732664622512,
+    "RL_energy_change_J": -50.77191588092478,
+    "remote_source_active_integral_J": 1456616.2474598144,
+    "total_loss_integral_J": 86193.57078854064,
+    "battery_terminal_power_integral_J": 1511873.3508226078,
+    "battery_draw_integral_J": 1542727.9090005173,
+    "initial_Pb_W": 815639.6755124972,
+    "final_Pb_W": 724382.7071709802,
+    "battery_energy_restoration_claimed": false
+  },
+  "matched_reference": {
+    "status": "OBSERVED_COMMON_WINDOW_ONLY",
+    "reference": "same_allocator_same_port_guarded_no_fault",
+    "reference_case": "P0-fast",
+    "allocator": "p_priority",
+    "reference_summary_sha256": "8f9ad64944f827a180b64a1c253d0c8e8646efe4dbd692221395af19472e171e",
+    "reference_file": "current_guard_constructive/results/P0-fast_h1e-05.npz",
+    "reference_sha256": "9d4e8a577680299912540aeee7dea5b62f4dd35619012ca80609bd6c07325230",
+    "same_initial_7_state_exact": true,
+    "same_initial_normalized_full_state_exact": true,
+    "common_start_s": 0.6,
+    "common_end_s": 2.75005,
+    "full_observed_case_covered": true,
+    "comparison_interpolation": "Linear on stored100us endpoints if terminal time is off clock; not a new physical replay",
+    "P_integral_difference_J": -45130.49087995943,
+    "Q_integral_difference_var_s": -95528.62346505444,
+    "battery_stored_energy_difference_J": 45928.135726410896,
+    "DC_energy_difference_J": 0.0,
+    "RL_energy_difference_J": -2.177999882116649e-13,
+    "remote_source_integral_difference_J": -45509.27739096363,
+    "total_loss_integral_difference_J": -418.8583373520378,
+    "no_past_service_restoration_claim": true,
+    "P_absolute_error_integral_difference_J": 45131.437008846435,
+    "Q_absolute_error_integral_difference_var_s": 96333.81450952741,
+    "matched_sample_count": 21502,
+    "max_normalized_state_difference": 1.0730359326209724
+  },
+  "recovery": {
+    "status": "SCORED_COMPLETED_TRAJECTORY",
+    "joint_recovery_time_s": null,
+    "checks": [
+      {
+        "time_s": 0.9500000000000001,
+        "self_50ms_difference": 0.0032909645809406918,
+        "same_time_guarded_no_fault_difference": 0.0010350893256441673,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 0.013174045228218745,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.0,
+        "self_50ms_difference": 0.0007886963469272978,
+        "same_time_guarded_no_fault_difference": 0.00024647185848203357,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 0.001992476587126646,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.0499999999999998,
+        "self_50ms_difference": 0.00018784856289910667,
+        "same_time_guarded_no_fault_difference": 5.864204739036705e-05,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 0.00033698633835399505,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.0999999999999999,
+        "self_50ms_difference": 4.4696899390683775e-05,
+        "same_time_guarded_no_fault_difference": 1.3949607571617229e-05,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 8.079280328132654e-05,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.15,
+        "self_50ms_difference": 1.0632558046286267e-05,
+        "same_time_guarded_no_fault_difference": 3.3181102385149153e-06,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.9216569405955397e-05,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.1999999999999997,
+        "self_50ms_difference": 2.529114883909056e-06,
+        "same_time_guarded_no_fault_difference": 7.892475173965074e-07,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.569934439757617e-06,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.2499999999999996,
+        "self_50ms_difference": 6.015774745571356e-07,
+        "same_time_guarded_no_fault_difference": 1.8773010546091484e-07,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.0869488065168298e-06,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.2999999999999996,
+        "self_50ms_difference": 1.4309104939824735e-07,
+        "same_time_guarded_no_fault_difference": 4.46533529596671e-08,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 2.5853370999584513e-07,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.3499999999999996,
+        "self_50ms_difference": 3.403550036251701e-08,
+        "same_time_guarded_no_fault_difference": 1.0621229562524093e-08,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 6.150084885803153e-08,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.3999999999999995,
+        "self_50ms_difference": 8.095696890642046e-09,
+        "same_time_guarded_no_fault_difference": 2.526329867524879e-09,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.4628803057803452e-08,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.4499999999999993,
+        "self_50ms_difference": 1.925478554376525e-09,
+        "same_time_guarded_no_fault_difference": 6.010781317122849e-10,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 3.4800464732143155e-09,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.4999999999999993,
+        "self_50ms_difference": 4.580719692448554e-10,
+        "same_time_guarded_no_fault_difference": 1.43055733925479e-10,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 8.315979016515485e-10,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.5499999999999994,
+        "self_50ms_difference": 1.0910533587704663e-10,
+        "same_time_guarded_no_fault_difference": 3.394279302071368e-11,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 2.1893242774240207e-10,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.5999999999999992,
+        "self_50ms_difference": 2.586741931764891e-11,
+        "same_time_guarded_no_fault_difference": 8.071487922478582e-12,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.0820680169417756e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.649999999999999,
+        "self_50ms_difference": 6.1474714208031855e-12,
+        "same_time_guarded_no_fault_difference": 1.9208523660552146e-12,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.071409875905374e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.699999999999999,
+        "self_50ms_difference": 1.4918621893400541e-12,
+        "same_time_guarded_no_fault_difference": 4.4630965589931293e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.086331273356336e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.7499999999999991,
+        "self_50ms_difference": 5.031530747601209e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.086331273356336e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.799999999999999,
+        "self_50ms_difference": 3.169686735304822e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.086331273356336e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.8499999999999988,
+        "self_50ms_difference": 2.8954616482224083e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.1104897263721796e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.8999999999999988,
+        "self_50ms_difference": 2.949862576429041e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.11333189731522e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.9499999999999988,
+        "self_50ms_difference": 3.352873534367973e-13,
+        "same_time_guarded_no_fault_difference": 4.440892098500626e-15,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.11333189731522e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 1.9999999999999987,
+        "self_50ms_difference": 3.3872904481313526e-13,
+        "same_time_guarded_no_fault_difference": 5.88418203051333e-15,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.11475298278674e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.0499999999999985,
+        "self_50ms_difference": 1.4779288903810084e-12,
+        "same_time_guarded_no_fault_difference": 4.773959005888173e-15,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.11475298278674e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.0999999999999988,
+        "self_50ms_difference": 1.3642420526593924e-12,
+        "same_time_guarded_no_fault_difference": 5.10702591327572e-15,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 4.11475298278674e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.1499999999999986,
+        "self_50ms_difference": 5.160316618457728e-13,
+        "same_time_guarded_no_fault_difference": 6.106226635438361e-15,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 3.6976643968955614e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.1999999999999984,
+        "self_50ms_difference": 5.219158438762861e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.815436689867056e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.2499999999999982,
+        "self_50ms_difference": 4.805045250577678e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.815436689867056e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.2999999999999985,
+        "self_50ms_difference": 5.395683899678261e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.752908929120167e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.3499999999999983,
+        "self_50ms_difference": 5.280220705117245e-13,
+        "same_time_guarded_no_fault_difference": 5.88418203051333e-15,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.8260948309034575e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.399999999999998,
+        "self_50ms_difference": 5.239142453206114e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.8260948309034575e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.449999999999998,
+        "self_50ms_difference": 5.355715870791755e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.8260948309034575e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.4999999999999982,
+        "self_50ms_difference": 5.400124791776761e-13,
+        "same_time_guarded_no_fault_difference": 5.218048215738236e-15,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.816147232602816e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.549999999999998,
+        "self_50ms_difference": 5.120348589571222e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.816147232602816e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.599999999999998,
+        "self_50ms_difference": 5.769829058976939e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.7543300145916874e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.6499999999999977,
+        "self_50ms_difference": 5.387912338505885e-13,
+        "same_time_guarded_no_fault_difference": 4.9960036108132044e-15,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.7543300145916874e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.699999999999998,
+        "self_50ms_difference": 5.224709553885987e-13,
+        "same_time_guarded_no_fault_difference": 1.1368683772161603e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.5482726212212583e-11,
+        "qualifying": false,
+        "successive": 0
+      },
+      {
+        "time_s": 2.749999999999998,
+        "self_50ms_difference": 5.734301922188934e-13,
+        "same_time_guarded_no_fault_difference": 2.2737367544323206e-13,
+        "safe_150ms": true,
+        "unclipped_including_guard_150ms": false,
+        "PLL_max_error_Hz": 1.5411671938636573e-11,
+        "qualifying": false,
+        "successive": 0
+      }
+    ],
+    "global_safe_recovery": false,
+    "earlier_violation_cannot_be_erased": true,
+    "battery_inventory_excluded_from_orbit": true
+  },
+  "external_known_Q_guard_controls": [
+    {
+      "case": "C0-fast",
+      "allocator": "q_priority",
+      "role": "external_known_Q_plus_guard_control",
+      "matched_own_allocator_reference": false,
+      "used_for_recovery_scoring": false,
+      "file": "current_guard_gate1/results/C0-fast_h1e-05.json",
+      "status": "EXISTING_SEALED_RESULT",
+      "sha256": "02f572aa8522f141aa6a22a313b073f7d508293244ef6904b410b37e879ab653",
+      "stop_reason": "completed",
+      "simulation_completed": true,
+      "complete_hard_safe": true,
+      "service": {
+        "duration_s": 2.15005,
+        "P_actual_integral_J": 1516733.3682173504,
+        "Q_actual_integral_var_s": 1386340.641456601,
+        "P_signed_request_error_integral_J": -203306.63178264932,
+        "Q_signed_request_error_integral_var_s": -118694.35854339879,
+        "P_absolute_request_error_integral_J": 203306.63178106348,
+        "Q_absolute_request_error_integral_var_s": 118695.43411041252,
+        "mean_P_W": 705440.9749621407,
+        "mean_Q_var": 644794.6054541062,
+        "mean_absolute_P_error_W": 94559.0250371217,
+        "mean_absolute_Q_error_var": 55205.89479798727
+      },
+      "inventory": {
+        "initial_soc": 0.49993044008718335,
+        "final_soc": 0.4997097940253772,
+        "battery_stored_energy_change_J": -1588651.645004048,
+        "DC_energy_change_J": -31.137326646232395,
+        "RL_energy_change_J": -50.77191588092455,
+        "remote_source_active_integral_J": 1502121.2238018517,
+        "total_loss_integral_J": 86612.33045174755,
+        "battery_terminal_power_integral_J": 1556878.6121064574,
+        "battery_draw_integral_J": 1588651.6450038936,
+        "initial_Pb_W": 815639.6755124972,
+        "final_Pb_W": 724382.7071709811,
+        "battery_energy_restoration_claimed": false
+      },
+      "metrics": {
+        "I_peak_pu": 0.8353580928610971,
+        "Vdc_min_pu": 1.006535431446378,
+        "Vdc_max_pu": 1.0140678753030221,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 800000.0043642087,
+        "Pb_abs_peak_W": 815639.6764858381,
+        "soc_min": 0.4997097940253772,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 7.024351361906156e-06,
+        "modulation_max": 0.4605089622790201
+      }
+    },
+    {
+      "case": "C50-fast",
+      "allocator": "q_priority",
+      "role": "external_known_Q_plus_guard_control",
+      "matched_own_allocator_reference": false,
+      "used_for_recovery_scoring": false,
+      "file": "current_guard_gate1/results/C50-fast_h1e-05.json",
+      "status": "EXISTING_SEALED_RESULT",
+      "sha256": "96d169ae535ad682b4e828a050e6b253c0ecbab207283e24deacae26c8a3c514",
+      "stop_reason": "dc_high",
+      "simulation_completed": false,
+      "complete_hard_safe": false,
+      "service": {
+        "duration_s": 0.008646762771277072,
+        "P_actual_integral_J": 1051.390733234953,
+        "Q_actual_integral_var_s": 2386.9089097725173,
+        "P_signed_request_error_integral_J": -5866.019483786705,
+        "Q_signed_request_error_integral_var_s": -3665.825030121433,
+        "P_absolute_request_error_integral_J": 5866.0194837867075,
+        "Q_absolute_request_error_integral_var_s": 3666.664316158907,
+        "mean_P_W": 121593.56756351361,
+        "mean_Q_var": 276046.5359014338,
+        "mean_absolute_P_error_W": 678406.4324364867,
+        "mean_absolute_Q_error_var": 424050.52771181363
+      },
+      "inventory": {
+        "initial_soc": 0.49993044008718335,
+        "final_soc": 0.49992968964120477,
+        "battery_stored_energy_change_J": -5403.2110455199145,
+        "DC_energy_change_J": 4221.256627784955,
+        "RL_energy_change_J": -155.85287268760584,
+        "remote_source_active_integral_J": 1078.4743984281668,
+        "total_loss_integral_J": 259.3328919953419,
+        "battery_terminal_power_integral_J": 5295.146824609502,
+        "battery_draw_integral_J": 5403.211045519897,
+        "initial_Pb_W": 815639.6755124972,
+        "final_Pb_W": 396384.80436252325,
+        "battery_energy_restoration_claimed": false
+      },
+      "metrics": {
+        "I_peak_pu": 0.8881692839356681,
+        "Vdc_min_pu": 1.0072234630796513,
+        "Vdc_max_pu": 1.1,
+        "S_peak_VA": 1063014.6092848468,
+        "P_abs_peak_W": 800000.0043642087,
+        "Pb_abs_peak_W": 818722.9429263435,
+        "soc_min": 0.49992968964120477,
+        "soc_max": 0.49993044008718335,
+        "energy_residual_max_J": 1.014996087178588e-09,
+        "modulation_max": 0.4605089622790201
+      }
+    }
+  ],
+  "actual_onset_energy_necessary_condition": {
+    "status": "RECOMPUTED_FROM_ACTUAL_ONSET",
+    "onset_time_s": 0.60005,
+    "onset_full_plant_state": [
+      929.3461775581675,
+      -735.802774528285,
+      21915.135193273607,
+      815639.6757658696,
+      -500872.9865492523,
+      472124.24016722117,
+      28434.537533742998,
+      39.530358852006785,
+      35.4196430187317,
+      40.781983781981076,
+      41.61426916528682,
+      0.46964114798880724,
+      0.41964301873554954
+    ],
+    "onset_controller": {
+      "theta": 226.26198256809693,
+      "zpll": 6.026316738971263e-10,
+      "omega": 376.991118430287,
+      "zi": [
+        -26.19092752018149,
+        54.99980988671425
+      ],
+      "applied": [
+        0.45520292726017053,
+        0.06970508830886338
+      ],
+      "queued": [
+        0.2679838059796277,
+        0.19676676581575994
+      ],
+      "pb_command": 815639.6857746067
+    },
+    "source_Pb0_W": 815639.6757658696,
+    "source_ramp_down_W_per_s": 50000000.0,
+    "source_tau_s": 0.002,
+    "source_voltage_pu": 0.4,
+    "WL0_J": 276.71216930637837,
+    "aggregate_headroom_J": 4341.250139440061,
+    "exit_upper_W": 511140.44628251996,
+    "initial_excess_power_lower_W": 296342.8327256909,
+    "excess_power_down_slope_W_per_s": 49500000.0,
+    "valid_positive_source_horizon_s": 0.016312793515317392,
+    "peak_prefix_s": 0.005986723893448301,
+    "maximum_prefix_gain_J": 887.0613586655234,
+    "maximum_headroom_excess_J": -3454.188780774537,
+    "first_headroom_equality_after_fault_s": null,
+    "first_headroom_equality_absolute_s": null,
+    "excludes_all_actual_I_DC_safe_control": false,
+    "scope": "Outer slew-only necessary condition; lag/control constraints relaxed; no copied historical onset time"
+  },
+  "timing": {
+    "counts": {
+      "calls": 21501,
+      "guard_failures": 0,
+      "solver_success_false": 0,
+      "backup_calls": 0,
+      "accepted_nonoptimal_calls": 0
+    },
+    "backup_types": {},
+    "seconds": {
+      "controller_total_wall_s_including_PI_guard_AW": {
+        "n": 21501,
+        "minimum_s": 0.004125452003790997,
+        "median_s": 0.009108751997700892,
+        "p95_s": 0.012800371994671877,
+        "maximum_s": 0.21716709400061518,
+        "sum_s": 207.06515446490084,
+        "over_100us_count": 21501
+      },
+      "solver.timing.setup_s": {
+        "n": 21501,
+        "minimum_s": 0.0008596049956395291,
+        "median_s": 0.0011352860019542277,
+        "p95_s": 0.0017874160039355047,
+        "maximum_s": 0.013401420997979585,
+        "sum_s": 26.86957844792778,
+        "over_100us_count": 21501
+      },
+      "solver.timing.solve_s": {
+        "n": 21501,
+        "minimum_s": 0.0023847710035624914,
+        "median_s": 0.006936960002349224,
+        "p95_s": 0.010093493001477327,
+        "maximum_s": 0.21505754299869295,
+        "sum_s": 158.39339500890492,
+        "over_100us_count": 21501
+      },
+      "solver.timing.validation_s": {
+        "n": 21501,
+        "minimum_s": 0.0005692889972124249,
+        "median_s": 0.000716763999662362,
+        "p95_s": 0.0011263819978921674,
+        "maximum_s": 0.019642710998596158,
+        "sum_s": 17.10106535027444,
+        "over_100us_count": 21501
+      },
+      "solver.timing.point_total_s": {
+        "n": 21501,
+        "minimum_s": 0.003967249998822808,
+        "median_s": 0.008902321002096869,
+        "p95_s": 0.01252551000652602,
+        "maximum_s": 0.21697947700158693,
+        "sum_s": 202.36403880710714,
+        "over_100us_count": 21501
+      },
+      "total_wall_s": {
+        "n": 21501,
+        "minimum_s": 0.004052479998790659,
+        "median_s": 0.009015313000418246,
+        "p95_s": 0.012693814001977444,
+        "maximum_s": 0.21708413799933624,
+        "sum_s": 204.95051464660355,
+        "over_100us_count": 21501
+      }
+    },
+    "note": "All raw timing/solver/backup fields are retained per call; offline virtual time only"
+  },
+  "guard_exception": null,
+  "health_gate": {
+    "physical_admitted": null,
+    "service_transparency_pass": null,
+    "reason": "No service-transparency tolerance was predeclared; retain request errors and matched-reference differences",
+    "initial_guard_modification_norm": 0.2145806922403564,
+    "max_guard_modification_norm": 0.2145806922403564,
+    "intervention_count": 21366
+  },
+  "samples_attempted": 21501,
+  "accepted_control_count": 21501,
+  "near_boundary_interval_count": 0,
+  "numerical_refinement_indicated": false,
+  "initial_plant_state": [
+    929.5008337706373,
+    -736.9579376749007,
+    21914.743372215053,
+    815639.6755124972,
+    -500831.372280087,
+    472084.9698341634,
+    28432.193760940794,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_controller": {
+    "theta": 226.2431330121754,
+    "zpll": 6.12411578096056e-10,
+    "omega": 376.99111843029715,
+    "zi": [
+      -0.9876990854152526,
+      38.25384814185561
+    ],
+    "applied": [
+      0.4575066906559445,
+      0.052498879458002363
+    ],
+    "queued": [
+      0.45520292726017053,
+      0.06970508830886338
+    ],
+    "pb_command": 815639.6858398903
+  },
+  "final_plant_state": [
+    826.9410472871165,
+    -682.2297930722193,
+    21883.606045568828,
+    724382.7071709802,
+    -2043559.2812808177,
+    1928701.2172939777,
+    114625.76454948144,
+    1471607.165449992,
+    1290804.8506829843,
+    1511873.3508226078,
+    1542727.9090005173,
+    248433.78067730815,
+    215036.41592850717
+  ],
+  "final_controller": {
+    "theta": 1036.7867408912118,
+    "zpll": -4.362259266327288e-11,
+    "omega": 376.99111843071034,
+    "zi": [
+      -16.305298770812968,
+      48.384416792763034
+    ],
+    "applied": [
+      0.45132213937641275,
+      0.06278106359799354
+    ],
+    "queued": [
+      0.44863523289333856,
+      0.07974686981065837
+    ],
+    "pb_command": 724382.7071709922
+  },
+  "wall_time_s": 394.59542203999445,
+  "trace_file": "P50-fast_h1e-05.npz",
+  "trace_sha256": "2c48dcea706f8848d4ea894dbeb18a78f0dce43bf927b7e4f7d09fcca8501938",
+  "full_sample_log_file": "P50-fast_h1e-05.jsonl.gz",
+  "full_sample_log_sha256": "048f08c1b1cc0363ab69fc2e0c42fcf1aca4e09b04796d0dd09c6d5cca58242c",
+  "storage": "Every100us full pre/post plant/PLL/PI/source/queue and full guard plan in gzip; endpoints/normalized state/extrema in NPZ; dense first5ms, fault through50ms after clearance, and near-boundary intervals",
+  "numerical_event_scope": "DOP853 root-located downward crossings plus explicit left/right jump screens; sampled extrema are not interval-certified bounds",
+  "observed_fault_service": {
+    "duration_s": 0.15000000000000002,
+    "P_actual_integral_J": 62664.27102310332,
+    "Q_actual_integral_var_s": -1369.2718601902143,
+    "P_signed_request_error_integral_J": -57335.728976896695,
+    "Q_signed_request_error_integral_var_s": -106369.27186019023,
+    "P_absolute_request_error_integral_J": 57335.72897689755,
+    "Q_absolute_request_error_integral_var_s": 106369.27186018715,
+    "mean_P_W": 417761.8068206887,
+    "mean_Q_var": -9128.47906793476,
+    "mean_absolute_P_error_W": 382238.193179317,
+    "mean_absolute_Q_error_var": 709128.4790679142
+  }
+}

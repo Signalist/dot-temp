@@ -1,0 +1,6403 @@
+[
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 0,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": 3.06899982002001,
+    "iterations": 10,
+    "cuts": 907,
+    "runtime_s": 0.14266090000091936,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 3.3764999999999956,
+        "new_cuts": 11,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.18750000000000033
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 3.06899982002001,
+        "new_cuts": 12,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.1856854327484343
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 3.06899982002001,
+        "new_cuts": 11,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.01046158783724227
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 3.06899982002001,
+        "new_cuts": 12,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0009665754959107264
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 3.06899982002001,
+        "new_cuts": 8,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0003396599735512318
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 3.06899982002001,
+        "new_cuts": 8,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 7.799572188438297e-05
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 3.06899982002001,
+        "new_cuts": 8,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.6563917386136495e-05
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 3.06899982002001,
+        "new_cuts": 8,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.2460082740316523e-06
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 3.06899982002001,
+        "new_cuts": 7,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 7.789485145792696e-08
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 3.06899982002001,
+        "new_cuts": 0,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.404103638913412e-10
+      }
+    ],
+    "max_linear_violation": 1.4432899320127035e-15,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 0,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": 2.975249983656359,
+    "iterations": 4,
+    "cuts": 850,
+    "runtime_s": 0.06876455199744669,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.28125000000000006,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 3.2827499999999956,
+        "new_cuts": 13,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.18750000000000033
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 2.975249983656359,
+        "new_cuts": 11,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.009296337659862486
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 2.975249983656359,
+        "new_cuts": 4,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 3.647748498358805e-05
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 2.975249983656359,
+        "new_cuts": 0,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.805504965650243e-10
+      }
+    ],
+    "max_linear_violation": 5.684341886080802e-14,
+    "duality_gap": 4.440892098500626e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 0,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": 3.0690000000399955,
+    "iterations": 13,
+    "cuts": 1696,
+    "runtime_s": 0.3738036249997094,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 3.2264999999999957,
+        "new_cuts": 25,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.046875000000000555
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 13,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.011718750005000111
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 11,
+        "max_reach_error_kW": 4.263256414560601e-13,
+        "max_area_error_kJ": 0.002276518028038188
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0005872095728134408
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 4.74311643083869e-05
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.1857798576819789e-05
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.886095515575171e-06
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 7.123124873276154e-07
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 8.526512829121202e-14,
+        "max_area_error_kJ": 1.734552109722287e-07
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 4.1093883407228304e-08
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 2,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.0280970741405326e-08
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 2,
+        "max_reach_error_kW": 2.8421709430404007e-13,
+        "max_area_error_kJ": 2.577742796994187e-09
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 3.0690000000399955,
+        "new_cuts": 0,
+        "max_reach_error_kW": 5.684341886080802e-14,
+        "max_area_error_kJ": 6.516954753621462e-10
+      }
+    ],
+    "max_linear_violation": 5.684341886080802e-14,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 0,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": 3.0455625000399955,
+    "iterations": 14,
+    "cuts": 1696,
+    "runtime_s": 0.36635922500136076,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.07031250000000015,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 3.2030624999999957,
+        "new_cuts": 25,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.04687500000000111
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 13,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.01171875000499667
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 11,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0024157959309829558
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.00048218621863549416
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 4.547473508864641e-13,
+        "max_area_error_kJ": 0.0001205465621590962
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.7582966023231847e-05
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.686918094660598e-06
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.4217370229996362e-06
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 3.517322202384321e-07
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 2,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 8.754679992062364e-08
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 2,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 2.1894199342398224e-08
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 2,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.481049614175504e-09
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 1,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.3777613494525554e-09
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 3.0455625000399955,
+        "new_cuts": 0,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 4.986351609392869e-10
+      }
+    ],
+    "max_linear_violation": 2.842170943040401e-14,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 0,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": 3.0549220684655314,
+    "iterations": 19,
+    "cuts": 3618,
+    "runtime_s": 1.5363191799988272,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 3.1491562499999954,
+        "new_cuts": 49,
+        "max_reach_error_kW": 0.18425367510747037,
+        "max_area_error_kJ": 0.01173408162446471
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 37,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.01171875000000161
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 31,
+        "max_reach_error_kW": 6.821210263296962e-13,
+        "max_area_error_kJ": 0.005325554564531647
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 29,
+        "max_reach_error_kW": 1.0231815394945443e-12,
+        "max_area_error_kJ": 0.006040159508689642
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 31,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.001510039884672066
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 30,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0006351031471813762
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 31,
+        "max_reach_error_kW": 4.263256414560601e-13,
+        "max_area_error_kJ": 0.0001587757942953516
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 31,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.5712691741937465e-05
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 31,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 7.974753594619521e-05
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 16,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 1.9936891486493913e-05
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 4.984230371596343e-06
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 14,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 1.246065092927462e-06
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 6.62556755043342e-07
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.6564668878227273e-07
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 10,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 4.141917228639436e-08
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 8,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 3.4035199131254856e-08
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 5,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 8.516299714045328e-09
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 1,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.1365749724999716e-09
+      },
+      {
+        "iteration": 18,
+        "upper_margin": 3.0549220684655314,
+        "new_cuts": 0,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 7.777482269322178e-10
+      }
+    ],
+    "max_linear_violation": 1.3342660309945131e-12,
+    "duality_gap": 4.440892098500626e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 0,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": 3.0490626934655314,
+    "iterations": 17,
+    "cuts": 3585,
+    "runtime_s": 1.2818530690019543,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.01757812500000005,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 3.1432968749999954,
+        "new_cuts": 49,
+        "max_reach_error_kW": 0.18425367510747037,
+        "max_area_error_kJ": 0.01173408162446471
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 37,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.01171875000000161
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 29,
+        "max_reach_error_kW": 1.7053025658242404e-13,
+        "max_area_error_kJ": 0.007728580859577786
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 29,
+        "max_reach_error_kW": 1.4210854715202004e-13,
+        "max_area_error_kJ": 0.001932145219894349
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 30,
+        "max_reach_error_kW": 5.684341886080802e-14,
+        "max_area_error_kJ": 0.000909045850724377
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 30,
+        "max_reach_error_kW": 1.9895196601282805e-13,
+        "max_area_error_kJ": 0.0002272614676810166
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 31,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 9.342062649209636e-05
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 31,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.3355161622985038e-05
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 31,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.838795405745806e-06
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 16,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.4597063514171227e-06
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 15,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 3.6493408782714565e-07
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 9.124102194092709e-08
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 9,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.7365782126476113e-08
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 8,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 7.469571877694037e-09
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.8748929353495924e-09
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 1,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.4305992224183939e-09
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 3.0490626934655314,
+        "new_cuts": 0,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 8.769337755953899e-10
+      }
+    ],
+    "max_linear_violation": 5.684341886080802e-14,
+    "duality_gap": 4.440892098500626e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 900,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": 0.3153600680814399,
+    "iterations": 19,
+    "cuts": 1085,
+    "runtime_s": 0.2636826590023702,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 0.4353600680714399,
+        "new_cuts": 11,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.1875000000000001
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 8,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.042188443035868134
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 11,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.008854669715447502
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 13,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.002206178097798883
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 15,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0011769060706128265
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 17,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.001139869721540121
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 18,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0002849674353847531
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 19,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0002318252823532152
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 20,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.795632808824891e-05
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 21,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.4489089522062848e-05
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 21,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.4608844271013499e-05
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 17,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.165568858940702e-05
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 17,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.913929647463398e-06
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 18,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 7.284899117276922e-07
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 16,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.821299779325436e-07
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 10,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 4.908371686873636e-08
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 8,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.2278429217804643e-08
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 3.0771072911939257e-09
+      },
+      {
+        "iteration": 18,
+        "upper_margin": 0.3153600680814399,
+        "new_cuts": 0,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 9.661048627762625e-10
+      }
+    ],
+    "max_linear_violation": 3.6726921504026677e-10,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 900,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": 0.014980064468140375,
+    "iterations": 22,
+    "cuts": 1122,
+    "runtime_s": 0.32474796600217815,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.30038000361329953,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 0.13498006445814037,
+        "new_cuts": 11,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.18749999999999917
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 10,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.029607733925673875
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 12,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.006187260085051063
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0015468150287622738
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 16,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0007533894249303064
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 18,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0007394949992717281
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 20,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0007936526057217286
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 21,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.00019841315643054358
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 22,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 4.960329410785835e-05
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 23,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.428820994268779e-05
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 20,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.6337727880687556e-05
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 20,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 6.584436970213936e-06
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 20,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 4.850808015571806e-06
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 20,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.9671372109009155e-06
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 16,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.360403548260173e-07
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.3401758874875824e-07
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 7,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 7.999648538037363e-08
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 5,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.5762371180793053e-08
+      },
+      {
+        "iteration": 18,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 5,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 6.448092448874121e-09
+      },
+      {
+        "iteration": 19,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 4,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.876107489477533e-09
+      },
+      {
+        "iteration": 20,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 2,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.4765272338124191e-09
+      },
+      {
+        "iteration": 21,
+        "upper_margin": 0.014980064468140375,
+        "new_cuts": 0,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 8.475984358824462e-10
+      }
+    ],
+    "max_linear_violation": 7.105427357601002e-15,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 900,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": 0.3153600680914399,
+    "iterations": 29,
+    "cuts": 2243,
+    "runtime_s": 0.9744670420004695,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 0.3791100680714399,
+        "new_cuts": 20,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.046875000000001554
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 13,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.009750223477676914
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 16,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.00243755587441917
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 8,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.001823275496212362
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 10,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0018230387694722072
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 12,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0018228885612437407
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.001822784357781937
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 16,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0018227075257797043
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 18,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0018226479607693635
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 20,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0018225993500205484
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 21,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0018225568910537615
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 23,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0018219329513993188
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 22,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0018219014419604829
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 22,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0018203946177022812
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 22,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.0018194033319042235
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 23,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.002198949899997943
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 21,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.004253747817046516
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 34,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0010634369592615878
+      },
+      {
+        "iteration": 18,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 35,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.00047047468257116476
+      },
+      {
+        "iteration": 19,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 37,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.00011761867564336059
+      },
+      {
+        "iteration": 20,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 37,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 2.940467391016055e-05
+      },
+      {
+        "iteration": 21,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 36,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 7.351173477443407e-06
+      },
+      {
+        "iteration": 22,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 37,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 1.8378008694863723e-06
+      },
+      {
+        "iteration": 23,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 36,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 4.5945771759425824e-07
+      },
+      {
+        "iteration": 24,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 29,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 1.1487192960735193e-07
+      },
+      {
+        "iteration": 25,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 22,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 2.872548271470876e-08
+      },
+      {
+        "iteration": 26,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 13,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 7.188870582153228e-09
+      },
+      {
+        "iteration": 27,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 4,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.8047172922752708e-09
+      },
+      {
+        "iteration": 28,
+        "upper_margin": 0.3153600680914399,
+        "new_cuts": 0,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 8.525762040800799e-10
+      }
+    ],
+    "max_linear_violation": 1.4210854715202004e-14,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 900,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": 0.1980241291799948,
+    "iterations": 30,
+    "cuts": 2247,
+    "runtime_s": 1.0338827880004828,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.1173359389114451,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 0.26177412915999476,
+        "new_cuts": 20,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.04687500000000022
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 13,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.005545032970964842
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 16,
+        "max_reach_error_kW": 8.526512829121202e-14,
+        "max_area_error_kJ": 0.0020540298406803853
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 8,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.002000881896771764
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 10,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.001919838482969699
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 12,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0018691373370886138
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 14,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0018344337675401945
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 16,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.001809190722214249
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 18,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0017900043658444498
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 20,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.001774927814345989
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 21,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0017627663972988872
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 23,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0017524053968800968
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 22,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.001744003084075102
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 22,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0017354400916028134
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 22,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0017283630861915783
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 23,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0017240692370394661
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 33,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.00043101731425986
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 34,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.00024986560491077614
+      },
+      {
+        "iteration": 18,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 35,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.00022089875698455552
+      },
+      {
+        "iteration": 19,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 36,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.00014600230061220798
+      },
+      {
+        "iteration": 20,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 36,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 3.6500580153198126e-05
+      },
+      {
+        "iteration": 21,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 36,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 9.125150037730956e-06
+      },
+      {
+        "iteration": 22,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 35,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.2812925098980585e-06
+      },
+      {
+        "iteration": 23,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 31,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.70330626836757e-07
+      },
+      {
+        "iteration": 24,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 30,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.425901565710319e-07
+      },
+      {
+        "iteration": 25,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 23,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 3.565503919888968e-08
+      },
+      {
+        "iteration": 26,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 12,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 2.203390722654852e-08
+      },
+      {
+        "iteration": 27,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 3,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 5.515977036241182e-09
+      },
+      {
+        "iteration": 28,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 1,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 1.3864942527419544e-09
+      },
+      {
+        "iteration": 29,
+        "upper_margin": 0.1980241291799948,
+        "new_cuts": 0,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 9.300269998568922e-10
+      }
+    ],
+    "max_linear_violation": 1.4210854715202004e-14,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 900,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": 0.31536006811144346,
+    "iterations": 56,
+    "cuts": 5006,
+    "runtime_s": 6.7088402829976985,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 0.3509850680714435,
+        "new_cuts": 38,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.011718750000001332
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 26,
+        "max_reach_error_kW": 0.18441367510712325,
+        "max_area_error_kJ": 0.004042307826543939
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 25,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0027771482212094745
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 27,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0031866951368060975
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0028108115539486195
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0027889169935078617
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 18,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002710600819201048
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 19,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0026525633905832152
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0026014899949259873
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0025665913463283757
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002538209648651313
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002514982454974196
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0024940248694668987
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002475015952931592
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002459293670758367
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0024453274149291854
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002432916107321076
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0024217756918564204
+      },
+      {
+        "iteration": 18,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0024117087750100408
+      },
+      {
+        "iteration": 19,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.004196625435098442
+      },
+      {
+        "iteration": 20,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00578476164577113
+      },
+      {
+        "iteration": 21,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005501213484560827
+      },
+      {
+        "iteration": 22,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 18,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006060492183847351
+      },
+      {
+        "iteration": 23,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.003869472099280076
+      },
+      {
+        "iteration": 24,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 19,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00778525382878744
+      },
+      {
+        "iteration": 25,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.008155560260655642
+      },
+      {
+        "iteration": 26,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002038890070163779
+      },
+      {
+        "iteration": 27,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 51,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0038908307446876567
+      },
+      {
+        "iteration": 28,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 52,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0009727076911723725
+      },
+      {
+        "iteration": 29,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 53,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0005917547038834237
+      },
+      {
+        "iteration": 30,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 53,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0006677281802831281
+      },
+      {
+        "iteration": 31,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 55,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0007659603123708197
+      },
+      {
+        "iteration": 32,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 56,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.000625748209129029
+      },
+      {
+        "iteration": 33,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 55,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0005801877359496443
+      },
+      {
+        "iteration": 34,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 56,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0004993698956205217
+      },
+      {
+        "iteration": 35,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 56,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0004104369074084402
+      },
+      {
+        "iteration": 36,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 47,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0003998859960554768
+      },
+      {
+        "iteration": 37,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 45,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00035793534207290145
+      },
+      {
+        "iteration": 38,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 43,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0003159809019225718
+      },
+      {
+        "iteration": 39,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 38,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0002494194854560233
+      },
+      {
+        "iteration": 40,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 35,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00022102430234058335
+      },
+      {
+        "iteration": 41,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 38,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00022271936737575104
+      },
+      {
+        "iteration": 42,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 34,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00019450738242583754
+      },
+      {
+        "iteration": 43,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 36,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00014312502898619628
+      },
+      {
+        "iteration": 44,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 39,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00013212559748168595
+      },
+      {
+        "iteration": 45,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 41,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.303140437013741e-05
+      },
+      {
+        "iteration": 46,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 62,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.257856092888649e-06
+      },
+      {
+        "iteration": 47,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 55,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.064469023788096e-06
+      },
+      {
+        "iteration": 48,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 52,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.9988852545810287e-06
+      },
+      {
+        "iteration": 49,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 49,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.997288136389388e-07
+      },
+      {
+        "iteration": 50,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 44,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.74595077079387e-07
+      },
+      {
+        "iteration": 51,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 30,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.865626937802016e-08
+      },
+      {
+        "iteration": 52,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 15,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.717156740410619e-08
+      },
+      {
+        "iteration": 53,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 6,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 7.629766568539864e-09
+      },
+      {
+        "iteration": 54,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.9149416496944127e-09
+      },
+      {
+        "iteration": 55,
+        "upper_margin": 0.31536006811144346,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.737603778869897e-10
+      }
+    ],
+    "max_linear_violation": 5.684341886080802e-14,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 0,
+    "beta": 900,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": 0.2860260833835822,
+    "iterations": 60,
+    "cuts": 4939,
+    "runtime_s": 7.544485854999948,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.029333984727861275,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 0.32165108334358217,
+        "new_cuts": 38,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.011718750000000111
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 23,
+        "max_reach_error_kW": 8.526512829121202e-14,
+        "max_area_error_kJ": 0.010556699616884657
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 9,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0026391749092211647
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 9,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0022873353296562066
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 11,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.00227358011763526
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 13,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0022644326035084483
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 15,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0022579091461127354
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 16,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.002253021160837282
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 18,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0022485156079009583
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 20,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0022454793474625256
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 22,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.002242994153795974
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 22,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.002240919266474295
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 23,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0022378252449712227
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 22,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0022356424024887744
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 22,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.002232837950280009
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 22,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.002230605890428075
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 22,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0022285088047814122
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 22,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0022265242042881495
+      },
+      {
+        "iteration": 18,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 22,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.004359191501460205
+      },
+      {
+        "iteration": 19,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 21,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.005270901813778539
+      },
+      {
+        "iteration": 20,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 21,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.005683357006354875
+      },
+      {
+        "iteration": 21,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 20,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.009740180720452185
+      },
+      {
+        "iteration": 22,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 19,
+        "max_reach_error_kW": 3.410605131648481e-13,
+        "max_area_error_kJ": 0.002435045185113033
+      },
+      {
+        "iteration": 23,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 16,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.008627374826099737
+      },
+      {
+        "iteration": 24,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 20,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0021568437115246364
+      },
+      {
+        "iteration": 25,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 16,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.004094891289996683
+      },
+      {
+        "iteration": 26,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 14,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.009287172796618677
+      },
+      {
+        "iteration": 27,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 47,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0023217932041554312
+      },
+      {
+        "iteration": 28,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 51,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0005804483060390386
+      },
+      {
+        "iteration": 29,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 52,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0006170350755458076
+      },
+      {
+        "iteration": 30,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 53,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0006158476675153929
+      },
+      {
+        "iteration": 31,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 54,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0006994502122610324
+      },
+      {
+        "iteration": 32,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 55,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0006220940450417517
+      },
+      {
+        "iteration": 33,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 52,
+        "max_reach_error_kW": 1.4210854715202004e-14,
+        "max_area_error_kJ": 0.0005522739916284658
+      },
+      {
+        "iteration": 34,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 51,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.00014907716661355375
+      },
+      {
+        "iteration": 35,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 50,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.00039908933741970853
+      },
+      {
+        "iteration": 36,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 46,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0003421398379867546
+      },
+      {
+        "iteration": 37,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 48,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0002940454415858995
+      },
+      {
+        "iteration": 38,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 51,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.00027440298972966626
+      },
+      {
+        "iteration": 39,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 44,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.00021858051989966099
+      },
+      {
+        "iteration": 40,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 38,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.00019526042665912735
+      },
+      {
+        "iteration": 41,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 35,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.00017054908862565443
+      },
+      {
+        "iteration": 42,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 30,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.00013114281625520308
+      },
+      {
+        "iteration": 43,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 37,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 0.0001408549183874036
+      },
+      {
+        "iteration": 44,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 35,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 9.449517108674199e-05
+      },
+      {
+        "iteration": 45,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 40,
+        "max_reach_error_kW": 3.126388037344441e-13,
+        "max_area_error_kJ": 9.01557933750824e-05
+      },
+      {
+        "iteration": 46,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 56,
+        "max_reach_error_kW": 3.126388037344441e-13,
+        "max_area_error_kJ": 2.253895334297651e-05
+      },
+      {
+        "iteration": 47,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 61,
+        "max_reach_error_kW": 1.4210854715202004e-13,
+        "max_area_error_kJ": 5.634743336258019e-06
+      },
+      {
+        "iteration": 48,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 57,
+        "max_reach_error_kW": 1.4210854715202004e-13,
+        "max_area_error_kJ": 1.4086908340371629e-06
+      },
+      {
+        "iteration": 49,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 48,
+        "max_reach_error_kW": 3.126388037344441e-13,
+        "max_area_error_kJ": 6.075228762558726e-07
+      },
+      {
+        "iteration": 50,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 38,
+        "max_reach_error_kW": 1.4210854715202004e-13,
+        "max_area_error_kJ": 6.830660081447171e-07
+      },
+      {
+        "iteration": 51,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 25,
+        "max_reach_error_kW": 1.4210854715202004e-13,
+        "max_area_error_kJ": 1.7077400180087743e-07
+      },
+      {
+        "iteration": 52,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 18,
+        "max_reach_error_kW": 1.4210854715202004e-13,
+        "max_area_error_kJ": 4.270100030512314e-08
+      },
+      {
+        "iteration": 53,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 9,
+        "max_reach_error_kW": 1.4210854715202004e-13,
+        "max_area_error_kJ": 1.1489725160185316e-07
+      },
+      {
+        "iteration": 54,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 8,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 2.8731812373727905e-08
+      },
+      {
+        "iteration": 55,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 4,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 1.0310503506527624e-08
+      },
+      {
+        "iteration": 56,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 3,
+        "max_reach_error_kW": 2.842170943040401e-14,
+        "max_area_error_kJ": 2.5851257662301563e-09
+      },
+      {
+        "iteration": 57,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 1,
+        "max_reach_error_kW": 1.4210854715202004e-13,
+        "max_area_error_kJ": 4.927462993187248e-09
+      },
+      {
+        "iteration": 58,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 2,
+        "max_reach_error_kW": 1.4210854715202004e-13,
+        "max_area_error_kJ": 1.239365665650638e-09
+      },
+      {
+        "iteration": 59,
+        "upper_margin": 0.2860260833835822,
+        "new_cuts": 0,
+        "max_reach_error_kW": 1.4210854715202004e-13,
+        "max_area_error_kJ": 9.575848100573658e-10
+      }
+    ],
+    "max_linear_violation": 1.3500311979441904e-13,
+    "duality_gap": 5.551115123125783e-17
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 600,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": 1.4993032335811858,
+    "iterations": 16,
+    "cuts": 908,
+    "runtime_s": 0.17898926999987452,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 1.9098065104632695,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.18750000000000044
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 1.5036569836562421,
+        "new_cuts": 15,
+        "max_reach_error_kW": 2.1289998029564003,
+        "max_area_error_kJ": 0.05061199079765455
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.022134346840272268
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 7,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005533586715066985
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0007908123652746735
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00018689070183697254
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00011736288827823849
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.9340729571281088e-05
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 7.335189894375205e-06
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.8188707261446169e-06
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.547251806208408e-07
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.1368879804241061e-07
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.8429701148802167e-08
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 7.114926092732787e-09
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 1,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.7862352708064577e-09
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 1.4993032335811858,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.646937722454282e-10
+      }
+    ],
+    "max_linear_violation": 2.842170943040401e-14,
+    "duality_gap": 2.220446049250313e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 600,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": 1.4055532335811858,
+    "iterations": 14,
+    "cuts": 903,
+    "runtime_s": 0.15784025399989332,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.3450816773661798,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 1.8160565104632695,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.1875000000000001
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 1.4099069836562426,
+        "new_cuts": 14,
+        "max_reach_error_kW": 2.1289998029586172,
+        "max_area_error_kJ": 0.029736545068451026
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.010125419244303213
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 9,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0025313548160761923
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0006328387115179246
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0001582096853797177
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.95524288454574e-05
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.888114707701234e-06
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.4720361778696187e-06
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.180165434965801e-07
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.7285965698584675e-08
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.1828995227780581e-08
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.96474822469861e-09
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 1.4055532335811858,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.494953629423208e-10
+      }
+    ],
+    "max_linear_violation": 1.3322676295501878e-15,
+    "duality_gap": 2.220446049250313e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 600,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": 1.4854274709220832,
+    "iterations": 18,
+    "cuts": 1862,
+    "runtime_s": 0.5064289469992218,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 1.7188065104632702,
+        "new_cuts": 25,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.046875000000000555
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 1.4963265959718361,
+        "new_cuts": 19,
+        "max_reach_error_kW": 2.914798064483989,
+        "max_area_error_kJ": 0.0381709967567654
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 1.4854283422745018,
+        "new_cuts": 18,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0468695915689607
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 1.4854276670265634,
+        "new_cuts": 21,
+        "max_reach_error_kW": 3.9222109478487255e-05,
+        "max_area_error_kJ": 0.04687500000000017
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 18,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.023890029786043876
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0059725074540110945
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0014931268710027257
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0005964218333868732
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00014910546584667728
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.5259659388063866e-05
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.1314922347294143e-05
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.828738086324556e-06
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 7.152657363063142e-07
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.7882393393842122e-07
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.471348336032577e-08
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 6,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.1185870785190843e-08
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.8039675026292343e-09
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 1.4854274709220832,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.33454749660234e-10
+      }
+    ],
+    "max_linear_violation": 9.237055564881302e-13,
+    "duality_gap": 8.881784197001252e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 600,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": 1.4619899709220832,
+    "iterations": 18,
+    "cuts": 1820,
+    "runtime_s": 0.5058337779992144,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.10720254425996918,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 1.6953690104632702,
+        "new_cuts": 25,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.046875000000000944
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 1.4728890959718361,
+        "new_cuts": 19,
+        "max_reach_error_kW": 2.914798064483989,
+        "max_area_error_kJ": 0.03521081829661221
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 1.4619908422745018,
+        "new_cuts": 15,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.04127535066890475
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 1.4619901670265634,
+        "new_cuts": 17,
+        "max_reach_error_kW": 3.9222109478487255e-05,
+        "max_area_error_kJ": 0.010318837674726078
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006166923656390211
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0024188569583470515
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0006047142445868292
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00025311358703328235
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.327840425790487e-05
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.5819608564449084e-05
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.95490964105738e-06
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.887349102233323e-07
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 9,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.6026459547245917e-07
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.507364883057143e-08
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 8,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.627591224295788e-08
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 6,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.0764780787072574e-09
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.172446444959064e-09
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 1.4619899709220832,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.75551750492798e-10
+      }
+    ],
+    "max_linear_violation": 1.4210854715202004e-14,
+    "duality_gap": 1.3322676295501878e-15
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 600,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": 1.4841210343189504,
+    "iterations": 25,
+    "cuts": 3992,
+    "runtime_s": 2.4246239860003698,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 1.6072846499725546,
+        "new_cuts": 51,
+        "max_reach_error_kW": 0.18441367510712325,
+        "max_area_error_kJ": 0.011734181624464546
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 1.484244044556696,
+        "new_cuts": 38,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000486
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 1.4841210376525216,
+        "new_cuts": 26,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000007758
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 32,
+        "max_reach_error_kW": 4.4103347818236216e-07,
+        "max_area_error_kJ": 0.011718750000003178
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 34,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718749999999972
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 36,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0037907881015559856
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 38,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.004842073113739315
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 40,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0025884954542104086
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 42,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.001954667248669977
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 43,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0007977928424182101
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 45,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0005262470075123732
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 46,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0002502641033306392
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 47,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.256603083260731e-05
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 47,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.4341475379061e-05
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 44,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.653751168166159e-05
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 40,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.1634385420469795e-05
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 33,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.9086038550868443e-06
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 28,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 7.2715846378274e-07
+      },
+      {
+        "iteration": 18,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.8179711598620418e-07
+      },
+      {
+        "iteration": 19,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.045822165997138e-07
+      },
+      {
+        "iteration": 20,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.261530541279976e-07
+      },
+      {
+        "iteration": 21,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 7,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.154576352221161e-08
+      },
+      {
+        "iteration": 22,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 7.893940962705459e-09
+      },
+      {
+        "iteration": 23,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.9809851953267454e-09
+      },
+      {
+        "iteration": 24,
+        "upper_margin": 1.4841210343189504,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.535551098727169e-10
+      }
+    ],
+    "max_linear_violation": 1.1368683772161603e-13,
+    "duality_gap": 2.220446049250313e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 600,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": 1.4782616593189504,
+    "iterations": 24,
+    "cuts": 4010,
+    "runtime_s": 2.1778569199996127,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.026800636064992302,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 1.6014252749725546,
+        "new_cuts": 52,
+        "max_reach_error_kW": 0.18441367510712325,
+        "max_area_error_kJ": 0.011734181624464546
+      },
+      {
+        "iteration": 1,
+        "upper_margin": 1.4783846695566958,
+        "new_cuts": 39,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000014
+      },
+      {
+        "iteration": 2,
+        "upper_margin": 1.4782616626525213,
+        "new_cuts": 27,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000208
+      },
+      {
+        "iteration": 3,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 33,
+        "max_reach_error_kW": 4.4103347818236216e-07,
+        "max_area_error_kJ": 0.01171875000000102
+      },
+      {
+        "iteration": 4,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 33,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.010010820217740135
+      },
+      {
+        "iteration": 5,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 35,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718749999999958
+      },
+      {
+        "iteration": 6,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 37,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.007695623862237003
+      },
+      {
+        "iteration": 7,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 39,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002153134550017855
+      },
+      {
+        "iteration": 8,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 40,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0029775914426961453
+      },
+      {
+        "iteration": 9,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 42,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.001223992432688184
+      },
+      {
+        "iteration": 10,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 43,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0005465420635310629
+      },
+      {
+        "iteration": 11,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 45,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0006198809634807012
+      },
+      {
+        "iteration": 12,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 46,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0003748652229727794
+      },
+      {
+        "iteration": 13,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 46,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.371631074308814e-05
+      },
+      {
+        "iteration": 14,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 46,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.3429082685794134e-05
+      },
+      {
+        "iteration": 15,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 40,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.577637632784126e-05
+      },
+      {
+        "iteration": 16,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 38,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.1444101582040733e-05
+      },
+      {
+        "iteration": 17,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 31,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.8610328955333553e-06
+      },
+      {
+        "iteration": 18,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 28,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 7.152657238579385e-07
+      },
+      {
+        "iteration": 19,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.7882393095469684e-07
+      },
+      {
+        "iteration": 20,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.471348272194753e-08
+      },
+      {
+        "iteration": 21,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 9,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.1185870577024026e-08
+      },
+      {
+        "iteration": 22,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 6,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.803967599773749e-09
+      },
+      {
+        "iteration": 23,
+        "upper_margin": 1.4782616593189504,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.01989538615311e-10
+      }
+    ],
+    "max_linear_violation": 4.547473508864641e-13,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 900,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": -0.6466489091519652,
+    "iterations": 23,
+    "cuts": 1093,
+    "runtime_s": 0.30895649600279285,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.2361456322698814,
+        "new_cuts": 12,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.18750000000000067
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.6422951590769088,
+        "new_cuts": 11,
+        "max_reach_error_kW": 2.129249982988199,
+        "max_area_error_kJ": 0.024728349374401715
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01498857574517154
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005620752580857646
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0047861454342214005
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 15,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0023481885109979117
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002096238049566934
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0008766973806128009
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0006120738929822345
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0002497063432108093
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 15,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00015618590030838653
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.289868111039823e-05
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.322467527759997e-05
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 17,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.4554662617470857e-05
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 17,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.13867065435425e-06
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 17,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.5346726635612207e-06
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.8367316590459666e-07
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.592579144901414e-08
+      },
+      {
+        "iteration": 18,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.398894788369077e-08
+      },
+      {
+        "iteration": 19,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.004736929909882e-09
+      },
+      {
+        "iteration": 20,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.49970916083231e-09
+      },
+      {
+        "iteration": 21,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 1,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.1324274851176597e-09
+      },
+      {
+        "iteration": 22,
+        "upper_margin": -0.6466489091519652,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.625538976987258e-10
+      }
+    ],
+    "max_linear_violation": 1.4210854715202004e-14,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 900,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": -0.7403989091519652,
+    "iterations": 19,
+    "cuts": 1022,
+    "runtime_s": 0.24082802100019762,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.3450816773661798,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.43691625563344716,
+        "new_cuts": 12,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.18750000000000155
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.7360451590769084,
+        "new_cuts": 10,
+        "max_reach_error_kW": 2.1292499829887106,
+        "max_area_error_kJ": 0.08553207374752758
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 8,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.008660148374614096
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0021650370986529555
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0035735037376142254
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 15,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0014200242172008881
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.000605778815193192
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0003239589664137399
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0001119105830464373
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.797765076148484e-05
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.2187887456281974e-05
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.546979364279281e-06
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.386752341125952e-06
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.466955852127196e-07
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.668139644951722e-08
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 7,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.1677849182388798e-08
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.426962379484479e-09
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.3642406648806116e-09
+      },
+      {
+        "iteration": 18,
+        "upper_margin": -0.7403989091519652,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.619895353056961e-10
+      }
+    ],
+    "max_linear_violation": 5.684341886080802e-14,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 900,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": -0.6723398000202083,
+    "iterations": 34,
+    "cuts": 2355,
+    "runtime_s": 1.2136833040021884,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.4363379515050389,
+        "new_cuts": 23,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.04687500000000089
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.6618268642258739,
+        "new_cuts": 15,
+        "max_reach_error_kW": 2.914798064483932,
+        "max_area_error_kJ": 0.025346492689697325
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.6723388625882696,
+        "new_cuts": 15,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006791318828328438
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.6723396039157814,
+        "new_cuts": 12,
+        "max_reach_error_kW": 7.56579016183423e-05,
+        "max_area_error_kJ": 0.006843267066496239
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006384985874779411
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00610102905334213
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005908185341979955
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005768734239655404
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 18,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005663217707946852
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0055806008099884286
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00551416053590173
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005458743827160717
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005413100720338529
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005373635774295435
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0055611862026457015
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 32,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0013902965556614744
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 33,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0010783651689487694
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 34,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0015033717881606512
+      },
+      {
+        "iteration": 18,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 35,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0011347073095160226
+      },
+      {
+        "iteration": 19,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 36,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0007492243819907929
+      },
+      {
+        "iteration": 20,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 37,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0006488590788592263
+      },
+      {
+        "iteration": 21,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 37,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00016221477471480006
+      },
+      {
+        "iteration": 22,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 37,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.05536986787039e-05
+      },
+      {
+        "iteration": 23,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 37,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.0138429669674653e-05
+      },
+      {
+        "iteration": 24,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 37,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.5346149174210186e-06
+      },
+      {
+        "iteration": 25,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 32,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.336612293489363e-07
+      },
+      {
+        "iteration": 26,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 28,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.5842280733785463e-07
+      },
+      {
+        "iteration": 27,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.961320182988004e-08
+      },
+      {
+        "iteration": 28,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.910800458090563e-09
+      },
+      {
+        "iteration": 29,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 6,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.67441810311675e-09
+      },
+      {
+        "iteration": 30,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.129829942965067e-08
+      },
+      {
+        "iteration": 31,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.332074851094326e-09
+      },
+      {
+        "iteration": 32,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 1,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.3405187515580508e-09
+      },
+      {
+        "iteration": 33,
+        "upper_margin": -0.6723398000202083,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.892893171326023e-10
+      }
+    ],
+    "max_linear_violation": 1.4210854715202004e-14,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 900,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": -0.6957773000202083,
+    "iterations": 35,
+    "cuts": 2368,
+    "runtime_s": 1.2976097400023718,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.13332667698854983,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.4597754515050389,
+        "new_cuts": 22,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.04687500000000089
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.6852643642258742,
+        "new_cuts": 15,
+        "max_reach_error_kW": 2.9147980644838754,
+        "max_area_error_kJ": 0.04384977527123844
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.6957763625882687,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.010962443822809642
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.6957771039157814,
+        "new_cuts": 11,
+        "max_reach_error_kW": 7.56579016183423e-05,
+        "max_area_error_kJ": 0.00761478780084987
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 8,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006914263553942451
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006508787971451893
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006245666457425539
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006061046032429893
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005924398001988018
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 18,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005819192623812919
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005735705535903413
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.007219285074150164
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.010508416075426075
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.003620449842686571
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01163422834692282
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 30,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.003005357630577299
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 31,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0016623876922128716
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 32,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.001256078844698784
+      },
+      {
+        "iteration": 18,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 33,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.001204796352777475
+      },
+      {
+        "iteration": 19,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 34,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0009519975651912649
+      },
+      {
+        "iteration": 20,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 35,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0008607639831643282
+      },
+      {
+        "iteration": 21,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 36,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0007141897748561415
+      },
+      {
+        "iteration": 22,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 37,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0006170553057058131
+      },
+      {
+        "iteration": 23,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 37,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00015426383142645023
+      },
+      {
+        "iteration": 24,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 37,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.8565962856618174e-05
+      },
+      {
+        "iteration": 25,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 37,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.641495714154957e-06
+      },
+      {
+        "iteration": 26,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 33,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.4103814285289515e-06
+      },
+      {
+        "iteration": 27,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 31,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.026028571345932e-07
+      },
+      {
+        "iteration": 28,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.5065821429294246e-07
+      },
+      {
+        "iteration": 29,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.767205357385617e-08
+      },
+      {
+        "iteration": 30,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 7,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.425513397554042e-09
+      },
+      {
+        "iteration": 31,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.3638783500090632e-09
+      },
+      {
+        "iteration": 32,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.342737558449272e-09
+      },
+      {
+        "iteration": 33,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 1,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.093184598399688e-09
+      },
+      {
+        "iteration": 34,
+        "upper_margin": -0.6957773000202083,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.783718835087996e-10
+      }
+    ],
+    "max_linear_violation": 1.4210854715202004e-14,
+    "duality_gap": 4.440892098500626e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 900,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": -0.6723391123934384,
+    "iterations": 46,
+    "cuts": 4712,
+    "runtime_s": 5.0976963130015065,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.5452511751625093,
+        "new_cuts": 44,
+        "max_reach_error_kW": 0.18441367510712325,
+        "max_area_error_kJ": 0.011734181624464546
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.6721926334577372,
+        "new_cuts": 26,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718749999999965
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.6723391033509953,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.008340793400420297
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.6723391101960576,
+        "new_cuts": 28,
+        "max_reach_error_kW": 5.787972554571752e-07,
+        "max_area_error_kJ": 0.007735997484352469
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 25,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.007329506288953763
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 27,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006673942987755439
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 29,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006547227127622117
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 30,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006460367644106922
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006401873570391424
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 25,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0057878147287059
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 27,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718749999999944
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.6723391123934386,
+        "new_cuts": 27,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718749999996628
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011044204831480449
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 25,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000049
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718749999999535
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.6723391123934386,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.009443545239167392
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.008972010597493571
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.6723391123934386,
+        "new_cuts": 26,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.004521551512266447
+      },
+      {
+        "iteration": 18,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000222
+      },
+      {
+        "iteration": 19,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011570003130184914
+      },
+      {
+        "iteration": 20,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 17,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171875
+      },
+      {
+        "iteration": 21,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006239759846986607
+      },
+      {
+        "iteration": 22,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171874999999975
+      },
+      {
+        "iteration": 23,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 17,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000153
+      },
+      {
+        "iteration": 24,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.004427269177703034
+      },
+      {
+        "iteration": 25,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718749999999417
+      },
+      {
+        "iteration": 26,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 19,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000028
+      },
+      {
+        "iteration": 27,
+        "upper_margin": -0.6723391123934386,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171875000000002
+      },
+      {
+        "iteration": 28,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.009303944165006697
+      },
+      {
+        "iteration": 29,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 26,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002929687505000181
+      },
+      {
+        "iteration": 30,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 19,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011128605746620793
+      },
+      {
+        "iteration": 31,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 54,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171875000000002
+      },
+      {
+        "iteration": 32,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 69,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002929687505000042
+      },
+      {
+        "iteration": 33,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 70,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0019582974296769168
+      },
+      {
+        "iteration": 34,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 73,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0004895743624192123
+      },
+      {
+        "iteration": 35,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 73,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0001223935956048139
+      },
+      {
+        "iteration": 36,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 73,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.059840390119695e-05
+      },
+      {
+        "iteration": 37,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 72,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 7.64960597530312e-06
+      },
+      {
+        "iteration": 38,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 73,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.7189293885658836e-06
+      },
+      {
+        "iteration": 39,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 67,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.297398471524998e-07
+      },
+      {
+        "iteration": 40,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 57,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.3244246191711504e-07
+      },
+      {
+        "iteration": 41,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 43,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.8118115431327055e-08
+      },
+      {
+        "iteration": 42,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.4537028893146786e-08
+      },
+      {
+        "iteration": 43,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.440355460740621e-09
+      },
+      {
+        "iteration": 44,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.6801837317281798e-09
+      },
+      {
+        "iteration": 45,
+        "upper_margin": -0.6723391123934384,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.916301391132976e-10
+      }
+    ],
+    "max_linear_violation": 6.160270904498333e-11,
+    "duality_gap": 6.661338147750939e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 100,
+    "beta": 900,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": -0.6781984873934342,
+    "iterations": 50,
+    "cuts": 4780,
+    "runtime_s": 5.643032740998024,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.03333166924713745,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.5511105501625093,
+        "new_cuts": 44,
+        "max_reach_error_kW": 0.18441367510712325,
+        "max_area_error_kJ": 0.011734181624464546
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.6780520084577376,
+        "new_cuts": 25,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000003
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.6781984783509951,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.010018845889706331
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.6781984851960549,
+        "new_cuts": 27,
+        "max_reach_error_kW": 5.787970280834998e-07,
+        "max_area_error_kJ": 0.008918218297007997
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.6781984873934346,
+        "new_cuts": 25,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00823714130815921
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 27,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.007357717985029672
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.6781984873934346,
+        "new_cuts": 28,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0071401353519099445
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 18,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006998116578821184
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006856596608589595
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006743087729348514
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006650026538802867
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006571476750972811
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006504715297778945
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000031
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.6781984873934346,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718749999999209
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.010097053111833166
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.010083028415301117
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171874999999628
+      },
+      {
+        "iteration": 18,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.008830780172398904
+      },
+      {
+        "iteration": 19,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005245701488134996
+      },
+      {
+        "iteration": 20,
+        "upper_margin": -0.6781984873934346,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.007518055562980783
+      },
+      {
+        "iteration": 21,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 19,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171874999999914
+      },
+      {
+        "iteration": 22,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 19,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.008793931863533111
+      },
+      {
+        "iteration": 23,
+        "upper_margin": -0.6781984873934346,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.007058944422498211
+      },
+      {
+        "iteration": 24,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 17,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171875
+      },
+      {
+        "iteration": 25,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0058046281934579225
+      },
+      {
+        "iteration": 26,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 19,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.008964375405279362
+      },
+      {
+        "iteration": 27,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 18,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718749999999278
+      },
+      {
+        "iteration": 28,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0029296875049999727
+      },
+      {
+        "iteration": 29,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 17,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000694
+      },
+      {
+        "iteration": 30,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.007186542652316871
+      },
+      {
+        "iteration": 31,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 15,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171875000000002
+      },
+      {
+        "iteration": 32,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.008457786392766384
+      },
+      {
+        "iteration": 33,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 29,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171875
+      },
+      {
+        "iteration": 34,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 69,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0029296875050000212
+      },
+      {
+        "iteration": 35,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 70,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0026224219565368287
+      },
+      {
+        "iteration": 36,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 73,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.000896486558703103
+      },
+      {
+        "iteration": 37,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 73,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0009658497013283543
+      },
+      {
+        "iteration": 38,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 73,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.000241462432832084
+      },
+      {
+        "iteration": 39,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 73,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.0365615708029424e-05
+      },
+      {
+        "iteration": 40,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 73,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.5091411426963741e-05
+      },
+      {
+        "iteration": 41,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 73,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.7728603567502295e-06
+      },
+      {
+        "iteration": 42,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 66,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.89536919209632e-06
+      },
+      {
+        "iteration": 43,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 53,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 7.238497981149061e-07
+      },
+      {
+        "iteration": 44,
+        "upper_margin": -0.6781984873934346,
+        "new_cuts": 44,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.460168530120214e-07
+      },
+      {
+        "iteration": 45,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.6151171297607014e-07
+      },
+      {
+        "iteration": 46,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 9,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.038542839035486e-08
+      },
+      {
+        "iteration": 47,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 8,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.0103856751264573e-08
+      },
+      {
+        "iteration": 48,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.533464049658818e-09
+      },
+      {
+        "iteration": 49,
+        "upper_margin": -0.6781984873934342,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.818236224035104e-10
+      }
+    ],
+    "max_linear_violation": 3.4305103896459244e-11,
+    "duality_gap": 7.771561172376096e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 200,
+    "beta": 0,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": -0.44389404561719026,
+    "iterations": 18,
+    "cuts": 982,
+    "runtime_s": 0.23091793499770574,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": 0.06286574143237722,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.18750000000000133
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.41868286502527674,
+        "new_cuts": 13,
+        "max_reach_error_kW": 2.1292499829886538,
+        "max_area_error_kJ": 0.09496164732961565
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.4438491101032689,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.045147210643764535
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.024221440518135795
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.4438940456171885,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006055360137034893
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0015138400417592512
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.000378460017938842
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00022689920595647672
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.672480898860632e-05
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.4438940456171885,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.4181209743946432e-05
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.5453099372362296e-06
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 8,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.863349851284674e-07
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.262807833857238e-07
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.1577696901763375e-08
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 7.901926446507446e-09
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.4438940456171885,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.9829768937995595e-09
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 1,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.0947281137152487e-09
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.44389404561719026,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.061757762410025e-10
+      }
+    ],
+    "max_linear_violation": 2.5579538487363607e-13,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 200,
+    "beta": 0,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": -0.8458001611263892,
+    "iterations": 18,
+    "cuts": 986,
+    "runtime_s": 0.2376918910013046,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.4132950951107403,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.33904037407682175,
+        "new_cuts": 14,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.18750000000000133
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.8205889805344757,
+        "new_cuts": 13,
+        "max_reach_error_kW": 2.1292499829886538,
+        "max_area_error_kJ": 0.09376263089697501
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.8457552256124661,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.04511987192775935
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.8458001611263857,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.024211143256637646
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.006052785821658246
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.001513196462914257
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.8458001611263857,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0006055655140634886
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0002258633103705554
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.646583508944758e-05
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.4116466270752692e-05
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.529124068368805e-06
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.822885176895667e-07
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 10,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.2057963006139047e-07
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 8,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.5152408640068984e-08
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 5,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.3795602549215857e-08
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.4991269881601283e-09
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.8458001611263857,
+        "new_cuts": 1,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.1841223002129198e-09
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.8458001611263892,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.822817476605849e-10
+      }
+    ],
+    "max_linear_violation": 5.684341886080802e-14,
+    "duality_gap": 4.440892098500626e-15
+  },
+  {
+    "status": "converged",
+    "alpha": 200,
+    "beta": 0,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": -0.4438954767582136,
+    "iterations": 28,
+    "cuts": 2220,
+    "runtime_s": 1.1131111930008046,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.1789412718930521,
+        "new_cuts": 28,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.04687500000000047
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.427222836539606,
+        "new_cuts": 26,
+        "max_reach_error_kW": 2.914798064483932,
+        "max_area_error_kJ": 0.04687500000000004
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.4438931746290091,
+        "new_cuts": 26,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.04687500000000017
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.44389405511524316,
+        "new_cuts": 24,
+        "max_reach_error_kW": 7.565790178887255e-05,
+        "max_area_error_kJ": 0.02356882962046558
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.443895476758211,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.03769963538334642
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.44389547675821195,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.020410244007668374
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.44389547675821295,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.042754144906474834
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.44389547675821295,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.04613966803337173
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.44389547675821284,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.012136000609543604
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.44389547675821284,
+        "new_cuts": 25,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.003034000157386141
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.44389547675821095,
+        "new_cuts": 25,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.004457593647639133
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.443895476758211,
+        "new_cuts": 27,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.003024695961783494
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.44389547675821184,
+        "new_cuts": 28,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0015929389917775372
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.44389547675821195,
+        "new_cuts": 29,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0006507170648484689
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.44389547675821284,
+        "new_cuts": 29,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0020803421389665733
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.4438954767582128,
+        "new_cuts": 26,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0005200855422417272
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.44389547675821117,
+        "new_cuts": 24,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00013002139306036997
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.44389547675821284,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.8830298754469195e-05
+      },
+      {
+        "iteration": 18,
+        "upper_margin": -0.44389547675821195,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.966061795175225e-05
+      },
+      {
+        "iteration": 19,
+        "upper_margin": -0.4438954767582136,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.2415161987966439e-05
+      },
+      {
+        "iteration": 20,
+        "upper_margin": -0.44389547675821195,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.279416809161498e-06
+      },
+      {
+        "iteration": 21,
+        "upper_margin": -0.44389547675821195,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.5698617024245687e-06
+      },
+      {
+        "iteration": 22,
+        "upper_margin": -0.44389547675821117,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.92472925554721e-07
+      },
+      {
+        "iteration": 23,
+        "upper_margin": -0.443895476758211,
+        "new_cuts": 16,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.812573167206073e-08
+      },
+      {
+        "iteration": 24,
+        "upper_margin": -0.44389547675821195,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.4538933211804004e-08
+      },
+      {
+        "iteration": 25,
+        "upper_margin": -0.44389547675821284,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.142233027750521e-09
+      },
+      {
+        "iteration": 26,
+        "upper_margin": -0.44389547675821106,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.387708364359753e-09
+      },
+      {
+        "iteration": 27,
+        "upper_margin": -0.4438954767582136,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.70960756241368e-10
+      }
+    ],
+    "max_linear_violation": 1.9895196601282805e-13,
+    "duality_gap": 7.771561172376096e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 200,
+    "beta": 0,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": -0.5443720056355126,
+    "iterations": 28,
+    "cuts": 2215,
+    "runtime_s": 1.1686928890012496,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.10345504871992413,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.27941780077035183,
+        "new_cuts": 28,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.04687500000000033
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.5276993654169058,
+        "new_cuts": 26,
+        "max_reach_error_kW": 2.914798064483932,
+        "max_area_error_kJ": 0.04687500000000011
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.5443697035063089,
+        "new_cuts": 26,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.04687500000000017
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.5443705839925411,
+        "new_cuts": 24,
+        "max_reach_error_kW": 7.565790178887255e-05,
+        "max_area_error_kJ": 0.02361026450016601
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.5443720056355127,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.037736047548332596
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.5443720056355108,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.020392506228965365
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.5443720056355137,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0460028621945176
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.5443720056355126,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.04621683745063193
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.5443720056355108,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.012229883892603988
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.5443720056355108,
+        "new_cuts": 25,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.003057470978150928
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.5443720056355108,
+        "new_cuts": 26,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005183967501068046
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.5443720056355118,
+        "new_cuts": 27,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0032599730206205324
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.5443720056355117,
+        "new_cuts": 27,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.004787042261571617
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.5443720056355126,
+        "new_cuts": 28,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0016203820032319183
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.5443720056355126,
+        "new_cuts": 29,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0006498630940754563
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.5443720056355116,
+        "new_cuts": 29,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0002015741398592591
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.5443720056355116,
+        "new_cuts": 27,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00011210556743843081
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.5443720056355108,
+        "new_cuts": 25,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.759997924054352e-05
+      },
+      {
+        "iteration": 18,
+        "upper_margin": -0.5443720056355116,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.1899999810115478e-05
+      },
+      {
+        "iteration": 19,
+        "upper_margin": -0.5443720056355142,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.475004952557039e-06
+      },
+      {
+        "iteration": 20,
+        "upper_margin": -0.5443720056355108,
+        "new_cuts": 23,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.368756238129265e-06
+      },
+      {
+        "iteration": 21,
+        "upper_margin": -0.5443720056355116,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.4219655951212014e-07
+      },
+      {
+        "iteration": 22,
+        "upper_margin": -0.5443720056355126,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.555663985609918e-08
+      },
+      {
+        "iteration": 23,
+        "upper_margin": -0.5443720056355145,
+        "new_cuts": 13,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.3408173293871783e-08
+      },
+      {
+        "iteration": 24,
+        "upper_margin": -0.5443720056355126,
+        "new_cuts": 9,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.0600187241860404e-08
+      },
+      {
+        "iteration": 25,
+        "upper_margin": -0.5443720056355126,
+        "new_cuts": 1,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.527584945319575e-09
+      },
+      {
+        "iteration": 26,
+        "upper_margin": -0.5443720056355126,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.3893960426614171e-09
+      },
+      {
+        "iteration": 27,
+        "upper_margin": -0.5443720056355126,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.481878060491056e-10
+      }
+    ],
+    "max_linear_violation": 1.3655854225191888e-11,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 200,
+    "beta": 0,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": -0.44389435418633383,
+    "iterations": 39,
+    "cuts": 4715,
+    "runtime_s": 5.16954198899839,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.30241836235025055,
+        "new_cuts": 54,
+        "max_reach_error_kW": 0.18441367510712325,
+        "max_area_error_kJ": 0.011734181624464546
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.4436141913847784,
+        "new_cuts": 41,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171875
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.4438940348594329,
+        "new_cuts": 43,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0117187500000005
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.4438940685407875,
+        "new_cuts": 62,
+        "max_reach_error_kW": 1.5862879649830575e-06,
+        "max_area_error_kJ": 0.011718750000000555
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 38,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000222
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 45,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171874999999993
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 47,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000083
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 52,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000014
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 53,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01080530938631781
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 53,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005723961453185187
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 54,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005137463884745726
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 54,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0031857457969604354
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 56,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0029161961889628517
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 57,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002074755782059713
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 57,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0021706319168736665
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 55,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.001139474963488936
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 53,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0010894981746829117
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 46,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0010997490212316524
+      },
+      {
+        "iteration": 18,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 45,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0005587649066832907
+      },
+      {
+        "iteration": 19,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 44,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00033116841065149866
+      },
+      {
+        "iteration": 20,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 39,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.000371183300147614
+      },
+      {
+        "iteration": 21,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 42,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00014655596412499125
+      },
+      {
+        "iteration": 22,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 46,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.000141670378199385
+      },
+      {
+        "iteration": 23,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 44,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.072869922207208e-05
+      },
+      {
+        "iteration": 24,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 48,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.4057233025662206e-05
+      },
+      {
+        "iteration": 25,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 45,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.014313256409026e-06
+      },
+      {
+        "iteration": 26,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 41,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.0265382866157802e-05
+      },
+      {
+        "iteration": 27,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 40,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.566353216534867e-06
+      },
+      {
+        "iteration": 28,
+        "upper_margin": -0.4438943541863267,
+        "new_cuts": 36,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.4499439068456355e-06
+      },
+      {
+        "iteration": 29,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 26,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.4259398241484034e-06
+      },
+      {
+        "iteration": 30,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 20,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.564899560635354e-07
+      },
+      {
+        "iteration": 31,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 17,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.912748908698753e-08
+      },
+      {
+        "iteration": 32,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 14,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.066927043720584e-08
+      },
+      {
+        "iteration": 33,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 12,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.00190466474049e-08
+      },
+      {
+        "iteration": 34,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 7,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.2512261707574588e-08
+      },
+      {
+        "iteration": 35,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.635565389350283e-09
+      },
+      {
+        "iteration": 36,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.55832127893674e-09
+      },
+      {
+        "iteration": 37,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.4495282647797314e-09
+      },
+      {
+        "iteration": 38,
+        "upper_margin": -0.44389435418633383,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.991857896629597e-10
+      }
+    ],
+    "max_linear_violation": 1.8189894035458565e-12,
+    "duality_gap": 0.0
+  },
+  {
+    "status": "converged",
+    "alpha": 200,
+    "beta": 0,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": -0.4690134864056592,
+    "iterations": 41,
+    "cuts": 4711,
+    "runtime_s": 5.199694442999316,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.02586376217998103,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -0.3275374945695759,
+        "new_cuts": 54,
+        "max_reach_error_kW": 0.18441367510712325,
+        "max_area_error_kJ": 0.011734181624464546
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -0.4687333236041038,
+        "new_cuts": 41,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171875
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -0.4690131670787583,
+        "new_cuts": 43,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000002276
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -0.4690132007601129,
+        "new_cuts": 62,
+        "max_reach_error_kW": 1.5862879649830575e-06,
+        "max_area_error_kJ": 0.011718750000002442
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 38,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000003497
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 45,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.01171874999999993
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 47,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000042
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 52,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.011718750000000042
+      },
+      {
+        "iteration": 8,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 53,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.010818733462251165
+      },
+      {
+        "iteration": 9,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 53,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.005725717846168092
+      },
+      {
+        "iteration": 10,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 54,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0051376642779277434
+      },
+      {
+        "iteration": 11,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 54,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.003178769122570896
+      },
+      {
+        "iteration": 12,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 56,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002921214280595403
+      },
+      {
+        "iteration": 13,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 57,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0020933456208174564
+      },
+      {
+        "iteration": 14,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 58,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.002030896958138871
+      },
+      {
+        "iteration": 15,
+        "upper_margin": -0.4690134864056543,
+        "new_cuts": 55,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0012236003909596588
+      },
+      {
+        "iteration": 16,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 49,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0011039254867706745
+      },
+      {
+        "iteration": 17,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 44,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0010448613788899136
+      },
+      {
+        "iteration": 18,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 46,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0005466569535718911
+      },
+      {
+        "iteration": 19,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 41,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00034239019207919427
+      },
+      {
+        "iteration": 20,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 41,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.00030054569608032634
+      },
+      {
+        "iteration": 21,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 43,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0001788597992460339
+      },
+      {
+        "iteration": 22,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 45,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.0001726865016573008
+      },
+      {
+        "iteration": 23,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 44,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.236287520445429e-05
+      },
+      {
+        "iteration": 24,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 49,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.3763877269152717e-05
+      },
+      {
+        "iteration": 25,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 46,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.9001189990208722e-05
+      },
+      {
+        "iteration": 26,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 44,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.750304997552801e-06
+      },
+      {
+        "iteration": 27,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 40,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 3.954966450385455e-06
+      },
+      {
+        "iteration": 28,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 34,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.88749112574433e-07
+      },
+      {
+        "iteration": 29,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 28,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.162525427357401e-07
+      },
+      {
+        "iteration": 30,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 22,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.2907063563077914e-07
+      },
+      {
+        "iteration": 31,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 15,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 8.360130175633085e-08
+      },
+      {
+        "iteration": 32,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.769937573036788e-08
+      },
+      {
+        "iteration": 33,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 8,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.2294136241274298e-07
+      },
+      {
+        "iteration": 34,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 6,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.5742840655848e-08
+      },
+      {
+        "iteration": 35,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 4,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.3943210093458891e-08
+      },
+      {
+        "iteration": 36,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.140847990885543e-09
+      },
+      {
+        "iteration": 37,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.0427120313016847e-09
+      },
+      {
+        "iteration": 38,
+        "upper_margin": -0.4690134864056543,
+        "new_cuts": 1,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.9610246516921226e-09
+      },
+      {
+        "iteration": 39,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 1,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.5496838812190106e-09
+      },
+      {
+        "iteration": 40,
+        "upper_margin": -0.4690134864056592,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.808586443060818e-10
+      }
+    ],
+    "max_linear_violation": 8.526512829121202e-13,
+    "duality_gap": 8.881784197001252e-16
+  },
+  {
+    "status": "converged",
+    "alpha": 300,
+    "beta": 1200,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": -8.918215371060446,
+    "iterations": 8,
+    "cuts": 859,
+    "runtime_s": 0.08979996599737206,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -8.411455584010882,
+        "new_cuts": 12,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.18750000000000133
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -8.893004190468536,
+        "new_cuts": 9,
+        "max_reach_error_kW": 2.1292499829886538,
+        "max_area_error_kJ": 0.013432397904798554
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -8.918170435546525,
+        "new_cuts": 6,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.08012301844618e-05
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -8.918215371060446,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.139708779935745e-06
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -8.918215371060446,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.113040777438016e-07
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -8.918215371060446,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.0711865661150455e-07
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -8.918215371060446,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.3933174169977747e-08
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -8.918215371060446,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.313291001092125e-10
+      }
+    ],
+    "max_linear_violation": 8.526512829121202e-14,
+    "duality_gap": 1.7763568394002505e-15
+  },
+  {
+    "status": "converged",
+    "alpha": 300,
+    "beta": 1200,
+    "n": 40,
+    "intervals": 41,
+    "margin_kJ": -9.011965371060446,
+    "iterations": 8,
+    "cuts": 859,
+    "runtime_s": 0.08831905800252571,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.5257348010493854,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -8.505205584010882,
+        "new_cuts": 12,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.18750000000000133
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -8.986754190468536,
+        "new_cuts": 9,
+        "max_reach_error_kW": 2.1292499829886538,
+        "max_area_error_kJ": 0.013432397904798554
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -9.011920435546525,
+        "new_cuts": 6,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.08012301844618e-05
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -9.011965371060446,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.139708779935745e-06
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -9.011965371060446,
+        "new_cuts": 3,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.113040777438016e-07
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -9.011965371060446,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.0711865661150455e-07
+      },
+      {
+        "iteration": 6,
+        "upper_margin": -9.011965371060446,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 1.3933174169977747e-08
+      },
+      {
+        "iteration": 7,
+        "upper_margin": -9.011965371060446,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.313291001092125e-10
+      }
+    ],
+    "max_linear_violation": 8.526512829121202e-14,
+    "duality_gap": 1.7763568394002505e-15
+  },
+  {
+    "status": "converged",
+    "alpha": 300,
+    "beta": 1200,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": -8.918216802201474,
+    "iterations": 6,
+    "cuts": 1679,
+    "runtime_s": 0.15046484300182783,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -8.653262597336312,
+        "new_cuts": 23,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.04687500000000078
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -8.901544161982866,
+        "new_cuts": 15,
+        "max_reach_error_kW": 2.914798064483932,
+        "max_area_error_kJ": 0.00860739503789465
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -8.918214500072269,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.391592446946092e-07
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -8.918215380558502,
+        "new_cuts": 6,
+        "max_reach_error_kW": 7.565790178887255e-05,
+        "max_area_error_kJ": 6.236939600334779e-07
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -8.918216802201476,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.515611218280924e-09
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -8.918216802201474,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.480381343707762e-10
+      }
+    ],
+    "max_linear_violation": 4.263256414560601e-14,
+    "duality_gap": 1.7763568394002505e-15
+  },
+  {
+    "status": "converged",
+    "alpha": 300,
+    "beta": 1200,
+    "n": 80,
+    "intervals": 81,
+    "margin_kJ": -8.941654302201474,
+    "iterations": 6,
+    "cuts": 1679,
+    "runtime_s": 0.15730480999991414,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.20536515665991611,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -8.676700097336312,
+        "new_cuts": 23,
+        "max_reach_error_kW": 0.0,
+        "max_area_error_kJ": 0.04687500000000078
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -8.924981661982866,
+        "new_cuts": 15,
+        "max_reach_error_kW": 2.914798064483932,
+        "max_area_error_kJ": 0.00860739503789465
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -8.941652000072269,
+        "new_cuts": 11,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 5.391592446946092e-07
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -8.941652880558502,
+        "new_cuts": 6,
+        "max_reach_error_kW": 7.565790178887255e-05,
+        "max_area_error_kJ": 6.236939600334779e-07
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -8.941654302201474,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.515611218280924e-09
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -8.941654302201474,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 4.4803818988192745e-10
+      }
+    ],
+    "max_linear_violation": 4.263256414560601e-14,
+    "duality_gap": 1.7763568394002505e-15
+  },
+  {
+    "status": "converged",
+    "alpha": 300,
+    "beta": 1200,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": -8.918215679629592,
+    "iterations": 6,
+    "cuts": 3342,
+    "runtime_s": 0.4214998530005687,
+    "tightened": false,
+    "max_nodal_margin_tightening_kJ": 0.0,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -8.776739687793507,
+        "new_cuts": 47,
+        "max_reach_error_kW": 0.18441367510712325,
+        "max_area_error_kJ": 0.011734181624464546
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -8.917935516828036,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.000956757561208943
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -8.918215360302685,
+        "new_cuts": 18,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.43657106058626e-07
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -8.918215393984044,
+        "new_cuts": 32,
+        "max_reach_error_kW": 1.5862873965488689e-06,
+        "max_area_error_kJ": 1.3991858938133817e-07
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -8.918215679629592,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.0698969427357383e-08
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -8.918215679629592,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.221730046249377e-10
+      }
+    ],
+    "max_linear_violation": 7.105427357601002e-14,
+    "duality_gap": 2.4868995751603507e-14
+  },
+  {
+    "status": "converged",
+    "alpha": 300,
+    "beta": 1200,
+    "n": 160,
+    "intervals": 161,
+    "margin_kJ": -8.924075054629592,
+    "iterations": 6,
+    "cuts": 3342,
+    "runtime_s": 0.4165272980026202,
+    "tightened": true,
+    "max_nodal_margin_tightening_kJ": 0.05134128916497905,
+    "history": [
+      {
+        "iteration": 0,
+        "upper_margin": -8.782599062793507,
+        "new_cuts": 47,
+        "max_reach_error_kW": 0.18441367510712325,
+        "max_area_error_kJ": 0.011734181624464546
+      },
+      {
+        "iteration": 1,
+        "upper_margin": -8.923794891828036,
+        "new_cuts": 21,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 0.000956757561208943
+      },
+      {
+        "iteration": 2,
+        "upper_margin": -8.924074735302685,
+        "new_cuts": 18,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 6.43657106058626e-07
+      },
+      {
+        "iteration": 3,
+        "upper_margin": -8.924074768984044,
+        "new_cuts": 32,
+        "max_reach_error_kW": 1.5862873965488689e-06,
+        "max_area_error_kJ": 1.3991858938133817e-07
+      },
+      {
+        "iteration": 4,
+        "upper_margin": -8.924075054629592,
+        "new_cuts": 2,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 2.0698969427357383e-08
+      },
+      {
+        "iteration": 5,
+        "upper_margin": -8.924075054629592,
+        "new_cuts": 0,
+        "max_reach_error_kW": 9.99875737761613e-11,
+        "max_area_error_kJ": 9.221730046249377e-10
+      }
+    ],
+    "max_linear_violation": 7.105427357601002e-14,
+    "duality_gap": 2.4868995751603507e-14
+  }
+]

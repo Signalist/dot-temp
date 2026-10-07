@@ -1,0 +1,350 @@
+{
+  "clarified_after_initial_V2_results": true,
+  "identity": "d(W+B)/dt=Pgrid-R*sum(i^2)-d-dZ/dt; Z=L*sum(i^2)/2",
+  "only_battery_transfer_cancels": true,
+  "controller_measured_quantity": "S=W+B, capacitor-plus-inventory energy",
+  "measurement_model": "Noiseless ideal instantaneous W/B sensing at10kHz PWM starts; no added filtering or delay; numerical integration error is not a sensor-accuracy claim",
+  "derived_return_bound": "|\u0394Z|\u2264(L/2)(||is||2+||ih||2)||is-ih||2\u2264L sqrt(3/2)1500 sqrt(3)2 =1.909188J, using both branch1500A space-vector bounds and each paired phase\u22642A",
+  "cases": [
+    {
+      "case": "nominal_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.010308402431775221,
+      "final100ms_dense_max_abs_dZ_J": 4.684434031787532e-07,
+      "deadline_dZ_J": -8.564558129364741e-08,
+      "final_observation_dZ_J": -3.6395704228198156e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "nominal_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.01030847269103674,
+      "final100ms_dense_max_abs_dZ_J": 4.69716013640209e-07,
+      "deadline_dZ_J": -8.641524118502275e-08,
+      "final_observation_dZ_J": -5.191509444557596e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4_r25_o37_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.014381180554607909,
+      "final100ms_dense_max_abs_dZ_J": 9.468566568671122e-05,
+      "deadline_dZ_J": 7.944928569258991e-06,
+      "final_observation_dZ_J": 1.4353958022184088e-07,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4_r25_o37_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.014381343750216047,
+      "final100ms_dense_max_abs_dZ_J": 9.468598906892112e-05,
+      "deadline_dZ_J": 7.944966171180567e-06,
+      "final_observation_dZ_J": 1.4366077039085212e-07,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4_r25_o73_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.010550389481295497,
+      "final100ms_dense_max_abs_dZ_J": 9.468528972433887e-05,
+      "deadline_dZ_J": 4.92838950094665e-07,
+      "final_observation_dZ_J": 5.28584394032805e-08,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4_r25_o73_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.010550582248043838,
+      "final100ms_dense_max_abs_dZ_J": 9.468495142073152e-05,
+      "deadline_dZ_J": 4.927300381041277e-07,
+      "final_observation_dZ_J": 5.374917577682936e-08,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4_r35_o37_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.012731020085709588,
+      "final100ms_dense_max_abs_dZ_J": 8.823057271456491e-07,
+      "deadline_dZ_J": -1.42070177844289e-08,
+      "final_observation_dZ_J": -1.3963870060251793e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4_r35_o37_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.01273093874664255,
+      "final100ms_dense_max_abs_dZ_J": 8.829141506794258e-07,
+      "deadline_dZ_J": -1.4639169876318192e-08,
+      "final_observation_dZ_J": -1.319961029366823e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4_r35_o73_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.008906652152433026,
+      "final100ms_dense_max_abs_dZ_J": 8.835709763843624e-07,
+      "deadline_dZ_J": -6.685058906441554e-08,
+      "final_observation_dZ_J": -2.15129603020614e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4_r35_o73_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.008906589832093914,
+      "final100ms_dense_max_abs_dZ_J": 8.831920865759457e-07,
+      "deadline_dZ_J": -6.692820875286998e-08,
+      "final_observation_dZ_J": -2.092406248266343e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau6_r25_o37_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.01330534129994021,
+      "final100ms_dense_max_abs_dZ_J": 1.3822049396594593e-05,
+      "deadline_dZ_J": 1.1038748937153287e-06,
+      "final_observation_dZ_J": 1.974490260181483e-08,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau6_r25_o37_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.013305250101382171,
+      "final100ms_dense_max_abs_dZ_J": 1.3822474812741348e-05,
+      "deadline_dZ_J": 1.103987045780741e-06,
+      "final_observation_dZ_J": 1.9805185047516716e-08,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau6_r25_o73_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.00946781157998089,
+      "final100ms_dense_max_abs_dZ_J": 1.3822381760064673e-05,
+      "deadline_dZ_J": 1.6956965964709525e-07,
+      "final_observation_dZ_J": 1.0942983408313012e-08,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau6_r25_o73_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.009467763713786326,
+      "final100ms_dense_max_abs_dZ_J": 1.3822087879589162e-05,
+      "deadline_dZ_J": 1.695605362783681e-07,
+      "final_observation_dZ_J": 1.1592788951020339e-08,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau6_r35_o37_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.012619103652582453,
+      "final100ms_dense_max_abs_dZ_J": 5.800522444587841e-07,
+      "deadline_dZ_J": -8.825242048260407e-08,
+      "final_observation_dZ_J": -2.2191386506165145e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau6_r35_o37_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.01261903603054293,
+      "final100ms_dense_max_abs_dZ_J": 5.804763247851952e-07,
+      "deadline_dZ_J": -8.83592008449341e-08,
+      "final_observation_dZ_J": -4.313449153414695e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau6_r35_o73_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.008768655549118876,
+      "final100ms_dense_max_abs_dZ_J": 5.799533653316757e-07,
+      "deadline_dZ_J": -9.946873547050927e-08,
+      "final_observation_dZ_J": -2.5041231310751755e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau6_r35_o73_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.008768623925618613,
+      "final100ms_dense_max_abs_dZ_J": 5.806319620660361e-07,
+      "deadline_dZ_J": -9.961357250176661e-08,
+      "final_observation_dZ_J": -4.7739376896061e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4.5_r27_o19_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.01279009572385803,
+      "final100ms_dense_max_abs_dZ_J": 3.217506554165084e-05,
+      "deadline_dZ_J": -4.815250065348664e-07,
+      "final_observation_dZ_J": 1.0096954383698176e-08,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4.5_r27_o19_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.012790062978723427,
+      "final100ms_dense_max_abs_dZ_J": 3.217526597154574e-05,
+      "deadline_dZ_J": -4.813777252365981e-07,
+      "final_observation_dZ_J": 1.0558409258010215e-08,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4.5_r27_o61_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.009382996716567504,
+      "final100ms_dense_max_abs_dZ_J": 3.217373500774556e-05,
+      "deadline_dZ_J": -1.9195321954157407e-06,
+      "final_observation_dZ_J": -5.6111844060069416e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4.5_r27_o61_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.009382989322205049,
+      "final100ms_dense_max_abs_dZ_J": 3.217354000639716e-05,
+      "deadline_dZ_J": -1.919289474017205e-06,
+      "final_observation_dZ_J": -5.207596132095205e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4.5_r33_o19_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.011545228345482883,
+      "final100ms_dense_max_abs_dZ_J": 4.502021511143539e-07,
+      "deadline_dZ_J": -7.310859473363962e-08,
+      "final_observation_dZ_J": -9.479492746322649e-10,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4.5_r33_o19_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.011545183893133526,
+      "final100ms_dense_max_abs_dZ_J": 4.4995641701461864e-07,
+      "deadline_dZ_J": -7.344749519688776e-08,
+      "final_observation_dZ_J": 4.0179770621762145e-10,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4.5_r33_o61_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.008126813476451389,
+      "final100ms_dense_max_abs_dZ_J": 4.512056648309226e-07,
+      "deadline_dZ_J": -7.600669960083906e-08,
+      "final_observation_dZ_J": -1.237310698343208e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau4.5_r33_o61_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.008126786568453781,
+      "final100ms_dense_max_abs_dZ_J": 4.51212031293835e-07,
+      "deadline_dZ_J": -7.639087584720983e-08,
+      "final_observation_dZ_J": 5.821050308441045e-10,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau5.5_r27_o19_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.011917272355333353,
+      "final100ms_dense_max_abs_dZ_J": 9.21703258427442e-06,
+      "deadline_dZ_J": -1.4244861290535482e-07,
+      "final_observation_dZ_J": 3.0074716050876305e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau5.5_r27_o19_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.011917199420452107,
+      "final100ms_dense_max_abs_dZ_J": 9.21687441746144e-06,
+      "deadline_dZ_J": -1.425481457317801e-07,
+      "final_observation_dZ_J": 3.909377710442641e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau5.5_r27_o61_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.008489783397124029,
+      "final100ms_dense_max_abs_dZ_J": 9.216392129474116e-06,
+      "deadline_dZ_J": -5.376363674258755e-07,
+      "final_observation_dZ_J": -6.496350124507444e-10,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau5.5_r27_o61_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.008489729223981612,
+      "final100ms_dense_max_abs_dZ_J": 9.216122577981878e-06,
+      "deadline_dZ_J": -5.375262901452516e-07,
+      "final_observation_dZ_J": -1.5288037502614316e-10,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau5.5_r33_o19_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.011498633840972161,
+      "final100ms_dense_max_abs_dZ_J": 5.079043887690204e-07,
+      "deadline_dZ_J": -8.798147632660402e-08,
+      "final_observation_dZ_J": -3.399776460355497e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau5.5_r33_o19_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.01149857539508048,
+      "final100ms_dense_max_abs_dZ_J": 5.074178091035719e-07,
+      "deadline_dZ_J": -8.742802037886577e-08,
+      "final_observation_dZ_J": -5.289081173032173e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau5.5_r33_o61_h1",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.008066609170953143,
+      "final100ms_dense_max_abs_dZ_J": 5.08798535747701e-07,
+      "deadline_dZ_J": -9.464514505452826e-08,
+      "final_observation_dZ_J": -3.872116849379381e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    },
+    {
+      "case": "tau5.5_r33_o61_h05",
+      "post_result_accounting_clarification": true,
+      "recovery_all_PWM_boundary_max_abs_dZ_J": 0.00806647786407666,
+      "final100ms_dense_max_abs_dZ_J": 5.087682382054481e-07,
+      "deadline_dZ_J": -9.456181260247831e-08,
+      "final_observation_dZ_J": -5.477716058521764e-09,
+      "return_tolerance_implied_dZ_bound_J": 1.9091883092036779,
+      "all_recovery_window_dZ_sampling": "100 us phase-matched PWM boundaries; final100ms additionally fixed1us grid; no continuous-time extremum claim"
+    }
+  ]
+}

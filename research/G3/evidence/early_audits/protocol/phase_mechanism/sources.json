@@ -1,0 +1,273 @@
+{
+  "audit_date_utc": "2026-10-02",
+  "scope": "Targeted literature and conceptual collision audit for the slow signed-service phase mechanism; no simulations, controller implementation, performance search, software download or source-code execution.",
+  "paper_ready": false,
+  "novelty_verdict": "Reject the weak off-peak-phase/asymmetric-headroom novelty claim. A nontrivial GFL-BESS-specific analytical impossibility-and-recovery theorem remains unestablished; this audit does not certify a literature gap.",
+  "archives_unchanged": {
+    "literature/novelty_audit.md": "5df56034fc0ce316ba897a598d62f9ea3f09f8cfa37111f51d8f459ecac50b0f",
+    "literature/sources.json": "735284f7652c402e83bf9fc81bb72e769a948cd85cb5f0a5d4117203440fc746",
+    "literature/artifact_audit.md": "31b8c34419705e321d04b6ec439b5e0df0fa7ac92f592620abb8b47489823ae8",
+    "GATE_A_EXTENSION_REPORT_ZH.md": "4a52dda92ab08efafe5c786a8382a43867f9771db840dcde1a7804d1ba19afc7"
+  },
+  "search_coverage": [
+    "Jaramillo/Carrión/Aguila 2026 reserve/service boundary",
+    "Shamseldein EPSR113557 simultaneous sustained forcing and sag",
+    "Zecchino and Gerini variable P/Q capability and predictive battery states",
+    "Periodic storage MPC, periodic admissibility, robust periodic tubes and power-electronic limit-cycle MPC",
+    "GFL DC-link energy, PLL interactions, limiter priorities and fault recovery through 2026-10-02"
+  ],
+  "search_limits": [
+    "Targeted primary-source pass, not exhaustive proof of nonexistence.",
+    "A search for cyclostationary safety did not identify a closer primary storage source; no absence claim follows from that keyword.",
+    "MDPI and Elsevier direct opens were unavailable. Publisher-indexed body passages were inspected; no new source binaries or supplements were saved.",
+    "Prior archive metadata were treated as historical and were not silently upgraded to fresh full-artifact verification.",
+    "Service phase is distinguished from PLL angle, AC fault-inception angle and twice-line-frequency power ripple."
+  ],
+  "sources": [
+    {
+      "id": "C1",
+      "title": "Service-Constrained Critical Energy-Headroom Boundaries for Current-Limited Grid-Forming Battery Converters",
+      "authors": [
+        "Manuel Jaramillo",
+        "Diego Carrión",
+        "Alexander Aguila Téllez"
+      ],
+      "date": "2026-09-21",
+      "doi": "10.3390/en19184464",
+      "url": "https://www.mdpi.com/1996-1073/19/18/4464",
+      "inspection": "Fresh publisher-indexed body sections and tables; direct HTML/PDF open returned 429/unavailable. Supplement not re-downloaded.",
+      "anchors": [
+        "Equations (30)-(34)",
+        "Table 2",
+        "Tables 4-5",
+        "Sections 7.8 and 8.4"
+      ],
+      "defined_boundary": "A trajectory classifier, positive-part service deficits, first-feasible initial event reserve, and a robust threshold requiring feasibility at every larger tested reserve; return is to constant dispatch with limiter inactivity.",
+      "scope_limit": "Inspected service definitions do not impose a bidirectional periodic contract or phase-indexed return to continuing forcing. Reserve is an event allocation, separate from DC capacitor energy and installed battery capacity."
+    },
+    {
+      "id": "C2",
+      "title": "Impedance-passivity coordination of hydrogen-coupled AI data centers for oscillation damping and fault ride-through at transmission interfaces",
+      "authors": [
+        "Mohamed Shamseldein"
+      ],
+      "date": "Issue 2027-01; first online date unresolved in this fresh pass",
+      "doi": "10.1016/j.epsr.2026.113557",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378779626008503",
+      "inspection": "Fresh publisher-indexed full-text passages; direct publisher open returned 403.",
+      "anchors": [
+        "Equations (7)-(11)",
+        "Equations (31)-(34)",
+        "Sections 4.1-4.4",
+        "Section 5.3, Figure 10",
+        "Section 5.6"
+      ],
+      "defined_boundary": "Four-variable coordination under current, APD and SOEC operating/ramp limits. DC buffer absorbs fast power while source commands are slower. Combined sustained forcing and sag recover to a forced residual.",
+      "scope_limit": "The inspected definitions do not provide a signed utility-BESS two-sided DC-energy/SoC impossibility sector by service phase. No fresh code or supplement inspection; no claim about absent features outside inspected text."
+    },
+    {
+      "id": "C3",
+      "title": "Optimal Provision of Concurrent Primary Frequency and Local Voltage Control from a BESS Considering Variable Capability Curves: Modelling and Experimental Assessment",
+      "authors": [
+        "Antonio Zecchino",
+        "Zhao Yuan",
+        "Fabrizio Sossan",
+        "Rachid Cherkaoui",
+        "Mario Paolone"
+      ],
+      "date": "2019-10-09 preprint; inspected v2 2020-04-08; journal 2021",
+      "doi": "10.1016/j.epsr.2020.106643",
+      "url": "https://arxiv.org/html/1910.04052v2",
+      "inspection": "Fresh primary author full HTML.",
+      "anchors": [
+        "Equations (3)-(14)",
+        "Section II",
+        "Section III, Table II"
+      ],
+      "defined_boundary": "P/Q capability depends on AC/DC voltage and SoC; TTC internal states carry current history, with predicted DC voltage, charge/discharge conversion branches, and SoC bounds.",
+      "scope_limit": "One-step operating-point allocation using a 1 s discretization, not a subcycle sag/recovery certificate. Dynamic capability and internal battery memory are prior art."
+    },
+    {
+      "id": "S10",
+      "title": "Optimal Grid-Forming Control of Battery Energy Storage Systems Providing Multiple Services: Modelling and Experimental Validation",
+      "authors": [
+        "Francesco Gerini",
+        "Yihui Zuo",
+        "Rahul Gupta",
+        "Rachid Cherkaoui",
+        "Mario Paolone",
+        "Elena Vagnoni"
+      ],
+      "date": "2021-10-19 preprint; journal 2022",
+      "doi": "10.1016/j.epsr.2022.108567",
+      "url": "https://arxiv.org/html/2110.10052v1",
+      "inspection": "Fresh primary author full HTML.",
+      "anchors": [
+        "Section III-B, equations (12a)-(12h)",
+        "Equations (16)-(25)",
+        "Section II"
+      ],
+      "defined_boundary": "Dispatch MPC predicts DC current/rate, DC voltage and SoC from current states. The real-time stage makes P/Q commands AC/DC-capability-feasible.",
+      "scope_limit": "10 s MPC and 1 s reference conversion do not establish fast fault-current safety or return to a mandated continuing oscillatory service."
+    },
+    {
+      "id": "C7",
+      "title": "Periodic constraint-tightening MPC for switched PV battery operation",
+      "authors": [
+        "Kotaro Hashikura",
+        "Kazuki Namba",
+        "Akira Kojima"
+      ],
+      "date": "2018-10-01",
+      "doi": "10.1049/iet-cta.2017.1174",
+      "url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-cta.2017.1174",
+      "inspection": "Fresh primary publisher full text; equation-level review also completed by the targeted periodic-safety reviewer.",
+      "anchors": [
+        "Section 3, equation (10)",
+        "Section 5, Proposition 1",
+        "Equations (28), (33)-(34)",
+        "Propositions 1-2 and Theorem 1",
+        "Section 6, equation (38)",
+        "Sections 2 and 8"
+      ],
+      "defined_boundary": "R^i(n) constrains all future times and admissible prediction errors. F^s(n) is the periodic set of feasible initial charges. Terminal targets and readiness for a future switch are indexed by phase.",
+      "scope_limit": "Scalar hourly energy balance; only one primary-to-secondary schedule switch. It does not include GFL current dynamics or a separate converter DC-link energy state."
+    },
+    {
+      "id": "P1",
+      "title": "Reference Governors and Maximal Output Admissible Sets for Linear Periodic Systems",
+      "authors": [
+        "Hamid R. Ossareh"
+      ],
+      "date": "Inspected preprint v1 2018-04-24",
+      "doi": "10.1080/00207179.2019.1658899",
+      "url": "https://arxiv.org/html/1804.09262v1",
+      "inspection": "Fresh primary author full HTML; equation anchors refer to v1.",
+      "anchors": [
+        "Section III, Definition 1",
+        "Equations (11)-(12)",
+        "Section IV-A, equation (21)",
+        "Section IV-B"
+      ],
+      "defined_boundary": "Omega_k depends on initial state and initial timeslot, constrains every future output and obeys cyclic predecessor relations. The governor preserves membership while modifying the requested command.",
+      "scope_limit": "General linear-periodic system. Holding a governed command is allowed; this is not a guarantee for an immutable signed service through a grid sag."
+    },
+    {
+      "id": "P2",
+      "title": "Finite Control Set Model Predictive Control with Limit Cycle Stability Guarantees",
+      "authors": [
+        "Duo Xu",
+        "Mircea Lazar"
+      ],
+      "date": "Inspected preprint v1 2024-07-10",
+      "doi": "10.48550/arXiv.2407.07615",
+      "url": "https://arxiv.org/html/2407.07615v1",
+      "inspection": "Fresh primary author full HTML. Journal version not used for equation numbering.",
+      "anchors": [
+        "Section 2, equation (3)",
+        "Equation (14f)",
+        "Definition 5 and equation (18)",
+        "Equation (19)",
+        "Theorem 9",
+        "Section 4"
+      ],
+      "defined_boundary": "Phase-dependent terminal sets/costs and cyclic invariant tubes establish recursive feasibility and asymptotic tracking of a selected limit cycle from feasible initial states, including power-electronics examples.",
+      "scope_limit": "Switched affine model with constant exogenous source. It does not jointly establish the stated GFL sag, immutable signed service, source lag, SoC and two-sided DC-energy boundary."
+    },
+    {
+      "id": "P3",
+      "title": "Configuration-Constrained Tube MPC for Periodic Operation",
+      "authors": [
+        "Filippo Badalamenti",
+        "Jose A. Borja-Conde",
+        "Sampath Kumar Mulagaleti",
+        "Boris Houska",
+        "Alberto Bemporad",
+        "Mario Eduardo Villanueva"
+      ],
+      "date": "Preprint v1 2025-12-03; inspected v2 2025-12-22",
+      "doi": "10.48550/arXiv.2512.04239",
+      "url": "https://arxiv.org/html/2512.04239v2",
+      "inspection": "Fresh primary author full HTML and abstract version metadata.",
+      "anchors": [
+        "Section 2.2, Definitions 1-2",
+        "Equation (8)",
+        "Section 3, equation (10)",
+        "Equation (13), Theorem 1",
+        "Section 3.3, Corollary 1"
+      ],
+      "defined_boundary": "Robust forward-invariant periodic tubes for uncertain LDIs; state containment and a terminal recovery connection preserve feasibility. A fixed economic criterion gives convergence to an optimal periodic tube.",
+      "scope_limit": "General LDI framework with an optimizable artificial periodic target. It is a preprint, not direct evidence for a fixed externally imposed converter service contract."
+    },
+    {
+      "id": "G1",
+      "title": "Consideration of Control-Loop Interaction in Transient Stability of Grid-Following Inverters using Bandwidth Separation Method",
+      "authors": [
+        "Yifan Zhang",
+        "Yunjie Gu",
+        "Yue Zhu",
+        "Yitong Li",
+        "Hsiao-Dong Chiang",
+        "Timothy C. Green"
+      ],
+      "date": "Inspected preprint v1 2026-05-07",
+      "doi": "10.48550/arXiv.2605.05932",
+      "url": "https://arxiv.org/html/2605.05932v1",
+      "inspection": "Fresh primary author full HTML.",
+      "anchors": [
+        "Section II-A, equations (1)-(4)",
+        "Section III-A, equation (7), Figures 2-3",
+        "Section III-D",
+        "Sections IV-A and IV-C",
+        "Appendix C, Table A1"
+      ],
+      "defined_boundary": "ROA in DVC current/squared-DC-voltage and PLL coordinates; initial and clearing states, bandwidth separation and restart energy determine recovery. The DVC-PLL interaction can destroy stability despite synchronization.",
+      "scope_limit": "Reduced analysis idealizes inner current tracking, with constant or step input power. Hardware-in-loop evidence includes a rectangular current limiter and chopper. No signed slow-service phase/SoC certificate is supplied."
+    },
+    {
+      "id": "G2",
+      "title": "The Impact of Different Current Limiting Strategies on the Dynamic Behavior of Terminal Voltage in Grid-Following Converter After Faults",
+      "authors": [
+        "Jiaheng Zheng",
+        "Boyuan Zhao",
+        "Lei Chen",
+        "Xiaohu Zhang",
+        "Jun Yan",
+        "Jun Qi",
+        "Jinfang Du"
+      ],
+      "date": "2026-09-03 first online",
+      "doi": "10.3233/ATDE260653",
+      "url": "https://journals.sagepub.com/doi/10.3233/ATDE260653",
+      "inspection": "Fresh primary publisher full HTML.",
+      "anchors": [
+        "Section 2",
+        "Section 4, equation (9)",
+        "Section 5"
+      ],
+      "defined_boundary": "A post-fault feedback mechanism under d-axis priority links lower terminal voltage, lost active transfer, rising DC voltage and current saturation, preventing voltage recovery.",
+      "scope_limit": "No quantitative state/phase feasibility region; authors explicitly leave LVRT-control interaction and quantitative recovery/stability-region analysis for future work."
+    }
+  ],
+  "null_model": {
+    "status": "Elementary derivation authored in this audit; not a simulation or claim about the locked GFL controller.",
+    "assumptions": [
+      "p=b+A sin(phi)",
+      "phi_dot=omega",
+      "tau*p_s_dot+p_s=p",
+      "E_dc_dot=p_s-p",
+      "No losses, source clipping/ramp saturation, DC feedback or converter-current dynamics."
+    ],
+    "periodic_solution": "E_pi=E_bar-tau*A/sqrt(1+(omega*tau)^2)*sin(phi-atan(omega*tau))",
+    "meaning": "Off-peak energy extrema are a standard lag/integration consequence. Two-sided energy headroom is elementary. For phase-independent piecewise-linear fault dynamics the phase dependence remains c(t)+a(t)sin(phi)+b(t)cos(phi). This is a null hypothesis to rule out before claiming a new physical mechanism.",
+    "limits": "The full converter fault maximizer need not occur at these energy extrema. No generic direction or size of its phase shift is asserted."
+  },
+  "falsification_conditions": [
+    "The claimed phase shift and admissible sectors reduce to this LTI/trigonometric null and standard periodic predecessor sets.",
+    "A claimed impossibility rests only on failure of one fixed controller rather than a control-independent necessary bound.",
+    "Improvement vanishes when the dynamic P/Q allocator and periodic MPC receive identical measurements, preview, actuator limits, service-error bounds and recovery definitions.",
+    "Claimed full recovery resets hidden state, ignores battery inventory or changes the forcing clock/phase.",
+    "A theorem without a controlled approximation error fails to transfer to the frozen averaged model."
+  ],
+  "interpretation_of_mpc_collision": "Matching an ordinary periodic-MPC frontier defeats a new-controller-superiority claim but does not by itself refute an independently new, tight analytic resource theorem. The latter must contribute beyond elementary energy integration or naming a standard viability set."
+}

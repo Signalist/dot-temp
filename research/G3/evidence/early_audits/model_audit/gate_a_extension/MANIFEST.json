@@ -1,0 +1,94 @@
+{
+  "status": "new_independent_abc_extension_complete",
+  "scope": "Two prespecified sag conditions, three integrations, signed nonintegrating algebra checks; no periodic abc replay; no Gate B",
+  "artifacts": {
+    "model_audit/gate_a_extension/README_RESULTS.md": {
+      "bytes": 6533,
+      "sha256": "49c83efaf3dcbb73c048f4b000ee10168facdc898317fd496e7f420fe7543b54"
+    },
+    "model_audit/gate_a_extension/audit_results.py": {
+      "bytes": 7142,
+      "sha256": "1498766f31d9c2c24e0ef49438156edbbee632cf709a31aef08096aab37c2f7c"
+    },
+    "model_audit/gate_a_extension/authoritative_summary.json": {
+      "bytes": 36371,
+      "sha256": "f3e368268283e65c5c8fb93c8e33018be8af26dd9c7e7e169e7ec8d9f576e34c"
+    },
+    "model_audit/gate_a_extension/check_signed_rhs.py": {
+      "bytes": 4004,
+      "sha256": "cceb28a081c69a74abde477ca22dd6ab4cf57bee9d399f926f193c1fb77e1882"
+    },
+    "model_audit/gate_a_extension/results/sag0475_10us.json": {
+      "bytes": 7272,
+      "sha256": "287bf61fe40755e2783623931bdecb2a54e91b314da3c1e3e5272ef974ed6666"
+    },
+    "model_audit/gate_a_extension/results/sag0475_10us.log": {
+      "bytes": 4260,
+      "sha256": "cd0e1f75300aaacc375e15d00296b23c3c27a07dda20da85a6546e8e76c60444"
+    },
+    "model_audit/gate_a_extension/results/sag0475_10us.npz": {
+      "bytes": 133211,
+      "sha256": "1426948799c7c57bea8ad32045d1bfae646fd418dcf01105cb92e8c76b2248b6"
+    },
+    "model_audit/gate_a_extension/results/sag0475_5us.json": {
+      "bytes": 7261,
+      "sha256": "d0724f86d49638af68daa09e4887fabc13bc6d45e80fdd8db05de86623f9be70"
+    },
+    "model_audit/gate_a_extension/results/sag0475_5us.log": {
+      "bytes": 4255,
+      "sha256": "eca38a150da3c49c82d9fbcb150b45338d8db0f0e623639532406e1f56fcca6d"
+    },
+    "model_audit/gate_a_extension/results/sag0475_5us.npz": {
+      "bytes": 235185,
+      "sha256": "3dd3b7476083972a26254e89e8de1b025130976c56ff7f774109f9003ae3907f"
+    },
+    "model_audit/gate_a_extension/results/sag085_10us.json": {
+      "bytes": 23900,
+      "sha256": "f4707e28f36d6ab66a3315a8128de0a4c85574989a8634f54379d8f5a60bd88d"
+    },
+    "model_audit/gate_a_extension/results/sag085_10us.log": {
+      "bytes": 20909,
+      "sha256": "deefaeb6ef6d8196cd2019e601cd279f92718202399059355f4beeea936bc32f"
+    },
+    "model_audit/gate_a_extension/results/sag085_10us.npz": {
+      "bytes": 37484068,
+      "sha256": "514154af970e64740135dc02729eb1cf67bae1d5a4443d2381018cf1d1061455"
+    },
+    "model_audit/gate_a_extension/run_abc_extension.py": {
+      "bytes": 16695,
+      "sha256": "eff756aa3d99c65b0ad09b6ac86f3550021ce91ed9545c6f9327a1514adabed5"
+    },
+    "model_audit/gate_a_extension/signed_rhs_check.json": {
+      "bytes": 20816,
+      "sha256": "0a8d918c3bfed850996693b7047a8dd84a0a4e2bd81d3f996522cfce2eb931d0"
+    },
+    "model_audit/gate_a_extension_review_v0_1.md": {
+      "bytes": 15463,
+      "sha256": "9b220af7f4b2d86171402eebb4569ad2e1672321aa40134d5601c4a961720379"
+    },
+    "model_audit/gate_a_extension_review_v0_1.json": {
+      "bytes": 1547,
+      "sha256": "32fd85892641464099d69e14fc10d545a0d5adf1b156d43e97be2bfd94bbf87c"
+    }
+  },
+  "input_sha256": {
+    "protocol/GATE_A_EXTENSION_V1.json": "a1c399415c6a4b8d17ccf6193963ed73b712fca0890856fbbbf9dcfe1af6bdb8",
+    "protocol/GATE_A_LOCKED_V2_1.json": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+    "model_audit/abc_reference/reference_abc.py": "005b8379f91f0997f81d15cbdf2b7423b7f22ee3a4e5343ef04d6c981177e847",
+    "model_audit/abc_reference/preconditioned_abc.py": "6168d8bd6ca0385825575c06da157c9ae45f74479aac4d2479c9f7e10a69dbe0",
+    "model_audit/abc_reference/revalidation_results/preconditioned_v2_1_h10us.json": "a079cb00695f79bea7366c106d47cea8c6a88a4e792060eafe2f050b52ba3f95",
+    "protocol/gate_a_extension_boundary_selection.json": "a1c8e9e497ab8154df2404414931b20b34c37d8eab7196c16fa64582fa0099d5"
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "unchanged_legacy_sources_verified": true,
+  "authoritative_summary": "model_audit/gate_a_extension/authoritative_summary.json",
+  "raw_corrections": "Preserved raw target-only and last-active-plus-Ts release summaries; scored corrections are appended in authoritative_summary.json",
+  "excludes": [
+    "__pycache__",
+    "private_virtual_environments"
+  ]
+}

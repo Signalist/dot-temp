@@ -1,0 +1,42 @@
+{
+  "scope": "Static original-reference audit plus independent ideal comparator prediction, before new PWM result; not a pass threshold or fit.",
+  "original_source_sha256": "7a119809c9d66e5f9bfcafac19fe23eeeaeed00966be9e07a3d5d99c67d9e42f",
+  "command_source_line": 41,
+  "command_source": "std::array<double,6> command(double t,const Signal&sig,const Config&c){if(c.warm||!c.service||t<c.onset||t>=c.onset+T)return{PBASE,0,650000,0,0,0};return sig.at(t-c.onset);}",
+  "S_compute_W_minmax": [
+    350000.0,
+    950000.0
+  ],
+  "F_compute_W": 650000,
+  "same_time_resolved_compute_input": false,
+  "S_service_compute_energy_J": 130000.00000000001,
+  "F_service_compute_energy_J": 130000.0,
+  "S_F_max_cumulative_compute_energy_difference_J": 10499.999999999996,
+  "service_duration_s": 0.2,
+  "both_compute_energy_through_.9s_J": 585000.0,
+  "post_service_compute_input_identical": true,
+  "matched_original_source_definition": {
+    "S": "Frozen P/Q/d/u schedule during service; constant baseline after service",
+    "F": "Pbase,Q0,d650kW,uFeed0 throughout, with same service-clock outer-loop gates"
+  },
+  "input_file_end_s": 0.30000000000000004,
+  "input_file_full_energy_J": 195000.00000000003,
+  "ledger_paired_load_energy_residuals_J": {
+    "service_cost": {
+      "min": -3.882450982928276e-08,
+      "max": 1.506123226135969e-08
+    },
+    "recovery_cost": {
+      "min": -1.63388904184103e-07,
+      "max": 2.1589221432805061e-07
+    },
+    "checkpoint_total_cost": {
+      "min": -1.7683487385511398e-07,
+      "max": 3.902241587638855e-07
+    }
+  },
+  "new_L_ideal_shape_increment_vs_F_J": 65.68709350280447,
+  "quad_absolute_error_estimate_J": 2.368884564230537e-10,
+  "interpretation": "Old recovery-window input is identical but entry states differ due to prehistory. Its energy costs remain valid baseline-orbit recovery costs. Whole-event S-F does not isolate grid-service incremental cost conditional on the same time-resolved compute input. New S-L does, relative to a declared loss-corrected load-following no-service comparator; it is not the globally optimal no-service policy.",
+  "hardware_task_caveat": "These are prescribed electrical-demand contracts and energy equality, not measured FLOP/job equivalence."
+}

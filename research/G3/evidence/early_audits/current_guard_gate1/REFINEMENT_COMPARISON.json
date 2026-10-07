@@ -1,0 +1,58 @@
+{
+  "same_physical_conditions_only": true,
+  "controller_clock_s": 0.0001,
+  "retuned": false,
+  "rows": [
+    {
+      "case": "C50-slow",
+      "stop_reason_10us": "dc_high",
+      "stop_reason_5us": "dc_high",
+      "root_time_10us_s": 0.6062743257054102,
+      "root_time_5us_s": 0.6062743255080387,
+      "root_time_difference_s": -1.9737145251497168e-10,
+      "I_peak_10us": 0.8881688763699422,
+      "I_peak_5us": 0.8881688763703363,
+      "I_peak_difference_pu": 3.9401815143946806e-13,
+      "clearance_observed": false
+    },
+    {
+      "case": "C50-fast",
+      "stop_reason_10us": "dc_high",
+      "stop_reason_5us": "dc_high",
+      "root_time_10us_s": 0.608646762771277,
+      "root_time_5us_s": 0.6086467628993103,
+      "root_time_difference_s": 1.2803325066812477e-10,
+      "I_peak_10us": 0.8881692839356681,
+      "I_peak_5us": 0.8881692839356123,
+      "I_peak_difference_pu": -5.573319583618286e-14,
+      "clearance_observed": false
+    },
+    {
+      "case": "C1-slow",
+      "stop_reason_10us": "dc_high",
+      "stop_reason_5us": "dc_high",
+      "root_time_10us_s": 0.6061931095199046,
+      "root_time_5us_s": 0.6061931092944314,
+      "root_time_difference_s": -2.2547319566967872e-10,
+      "I_peak_10us": 0.9082257097807515,
+      "I_peak_5us": 0.9082257097807264,
+      "I_peak_difference_pu": -2.5091040356528538e-14,
+      "clearance_observed": false
+    },
+    {
+      "case": "C1-fast",
+      "stop_reason_10us": "dc_high",
+      "stop_reason_5us": "dc_high",
+      "root_time_10us_s": 0.6083636354764193,
+      "root_time_5us_s": 0.608363635274523,
+      "root_time_difference_s": -2.0189627747413397e-10,
+      "I_peak_10us": 0.9082257097807738,
+      "I_peak_5us": 0.9082257097807488,
+      "I_peak_difference_pu": -2.4980018054066022e-14,
+      "clearance_observed": false
+    }
+  ],
+  "maximum_absolute_root_time_difference_s": 2.2547319566967872e-10,
+  "maximum_absolute_I_peak_difference_pu": 3.9401815143946806e-13,
+  "interpretation": "Integration step stability of these fixed-parameter offline model records, not parameter uncertainty or hardware verification."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "reconstructed_then_rerun",
+  "original_files_found": false,
+  "historical_hash_provenance": "Retained pre-reset functions.exec output of compare_independent.py, 2026-10-01 23:33 UTC (conversation tool record).",
+  "interpretation": "These artifacts were newly regenerated. Matching historical hashes proves byte-identical reproduction against that recorded digest, not filesystem recovery of old files.",
+  "rows": [
+    {
+      "new_file": "gate_a/preconditioned_dq/h1e-05.npz",
+      "historical_tool_output_sha256": "232f9c9e77519eb0f9eb91aef3bd09245162459c037d9f57eea135b1fe5f1c4b",
+      "new_rerun_sha256": "232f9c9e77519eb0f9eb91aef3bd09245162459c037d9f57eea135b1fe5f1c4b",
+      "byte_identical_reproduction": true
+    },
+    {
+      "new_file": "gate_a/preconditioned_dq/h5e-06.npz",
+      "historical_tool_output_sha256": "e579459f0a229b57d5ae9761231f09513e000ebf6e96e1a1aff301bf4219662b",
+      "new_rerun_sha256": "e579459f0a229b57d5ae9761231f09513e000ebf6e96e1a1aff301bf4219662b",
+      "byte_identical_reproduction": true
+    },
+    {
+      "new_file": "model_audit/abc_reference/revalidation_results/preconditioned_v2_1_h10us.npz",
+      "historical_tool_output_sha256": "e88162071551b6497446abc0222b8648aefabce00837d75cdb2d8c36c79faa05",
+      "new_rerun_sha256": "e88162071551b6497446abc0222b8648aefabce00837d75cdb2d8c36c79faa05",
+      "byte_identical_reproduction": true
+    },
+    {
+      "new_file": "model_audit/abc_reference/revalidation_results/preconditioned_v2_1_h5us.npz",
+      "historical_tool_output_sha256": "9b19745f35669ae33ba4145c9d8ad38b6772e08ab35808dc54c363299716cd56",
+      "new_rerun_sha256": "9b19745f35669ae33ba4145c9d8ad38b6772e08ab35808dc54c363299716cd56",
+      "byte_identical_reproduction": true
+    }
+  ],
+  "all_four_match": true
+}

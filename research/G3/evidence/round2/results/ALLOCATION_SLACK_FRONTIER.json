@@ -1,0 +1,557 @@
+[
+  {
+    "epsilon_kJ": 0,
+    "beta_exclusion_threshold_fixed_test_kvar": 845.691613544118,
+    "examples": [
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 800,
+        "epsilon_kJ": 0,
+        "gamma_kW": 5.206152375989833,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 0.0,
+        "rho_kJ": 0.0,
+        "rho_coarse_kJ": 0.0,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.00714255001027316,
+        "error_kV_s": 0.0,
+        "rhs_kV_s": 0.00720533563659011,
+        "margin_kV_s": -6.278562631694979e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 825,
+        "epsilon_kJ": 0,
+        "gamma_kW": 5.5266249930995475,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 0.0,
+        "rho_kJ": 0.0,
+        "rho_coarse_kJ": 0.0,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007173219680124856,
+        "error_kV_s": 0.0,
+        "rhs_kV_s": 0.007201699477132985,
+        "margin_kV_s": -2.8479797008128423e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 850,
+        "epsilon_kJ": 0,
+        "gamma_kW": 5.85696051081854,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 0.0,
+        "rho_kJ": 0.0,
+        "rho_coarse_kJ": 0.0,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007203889349976554,
+        "error_kV_s": 0.0,
+        "rhs_kV_s": 0.007197949499177781,
+        "margin_kV_s": 5.939850798772524e-06,
+        "excluded": true
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 875,
+        "epsilon_kJ": 0,
+        "gamma_kW": 6.197159129621472,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 0.0,
+        "rho_kJ": 0.0,
+        "rho_coarse_kJ": 0.0,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.00723455901982825,
+        "error_kV_s": 0.0,
+        "rhs_kV_s": 0.0071940855234035265,
+        "margin_kV_s": 4.047349642472345e-05,
+        "excluded": true
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 900,
+        "epsilon_kJ": 0,
+        "gamma_kW": 6.547221055974417,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 0.0,
+        "rho_kJ": 0.0,
+        "rho_coarse_kJ": 0.0,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007265228689679947,
+        "error_kV_s": 0.0,
+        "rhs_kV_s": 0.0071901073646401656,
+        "margin_kV_s": 7.512132503978159e-05,
+        "excluded": true
+      }
+    ]
+  },
+  {
+    "epsilon_kJ": 0.001,
+    "beta_exclusion_threshold_fixed_test_kvar": 848.6270778417045,
+    "examples": [
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 800,
+        "epsilon_kJ": 0.001,
+        "gamma_kW": 5.228686758290074,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 65.10276793216016,
+        "rho_kJ": 0.021411604667170188,
+        "rho_coarse_kJ": 0.030951452671358206,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.00714255001027316,
+        "error_kV_s": 4.8591649353374985e-08,
+        "rhs_kV_s": 0.007209329739244682,
+        "margin_kV_s": -6.682832062087588e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 825,
+        "epsilon_kJ": 0.001,
+        "gamma_kW": 5.549159523518224,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 65.10276793216016,
+        "rho_kJ": 0.021411604667170188,
+        "rho_coarse_kJ": 0.030951452671358206,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007173219680124856,
+        "error_kV_s": 4.8591649353374985e-08,
+        "rhs_kV_s": 0.007205695595135279,
+        "margin_kV_s": -3.2524506659776554e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 850,
+        "epsilon_kJ": 0.001,
+        "gamma_kW": 5.879495193916197,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 65.10276793216016,
+        "rho_kJ": 0.021411604667170188,
+        "rho_coarse_kJ": 0.030951452671358206,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007203889349976554,
+        "error_kV_s": 4.8591649353374985e-08,
+        "rhs_kV_s": 0.007201947697758235,
+        "margin_kV_s": 1.8930605689649813e-06,
+        "excluded": true
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 875,
+        "epsilon_kJ": 0.001,
+        "gamma_kW": 6.2196939699589375,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 65.10276793216016,
+        "rho_kJ": 0.021411604667170188,
+        "rho_coarse_kJ": 0.030951452671358206,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.00723455901982825,
+        "error_kV_s": 4.8591649353374985e-08,
+        "rhs_kV_s": 0.007198085868094308,
+        "margin_kV_s": 3.642456008458826e-05,
+        "excluded": true
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 900,
+        "epsilon_kJ": 0.001,
+        "gamma_kW": 6.569756058112801,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 65.10276793216016,
+        "rho_kJ": 0.021411604667170188,
+        "rho_coarse_kJ": 0.030951452671358206,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007265228689679947,
+        "error_kV_s": 4.8591649353374985e-08,
+        "rhs_kV_s": 0.007194109921285572,
+        "margin_kV_s": 7.107017674502173e-05,
+        "excluded": true
+      }
+    ]
+  },
+  {
+    "epsilon_kJ": 0.01,
+    "beta_exclusion_threshold_fixed_test_kvar": 853.9697214866301,
+    "examples": [
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 800,
+        "epsilon_kJ": 0.01,
+        "gamma_kW": 5.431496667671047,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 205.77014312887016,
+        "rho_kJ": 0.05855614749645017,
+        "rho_coarse_kJ": 0.09782817303357172,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.00714255001027316,
+        "error_kV_s": 4.859164935337499e-07,
+        "rhs_kV_s": 0.00721625340678151,
+        "margin_kV_s": -7.418931300188364e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 825,
+        "epsilon_kJ": 0.01,
+        "gamma_kW": 5.7519707659743515,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 205.77014312887016,
+        "rho_kJ": 0.05855614749645017,
+        "rho_coarse_kJ": 0.09782817303357172,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007173219680124856,
+        "error_kV_s": 4.859164935337499e-07,
+        "rhs_kV_s": 0.007212622750933228,
+        "margin_kV_s": -3.988898730190524e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 850,
+        "epsilon_kJ": 0.01,
+        "gamma_kW": 6.082307810492691,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 205.77014312887016,
+        "rho_kJ": 0.05855614749645017,
+        "rho_coarse_kJ": 0.09782817303357172,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007203889349976554,
+        "error_kV_s": 4.859164935337499e-07,
+        "rhs_kV_s": 0.007208878454712843,
+        "margin_kV_s": -5.475021229823032e-06,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 875,
+        "epsilon_kJ": 0.01,
+        "gamma_kW": 6.422508001703506,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 205.77014312887016,
+        "rho_kJ": 0.05855614749645017,
+        "rho_coarse_kJ": 0.09782817303357172,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.00723455901982825,
+        "error_kV_s": 4.859164935337499e-07,
+        "rhs_kV_s": 0.007205020339622563,
+        "margin_kV_s": 2.905276371215331e-05,
+        "excluded": true
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 900,
+        "epsilon_kJ": 0.01,
+        "gamma_kW": 6.7725715460757385,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 205.77014312887016,
+        "rho_kJ": 0.05855614749645017,
+        "rho_coarse_kJ": 0.09782817303357172,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007265228689679947,
+        "error_kV_s": 4.859164935337499e-07,
+        "rhs_kV_s": 0.007201048221343855,
+        "margin_kV_s": 6.369455184255818e-05,
+        "excluded": true
+      }
+    ]
+  },
+  {
+    "epsilon_kJ": 0.1,
+    "beta_exclusion_threshold_fixed_test_kvar": 862.3136611412632,
+    "examples": [
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 800,
+        "epsilon_kJ": 0.1,
+        "gamma_kW": 7.459642162826737,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 649.6787905567926,
+        "rho_kJ": 0.09687108880514124,
+        "rho_coarse_kJ": 0.30887323191016575,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.00714255001027316,
+        "error_kV_s": 4.859164935337499e-06,
+        "rhs_kV_s": 0.007223388280779242,
+        "margin_kV_s": -8.569743544141906e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 825,
+        "epsilon_kJ": 0.1,
+        "gamma_kW": 7.780129592796611,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 649.6787905567926,
+        "rho_kJ": 0.09687108880514124,
+        "rho_coarse_kJ": 0.30887323191016575,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007173219680124856,
+        "error_kV_s": 4.859164935337499e-06,
+        "rhs_kV_s": 0.007219761212600828,
+        "margin_kV_s": -5.1400697411309315e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 850,
+        "epsilon_kJ": 0.1,
+        "gamma_kW": 8.11048037946181,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 649.6787905567926,
+        "rho_kJ": 0.09687108880514124,
+        "rho_coarse_kJ": 0.30887323191016575,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007203889349976554,
+        "error_kV_s": 4.859164935337499e-06,
+        "rhs_kV_s": 0.007216020620152007,
+        "margin_kV_s": -1.699043511079086e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 875,
+        "epsilon_kJ": 0.1,
+        "gamma_kW": 8.450694723324796,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 649.6787905567926,
+        "rho_kJ": 0.09687108880514124,
+        "rho_coarse_kJ": 0.30887323191016575,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.00723455901982825,
+        "error_kV_s": 4.859164935337499e-06,
+        "rhs_kV_s": 0.007212166325470209,
+        "margin_kV_s": 1.7533529422703725e-05,
+        "excluded": true
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 900,
+        "epsilon_kJ": 0.1,
+        "gamma_kW": 8.800772830880284,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 649.6787905567926,
+        "rho_kJ": 0.09687108880514124,
+        "rho_coarse_kJ": 0.30887323191016575,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007265228689679947,
+        "error_kV_s": 4.859164935337499e-06,
+        "rhs_kV_s": 0.0072081981447905535,
+        "margin_kV_s": 5.217137995405623e-05,
+        "excluded": true
+      }
+    ]
+  },
+  {
+    "epsilon_kJ": 1.0,
+    "beta_exclusion_threshold_fixed_test_kvar": 893.9167695652161,
+    "examples": [
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 800,
+        "epsilon_kJ": 1.0,
+        "gamma_kW": 27.74573939269787,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 2044.3938503102768,
+        "rho_kJ": 0.09687108880514124,
+        "rho_coarse_kJ": 0.9719549799392796,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.00714255001027316,
+        "error_kV_s": 4.859164935337498e-05,
+        "rhs_kV_s": 0.007223388280779242,
+        "margin_kV_s": -0.00012942991985945632,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 825,
+        "epsilon_kJ": 1.0,
+        "gamma_kW": 28.066360230906394,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 2044.3938503102768,
+        "rho_kJ": 0.09687108880514124,
+        "rho_coarse_kJ": 0.9719549799392796,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007173219680124856,
+        "error_kV_s": 4.859164935337498e-05,
+        "rhs_kV_s": 0.007219761212600828,
+        "margin_kV_s": -9.513318182934657e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 850,
+        "epsilon_kJ": 1.0,
+        "gamma_kW": 28.396848533433904,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 2044.3938503102768,
+        "rho_kJ": 0.09687108880514124,
+        "rho_coarse_kJ": 0.9719549799392796,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007203889349976554,
+        "error_kV_s": 4.859164935337498e-05,
+        "rhs_kV_s": 0.007216020620152007,
+        "margin_kV_s": -6.0722919528828113e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 875,
+        "epsilon_kJ": 1.0,
+        "gamma_kW": 28.737204501033382,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 2044.3938503102768,
+        "rho_kJ": 0.09687108880514124,
+        "rho_coarse_kJ": 0.9719549799392796,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.00723455901982825,
+        "error_kV_s": 4.859164935337498e-05,
+        "rhs_kV_s": 0.007212166325470209,
+        "margin_kV_s": -2.6198954995333527e-05,
+        "excluded": false
+      },
+      {
+        "alpha_kW": 100.0,
+        "beta_kvar": 900,
+        "epsilon_kJ": 1.0,
+        "gamma_kW": 29.08742834045758,
+        "Pmax_kW": 754.4987248565304,
+        "mu": 0.9841525157560065,
+        "K_kW_per_s": 4173134.758979122,
+        "deficit_amplitude_bound_kW": 2044.3938503102768,
+        "rho_kJ": 0.09687108880514124,
+        "rho_coarse_kJ": 0.9719549799392796,
+        "window_s": [
+          0.008,
+          0.03
+        ],
+        "Mbar_kV_s": 0.007265228689679947,
+        "error_kV_s": 4.859164935337498e-05,
+        "rhs_kV_s": 0.0072081981447905535,
+        "margin_kV_s": 8.438895536018974e-06,
+        "excluded": true
+      }
+    ]
+  }
+]

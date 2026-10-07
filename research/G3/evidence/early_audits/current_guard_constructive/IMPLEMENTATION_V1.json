@@ -1,0 +1,41 @@
+{
+  "stage": "Constructive fast-port standard-allocation v1",
+  "created_UTC": "2026-10-02T03:46:14.191119+00:00",
+  "physical_runs_started_at_snapshot": 0,
+  "common_guard_unchanged": true,
+  "only_control_rule_change": "Standard nominal P-priority or radial allocator; common guard and antiwindup unchanged",
+  "sources": [
+    {
+      "path": "current_guard_constructive/run_constructive.py",
+      "sha256": "e9bceab631ec7f26c9639aa3a2887ddf21f8cefdd63390c76fbeb1d3d30563c5"
+    },
+    {
+      "path": "current_guard_constructive/guarded_allocator_controller.py",
+      "sha256": "50f4b5f97cb8caad08463451e3dfe959528119cf10b140c78af57409608f52f6"
+    },
+    {
+      "path": "current_guard_gate1/common_guard.py",
+      "sha256": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03"
+    },
+    {
+      "path": "baseline_allocation/allocators.py",
+      "sha256": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a"
+    },
+    {
+      "path": "protocol/next_constructive/FOUR_BASELINE_PROPOSAL_V1.json",
+      "sha256": "104b5f9102c286a2005e856da777b2a203a475c368fccd56d447e54ea43275f3"
+    },
+    {
+      "path": "gate_a/preconditioned_dq/h1e-05_checkpoint.json",
+      "sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152"
+    },
+    {
+      "path": "gate_a/dq_bench.py",
+      "sha256": "5185085c3843c2b12d0663f25a4d3e6a0290fcb7d46be3b338e3ee2c261b0616"
+    }
+  ],
+  "audit_status": "Independent wrapper tests passed; final-version runner fixture check pending before physical launch",
+  "no_new_algorithm_claim": true,
+  "current_guard_qualified": false,
+  "paper_ready": false
+}

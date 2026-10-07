@@ -1,0 +1,270 @@
+{
+  "status": "Gate_A_extension_completed_fixed_diagnostics",
+  "paper_ready": false,
+  "gate_B_performance_search_run": false,
+  "created_UTC": "2026-10-02T01:04:33.477532+00:00",
+  "provenance": {
+    "prior_stage": "reconstructed_then_rerun; retained unchanged",
+    "this_stage": "new_experiments_on_reconstructed_then_revalidated_model; not historical recovery"
+  },
+  "diagnostic_conditions": 12,
+  "extra_numerical_refinement_conditions": 0,
+  "paired_reference": "One shared no-disturbance accounting reference; not a new disturbance condition",
+  "formal_scoring": "gate_a_extension/results/AUDITED_RESULTS.json",
+  "periodic": {
+    "sampled_endpoint_energy_excursion_last_cycle_J": 97095.31249011838,
+    "sampled_endpoint_soc_excursion_last_cycle": 1.3485460068074495e-05,
+    "last_cycle_min_soc": 0.4999853299509464,
+    "last_cycle_max_soc": 0.4999988154110145,
+    "last_cycle_min_dc_pu": 0.9821919996951857,
+    "last_cycle_max_dc_pu": 1.017578177949782,
+    "last_cycle_sampled_endpoint_min_Ppcc_W": -308035.3673997692,
+    "last_cycle_sampled_endpoint_max_Ppcc_W": 292830.149305202,
+    "last_cycle_sampled_endpoint_min_Qpcc_var": -213.06833607241833,
+    "last_cycle_sampled_endpoint_max_Qpcc_var": 234.43554672214873,
+    "last_cycle_max_actual_current_pu": 0.257581636712938,
+    "confirmed_cycle_energy_drift_max_J": 3.55375959770754e-08,
+    "confirmed_full_cycle_difference_max": 3.4814076968481267e-11,
+    "actual_mean_pcc_P_W": -7641.134995164517,
+    "actual_mean_pcc_Q_var": -623.6665397460224,
+    "actual_mean_Pb_W": -3923.443409537802,
+    "max_confirmed_dc_energy_drift_J": 1.44427758641541e-09
+  },
+  "periodic_bias_W": -7599.491858162698,
+  "periodic_timeline": {
+    "prewarm_checkpoint_s": 0.6,
+    "calibration_cycles": 7,
+    "confirmation_cycles": 3,
+    "stop_time_s": 10.6
+  },
+  "sag_energy_accounts": [
+    {
+      "case": "sag085",
+      "comparison_time_s": 1.3,
+      "comparison_reason": "completed",
+      "fault_battery_stored_energy_change_since_checkpoint_J": -579856.3118309471,
+      "no_fault_battery_stored_energy_change_since_checkpoint_J": -582599.7580456162,
+      "fault_minus_reference_stored_energy_J": 2743.4462146691512,
+      "extra_energy_debt_J": 0.0,
+      "energy_surplus_J": 2743.4462146691512,
+      "interpretation": "Positive difference is retained energy / surplus, not energy recovery; it may accompany missed active service. Negative difference is extra battery energy debt. Neither is forced to zero by electrical-state recovery.",
+      "fault_minus_reference_remote_active_energy_J": -3574.1860320142005,
+      "fault_minus_reference_total_dissipation_J": 830.7392237519452,
+      "fault_minus_reference_PCC_active_energy_J": -3210.2774716084823,
+      "fault_minus_reference_PCC_reactive_integral_var_s": 153.73277268384118,
+      "fault_minus_reference_DC_energy_J": 0.0005882746518182103,
+      "fault_minus_reference_inductor_energy_J": 4.36732181004155e-06,
+      "whole_storage_pair_difference_residual_J": -9.511303575160023e-07
+    },
+    {
+      "case": "sag075",
+      "comparison_time_s": 1.4000000000000001,
+      "comparison_reason": "completed",
+      "fault_battery_stored_energy_change_since_checkpoint_J": -639726.8150272799,
+      "no_fault_battery_stored_energy_change_since_checkpoint_J": -665828.2948265515,
+      "fault_minus_reference_stored_energy_J": 26101.47979927156,
+      "extra_energy_debt_J": 0.0,
+      "energy_surplus_J": 26101.47979927156,
+      "interpretation": "Positive difference is retained energy / surplus, not energy recovery; it may accompany missed active service. Negative difference is extra battery energy debt. Neither is forced to zero by electrical-state recovery.",
+      "fault_minus_reference_remote_active_energy_J": -26226.365113713313,
+      "fault_minus_reference_total_dissipation_J": 124.88583827858383,
+      "fault_minus_reference_PCC_active_energy_J": -25866.358471844927,
+      "fault_minus_reference_PCC_reactive_integral_var_s": 272.6811006076168,
+      "fault_minus_reference_DC_energy_J": -0.0005258604105620179,
+      "fault_minus_reference_inductor_energy_J": 8.042204039245319e-07,
+      "whole_storage_pair_difference_residual_J": -1.2193580137957413e-06
+    },
+    {
+      "case": "sag0475",
+      "comparison_time_s": 0.6060234821815205,
+      "comparison_reason": "dc_high",
+      "fault_battery_stored_energy_change_since_checkpoint_J": -4934.288391908805,
+      "no_fault_battery_stored_energy_change_since_checkpoint_J": -5013.256182946323,
+      "fault_minus_reference_stored_energy_J": 78.9677910375176,
+      "extra_energy_debt_J": 0.0,
+      "energy_surplus_J": 78.9677910375176,
+      "interpretation": "Positive difference is retained energy / surplus, not energy recovery; it may accompany missed active service. Negative difference is extra battery energy debt. Neither is forced to zero by electrical-state recovery.",
+      "fault_minus_reference_remote_active_energy_J": -4341.980827992025,
+      "fault_minus_reference_total_dissipation_J": 2.410875514276995,
+      "fault_minus_reference_PCC_active_energy_J": -4324.276903897919,
+      "fault_minus_reference_PCC_reactive_integral_var_s": -1229.3586342108028,
+      "fault_minus_reference_DC_energy_J": 4220.974017758679,
+      "fault_minus_reference_inductor_energy_J": 39.628143682108345,
+      "whole_storage_pair_difference_residual_J": 5.567528660321841e-10
+    }
+  ],
+  "condition_outcomes": {
+    "sag0475": {
+      "outcome": "dc_high",
+      "complete_safe_electrical_control_recovery": false,
+      "electrical_recovery_joint_s": null,
+      "hard_limit_contacts": {
+        "dc_high": 0.6060234821815205
+      }
+    },
+    "sag075": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 1.4000000000000001,
+      "hard_limit_contacts": {}
+    },
+    "sag085": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 1.3,
+      "hard_limit_contacts": {}
+    },
+    "signed_periodic": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 10.6,
+      "hard_limit_contacts": {}
+    },
+    "steady_nn": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 0.6,
+      "hard_limit_contacts": {}
+    },
+    "steady_np": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 0.6,
+      "hard_limit_contacts": {}
+    },
+    "steady_pn": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 0.6,
+      "hard_limit_contacts": {}
+    },
+    "steady_pp": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 0.6,
+      "hard_limit_contacts": {}
+    },
+    "step_nn": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 1.2,
+      "hard_limit_contacts": {}
+    },
+    "step_np": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 1.2,
+      "hard_limit_contacts": {}
+    },
+    "step_pn": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 1.2,
+      "hard_limit_contacts": {}
+    },
+    "step_pp": {
+      "outcome": "completed",
+      "complete_safe_electrical_control_recovery": true,
+      "electrical_recovery_joint_s": 1.2,
+      "hard_limit_contacts": {}
+    }
+  },
+  "model_scope": "Synthetic balanced switching-cycle-average GFL with unchanged fixed hardware/control limits; no PWM, OEM, hardware, network transfer or controller superiority claim",
+  "validation": {
+    "independent_abc": "sag085 and sag0475; latter also5us; 24 signed RHS coordinate checks",
+    "periodic": "dq-only finite numerical recurrence, exact simulated energy observation; no BMS precision claim",
+    "code_and_arrays": [
+      {
+        "path": "gate_a_extension/results/sag0475_h1e-05.npz",
+        "sha256": "27ead06d87b2a70fe981436b39748db548dbd529c6026a01e210751f88930d1f",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/sag0475_h5e-06.npz",
+        "sha256": "62b225a92cc0ef1b2a51622d18bead20a264e5d965c1016cabd86b2cbbe236b1",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/sag075_h1e-05.npz",
+        "sha256": "dd8275dbc493909cecee40f427643e26da0d6afbf2a266a096470e767cc0a0e0",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/sag085_h1e-05.npz",
+        "sha256": "e10bb25aa08317cf69a3d1580e1f1be0bf83bc90e6405cf55fb3cb489bdfcab0",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/signed_periodic_h1e-05.npz",
+        "sha256": "719a732583267400a6b1c7bbfd4e28b4201073b113e635153ec5f5a055f7ca97",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/steady_nn_h1e-05.npz",
+        "sha256": "9378b2aabe7097795105080f9474c50513ff8e4b8ac8a42754808b53d5c05c06",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/steady_np_h1e-05.npz",
+        "sha256": "66f5ffe30e34d1a1e20d93f3fca3299fc8a0379690376f9dae3f652d28eeb870",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/steady_pn_h1e-05.npz",
+        "sha256": "3b30e5f452708d17595508b71363fe10afee65e98958d7054260e4eeb34fd8fa",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/steady_pp_h1e-05.npz",
+        "sha256": "7149885eba321c040ee7e8db706c0ed980640b89374bccdc67c81a8f8dba7519",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/step_nn_h1e-05.npz",
+        "sha256": "17a52390311ebdd8e6e8da01337fbe995dbaab2c7b79b6210069b46cb443358c",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/step_np_h1e-05.npz",
+        "sha256": "7d10fd9b5df7b3d8b2bb8fa824a0bdcec4feea0566702e444de151589818b542",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/step_pn_h1e-05.npz",
+        "sha256": "534a38b07009f9e9d6498951cff2108509a96f0c65ecfd10f03ad0a09b6cd9c4",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      },
+      {
+        "path": "gate_a_extension/results/step_pp_h1e-05.npz",
+        "sha256": "d77666cc23301f4166711318bf3a585608c93a7f78f7b41a1fce751f4adfcc43",
+        "finite_arrays": true,
+        "schemas_match": true,
+        "strict_endpoint_clock": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "scope": "Same physical device, fixed workload; P<=reference cap and Q>=reference floor; full W,B,current recovery; recharge cap expanded to allow epsilon kJ net-energy slack.",
+  "test_function": "psi=(sin\u00b2(pi(t-.008)/.022),0) on [.008,.030]s; zero elsewhere",
+  "zero_slack_margin": {
+    "alpha_kW": 100.0,
+    "beta_kvar": 900.0,
+    "epsilon_kJ": 0,
+    "gamma_kW": 6.547221055974417,
+    "Pmax_kW": 754.4987248565304,
+    "mu": 0.9841525157560065,
+    "K_kW_per_s": 4173134.758979122,
+    "deficit_amplitude_bound_kW": 0.0,
+    "rho_kJ": 0.0,
+    "rho_coarse_kJ": 0.0,
+    "window_s": [
+      0.008,
+      0.03
+    ],
+    "Mbar_kV_s": 0.007265228689679947,
+    "error_kV_s": 0.0,
+    "rhs_kV_s": 0.0071901073646401656,
+    "margin_kV_s": 7.512132503978159e-05,
+    "excluded": true
+  },
+  "positive_slack_exclusion_limit_kJ": 1.1736696664616033,
+  "checks": [
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 900.0,
+      "epsilon_kJ": 0,
+      "gamma_kW": 6.547221055974417,
+      "Pmax_kW": 754.4987248565304,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 0.0,
+      "rho_kJ": 0.0,
+      "rho_coarse_kJ": 0.0,
+      "window_s": [
+        0.008,
+        0.03
+      ],
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 0.0,
+      "rhs_kV_s": 0.0071901073646401656,
+      "margin_kV_s": 7.512132503978159e-05,
+      "excluded": true
+    },
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 900.0,
+      "epsilon_kJ": 0.001,
+      "gamma_kW": 6.569756058112801,
+      "Pmax_kW": 754.4987248565304,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 65.10276793216016,
+      "rho_kJ": 0.021411604667170188,
+      "rho_coarse_kJ": 0.030951452671358206,
+      "window_s": [
+        0.008,
+        0.03
+      ],
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 4.8591649353374985e-08,
+      "rhs_kV_s": 0.007194109921285572,
+      "margin_kV_s": 7.107017674502173e-05,
+      "excluded": true
+    },
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 900.0,
+      "epsilon_kJ": 0.005,
+      "gamma_kW": 6.6598961708255375,
+      "Pmax_kW": 754.4987248565304,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 145.53260416426957,
+      "rho_kJ": 0.04417629111324556,
+      "rho_coarse_kJ": 0.06918976954441815,
+      "window_s": [
+        0.008,
+        0.03
+      ],
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 2.4295824676687493e-07,
+      "rhs_kV_s": 0.0071983629738900205,
+      "margin_kV_s": 6.662275754315983e-05,
+      "excluded": true
+    },
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 900.0,
+      "epsilon_kJ": 0.01,
+      "gamma_kW": 6.7725715460757385,
+      "Pmax_kW": 754.4987248565304,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 205.77014312887016,
+      "rho_kJ": 0.05855614749645017,
+      "rho_coarse_kJ": 0.09782817303357172,
+      "window_s": [
+        0.008,
+        0.03
+      ],
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 4.859164935337499e-07,
+      "rhs_kV_s": 0.007201048221343855,
+      "margin_kV_s": 6.369455184255818e-05,
+      "excluded": true
+    },
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 900.0,
+      "epsilon_kJ": 0.05,
+      "gamma_kW": 7.673983922660871,
+      "Pmax_kW": 754.4987248565304,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 459.7015992147378,
+      "rho_kJ": 0.09403980492677141,
+      "rho_coarse_kJ": 0.21855341551482518,
+      "window_s": [
+        0.008,
+        0.03
+      ],
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 2.4295824676687495e-06,
+      "rhs_kV_s": 0.00720767004365114,
+      "margin_kV_s": 5.512906356113824e-05,
+      "excluded": true
+    },
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 900.0,
+      "epsilon_kJ": 0.1,
+      "gamma_kW": 8.800772830880284,
+      "Pmax_kW": 754.4987248565304,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 649.6787905567926,
+      "rho_kJ": 0.09687108880514124,
+      "rho_coarse_kJ": 0.30887323191016575,
+      "window_s": [
+        0.008,
+        0.03
+      ],
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 4.859164935337499e-06,
+      "rhs_kV_s": 0.0072081981447905535,
+      "margin_kV_s": 5.217137995405623e-05,
+      "excluded": true
+    },
+    {
+      "alpha_kW": 100.0,
+      "beta_kvar": 900.0,
+      "epsilon_kJ": 1.1736696664616033,
+      "gamma_kW": 33.003041228853974,
+      "Pmax_kW": 754.4987248565304,
+      "mu": 0.9841525157560065,
+      "K_kW_per_s": 4173134.758979122,
+      "deficit_amplitude_bound_kW": 2213.5032466152215,
+      "rho_kJ": 0.09687108880514124,
+      "rho_coarse_kJ": 1.0523537347428955,
+      "window_s": [
+        0.008,
+        0.03
+      ],
+      "Mbar_kV_s": 0.007265228689679947,
+      "error_kV_s": 5.7030544889394796e-05,
+      "rhs_kV_s": 0.0072081981447905535,
+      "margin_kV_s": -8.673617379884035e-19,
+      "excluded": false
+    }
+  ],
+  "warning": "Analytic sufficient bound evaluated in floating point; no interval-arithmetic claim. Numerical non-exclusion above this limit is not feasibility."
+}

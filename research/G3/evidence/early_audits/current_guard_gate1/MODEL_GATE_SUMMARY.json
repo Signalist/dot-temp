@@ -1,0 +1,56 @@
+{
+  "status": "saved_frozen_model_evidence_only",
+  "executed_primary_cases": [
+    "C0-slow",
+    "C0-fast",
+    "C50-slow",
+    "C50-fast",
+    "C1-slow",
+    "C1-fast"
+  ],
+  "unexecuted_primary_cases": [],
+  "current_guard_qualified": false,
+  "paper_ready": false,
+  "joint_DC_SOC_invariance": false,
+  "machine_outward_rounding": false,
+  "real_time_qualified": false,
+  "protocol_sha256": "be681761f993c6beaefaca0a54ece73dc2e3263d56b5b7f869ab476e87c96fa3",
+  "cases": {
+    "C0-slow": {
+      "result_file": "current_guard_gate1/results/C0-slow_h1e-05.json",
+      "stop_reason": "completed",
+      "complete_hard_safe": true,
+      "final_time_s": 2.75005
+    },
+    "C0-fast": {
+      "result_file": "current_guard_gate1/results/C0-fast_h1e-05.json",
+      "stop_reason": "completed",
+      "complete_hard_safe": true,
+      "final_time_s": 2.75005
+    },
+    "C50-slow": {
+      "result_file": "current_guard_gate1/results/C50-slow_h1e-05.json",
+      "stop_reason": "dc_high",
+      "complete_hard_safe": false,
+      "final_time_s": 0.6062743257054102
+    },
+    "C50-fast": {
+      "result_file": "current_guard_gate1/results/C50-fast_h1e-05.json",
+      "stop_reason": "dc_high",
+      "complete_hard_safe": false,
+      "final_time_s": 0.608646762771277
+    },
+    "C1-slow": {
+      "result_file": "current_guard_gate1/results/C1-slow_h1e-05.json",
+      "stop_reason": "dc_high",
+      "complete_hard_safe": false,
+      "final_time_s": 0.6061931095199046
+    },
+    "C1-fast": {
+      "result_file": "current_guard_gate1/results/C1-fast_h1e-05.json",
+      "stop_reason": "dc_high",
+      "complete_hard_safe": false,
+      "final_time_s": 0.6083636354764193
+    }
+  }
+}

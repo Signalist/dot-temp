@@ -1,0 +1,188 @@
+{
+  "case": "preconditioned_reference_clip_counterexample",
+  "status": "dc_overvoltage",
+  "h_max_s": 1e-05,
+  "checkpoint": {
+    "time_s": 0.6,
+    "plant_state": [
+      929.5008337703088,
+      -1102.9747124321593,
+      173.47387866185812,
+      21914.74337223314,
+      815639.6755122746,
+      3599499168.6277184,
+      482309.2832194684,
+      472084.969833969,
+      10224.848073604784,
+      3282.5707941135065,
+      485906.5973858137,
+      490814.74483416637,
+      500831.3722797517
+    ],
+    "theta_PLL": 226.2431330121752,
+    "omega_PLL": 376.99111843070557,
+    "z_PLL": 1.016557505503432e-09,
+    "z_i": [
+      -0.9876990853644045,
+      38.25384814178379
+    ],
+    "m_applied": [
+      0.45750669065590166,
+      0.05249887945791927
+    ],
+    "m_queued": [
+      0.45520292726013306,
+      0.06970508830878325
+    ],
+    "source_command_W": 815639.6858390737,
+    "last_reference_ab": [
+      901.0643133795542,
+      -771.4673232617998
+    ],
+    "normalized_vector": [
+      0.6545807929907924,
+      -0.5189866363941673,
+      1.014571452418201,
+      0.8156396755122746,
+      0.048461953710130956,
+      2.6965025323006306e-12,
+      -0.0017531585351858226,
+      0.06790029611977154,
+      0.4575066906558997,
+      0.052498879457936305,
+      0.45520292726013045,
+      0.06970508830880019,
+      0.9999999999998155,
+      0.8156396858390738
+    ],
+    "check_record": {
+      "t_s": 0.6,
+      "normalized_orbit_error": 2.790770728955394e-07,
+      "converged": true,
+      "consecutive": 3,
+      "hard_safe_window": true,
+      "checkpoint": true
+    },
+    "source_integrals_at_checkpoint": [
+      482309.2832194684,
+      472084.969833969,
+      10224.848073604784,
+      3282.5707941135065,
+      485906.5973858137,
+      490814.74483416637,
+      500831.3722797517
+    ]
+  },
+  "convergence_checks": [
+    {
+      "t_s": 0.1,
+      "normalized_orbit_error": 0.13713489225409958,
+      "converged": false,
+      "consecutive": 0,
+      "hard_safe_window": false,
+      "checkpoint": false
+    },
+    {
+      "t_s": 0.15,
+      "normalized_orbit_error": 0.03661437173256632,
+      "converged": false,
+      "consecutive": 0,
+      "hard_safe_window": false,
+      "checkpoint": false
+    },
+    {
+      "t_s": 0.2,
+      "normalized_orbit_error": 0.009914832240477511,
+      "converged": false,
+      "consecutive": 0,
+      "hard_safe_window": false,
+      "checkpoint": false
+    },
+    {
+      "t_s": 0.25,
+      "normalized_orbit_error": 0.0026698240571468856,
+      "converged": false,
+      "consecutive": 0,
+      "hard_safe_window": true,
+      "checkpoint": false
+    },
+    {
+      "t_s": 0.3,
+      "normalized_orbit_error": 0.0007201912764972507,
+      "converged": false,
+      "consecutive": 0,
+      "hard_safe_window": true,
+      "checkpoint": false
+    },
+    {
+      "t_s": 0.35000000000000003,
+      "normalized_orbit_error": 0.00019528129596080301,
+      "converged": false,
+      "consecutive": 0,
+      "hard_safe_window": true,
+      "checkpoint": false
+    },
+    {
+      "t_s": 0.4,
+      "normalized_orbit_error": 5.251471997236301e-05,
+      "converged": false,
+      "consecutive": 0,
+      "hard_safe_window": true,
+      "checkpoint": false
+    },
+    {
+      "t_s": 0.45,
+      "normalized_orbit_error": 1.417563668260069e-05,
+      "converged": false,
+      "consecutive": 0,
+      "hard_safe_window": true,
+      "checkpoint": false
+    },
+    {
+      "t_s": 0.5,
+      "normalized_orbit_error": 3.846939499174695e-06,
+      "converged": true,
+      "consecutive": 1,
+      "hard_safe_window": true,
+      "checkpoint": false
+    },
+    {
+      "t_s": 0.55,
+      "normalized_orbit_error": 1.0976999123002429e-06,
+      "converged": true,
+      "consecutive": 2,
+      "hard_safe_window": true,
+      "checkpoint": false
+    },
+    {
+      "t_s": 0.6,
+      "normalized_orbit_error": 2.790770728955394e-07,
+      "converged": true,
+      "consecutive": 3,
+      "hard_safe_window": true,
+      "checkpoint": true
+    }
+  ],
+  "final_time_s": 0.6059459697981101,
+  "counterexample_found_after_checkpoint": true,
+  "event": {
+    "start_s": 0.60005,
+    "end_s": 0.75005,
+    "retained_voltage_pu": 0.4
+  },
+  "post_checkpoint_actual_current_peak_pu": 1.0000746498724458,
+  "post_checkpoint_reference_peak_pu": 0.9500000000000002,
+  "post_checkpoint_apparent_power_peak_VA": 1063014.609284732,
+  "post_checkpoint_Vdc_min_pu": 1.0069379168009074,
+  "post_checkpoint_Vdc_max_pu": 1.1000000000000028,
+  "first_recorded_post_checkpoint_current_gt_1_s": 0.6004,
+  "post_checkpoint_energy_residual_J": {
+    "ac": -7.379412636510096e-10,
+    "dc": 2.8558133635669947e-10,
+    "battery": -1.6713747754693031e-06
+  },
+  "initialization_apparent_power_peak_VA": 1248563.0725465761,
+  "protocol_sha256": "8b2e6dfceffe391dfab7b2ba18fc1f8d3c736c6329a5f7e93175bf7db1e54d57",
+  "script_sha256": "6168d8bd6ca0385825575c06da157c9ae45f74479aac4d2479c9f7e10a69dbe0",
+  "abc_component_sha256": "005b8379f91f0997f81d15cbdf2b7423b7f22ee3a4e5343ef04d6c981177e847"
+}

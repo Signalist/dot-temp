@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-03T08:47:00Z",
+  "files": [
+    {
+      "path": "./literature/PRIMARY_NOVELTY_THREATS.md",
+      "sha256": "1852d5d77ffc5e871635db83b44c9e7717c4de615a53c6768ca9a1836de76df8",
+      "bytes": 20091
+    },
+    {
+      "path": "./literature/sources_index.json",
+      "sha256": "d77237f1d90ce42fe96c2ee449d956fa8dc8a74d28adafd711cd1c272603e4d8",
+      "bytes": 8132
+    },
+    {
+      "path": "./literature/FIXED_PATH_CERTIFICATE_ADDENDUM.md",
+      "sha256": "10e02262592d62f0e7903c5c4e63a1fc56f4ba8f60f82e7b85d84e4d4343c5d1",
+      "bytes": 23071
+    }
+  ],
+  "paper_ready": false,
+  "full_combination_prior_art_found_in_bounded_search": false,
+  "novelty_established": false,
+  "updated_utc": "2026-10-03T09:02:23Z",
+  "source_comparisons": 25,
+  "scope_extensions": [
+    "Exact fixed P/Q corridor certificates",
+    "Energy-tight inequality-contract all-allocation bridge and small-slack inductive-energy sensitivity"
+  ]
+}

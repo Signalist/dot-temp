@@ -1,0 +1,381 @@
+{
+  "status": "PASS_ALL_FOUR_COMPLETED_ARTIFACTS",
+  "completed_artifacts": [
+    {
+      "case": "P0-fast",
+      "h_s": 1e-05,
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "summary_sha256": "8f9ad64944f827a180b64a1c253d0c8e8646efe4dbd692221395af19472e171e",
+      "legacy_energy_tube_root_timing_checks": {
+        "case": "P0-fast",
+        "h_s": 1e-05,
+        "summary_file": "P0-fast_h1e-05.json",
+        "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+        "updates": 21501,
+        "intervals": 21501,
+        "guard_failures": 0,
+        "contacts": 0,
+        "independent_inventory_energy_and_endpoint_power_checks": true,
+        "stop_reason": "completed",
+        "final_time_s": 2.75005,
+        "no_fault_admission": true,
+        "selection_counts": {
+          "optimized": 21501
+        },
+        "max_antiwindup_error": 7.105427357601002e-15,
+        "terminal_DC_energy_derivative_W": null,
+        "energy_necessary_condition_independent": {
+          "status": "NOT_APPLICABLE_NO_FAULT"
+        },
+        "observed_next_step_and_dense_tube_check": {
+          "complete_sample_transitions": 21500,
+          "partial_intervals_excluded": 1,
+          "max_witness_disk_norm": 0.08638673804708645,
+          "max_witness_disk_excess": 5.466585517588385e-12,
+          "max_inverse_residual": 5.551115123125783e-17,
+          "numeric_membership_failures": [],
+          "max_exact_terminal_disk_excess": null,
+          "dense_nodes_checked": 846,
+          "dense_intervals_checked": 50,
+          "maximum_observed_hold_current_error_pu": 0.14340809572630991,
+          "max_observed_error_minus_tube_radius": -0.029105365744087147,
+          "dense_tube_failures": []
+        },
+        "raw_sha256": "367a375edc42236e15dc03fabd40a8f557e6ddfa869ff4ffb6f5f967e87baba7",
+        "trace_sha256": "9d4e8a577680299912540aeee7dea5b62f4dd35619012ca80609bd6c07325230"
+      },
+      "independent_allocator_reference_recovery_checks": {
+        "status": "PASS_INDEPENDENT_CONSTRUCTIVE_ARTIFACT_CHECKS",
+        "allocator": "p_priority",
+        "all_accepted_samples_replayed_algebraically": 21501,
+        "guard_failures_with_preserved_state": 0,
+        "max_nominal_modulation_error": 3.1401849173675503e-16,
+        "max_common_AW_error": 4.387985895684816e-14,
+        "max_command_plan_index_frame_error": 4.47545209131181e-16,
+        "max_observation_state_error": 1.1102230246251565e-16,
+        "max_full_controller_field_errors": {
+          "theta": 0.0,
+          "zpll": 5.551115123125783e-17,
+          "omega": 5.684341886080802e-14,
+          "zi": 4.322062729257126e-14,
+          "applied": 0.0,
+          "queued": 0.0,
+          "pb_command": 0.0
+        },
+        "accepted_optimizer_plans_independently_revalidated": 21501,
+        "max_revalidated_plan_primal_residual": 5.466585517588385e-12,
+        "hard_contacts_recomputed": 0,
+        "max_continuous_root_margin_abs": 0.0,
+        "own_allocator_reference": {
+          "status": "PASS_NO_FABRICATED_HEALTHY_REFERENCE"
+        },
+        "conservative_recovery": {
+          "status": "NOT_APPLICABLE_NO_FAULT"
+        },
+        "physical_admission_reconciled": true
+      },
+      "audit_wall_s": 48.34032439500152
+    },
+    {
+      "case": "R0-fast",
+      "h_s": 1e-05,
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "summary_sha256": "734bbf3ece2952ec7b8bb98e9b31014c3b0362b22206779c15ad46005a210466",
+      "legacy_energy_tube_root_timing_checks": {
+        "case": "R0-fast",
+        "h_s": 1e-05,
+        "summary_file": "R0-fast_h1e-05.json",
+        "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+        "updates": 21501,
+        "intervals": 21501,
+        "guard_failures": 0,
+        "contacts": 0,
+        "independent_inventory_energy_and_endpoint_power_checks": true,
+        "stop_reason": "completed",
+        "final_time_s": 2.75005,
+        "no_fault_admission": true,
+        "selection_counts": {
+          "optimized": 21501
+        },
+        "max_antiwindup_error": 7.105427357601002e-15,
+        "terminal_DC_energy_derivative_W": null,
+        "energy_necessary_condition_independent": {
+          "status": "NOT_APPLICABLE_NO_FAULT"
+        },
+        "observed_next_step_and_dense_tube_check": {
+          "complete_sample_transitions": 21500,
+          "partial_intervals_excluded": 1,
+          "max_witness_disk_norm": 0.08638673804634522,
+          "max_witness_disk_excess": 4.725358992985207e-12,
+          "max_inverse_residual": 5.551115123125783e-17,
+          "numeric_membership_failures": [],
+          "max_exact_terminal_disk_excess": null,
+          "dense_nodes_checked": 846,
+          "dense_intervals_checked": 50,
+          "maximum_observed_hold_current_error_pu": 0.14339438755087777,
+          "max_observed_error_minus_tube_radius": -0.02911907391951929,
+          "dense_tube_failures": []
+        },
+        "raw_sha256": "15699e0bf51aa6e9d8dfc223c5db201b6c77fc5251a414696f5453dd92338ca3",
+        "trace_sha256": "708e08a1635893f07186a35e17db4c6bf9574cf02a304cfa553d37390525d89c"
+      },
+      "independent_allocator_reference_recovery_checks": {
+        "status": "PASS_INDEPENDENT_CONSTRUCTIVE_ARTIFACT_CHECKS",
+        "allocator": "radial",
+        "all_accepted_samples_replayed_algebraically": 21501,
+        "guard_failures_with_preserved_state": 0,
+        "max_nominal_modulation_error": 2.9893669801409083e-16,
+        "max_common_AW_error": 4.379566867436173e-14,
+        "max_command_plan_index_frame_error": 4.47545209131181e-16,
+        "max_observation_state_error": 1.1102230246251565e-16,
+        "max_full_controller_field_errors": {
+          "theta": 0.0,
+          "zpll": 1.1102230246251565e-16,
+          "omega": 5.684341886080802e-14,
+          "zi": 4.322062729257126e-14,
+          "applied": 0.0,
+          "queued": 0.0,
+          "pb_command": 0.0
+        },
+        "accepted_optimizer_plans_independently_revalidated": 21501,
+        "max_revalidated_plan_primal_residual": 4.7253867485608225e-12,
+        "hard_contacts_recomputed": 0,
+        "max_continuous_root_margin_abs": 0.0,
+        "own_allocator_reference": {
+          "status": "PASS_NO_FABRICATED_HEALTHY_REFERENCE"
+        },
+        "conservative_recovery": {
+          "status": "NOT_APPLICABLE_NO_FAULT"
+        },
+        "physical_admission_reconciled": true
+      },
+      "audit_wall_s": 49.34666899700096
+    },
+    {
+      "case": "P50-fast",
+      "h_s": 1e-05,
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "summary_sha256": "e29a6ac27a07ea588d21532a12e652c8ee76ed65d947845d505766d7d8ed20a7",
+      "legacy_energy_tube_root_timing_checks": {
+        "case": "P50-fast",
+        "h_s": 1e-05,
+        "summary_file": "P50-fast_h1e-05.json",
+        "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+        "updates": 21501,
+        "intervals": 21501,
+        "guard_failures": 0,
+        "contacts": 0,
+        "independent_inventory_energy_and_endpoint_power_checks": true,
+        "stop_reason": "completed",
+        "final_time_s": 2.75005,
+        "no_fault_admission": null,
+        "selection_counts": {
+          "optimized": 21501
+        },
+        "max_antiwindup_error": 7.105427357601002e-15,
+        "terminal_DC_energy_derivative_W": null,
+        "energy_necessary_condition_independent": {
+          "status": "PASS_INDEPENDENT_ALGEBRA",
+          "headroom_J": 4341.250139440061,
+          "maximum_prefix_gain_J": 887.0613586655235,
+          "obstruction_after_fault_s": null,
+          "excludes_all_safe_control": false
+        },
+        "observed_next_step_and_dense_tube_check": {
+          "complete_sample_transitions": 21500,
+          "partial_intervals_excluded": 1,
+          "max_witness_disk_norm": 0.08638673804721952,
+          "max_witness_disk_excess": 5.599659624877518e-12,
+          "max_inverse_residual": 5.551115123125783e-17,
+          "numeric_membership_failures": [],
+          "max_exact_terminal_disk_excess": null,
+          "dense_nodes_checked": 33999,
+          "dense_intervals_checked": 2001,
+          "maximum_observed_hold_current_error_pu": 0.16568977507202814,
+          "max_observed_error_minus_tube_radius": -0.006823686398368917,
+          "dense_tube_failures": []
+        },
+        "raw_sha256": "048f08c1b1cc0363ab69fc2e0c42fcf1aca4e09b04796d0dd09c6d5cca58242c",
+        "trace_sha256": "2c48dcea706f8848d4ea894dbeb18a78f0dce43bf927b7e4f7d09fcca8501938"
+      },
+      "independent_allocator_reference_recovery_checks": {
+        "status": "PASS_INDEPENDENT_CONSTRUCTIVE_ARTIFACT_CHECKS",
+        "allocator": "p_priority",
+        "all_accepted_samples_replayed_algebraically": 21501,
+        "guard_failures_with_preserved_state": 0,
+        "max_nominal_modulation_error": 2.618455766672135e-16,
+        "max_common_AW_error": 3.874607664693971e-14,
+        "max_command_plan_index_frame_error": 5.026748538604307e-16,
+        "max_observation_state_error": 1.1102230246251565e-16,
+        "max_full_controller_field_errors": {
+          "theta": 0.0,
+          "zpll": 8.881784197001252e-16,
+          "omega": 5.684341886080802e-14,
+          "zi": 3.972054645195637e-14,
+          "applied": 0.0,
+          "queued": 0.0,
+          "pb_command": 0.0
+        },
+        "accepted_optimizer_plans_independently_revalidated": 21501,
+        "max_revalidated_plan_primal_residual": 5.599631869301902e-12,
+        "hard_contacts_recomputed": 0,
+        "max_continuous_root_margin_abs": 0.0,
+        "own_allocator_reference": {
+          "status": "PASS_OWN_ALLOCATOR_REFERENCE_ALL_DIFFERENCES",
+          "reference_case": "P0-fast",
+          "common_end_s": 2.75005,
+          "matched_sample_count": 21502,
+          "max_normalized_state_difference": 1.0730359326209724
+        },
+        "conservative_recovery": {
+          "status": "PASS_ALL_FROZEN_RECOVERY_SUBITEMS",
+          "checks_recomputed": 37,
+          "joint_recovery_time_s": null,
+          "global_safe_recovery": false,
+          "failed_subitem_counts": {
+            "self_cycle": 5,
+            "matched_target": 4,
+            "hard_safe_window": 0,
+            "unclipped_including_guard": 37,
+            "PLL_frequency": 2
+          },
+          "qualifying_count": 0,
+          "last_check": {
+            "time_s": 2.75,
+            "self_50ms_difference": 5.734301922188934e-13,
+            "same_time_guarded_no_fault_difference": 2.2737367544323206e-13,
+            "safe_150ms": true,
+            "unclipped_including_guard_150ms": false,
+            "PLL_max_error_Hz": 1.5411671938636573e-11,
+            "qualifying": false,
+            "successive": 0
+          },
+          "no_criterion_relaxed": true
+        },
+        "physical_admission_reconciled": true
+      },
+      "audit_wall_s": 48.080543726006
+    },
+    {
+      "case": "R50-fast",
+      "h_s": 1e-05,
+      "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+      "summary_sha256": "cbb38fab46138d22ae26fd3c5103d175196264352fd4015931c571c585646f53",
+      "legacy_energy_tube_root_timing_checks": {
+        "case": "R50-fast",
+        "h_s": 1e-05,
+        "summary_file": "R50-fast_h1e-05.json",
+        "status": "PASS_COMPLETED_ARTIFACT_RECONCILIATION",
+        "updates": 21501,
+        "intervals": 21501,
+        "guard_failures": 0,
+        "contacts": 0,
+        "independent_inventory_energy_and_endpoint_power_checks": true,
+        "stop_reason": "completed",
+        "final_time_s": 2.75005,
+        "no_fault_admission": null,
+        "selection_counts": {
+          "optimized": 21501
+        },
+        "max_antiwindup_error": 7.105427357601002e-15,
+        "terminal_DC_energy_derivative_W": null,
+        "energy_necessary_condition_independent": {
+          "status": "PASS_INDEPENDENT_ALGEBRA",
+          "headroom_J": 4341.250139440061,
+          "maximum_prefix_gain_J": 887.0613586655235,
+          "obstruction_after_fault_s": null,
+          "excludes_all_safe_control": false
+        },
+        "observed_next_step_and_dense_tube_check": {
+          "complete_sample_transitions": 21500,
+          "partial_intervals_excluded": 1,
+          "max_witness_disk_norm": 0.08637075424750816,
+          "max_witness_disk_excess": -1.598379411170414e-05,
+          "max_inverse_residual": 5.551115123125783e-17,
+          "numeric_membership_failures": [],
+          "max_exact_terminal_disk_excess": null,
+          "dense_nodes_checked": 34003,
+          "dense_intervals_checked": 2001,
+          "maximum_observed_hold_current_error_pu": 0.13481370388857436,
+          "max_observed_error_minus_tube_radius": -0.0376997575818227,
+          "dense_tube_failures": []
+        },
+        "raw_sha256": "ae7df5abb658fff7d9159fb95548398ff7a58f922938c1fac90580e53bbc18c5",
+        "trace_sha256": "ae5738056f3e2168f81370a37ed5b8378dc55f5bc5892864fc3a3984b5d1ef00"
+      },
+      "independent_allocator_reference_recovery_checks": {
+        "status": "PASS_INDEPENDENT_CONSTRUCTIVE_ARTIFACT_CHECKS",
+        "allocator": "radial",
+        "all_accepted_samples_replayed_algebraically": 21501,
+        "guard_failures_with_preserved_state": 0,
+        "max_nominal_modulation_error": 2.897767167584095e-16,
+        "max_common_AW_error": 4.2399510337661265e-14,
+        "max_command_plan_index_frame_error": 4.518280359883027e-16,
+        "max_observation_state_error": 1.1102230246251565e-16,
+        "max_full_controller_field_errors": {
+          "theta": 0.0,
+          "zpll": 8.881784197001252e-16,
+          "omega": 5.684341886080802e-14,
+          "zi": 4.322062729257126e-14,
+          "applied": 0.0,
+          "queued": 0.0,
+          "pb_command": 0.0
+        },
+        "accepted_optimizer_plans_independently_revalidated": 21501,
+        "max_revalidated_plan_primal_residual": 5.861977570020827e-13,
+        "hard_contacts_recomputed": 0,
+        "max_continuous_root_margin_abs": 0.0,
+        "own_allocator_reference": {
+          "status": "PASS_OWN_ALLOCATOR_REFERENCE_ALL_DIFFERENCES",
+          "reference_case": "R0-fast",
+          "common_end_s": 2.75005,
+          "matched_sample_count": 21502,
+          "max_normalized_state_difference": 0.45731780201953465
+        },
+        "conservative_recovery": {
+          "status": "PASS_ALL_FROZEN_RECOVERY_SUBITEMS",
+          "checks_recomputed": 37,
+          "joint_recovery_time_s": null,
+          "global_safe_recovery": false,
+          "failed_subitem_counts": {
+            "self_cycle": 4,
+            "matched_target": 3,
+            "hard_safe_window": 0,
+            "unclipped_including_guard": 37,
+            "PLL_frequency": 2
+          },
+          "qualifying_count": 0,
+          "last_check": {
+            "time_s": 2.75,
+            "self_50ms_difference": 5.722089468918057e-13,
+            "same_time_guarded_no_fault_difference": 2.2737367544323206e-13,
+            "safe_150ms": true,
+            "unclipped_including_guard_150ms": false,
+            "PLL_max_error_Hz": 1.7536194718559273e-11,
+            "qualifying": false,
+            "successive": 0
+          },
+          "no_criterion_relaxed": true
+        },
+        "physical_admission_reconciled": true
+      },
+      "audit_wall_s": 48.23132178800006
+    }
+  ],
+  "pending_primary_artifacts": [],
+  "physical_trajectories_executed_by_audit": 0,
+  "real_optimization_calls": 0,
+  "source_sha256": {
+    "run_constructive.py": "e9bceab631ec7f26c9639aa3a2887ddf21f8cefdd63390c76fbeb1d3d30563c5",
+    "guarded_allocator_controller.py": "50f4b5f97cb8caad08463451e3dfe959528119cf10b140c78af57409608f52f6",
+    "audit_artifact_checks.py": "b8ade441cadf57b912f9598b0f8f4df154460f89ab73aff52f3e90785473d73b",
+    "sealed_audit_runner_checks.py": "aee75449172192d4f73425fab0c726b12c37ea4ee739ec6d9d7437e0e79641ff"
+  },
+  "frozen_sources_before_and_after": {
+    "current_guard_gate1/audit_runner_checks.py": "aee75449172192d4f73425fab0c726b12c37ea4ee739ec6d9d7437e0e79641ff",
+    "current_guard_gate1/common_guard.py": "89e47d8429f893d09c2fd7cac5a38de360e76d7dc225ad5e0eb940b1a96fbe03",
+    "current_guard_gate1/run_models.py": "9e4ca7f83570e6e62bf7f3fef9096cde5c44782a0ca7b27026dcd47978662eae",
+    "baseline_allocation/allocators.py": "485e9ac80c8de58ee676d286972b92e7c398d1e2155a7f45dc025e2faffcb95a"
+  },
+  "qualification": "Read-only stored evidence and algebraic replay. Retained-node tube checks do not prove unretained continuous extrema or machine intervals; frozen recovery criteria retained exactly."
+}

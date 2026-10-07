@@ -1,0 +1,47 @@
+{
+  "precedence": "2026-10-04 third-round dossier and matching evidence supersede earlier results; 2026-10-07 handoff adds packaging and fresh checks, not new scientific discoveries.",
+  "sources": [
+    {
+      "source_filename": "G3_Round3_Portable_Evidence_20261004.zip",
+      "bytes": 1181220,
+      "sha256": "670362d92788d7898012d8d0a8ac4ec422452d0a40433e19123d1a3f65ea8076",
+      "role": "Recovered source/evidence archive"
+    },
+    {
+      "source_filename": "G3_可复核研究证据核心.zip",
+      "bytes": 7504923,
+      "sha256": "9b8841c2e65ff6fb81c631a3af27f50689d01e08233aa0de70dbf110a9e799f6",
+      "role": "Recovered source/evidence archive"
+    },
+    {
+      "source_filename": "算力电网_G3代码与审计报告.zip",
+      "bytes": 3208967,
+      "sha256": "9b0fb05aeefdfae12c498d82156eb61e73a8ff346079edb30c770c14e533e74e",
+      "role": "Recovered source/evidence archive"
+    },
+    {
+      "source_filename": "G3_第三轮研究档案_20261004.docx",
+      "bytes": 116680,
+      "sha256": "6f9a18b59196975e42fb601812a1fd53836488c54340e310fd1d851893a681e3",
+      "role": "Authoritative supplied third-round dossier"
+    }
+  ],
+  "catalog_sha256": "538b326b73eabc532905bd95f6af4ada71c8cb5530931458ffacd27c1a97e782",
+  "catalog_row": {
+    "优先级": "2",
+    "候选": "G3",
+    "当前处置": "主攻但优先权先设门槛",
+    "拟论文主线": "自由P/Q分配的前缀电气排除与采样恢复夹逼",
+    "第二轮基线": "808 kvar内见证；834.4145309 kvar全分配外界；外界受全任务净能量余量限制",
+    "第三轮真正新增": "将前缀少取电亏损与可释放电感能耦合；删除末态恢复仍排除；同合同ZOH电池端口内见证",
+    "最强结果": "同平均模型808≤Qsup≤812.5 kvar，812.5已排除；区间宽从26.4145缩为4.5 kvar",
+    "同信息基线": "同信息成熟CLARABEL SOCP重现808连续控制见证；本轮LP仅改为保持指令，权限不同",
+    "证据层级": "解析必要式＋40位向外区间内外证书；核心仍为平均模型",
+    "关键反例": "50/100 μs固定路径内近似未准入；PWM零纹波与未知连续lag精确开环恢复有结构障碍",
+    "创新未决": "2026近邻服务约束能量裕度文献尚未全文逐式归约；PWM同合同及鲁棒内界未闭合",
+    "最小下一步": "先完成最近全文逐式排重；若核心前缀排除已包含则降级，再决定是否做PWM近边界实现",
+    "算力区别": "逐时任务负荷持续且不可移峰；无任务特异数学机制或真实算力标定",
+    "收益口径": "证书夹逼精度与信息/执行合同；不是容量增长82.96%或新solver领先",
+    "来源": "G3 第三轮研究档案 第二至七节"
+  }
+}

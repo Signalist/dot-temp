@@ -1,0 +1,327 @@
+{
+  "verdict": "SAME_MODEL_DYNAMICS_REPRODUCED",
+  "scope": "One frozen fast P-priority physical condition, independent abc integration at10us and5us. DQ state/trajectory files are read only for shared initialization and offline comparison; no DQ runtime controller/allocator/RHS imports.",
+  "comparison": {
+    "h1e-05": {
+      "actual_1pu_time_error_s": 6.661338147750939e-16,
+      "stop_time_error_s": 4.6629367034256575e-15,
+      "pre_sample_normalized_state_max_error": 2.844391389089651e-13,
+      "controller_before_normalized_max_error": 1.646537819097202e-13,
+      "controller_after_normalized_max_error": 1.646537819097202e-13,
+      "diagnostics_normalized_max_error": 4.169602325270321e-13,
+      "diagnostics_max_absolute_error_by_field": {
+        "t": 0.0,
+        "Iactual_pu": 2.9110047705671604e-13,
+        "Vdc_pu": 9.992007221626409e-15,
+        "Vpcc_pu": 6.000755448098971e-14,
+        "PLL_e": 3.372302437298913e-13,
+        "PLL_wraw": 6.207301339600235e-11,
+        "PLL_omega_new": 6.207301339600235e-11,
+        "a_raw": 4.233697836752981e-10,
+        "b_raw": 3.701643436215818e-10,
+        "a_limited": 3.183231456205249e-12,
+        "b_limited": 2.7284841053187847e-12,
+        "iref_re": 2.071374183287844e-10,
+        "iref_im": 4.5486103772418573e-10,
+        "iref_pu": 2.886579864025407e-15,
+        "i_PLL_re": 4.099547368241474e-10,
+        "i_PLL_im": 2.8319391276454553e-10,
+        "v_PLL_re": 6.008349373587407e-11,
+        "v_PLL_im": 5.996980689815246e-11,
+        "uu_re": 1.6478907127748244e-10,
+        "uu_im": 1.2997247722523753e-10,
+        "us_re": 1.6478907127748244e-10,
+        "us_im": 1.3000089893466793e-10,
+        "voltage_saturation_factor": 2.220446049250313e-16,
+        "current_error_re": 5.920810508541763e-10,
+        "current_error_im": 2.212345862062648e-10,
+        "Ki_error_re": 2.3489974410040304e-09,
+        "Ki_error_im": 8.776623872108757e-10,
+        "Kaw_residual_re": 1.7053025658242404e-10,
+        "Kaw_residual_im": 1.1368683772161603e-10,
+        "source_command": 1.1385418474674225e-07,
+        "mnorm": 3.5360603334311236e-14,
+        "Ppcc_W": 9.42964106798172e-08,
+        "Qpcc_var": 1.8434366211295128e-07
+      },
+      "final_nominal_dq_current_error_pu": 1.2914263067677203e-12,
+      "final_Wdc_error_J": 1.4260876923799515e-09,
+      "final_Pbat_error_W": -2.66125425696373e-07,
+      "final_battery_energy_error_J": -3.814697265625e-06
+    },
+    "h5e-06": {
+      "actual_1pu_time_error_s": 2.220446049250313e-16,
+      "stop_time_error_s": 2.1094237467877974e-15,
+      "pre_sample_normalized_state_max_error": 1.3167245072054357e-13,
+      "controller_before_normalized_max_error": 1.0132540425213551e-13,
+      "controller_after_normalized_max_error": 1.1534811644774356e-13,
+      "diagnostics_normalized_max_error": 2.3697710460623966e-13,
+      "diagnostics_max_absolute_error_by_field": {
+        "t": 0.0,
+        "Iactual_pu": 1.1013412404281553e-13,
+        "Vdc_pu": 3.9968028886505635e-15,
+        "Vpcc_pu": 2.1871393585115584e-14,
+        "PLL_e": 2.3697710460623966e-13,
+        "PLL_wraw": 4.354205884737894e-11,
+        "PLL_omega_new": 4.348521542851813e-11,
+        "a_raw": 8.049028110690415e-11,
+        "b_raw": 7.048583938740194e-11,
+        "a_limited": 3.183231456205249e-12,
+        "b_limited": 2.7284841053187847e-12,
+        "iref_re": 1.211901690112427e-10,
+        "iref_im": 3.196873876731843e-10,
+        "iref_pu": 2.886579864025407e-15,
+        "i_PLL_re": 1.7712409317027777e-10,
+        "i_PLL_im": 1.6282797332678456e-10,
+        "v_PLL_re": 2.1742607714259066e-11,
+        "v_PLL_im": 4.760636329592671e-11,
+        "uu_re": 7.194955742306774e-11,
+        "uu_im": 1.1428369361965451e-10,
+        "us_re": 7.190692485892214e-11,
+        "us_im": 1.1431211532908492e-10,
+        "voltage_saturation_factor": 2.220446049250313e-16,
+        "current_error_re": 2.928572939708829e-10,
+        "current_error_im": 2.9820057534379885e-10,
+        "Ki_error_re": 1.1619931683526374e-09,
+        "Ki_error_im": 1.1831104984594276e-09,
+        "Kaw_residual_re": 1.7053025658242404e-10,
+        "Kaw_residual_im": 1.1368683772161603e-10,
+        "source_command": 6.461050361394882e-08,
+        "mnorm": 5.054290319606025e-14,
+        "Ppcc_W": 4.336470738053322e-08,
+        "Qpcc_var": 1.5884870663285255e-07
+      },
+      "final_nominal_dq_current_error_pu": 6.928566923445714e-13,
+      "final_Wdc_error_J": 6.402842700481415e-10,
+      "final_Pbat_error_W": -1.25030055642128e-07,
+      "final_battery_energy_error_J": 0.0
+    }
+  },
+  "refinement": {
+    "purpose": "Only same physical condition refined because both actual-current contacts occur; no strategy/parameter/physical-condition search",
+    "stop_time_5us_minus_10us_s": -2.55351295663786e-15,
+    "current1_time_5us_minus_10us_s": -4.440892098500626e-16,
+    "sample_normalized_max_difference": 1.8074430840897548e-13,
+    "dc_max_difference_pu": -1.8207657603852567e-14
+  },
+  "units_signs_and_control_identities": {
+    "Vpeak_from_LLrms_error_V": 0.0,
+    "Ipeak_from_Irms_error_A": 0.0,
+    "Sbase_from_peak_convention_error_VA": 0.0,
+    "Iabc_vs_complex_norm_max_error_pu": 6.661338147750939e-16,
+    "P_positive_Q_positive_reference_check": "iref=(a-jb)*v/|v| gives 1.5*v*conj(iref)=1.5*|v|*(a+jb); positive b means positive exported Q under saved convention",
+    "iref_power_identity_max_error_VA": 1.424221804676178e-10,
+    "a_clip_max_error_A": 0.0,
+    "b_clip_max_error_A": 0.0,
+    "general_source_differences_inactive": {
+      "P_preclip_in_DQ_only": "800kW is below950kW cap",
+      "reference_basis_denominator": "ABC uses max(V,0.1Vbase), DQ uses max(V,epsilon); minimum sampled V=.3666405837pu > .1pu, so identical on this trajectory",
+      "auxiliary_power_in_ABC_only": "locked auxiliary_power_W=0"
+    },
+    "abc_current_PI_update_identity_max_error_V": 2.831102726775622e-15,
+    "abc_queue_promotion_max_error": 0.0,
+    "abc_voltage_limit_never_active": true,
+    "abc_antiwindup_zero": true
+  },
+  "same_window_control_snapshots": [
+    {
+      "t": 0.6,
+      "Iactual_pu": 0.835358092861097,
+      "PLL_error": -6.193321562782849e-12,
+      "PLL_Hz": 59.999999999922295,
+      "raw_a_A": 892.7091043039748,
+      "raw_b_A": 781.1204662659779,
+      "limited_a_A": 892.7091043039748,
+      "limited_b_A": 781.1204662659779,
+      "Iref_pu": 0.8353580708486642,
+      "uu_PLL_V": [
+        642.9311239114861,
+        91.38120561220045
+      ],
+      "us_PLL_V": [
+        642.9311239114861,
+        91.38120561220045
+      ],
+      "zi_before_V": [
+        -0.9876990854152526,
+        38.25384814185561
+      ],
+      "zi_after_V": [
+        -0.9876990873474109,
+        38.25384815848014
+      ],
+      "current_aw_term_V_per_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 0.6001000000000001,
+      "Iactual_pu": 0.8715566712492602,
+      "PLL_error": 0.024938513213028063,
+      "PLL_Hz": 60.705367672321614,
+      "raw_a_A": 1351.5312801744196,
+      "raw_b_A": 1182.589870152617,
+      "limited_a_A": 1348.9943510979822,
+      "limited_b_A": 0.0,
+      "Iref_pu": 0.95,
+      "uu_PLL_V": [
+        502.5884428252267,
+        234.92024342629048
+      ],
+      "us_PLL_V": [
+        502.5884428252267,
+        234.92024342629048
+      ],
+      "zi_before_V": [
+        -0.9876990873474109,
+        38.25384815848014
+      ],
+      "zi_after_V": [
+        -0.8323089682066299,
+        38.57858145092707
+      ],
+      "current_aw_term_V_per_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 0.6003000000000001,
+      "Iactual_pu": 0.9755576908067882,
+      "PLL_error": 0.20220501559377532,
+      "PLL_Hz": 65.73163656483266,
+      "raw_a_A": 1521.664369394354,
+      "raw_b_A": 1331.4563232200596,
+      "limited_a_A": 1348.9943510979822,
+      "limited_b_A": 0.0,
+      "Iref_pu": 0.9500000000000002,
+      "uu_PLL_V": [
+        416.8335354488889,
+        347.66590783398266
+      ],
+      "us_PLL_V": [
+        416.8335354488889,
+        347.66590783398266
+      ],
+      "zi_before_V": [
+        -0.7274870676978292,
+        38.90763126945436
+      ],
+      "zi_after_V": [
+        -0.6643263237531004,
+        39.31511226657575
+      ],
+      "current_aw_term_V_per_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 0.6004,
+      "Iactual_pu": 1.002890313430832,
+      "PLL_error": 0.21547174337329086,
+      "PLL_Hz": 66.15769595523538,
+      "raw_a_A": 1548.6129383917162,
+      "raw_b_A": 1355.0363210927517,
+      "limited_a_A": 1348.9943510979822,
+      "limited_b_A": 0.0,
+      "Iref_pu": 0.95,
+      "uu_PLL_V": [
+        396.077222204529,
+        353.08802270286014
+      ],
+      "us_PLL_V": [
+        396.077222204529,
+        353.08802270286014
+      ],
+      "zi_before_V": [
+        -0.6643263237531004,
+        39.31511226657575
+      ],
+      "zi_after_V": [
+        -0.6303379574072742,
+        39.71408270775209
+      ],
+      "current_aw_term_V_per_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 0.6011000000000001,
+      "Iactual_pu": 1.015582316759316,
+      "PLL_error": 0.5220595650881883,
+      "PLL_Hz": 75.0,
+      "raw_a_A": 1794.7225263571647,
+      "raw_b_A": 1570.3822105625193,
+      "limited_a_A": 1348.9943510979822,
+      "limited_b_A": 0.0,
+      "Iref_pu": 0.9500000000000002,
+      "uu_PLL_V": [
+        210.75497582383386,
+        424.3845284633732
+      ],
+      "us_PLL_V": [
+        210.75497582383386,
+        424.3845284633732
+      ],
+      "zi_before_V": [
+        -0.9895500142376548,
+        42.07907925741919
+      ],
+      "zi_after_V": [
+        -1.1047962831363967,
+        42.380586750410885
+      ],
+      "current_aw_term_V_per_s": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "t": 0.602,
+      "Iactual_pu": 1.097311241805023,
+      "PLL_error": 0.3470434760733028,
+      "PLL_Hz": 71.64528744675782,
+      "raw_a_A": 2581.9910411689534,
+      "raw_b_A": 2259.2421610228344,
+      "limited_a_A": 1348.9943510979822,
+      "limited_b_A": 0.0,
+      "Iref_pu": 0.95,
+      "uu_PLL_V": [
+        121.81573954534333,
+        195.90372000446774
+      ],
+      "us_PLL_V": [
+        121.81573954534333,
+        195.90372000446774
+      ],
+      "zi_before_V": [
+        -1.9636973524284838,
+        43.37108916160147
+      ],
+      "zi_after_V": [
+        -2.0318143815808676,
+        43.31766009918195
+      ],
+      "current_aw_term_V_per_s": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "DQ_saved_state_reconstruction_max_identity_residual": {
+    "us_V": 2.0495186137532011e-13,
+    "zi_V": 2.214693192685633e-14,
+    "PLL_z": 8.881784197001252e-16,
+    "queue": 7.850462293418876e-17,
+    "theta": 0.0
+  },
+  "limitations": [
+    "Model-level independent coordinate/integration check only; not hardware/DC/DC topology calibration or validation",
+    "Physical actual-current hard constraint is1.0pu with zero overload allowance;1.1pu is a numerical emergency termination only",
+    "No clearance, post-stop recovery or service feasibility is demonstrated",
+    "Tiny roundoff/integration differences are not independent physical evidence; general low-voltage/control request branch differences remain outside this single trajectory"
+  ]
+}

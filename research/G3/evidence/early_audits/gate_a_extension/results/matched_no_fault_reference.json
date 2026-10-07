@@ -1,0 +1,102 @@
+{
+  "status": "new_paired_accounting_reference",
+  "purpose": "Shared no-fault reference for the same three prespecified sag conditions",
+  "checkpoint_sha256": "ca8a1d63f9bb406ab83b0560986ae43b29bd831018f1cbfedb60af4afaa48152",
+  "initial_time_s": 0.6,
+  "final_time_s": 1.4000000000000001,
+  "control_sample_s": 0.0001,
+  "max_step_s": 1e-05,
+  "max_actual_current_pu": 0.8353580928610971,
+  "max_energy_conservation_residual_J": 1.2947966752108186e-06,
+  "evaluation_states": {
+    "0.60005": {
+      "time_s": 0.60005,
+      "plant_state": [
+        929.3461775581621,
+        -735.8027745282857,
+        21915.135193267946,
+        815639.6755381202,
+        -500872.9865492465,
+        472124.24016722117,
+        28434.53753374282
+      ]
+    },
+    "0.6060234821815205": {
+      "time_s": 0.6060234821815205,
+      "plant_state": [
+        929.3839772543015,
+        -736.1282511966358,
+        21915.025982241303,
+        815639.6776119105,
+        -505844.6284630333,
+        476815.87264618644,
+        28714.547995288638
+      ]
+    },
+    "1.3": {
+      "time_s": 1.3,
+      "plant_state": [
+        929.5008293087444,
+        -736.9578980450193,
+        21914.74377237564,
+        815639.6604544983,
+        -1083431.1303257032,
+        1021871.8423733289,
+        61245.07888141028
+      ]
+    },
+    "1.4000000000000001": {
+      "time_s": 1.4000000000000001,
+      "plant_state": [
+        929.5008293087977,
+        -736.9578980449818,
+        21914.743772374266,
+        815639.6604546433,
+        -1166659.6671066384,
+        1100412.8241451436,
+        65932.63389078433
+      ]
+    }
+  },
+  "paired_battery_accounts": [
+    {
+      "case": "sag085",
+      "comparison_time_s": 1.3,
+      "comparison_reason": "completed",
+      "fault_battery_stored_energy_change_since_checkpoint_J": -579856.3118309471,
+      "no_fault_battery_stored_energy_change_since_checkpoint_J": -582599.7580456162,
+      "fault_minus_reference_stored_energy_J": 2743.4462146691512,
+      "extra_energy_debt_J": 0.0,
+      "energy_surplus_J": 2743.4462146691512,
+      "interpretation": "Positive difference is retained energy / surplus, not energy recovery; it may accompany missed active service. Negative difference is extra battery energy debt. Neither is forced to zero by electrical-state recovery.",
+      "fault_minus_reference_remote_active_energy_J": -3574.186032014317,
+      "fault_minus_reference_total_dissipation_J": 830.7392237519307
+    },
+    {
+      "case": "sag075",
+      "comparison_time_s": 1.4000000000000001,
+      "comparison_reason": "completed",
+      "fault_battery_stored_energy_change_since_checkpoint_J": -639726.8150272799,
+      "no_fault_battery_stored_energy_change_since_checkpoint_J": -665828.2948265515,
+      "fault_minus_reference_stored_energy_J": 26101.47979927156,
+      "extra_energy_debt_J": 0.0,
+      "energy_surplus_J": 26101.47979927156,
+      "interpretation": "Positive difference is retained energy / surplus, not energy recovery; it may accompany missed active service. Negative difference is extra battery energy debt. Neither is forced to zero by electrical-state recovery.",
+      "fault_minus_reference_remote_active_energy_J": -26226.365113713313,
+      "fault_minus_reference_total_dissipation_J": 124.88583827856928
+    },
+    {
+      "case": "sag0475",
+      "comparison_time_s": 0.6060234821815205,
+      "comparison_reason": "dc_high",
+      "fault_battery_stored_energy_change_since_checkpoint_J": -4934.288391908805,
+      "no_fault_battery_stored_energy_change_since_checkpoint_J": -5013.256182946323,
+      "fault_minus_reference_stored_energy_J": 78.9677910375176,
+      "extra_energy_debt_J": 0.0,
+      "energy_surplus_J": 78.9677910375176,
+      "interpretation": "Positive difference is retained energy / surplus, not energy recovery; it may accompany missed active service. Negative difference is extra battery energy debt. Neither is forced to zero by electrical-state recovery.",
+      "fault_minus_reference_remote_active_energy_J": -4341.980827992025,
+      "fault_minus_reference_total_dissipation_J": 2.410875514276995
+    }
+  ]
+}

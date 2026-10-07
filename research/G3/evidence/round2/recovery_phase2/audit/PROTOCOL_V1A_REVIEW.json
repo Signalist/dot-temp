@@ -1,0 +1,13 @@
+{
+  "reviewed_utc": "2026-10-03T09:27:00.414067+00:00",
+  "sha256": "e781acb04587aac37eb5f8c3ba40980d17dc392beceb1a9c2d1e8b41ace5f2fc",
+  "holdout_results_present": false,
+  "decision": "PROTOCOL ACCEPTABLE WITH LIMITED FINITE PHYSICAL-STATE RETURN CLAIM",
+  "comments": [
+    "Pre-result V1A amendment supersedes V1 resource and warmup clauses; both retained.",
+    "Three recovery energy budgets, signed magnitude/positive-only/absolute <=1 kJ, are explicit. Positive-only/absolute use cycle-mean convention rather than instantaneous PWM power.",
+    "One nominal checkpoint per dt across actual plant holdouts now explicit.",
+    "No change to numerical return thresholds or observation horizons; no results yet.",
+    "Controller state is diagnostic, so complete closed-loop-state recovery remains unproved."
+  ]
+}
