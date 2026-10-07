@@ -1,0 +1,89 @@
+{
+  "closed_at_utc": "2026-10-04T05:32:48Z",
+  "direction": "G6",
+  "round": 3,
+  "scientific_closure": "COMPLETE",
+  "engineering_high_novelty_gate": "NOT_PASSED_AFTER_TESTING_FINITE_UNCERTAINTY_AND_ENFORCEABLE_CONTRACT_ALTERNATIVES",
+  "mathematical_short_note": "RETAIN_CONDITIONAL_NARROW_ARITHMETIC_REPRESENTATION_CANDIDATE_WITH_ROBUSTNESS_BOUNDARY",
+  "novelty_priority": "NOT_ESTABLISHED; 2012 IFS fulltext gap retained",
+  "main_engineering_result": "Finite-window mismatch constraints have measurable conditional amplitude value, reproduced by the same-information ordinary integral LP / min-cost flow",
+  "claims": [
+    {
+      "id": "T1",
+      "claim": "Uniform fixed-angle support sensitivity and kink-safe one-sided second-order parameter interpolation",
+      "proof": "PASS independent",
+      "novelty": "standard semiconvex/support specialization"
+    },
+    {
+      "id": "T2/T2a",
+      "claim": "Alignable fixed common orientation uncertainty creates an exact circular sector with direct-piece Theta(epsilon^-1/2) local complexity and delta^2 crossover",
+      "proof": "PASS independent",
+      "novelty": "generic gauge/convex approximation corollary; exact SOC and logarithmic lifted LP escape direct-piece class"
+    },
+    {
+      "id": "T3/T3a",
+      "claim": "Window mismatch support is an exact weighted binary language / integral LP / interval min-cost-flow problem",
+      "proof": "PASS independent",
+      "novelty": "classical same-information baseline"
+    },
+    {
+      "id": "T4",
+      "claim": "Average-only asymptotic mismatch limits, even zero rate, allow every finite bad prefix and yield independent-sign all-time support",
+      "proof": "PASS independent",
+      "novelty": "elementary temporal contract counterexample"
+    },
+    {
+      "id": "T5",
+      "claim": "Two legal same-job DAG macroplans realize the balanced block templates without an affine power-work law",
+      "proof": "PASS independent",
+      "novelty": "constructive conditional realization; no measured computation or novel scheduling claim"
+    }
+  ],
+  "numerical_evidence": {
+    "synthetic_float_rows": 135,
+    "exact_rational_grid_nodes": 129,
+    "exact_rational_refinement_levels": 5,
+    "exact_finest_support_bracket": [
+      "2.8623636724591267663858792605385748155190",
+      "2.8625898942636140397383614235755641321063"
+    ],
+    "same_grid_first_vs_second_error_ratio": 138.3783783783784,
+    "orientation_crossover_rows": 12,
+    "DAG_structure_rows": 128,
+    "primary_network_configurations": 30,
+    "secondary_postprimary_window_shape_configurations": 2,
+    "producer_same_information_LP_checks": 84,
+    "producer_exhaustive_checks": 25,
+    "independent_proof_kink_partition_cases": 72,
+    "independent_high_precision_prefix_checks": 129,
+    "independent_language_cases": 85,
+    "independent_flow_LP_cases": 69,
+    "independent_network_raw_words": 30,
+    "portable_replay_primary_rows": 30,
+    "portable_replay_max_absolute_differences": {
+      "peak_lower_Hz_per_MW": 0.0,
+      "peak_upper_Hz_per_MW": 0.0,
+      "inner_amplitude_MW": 0.0,
+      "outer_amplitude_MW": 0.0
+    },
+    "new_nonlinear_integrations": 0,
+    "not_independent_physical_experiment_N": true
+  },
+  "preserved_caveats": [
+    "Positive Kundur nominal V7=.945044pu,V8=.948743pu",
+    "MW values are total zero-mean fluctuation amplitude, not added average hosting",
+    "WECC supplemental compute P0=0; not nonnegative compute-load realization",
+    "WECC prior nonlinear dynamic-optional inner peak about .05310Hz violates .05Hz",
+    "Exact rational synthetic enclosure does not enclose network kernels, uncertain grid parameters, nonlinear families or hardware",
+    "Task catalog has declared fixed job power/duration; changing a changes the catalog; no measured GPU/PCC calibration"
+  ],
+  "history": {
+    "original_files_hashed": 1033,
+    "changed": [],
+    "missing": [],
+    "round2_preserved": true
+  },
+  "independent_review": "validation/INDEPENDENT_PROOF_REVIEW.md",
+  "main_report": "report/G6_ROUND3_DOSSIER_ZH.md",
+  "next_route": "W6 NOT STARTED; parent decides sequential next step"
+}

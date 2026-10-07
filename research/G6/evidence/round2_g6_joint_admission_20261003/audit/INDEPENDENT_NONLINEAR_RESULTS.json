@@ -1,0 +1,345 @@
+{
+  "scope": "Raw numerical trajectory/metric and input-contract audit only; no continuous-time interval enclosure or family-wide nonlinear proof. Trimming equivalence bounded only for LTI.",
+  "checked_outputs": [
+    {
+      "network": "kundur",
+      "case": "committed_inner",
+      "dt": 0.015625,
+      "complete": true,
+      "peak_Hz": 0.049623395515863145,
+      "margin_Hz": 0.0003766044841368582,
+      "max_NL_LTI_difference_Hz": 0.00219272272516988,
+      "LTI_trim_error_Hz": 6.004600774933699e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "kundur_committed_inner_dt64.json"
+    },
+    {
+      "network": "kundur",
+      "case": "committed_inner",
+      "dt": 0.0078125,
+      "complete": true,
+      "peak_Hz": 0.049645737273267265,
+      "margin_Hz": 0.0003542627267327375,
+      "max_NL_LTI_difference_Hz": 0.002014412887697114,
+      "LTI_trim_error_Hz": 6.004588701258307e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "kundur_committed_inner_dt128.json"
+    },
+    {
+      "network": "kundur",
+      "case": "committed_outer",
+      "dt": 0.015625,
+      "complete": true,
+      "peak_Hz": 0.05180412140518342,
+      "margin_Hz": -0.0018041214051834203,
+      "max_NL_LTI_difference_Hz": 0.002388218753775706,
+      "LTI_trim_error_Hz": 6.264796667543315e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "kundur_committed_outer_dt64.json"
+    },
+    {
+      "network": "kundur",
+      "case": "committed_outer",
+      "dt": 0.0078125,
+      "complete": true,
+      "peak_Hz": 0.05182883401392946,
+      "margin_Hz": -0.0018288340139294562,
+      "max_NL_LTI_difference_Hz": 0.002198119701522592,
+      "LTI_trim_error_Hz": 6.264793336874241e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "kundur_committed_outer_dt128.json"
+    },
+    {
+      "network": "kundur",
+      "case": "dynamic_optional_inner",
+      "dt": 0.015625,
+      "complete": true,
+      "peak_Hz": 0.049353136796419506,
+      "margin_Hz": 0.0006468632035804972,
+      "max_NL_LTI_difference_Hz": 0.002140579273794997,
+      "LTI_trim_error_Hz": 6.407956040788143e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "kundur_dynamic_optional_inner_dt64.json"
+    },
+    {
+      "network": "kundur",
+      "case": "dynamic_optional_inner",
+      "dt": 0.0078125,
+      "complete": true,
+      "peak_Hz": 0.049369371939782525,
+      "margin_Hz": 0.000630628060217478,
+      "max_NL_LTI_difference_Hz": 0.0019167620585856075,
+      "LTI_trim_error_Hz": 6.407943481390177e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "kundur_dynamic_optional_inner_dt128.json"
+    },
+    {
+      "network": "kundur",
+      "case": "dynamic_optional_outer",
+      "dt": 0.015625,
+      "complete": true,
+      "peak_Hz": 0.051498750690255335,
+      "margin_Hz": -0.0014987506902553321,
+      "max_NL_LTI_difference_Hz": 0.002332231038081469,
+      "LTI_trim_error_Hz": 6.684344744378734e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "kundur_dynamic_optional_outer_dt64.json"
+    },
+    {
+      "network": "kundur",
+      "case": "dynamic_optional_outer",
+      "dt": 0.0078125,
+      "complete": true,
+      "peak_Hz": 0.051516438289040956,
+      "margin_Hz": -0.0015164382890409528,
+      "max_NL_LTI_difference_Hz": 0.0020983922075571773,
+      "LTI_trim_error_Hz": 6.684331976813951e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "kundur_dynamic_optional_outer_dt128.json"
+    },
+    {
+      "network": "kundur",
+      "case": "reset_inner_error",
+      "dt": 0.015625,
+      "complete": true,
+      "peak_Hz": 0.19113292900508227,
+      "margin_Hz": -0.14113292900508229,
+      "max_NL_LTI_difference_Hz": 0.03710297199549092,
+      "LTI_trim_error_Hz": 2.1651880566242454e-09,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "kundur_reset_inner_error_dt64.json"
+    },
+    {
+      "network": "kundur",
+      "case": "reset_inner_error",
+      "dt": 0.0078125,
+      "complete": true,
+      "peak_Hz": 0.1910995268507465,
+      "margin_Hz": -0.1410995268507465,
+      "max_NL_LTI_difference_Hz": 0.036223103739932414,
+      "LTI_trim_error_Hz": 2.165187223956977e-09,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "kundur_reset_inner_error_dt128.json"
+    },
+    {
+      "network": "wecc",
+      "case": "committed_inner",
+      "dt": 0.015625,
+      "complete": true,
+      "peak_Hz": 0.048824652535013335,
+      "margin_Hz": 0.0011753474649866674,
+      "max_NL_LTI_difference_Hz": 0.0033401269567306154,
+      "LTI_trim_error_Hz": 4.1685990770368164e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "wecc_committed_inner_dt64.json"
+    },
+    {
+      "network": "wecc",
+      "case": "committed_inner",
+      "dt": 0.0078125,
+      "complete": true,
+      "peak_Hz": 0.04881236888279794,
+      "margin_Hz": 0.001187631117202062,
+      "max_NL_LTI_difference_Hz": 0.003247252974095876,
+      "LTI_trim_error_Hz": 4.168594913700474e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "wecc_committed_inner_dt128.json"
+    },
+    {
+      "network": "wecc",
+      "case": "committed_outer",
+      "dt": 0.015625,
+      "complete": true,
+      "peak_Hz": 0.05100560919501618,
+      "margin_Hz": -0.0010056091950161744,
+      "max_NL_LTI_difference_Hz": 0.004051791122086448,
+      "LTI_trim_error_Hz": 4.355642999054332e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "wecc_committed_outer_dt64.json"
+    },
+    {
+      "network": "wecc",
+      "case": "committed_outer",
+      "dt": 0.0078125,
+      "complete": true,
+      "peak_Hz": 0.05099401478608989,
+      "margin_Hz": -0.000994014786089889,
+      "max_NL_LTI_difference_Hz": 0.003961378548224847,
+      "LTI_trim_error_Hz": 4.355639598996319e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "wecc_committed_outer_dt128.json"
+    },
+    {
+      "network": "wecc",
+      "case": "dynamic_optional_inner",
+      "dt": 0.015625,
+      "complete": true,
+      "peak_Hz": 0.0531086970696526,
+      "margin_Hz": -0.0031086970696525967,
+      "max_NL_LTI_difference_Hz": 0.006984698489614312,
+      "LTI_trim_error_Hz": 3.355507885438591e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "wecc_dynamic_optional_inner_dt64.json"
+    },
+    {
+      "network": "wecc",
+      "case": "dynamic_optional_inner",
+      "dt": 0.0078125,
+      "complete": true,
+      "peak_Hz": 0.0530995503416376,
+      "margin_Hz": -0.0030995503416375997,
+      "max_NL_LTI_difference_Hz": 0.006912637026744786,
+      "LTI_trim_error_Hz": 3.3554996281548455e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "wecc_dynamic_optional_inner_dt128.json"
+    },
+    {
+      "network": "wecc",
+      "case": "dynamic_optional_outer",
+      "dt": 0.015625,
+      "complete": true,
+      "peak_Hz": 0.05625026797086097,
+      "margin_Hz": -0.006250267970860965,
+      "max_NL_LTI_difference_Hz": 0.008506368271656382,
+      "LTI_trim_error_Hz": 3.50451043185096e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "wecc_dynamic_optional_outer_dt64.json"
+    },
+    {
+      "network": "wecc",
+      "case": "dynamic_optional_outer",
+      "dt": 0.0078125,
+      "complete": true,
+      "peak_Hz": 0.05624951852538196,
+      "margin_Hz": -0.006249518525381956,
+      "max_NL_LTI_difference_Hz": 0.008428606941303401,
+      "LTI_trim_error_Hz": 3.504506962404008e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "wecc_dynamic_optional_outer_dt128.json"
+    },
+    {
+      "network": "wecc",
+      "case": "reset_inner_error",
+      "dt": 0.015625,
+      "complete": true,
+      "peak_Hz": 0.066479768998855,
+      "margin_Hz": -0.01647976899885499,
+      "max_NL_LTI_difference_Hz": 0.01131770834373923,
+      "LTI_trim_error_Hz": 5.680238363003909e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "wecc_reset_inner_error_dt64.json"
+    },
+    {
+      "network": "wecc",
+      "case": "reset_inner_error",
+      "dt": 0.0078125,
+      "complete": true,
+      "peak_Hz": 0.06646544368833052,
+      "margin_Hz": -0.016465443688330514,
+      "max_NL_LTI_difference_Hz": 0.01111401917626844,
+      "LTI_trim_error_Hz": 5.680234616001201e-10,
+      "zero_probe_baseline_confirmed": true,
+      "source_file": "wecc_reset_inner_error_dt128.json"
+    }
+  ],
+  "refinement_pairs": [
+    {
+      "network": "kundur",
+      "case": "committed_inner",
+      "coarse_peak_Hz": 0.049623395515863145,
+      "fine_peak_Hz": 0.049645737273267265,
+      "peak_difference_Hz": 2.23417574041207e-05,
+      "fine_margin_Hz": 0.0003542627267327375
+    },
+    {
+      "network": "kundur",
+      "case": "committed_outer",
+      "coarse_peak_Hz": 0.05180412140518342,
+      "fine_peak_Hz": 0.05182883401392946,
+      "peak_difference_Hz": 2.471260874603587e-05,
+      "fine_margin_Hz": -0.0018288340139294562
+    },
+    {
+      "network": "kundur",
+      "case": "dynamic_optional_inner",
+      "coarse_peak_Hz": 0.049353136796419506,
+      "fine_peak_Hz": 0.049369371939782525,
+      "peak_difference_Hz": 1.6235143363019233e-05,
+      "fine_margin_Hz": 0.000630628060217478
+    },
+    {
+      "network": "kundur",
+      "case": "dynamic_optional_outer",
+      "coarse_peak_Hz": 0.051498750690255335,
+      "fine_peak_Hz": 0.051516438289040956,
+      "peak_difference_Hz": 1.768759878562065e-05,
+      "fine_margin_Hz": -0.0015164382890409528
+    },
+    {
+      "network": "kundur",
+      "case": "reset_inner_error",
+      "coarse_peak_Hz": 0.19113292900508227,
+      "fine_peak_Hz": 0.1910995268507465,
+      "peak_difference_Hz": 3.3402154335782086e-05,
+      "fine_margin_Hz": -0.1410995268507465
+    },
+    {
+      "network": "wecc",
+      "case": "committed_inner",
+      "coarse_peak_Hz": 0.048824652535013335,
+      "fine_peak_Hz": 0.04881236888279794,
+      "peak_difference_Hz": 1.2283652215394625e-05,
+      "fine_margin_Hz": 0.001187631117202062
+    },
+    {
+      "network": "wecc",
+      "case": "committed_outer",
+      "coarse_peak_Hz": 0.05100560919501618,
+      "fine_peak_Hz": 0.05099401478608989,
+      "peak_difference_Hz": 1.1594408926285382e-05,
+      "fine_margin_Hz": -0.000994014786089889
+    },
+    {
+      "network": "wecc",
+      "case": "dynamic_optional_inner",
+      "coarse_peak_Hz": 0.0531086970696526,
+      "fine_peak_Hz": 0.0530995503416376,
+      "peak_difference_Hz": 9.146728014997052e-06,
+      "fine_margin_Hz": -0.0030995503416375997
+    },
+    {
+      "network": "wecc",
+      "case": "dynamic_optional_outer",
+      "coarse_peak_Hz": 0.05625026797086097,
+      "fine_peak_Hz": 0.05624951852538196,
+      "peak_difference_Hz": 7.494454790091254e-07,
+      "fine_margin_Hz": -0.006249518525381956
+    },
+    {
+      "network": "wecc",
+      "case": "reset_inner_error",
+      "coarse_peak_Hz": 0.066479768998855,
+      "fine_peak_Hz": 0.06646544368833052,
+      "peak_difference_Hz": 1.432531052447672e-05,
+      "fine_margin_Hz": -0.016465443688330514
+    }
+  ],
+  "frozen_source_integrity": {
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_summary.json": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_witnesses.npz": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_kernel.npz": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_bound_components.npz": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_summary.json": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_witnesses.npz": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_kernel.npz": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_bound_components.npz": true,
+    "outputs/round2_20261003/grid_transfer/grid_adapter.py": true,
+    "outputs/round2_20261003/grid_transfer/PROVENANCE_LOCK.json": true,
+    "outputs/round2_20261003/grid_transfer/chainrule_audit.json": true,
+    "outputs/round2_20261003/grid_transfer/kundur_reduced51.npz": true,
+    "outputs/round2_20261003/grid_transfer/wecc_verified_descriptor_K.npz": true,
+    "outputs/round2_20261003/grid_transfer/wecc_descriptor_aux.npz": true
+  },
+  "all_current_checks_passed": true,
+  "all_expected_runs_complete": true
+}

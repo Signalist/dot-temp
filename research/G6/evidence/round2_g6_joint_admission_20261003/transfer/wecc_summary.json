@@ -1,0 +1,175 @@
+{
+  "network": "wecc",
+  "qualification": {
+    "sources": {
+      "outputs/round2_20261003/grid_transfer/wecc_verified_descriptor_K.npz": "e03c0bf4806f86756de28d7015b815d1af9a1aa876590ff1003cb07caab35f21",
+      "outputs/round2_20261003/grid_transfer/wecc_descriptor_aux.npz": "f136d2b50eb0dc14f9e2bea308b83390217085ab65881408d47a02bd34821569"
+    },
+    "method": "Original verified descriptor, algebraic elimination then generalized finite residues with repeated-eigenvalue block biorthogonalization. Not the rejected ordinary QZ model. Two real P input columns independently checked.",
+    "ports": [
+      "P_MW@bus1",
+      "P_MW@bus4"
+    ],
+    "original_descriptor_dimension": 2405,
+    "differential_named_variables": 708,
+    "generator_outputs": 29,
+    "finite_eigenvalues": 565,
+    "finite_groups_before_gauge": 493,
+    "uniform_angle_gauge_roots_removed": 1,
+    "gauge_eigenvalues": [
+      [
+        5.525982977354954e-13,
+        0.0
+      ]
+    ],
+    "max_gauge_frequency_residue": 1.4532449168767944e-17,
+    "max_biorthogonal_group_condition": 3388490237393.552,
+    "max_stable_eigenvalue_real": -0.03333333333333333,
+    "high_frequency_polynomial_remainder": 3.933108070317365e-20,
+    "resolvent_checks": [
+      {
+        "s": [
+          0.001,
+          0.003
+        ],
+        "absolute_error": 6.021006312372549e-15,
+        "relative_error": 1.137535290370587e-10
+      },
+      {
+        "s": [
+          0.01,
+          0.1
+        ],
+        "absolute_error": 5.788941589823728e-15,
+        "relative_error": 7.382148125171302e-11
+      },
+      {
+        "s": [
+          0.1,
+          0.5
+        ],
+        "absolute_error": 6.076208660978312e-15,
+        "relative_error": 3.073493256617308e-11
+      },
+      {
+        "s": [
+          1.0,
+          2.0
+        ],
+        "absolute_error": 5.0562871707494625e-15,
+        "relative_error": 1.2337457109173713e-11
+      },
+      {
+        "s": [
+          10.0,
+          10.0
+        ],
+        "absolute_error": 2.061173120032697e-15,
+        "relative_error": 1.2863449498657753e-11
+      },
+      {
+        "s": [
+          100.0,
+          100.0
+        ],
+        "absolute_error": 2.7428411006165065e-16,
+        "relative_error": 1.4719882702286355e-11
+      },
+      {
+        "s": [
+          1000.0,
+          100.0
+        ],
+        "absolute_error": 3.9647393649580763e-17,
+        "relative_error": 1.492566515153896e-11
+      },
+      {
+        "s": [
+          10000.0,
+          10000.0
+        ],
+        "absolute_error": 2.835264219513454e-18,
+        "relative_error": 1.4974133322540112e-11
+      },
+      {
+        "s": [
+          100000.0,
+          10000.0
+        ],
+        "absolute_error": 3.9907734522354537e-19,
+        "relative_error": 1.4976228905103475e-11
+      }
+    ],
+    "qualification_pass": true,
+    "limitations": [
+      "Floating eigensystem and resolvent checks, no directed rounding",
+      "Gauge exclusion is structural unobservability plus a numerical residual check",
+      "Original pencil is ill conditioned; tests do not prove nonlinear fidelity at admission amplitudes"
+    ]
+  },
+  "phase_refinements": [
+    {
+      "phase_intervals": 2048,
+      "max_relative_error_committed": 0.004713283865415205,
+      "max_modal_imaginary_residual": 5.961002121120381e-19,
+      "same_information_dynamic_baseline_max_abs_difference": 1.0842021724855044e-18
+    }
+  ],
+  "N_past_blocks": 256,
+  "frequency_limit_Hz": 0.05,
+  "all_time_interpretation": "Unrestricted-sign and optional supports are nondecreasing in available history, so infinite support dominates every zero-state startup prefix. Single-sign comparator explicitly maximizes every startup prefix.",
+  "float_numerical_bound_not_interval_proof": true,
+  "same_information_committed_baseline": "Identical classical support sum by derivation; no solver gain",
+  "same_information_dynamic_baseline_max_abs_gap": 1.0842021724855044e-18,
+  "equal_split": {
+    "ray_index": 20,
+    "a1_share": 0.5,
+    "a2_share": 0.5,
+    "tail_error_Hz_per_MW": 1.1269003525597307e-17,
+    "phase_error_Hz_per_MW": 2.6180129479044646e-06,
+    "committed_peak_lower_Hz_per_MW": 0.0006722510175538862,
+    "committed_peak_upper_Hz_per_MW": 0.000674869030501802,
+    "committed_capacity_lower_MW": 74.08844937338772,
+    "committed_capacity_upper_MW": 74.37697927469794,
+    "dynamic_optional_peak_lower_Hz_per_MW": 0.0007590588696005306,
+    "dynamic_optional_peak_upper_Hz_per_MW": 0.0007616768825484464,
+    "dynamic_optional_capacity_lower_MW": 65.64463376216457,
+    "dynamic_optional_capacity_upper_MW": 65.87104373908899,
+    "fixed_optional_peak_lower_Hz_per_MW": 0.0007348984195699415,
+    "fixed_optional_peak_upper_Hz_per_MW": 0.0007375164325178573,
+    "fixed_optional_capacity_lower_MW": 67.79509960110532,
+    "fixed_optional_capacity_upper_MW": 68.03661386189907,
+    "independent_ports_peak_lower_Hz_per_MW": 0.0008836511258086661,
+    "independent_ports_peak_upper_Hz_per_MW": 0.0008862691387565818,
+    "independent_ports_capacity_lower_MW": 56.41627110038946,
+    "independent_ports_capacity_upper_MW": 56.58341684818532,
+    "reset_peak_lower_Hz_per_MW": 0.0004926531983424494,
+    "reset_peak_upper_Hz_per_MW": 0.0004952712112903651,
+    "reset_capacity_lower_MW": 100.9547877207146,
+    "reset_capacity_upper_MW": 101.49127249803092,
+    "single_sign_periodic_peak_lower_Hz_per_MW": 0.0006192811407064836,
+    "single_sign_periodic_peak_upper_Hz_per_MW": 0.0006218991536543994,
+    "single_sign_periodic_capacity_lower_MW": 80.39888735366556,
+    "single_sign_periodic_capacity_upper_MW": 80.7387738999437,
+    "common_vs_independent_capacity_gain_lower": 0.30936683396424813,
+    "dynamic_vs_independent_capacity_gain_lower": 0.16013909054468578,
+    "dynamic_loss_vs_committed_lower": 0.11091345147318454
+  },
+  "maximum_common_vs_independent_capacity_gain_lower": 0.3439149145357838,
+  "maximum_dynamic_vs_independent_capacity_gain_lower": 0.1944383432727821,
+  "maximum_dynamic_capacity_loss_vs_committed_lower": 0.1450689750170513,
+  "decision_counts": {
+    "common_information_vs_independent_relaxation": 39,
+    "dynamic_optional_vs_independent_relaxation": 39,
+    "fixed_cohort_not_optional_capacity": 38
+  },
+  "raw_coefficients_shape": [
+    29,
+    2049,
+    2,
+    257
+  ],
+  "raw_coefficients_file": "wecc_coefficients.npy",
+  "coefficient_order": "output,phase,port,[current,lag0,...,lag255]",
+  "phase_bound": "h/2 times min(global analytic first-derivative bound, maximum sampled sum-absolute first derivatives plus exact derivative modal tail plus h/2 global second-derivative bound). Each segment endpoint uses both one-sided derivatives."
+}

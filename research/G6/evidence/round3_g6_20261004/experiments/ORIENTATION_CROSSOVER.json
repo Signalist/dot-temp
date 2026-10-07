@@ -1,0 +1,137 @@
+{
+  "scope": "normalized exact circle-sector theorem illustration, M=1; not a fit to grid eigenvalues",
+  "rows": [
+    {
+      "orientation_halfwidth_rad": 0.001,
+      "gauge_tolerance": 0.01,
+      "slope_l": 0.9980019973366624,
+      "slope_u": 1.0020020026700043,
+      "proven_piece_lower_real": 0.00593712221214161,
+      "safe_constructed_pieces": 1,
+      "proven_chord_error_upper": 7.092310517034175e-07,
+      "dense_max_error": 7.071070757813658e-07,
+      "dense_min_error": 0.0
+    },
+    {
+      "orientation_halfwidth_rad": 0.001,
+      "gauge_tolerance": 0.0001,
+      "slope_l": 0.9980019973366624,
+      "slope_u": 1.0020020026700043,
+      "proven_piece_lower_real": 0.05937122212141611,
+      "safe_constructed_pieces": 1,
+      "proven_chord_error_upper": 7.092310517034175e-07,
+      "dense_max_error": 7.071070757813658e-07,
+      "dense_min_error": 0.0
+    },
+    {
+      "orientation_halfwidth_rad": 0.001,
+      "gauge_tolerance": 1e-06,
+      "slope_l": 0.9980019973366624,
+      "slope_u": 1.0020020026700043,
+      "proven_piece_lower_real": 0.593712221214161,
+      "safe_constructed_pieces": 1,
+      "proven_chord_error_upper": 7.092310517034175e-07,
+      "dense_max_error": 7.071070757813658e-07,
+      "dense_min_error": 0.0
+    },
+    {
+      "orientation_halfwidth_rad": 0.001,
+      "gauge_tolerance": 1e-08,
+      "slope_l": 0.9980019973366624,
+      "slope_u": 1.0020020026700043,
+      "proven_piece_lower_real": 5.9371222121416105,
+      "safe_constructed_pieces": 9,
+      "proven_chord_error_upper": 8.755938909918734e-09,
+      "dense_max_error": 8.752452762550433e-09,
+      "dense_min_error": 0.0
+    },
+    {
+      "orientation_halfwidth_rad": 0.01,
+      "gauge_tolerance": 0.01,
+      "slope_l": 0.9801973662453539,
+      "slope_u": 1.0202027004321588,
+      "proven_piece_lower_real": 0.05857407170210863,
+      "safe_constructed_pieces": 1,
+      "proven_chord_error_upper": 7.286185619654836e-05,
+      "dense_max_error": 7.071532185887186e-05,
+      "dense_min_error": 0.0
+    },
+    {
+      "orientation_halfwidth_rad": 0.01,
+      "gauge_tolerance": 0.0001,
+      "slope_l": 0.9801973662453539,
+      "slope_u": 1.0202027004321588,
+      "proven_piece_lower_real": 0.5857407170210863,
+      "safe_constructed_pieces": 1,
+      "proven_chord_error_upper": 7.286185619654836e-05,
+      "dense_max_error": 7.071532185887186e-05,
+      "dense_min_error": 0.0
+    },
+    {
+      "orientation_halfwidth_rad": 0.01,
+      "gauge_tolerance": 1e-06,
+      "slope_l": 0.9801973662453539,
+      "slope_u": 1.0202027004321588,
+      "proven_piece_lower_real": 5.8574071702108625,
+      "safe_constructed_pieces": 9,
+      "proven_chord_error_upper": 8.995290888462761e-07,
+      "dense_max_error": 8.964712576720046e-07,
+      "dense_min_error": 0.0
+    },
+    {
+      "orientation_halfwidth_rad": 0.01,
+      "gauge_tolerance": 1e-08,
+      "slope_l": 0.9801973662453539,
+      "slope_u": 1.0202027004321588,
+      "proven_piece_lower_real": 58.574071702108625,
+      "safe_constructed_pieces": 86,
+      "proven_chord_error_upper": 9.851521930306699e-09,
+      "dense_max_error": 9.84808634640899e-09,
+      "dense_min_error": 0.0
+    },
+    {
+      "orientation_halfwidth_rad": 0.1,
+      "gauge_tolerance": 0.01,
+      "slope_l": 0.8176288094325201,
+      "slope_u": 1.2230488804498652,
+      "proven_piece_lower_real": 0.5104245809048871,
+      "safe_constructed_pieces": 1,
+      "proven_chord_error_upper": 0.00953289041577781,
+      "dense_max_error": 0.007118565712816993,
+      "dense_min_error": 0.0
+    },
+    {
+      "orientation_halfwidth_rad": 0.1,
+      "gauge_tolerance": 0.0001,
+      "slope_l": 0.8176288094325201,
+      "slope_u": 1.2230488804498652,
+      "proven_piece_lower_real": 5.104245809048871,
+      "safe_constructed_pieces": 10,
+      "proven_chord_error_upper": 9.532890415777811e-05,
+      "dense_max_error": 9.252943018944748e-05,
+      "dense_min_error": 0.0
+    },
+    {
+      "orientation_halfwidth_rad": 0.1,
+      "gauge_tolerance": 1e-06,
+      "slope_l": 0.8176288094325201,
+      "slope_u": 1.2230488804498652,
+      "proven_piece_lower_real": 51.042458090488715,
+      "safe_constructed_pieces": 98,
+      "proven_chord_error_upper": 9.925958367115589e-07,
+      "dense_max_error": 9.895819657046445e-07,
+      "dense_min_error": -2.220446049250313e-16
+    },
+    {
+      "orientation_halfwidth_rad": 0.1,
+      "gauge_tolerance": 1e-08,
+      "slope_l": 0.8176288094325201,
+      "slope_u": 1.2230488804498652,
+      "proven_piece_lower_real": 510.4245809048871,
+      "safe_constructed_pieces": 977,
+      "proven_chord_error_upper": 9.987009735458859e-09,
+      "dense_max_error": 9.98396409990221e-09,
+      "dense_min_error": 0.0
+    }
+  ]
+}

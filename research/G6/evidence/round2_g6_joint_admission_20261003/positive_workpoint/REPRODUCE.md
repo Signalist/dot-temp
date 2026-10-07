@@ -1,0 +1,15 @@
+> Historical scientific document. Use the handoff root README.md and REPRODUCE.md for current execution commands and dependency limits. Historical hashes/complete-workspace statements are not current handoff verification.
+
+# Reproduce the isolated positive-compute study
+
+Use only the pre-existing qualified ANDES environment and original scripts; no network download is needed. Run from the repository root. Existing Round2/G5/zero-baseline G6 files are read-only inputs. All new model, input and result files are below this folder.
+
+1. Review POSITIVE_WORKPOINT_FREEZE.json, DERIVATIVE_PROBE_CORRECTION.json, and POSITIVE_NONLINEAR_CASES.json before running. The local pre-outcome configuration fixes +50MW active compute at each bus7/8, Q=0, and no nominal retuning. Qualification's original failed sink probe is retained rather than erased.
+2. Run `OPENBLAS_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 outputs/round2_20261003/andes_env/bin/python outputs/round2_g6_joint_admission_20261003/positive_workpoint/qualify_positive.py`. This independently reloads and balances the nominal case, exports the new A/B/C/D and descriptor, checks stationarity, physical-tangent derivatives and small-input nonlinear consistency.
+3. Run the same environment on `run_positive_support.py`. It imports the already-reviewed original G6 support implementation from ../transfer/run_transfer.py, changes only its output ROOT, and feeds the new qualified positive kernel. This generates all41 support rays and maximizing finite words with analytic modal tail and phase bounds.
+4. Run `run_positive_nonlinear.py --freeze-only` to verify/create deterministic input selections under the pre-outcome rule. Existing frozen case choices are reused, not retuned. Then run `run_positive_nonlinear.py primary` and `run_positive_nonlinear.py refine`. Each independently rebuilds the +50/+50MW point before replay. Completed matching result files are skipped. Both scripts may run concurrently because their output labels differ.
+5. Run `summarize_positive.py` to refresh physical-cap curves, power-balance ledger and nonlinear aggregate. Final claims must use the complete10-case summary, not interim files.
+
+Each nonlinear forcing word has257 complete2s blocks. Forcing begins at1s, ends at515s and is followed by20s ringdown, with no electrical state reset. Each actual compute load has exactly50MW mean over the forcing word and whole535s horizon, since every full block has zero incremental energy. Incremental energy is exactly0MWs at each port; baseline energy per port is25700MWs over514s forcing, and26750MWs over535s including preroll/ringdown. Only under the stated affine power-work law is corresponding work exactly514*wbar_i over the forcing word and535*wbar_i over the full horizon. These are algebraic identities, not a measured compute calibration.
+
+Do not interpret all-ray LTI envelopes as nonlinear family certificates. Nonlinear results are ten finite numerical trajectories at two step sizes, evaluating a frozen frequency criterion; base/trajectory voltages and broader grid/compute constraints are not qualified for deployment.

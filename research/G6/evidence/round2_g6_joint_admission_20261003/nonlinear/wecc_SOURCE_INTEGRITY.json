@@ -1,0 +1,19 @@
+{
+  "all_unchanged": true,
+  "checks": {
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_summary.json": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_witnesses.npz": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_kernel.npz": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_bound_components.npz": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_summary.json": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_witnesses.npz": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_kernel.npz": true,
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_bound_components.npz": true,
+    "outputs/round2_20261003/grid_transfer/grid_adapter.py": true,
+    "outputs/round2_20261003/grid_transfer/PROVENANCE_LOCK.json": true,
+    "outputs/round2_20261003/grid_transfer/chainrule_audit.json": true,
+    "outputs/round2_20261003/grid_transfer/kundur_reduced51.npz": true,
+    "outputs/round2_20261003/grid_transfer/wecc_verified_descriptor_K.npz": true,
+    "outputs/round2_20261003/grid_transfer/wecc_descriptor_aux.npz": true
+  }
+}

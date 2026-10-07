@@ -1,3 +1,11 @@
+# G6 研究路线交接（2026-10-07）
+
+请从 [research/G6/README.md](research/G6/README.md) 开始。该目录中的状态、证据边界、复现步骤和后续代理提示是本路线的交接依据；先进入该目录，再按其说明执行。
+
+## 保留的历史根目录说明
+
+下面保留原仓库 README。根目录 ZIP 与报告属于此前 DOT-AIGRID 阶段交付；本路线的交接材料位于 research/G6/。
+
 # dot-temp
 
 DOT-AIGRID 阶段交付：修改后的代码、公开任务 GPU_ONLY 描述性研究及累计证据。
@@ -15,3 +23,4 @@ DOT-AIGRID 阶段交付：修改后的代码、公开任务 GPU_ONLY 描述性�
 修改后的代码、协议和数据在分包中。最新采集代码位于 `continuation_20261006_54`，调度位于55，分析与封装位于56。请先阅读合并后 `README_START_HERE_ZH.md`。当前 GPU_ONLY 结果使用 `GPU_ONLY_Fixed_Task_Estimation_v2.zip`。
 
 不自动运行 GPU/物理控制脚本。离线复算按报告说明进行，需要相应 Python 依赖；模型权重、环境与缓存不包含在交付中。
+

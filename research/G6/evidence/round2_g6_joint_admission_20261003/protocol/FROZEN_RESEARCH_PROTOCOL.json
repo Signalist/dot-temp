@@ -1,0 +1,99 @@
+{
+  "frozen_at_utc": "2026-10-03T12:17:21.539838+00:00",
+  "route": "original G6 sequence6, second bounded research",
+  "source_hashes": {
+    "outputs/recovered_ai_grid_final_20261003/public_index/研究证据.json": "027fa0679575d5a22ced9f5e6ff74d26150cd575aff3429a6147821479dc38b5",
+    "outputs/recovered_ai_grid_final_20261003/cores/unpacked/G6/reports/G6_FULL_REPORT_ZH.md": "4d463e76e9e14aaeead51431ef0bdd5afcd4a68c6d498ffa21051ccc9deae308",
+    "outputs/recovered_ai_grid_final_20261003/cores/unpacked/G6/reports/ASSUMPTION_LEDGER_ZH.md": "d0a873410aee30b901714982084fb2ec0903d036e9c654e83e29ed5a48b031ae",
+    "outputs/recovered_ai_grid_final_20261003/cores/unpacked/G6/reports/NEXT_GATE_AND_STOP_ZH.md": "60908a78ee610cc2347abca23aa16e62a2e6357559a00da1f026f5231d0dd1b7"
+  },
+  "candidate_ladder": [
+    "C1 carried-state support for indefinitely repeating balanced task blocks, joint phase alphabet and automaton; exact rational-orbit/irrational nonpolyhedral structure",
+    "C2 all-time chance admission versus robust admission under persistent full-support workload randomness, finite-mission waiting-time bounds",
+    "C3 same fixed shared parameter across ports and blocks; no rectangularization or switching claim"
+  ],
+  "primary_models": {
+    "development": {
+      "r": 0.85,
+      "theta": 0.7,
+      "dimension": 2,
+      "alphabet": "common block sign ±1; B=I structural coordinates"
+    },
+    "heldouts": [
+      {
+        "r": 0.6,
+        "theta": 0.7
+      },
+      {
+        "r": 0.95,
+        "theta": 0.7
+      },
+      {
+        "r": 0.85,
+        "theta": "pi/4"
+      },
+      {
+        "r": 0.85,
+        "theta": "pi*(sqrt(5)-1)/2"
+      }
+    ],
+    "allocation_rays": 41,
+    "tail_N": [
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "max_run_contract": [
+      1,
+      2,
+      3,
+      "unrestricted"
+    ]
+  },
+  "physical_block_templates": {
+    "T_s": 2.0,
+    "fractions": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "q1": [
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "q2": [
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "blocks": "each sign mode has identical zero incremental energy and fixed affine work; electrical state never resets",
+    "controller": "none unless a scheduling/automaton contract is explicitly imposed",
+    "buffer": "none; no storage energy creation"
+  },
+  "strong_baselines": [
+    "exact classical Minkowski/support series and finite-tail bound",
+    "same-information finite-state max-plus dynamic programming",
+    "independent exhaustive finite-word enumeration N<=18 to verify support/DP"
+  ],
+  "ablations": [
+    "electrical state reset each block (invalid all-time comparator, only demonstrate error)",
+    "single indefinitely repeated sign/periodic orbit screening",
+    "independent port signs instead of joint sign (information change)",
+    "unrestricted signs versus max-run1/2/3 contract (information/control change)",
+    "fixed shared parameter vs independent port maxima and switching (conservative relaxation, no candidate gain)"
+  ],
+  "numerical_scope": "original code, existing numpy/scipy and qualified frozen network models only; float computations independently checked, no outward-rounded proof claim unless implemented",
+  "transfer_plan": "Kundur two real PCC input columns and all generator frequencies; WECC only if multiport qualification can be completed without unfamiliar external code; network numerical kernels are conditional models, no field calibration or full nonlinear certificate",
+  "stop_conditions": [
+    "if strong same-info baseline reproduces candidate, classify structural/application result rather than new solver",
+    "if all three candidate mechanisms directly classical after primary audit, produce reasoned no-high-innovation outcome after proofs and quantitative heldouts",
+    "do not alter frozen endpoints or holdouts for a positive verdict"
+  ]
+}

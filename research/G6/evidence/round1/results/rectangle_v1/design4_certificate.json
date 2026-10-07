@@ -1,0 +1,124 @@
+{
+  "model": {
+    "name": "design4",
+    "n": 4,
+    "weights": {
+      "1": 90,
+      "2": 65,
+      "3": 25
+    },
+    "M": 160.0,
+    "D": 26.0,
+    "sources": [
+      0,
+      3
+    ]
+  },
+  "relative_tolerance": 0.02,
+  "maxboxes": 16000,
+  "evaluated_boxes": 16001,
+  "leaf_count": 8001,
+  "seconds": 126.40755414962769,
+  "max_relative_gap": 0.15342555289879944,
+  "tolerance_met": false,
+  "arithmetic": "IEEE754 basic operations outward-rounded one ulp; mpmath.iv80 interval trigonometric constants rounded outward to binary64",
+  "historical_old_g6_used_as_test": false,
+  "history": [
+    {
+      "evals": 1001,
+      "heap": 501,
+      "leaves": 0,
+      "elapsed_s": 7.222470760345459
+    },
+    {
+      "evals": 2001,
+      "heap": 1001,
+      "leaves": 0,
+      "elapsed_s": 14.141958951950073
+    },
+    {
+      "evals": 3001,
+      "heap": 1501,
+      "leaves": 0,
+      "elapsed_s": 21.34060287475586
+    },
+    {
+      "evals": 4001,
+      "heap": 2001,
+      "leaves": 0,
+      "elapsed_s": 30.187551736831665
+    },
+    {
+      "evals": 5001,
+      "heap": 2501,
+      "leaves": 0,
+      "elapsed_s": 37.553220987319946
+    },
+    {
+      "evals": 6001,
+      "heap": 3001,
+      "leaves": 0,
+      "elapsed_s": 44.89063858985901
+    },
+    {
+      "evals": 7001,
+      "heap": 3501,
+      "leaves": 0,
+      "elapsed_s": 52.148691177368164
+    },
+    {
+      "evals": 8001,
+      "heap": 4001,
+      "leaves": 0,
+      "elapsed_s": 59.93843746185303
+    },
+    {
+      "evals": 9001,
+      "heap": 4501,
+      "leaves": 0,
+      "elapsed_s": 66.94414448738098
+    },
+    {
+      "evals": 10001,
+      "heap": 5001,
+      "leaves": 0,
+      "elapsed_s": 73.99710083007812
+    },
+    {
+      "evals": 11001,
+      "heap": 5501,
+      "leaves": 0,
+      "elapsed_s": 81.26863527297974
+    },
+    {
+      "evals": 12001,
+      "heap": 6001,
+      "leaves": 0,
+      "elapsed_s": 89.35452318191528
+    },
+    {
+      "evals": 13001,
+      "heap": 6501,
+      "leaves": 0,
+      "elapsed_s": 104.49400162696838
+    },
+    {
+      "evals": 14001,
+      "heap": 7001,
+      "leaves": 0,
+      "elapsed_s": 111.89866209030151
+    },
+    {
+      "evals": 15001,
+      "heap": 7501,
+      "leaves": 0,
+      "elapsed_s": 119.41279482841492
+    },
+    {
+      "evals": 16001,
+      "heap": 8001,
+      "leaves": 0,
+      "elapsed_s": 126.39702534675598
+    }
+  ]
+}

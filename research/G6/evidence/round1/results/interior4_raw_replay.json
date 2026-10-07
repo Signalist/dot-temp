@@ -1,0 +1,77 @@
+{
+  "model": "interior4",
+  "case_count": 196,
+  "base_paired_scenarios": 40,
+  "base_method_runs": 160,
+  "contract_break_variants": 36,
+  "complete_case_coverage": true,
+  "peak_recompute_max_error": 2.220446049250313e-16,
+  "pcc_recompute_max_error_MW": 1.270095140171179e-12,
+  "files": [
+    {
+      "path": "raw/interior4_traces_000_015.npz",
+      "bytes": 5357746,
+      "sha256": "9d409a9f6b0d7ed1802b55800875e2c6c0c585efc9f8a25dfd0a9863ab55ac8c"
+    },
+    {
+      "path": "raw/interior4_traces_016_031.npz",
+      "bytes": 5357913,
+      "sha256": "20e191b9fd918f9f1a11d36a0d28fffc806360970816b87585995d28eab3e09c"
+    },
+    {
+      "path": "raw/interior4_traces_032_047.npz",
+      "bytes": 5351675,
+      "sha256": "f8ed8dda7ee5a8830fae4436dfee4a655b0084ad169bddc2b8eec75a6f881b82"
+    },
+    {
+      "path": "raw/interior4_traces_048_063.npz",
+      "bytes": 5359461,
+      "sha256": "3377bd64398afec2dedb276e1d30613efe5b6380dfe3402567bc8b8e9803bf88"
+    },
+    {
+      "path": "raw/interior4_traces_064_079.npz",
+      "bytes": 5357310,
+      "sha256": "0016c966f7743b290bdc2fde92811ea21d5929de6dd7272013bbab87ba49f022"
+    },
+    {
+      "path": "raw/interior4_traces_080_095.npz",
+      "bytes": 5348272,
+      "sha256": "1936149bb87c9b2fab02bc5a0a10e1f50761291e9f5c63fc83a4d8c0d2ba7dc6"
+    },
+    {
+      "path": "raw/interior4_traces_096_111.npz",
+      "bytes": 5358866,
+      "sha256": "21a5ac50d62323b4ebdb6d1be5498aecddf3154706b9bc982b30a6ca5fece58e"
+    },
+    {
+      "path": "raw/interior4_traces_112_127.npz",
+      "bytes": 5340640,
+      "sha256": "8a77ae59cdf8102597f62944717ab099680db458485130e2255fa6bce72001b0"
+    },
+    {
+      "path": "raw/interior4_traces_128_143.npz",
+      "bytes": 5350886,
+      "sha256": "ddc0d9695d25b71c30d19043645ed0773074d5cba95d5ed48cc28467872fb103"
+    },
+    {
+      "path": "raw/interior4_traces_144_159.npz",
+      "bytes": 5358689,
+      "sha256": "7a91c66d559f2e68ebefbace7a4083d6fd58d51d48d75a50935fc8fe91918466"
+    },
+    {
+      "path": "raw/interior4_traces_160_175.npz",
+      "bytes": 5528058,
+      "sha256": "973eea07760595a5601fb79b9c0085060914f30c2a81d0844a570f3d71f9bdea"
+    },
+    {
+      "path": "raw/interior4_traces_176_191.npz",
+      "bytes": 5538575,
+      "sha256": "508b30a772f3a44b9882ab2b5e34593b60af6bb5634dd4564d50cbe7be63d145"
+    },
+    {
+      "path": "raw/interior4_traces_192_195.npz",
+      "bytes": 1393468,
+      "sha256": "4c48c420a1c6192ca6c266249772ddb7842525fb3384ecbc0f4fb72a867cfc5f"
+    }
+  ]
+}

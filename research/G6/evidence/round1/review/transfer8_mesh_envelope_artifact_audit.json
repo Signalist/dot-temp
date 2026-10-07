@@ -1,0 +1,55 @@
+{
+  "model": "transfer8_mesh",
+  "envelope_artifact_sha256": "a438dd33cc26bff4c0fe174e399f61c3453efd69293ca79cafe602310ecfb192",
+  "analyzer_sha256": "77612d0115dabde006f11734a72aa069e780e1fae0c1d9d70704eec451e1fe0e",
+  "shared_upper_reproduced": true,
+  "cuts_reproduced": true,
+  "closed_strip_full_containment": true,
+  "closed_strips": 367,
+  "shared_dominated_by_independent": true,
+  "validated_lower_match": true,
+  "all_lower_witness_parameters_feasible": true,
+  "safe_exports": {
+    "candidate_independent_grid_template_safe": {
+      "checked_points": 48,
+      "nonnegative": true,
+      "max_outward_constraint_ratio": 0.9999999999000005,
+      "safe": true
+    },
+    "classic_shared_grid_template_safe": {
+      "checked_points": 50,
+      "nonnegative": true,
+      "max_outward_constraint_ratio": 0.9999999999000005,
+      "safe": true
+    },
+    "phase_free_harmonic_shared_grid_safe": {
+      "checked_points": 50,
+      "nonnegative": true,
+      "max_outward_constraint_ratio": 0.9999999999000005,
+      "safe": true
+    },
+    "phase_free_harmonic_independent_grid_safe": {
+      "checked_points": 48,
+      "nonnegative": true,
+      "max_outward_constraint_ratio": 0.9999999999000005,
+      "safe": true
+    },
+    "scalar_sum_of_site_worst_safe": {
+      "checked_points": 47,
+      "nonnegative": true,
+      "max_outward_constraint_ratio": 0.9999999999000005,
+      "safe": true
+    }
+  },
+  "area_labeled_numeric": true,
+  "challenge_cases": {
+    "count": 196,
+    "fixed_count": 160,
+    "base_scenarios": 40,
+    "each_base_has_four_methods": true,
+    "nonlinear_extension_label_all": true,
+    "old_ambiguous_out_of_contract_key_present": false,
+    "saved_effective_drift": true
+  },
+  "artifact_changed_during_audit": false
+}

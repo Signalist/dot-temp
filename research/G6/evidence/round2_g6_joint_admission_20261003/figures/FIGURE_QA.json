@@ -1,0 +1,9 @@
+{
+  "visual_review": "All three PNG figures inspected. Contract-domain clipping repaired; complete curves and legible legends verified. Face budget and old-point scope footer verified. Nonlinear-inner final bar chart inspected; legend moved above plotting area to remove threshold overlap, all scope footer text legible.",
+  "files": {
+    "nonlinear_inner_transfer.png": "f2fcf225550ec6556d43647c1fc1ac9d612a3b36027dde836ea97b71152e894a",
+    "contract_domains.png": "4e7a4333b298a05e3525a3f2bf9eeaba1c95f9c8469c7e54d5f863e254a72a88",
+    "old_point_transfer.png": "56764e339d5e9baa24197ce4e101eae05fbaff07747f05b34dae6e2d3dcae207",
+    "face_budget.png": "04aaf28009c052bf7e700032f879d067c24407dcd169c8fa5e7a0e5457c97512"
+  }
+}

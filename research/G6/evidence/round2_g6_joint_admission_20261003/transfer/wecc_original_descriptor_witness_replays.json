@@ -1,0 +1,104 @@
+{
+  "network": "wecc",
+  "method": "Full original verified 2405x2405 descriptor trapezoidal integration, all 256 carried-state past blocks plus current phase, three exact stored equal-split maximizing words; no electrical reset",
+  "checks": [
+    {
+      "dt_seconds": 0.015625,
+      "witnesses": [
+        {
+          "contract": "committed",
+          "output_generator": 1,
+          "time_seconds": 512.2275390625,
+          "modal_witness_Hz_per_MW": 0.0006722510175538862,
+          "original_descriptor_Hz_per_MW": 0.000672477813575922,
+          "absolute_error_Hz_per_MW": 2.2679602203581114e-07,
+          "relative_error": 0.0003373680606108293
+        },
+        {
+          "contract": "dynamic_optional",
+          "output_generator": 4,
+          "time_seconds": 513.955078125,
+          "modal_witness_Hz_per_MW": 0.0007590588696005305,
+          "original_descriptor_Hz_per_MW": 0.0007595341331967963,
+          "absolute_error_Hz_per_MW": 4.752635962657981e-07,
+          "relative_error": 0.0006261221827444225
+        },
+        {
+          "contract": "independent_ports",
+          "output_generator": 4,
+          "time_seconds": 513.947265625,
+          "modal_witness_Hz_per_MW": 0.0008836511258086662,
+          "original_descriptor_Hz_per_MW": 0.0008841085191547489,
+          "absolute_error_Hz_per_MW": 4.5739334608274184e-07,
+          "relative_error": 0.0005176175672997214
+        }
+      ]
+    },
+    {
+      "dt_seconds": 0.0078125,
+      "witnesses": [
+        {
+          "contract": "committed",
+          "output_generator": 1,
+          "time_seconds": 512.2275390625,
+          "modal_witness_Hz_per_MW": 0.0006722510175538862,
+          "original_descriptor_Hz_per_MW": 0.000672316003409085,
+          "absolute_error_Hz_per_MW": 6.498585519883193e-08,
+          "relative_error": 9.666903210544088e-05
+        },
+        {
+          "contract": "dynamic_optional",
+          "output_generator": 4,
+          "time_seconds": 513.955078125,
+          "modal_witness_Hz_per_MW": 0.0007590588696005305,
+          "original_descriptor_Hz_per_MW": 0.0007591805356244094,
+          "absolute_error_Hz_per_MW": 1.2166602387890524e-07,
+          "relative_error": 0.00016028535960976826
+        },
+        {
+          "contract": "independent_ports",
+          "output_generator": 4,
+          "time_seconds": 513.947265625,
+          "modal_witness_Hz_per_MW": 0.0008836511258086662,
+          "original_descriptor_Hz_per_MW": 0.000883768981391911,
+          "absolute_error_Hz_per_MW": 1.1785558324487605e-07,
+          "relative_error": 0.00013337343189261653
+        }
+      ]
+    },
+    {
+      "dt_seconds": 0.00390625,
+      "witnesses": [
+        {
+          "contract": "committed",
+          "output_generator": 1,
+          "time_seconds": 512.2275390625,
+          "modal_witness_Hz_per_MW": 0.0006722510175538862,
+          "original_descriptor_Hz_per_MW": 0.0006722676795911417,
+          "absolute_error_Hz_per_MW": 1.6662037255455418e-08,
+          "relative_error": 2.4785439992465053e-05
+        },
+        {
+          "contract": "dynamic_optional",
+          "output_generator": 4,
+          "time_seconds": 513.955078125,
+          "modal_witness_Hz_per_MW": 0.0007590588696005305,
+          "original_descriptor_Hz_per_MW": 0.0007590894719338207,
+          "absolute_error_Hz_per_MW": 3.060233329016306e-08,
+          "relative_error": 4.031615269349021e-05
+        },
+        {
+          "contract": "independent_ports",
+          "output_generator": 4,
+          "time_seconds": 513.947265625,
+          "modal_witness_Hz_per_MW": 0.0008836511258086662,
+          "original_descriptor_Hz_per_MW": 0.0008836807921857012,
+          "absolute_error_Hz_per_MW": 2.9666377035064e-08,
+          "relative_error": 3.357249956300917e-05
+        }
+      ]
+    }
+  ],
+  "pass": true,
+  "limitations": "Finite-time floating linear replay, grid refinement only, not interval or nonlinear proof."
+}

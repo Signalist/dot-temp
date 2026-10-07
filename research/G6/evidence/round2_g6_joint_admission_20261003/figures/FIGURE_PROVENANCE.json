@@ -1,0 +1,9 @@
+{
+  "scope": "Derived presentation only; no new heldout or changed performance endpoint",
+  "sources": {
+    "experiments/FACE_BUDGET_RESULTS.json": "89a2b543405f8048895abb5bdc2999eba6b52d1ec80d428e90d849c22758d99c",
+    "transfer/kundur_rays.csv": "4764476f078d31ea5d4c7b336bf57a3fcc8b9c116f39700f35c4e1bde2b9a944",
+    "transfer/wecc_rays.csv": "9deebe46f06fe1e0a0f4a32f0d840aa56f99bf9f38a7a0aa50e0d07aa178e663"
+  },
+  "contract_domains": "Original support formula evaluated with 1000 terms on 1001 display rays; exact theory in theory_review, not an independent test"
+}

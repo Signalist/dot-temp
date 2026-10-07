@@ -1,0 +1,18 @@
+{
+  "frozen_at_utc": "2026-10-03T12:24:00Z",
+  "models": ["Kundur full 51-state gauge-removed model, P@7 and P@8, all four generator frequencies", "WECC verified original descriptor, P@1 and P@4, all 29 generator frequencies; include only if independently qualified requested two-input transfer"],
+  "T_seconds": 2.0,
+  "q1": [1,1,-1,-1],
+  "q2": [1,-1,-1,1],
+  "frequency_limit_Hz": 0.05,
+  "rays": "41 rays (alpha,1-alpha), alpha=0,1/40,...,1",
+  "contracts": ["committed common sign, amplitudes fixed forever", "dynamic optional use, each block amplitudes independently in [0,a] with one common sign", "independent signed ports, information relaxation", "fixed optional adoption, choose one b in [0,a] forever"],
+  "comparators": ["same-information classical support/Minkowski sum", "electrical state reset each block", "one single sign repeated forever, including startup prefixes"],
+  "N_past_blocks": 256,
+  "phase_grid_intervals": 2048,
+  "refinement_rule": "Double phase intervals if largest relative analytic interpolation error exceeds 2%; retain original and refined results, maximum 16384 intervals; no post-outcome ray selection",
+  "bounds": "analytic modal tail plus phase-grid Lipschitz bound; tighter derivative grid plus analytic second-derivative bound allowed; floating computations, no interval proof",
+  "witnesses": "Store worst finite common-sign and dynamic optional-use block sequences for every ray; direct original-state Kundur replay and descriptor-resolvent checks are independent verification",
+  "work_law": "Conditional affine throughput w_i(t)=wbar_i+kappa_i deltaP_i(t), wbar_i>=abs(kappa_i)*a_i, baseline power Pbar_i>=a_i. Each port has exact zero incremental block energy and work wbar_i*T for every sign/amplitude. No empirical compute-power inference.",
+  "exclusions": ["No storage", "No electrical state reset except labelled invalid comparator", "No run-constrained language transfer in this bounded study", "No nonlinear operational safety claim", "No solver novelty claim", "No unqualified WECC finite QZ realization"]
+}

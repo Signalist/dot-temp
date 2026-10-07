@@ -1,0 +1,517 @@
+{
+  "scope": "Scientific scripts needing omitted historical data are reference-only; see REPRODUCE.md. No raw third-party papers/workbooks, installed software, secrets or unrelated project files.",
+  "files": [
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/contracts/FIGURE_REPORT.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/contracts/INDEPENDENT_AUDIT_RUN.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/contracts/RUN.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/contracts/SECONDARY_RUN.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/contracts/contract_amplitude_brackets.pdf",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/contracts/contract_amplitude_brackets.png",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/experiments/finite_uncertainty.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/experiments/orientation_and_jobs.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/experiments/portable_replay.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/figures/finite_parameter_certificate.png",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/figures/mismatch_contract_amplitudes.png",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/figures/orientation_finite_tolerance.png",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/inputs/PRIOR_CONTEXT_MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/inputs/SOURCE_FIXTURE_MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/protocol/HISTORICAL_HASHES.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/src/finalize.py",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/validation/REVIEWED_FILE_HASHES.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "round3_g6_20261004/validation/independent_review_checks.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/EXTERNAL_DEPENDENCIES.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/FINAL_BUNDLE_INDEX.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/FINAL_SOURCE_FREEZE.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/PACKAGE_QA.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/PUBLIC_MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/SOURCE_TO_PUBLIC_SHA256.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/audit/AUDIT_MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/audit/OLD_EVIDENCE_IMMUTABILITY.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/figures/contract_domains.pdf",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/figures/contract_domains.png",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/figures/face_budget.pdf",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/figures/face_budget.png",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/figures/nonlinear_inner_transfer.pdf",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/figures/nonlinear_inner_transfer.png",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/figures/old_point_transfer.pdf",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/figures/old_point_transfer.png",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/inputs/SOURCE_COPIES.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/portable_recheck.py",
+      "reason": "Superseded public entry point: handoff root replay.py implements copy-on-run mathematical recheck and compact-network replay; original manifest no longer applies"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/positive_workpoint/POSITIVE_ARTIFACT_MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/src/finalize_g6.py",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/src/freeze_source.py",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/stochastic/MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_Core_Evidence_20261003.zip",
+      "path": "g6_core/theory_review/MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/RAW_REASSEMBLY.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/figures/joint_envelopes.png",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/figures/nonlinear_stress_tests.png",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/DESIGN4_DELIVERY_RECEIPT.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/analyze_design4.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/analyze_interior4.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/analyze_transfer8_cube.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/analyze_transfer8_mesh.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/cert_design4.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/certificates.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/certificates_resolvent.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/challenges_design4.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/challenges_interior4.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/challenges_transfer8_cube.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/challenges_transfer8_mesh.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/figures.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/final_summary.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/initial_unvalidated_arithmetic.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/initial_unvalidated_arithmetic_full.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/raw_verify_first_two.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/raw_verify_transfer8_cube.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/raw_verify_transfer8_mesh.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/rectangle_v1/certificates.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/tests.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/tests_final.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/results/tests_resolvent.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/src/bundle_results.py",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/src/make_final_report.py",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/src/reassemble_raw.py",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "算力电网_G6全路线结论与代码.zip",
+      "path": "G6/stage0/DELIVERY_RECEIPT.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "PORTABLE_MANIFEST.json",
+      "original_sha256": "28807621a419e55b7197aedb3b5568aaa8775d694a0564649bb01b8704b9ce1c",
+      "bytes": 18744,
+      "reason": "Historical portable ZIP integrity manifest superseded by the current handoff MANIFEST.json and source-to-public mapping; does not certify reorganized payload"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "README_PORTABLE_ZH.md",
+      "original_sha256": "6e1bb8db4fa628be3262f79c570d165df18a3f9fa2e320716d5c3d3bc3abc741",
+      "bytes": 4447,
+      "reason": "Historical packaging entry page superseded by handoff README.md and REPRODUCE.md; scientific scope and negative outcomes retained"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/A11Y_AUDIT.json",
+      "original_sha256": "03e181830653d771a5394f0cbb9caa9c2f215d7244eefb6e0b3174bf05b25f19",
+      "bytes": 169,
+      "reason": "Historical document/accessibility/figure packaging QA for separately delivered DOCX/PDF/PNG layout; those presentation artifacts are not published in this source handoff"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/CONTENT_QA.json",
+      "original_sha256": "a1817bec5c9ec40c7aa85269c6cb3ed3cb44317c983a1793394b7d2f37c3acb8",
+      "bytes": 7153,
+      "reason": "Historical document/accessibility/figure packaging QA for separately delivered DOCX/PDF/PNG layout; those presentation artifacts are not published in this source handoff"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/CONTENT_QA.md",
+      "original_sha256": "fdb08f01142ae573aeabab97a775affbe95d740c76be2585a4e07beabd7b1fc6",
+      "bytes": 1537,
+      "reason": "Historical document/accessibility/figure packaging QA for separately delivered DOCX/PDF/PNG layout; those presentation artifacts are not published in this source handoff"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/PORTABLE_REPLAY_COMMANDS.txt",
+      "original_sha256": "2adb2867e9d26cf2d88cb14a3c61e2b1c779f1dcc62cd865b24a0c4d8df861da",
+      "bytes": 3459,
+      "reason": "Historical packaging/replay log or runtime metadata from the prior dated extraction; current fresh replay results are recorded in validation/HANDOFF_QA.json and scientific frozen results remain under evidence; not a new scientific claim or missing raw trajectory"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/PORTABLE_REPLAY_QA.json",
+      "original_sha256": "df2132b6d8247ee82069911e096f33bc1d0f48bdec3fee6062ac9b9b802371b0",
+      "bytes": 18201,
+      "reason": "Historical packaging/replay log or runtime metadata from the prior dated extraction; current fresh replay results are recorded in validation/HANDOFF_QA.json and scientific frozen results remain under evidence; not a new scientific claim or missing raw trajectory"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/PORTABLE_REPLAY_QA.md",
+      "original_sha256": "e3b877b9011a61bb5da6b9ea8601fbed7c63439a262740877b7ef7c68b4ea463",
+      "bytes": 6618,
+      "reason": "Historical packaging/replay log or runtime metadata from the prior dated extraction; current fresh replay results are recorded in validation/HANDOFF_QA.json and scientific frozen results remain under evidence; not a new scientific claim or missing raw trajectory"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/VISUAL_STRUCTURAL_QA.json",
+      "original_sha256": "394757a3678963fc49c1a9806628b2426664376d591c3377c8a8401be87a411b",
+      "bytes": 945,
+      "reason": "Historical document/accessibility/figure packaging QA for separately delivered DOCX/PDF/PNG layout; those presentation artifacts are not published in this source handoff"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/portable_dependency_inventory.txt",
+      "original_sha256": "1215751533bf66554f14aa8ab419bbe081ae583ee8b5192d86838bcfefd18cab",
+      "bytes": 969,
+      "reason": "Historical packaging/replay log or runtime metadata from the prior dated extraction; current fresh replay results are recorded in validation/HANDOFF_QA.json and scientific frozen results remain under evidence; not a new scientific claim or missing raw trajectory"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/portable_figures.log",
+      "original_sha256": "489f6ae5af977ee999a1a1e02633315542f247d82bd5efb6822b744f8feec7c3",
+      "bytes": 1440,
+      "reason": "Historical document/accessibility/figure packaging QA for separately delivered DOCX/PDF/PNG layout; those presentation artifacts are not published in this source handoff"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/portable_finite_uncertainty.log",
+      "original_sha256": "0661ecf15ca7322d759c1a2386317ad9fb716495c044d3b6e1426da03d833396",
+      "bytes": 891,
+      "reason": "Historical packaging/replay log or runtime metadata from the prior dated extraction; current fresh replay results are recorded in validation/HANDOFF_QA.json and scientific frozen results remain under evidence; not a new scientific claim or missing raw trajectory"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/portable_integrity_verification.log",
+      "original_sha256": "b2648c060902b21d68152227e843a4508ab3699b7a4c6ca0cf2510a5270e4826",
+      "bytes": 707,
+      "reason": "Historical packaging/replay log or runtime metadata from the prior dated extraction; current fresh replay results are recorded in validation/HANDOFF_QA.json and scientific frozen results remain under evidence; not a new scientific claim or missing raw trajectory"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/portable_network_REPLAY_RESULT.json",
+      "original_sha256": "f46818bd71b2f90d1aca4ae53d4b5d39ce83b68d5c8d9960f9aae06f85be27e9",
+      "bytes": 1502,
+      "reason": "Historical packaging/replay log or runtime metadata from the prior dated extraction; current fresh replay results are recorded in validation/HANDOFF_QA.json and scientific frozen results remain under evidence; not a new scientific claim or missing raw trajectory"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/portable_network_producer.log",
+      "original_sha256": "e12a9fb8fb9affdd37f2ceb561d7eda2457ee54d1c6af97e2a55b29a520f96ed",
+      "bytes": 5168,
+      "reason": "Historical packaging/replay log or runtime metadata from the prior dated extraction; current fresh replay results are recorded in validation/HANDOFF_QA.json and scientific frozen results remain under evidence; not a new scientific claim or missing raw trajectory"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/portable_network_replay.log",
+      "original_sha256": "c46eaeee68f4f81ff407d311fd949f0fadfed860beb2c49905005abf15c22864",
+      "bytes": 1503,
+      "reason": "Historical packaging/replay log or runtime metadata from the prior dated extraction; current fresh replay results are recorded in validation/HANDOFF_QA.json and scientific frozen results remain under evidence; not a new scientific claim or missing raw trajectory"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/portable_orientation_and_jobs.log",
+      "original_sha256": "8cb8c3e661a439c725960a791f0a956941d37b5ad4eb7e5adca7e75049e207b9",
+      "bytes": 363,
+      "reason": "Historical packaging/replay log or runtime metadata from the prior dated extraction; current fresh replay results are recorded in validation/HANDOFF_QA.json and scientific frozen results remain under evidence; not a new scientific claim or missing raw trajectory"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/portable_replay_original_hashes.json",
+      "original_sha256": "5f88dd4cb4ea1fe1bbd1b090fec9cf4acc299bd4864688d3a8504a13ec44550a",
+      "bytes": 10029,
+      "reason": "Historical extraction hash list superseded by current source-to-public SHA mapping and MANIFEST.json"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "delivery_validation/verify_portable_replay_qa.py",
+      "original_sha256": "38e3a4300540995506dff1969aa58e01fc3f8969132e256013a88df301d19504",
+      "bytes": 10272,
+      "reason": "Historical extraction-specific QA orchestrator requires dated scratch directories, original full workspace/ZIP manifests and omitted rendered figures; producer and scientific audit sources are retained, and current replay.py plus validation/HANDOFF_QA.json replace handoff execution/integrity checks"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "dossier_source/G6_DOSSIER_ZH_DERIVED.md",
+      "original_sha256": "0cc47ee9c79e350b514adc8e96b97409f1c967228926ba0e17b310b4cfb12d1d",
+      "bytes": 43569,
+      "reason": "Alternate Chinese presentation source derived from the scientific dossier; original scientific report, theorem proofs, claim status and numerical evidence retained in evidence/round3_g6_20261004"
+    },
+    {
+      "archive": "G6_round3_code_evidence_20261004.zip",
+      "path": "verify_package.py",
+      "original_sha256": "045d22d3288da21fe37db4ccbaee1313b3b888414f282ddc9cc290ea434a1a86",
+      "bytes": 671,
+      "reason": "Historical ZIP manifest checker superseded by handoff verify.py; old manifest scope no longer matches the public handoff"
+    }
+  ]
+}

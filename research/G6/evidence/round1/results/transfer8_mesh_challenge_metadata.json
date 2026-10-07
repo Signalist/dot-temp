@@ -1,0 +1,25 @@
+{
+  "model": "transfer8_mesh",
+  "scenario_file_sha256": "a0c8ddcdbc57efaa5a6172e04ad9a5456ae09f133296b356be6ce7a3d2d4f3ae",
+  "cases": 196,
+  "dt": 0.02,
+  "T_s": 90,
+  "raw_state_dtype": "float64",
+  "dt_half_checks": [
+    {
+      "case_id": 135,
+      "coarse_peak": 1.1071825922310776,
+      "fine_peak": 1.1071825184688449,
+      "abs_difference": 7.376223276622795e-08
+    },
+    {
+      "case_id": 149,
+      "coarse_peak": 0.9582312168423087,
+      "fine_peak": 0.9583559954050038,
+      "abs_difference": 0.0001247785626951048
+    }
+  ],
+  "seconds": 16.298048496246338,
+  "nonlinear_scope": "sin(angle) synthetic swing grid, no Q/voltage/converter physics, sample peaks only",
+  "linear_steady_initial_is_not_nonlinear_periodic_initial": true
+}

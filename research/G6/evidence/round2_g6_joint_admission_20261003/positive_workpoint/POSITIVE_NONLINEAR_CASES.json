@@ -1,0 +1,254 @@
+{
+  "freeze_utc": "2026-10-03T12:44:30Z",
+  "predeclared_rule_source": "POSITIVE_WORKPOINT_FREEZE.json",
+  "support_inputs_hashes": {
+    "positive_summary.json": "c58057065be03c49cadb02c4b1c3d37b9bf3bacfc593475138d93c0203c86541",
+    "positive_witnesses.npz": "282eea0d68a4013d84308a288232fa795c9c67f5507671b23961d48270d464fe",
+    "positive_kernel.npz": "e62815cf11269bdfa0dfe4520e5b3a335d301b12d488a7bc19e37e01c6f455e6"
+  },
+  "cases": [
+    {
+      "label": "committed_inner",
+      "contract": "committed",
+      "side": "inner",
+      "factor": 0.98,
+      "nominal_total_amplitude_MW": 28.49806062265547,
+      "total_amplitude_MW": 28.49806062265547,
+      "physical_cap_applied": false,
+      "claimed_outside_uncapped_test": false,
+      "source_capacity_key": "committed_capacity_lower_MW",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.3759765625,
+      "target_time_s": 513.3759765625,
+      "full_LTI_target_Hz": 0.04888965768459524,
+      "proper_contract_upper_Hz": 0.049,
+      "reset_screen_upper_Hz": null,
+      "tf_s": 535.0,
+      "baseline_MW": [
+        50.0,
+        50.0
+      ],
+      "per_port_amplitude_MW": [
+        14.249030311327735,
+        14.249030311327735
+      ],
+      "schedule_sha256": "94458af46b7741550b2ef125c68fcd9b06434ab023c810656a50c91bf7a5da96",
+      "word_sha256": "26d5426d339c3df05608b4b5466ae79831394b3aa9e28ee15cd6a43b77fe9969",
+      "actual_compute_min_MW": [
+        35.750969688672264,
+        35.750969688672264
+      ],
+      "zero_block_integral_max_MWs": 0.0
+    },
+    {
+      "label": "committed_outer",
+      "contract": "committed",
+      "side": "outer",
+      "factor": 1.02,
+      "nominal_total_amplitude_MW": 29.728191208288717,
+      "total_amplitude_MW": 29.728191208288717,
+      "physical_cap_applied": false,
+      "claimed_outside_uncapped_test": true,
+      "source_capacity_key": "committed_capacity_upper_MW",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.3759765625,
+      "target_time_s": 513.3759765625,
+      "full_LTI_target_Hz": 0.051000000000000004,
+      "proper_contract_upper_Hz": 0.051115105287133485,
+      "reset_screen_upper_Hz": null,
+      "tf_s": 535.0,
+      "baseline_MW": [
+        50.0,
+        50.0
+      ],
+      "per_port_amplitude_MW": [
+        14.864095604144358,
+        14.864095604144358
+      ],
+      "schedule_sha256": "e17e858a55cab8109927a47b6bb4484c6eeaf22b1402f97e148ead4598d89b23",
+      "word_sha256": "26d5426d339c3df05608b4b5466ae79831394b3aa9e28ee15cd6a43b77fe9969",
+      "actual_compute_min_MW": [
+        35.13590439585564,
+        35.13590439585564
+      ],
+      "zero_block_integral_max_MWs": 0.0
+    },
+    {
+      "label": "dynamic_optional_inner",
+      "contract": "dynamic_optional",
+      "side": "inner",
+      "factor": 0.98,
+      "nominal_total_amplitude_MW": 27.00624013645386,
+      "total_amplitude_MW": 27.00624013645386,
+      "physical_cap_applied": false,
+      "claimed_outside_uncapped_test": false,
+      "source_capacity_key": "dynamic_optional_capacity_lower_MW",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.3974609375,
+      "target_time_s": 513.3974609375,
+      "full_LTI_target_Hz": 0.048895433899643535,
+      "proper_contract_upper_Hz": 0.049,
+      "reset_screen_upper_Hz": null,
+      "tf_s": 535.0,
+      "baseline_MW": [
+        50.0,
+        50.0
+      ],
+      "per_port_amplitude_MW": [
+        13.50312006822693,
+        13.50312006822693
+      ],
+      "schedule_sha256": "726bbb17bb03babfb60b5823949d99a5e0a5865aec7339253f2d535dfbfe40e9",
+      "word_sha256": "caf53d603ea9c2c3e7e3f878651b78b7847f4607cf65ab3dfb69ed45d8beea05",
+      "actual_compute_min_MW": [
+        36.496879931773066,
+        36.496879931773066
+      ],
+      "zero_block_integral_max_MWs": 0.0
+    },
+    {
+      "label": "dynamic_optional_outer",
+      "contract": "dynamic_optional",
+      "side": "outer",
+      "factor": 1.02,
+      "nominal_total_amplitude_MW": 28.168647603906184,
+      "total_amplitude_MW": 28.168647603906184,
+      "physical_cap_applied": false,
+      "claimed_outside_uncapped_test": true,
+      "source_capacity_key": "dynamic_optional_capacity_upper_MW",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.3974609375,
+      "target_time_s": 513.3974609375,
+      "full_LTI_target_Hz": 0.05100000000000001,
+      "proper_contract_upper_Hz": 0.05110906685334106,
+      "reset_screen_upper_Hz": null,
+      "tf_s": 535.0,
+      "baseline_MW": [
+        50.0,
+        50.0
+      ],
+      "per_port_amplitude_MW": [
+        14.084323801953092,
+        14.084323801953092
+      ],
+      "schedule_sha256": "8ce9976757b6595d06afb2e2d2946060188d15b8506520463bae4a1c482c1d67",
+      "word_sha256": "caf53d603ea9c2c3e7e3f878651b78b7847f4607cf65ab3dfb69ed45d8beea05",
+      "actual_compute_min_MW": [
+        35.91567619804691,
+        35.91567619804691
+      ],
+      "zero_block_integral_max_MWs": 0.0
+    },
+    {
+      "label": "independent_ports_inner",
+      "contract": "independent_ports",
+      "side": "inner",
+      "factor": 0.98,
+      "nominal_total_amplitude_MW": 23.8157748958336,
+      "total_amplitude_MW": 23.8157748958336,
+      "physical_cap_applied": false,
+      "claimed_outside_uncapped_test": false,
+      "source_capacity_key": "independent_ports_capacity_lower_MW",
+      "target_output_zero_based": 3,
+      "target_phase_s": 1.1640625,
+      "target_time_s": 514.1640625,
+      "full_LTI_target_Hz": 0.048907787137519254,
+      "proper_contract_upper_Hz": 0.04900000000000001,
+      "reset_screen_upper_Hz": null,
+      "tf_s": 535.0,
+      "baseline_MW": [
+        50.0,
+        50.0
+      ],
+      "per_port_amplitude_MW": [
+        11.9078874479168,
+        11.9078874479168
+      ],
+      "schedule_sha256": "3784262ae19b2c8be4a0478109eb5c8cde391bfd9910a092c58137e25da52951",
+      "word_sha256": "404c5df72b0743dfaab2d792ede96ca38777f230d98961a020ccacc9eea2300f",
+      "actual_compute_min_MW": [
+        38.0921125520832,
+        38.0921125520832
+      ],
+      "zero_block_integral_max_MWs": 0.0
+    },
+    {
+      "label": "independent_ports_outer",
+      "contract": "independent_ports",
+      "side": "outer",
+      "factor": 1.02,
+      "nominal_total_amplitude_MW": 24.83458342272326,
+      "total_amplitude_MW": 24.83458342272326,
+      "physical_cap_applied": false,
+      "claimed_outside_uncapped_test": true,
+      "source_capacity_key": "independent_ports_capacity_upper_MW",
+      "target_output_zero_based": 3,
+      "target_phase_s": 1.1640625,
+      "target_time_s": 514.1640625,
+      "full_LTI_target_Hz": 0.051,
+      "proper_contract_upper_Hz": 0.05109615761132874,
+      "reset_screen_upper_Hz": null,
+      "tf_s": 535.0,
+      "baseline_MW": [
+        50.0,
+        50.0
+      ],
+      "per_port_amplitude_MW": [
+        12.41729171136163,
+        12.41729171136163
+      ],
+      "schedule_sha256": "6f3a8d629b07708e910c911044f644bbe1107a01df79d80521fb212395291588",
+      "word_sha256": "404c5df72b0743dfaab2d792ede96ca38777f230d98961a020ccacc9eea2300f",
+      "actual_compute_min_MW": [
+        37.58270828863837,
+        37.58270828863837
+      ],
+      "zero_block_integral_max_MWs": 0.0
+    },
+    {
+      "label": "reset_false_admission",
+      "contract": "committed",
+      "side": "reset",
+      "factor": 0.98,
+      "nominal_total_amplitude_MW": 113.90436125416709,
+      "total_amplitude_MW": 98.0,
+      "physical_cap_applied": true,
+      "claimed_outside_uncapped_test": false,
+      "source_capacity_key": "reset_capacity_lower_MW",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.3759765625,
+      "target_time_s": 513.3759765625,
+      "full_LTI_target_Hz": 0.16812324587735006,
+      "proper_contract_upper_Hz": 0.16850269439677212,
+      "reset_screen_upper_Hz": 0.042158175043752535,
+      "tf_s": 535.0,
+      "baseline_MW": [
+        50.0,
+        50.0
+      ],
+      "per_port_amplitude_MW": [
+        49.0,
+        49.0
+      ],
+      "schedule_sha256": "7ee36a799a30f57281551ba07547d6015ed6dd57ceb6e2c55ff6e5b2d7d33033",
+      "word_sha256": "26d5426d339c3df05608b4b5466ae79831394b3aa9e28ee15cd6a43b77fe9969",
+      "actual_compute_min_MW": [
+        1.0,
+        1.0
+      ],
+      "zero_block_integral_max_MWs": 0.0
+    }
+  ],
+  "start_s": 1.0,
+  "full_blocks": 257,
+  "ringdown_s": 20.0,
+  "event_epsilon_s": 0.0001,
+  "primary_dt_s": 0.0078125,
+  "refine_dt_s": 0.00390625,
+  "refine_labels": [
+    "dynamic_optional_inner",
+    "dynamic_optional_outer",
+    "reset_false_admission"
+  ],
+  "scope": "Finite nonlinear checks of selected full witness words at genuinely positive compute baselines, not whole-family safety. Explicit affine-work law only."
+}

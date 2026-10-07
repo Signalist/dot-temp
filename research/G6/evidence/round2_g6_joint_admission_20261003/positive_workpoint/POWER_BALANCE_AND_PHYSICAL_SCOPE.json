@@ -1,0 +1,71 @@
+{
+  "base_MVA": 100.0,
+  "nominal_extra_compute_P_MW": [
+    50.0,
+    50.0
+  ],
+  "nominal_extra_compute_Q_Mvar": [
+    0.0,
+    0.0
+  ],
+  "demand_sign": "positive is consumption; actual computeP_i(t)=50+deltaP_i(t), computeQ_i(t)=0",
+  "original_generator_P_MW": [
+    726.80292131502,
+    700.0,
+    700.0,
+    700.0
+  ],
+  "positive_workpoint_generator_P_MW": [
+    840.17614550184,
+    700.0,
+    700.0,
+    700.0
+  ],
+  "generation_P_change_MW": [
+    113.37322418682012,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "original_generator_Q_Mvar": [
+    109.46336786513595,
+    228.04802029394074,
+    232.38458629287416,
+    106.09095134918853
+  ],
+  "positive_workpoint_generator_Q_Mvar": [
+    155.11403048453215,
+    294.5396432743532,
+    253.54202641291295,
+    113.05273756708014
+  ],
+  "old_network_loss_MW": 92.80292131501983,
+  "new_network_loss_MW": 106.17614550184044,
+  "additional_loss_MW": 13.37322418682021,
+  "base_bus_voltage_pu": [
+    1.0000000000000027,
+    1.0000000000000056,
+    1.0000000000000029,
+    1.0000000000000009,
+    0.9780354269168449,
+    0.9610792001302577,
+    0.9450441146630054,
+    0.9487433117371571,
+    0.9660159672446771,
+    0.9829331191932664
+  ],
+  "base_bus_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "stationary_min_voltage_pu": 0.945044114663005,
+  "planning_voltage_caveat": "Stationary minimum0.945044pu is below an illustrative0.95pu planning floor. This study froze only generator-frequency deviation\u00b10.05Hz and does not qualify voltage/VRT/thermal deployment."
+}

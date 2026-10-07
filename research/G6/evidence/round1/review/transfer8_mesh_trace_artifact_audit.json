@@ -1,0 +1,156 @@
+{
+  "model": "transfer8_mesh",
+  "case_count": 196,
+  "case_hash_matches_metadata": true,
+  "chunks": [
+    {
+      "filename": "transfer8_mesh_traces_000_015.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "c0b427c882b57ac06042bd63fe1e7ffbd42e72cdf96e7723c73b42035f486f46"
+    },
+    {
+      "filename": "transfer8_mesh_traces_016_031.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "aaf3da917818dbdaa6befaf848817b7b20a705a14737f80d061b91e81d695b0d"
+    },
+    {
+      "filename": "transfer8_mesh_traces_032_047.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "575859027b64c8a1b520c11e87e2ca0ba13fe840dc847fb5ac99917077766dc1"
+    },
+    {
+      "filename": "transfer8_mesh_traces_048_063.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "3a5abf54112592f83c958369762cfd7dbd2b2bf5b9cde620a10cdf57eff0916c"
+    },
+    {
+      "filename": "transfer8_mesh_traces_064_079.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "8bfc1eb7048f5ef31cd3237af2bc0e1f2ab43468940ec32a689c3d9df4269a1c"
+    },
+    {
+      "filename": "transfer8_mesh_traces_080_095.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "f65426309d418b6abd36795a3201a977e51cb9051302d449425f85ce2b5213ab"
+    },
+    {
+      "filename": "transfer8_mesh_traces_096_111.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "ef180d093aa1678c74bd2b82370ba76e1c6d99113f49cf67892992c071c513c4"
+    },
+    {
+      "filename": "transfer8_mesh_traces_112_127.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "5252c1cfdf353078601df754afb4eeaace04011eec500762072a55fa25bdfee0"
+    },
+    {
+      "filename": "transfer8_mesh_traces_128_143.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "6766d3601639ba3d73febc9fc7eda2ed6624f74e65bb3ba315621160d90cedc9"
+    },
+    {
+      "filename": "transfer8_mesh_traces_144_159.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "d43b94a6c478258b0d1b2a2dad2067564c73eb392798cc73e34ccc967a515679"
+    },
+    {
+      "filename": "transfer8_mesh_traces_160_175.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "c244373239d7408953bab47b5c69848243fdc484b47031ffa663c19c6b319f31"
+    },
+    {
+      "filename": "transfer8_mesh_traces_176_191.npz",
+      "cases": 16,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        16,
+        16
+      ],
+      "sha256": "b442a9f7022c53fd1c3984bd3c73dbe2154d2222958843db697d94a8e667f14b"
+    },
+    {
+      "filename": "transfer8_mesh_traces_192_195.npz",
+      "cases": 4,
+      "samples": 4501,
+      "state_shape": [
+        4501,
+        4,
+        16
+      ],
+      "sha256": "06b8da7550e560c23976b6c833b25faada35a8fc288f2948c0f28f11991c963e"
+    }
+  ],
+  "all_finite": true,
+  "all_peak_arrays_match": true,
+  "max_peak_csv_discrepancy": 0.0,
+  "max_saved_load_reconstruction_error": 5.662137425588298e-13,
+  "exact_case_coverage": true,
+  "coarse_summary_violation_counts_match": true
+}

@@ -1,0 +1,1109 @@
+[
+  {
+    "contract": "committed",
+    "ray_index": 0,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001469796839139883,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "committed",
+    "ray_index": 1,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001428023435149277,
+    "support_match_error": 6.505213034913027e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 2,
+    "output_index": 3,
+    "phase_seconds": 1.955078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0013862509332345987,
+    "support_match_error": 4.336808689942018e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 3,
+    "output_index": 3,
+    "phase_seconds": 1.955078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0013444825193201758,
+    "support_match_error": 4.336808689942018e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 4,
+    "output_index": 3,
+    "phase_seconds": 1.955078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001302714131833972,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "committed",
+    "ray_index": 5,
+    "output_index": 3,
+    "phase_seconds": 1.955078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0012609457907089884,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 6,
+    "output_index": 3,
+    "phase_seconds": 1.9560546875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001219182316086462,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 7,
+    "output_index": 3,
+    "phase_seconds": 1.9560546875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0011774194908747604,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 8,
+    "output_index": 3,
+    "phase_seconds": 1.95703125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0011356576320418288,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "committed",
+    "ray_index": 9,
+    "output_index": 3,
+    "phase_seconds": 1.95703125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0010939008483432443,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 10,
+    "output_index": 3,
+    "phase_seconds": 1.9560546875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0010521468251175827,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "committed",
+    "ray_index": 11,
+    "output_index": 3,
+    "phase_seconds": 1.95703125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.00101042005347497,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 12,
+    "output_index": 3,
+    "phase_seconds": 1.95703125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009686945801727962,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 13,
+    "output_index": 3,
+    "phase_seconds": 1.9580078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009269750213307498,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 14,
+    "output_index": 3,
+    "phase_seconds": 1.958984375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008852577647625504,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 15,
+    "output_index": 3,
+    "phase_seconds": 1.958984375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008435468565575024,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 16,
+    "output_index": 3,
+    "phase_seconds": 1.9599609375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008018415623667671,
+    "support_match_error": 4.336808689942018e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 17,
+    "output_index": 3,
+    "phase_seconds": 1.9609375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007601424757636313,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 18,
+    "output_index": 3,
+    "phase_seconds": 1.9619140625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007184512222092791,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 19,
+    "output_index": 3,
+    "phase_seconds": 1.962890625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006767692190498297,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "committed",
+    "ray_index": 20,
+    "output_index": 0,
+    "phase_seconds": 0.2275390625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006722510175538862,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "committed",
+    "ray_index": 21,
+    "output_index": 0,
+    "phase_seconds": 0.2265625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006757149702934977,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "committed",
+    "ray_index": 22,
+    "output_index": 0,
+    "phase_seconds": 0.224609375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006792255380782765,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 23,
+    "output_index": 0,
+    "phase_seconds": 0.224609375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006827917629425934,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 24,
+    "output_index": 0,
+    "phase_seconds": 0.2236328125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006864751409559605,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 25,
+    "output_index": 0,
+    "phase_seconds": 0.22265625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.000690318740292015,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 26,
+    "output_index": 0,
+    "phase_seconds": 0.2216796875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006941909054827276,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 27,
+    "output_index": 0,
+    "phase_seconds": 0.220703125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006980877792682056,
+    "support_match_error": 3.2526065174565133e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 28,
+    "output_index": 0,
+    "phase_seconds": 0.2197265625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007020070348582612,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 29,
+    "output_index": 0,
+    "phase_seconds": 0.21875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007059461282848428,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 30,
+    "output_index": 0,
+    "phase_seconds": 0.21875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007099060785202389,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "committed",
+    "ray_index": 31,
+    "output_index": 0,
+    "phase_seconds": 1.1923828125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007277089408441516,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 32,
+    "output_index": 0,
+    "phase_seconds": 1.19140625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007474899739413391,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 33,
+    "output_index": 0,
+    "phase_seconds": 1.1884765625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007681003637855069,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 34,
+    "output_index": 0,
+    "phase_seconds": 1.1875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007917850511776374,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "committed",
+    "ray_index": 35,
+    "output_index": 0,
+    "phase_seconds": 1.185546875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008155332697050928,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 36,
+    "output_index": 0,
+    "phase_seconds": 1.1845703125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008393496490115501,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 37,
+    "output_index": 0,
+    "phase_seconds": 1.18359375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008637928187466753,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 38,
+    "output_index": 0,
+    "phase_seconds": 1.1826171875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008882881474979945,
+    "support_match_error": 5.421010862427522e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 39,
+    "output_index": 0,
+    "phase_seconds": 1.181640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009128320136934425,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "committed",
+    "ray_index": 40,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009374226893534674,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 0,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001469796839139883,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 1,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0014342508248159915,
+    "support_match_error": 4.336808689942018e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 2,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0013987048105448463,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 3,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0013631587962863775,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 4,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001327612785482244,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 5,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0012920668078818757,
+    "support_match_error": 4.336808689942018e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 6,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0012565208302825475,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 7,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001220974852701141,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 8,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0011854288752059944,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 9,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0011498901862172773,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 10,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0011143591699415893,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 11,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0010788281570865924,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 12,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0010432971530276607,
+    "support_match_error": 4.336808689942018e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 13,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0010077661489687288,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 14,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009722351449097965,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 15,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009367041411600039,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 16,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009011731408293752,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 17,
+    "output_index": 3,
+    "phase_seconds": 1.955078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008656432610132722,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 18,
+    "output_index": 3,
+    "phase_seconds": 1.955078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008301135470532687,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 19,
+    "output_index": 3,
+    "phase_seconds": 1.955078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007945839074204855,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 20,
+    "output_index": 3,
+    "phase_seconds": 1.955078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007590588696005305,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 21,
+    "output_index": 3,
+    "phase_seconds": 1.955078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007235343725966111,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 22,
+    "output_index": 3,
+    "phase_seconds": 1.955078125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006880098755926914,
+    "support_match_error": 3.2526065174565133e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 23,
+    "output_index": 0,
+    "phase_seconds": 0.2265625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006857807085948492,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 24,
+    "output_index": 0,
+    "phase_seconds": 0.2255859375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006894257255353757,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 25,
+    "output_index": 0,
+    "phase_seconds": 0.224609375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0006931583883045442,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 26,
+    "output_index": 0,
+    "phase_seconds": 1.19140625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007034595386255884,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 27,
+    "output_index": 0,
+    "phase_seconds": 1.1904296875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007183878568905481,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 28,
+    "output_index": 0,
+    "phase_seconds": 1.189453125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007339765335497217,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 29,
+    "output_index": 0,
+    "phase_seconds": 1.1884765625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007495921028111401,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 30,
+    "output_index": 0,
+    "phase_seconds": 1.1875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007652344890953344,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 31,
+    "output_index": 0,
+    "phase_seconds": 1.1865234375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007809049951530059,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 32,
+    "output_index": 0,
+    "phase_seconds": 1.185546875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007965933768373399,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 33,
+    "output_index": 0,
+    "phase_seconds": 1.1845703125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008127626889336279,
+    "support_match_error": 3.2526065174565133e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 34,
+    "output_index": 0,
+    "phase_seconds": 1.18359375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008303589670882965,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 35,
+    "output_index": 0,
+    "phase_seconds": 1.18359375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008479770156748358,
+    "support_match_error": 3.2526065174565133e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 36,
+    "output_index": 0,
+    "phase_seconds": 1.1826171875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008656087694045262,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 37,
+    "output_index": 0,
+    "phase_seconds": 1.1826171875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008835360168671382,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 38,
+    "output_index": 0,
+    "phase_seconds": 1.181640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009014873017423459,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 39,
+    "output_index": 0,
+    "phase_seconds": 1.181640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009194437420809427,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 40,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009374226893534674,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 0,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001469796839139883,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 1,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0014404782144827064,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 2,
+    "output_index": 3,
+    "phase_seconds": 1.9541015625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0014111595898255297,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 3,
+    "output_index": 3,
+    "phase_seconds": 1.953125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0013818414345988972,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 4,
+    "output_index": 3,
+    "phase_seconds": 1.953125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0013525263435106934,
+    "support_match_error": 4.336808689942018e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 5,
+    "output_index": 3,
+    "phase_seconds": 1.953125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0013232112524224895,
+    "support_match_error": 6.505213034913027e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 6,
+    "output_index": 3,
+    "phase_seconds": 1.953125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001293896161334286,
+    "support_match_error": 4.336808689942018e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 7,
+    "output_index": 3,
+    "phase_seconds": 1.953125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0012645810702460825,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 8,
+    "output_index": 3,
+    "phase_seconds": 1.9521484375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0012352693504787586,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 9,
+    "output_index": 3,
+    "phase_seconds": 1.9521484375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001205958352889207,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 10,
+    "output_index": 3,
+    "phase_seconds": 1.9521484375,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0011766473552996552,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 11,
+    "output_index": 3,
+    "phase_seconds": 1.951171875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001147339396022061,
+    "support_match_error": 6.505213034913027e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 12,
+    "output_index": 3,
+    "phase_seconds": 1.951171875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0011180330980696226,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 13,
+    "output_index": 3,
+    "phase_seconds": 1.951171875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0010887268001171838,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 14,
+    "output_index": 3,
+    "phase_seconds": 1.9501953125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.001059423943315574,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 15,
+    "output_index": 3,
+    "phase_seconds": 1.9501953125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0010301227464307667,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 16,
+    "output_index": 3,
+    "phase_seconds": 1.94921875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0010008223289989938,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 17,
+    "output_index": 3,
+    "phase_seconds": 1.94921875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009715266332151888,
+    "support_match_error": 5.421010862427522e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 18,
+    "output_index": 3,
+    "phase_seconds": 1.94921875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009422309374313846,
+    "support_match_error": 3.2526065174565133e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 19,
+    "output_index": 3,
+    "phase_seconds": 1.9482421875,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.000912940800057599,
+    "support_match_error": 4.336808689942018e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 20,
+    "output_index": 3,
+    "phase_seconds": 1.947265625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008836511258086662,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 21,
+    "output_index": 3,
+    "phase_seconds": 1.947265625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008543676413473236,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 22,
+    "output_index": 3,
+    "phase_seconds": 1.9462890625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008250863354762941,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 23,
+    "output_index": 3,
+    "phase_seconds": 1.9462890625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007958095629021808,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 24,
+    "output_index": 3,
+    "phase_seconds": 1.9453125,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007665386321573845,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 25,
+    "output_index": 0,
+    "phase_seconds": 1.181640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007672105921176032,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 26,
+    "output_index": 0,
+    "phase_seconds": 1.181640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007785566548569487,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 27,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0007899030843082372,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 28,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.000801250746234793,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 29,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008125984081613492,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 30,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008239460700879054,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 31,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008352937320144617,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 32,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008466413939410178,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 33,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.000857989055867574,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 34,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008693367177941302,
+    "support_match_error": 0.0
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 35,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008806843797206863,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 36,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0008920320416472425,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 37,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009033797035737986,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 38,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.000914727365500355,
+    "support_match_error": 1.0842021724855044e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 39,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.000926075027426911,
+    "support_match_error": 2.168404344971009e-19
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 40,
+    "output_index": 0,
+    "phase_seconds": 1.1806640625,
+    "prefix_past_blocks": 256,
+    "finite_witness_output_Hz_per_total_MW": 0.0009374226893534674,
+    "support_match_error": 1.0842021724855044e-19
+  }
+]

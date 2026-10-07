@@ -1,0 +1,2788 @@
+[
+  {
+    "ray_index": 1,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 21.557166504479472,
+    "allocation_MW": [
+      0.5389291626119869,
+      21.018237341867486
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04986881736906701,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05013187461730304,
+    "gap_Hz": 0.00026305724823603223
+  },
+  {
+    "ray_index": 1,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 21.51762202798071,
+    "allocation_MW": [
+      0.5379405506995177,
+      20.979681477281193
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04996015093668245,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05003991268263826,
+    "gap_Hz": 7.976174595580797e-05
+  },
+  {
+    "ray_index": 1,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 21.596694960892357,
+    "allocation_MW": [
+      0.539917374022309,
+      21.056777586870048
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04996025969166194,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.0500398035806007,
+    "gap_Hz": 7.954388893875935e-05
+  },
+  {
+    "ray_index": 2,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 21.907507227930132,
+    "allocation_MW": [
+      1.0953753613965067,
+      20.812131866533626
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04968290528631257,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.050321168345064386,
+    "gap_Hz": 0.0006382630587518152
+  },
+  {
+    "ray_index": 2,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 21.826048775646385,
+    "allocation_MW": [
+      1.0913024387823194,
+      20.734746336864063
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04986665536818893,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05013405967734372,
+    "gap_Hz": 0.0002674043091547936
+  },
+  {
+    "ray_index": 2,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 21.98863116859828,
+    "allocation_MW": [
+      1.099431558429914,
+      20.88919961016836
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04986688208562315,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05013383052398618,
+    "gap_Hz": 0.00026694843836303357
+  },
+  {
+    "ray_index": 3,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 22.26916135671747,
+    "allocation_MW": [
+      1.6701871017538101,
+      20.59897425496366
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04949422937001188,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.0505162140665337,
+    "gap_Hz": 0.0010219846965218206
+  },
+  {
+    "ray_index": 3,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 22.143228847242533,
+    "allocation_MW": [
+      1.6607421635431898,
+      20.482486683699342
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04977156263020177,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.050230543964069216,
+    "gap_Hz": 0.0004589813338674456
+  },
+  {
+    "ray_index": 3,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 22.39396059500917,
+    "allocation_MW": [
+      1.6795470446256877,
+      20.714413550383483
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04977160138354525,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05023050449274393,
+    "gap_Hz": 0.00045890310919868545
+  },
+  {
+    "ray_index": 4,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 22.642540655652226,
+    "allocation_MW": [
+      2.264254065565223,
+      20.378286590087004
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.049302893824647885,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.050717102025361595,
+    "gap_Hz": 0.0014142082007137064
+  },
+  {
+    "ray_index": 4,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 22.469559018260654,
+    "allocation_MW": [
+      2.2469559018260656,
+      20.222603116434588
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04967465005155152,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05032963988118245,
+    "gap_Hz": 0.00065498982963093
+  },
+  {
+    "ray_index": 4,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 22.81329668510264,
+    "allocation_MW": [
+      2.281329668510264,
+      20.531967016592375
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04967470573912978,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05032958271550364,
+    "gap_Hz": 0.0006548769763738623
+  },
+  {
+    "ray_index": 5,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 23.0282359905297,
+    "allocation_MW": [
+      2.8785294988162127,
+      20.149706491713488
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04910885495632395,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.0509240847867832,
+    "gap_Hz": 0.0018152298304592522
+  },
+  {
+    "ray_index": 5,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 22.803868939723372,
+    "allocation_MW": [
+      2.8504836174654216,
+      19.95338532225795
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.049579276610194796,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05042792491056338,
+    "gap_Hz": 0.000848648300368588
+  },
+  {
+    "ray_index": 5,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 23.245764052566642,
+    "allocation_MW": [
+      2.9057205065708303,
+      20.34004354599581
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04957274433334334,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05043468452369493,
+    "gap_Hz": 0.0008619401903515921
+  },
+  {
+    "ray_index": 6,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 23.424651943017178,
+    "allocation_MW": [
+      3.5136977914525764,
+      19.9109541515646
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04891639467094838,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.051132701379075225,
+    "gap_Hz": 0.002216306708126843
+  },
+  {
+    "ray_index": 6,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 23.14771280236026,
+    "allocation_MW": [
+      3.472156920354039,
+      19.675555882006222
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04948274577073392,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.050528182412738605,
+    "gap_Hz": 0.0010454366420046787
+  },
+  {
+    "ray_index": 6,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 23.691078714843517,
+    "allocation_MW": [
+      3.5536618072265274,
+      20.137416907616988
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04947275884460898,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.050538600039679596,
+    "gap_Hz": 0.0010658411950706173
+  },
+  {
+    "ray_index": 7,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 23.8337542969027,
+    "allocation_MW": [
+      4.170907001957972,
+      19.662847294944726
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04872256408784426,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.0513462245348199,
+    "gap_Hz": 0.002623660446975636
+  },
+  {
+    "ray_index": 7,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 23.501771844783423,
+    "allocation_MW": [
+      4.112810072837099,
+      19.388961771946324
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04938451677747273,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05063101847387835,
+    "gap_Hz": 0.0012465016964056266
+  },
+  {
+    "ray_index": 7,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 24.151573004508204,
+    "allocation_MW": [
+      4.226525275788935,
+      19.925047728719267
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04937227047302913,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.050643897259864984,
+    "gap_Hz": 0.0012716267868358485
+  },
+  {
+    "ray_index": 8,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 24.256506460683063,
+    "allocation_MW": [
+      4.851301292136613,
+      19.405205168546452
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.048526528729337395,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05156575507548763,
+    "gap_Hz": 0.003039226346150232
+  },
+  {
+    "ray_index": 8,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 23.86639917180642,
+    "allocation_MW": [
+      4.773279834361285,
+      19.09311933744514
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04928462873256092,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.050736444517350106,
+    "gap_Hz": 0.0014518157847891843
+  },
+  {
+    "ray_index": 8,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 24.62831437659186,
+    "allocation_MW": [
+      4.925662875318372,
+      19.70265150127349
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.0492703517337914,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.050751583943046776,
+    "gap_Hz": 0.0014812322092553753
+  },
+  {
+    "ray_index": 9,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 24.693462627765243,
+    "allocation_MW": [
+      5.55602909124718,
+      19.137433536518063
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04832862576191361,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05179111947607205,
+    "gap_Hz": 0.0034624937141584417
+  },
+  {
+    "ray_index": 9,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 24.242083388932137,
+    "allocation_MW": [
+      5.454468762509731,
+      18.787614626422407
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.049183175513237934,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05084441400832051,
+    "gap_Hz": 0.0016612384950825724
+  },
+  {
+    "ray_index": 9,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 25.12194110826082,
+    "allocation_MW": [
+      5.652436749358685,
+      19.469504358902135
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04916721921650756,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.050861477665295085,
+    "gap_Hz": 0.0016942584487875255
+  },
+  {
+    "ray_index": 10,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 25.145079245737698,
+    "allocation_MW": [
+      6.286269811434424,
+      18.858809434303275
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04812897309126483,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05202238432868623,
+    "gap_Hz": 0.0038934112374214027
+  },
+  {
+    "ray_index": 10,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 24.629223039368615,
+    "allocation_MW": [
+      6.157305759842154,
+      18.471917279526462
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04908001348650146,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.0509551349649516,
+    "gap_Hz": 0.0018751214784501285
+  },
+  {
+    "ray_index": 10,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 25.63312898904046,
+    "allocation_MW": [
+      6.408282247260115,
+      19.224846741780347
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.049063125365475656,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05097335094703504,
+    "gap_Hz": 0.001910225581559388
+  },
+  {
+    "ray_index": 11,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 25.611886185601698,
+    "allocation_MW": [
+      7.043268701040468,
+      18.56861748456123
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.047928105468344306,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05225912094494274,
+    "gap_Hz": 0.004331015476598435
+  },
+  {
+    "ray_index": 11,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 25.028289593712188,
+    "allocation_MW": [
+      6.882779638270852,
+      18.145509955441337
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.048975446558131096,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05106833614066872,
+    "gap_Hz": 0.0020928895825376172
+  },
+  {
+    "ray_index": 11,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 26.162466486670926,
+    "allocation_MW": [
+      7.194678283834505,
+      18.96778820283642
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04895841891528104,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.051086863336435175,
+    "gap_Hz": 0.0021284444211541347
+  },
+  {
+    "ray_index": 12,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 25.986051849064765,
+    "allocation_MW": [
+      7.795815554719429,
+      18.190236294345333
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04752797125822243,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05274328823647991,
+    "gap_Hz": 0.005215316978257484
+  },
+  {
+    "ray_index": 12,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 25.331444731237305,
+    "allocation_MW": [
+      7.599433419371191,
+      17.732011311866113
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04866111470532099,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05141464731412034,
+    "gap_Hz": 0.0027535326087993533
+  },
+  {
+    "ray_index": 12,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 26.710664287141885,
+    "allocation_MW": [
+      8.013199286142566,
+      18.69746500099932
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04885327297509402,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.051201855009691245,
+    "gap_Hz": 0.0023485820345972184
+  },
+  {
+    "ray_index": 13,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 26.351300125896152,
+    "allocation_MW": [
+      8.56417254091625,
+      17.787127584979903
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.047091344146807566,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05329162389787491,
+    "gap_Hz": 0.0062002797510673415
+  },
+  {
+    "ray_index": 13,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 25.622441998629142,
+    "allocation_MW": [
+      8.327293649554472,
+      17.295148349074672
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04830557674045911,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.051817615670286477,
+    "gap_Hz": 0.0035120389298273747
+  },
+  {
+    "ray_index": 13,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 27.278356087869128,
+    "allocation_MW": [
+      8.865465728557467,
+      18.412890359311664
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.048748048413392,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.051317952074223926,
+    "gap_Hz": 0.0025699036608319258
+  },
+  {
+    "ray_index": 14,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 26.728293416511615,
+    "allocation_MW": [
+      9.354902695779066,
+      17.37339072073255
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.046657053481153114,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05385895814700285,
+    "gap_Hz": 0.007201904665849736
+  },
+  {
+    "ray_index": 14,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 25.922004542147214,
+    "allocation_MW": [
+      9.072701589751524,
+      16.84930295239569
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.047949050332323224,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.052234242417417226,
+    "gap_Hz": 0.004285192085094004
+  },
+  {
+    "ray_index": 14,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 27.866051208665677,
+    "allocation_MW": [
+      9.753117923032987,
+      18.112933285632693
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04864312963386167,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05143474064892305,
+    "gap_Hz": 0.002791611015061377
+  },
+  {
+    "ray_index": 15,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 27.117142985742618,
+    "allocation_MW": [
+      10.168928619653482,
+      16.948214366089136
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.046225779103035845,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05444532669288963,
+    "gap_Hz": 0.008219547589853788
+  },
+  {
+    "ray_index": 15,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 26.23051809274302,
+    "allocation_MW": [
+      9.836444284778633,
+      16.394073807964386
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04759157809934089,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.052665176697781674,
+    "gap_Hz": 0.005073598598440787
+  },
+  {
+    "ray_index": 15,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 28.47426663434266,
+    "allocation_MW": [
+      10.677849987878497,
+      17.796416646464163
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.048539227021523246,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05155142411552119,
+    "gap_Hz": 0.00301219709399794
+  },
+  {
+    "ray_index": 16,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 27.517905197750263,
+    "allocation_MW": [
+      11.007162079100105,
+      16.510743118650158
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04579821454408748,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05505065644818417,
+    "gap_Hz": 0.009252441904096692
+  },
+  {
+    "ray_index": 16,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 26.54826837627391,
+    "allocation_MW": [
+      10.619307350509565,
+      15.928961025764345
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04723340043988293,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05311085968113346,
+    "gap_Hz": 0.005877459241250523
+  },
+  {
+    "ray_index": 16,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 29.10336447724422,
+    "allocation_MW": [
+      11.641345790897688,
+      17.462018686346532
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04843690392510602,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05166734488468372,
+    "gap_Hz": 0.003230440959577701
+  },
+  {
+    "ray_index": 17,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 27.930425481172087,
+    "allocation_MW": [
+      11.870430829498137,
+      16.05999465167395
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04537525900645599,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05567445669289239,
+    "gap_Hz": 0.010299197686436405
+  },
+  {
+    "ray_index": 17,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 26.86344657357441,
+    "allocation_MW": [
+      11.416964793769123,
+      15.446481779805286
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04689324411279518,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05354761938340277,
+    "gap_Hz": 0.006654375270607599
+  },
+  {
+    "ray_index": 17,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 29.74136286823355,
+    "allocation_MW": [
+      12.64007921899926,
+      17.10128364923429
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.048317274803450584,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.051804161518373935,
+    "gap_Hz": 0.003486886714923354
+  },
+  {
+    "ray_index": 18,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 28.34826167000969,
+    "allocation_MW": [
+      12.756717751504361,
+      15.591543918505332
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.0449656541419638,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05630375772093414,
+    "gap_Hz": 0.011338103578970339
+  },
+  {
+    "ray_index": 18,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 27.15898004374445,
+    "allocation_MW": [
+      12.221541019685002,
+      14.937439024059449
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04659515871569522,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05394167198436722,
+    "gap_Hz": 0.007346513268671996
+  },
+  {
+    "ray_index": 18,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 30.364804752113912,
+    "allocation_MW": [
+      13.66416213845126,
+      16.70064261366265
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.048164269275681,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05198120940323191,
+    "gap_Hz": 0.0038169401275509043
+  },
+  {
+    "ray_index": 19,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 28.71180761639303,
+    "allocation_MW": [
+      13.638108617786688,
+      15.073698998606343
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.044641384461517344,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05682056749739512,
+    "gap_Hz": 0.012179183035877776
+  },
+  {
+    "ray_index": 19,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 27.46164957908671,
+    "allocation_MW": [
+      13.044283550066186,
+      14.417366029020524
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.046297252023044154,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.054346509085948486,
+    "gap_Hz": 0.008049257062904326
+  },
+  {
+    "ray_index": 19,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 30.940883175480245,
+    "allocation_MW": [
+      14.696919508353115,
+      16.24396366712713
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04810717179042691,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05204787957905485,
+    "gap_Hz": 0.003940707788627947
+  },
+  {
+    "ray_index": 20,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 29.080903652991,
+    "allocation_MW": [
+      14.5404518264955,
+      14.5404518264955
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.044323445545115976,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05734412820119287,
+    "gap_Hz": 0.013020682656076891
+  },
+  {
+    "ray_index": 20,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 27.77155025895165,
+    "allocation_MW": [
+      13.885775129475824,
+      13.885775129475824
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.045999765566295696,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05476223701292723,
+    "gap_Hz": 0.00876247144663153
+  },
+  {
+    "ray_index": 20,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 31.529555454308177,
+    "allocation_MW": [
+      15.764777727154089,
+      15.764777727154089
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.048055540189412535,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.0521084518022705,
+    "gap_Hz": 0.004052911612857967
+  },
+  {
+    "ray_index": 21,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 29.454538257091173,
+    "allocation_MW": [
+      15.463632584972867,
+      13.990905672118306
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.044012900891212285,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.0578724166594101,
+    "gap_Hz": 0.013859515768197819
+  },
+  {
+    "ray_index": 21,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.088548009461434,
+    "allocation_MW": [
+      14.746487704967253,
+      13.342060304494181
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.045703239330273086,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05518851253321023,
+    "gap_Hz": 0.009485273202937142
+  },
+  {
+    "ray_index": 21,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 32.12969749435902,
+    "allocation_MW": [
+      16.868091184538486,
+      15.261606309820534
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04801029909689404,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.052161750369614415,
+    "gap_Hz": 0.004151451272720377
+  },
+  {
+    "ray_index": 22,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 29.83101454296291,
+    "allocation_MW": [
+      16.407057998629604,
+      13.42395654433331
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04371139843648078,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.0584020999083353,
+    "gap_Hz": 0.014690701471854525
+  },
+  {
+    "ray_index": 22,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.412683499550297,
+    "allocation_MW": [
+      15.626975924752665,
+      12.785707574797632
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.045407935491360484,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.055625341807092075,
+    "gap_Hz": 0.010217406315731589
+  },
+  {
+    "ray_index": 22,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 32.73967597677884,
+    "allocation_MW": [
+      18.006821787228365,
+      14.732854189550476
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04797346128611142,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05220530407744188,
+    "gap_Hz": 0.004231842791330457
+  },
+  {
+    "ray_index": 23,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 30.20901100400043,
+    "allocation_MW": [
+      17.370181327300248,
+      12.838829676700184
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.043419936041015114,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05893062813075635,
+    "gap_Hz": 0.015510692089741228
+  },
+  {
+    "ray_index": 23,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.742019139362903,
+    "allocation_MW": [
+      16.52666100513367,
+      12.215358134229234
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.0451165962227514,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05606887433039688,
+    "gap_Hz": 0.010952278107645486
+  },
+  {
+    "ray_index": 23,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 33.35624633091479,
+    "allocation_MW": [
+      19.179841640276006,
+      14.176404690638789
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04794351202245154,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.052240816462118,
+    "gap_Hz": 0.0042973044396664595
+  },
+  {
+    "ray_index": 24,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 30.58651812539694,
+    "allocation_MW": [
+      18.35191087523816,
+      12.234607250158776
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04314000177552667,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05945424139060506,
+    "gap_Hz": 0.016314239615078396
+  },
+  {
+    "ray_index": 24,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.759264182398336,
+    "allocation_MW": [
+      17.255558509439002,
+      11.503705672959335
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.0452249564158087,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.055902415172152026,
+    "gap_Hz": 0.01067745875634333
+  },
+  {
+    "ray_index": 24,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 33.65872968187348,
+    "allocation_MW": [
+      20.195237809124087,
+      13.463491872749394
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04747312696021853,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05281099404218926,
+    "gap_Hz": 0.005337867081970731
+  },
+  {
+    "ray_index": 25,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 30.961065975066532,
+    "allocation_MW": [
+      19.350666234416583,
+      11.61039974064995
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.042873309433962586,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05996834217016265,
+    "gap_Hz": 0.017095032736200062
+  },
+  {
+    "ray_index": 25,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.77431665063562,
+    "allocation_MW": [
+      17.983947906647263,
+      10.790368743988356
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04533655352763347,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05573283775201856,
+    "gap_Hz": 0.010396284224385084
+  },
+  {
+    "ray_index": 25,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 33.956029176223424,
+    "allocation_MW": [
+      21.22251823513964,
+      12.733510941083784
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.047020582146405254,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05338253756620273,
+    "gap_Hz": 0.006361955419797474
+  },
+  {
+    "ray_index": 26,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 31.329744277845244,
+    "allocation_MW": [
+      20.36433378059941,
+      10.965410497245834
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04262184733821356,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.06046733710742498,
+    "gap_Hz": 0.017845489769211423
+  },
+  {
+    "ray_index": 26,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.786147348392298,
+    "allocation_MW": [
+      18.710995776454993,
+      10.075151571937303
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04545282925515259,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.055558119475942275,
+    "gap_Hz": 0.01010529022078969
+  },
+  {
+    "ray_index": 26,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 34.24416885925515,
+    "allocation_MW": [
+      22.258709758515845,
+      11.9854591007393
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.046586710839363506,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05395299819647877,
+    "gap_Hz": 0.007366287357115265
+  },
+  {
+    "ray_index": 27,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 31.370931807906693,
+    "allocation_MW": [
+      21.175378970337018,
+      10.195552837569673
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04268881255323355,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.06033306705122776,
+    "gap_Hz": 0.01764425449799422
+  },
+  {
+    "ray_index": 27,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.708308970811657,
+    "allocation_MW": [
+      19.37810855529787,
+      9.330200415513787
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.045686959895711636,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.055212269137214366,
+    "gap_Hz": 0.009525309241502732
+  },
+  {
+    "ray_index": 27,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 34.11480734717143,
+    "allocation_MW": [
+      23.027494959340714,
+      11.087312387830712
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04642261266099933,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05417477946739132,
+    "gap_Hz": 0.0077521668063919935
+  },
+  {
+    "ray_index": 28,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 31.235656873422236,
+    "allocation_MW": [
+      21.864959811395565,
+      9.370697062026672
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.0429279550404682,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05986175632352979,
+    "gap_Hz": 0.016933801283061583
+  },
+  {
+    "ray_index": 28,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.62193867889929,
+    "allocation_MW": [
+      20.035357075229502,
+      8.586581603669789
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04593614313612084,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05485268088474691,
+    "gap_Hz": 0.008916537748626066
+  },
+  {
+    "ray_index": 28,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 33.800517460316705,
+    "allocation_MW": [
+      23.660362222221693,
+      10.140155238095012
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.046452907962234995,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.054133579517528806,
+    "gap_Hz": 0.007680671555293814
+  },
+  {
+    "ray_index": 29,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 31.02751971335171,
+    "allocation_MW": [
+      22.49495179217999,
+      8.532567921171722
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.043245584377763456,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.059254863371858334,
+    "gap_Hz": 0.016009278994094878
+  },
+  {
+    "ray_index": 29,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.530431304740205,
+    "allocation_MW": [
+      20.68456269593665,
+      7.845868608803557
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04619646829748758,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.0544860441479339,
+    "gap_Hz": 0.008289575850446316
+  },
+  {
+    "ray_index": 29,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 33.40834171100181,
+    "allocation_MW": [
+      24.221047740476312,
+      9.187293970525499
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04656393014110551,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.0539835848989612,
+    "gap_Hz": 0.007419654757855685
+  },
+  {
+    "ray_index": 30,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 30.701209004454462,
+    "allocation_MW": [
+      23.02590675334085,
+      7.6753022511136155
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04369705194719902,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05842772977071556,
+    "gap_Hz": 0.014730677823516542
+  },
+  {
+    "ray_index": 30,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.43458368914553,
+    "allocation_MW": [
+      21.32593776685915,
+      7.1086459222863825
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04646726450362969,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.054114096017884576,
+    "gap_Hz": 0.007646831514254891
+  },
+  {
+    "ray_index": 30,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 32.893843804044984,
+    "allocation_MW": [
+      24.670382853033736,
+      8.223460951011246
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04681783056946898,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05364629450714504,
+    "gap_Hz": 0.006828463937676062
+  },
+  {
+    "ray_index": 31,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 30.349285762089643,
+    "allocation_MW": [
+      23.520696465619473,
+      6.828589296470169
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04419629025318865,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.057558374131490474,
+    "gap_Hz": 0.013362083878301822
+  },
+  {
+    "ray_index": 31,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.32696401163676,
+    "allocation_MW": [
+      21.95339710901849,
+      6.37356690261827
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04675958263877501,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.0537229773831354,
+    "gap_Hz": 0.0069633947443603775
+  },
+  {
+    "ray_index": 31,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 32.34221707809254,
+    "allocation_MW": [
+      25.06521823552172,
+      7.27699884257082
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04709850586337468,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05328245510642664,
+    "gap_Hz": 0.006183949243051957
+  },
+  {
+    "ray_index": 32,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 29.97646474218609,
+    "allocation_MW": [
+      23.98117179374887,
+      5.995292948437217
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04474338411940604,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05665617384639136,
+    "gap_Hz": 0.011912789726985317
+  },
+  {
+    "ray_index": 32,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.20695746543349,
+    "allocation_MW": [
+      22.565565972346793,
+      5.641391493086696
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.047075627185010405,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05331176640020367,
+    "gap_Hz": 0.0062361392151932685
+  },
+  {
+    "ray_index": 32,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 31.757589107267137,
+    "allocation_MW": [
+      25.40607128581371,
+      6.351517821453426
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04740192081866869,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05289939331805668,
+    "gap_Hz": 0.0054974724993879925
+  },
+  {
+    "ray_index": 33,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 29.587686753948013,
+    "allocation_MW": [
+      24.40984157200711,
+      5.177845181940904
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04533779636987962,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05573095966904399,
+    "gap_Hz": 0.010393163299164364
+  },
+  {
+    "ray_index": 33,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 28.083825438133957,
+    "allocation_MW": [
+      23.169155986460513,
+      4.9146694516734435
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.047402792966048976,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.052898307186393066,
+    "gap_Hz": 0.005495514220344092
+  },
+  {
+    "ray_index": 33,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 31.154304508211066,
+    "allocation_MW": [
+      25.702301219274126,
+      5.452003288936938
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.047738355674257785,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.052486596170521066,
+    "gap_Hz": 0.004748240496263281
+  },
+  {
+    "ray_index": 34,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 29.187765451844562,
+    "allocation_MW": [
+      24.809600634067877,
+      4.378164817776685
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04597868736141868,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05479214043436389,
+    "gap_Hz": 0.008813453072945206
+  },
+  {
+    "ray_index": 34,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 27.944938229154104,
+    "allocation_MW": [
+      23.753197494780988,
+      4.191740734373116
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.047761151045868255,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.0524590682492507,
+    "gap_Hz": 0.00469791720338245
+  },
+  {
+    "ray_index": 34,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 30.52458961953962,
+    "allocation_MW": [
+      25.945901176608675,
+      4.578688442930943
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04808454985250415,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.052074385421996945,
+    "gap_Hz": 0.003989835569492798
+  },
+  {
+    "ray_index": 35,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 28.766072825214152,
+    "allocation_MW": [
+      25.17031372206238,
+      3.595759103151769
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04664005056313392,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.053881633070892755,
+    "gap_Hz": 0.00724158250775884
+  },
+  {
+    "ray_index": 35,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 27.72787627515013,
+    "allocation_MW": [
+      24.261891740756365,
+      3.4659845343937663
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.048202294873073995,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.0519369906476495,
+    "gap_Hz": 0.003734695774575509
+  },
+  {
+    "ray_index": 35,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 29.825842930213014,
+    "allocation_MW": [
+      26.097612563936387,
+      3.7282303662766267
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04835831539486027,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05175706657071358,
+    "gap_Hz": 0.003398751175853307
+  },
+  {
+    "ray_index": 36,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 28.289680397403632,
+    "allocation_MW": [
+      25.46071235766327,
+      2.8289680397403627
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.0472556588137723,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.053082745392072424,
+    "gap_Hz": 0.005827086578300123
+  },
+  {
+    "ray_index": 36,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 27.460109279567607,
+    "allocation_MW": [
+      24.714098351610847,
+      2.74601092795676
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04856166544152461,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05152613846636293,
+    "gap_Hz": 0.002964473024838314
+  },
+  {
+    "ray_index": 36,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 29.127496973268,
+    "allocation_MW": [
+      26.2147472759412,
+      2.9127496973267992
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04865516470077423,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05142129141377502,
+    "gap_Hz": 0.002766126713000792
+  },
+  {
+    "ray_index": 37,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 27.814996343476007,
+    "allocation_MW": [
+      25.72887161771531,
+      2.0861247257606994
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.047905948683692384,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05228548852660975,
+    "gap_Hz": 0.004379539842917359
+  },
+  {
+    "ray_index": 37,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 27.196516222980037,
+    "allocation_MW": [
+      25.156777506256535,
+      2.0397387167235017
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04892537276114551,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05112289498013556,
+    "gap_Hz": 0.0021975222189900495
+  },
+  {
+    "ray_index": 37,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 28.435716495839394,
+    "allocation_MW": [
+      26.303037758651442,
+      2.132678737187953
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.048975019029733564,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05106880099760845,
+    "gap_Hz": 0.002093781967874881
+  },
+  {
+    "ray_index": 38,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 27.345429441708372,
+    "allocation_MW": [
+      25.978157969622952,
+      1.3672714720854198
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04858831283881572,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05149617224728052,
+    "gap_Hz": 0.0029078594084648033
+  },
+  {
+    "ray_index": 38,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 26.937035553826732,
+    "allocation_MW": [
+      25.590183776135394,
+      1.3468517776913378
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.04929345315715429,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05072709593637745,
+    "gap_Hz": 0.0014336427792231588
+  },
+  {
+    "ray_index": 38,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 27.753822298272233,
+    "allocation_MW": [
+      26.366131183358622,
+      1.3876911149136129
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.049313959511074486,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05070539774549374,
+    "gap_Hz": 0.0013914382344192584
+  },
+  {
+    "ray_index": 39,
+    "comparison": "common_information_vs_independent_relaxation",
+    "total_amplitude_MW": 26.883771775369212,
+    "allocation_MW": [
+      26.21167748098498,
+      0.6720942943842309
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.04930007053372931,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05072008995333899,
+    "gap_Hz": 0.0014200194196096762
+  },
+  {
+    "ray_index": 39,
+    "comparison": "dynamic_optional_vs_independent_relaxation",
+    "total_amplitude_MW": 26.682278047263257,
+    "allocation_MW": [
+      26.015221096081675,
+      0.667056951181582
+    ],
+    "accepted_contract": "dynamic_optional",
+    "accepted_output_upper_Hz": 0.049664617296238195,
+    "rejected_contract": "independent_ports",
+    "rejected_finite_witness_Hz": 0.05033994314581658,
+    "gap_Hz": 0.0006753258495783831
+  },
+  {
+    "ray_index": 39,
+    "comparison": "fixed_cohort_not_optional_capacity",
+    "total_amplitude_MW": 27.085233113619573,
+    "allocation_MW": [
+      26.408102285779083,
+      0.67713082784049
+    ],
+    "accepted_contract": "committed",
+    "accepted_output_upper_Hz": 0.049669514905916035,
+    "rejected_contract": "dynamic_optional",
+    "rejected_finite_witness_Hz": 0.05033491243681156,
+    "gap_Hz": 0.0006653975308955305
+  },
+  {
+    "ray_index": 0,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 47.06843329089033,
+    "allocation_MW": [
+      0.0,
+      47.06843329089033
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.032284087446926575,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11080347292009939,
+    "violation_above_005_Hz": 0.06080347292009938
+  },
+  {
+    "ray_index": 0,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 43.65961096887637,
+    "allocation_MW": [
+      0.0,
+      43.65961096887637
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.033035609925605856,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.10277878789367412,
+    "violation_above_005_Hz": 0.052778787893674114
+  },
+  {
+    "ray_index": 1,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 48.497984948194656,
+    "allocation_MW": [
+      1.2124496237048665,
+      47.285535324489786
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03218734633366795,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11195838088005997,
+    "violation_above_005_Hz": 0.06195838088005996
+  },
+  {
+    "ray_index": 1,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 45.28722516474119,
+    "allocation_MW": [
+      1.1321806291185297,
+      44.15504453562266
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03285706032499946,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.10454629010692273,
+    "violation_above_005_Hz": 0.05454629010692273
+  },
+  {
+    "ray_index": 2,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 50.0090534904255,
+    "allocation_MW": [
+      2.5004526745212754,
+      47.508600815904224
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03208811403601104,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11317578227786666,
+    "violation_above_005_Hz": 0.06317578227786666
+  },
+  {
+    "ray_index": 2,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 47.031056990936946,
+    "allocation_MW": [
+      2.3515528495468474,
+      44.6795041413901
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03267471385402281,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.10643626093269876,
+    "violation_above_005_Hz": 0.056436260932698754
+  },
+  {
+    "ray_index": 3,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 51.60780808283174,
+    "allocation_MW": [
+      3.87058560621238,
+      47.73722247661936
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.0319863947948991,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11445958800615222,
+    "violation_above_005_Hz": 0.06445958800615222
+  },
+  {
+    "ray_index": 3,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 48.9018176758989,
+    "allocation_MW": [
+      3.667636325692417,
+      45.234181350206484
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.032488792839439826,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.10845804369276045,
+    "violation_above_005_Hz": 0.05845804369276045
+  },
+  {
+    "ray_index": 4,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 53.30085908442041,
+    "allocation_MW": [
+      5.330085908442041,
+      47.97077317597837
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03188216729448286,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11581441546778967,
+    "violation_above_005_Hz": 0.06581441546778967
+  },
+  {
+    "ray_index": 4,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 50.91123864075446,
+    "allocation_MW": [
+      5.091123864075446,
+      45.82011477667902
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03229951349048559,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11062214465589303,
+    "violation_above_005_Hz": 0.06062214465589302
+  },
+  {
+    "ray_index": 5,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 55.095104836668156,
+    "allocation_MW": [
+      6.8868881045835195,
+      48.20821673208464
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.031775554893793946,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11724336748750526,
+    "violation_above_005_Hz": 0.06724336748750526
+  },
+  {
+    "ray_index": 5,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 53.07182443703829,
+    "allocation_MW": [
+      6.633978054629786,
+      46.4378463824085
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.032107297049464155,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11293779064674402,
+    "violation_above_005_Hz": 0.06293779064674401
+  },
+  {
+    "ray_index": 6,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 56.99610123927607,
+    "allocation_MW": [
+      8.54941518589141,
+      48.44668605338466
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03166542273196293,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11876749609637154,
+    "violation_above_005_Hz": 0.06876749609637153
+  },
+  {
+    "ray_index": 6,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 55.39457060409346,
+    "allocation_MW": [
+      8.30918559061402,
+      47.08538501347944
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03191140378089719,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11543025408636548,
+    "violation_above_005_Hz": 0.06543025408636548
+  },
+  {
+    "ray_index": 7,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 59.012749569550714,
+    "allocation_MW": [
+      10.327231174671374,
+      48.68551839487934
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03155282582854387,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.12037869864898931,
+    "violation_above_005_Hz": 0.07037869864898931
+  },
+  {
+    "ray_index": 7,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 57.894558871483966,
+    "allocation_MW": [
+      10.131547802509694,
+      47.76301106897427
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03171337542222896,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11809772814589427,
+    "violation_above_005_Hz": 0.06809772814589427
+  },
+  {
+    "ray_index": 8,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 61.15341368780232,
+    "allocation_MW": [
+      12.230682737560464,
+      48.922730950241856
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03143821043275515,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.12207666540693352,
+    "violation_above_005_Hz": 0.07207666540693351
+  },
+  {
+    "ray_index": 8,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 60.58549871858046,
+    "allocation_MW": [
+      12.117099743716093,
+      48.46839897486437
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03151428636179787,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.12094297291952436,
+    "violation_above_005_Hz": 0.07094297291952435
+  },
+  {
+    "ray_index": 9,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 63.42629351452879,
+    "allocation_MW": [
+      14.270916040768977,
+      49.15537747375981
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03132177133865454,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.12386469575045066,
+    "violation_above_005_Hz": 0.07386469575045065
+  },
+  {
+    "ray_index": 9,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 62.79007403209876,
+    "allocation_MW": [
+      14.127766657222221,
+      48.66230737487654
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03140223045153017,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.12262222786757408,
+    "violation_above_005_Hz": 0.07262222786757408
+  },
+  {
+    "ray_index": 10,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 65.83854096691749,
+    "allocation_MW": [
+      16.459635241729373,
+      49.37890572518812
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03120390482315983,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.1257430026435624,
+    "violation_above_005_Hz": 0.07574300264356239
+  },
+  {
+    "ray_index": 10,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 63.1068539498454,
+    "allocation_MW": [
+      15.77671348746135,
+      47.33014046238405
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03154273246948092,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.12052583770089335,
+    "violation_above_005_Hz": 0.07052583770089335
+  },
+  {
+    "ray_index": 11,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 68.39600708265306,
+    "allocation_MW": [
+      18.80890194772959,
+      49.58710513492346
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.031085164628420946,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.12770880710127697,
+    "violation_above_005_Hz": 0.07770880710127696
+  },
+  {
+    "ray_index": 11,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 63.355022893341406,
+    "allocation_MW": [
+      17.42263129566889,
+      45.93239159767252
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.031699086857112535,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11829629744036334,
+    "violation_above_005_Hz": 0.06829629744036333
+  },
+  {
+    "ray_index": 12,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 71.10547832646942,
+    "allocation_MW": [
+      21.331643497940828,
+      49.77383482852859
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.030965954052421737,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.12976111523961467,
+    "violation_above_005_Hz": 0.07976111523961467
+  },
+  {
+    "ray_index": 12,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 63.53187319159836,
+    "allocation_MW": [
+      19.059561957479506,
+      44.47231123411885
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03187266588628272,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11593996570493101,
+    "violation_above_005_Hz": 0.065939965704931
+  },
+  {
+    "ray_index": 13,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 73.97009830098509,
+    "allocation_MW": [
+      24.040281947820155,
+      49.92981635316494
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03084701955608972,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.1318920659499176,
+    "violation_above_005_Hz": 0.08189206594991759
+  },
+  {
+    "ray_index": 13,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 63.63460608849856,
+    "allocation_MW": [
+      20.681246978762033,
+      42.95335910973653
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.032065067841675204,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11346341096871988,
+    "violation_above_005_Hz": 0.06346341096871988
+  },
+  {
+    "ray_index": 14,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 76.99011543068771,
+    "allocation_MW": [
+      26.946540400740698,
+      50.043575029947014
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.030729234002950443,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.1340896269340958,
+    "violation_above_005_Hz": 0.08408962693409579
+  },
+  {
+    "ray_index": 14,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 63.66146945363528,
+    "allocation_MW": [
+      22.281514308772344,
+      41.37995514486293
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.032277950322904155,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11087582660918786,
+    "violation_above_005_Hz": 0.06087582660918786
+  },
+  {
+    "ray_index": 15,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 80.15962520248547,
+    "allocation_MW": [
+      30.059859450932052,
+      50.09976575155342
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03061379500534689,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.13633288611442276,
+    "violation_above_005_Hz": 0.08633288611442276
+  },
+  {
+    "ray_index": 15,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 63.61166248873789,
+    "allocation_MW": [
+      23.85437343327671,
+      39.757289055461186
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03251304425713997,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.10818864878321938,
+    "violation_above_005_Hz": 0.058188648783219374
+  },
+  {
+    "ray_index": 16,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 80.3441914817728,
+    "allocation_MW": [
+      32.13767659270912,
+      48.206514889063676
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.030765244491390877,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.13340823852887762,
+    "violation_above_005_Hz": 0.08340823852887762
+  },
+  {
+    "ray_index": 16,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 63.48609565733041,
+    "allocation_MW": [
+      25.394438262932166,
+      38.09165739439825
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03277207925864339,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.10541606103089253,
+    "violation_above_005_Hz": 0.05541606103089253
+  },
+  {
+    "ray_index": 17,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 79.07531725428701,
+    "allocation_MW": [
+      33.60700983307198,
+      45.46830742121503
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.031058293725092858,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.1281643608515235,
+    "violation_above_005_Hz": 0.07816436085152349
+  },
+  {
+    "ray_index": 17,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 63.28654871118671,
+    "allocation_MW": [
+      26.89678320225435,
+      36.389765508932356
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03305681203237998,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.1025741071639939,
+    "violation_above_005_Hz": 0.0525741071639939
+  },
+  {
+    "ray_index": 18,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 77.88310655786093,
+    "allocation_MW": [
+      35.04739795103742,
+      42.835708606823516
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03136166083515703,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.1232447848439208,
+    "violation_above_005_Hz": 0.0732447848439208
+  },
+  {
+    "ray_index": 18,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 63.00938399014853,
+    "allocation_MW": [
+      28.354222795566837,
+      34.655161194581694
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03336589138318114,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.0997081179247086,
+    "violation_above_005_Hz": 0.0497081179247086
+  },
+  {
+    "ray_index": 19,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 76.7032022605512,
+    "allocation_MW": [
+      36.43402107376181,
+      40.26918118678938
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03165078716099526,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.1189738387157276,
+    "violation_above_005_Hz": 0.0689738387157276
+  },
+  {
+    "ray_index": 19,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 62.60124580954779,
+    "allocation_MW": [
+      29.7355917595352,
+      32.865654050012594
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03366846958043519,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.09710038567945489,
+    "violation_above_005_Hz": 0.04710038567945489
+  },
+  {
+    "ray_index": 20,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 75.58844502198406,
+    "allocation_MW": [
+      37.79422251099203,
+      37.79422251099203
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.0319498781516801,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11492963421220702,
+    "violation_above_005_Hz": 0.06492963421220702
+  },
+  {
+    "ray_index": 20,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 62.1290193794397,
+    "allocation_MW": [
+      31.06450968971985,
+      31.06450968971985
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03399733162673966,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.09446503985054067,
+    "violation_above_005_Hz": 0.044465039850540664
+  },
+  {
+    "ray_index": 21,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 74.5103321839488,
+    "allocation_MW": [
+      39.11792439657312,
+      35.39240778737568
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03226177313103438,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.11106713384214106,
+    "violation_above_005_Hz": 0.06106713384214106
+  },
+  {
+    "ray_index": 21,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 61.599494429117144,
+    "allocation_MW": [
+      32.3397345752865,
+      29.25975985383064
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03435322286281993,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.09182188686901101,
+    "violation_above_005_Hz": 0.041821886869011005
+  },
+  {
+    "ray_index": 22,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 73.02034847890806,
+    "allocation_MW": [
+      40.161191663399435,
+      32.859156815508626
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.0326467646960409,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.10673391294799393,
+    "violation_above_005_Hz": 0.05673391294799393
+  },
+  {
+    "ray_index": 22,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 61.01958843673158,
+    "allocation_MW": [
+      33.56077364020237,
+      27.458814796529207
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03473635651440272,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.0891923905595954,
+    "violation_above_005_Hz": 0.03919239055959539
+  },
+  {
+    "ray_index": 23,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 71.64327292789585,
+    "allocation_MW": [
+      41.19488193354011,
+      30.44839099435574
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.033041789639011214,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.1027190187825962,
+    "violation_above_005_Hz": 0.0527190187825962
+  },
+  {
+    "ray_index": 23,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 60.397340303426446,
+    "allocation_MW": [
+      34.7284706744702,
+      25.66886962895624
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03514691299231989,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08659508812907503,
+    "violation_above_005_Hz": 0.036595088129075026
+  },
+  {
+    "ray_index": 24,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 70.36719169965181,
+    "allocation_MW": [
+      42.22031501979109,
+      28.146876679860725
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.0334459637783449,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.09899984375998325,
+    "violation_above_005_Hz": 0.048999843759983244
+  },
+  {
+    "ray_index": 24,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 59.74024605809133,
+    "allocation_MW": [
+      35.8441476348548,
+      23.896098423236534
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03558447336135861,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08404875742630016,
+    "violation_above_005_Hz": 0.03404875742630016
+  },
+  {
+    "ray_index": 25,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 69.18087126184999,
+    "allocation_MW": [
+      43.23804453865624,
+      25.942826723193747
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.033858063585191125,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.09555718148658054,
+    "violation_above_005_Hz": 0.04555718148658054
+  },
+  {
+    "ray_index": 25,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 59.055063268036946,
+    "allocation_MW": [
+      36.909414542523095,
+      22.145648725513855
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.0360481127601344,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08157074774392481,
+    "violation_above_005_Hz": 0.03157074774392481
+  },
+  {
+    "ray_index": 26,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 68.07357025754578,
+    "allocation_MW": [
+      44.24782066740476,
+      23.825749590141022
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03427648138068696,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.0923746838215199,
+    "violation_above_005_Hz": 0.042374683821519904
+  },
+  {
+    "ray_index": 26,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 58.34793186503458,
+    "allocation_MW": [
+      37.92615571227248,
+      20.421776152762103
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03653622735069066,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07917715696826849,
+    "violation_above_005_Hz": 0.02917715696826849
+  },
+  {
+    "ray_index": 27,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 66.71513927166436,
+    "allocation_MW": [
+      45.03271900837344,
+      21.68242026329091
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.034533666761299514,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.09055714770072447,
+    "violation_above_005_Hz": 0.040557147700724466
+  },
+  {
+    "ray_index": 27,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 57.303932915926424,
+    "allocation_MW": [
+      38.680154718250336,
+      18.623778197676085
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.036841010841951516,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07778265583422048,
+    "violation_above_005_Hz": 0.027782655834220474
+  },
+  {
+    "ray_index": 28,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 65.25121951911419,
+    "allocation_MW": [
+      45.675853663379925,
+      19.57536585573426
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03469643181088282,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.0894567003811165,
+    "violation_above_005_Hz": 0.0394567003811165
+  },
+  {
+    "ray_index": 28,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 56.08247147338615,
+    "allocation_MW": [
+      39.2577300313703,
+      16.82474144201585
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.037045469222098074,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07688672923205045,
+    "violation_above_005_Hz": 0.026886729232050446
+  },
+  {
+    "ray_index": 29,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 63.78041076718864,
+    "allocation_MW": [
+      46.240797806211766,
+      17.53961296097688
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.0348141320364474,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08868367550781826,
+    "violation_above_005_Hz": 0.03868367550781826
+  },
+  {
+    "ray_index": 29,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 54.79422647173408,
+    "allocation_MW": [
+      39.725814192007206,
+      15.068412279726873
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03720970047586882,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07618880690277757,
+    "violation_above_005_Hz": 0.02618880690277757
+  },
+  {
+    "ray_index": 30,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 62.252248678072114,
+    "allocation_MW": [
+      46.68918650855409,
+      15.563062169518028
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.034858218314178804,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08839888000868068,
+    "violation_above_005_Hz": 0.03839888000868068
+  },
+  {
+    "ray_index": 30,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 53.39951095644712,
+    "allocation_MW": [
+      40.04963321733534,
+      13.34987773911178
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.0372963975373424,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.0758278947636464,
+    "violation_above_005_Hz": 0.0258278947636464
+  },
+  {
+    "ray_index": 31,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 60.75529348082824,
+    "allocation_MW": [
+      47.08535244764189,
+      13.669941033186353
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03487710207278059,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08827766944136188,
+    "violation_above_005_Hz": 0.03827766944136188
+  },
+  {
+    "ray_index": 31,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 51.99605775905371,
+    "allocation_MW": [
+      40.29694476326663,
+      11.699112995787084
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03736388180557248,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07555046706434129,
+    "violation_above_005_Hz": 0.02555046706434129
+  },
+  {
+    "ray_index": 32,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 58.425187468125806,
+    "allocation_MW": [
+      46.740149974500646,
+      11.685037493625158
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03507759621847018,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08701875789134145,
+    "violation_above_005_Hz": 0.037018757891341444
+  },
+  {
+    "ray_index": 32,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 50.59250221336085,
+    "allocation_MW": [
+      40.47400177068869,
+      10.118500442672168
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.037412438083492275,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07535271844225423,
+    "violation_above_005_Hz": 0.02535271844225423
+  },
+  {
+    "ray_index": 33,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 56.03340540569829,
+    "allocation_MW": [
+      46.227559459701084,
+      9.805845945997204
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.0352993793756477,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08568326810815197,
+    "violation_above_005_Hz": 0.035683268108151964
+  },
+  {
+    "ray_index": 33,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 49.19679693836278,
+    "allocation_MW": [
+      40.58735747414929,
+      8.609439464213489
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.037442987636197925,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07522909435205184,
+    "violation_above_005_Hz": 0.02522909435205184
+  },
+  {
+    "ray_index": 34,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 53.773220928165934,
+    "allocation_MW": [
+      45.70723778894104,
+      8.06598313922489
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03549733679201984,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08453891090501452,
+    "violation_above_005_Hz": 0.034538910905014514
+  },
+  {
+    "ray_index": 34,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 47.81609937013603,
+    "allocation_MW": [
+      40.643684464615625,
+      7.172414905520405
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.037456776186443774,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07517349518410416,
+    "violation_above_005_Hz": 0.025173495184104153
+  },
+  {
+    "ray_index": 35,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 51.640956889268324,
+    "allocation_MW": [
+      45.18583727810979,
+      6.4551196111585405
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03567126570538373,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08356849761361326,
+    "violation_above_005_Hz": 0.03356849761361326
+  },
+  {
+    "ray_index": 35,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 46.456698073544096,
+    "allocation_MW": [
+      40.649610814351085,
+      5.807087259193012
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03745540499934888,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07517901866961954,
+    "violation_above_005_Hz": 0.025179018669619538
+  },
+  {
+    "ray_index": 36,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 49.631636858369035,
+    "allocation_MW": [
+      44.66847317253213,
+      4.963163685836903
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03582177029070172,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08275395182219056,
+    "violation_above_005_Hz": 0.032753951822190555
+  },
+  {
+    "ray_index": 36,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 45.132805776774546,
+    "allocation_MW": [
+      40.61952519909709,
+      4.513280577677453
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03743712594675686,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07525276761493091,
+    "violation_above_005_Hz": 0.025252767614930907
+  },
+  {
+    "ray_index": 37,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 47.73923073390033,
+    "allocation_MW": [
+      44.158788428857804,
+      3.5804423050425225
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.035950029030467526,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08207747424787556,
+    "violation_above_005_Hz": 0.03207747424787556
+  },
+  {
+    "ray_index": 37,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 43.858332627166575,
+    "allocation_MW": [
+      40.56895768012908,
+      3.289374947037491
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03739954048478709,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07540509370220681,
+    "violation_above_005_Hz": 0.02540509370220681
+  },
+  {
+    "ray_index": 38,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 45.957429041126076,
+    "allocation_MW": [
+      43.65955758906977,
+      2.297871452056306
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.03605768777845962,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08152176228175842,
+    "violation_above_005_Hz": 0.03152176228175842
+  },
+  {
+    "ray_index": 38,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 42.63297053731636,
+    "allocation_MW": [
+      40.501322010450544,
+      2.13164852686582
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03734576222531733,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07562465877710804,
+    "violation_above_005_Hz": 0.02562465877710804
+  },
+  {
+    "ray_index": 39,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 44.27979142173719,
+    "allocation_MW": [
+      43.17279663619376,
+      1.1069947855434306
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.036146596565414905,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08107092679205945,
+    "violation_above_005_Hz": 0.031070926792059445
+  },
+  {
+    "ray_index": 39,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 41.32912406314648,
+    "allocation_MW": [
+      40.295895961567815,
+      1.0332281015786628
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.03733505252351964,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07566861278525508,
+    "violation_above_005_Hz": 0.025668612785255077
+  },
+  {
+    "ray_index": 40,
+    "comparison": "invalid_reset_screen",
+    "total_fluctuation_amplitude_MW": 42.699945707462206,
+    "allocation_MW": [
+      42.699945707462206,
+      0.0
+    ],
+    "screened_contract": "reset",
+    "screened_output_upper_Hz": 0.036218753481298556,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.08071028911918451,
+    "violation_above_005_Hz": 0.03071028911918451
+  },
+  {
+    "ray_index": 40,
+    "comparison": "invalid_single_sign_periodic_screen",
+    "total_fluctuation_amplitude_MW": 39.97810356715112,
+    "allocation_MW": [
+      39.97810356715112,
+      0.0
+    ],
+    "screened_contract": "single_sign_periodic",
+    "screened_output_upper_Hz": 0.037360197196343946,
+    "actual_contract": "committed",
+    "actual_finite_witness_Hz": 0.07556553629944274,
+    "violation_above_005_Hz": 0.025565536299442734
+  }
+]

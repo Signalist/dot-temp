@@ -1,0 +1,107 @@
+{
+  "sources": {
+    "outputs/round2_20261003/grid_transfer/wecc_verified_descriptor_K.npz": "e03c0bf4806f86756de28d7015b815d1af9a1aa876590ff1003cb07caab35f21",
+    "outputs/round2_20261003/grid_transfer/wecc_descriptor_aux.npz": "f136d2b50eb0dc14f9e2bea308b83390217085ab65881408d47a02bd34821569"
+  },
+  "method": "Original verified descriptor, algebraic elimination then generalized finite residues with repeated-eigenvalue block biorthogonalization. Not the rejected ordinary QZ model. Two real P input columns independently checked.",
+  "ports": [
+    "P_MW@bus1",
+    "P_MW@bus4"
+  ],
+  "original_descriptor_dimension": 2405,
+  "differential_named_variables": 708,
+  "generator_outputs": 29,
+  "finite_eigenvalues": 565,
+  "finite_groups_before_gauge": 493,
+  "uniform_angle_gauge_roots_removed": 1,
+  "gauge_eigenvalues": [
+    [
+      5.525982977354954e-13,
+      0.0
+    ]
+  ],
+  "max_gauge_frequency_residue": 1.4532449168767944e-17,
+  "max_biorthogonal_group_condition": 3388490237393.552,
+  "max_stable_eigenvalue_real": -0.03333333333333333,
+  "high_frequency_polynomial_remainder": 3.933108070317365e-20,
+  "resolvent_checks": [
+    {
+      "s": [
+        0.001,
+        0.003
+      ],
+      "absolute_error": 6.021006312372549e-15,
+      "relative_error": 1.137535290370587e-10
+    },
+    {
+      "s": [
+        0.01,
+        0.1
+      ],
+      "absolute_error": 5.788941589823728e-15,
+      "relative_error": 7.382148125171302e-11
+    },
+    {
+      "s": [
+        0.1,
+        0.5
+      ],
+      "absolute_error": 6.076208660978312e-15,
+      "relative_error": 3.073493256617308e-11
+    },
+    {
+      "s": [
+        1.0,
+        2.0
+      ],
+      "absolute_error": 5.0562871707494625e-15,
+      "relative_error": 1.2337457109173713e-11
+    },
+    {
+      "s": [
+        10.0,
+        10.0
+      ],
+      "absolute_error": 2.061173120032697e-15,
+      "relative_error": 1.2863449498657753e-11
+    },
+    {
+      "s": [
+        100.0,
+        100.0
+      ],
+      "absolute_error": 2.7428411006165065e-16,
+      "relative_error": 1.4719882702286355e-11
+    },
+    {
+      "s": [
+        1000.0,
+        100.0
+      ],
+      "absolute_error": 3.9647393649580763e-17,
+      "relative_error": 1.492566515153896e-11
+    },
+    {
+      "s": [
+        10000.0,
+        10000.0
+      ],
+      "absolute_error": 2.835264219513454e-18,
+      "relative_error": 1.4974133322540112e-11
+    },
+    {
+      "s": [
+        100000.0,
+        10000.0
+      ],
+      "absolute_error": 3.9907734522354537e-19,
+      "relative_error": 1.4976228905103475e-11
+    }
+  ],
+  "qualification_pass": true,
+  "limitations": [
+    "Floating eigensystem and resolvent checks, no directed rounding",
+    "Gauge exclusion is structural unobservability plus a numerical residual check",
+    "Original pencil is ill conditioned; tests do not prove nonlinear fidelity at admission amplitudes"
+  ]
+}

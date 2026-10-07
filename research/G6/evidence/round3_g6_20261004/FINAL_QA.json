@@ -1,0 +1,15 @@
+{
+  "history_preserved": true,
+  "historical_file_count": 1033,
+  "reviewed_scientific_hashes_unchanged": 13,
+  "exact_certificate_source_hash_matches": true,
+  "portable_primary_replay_exact_numeric_agreement": true,
+  "independent_proof_review_exists": true,
+  "figures_visually_inspected": [
+    "finite_parameter_certificate.png",
+    "mismatch_contract_amplitudes.png",
+    "orientation_finite_tolerance.png"
+  ],
+  "scientific_gate": "not passed high-novelty engineering; retain narrow mathematical option",
+  "scope": "portable replay and ordinary source-model numerical audits are not original nonlinear family validation"
+}

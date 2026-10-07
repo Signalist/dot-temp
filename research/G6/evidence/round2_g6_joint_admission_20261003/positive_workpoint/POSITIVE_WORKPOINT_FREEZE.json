@@ -1,0 +1,243 @@
+{
+  "frozen_at_utc": "2026-10-03T12:37:47.071800+00:00",
+  "status": "preregistered_before_positive_workpoint_powerflow_or_support_outcomes",
+  "nominal_case": "original ANDES Kundur full, all original background network/device parameters retained; demonstration events disabled",
+  "additional_compute_PQ": [
+    {
+      "bus": 7,
+      "P_MW": 50.0,
+      "Q_Mvar": 0.0
+    },
+    {
+      "bus": 8,
+      "P_MW": 50.0,
+      "Q_Mvar": 0.0
+    }
+  ],
+  "balancing": "original slack power-flow balancing only, no altered PV dispatch or manual redistribution; report slack before/after and initialized generator values",
+  "no_nominal_retuning": true,
+  "q1": [
+    1,
+    1,
+    -1,
+    -1
+  ],
+  "q2": [
+    1,
+    -1,
+    -1,
+    1
+  ],
+  "T_s": 2.0,
+  "frequency_limit_Hz": 0.05,
+  "rays": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.025,
+      0.975
+    ],
+    [
+      0.05,
+      0.95
+    ],
+    [
+      0.075,
+      0.925
+    ],
+    [
+      0.1,
+      0.9
+    ],
+    [
+      0.125,
+      0.875
+    ],
+    [
+      0.15,
+      0.85
+    ],
+    [
+      0.175,
+      0.825
+    ],
+    [
+      0.2,
+      0.8
+    ],
+    [
+      0.225,
+      0.775
+    ],
+    [
+      0.25,
+      0.75
+    ],
+    [
+      0.275,
+      0.725
+    ],
+    [
+      0.3,
+      0.7
+    ],
+    [
+      0.325,
+      0.675
+    ],
+    [
+      0.35,
+      0.65
+    ],
+    [
+      0.375,
+      0.625
+    ],
+    [
+      0.4,
+      0.6
+    ],
+    [
+      0.425,
+      0.575
+    ],
+    [
+      0.45,
+      0.55
+    ],
+    [
+      0.475,
+      0.525
+    ],
+    [
+      0.5,
+      0.5
+    ],
+    [
+      0.525,
+      0.475
+    ],
+    [
+      0.55,
+      0.44999999999999996
+    ],
+    [
+      0.575,
+      0.42500000000000004
+    ],
+    [
+      0.6,
+      0.4
+    ],
+    [
+      0.625,
+      0.375
+    ],
+    [
+      0.65,
+      0.35
+    ],
+    [
+      0.675,
+      0.32499999999999996
+    ],
+    [
+      0.7,
+      0.30000000000000004
+    ],
+    [
+      0.725,
+      0.275
+    ],
+    [
+      0.75,
+      0.25
+    ],
+    [
+      0.775,
+      0.22499999999999998
+    ],
+    [
+      0.8,
+      0.19999999999999996
+    ],
+    [
+      0.825,
+      0.17500000000000004
+    ],
+    [
+      0.85,
+      0.15000000000000002
+    ],
+    [
+      0.875,
+      0.125
+    ],
+    [
+      0.9,
+      0.09999999999999998
+    ],
+    [
+      0.925,
+      0.07499999999999996
+    ],
+    [
+      0.95,
+      0.050000000000000044
+    ],
+    [
+      0.975,
+      0.025000000000000022
+    ],
+    [
+      1.0,
+      0.0
+    ]
+  ],
+  "contracts": [
+    "committed common sign",
+    "dynamic optional amplitudes in [0,a] with common block sign",
+    "independent signed ports",
+    "same-information classical support/Minkowski identity",
+    "invalid electrical-reset comparator"
+  ],
+  "support_settings": {
+    "past_blocks": 256,
+    "initial_phase_intervals": 2048,
+    "double_phase_grid_when": "largest relative analytic interpolation error committed >2%; max16384",
+    "tail": "analytic geometric modal tail",
+    "phase": "minimum of global derivative bound and sampled derivative + derivative tail + half-grid*global second derivative, multiplied by half-grid",
+    "numeric_scope": "formula-based conditional floating point LTI bounds, no directed-rounding certificate"
+  },
+  "replay_selection_before_outcomes": {
+    "ray_index": 20,
+    "allocation": "equal split",
+    "margins": [
+      "0.98*proper capacity inner",
+      "1.02*proper capacity outer"
+    ],
+    "proper_contracts": [
+      "committed",
+      "dynamic_optional",
+      "independent_ports"
+    ],
+    "physical_cap": "total amplitude <=100MW and each port <=50MW; mark any clipped margin as not an uncapped outside test",
+    "reset_false_admission": "0.98*min(reset_inner_capacity,100 MW); replay proper committed maximizing all-history finite word at that amplitude, compare proper boundary",
+    "finite_word": "256 history blocks plus final current block, original nonlinear grid starts at equilibrium at t=0; start forcing at t=1, quarter-block switches, stop after full final block, add20s ringdown",
+    "primary_dt_s": 0.0078125,
+    "refinement_dt_s": 0.00390625,
+    "refinement_cases": "dynamic margin pair and reset false-admission case"
+  },
+  "qualification": {
+    "powerflow_tol": 1e-11,
+    "init_fg_tol": 1e-08,
+    "stationarity_horizon_s": 10,
+    "stationarity_abs_xy_tol": 1e-08,
+    "strict_reduced_stability_required": true,
+    "derivative_checks": "central differences of original DAE residual wrt P ports and mixed x/y directions, plus small P-pulse nonlinear versus new linear descriptor"
+  },
+  "affine_work_law": "Only under w_i(t)=wbar_i+kappa_i*deltaP_i(t), wbar_i>=abs(kappa_i)*a_i; each exact zero-area full block has unchanged incremental energy/work. No empirical compute-power validation or real workload claim.",
+  "copied_grid_adapter_sha256": "fdd72007f45f33a198b5023c75ffd6f2a0ca803c31c299e0efad25bff3beec98"
+}

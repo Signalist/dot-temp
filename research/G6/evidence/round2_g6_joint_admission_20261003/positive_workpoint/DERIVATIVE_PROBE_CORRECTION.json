@@ -1,0 +1,7 @@
+{
+  "time_utc": "2026-10-03T12:41:44.772297+00:00",
+  "reason": "Initial random direction perturbed artificial compacted-device algebraic sink. ANDES facade.py1046-1050 explicitly sets sink diagonal to1; sink residual stays0. Observed nonphysical direction derivative failure localized entirely to disconnected dummy index196, with no input/physical couplings. Freeze nominal point/tolerances unchanged; correct test direction by keeping sink0.",
+  "source": "andes/system/facade.py1046-1050 and dae_compactor.py173-180",
+  "preserved_initial_result": "QUALIFICATION_initial_sink_probe.json",
+  "change": "Only derivative probe direction; no A/B/C/D, source model, dispatch, capacity or support changes"
+}

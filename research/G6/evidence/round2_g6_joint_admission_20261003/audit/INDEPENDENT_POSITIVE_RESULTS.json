@@ -1,0 +1,200 @@
+{
+  "scope": "Independent floating positive-workpoint audit; no uniform nonlinear certificate",
+  "sink_correction": {
+    "index": 196,
+    "isolated_diagonal": 1,
+    "input_row_zero": true,
+    "original_direction_sink_value": 0.1525543225868725,
+    "original_derivative_error": 0.1525543225868725,
+    "corrected_max_relative_derivative_error": 4.691676427923818e-09
+  },
+  "new_descriptor_resolvents": [
+    {
+      "s": [
+        0.0,
+        0.004
+      ],
+      "relative_error": 8.08028565374239e-12,
+      "absolute_error": 5.3859654399630705e-15
+    },
+    {
+      "s": [
+        0.023,
+        0.031
+      ],
+      "relative_error": 1.3351217676534244e-12,
+      "absolute_error": 9.895971575057355e-16
+    },
+    {
+      "s": [
+        0.27,
+        1.13
+      ],
+      "relative_error": 3.920510989518434e-14,
+      "absolute_error": 3.3069765864668694e-17
+    },
+    {
+      "s": [
+        7.0,
+        23.0
+      ],
+      "relative_error": 1.2960547484265284e-14,
+      "absolute_error": 7.476110680390936e-19
+    }
+  ],
+  "baseline_MW": [
+    50,
+    50
+  ],
+  "slack_generator_P_change_MW": 113.37322418682012,
+  "independent_equal_ray_peaks": {
+    "committed": 0.0017155433252790822,
+    "dynamic_optional": 0.001810523555022491,
+    "independent_ports": 0.002053587899257283
+  },
+  "frozen_support_source_integrity": {
+    "positive_summary.json": true,
+    "positive_witnesses.npz": true,
+    "positive_kernel.npz": true
+  },
+  "physical_schedule_checks": [
+    {
+      "case": "committed_inner",
+      "full_blocks": 257,
+      "minimum_compute_MW": 35.750969688672264,
+      "max_incremental_block_energy_MWs": 0.0,
+      "max_block_energy_difference_from_100_MWs": 1.4210854715202004e-14,
+      "chronology_verified": true,
+      "physical_cap_applied": false
+    },
+    {
+      "case": "committed_outer",
+      "full_blocks": 257,
+      "minimum_compute_MW": 35.13590439585564,
+      "max_incremental_block_energy_MWs": 0.0,
+      "max_block_energy_difference_from_100_MWs": 1.4210854715202004e-14,
+      "chronology_verified": true,
+      "physical_cap_applied": false
+    },
+    {
+      "case": "dynamic_optional_inner",
+      "full_blocks": 257,
+      "minimum_compute_MW": 36.496879931773066,
+      "max_incremental_block_energy_MWs": 0.0,
+      "max_block_energy_difference_from_100_MWs": 0.0,
+      "chronology_verified": true,
+      "physical_cap_applied": false
+    },
+    {
+      "case": "dynamic_optional_outer",
+      "full_blocks": 257,
+      "minimum_compute_MW": 35.91567619804691,
+      "max_incremental_block_energy_MWs": 0.0,
+      "max_block_energy_difference_from_100_MWs": 0.0,
+      "chronology_verified": true,
+      "physical_cap_applied": false
+    },
+    {
+      "case": "independent_ports_inner",
+      "full_blocks": 257,
+      "minimum_compute_MW": 38.0921125520832,
+      "max_incremental_block_energy_MWs": 0.0,
+      "max_block_energy_difference_from_100_MWs": 0.0,
+      "chronology_verified": true,
+      "physical_cap_applied": false
+    },
+    {
+      "case": "independent_ports_outer",
+      "full_blocks": 257,
+      "minimum_compute_MW": 37.58270828863837,
+      "max_incremental_block_energy_MWs": 0.0,
+      "max_block_energy_difference_from_100_MWs": 0.0,
+      "chronology_verified": true,
+      "physical_cap_applied": false
+    },
+    {
+      "case": "reset_false_admission",
+      "full_blocks": 257,
+      "minimum_compute_MW": 1.0,
+      "max_incremental_block_energy_MWs": 0.0,
+      "max_block_energy_difference_from_100_MWs": 0.0,
+      "chronology_verified": true,
+      "physical_cap_applied": true
+    }
+  ],
+  "completed_nonlinear_raw_checks": [
+    {
+      "case": "committed_inner_dt128",
+      "peak_Hz": 0.04977960360025069,
+      "margin_Hz": 0.0002203963997493147,
+      "minimum_compute_MW": 35.750969688672264,
+      "completed": true
+    },
+    {
+      "case": "committed_outer_dt128",
+      "peak_Hz": 0.05197413696165665,
+      "margin_Hz": -0.0019741369616566445,
+      "minimum_compute_MW": 35.13590439585564,
+      "completed": true
+    },
+    {
+      "case": "dynamic_optional_inner_dt128",
+      "peak_Hz": 0.04973948794249505,
+      "margin_Hz": 0.00026051205750494966,
+      "minimum_compute_MW": 36.496879931773066,
+      "completed": true
+    },
+    {
+      "case": "dynamic_optional_inner_dt256",
+      "peak_Hz": 0.049720880386558974,
+      "margin_Hz": 0.0002791196134410284,
+      "minimum_compute_MW": 36.496879931773066,
+      "completed": true
+    },
+    {
+      "case": "dynamic_optional_outer_dt128",
+      "peak_Hz": 0.051922926445095996,
+      "margin_Hz": -0.0019229264450959932,
+      "minimum_compute_MW": 35.91567619804691,
+      "completed": true
+    },
+    {
+      "case": "dynamic_optional_outer_dt256",
+      "peak_Hz": 0.05190353545505566,
+      "margin_Hz": -0.0019035354550556577,
+      "minimum_compute_MW": 35.91567619804691,
+      "completed": true
+    },
+    {
+      "case": "independent_ports_inner_dt128",
+      "peak_Hz": 0.049173098286359185,
+      "margin_Hz": 0.000826901713640818,
+      "minimum_compute_MW": 38.0921125520832,
+      "completed": true
+    },
+    {
+      "case": "independent_ports_outer_dt128",
+      "peak_Hz": 0.05128518059988263,
+      "margin_Hz": -0.0012851805998826266,
+      "minimum_compute_MW": 37.58270828863837,
+      "completed": true
+    },
+    {
+      "case": "reset_false_admission_dt128",
+      "peak_Hz": 0.18263230297515864,
+      "margin_Hz": -0.13263230297515866,
+      "minimum_compute_MW": 1.0,
+      "completed": true
+    },
+    {
+      "case": "reset_false_admission_dt256",
+      "peak_Hz": 0.1825539297790657,
+      "margin_Hz": -0.13255392977906572,
+      "minimum_compute_MW": 1.0,
+      "completed": true
+    }
+  ],
+  "all_completed_runs_share_initial_state": true,
+  "nonlinear_review_complete": true,
+  "all_current_checks_passed": true
+}

@@ -1,0 +1,202 @@
+{
+  "method": "Original 2405x2405 descriptor trapezoidal evolution of each input template from zero, with midpoint constant forcing on each exact segment. Refinement assesses descriptor parasitic high-frequency effects and second-order time discretization.",
+  "checks": [
+    {
+      "dt": 0.015625,
+      "maximum_absolute_error_Hz_per_MW": 2.9980944295590487e-06,
+      "relative_peak_error": 0.0028461758886795816,
+      "quarter_second_checks": [
+        {
+          "t": 0.25,
+          "max_absolute_error_Hz_per_MW": 5.111277607440642e-07
+        },
+        {
+          "t": 0.5,
+          "max_absolute_error_Hz_per_MW": 3.7682826823000077e-07
+        },
+        {
+          "t": 0.75,
+          "max_absolute_error_Hz_per_MW": 1.0747623624625112e-06
+        },
+        {
+          "t": 1.0,
+          "max_absolute_error_Hz_per_MW": 9.72625209433504e-07
+        },
+        {
+          "t": 1.25,
+          "max_absolute_error_Hz_per_MW": 9.495625923120182e-07
+        },
+        {
+          "t": 1.5,
+          "max_absolute_error_Hz_per_MW": 1.8046343224336887e-06
+        },
+        {
+          "t": 1.75,
+          "max_absolute_error_Hz_per_MW": 2.9563999516847437e-06
+        },
+        {
+          "t": 2.0,
+          "max_absolute_error_Hz_per_MW": 1.2024207153306897e-06
+        }
+      ]
+    },
+    {
+      "dt": 0.0078125,
+      "maximum_absolute_error_Hz_per_MW": 7.506562633415327e-07,
+      "relative_peak_error": 0.0007125329493183021,
+      "quarter_second_checks": [
+        {
+          "t": 0.25,
+          "max_absolute_error_Hz_per_MW": 1.281275268767636e-07
+        },
+        {
+          "t": 0.5,
+          "max_absolute_error_Hz_per_MW": 9.36829616816006e-08
+        },
+        {
+          "t": 0.75,
+          "max_absolute_error_Hz_per_MW": 2.6866247675865894e-07
+        },
+        {
+          "t": 1.0,
+          "max_absolute_error_Hz_per_MW": 2.4318867398911547e-07
+        },
+        {
+          "t": 1.25,
+          "max_absolute_error_Hz_per_MW": 2.3863233619811266e-07
+        },
+        {
+          "t": 1.5,
+          "max_absolute_error_Hz_per_MW": 4.496704672597772e-07
+        },
+        {
+          "t": 1.75,
+          "max_absolute_error_Hz_per_MW": 7.405104660288453e-07
+        },
+        {
+          "t": 2.0,
+          "max_absolute_error_Hz_per_MW": 3.007699665702728e-07
+        }
+      ]
+    },
+    {
+      "dt": 0.00390625,
+      "maximum_absolute_error_Hz_per_MW": 1.877896713879551e-07,
+      "relative_peak_error": 0.0001782416232739902,
+      "quarter_second_checks": [
+        {
+          "t": 0.25,
+          "max_absolute_error_Hz_per_MW": 3.2053529949531943e-08
+        },
+        {
+          "t": 0.5,
+          "max_absolute_error_Hz_per_MW": 2.338784212344426e-08
+        },
+        {
+          "t": 0.75,
+          "max_absolute_error_Hz_per_MW": 6.716363366825613e-08
+        },
+        {
+          "t": 1.0,
+          "max_absolute_error_Hz_per_MW": 6.079885770348108e-08
+        },
+        {
+          "t": 1.25,
+          "max_absolute_error_Hz_per_MW": 5.973529171765697e-08
+        },
+        {
+          "t": 1.5,
+          "max_absolute_error_Hz_per_MW": 1.1232364559413165e-07
+        },
+        {
+          "t": 1.75,
+          "max_absolute_error_Hz_per_MW": 1.852148520115743e-07
+        },
+        {
+          "t": 2.0,
+          "max_absolute_error_Hz_per_MW": 7.520217506985956e-08
+        }
+      ]
+    },
+    {
+      "dt": 0.001953125,
+      "maximum_absolute_error_Hz_per_MW": 4.695052581288453e-08,
+      "relative_peak_error": 4.456335576181575e-05,
+      "quarter_second_checks": [
+        {
+          "t": 0.25,
+          "max_absolute_error_Hz_per_MW": 8.014736273416999e-09
+        },
+        {
+          "t": 0.5,
+          "max_absolute_error_Hz_per_MW": 5.844902164193577e-09
+        },
+        {
+          "t": 0.75,
+          "max_absolute_error_Hz_per_MW": 1.67907807468802e-08
+        },
+        {
+          "t": 1.0,
+          "max_absolute_error_Hz_per_MW": 1.5199814791034584e-08
+        },
+        {
+          "t": 1.25,
+          "max_absolute_error_Hz_per_MW": 1.4938642160420255e-08
+        },
+        {
+          "t": 1.5,
+          "max_absolute_error_Hz_per_MW": 2.807502311844858e-08
+        },
+        {
+          "t": 1.75,
+          "max_absolute_error_Hz_per_MW": 4.630915074748819e-08
+        },
+        {
+          "t": 2.0,
+          "max_absolute_error_Hz_per_MW": 1.8801139210810128e-08
+        }
+      ]
+    },
+    {
+      "dt": 0.0009765625,
+      "maximum_absolute_error_Hz_per_MW": 1.1737825451394574e-08,
+      "relative_peak_error": 1.1140939736524316e-05,
+      "quarter_second_checks": [
+        {
+          "t": 0.25,
+          "max_absolute_error_Hz_per_MW": 2.0037687006066278e-09
+        },
+        {
+          "t": 0.5,
+          "max_absolute_error_Hz_per_MW": 1.4610968512751197e-09
+        },
+        {
+          "t": 0.75,
+          "max_absolute_error_Hz_per_MW": 4.1976871554386705e-09
+        },
+        {
+          "t": 1.0,
+          "max_absolute_error_Hz_per_MW": 3.799959921377272e-09
+        },
+        {
+          "t": 1.25,
+          "max_absolute_error_Hz_per_MW": 3.734961636627995e-09
+        },
+        {
+          "t": 1.5,
+          "max_absolute_error_Hz_per_MW": 7.018387540027541e-09
+        },
+        {
+          "t": 1.75,
+          "max_absolute_error_Hz_per_MW": 1.1577627336787364e-08
+        },
+        {
+          "t": 2.0,
+          "max_absolute_error_Hz_per_MW": 4.700321646440228e-09
+        }
+      ]
+    }
+  ],
+  "pass": true,
+  "note": "Finite-time floating linear qualification only; no nonlinear robustness or global interval guarantee."
+}

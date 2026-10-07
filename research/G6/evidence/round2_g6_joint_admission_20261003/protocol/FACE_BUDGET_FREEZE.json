@@ -1,0 +1,52 @@
+{
+  "utc": "2026-10-03T12:30:51.697758+00:00",
+  "slope_interval": [
+    0.25,
+    4.0
+  ],
+  "absolute_gauge_tolerances": [
+    0.01,
+    0.001,
+    0.0001,
+    9.999999999999999e-06,
+    1e-06,
+    1e-07,
+    1e-08,
+    1e-09,
+    1e-10
+  ],
+  "cases": [
+    {
+      "name": "golden_r085",
+      "r": 0.85,
+      "theta_float": 1.9416110387254666
+    },
+    {
+      "name": "golden_r060",
+      "r": 0.6,
+      "theta_float": 1.9416110387254666
+    },
+    {
+      "name": "golden_r095",
+      "r": 0.95,
+      "theta_float": 1.9416110387254666
+    },
+    {
+      "name": "rational_pi4",
+      "r": 0.85,
+      "theta_float": 0.7853981633974483
+    },
+    {
+      "name": "near_rational_diagnostic",
+      "r": 0.85,
+      "theta_float": 0.44879895065424896
+    }
+  ],
+  "near_rational": "post-theorem mechanism diagnostic, not a heldout and not proof of beta=infinity",
+  "comparators": [
+    "geometric-tail truncation",
+    "classical exact-knot greedy chord polygon",
+    "return folding with same angle information"
+  ],
+  "novelty": "none asserted for algorithms"
+}

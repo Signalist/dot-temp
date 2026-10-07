@@ -1,0 +1,207 @@
+[
+  {
+    "file": "BASELINE_SCOPE_AUDIT.json",
+    "bytes": 1492,
+    "sha256": "019f57a0f3aa523ae51ace8c2d6213a0d1de12285c230e70e9887812223aa109"
+  },
+  {
+    "file": "INPUT_INTEGRITY.json",
+    "bytes": 1055,
+    "sha256": "7e4fc7a446e06e773aaae120081e419b332dd48f82359f210568d57e77023086"
+  },
+  {
+    "file": "REPORT.md",
+    "bytes": 14556,
+    "sha256": "e2ef5e2c5eefd29772b584d20f5a59488d2c20ba272b864910afb22de22e63d1"
+  },
+  {
+    "file": "TRANSFER_FREEZE.json",
+    "bytes": 2066,
+    "sha256": "62058fae5c7f5321abf487b880421d50fde4926a619f885fba741b485551ea85"
+  },
+  {
+    "file": "kundur_bound_components.npz",
+    "bytes": 2131,
+    "sha256": "6a109ef5d45102aeb04104abc7536be388b6f65cf73ed31a04d25d2fd515dcd5"
+  },
+  {
+    "file": "kundur_coefficients.npy",
+    "bytes": 33702080,
+    "sha256": "4931bea584a0399f4670c6e9fd5de422317f74727aeade360ee79571fe9f6a53"
+  },
+  {
+    "file": "kundur_decisions.json",
+    "bytes": 89143,
+    "sha256": "28188164de0a0856ce2d4834744917e481d9be2dbe5d27894410a4e6d712ba3e"
+  },
+  {
+    "file": "kundur_kernel.npz",
+    "bytes": 11180,
+    "sha256": "875ac6b67c2e7b7e8a75d83d7df498a9a8d5f5f0fd405255e667c76fe8b474bf"
+  },
+  {
+    "file": "kundur_original_state_replays.json",
+    "bytes": 31933,
+    "sha256": "23ee186f33da5e260784fef25adc600cdaf243f2bd16525a14a589b76d6a5453"
+  },
+  {
+    "file": "kundur_qualification.json",
+    "bytes": 469,
+    "sha256": "89c60cea414ca8dc7579838e25af36e73edbb6c686c6fc97508788dd15b51c46"
+  },
+  {
+    "file": "kundur_rays.csv",
+    "bytes": 25833,
+    "sha256": "4764476f078d31ea5d4c7b336bf57a3fcc8b9c116f39700f35c4e1bde2b9a944"
+  },
+  {
+    "file": "kundur_run.log",
+    "bytes": 655,
+    "sha256": "3ee64602ef40cc1a2c53cd8310b36549405a5856b62500b8aa514755eae0c128"
+  },
+  {
+    "file": "kundur_summary.json",
+    "bytes": 4084,
+    "sha256": "393992e446096dc6ebacd1755574002216abbc6dfd58f0017d141b0993ae376a"
+  },
+  {
+    "file": "kundur_support_arrays.npz",
+    "bytes": 9829,
+    "sha256": "5479c04fd49fdc128d873506357a33db638257cab6dac6233335e29820ad1bc8"
+  },
+  {
+    "file": "kundur_validation.json",
+    "bytes": 714,
+    "sha256": "c22f953a99f128ecdd4871da1a293c33a11dfa5ad0609d87ecc6f4930d9357a9"
+  },
+  {
+    "file": "kundur_validation.log",
+    "bytes": 715,
+    "sha256": "7afaa259c9aaad01bf23148a4ae7d9039ba123b4e2620c78ad349589177d4eb2"
+  },
+  {
+    "file": "kundur_witness_metadata.json",
+    "bytes": 32244,
+    "sha256": "161a1895db182dfb3ff5645c3a6cbf2dcfbd8c7b294e0ed282c00b43960e389c"
+  },
+  {
+    "file": "kundur_witnesses.npz",
+    "bytes": 15168,
+    "sha256": "30e55fd26816eea1c6a4022f815a692915bfce7e087224e593592fafc61da395"
+  },
+  {
+    "file": "latest_run_summary.json",
+    "bytes": 7087,
+    "sha256": "66c86ff3c44b6685f6ce27e5a2f4417c84f7b58e98d6dbe53f0a13bcfc4f3f3b"
+  },
+  {
+    "file": "make_transfer_report.py",
+    "bytes": 15001,
+    "sha256": "8bca662898625764a1da7cae45aa5238a0cb16dd3aab550f631295200712e3e2"
+  },
+  {
+    "file": "replay_wecc_witnesses.py",
+    "bytes": 2288,
+    "sha256": "8eaa67fa008af4c9435c72645660ac2a98a57a646e7a1bef744cbf1122b42466"
+  },
+  {
+    "file": "run_transfer.py",
+    "bytes": 14207,
+    "sha256": "100ce2d8655a79f4bb8d14a92e90034d5c35b7a5ee60af26271d199e5c07cff9"
+  },
+  {
+    "file": "validate_transfer.py",
+    "bytes": 5112,
+    "sha256": "22e438b02f511a72d240eb3e6e196e3d73bcca49deb73877cb904af39b127373"
+  },
+  {
+    "file": "verify_wecc_descriptor_time.py",
+    "bytes": 2144,
+    "sha256": "1cad1414c41f76728e2016d4275180faef132ca4c3f42ce6be999a4b5c970046"
+  },
+  {
+    "file": "wecc_bound_components.npz",
+    "bytes": 11765,
+    "sha256": "5555525cedb79f8af09844c3077431c16a94897fae9c1da1d2bd265871db9d28"
+  },
+  {
+    "file": "wecc_coefficients.npy",
+    "bytes": 244339280,
+    "sha256": "66b252220a769775f70e9f418d0f15291e98b194ab2dac7fa544750a829e2c19"
+  },
+  {
+    "file": "wecc_decisions.json",
+    "bytes": 88713,
+    "sha256": "d9f334c0986c1334bd37941e35fbded547349d1ba3987d29a05cac8914e432d6"
+  },
+  {
+    "file": "wecc_descriptor_time_validation.json",
+    "bytes": 5615,
+    "sha256": "5916f43fef820a5264fca660352bf96e194966c31e1a33c1eb8268d9b9df7a2b"
+  },
+  {
+    "file": "wecc_descriptor_time_validation.log",
+    "bytes": 3482,
+    "sha256": "8189ae9f33ffd5f3c9f92022835144277c57ab069b572009c9a72608d9f63bca"
+  },
+  {
+    "file": "wecc_kernel.npz",
+    "bytes": 511454,
+    "sha256": "7c6aea92a8d8d914b511df10263ad7fa7b3c0cc6bf87e98b044b19257b5d45d3"
+  },
+  {
+    "file": "wecc_original_descriptor_witness_replays.json",
+    "bytes": 3945,
+    "sha256": "ef20815e401580346ed4a31527410002fc580c4a81d1e00501e9aae7bffdac46"
+  },
+  {
+    "file": "wecc_original_descriptor_witness_replays.log",
+    "bytes": 2695,
+    "sha256": "2a35f843d37f4c3a5648f49e3c84776b030d51d4eb16af2dd47fdd7cd23b5547"
+  },
+  {
+    "file": "wecc_qualification.json",
+    "bytes": 2942,
+    "sha256": "dbddb4a0381fae1103ec8ccba2d7e0e68bfd104c5179cc43fe0373066629772e"
+  },
+  {
+    "file": "wecc_rays.csv",
+    "bytes": 25727,
+    "sha256": "9deebe46f06fe1e0a0f4a32f0d840aa56f99bf9f38a7a0aa50e0d07aa178e663"
+  },
+  {
+    "file": "wecc_run.log",
+    "bytes": 645,
+    "sha256": "da0738f146ccb5ccfa71e7bf9f8a8b7df53a5b394bea4f8bd3f1a61d716bfe9c"
+  },
+  {
+    "file": "wecc_summary.json",
+    "bytes": 6733,
+    "sha256": "6451bde50e87077d9b840b8ce31f8e15d6b3b2e59621d38655859a80c7de76ab"
+  },
+  {
+    "file": "wecc_support_arrays.npz",
+    "bytes": 9563,
+    "sha256": "279c81b7717ef6b169fdb4be2cbef05a7c40a5bcc88e61d539a985026cf38a4c"
+  },
+  {
+    "file": "wecc_validation.json",
+    "bytes": 566,
+    "sha256": "4291197a5bba228ad86b49377798462b6ec14f73ef9e91eda306e88fbf9cda11"
+  },
+  {
+    "file": "wecc_validation.log",
+    "bytes": 567,
+    "sha256": "ad125126f48d4566dd73f87e3ef25fd50f675006f5d907c7a58b33f1c8a972c6"
+  },
+  {
+    "file": "wecc_witness_metadata.json",
+    "bytes": 32457,
+    "sha256": "32a60c88fd1db835996704b1cc097e703629f8e6718630efc2ec271a3ee5269a"
+  },
+  {
+    "file": "wecc_witnesses.npz",
+    "bytes": 14564,
+    "sha256": "e2bab77bd59a193644b1bcfff80af8c0598bfe1661ea05182a90af70c980adc9"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "model": "transfer8_cube",
+  "scenario_file_sha256": "f4a0a58f595553c0800fe47e198870f3dab630a986c406868189746d970b64ca",
+  "cases": 196,
+  "dt": 0.02,
+  "T_s": 90,
+  "raw_state_dtype": "float64",
+  "dt_half_checks": [
+    {
+      "case_id": 81,
+      "coarse_peak": 0.9571952982521473,
+      "fine_peak": 0.9572347954857573,
+      "abs_difference": 3.9497233609964155e-05
+    },
+    {
+      "case_id": 83,
+      "coarse_peak": 1.2085898600920248,
+      "fine_peak": 1.208893445534482,
+      "abs_difference": 0.0003035854424571216
+    }
+  ],
+  "seconds": 12.017109394073486,
+  "nonlinear_scope": "sin(angle) synthetic swing grid, no Q/voltage/converter physics, sample peaks only",
+  "linear_steady_initial_is_not_nonlinear_periodic_initial": true
+}

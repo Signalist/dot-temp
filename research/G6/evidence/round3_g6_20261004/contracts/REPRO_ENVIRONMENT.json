@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "OpenMP_threads": 4,
+  "BLAS_threads": 1,
+  "primary_sources_read_only": true,
+  "no_new_nonlinear_integrations": true,
+  "source_models_not_modified": true,
+  "floating_arithmetic": "IEEE double through numpy/compiled C++; analytic bounds evaluated without directed rounding"
+}

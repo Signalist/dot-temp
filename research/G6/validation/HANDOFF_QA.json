@@ -1,0 +1,285 @@
+{
+  "date_utc": "2026-10-07",
+  "status": "passed",
+  "paper_ready": false,
+  "python": "3.12.14",
+  "platform": "Linux x86_64",
+  "syntax_compile": {
+    "pass": true,
+    "source_files": 62,
+    "files": [
+      "evidence/round1/review/audit_envelope_artifacts.py",
+      "evidence/round1/review/audit_implementation.py",
+      "evidence/round1/review/audit_resolvent.py",
+      "evidence/round1/review/audit_trace_artifacts.py",
+      "evidence/round1/review/replay_certificate.py",
+      "evidence/round1/src/analyze_envelopes.py",
+      "evidence/round1/src/g6_model.py",
+      "evidence/round1/src/g6_model_rectangle_v1.py",
+      "evidence/round1/src/make_figures.py",
+      "evidence/round1/src/run_certificates.py",
+      "evidence/round1/src/run_certificates_rectangle_v1.py",
+      "evidence/round1/src/run_challenges.py",
+      "evidence/round1/src/summarize_study.py",
+      "evidence/round1/src/test_g6.py",
+      "evidence/round1/src/verify_raw.py",
+      "evidence/round2_g6_joint_admission_20261003/audit/independent_checks.py",
+      "evidence/round2_g6_joint_admission_20261003/audit/independent_nonlinear_checks.py",
+      "evidence/round2_g6_joint_admission_20261003/audit/independent_positive_checks.py",
+      "evidence/round2_g6_joint_admission_20261003/audit/independent_transfer_checks.py",
+      "evidence/round2_g6_joint_admission_20261003/audit/verify_final_report.py",
+      "evidence/round2_g6_joint_admission_20261003/dependencies/legacy_grid_transfer/grid_adapter.py",
+      "evidence/round2_g6_joint_admission_20261003/nonlinear/audit_nonlinear.py",
+      "evidence/round2_g6_joint_admission_20261003/nonlinear/run_g6_nonlinear.py",
+      "evidence/round2_g6_joint_admission_20261003/nonlinear/summarize_nonlinear.py",
+      "evidence/round2_g6_joint_admission_20261003/positive_workpoint/diagnose_derivative.py",
+      "evidence/round2_g6_joint_admission_20261003/positive_workpoint/finalize_positive.py",
+      "evidence/round2_g6_joint_admission_20261003/positive_workpoint/grid_adapter.py",
+      "evidence/round2_g6_joint_admission_20261003/positive_workpoint/qualify_positive.py",
+      "evidence/round2_g6_joint_admission_20261003/positive_workpoint/qualify_positive_initial_sink_probe.py",
+      "evidence/round2_g6_joint_admission_20261003/positive_workpoint/run_positive_nonlinear.py",
+      "evidence/round2_g6_joint_admission_20261003/positive_workpoint/run_positive_support.py",
+      "evidence/round2_g6_joint_admission_20261003/positive_workpoint/summarize_positive.py",
+      "evidence/round2_g6_joint_admission_20261003/positive_workpoint/verify_positive_powerflow.py",
+      "evidence/round2_g6_joint_admission_20261003/src/block_admission.py",
+      "evidence/round2_g6_joint_admission_20261003/src/make_figures.py",
+      "evidence/round2_g6_joint_admission_20261003/src/make_final_figures.py",
+      "evidence/round2_g6_joint_admission_20261003/src/replay_local_transfer.py",
+      "evidence/round2_g6_joint_admission_20261003/src/run_dynamic_optional.py",
+      "evidence/round2_g6_joint_admission_20261003/src/run_face_budget.py",
+      "evidence/round2_g6_joint_admission_20261003/src/run_shared_parameter.py",
+      "evidence/round2_g6_joint_admission_20261003/src/run_structural.py",
+      "evidence/round2_g6_joint_admission_20261003/stochastic/verify_stochastic.py",
+      "evidence/round2_g6_joint_admission_20261003/theory_review/check_theory.py",
+      "evidence/round2_g6_joint_admission_20261003/transfer/make_transfer_report.py",
+      "evidence/round2_g6_joint_admission_20261003/transfer/replay_wecc_witnesses.py",
+      "evidence/round2_g6_joint_admission_20261003/transfer/run_transfer.py",
+      "evidence/round2_g6_joint_admission_20261003/transfer/validate_transfer.py",
+      "evidence/round2_g6_joint_admission_20261003/transfer/verify_wecc_descriptor_time.py",
+      "evidence/round3_g6_20261004/contracts/independent_audit.py",
+      "evidence/round3_g6_20261004/contracts/make_report.py",
+      "evidence/round3_g6_20261004/contracts/run_contracts.py",
+      "evidence/round3_g6_20261004/contracts/run_secondary_window.py",
+      "evidence/round3_g6_20261004/src/make_figures.py",
+      "evidence/round3_g6_20261004/src/reproduce_network_contracts.py",
+      "evidence/round3_g6_20261004/src/run_finite_uncertainty.py",
+      "evidence/round3_g6_20261004/src/run_orientation_and_jobs.py",
+      "evidence/round3_g6_20261004/validation/independent_review_checks.py",
+      "provenance/fetch_upstream_cases.py",
+      "replay.py",
+      "tests/test_archived_claims.py",
+      "tests/test_window_dp.py",
+      "verify.py"
+    ]
+  },
+  "binary_fixture_scan": {
+    "pass": true,
+    "npz_files": 51,
+    "all_loaded_with_allow_pickle_false": true,
+    "private_path_strings": []
+  },
+  "publication_scan": {
+    "text_files_scanned": 339,
+    "private_absolute_path_hits": [],
+    "credential_pattern_hits": [],
+    "forbidden_raw_documents_or_build_artifacts": []
+  },
+  "fresh_dependency_install_tested": false,
+  "new_nonlinear_integrations": 0,
+  "source_model_requalification": false,
+  "physical_measurement": false,
+  "executed_replays": {
+    "quick": {
+      "mode": "quick",
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "mpmath": "1.3.0",
+        "matplotlib": "3.10.8"
+      },
+      "checks": [
+        {
+          "script": "tests/test_window_dp.py",
+          "returncode": 0,
+          "seconds": 1.2559950159993605
+        },
+        {
+          "script": "evidence/round1/src/test_g6.py",
+          "returncode": 0,
+          "seconds": 20.94888080400051
+        },
+        {
+          "script": "evidence/round2_g6_joint_admission_20261003/theory_review/check_theory.py",
+          "returncode": 0,
+          "seconds": 1.3943567349997465
+        },
+        {
+          "script": "evidence/round3_g6_20261004/src/run_orientation_and_jobs.py",
+          "returncode": 0,
+          "seconds": 0.1549014989977877
+        }
+      ],
+      "scope": "Reexecutes specified scientific source; quick is partial, network conditional floating LTI only; no new nonlinear integration",
+      "all_passed": true,
+      "archived_result_byte_comparison": {
+        "ORIENTATION_CROSSOVER.json": true,
+        "JOB_DAG_REALIZATION.json": true,
+        "orientation_crossover.csv": true
+      }
+    },
+    "synthetic": {
+      "mode": "synthetic",
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "mpmath": "1.3.0",
+        "matplotlib": "3.10.8"
+      },
+      "checks": [
+        {
+          "script": "evidence/round3_g6_20261004/src/run_finite_uncertainty.py",
+          "returncode": 0,
+          "seconds": 33.4630342049968
+        },
+        {
+          "script": "evidence/round3_g6_20261004/src/run_orientation_and_jobs.py",
+          "returncode": 0,
+          "seconds": 0.1842536670010304
+        }
+      ],
+      "scope": "Reexecutes specified scientific source; quick is partial, network conditional floating LTI only; no new nonlinear integration",
+      "all_passed": true,
+      "archived_result_byte_comparison": {
+        "ORIENTATION_CROSSOVER.json": true,
+        "JOB_DAG_REALIZATION.json": true,
+        "orientation_crossover.csv": true,
+        "EXACT_RATIONAL_PARAMETER_CERTIFICATE.json": true,
+        "EXACT_RATIONAL_GRID_RAW.json": true,
+        "finite_uncertainty.csv": true
+      }
+    },
+    "network": {
+      "mode": "network",
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "mpmath": "1.3.0",
+        "matplotlib": "3.10.8"
+      },
+      "checks": [
+        {
+          "script": "evidence/round3_g6_20261004/src/reproduce_network_contracts.py",
+          "returncode": 0,
+          "seconds": 162.60485889300253
+        }
+      ],
+      "scope": "Reexecutes specified scientific source; quick is partial, network conditional floating LTI only; no new nonlinear integration",
+      "all_passed": true
+    },
+    "round2": {
+      "mode": "round2",
+      "python": "3.12.14",
+      "versions": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "mpmath": "1.3.0",
+        "matplotlib": "3.10.8"
+      },
+      "checks": [
+        {
+          "script": "evidence/round2_g6_joint_admission_20261003/src/run_structural.py",
+          "returncode": 0,
+          "seconds": 3.3271425459970487
+        },
+        {
+          "script": "evidence/round2_g6_joint_admission_20261003/src/run_dynamic_optional.py",
+          "returncode": 0,
+          "seconds": 2.3908331399979943
+        },
+        {
+          "script": "evidence/round2_g6_joint_admission_20261003/src/run_shared_parameter.py",
+          "returncode": 0,
+          "seconds": 1.1592608749997453
+        },
+        {
+          "script": "evidence/round2_g6_joint_admission_20261003/src/run_face_budget.py",
+          "returncode": 0,
+          "seconds": 0.47301411000080407
+        },
+        {
+          "script": "evidence/round2_g6_joint_admission_20261003/theory_review/check_theory.py",
+          "returncode": 0,
+          "seconds": 1.220286102998216
+        },
+        {
+          "script": "evidence/round2_g6_joint_admission_20261003/audit/independent_checks.py",
+          "returncode": 0,
+          "seconds": 1.422477121999691
+        },
+        {
+          "script": "evidence/round2_g6_joint_admission_20261003/stochastic/verify_stochastic.py",
+          "returncode": 0,
+          "seconds": 0.7685994040002697
+        }
+      ],
+      "scope": "Reexecutes specified scientific source; quick is partial, network conditional floating LTI only; no new nonlinear integration",
+      "all_passed": true
+    }
+  },
+  "network_regression": {
+    "pass": true,
+    "primary_rows_replayed": 30,
+    "maximum_absolute_differences": {
+      "peak_lower_Hz_per_MW": 0.0,
+      "peak_upper_Hz_per_MW": 0.0,
+      "inner_amplitude_MW": 0.0,
+      "outer_amplitude_MW": 0.0
+    },
+    "kernel_fixtures": [
+      {
+        "fixture": "inputs/positive_workpoint/positive_kernel.npz",
+        "sha256": "e62815cf11269bdfa0dfe4520e5b3a335d301b12d488a7bc19e37e01c6f455e6"
+      },
+      {
+        "fixture": "inputs/positive_workpoint/positive_bound_components.npz",
+        "sha256": "716c79c27d3451cb370b61cfb75680239e67b854e272089aa6b5e7d735440f47"
+      },
+      {
+        "fixture": "inputs/positive_workpoint/positive_support_arrays.npz",
+        "sha256": "80bf351aa03305970a4e17a695c9c4a17c8751fc959b790aa83d512676112d05"
+      },
+      {
+        "fixture": "inputs/transfer/wecc_kernel.npz",
+        "sha256": "7c6aea92a8d8d914b511df10263ad7fa7b3c0cc6bf87e98b044b19257b5d45d3"
+      },
+      {
+        "fixture": "inputs/transfer/wecc_bound_components.npz",
+        "sha256": "5555525cedb79f8af09844c3077431c16a94897fae9c1da1d2bd265871db9d28"
+      },
+      {
+        "fixture": "inputs/transfer/wecc_support_arrays.npz",
+        "sha256": "279c81b7717ef6b169fdb4be2cbef05a7c40a5bcc88e61d539a985026cf38a4c"
+      }
+    ],
+    "generated_scratch_bytes": 292269365,
+    "scope": "regenerated numerical kernels, ordinary double; no simulator, no old-source-model qualification or nonlinear rerun"
+  },
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "small_cpp_source_test": {
+    "deterministic_rows": 33,
+    "oracle": "exhaustive legal words",
+    "source": "evidence/round3_g6_20261004/contracts/window_dp.cpp",
+    "source_sha256": "eb1c86d7576a8a1d00e1449e346952d39c1222f46cbe5dbe7a227cf4f7bb6dac",
+    "passed": true
+  },
+  "retained_negative_regression": {
+    "source": "evidence/round2_g6_joint_admission_20261003/nonlinear/wecc_dynamic_optional_inner_dt128.json",
+    "peak_Hz": 0.0530995503416376,
+    "limit_Hz": 0.05,
+    "pass_means_failure_record_retained": true
+  },
+  "scope": "Exact synthetic arithmetic, finite checks and 30-row conditional LTI network reproduction. No new nonlinear integration, model qualification or physical measurement. Old WECC nonlinear violation remains."
+}

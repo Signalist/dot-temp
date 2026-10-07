@@ -1,0 +1,22 @@
+{
+  "model": "transfer8_cube",
+  "artifact_sha256": "966a9e4565dfbe9eac318ac263d2bfa402f63a3bba4a9e0e5b0be71f4d161580",
+  "model_source_sha256": "c9cefdd319c40411658d005d28edd9d4a4480d069e25dbdb7d69fc132f82d6c6",
+  "leaf_count": 30001,
+  "finite_arrays": true,
+  "exact_binary_endpoint_partition_check": true,
+  "upper_equals_leaf_max": true,
+  "witness_lower_match": true,
+  "witness_nominal_domain_feasible": true,
+  "replay_upper_mismatch_count": 0,
+  "max_replay_minus_saved": 0.0,
+  "replay_seconds": 307.8601062297821,
+  "source_changed_during_replay": false,
+  "reported_tightness": {
+    "relative_tolerance": 0.02,
+    "max_relative_gap": 0.029988803415185533,
+    "tolerance_met": false,
+    "evaluated_boxes": 60001,
+    "maxboxes": 60000
+  }
+}

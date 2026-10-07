@@ -1,0 +1,22 @@
+{
+  "model": "transfer8_mesh",
+  "artifact_sha256": "2c5349cd3886755b8e3abd3d82ff02b810d3f27318fe0a933c47b7bc9698cf63",
+  "model_source_sha256": "c9cefdd319c40411658d005d28edd9d4a4480d069e25dbdb7d69fc132f82d6c6",
+  "leaf_count": 30001,
+  "finite_arrays": true,
+  "reported_tightness": {
+    "relative_tolerance": 0.02,
+    "max_relative_gap": 0.028135006052652584,
+    "tolerance_met": false,
+    "evaluated_boxes": 60001,
+    "maxboxes": 60000
+  },
+  "exact_binary_endpoint_partition_check": true,
+  "upper_equals_leaf_max": true,
+  "witness_lower_match": true,
+  "witness_nominal_domain_feasible": true,
+  "replay_upper_mismatch_count": 0,
+  "max_replay_minus_saved": 0.0,
+  "replay_seconds": 313.645795583725,
+  "source_changed_during_replay": false
+}

@@ -1,0 +1,10 @@
+{
+  "proper_all41_plus2percent_outer_min_compute_MW": {
+    "committed": 19.55117600284178,
+    "dynamic_optional": 20.64131592796986,
+    "independent_ports": 20.64131592796986
+  },
+  "all_exported_separation_decision_min_compute_MW": 21.25637838179261,
+  "separation_decision_count": 117,
+  "reset_scope": "Unclipped raw reset support boundaries are mathematical comparators only; positive_physical_rays.csv clips them and nonlinear reset case uses98MW total (49MW maximum deviation per port)."
+}

@@ -1,0 +1,346 @@
+{
+  "audit_started_utc": "2026-10-04T05:25:18.419617+00:00",
+  "seed": 921047,
+  "status": "PASS",
+  "exhaustive_short_word_checks": {
+    "lengths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "L": 8,
+    "budgets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "random_reward_rows_per_case": 3,
+    "cases": 351,
+    "max_gap": 0.0,
+    "constraints": "All length-8 windows after seven zero mismatch bits of padding on each end"
+  },
+  "inherited_source_hashes_checked": 8,
+  "words_checked": 30,
+  "schedule_rows_checked": 30840,
+  "ledger_rows_checked": 15420,
+  "max_complete_block_energy_residue_MW_s": 0.0,
+  "positive_minimum_actual_compute_MW": 22.573183617075465,
+  "linear_replays": [
+    {
+      "id": "positive_ray0_B0",
+      "linear_replay_Hz": 0.05099999999999881,
+      "claimed_probe_Hz": 0.051000000000000004,
+      "absolute_gap_Hz": 1.1934897514720433e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray0_B1",
+      "linear_replay_Hz": 0.05099999999999849,
+      "claimed_probe_Hz": 0.051000000000000004,
+      "absolute_gap_Hz": 1.5126788710517758e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray0_B2",
+      "linear_replay_Hz": 0.050999999999998595,
+      "claimed_probe_Hz": 0.05100000000000001,
+      "absolute_gap_Hz": 1.4155343563970746e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray0_B4",
+      "linear_replay_Hz": 0.05099999999999866,
+      "claimed_probe_Hz": 0.05100000000000002,
+      "absolute_gap_Hz": 1.3600232051658168e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray0_B8",
+      "linear_replay_Hz": 0.050999999999998644,
+      "claimed_probe_Hz": 0.051,
+      "absolute_gap_Hz": 1.3530843112619095e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray1_B0",
+      "linear_replay_Hz": 0.05099999999999879,
+      "claimed_probe_Hz": 0.05100000000000001,
+      "absolute_gap_Hz": 1.2212453270876722e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray1_B1",
+      "linear_replay_Hz": 0.05099999999999879,
+      "claimed_probe_Hz": 0.05100000000000001,
+      "absolute_gap_Hz": 1.2212453270876722e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray1_B2",
+      "linear_replay_Hz": 0.050999999999998956,
+      "claimed_probe_Hz": 0.051000000000000004,
+      "absolute_gap_Hz": 1.0477729794899915e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray1_B4",
+      "linear_replay_Hz": 0.050999999999998887,
+      "claimed_probe_Hz": 0.05100000000000001,
+      "absolute_gap_Hz": 1.124100812432971e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray1_B8",
+      "linear_replay_Hz": 0.05099999999999865,
+      "claimed_probe_Hz": 0.05100000000000002,
+      "absolute_gap_Hz": 1.366962099069724e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray2_B0",
+      "linear_replay_Hz": 0.05099999999999918,
+      "claimed_probe_Hz": 0.051000000000000004,
+      "absolute_gap_Hz": 8.257283745649602e-16,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray2_B1",
+      "linear_replay_Hz": 0.050999999999999095,
+      "claimed_probe_Hz": 0.051000000000000004,
+      "absolute_gap_Hz": 9.08995101411847e-16,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray2_B2",
+      "linear_replay_Hz": 0.050999999999998887,
+      "claimed_probe_Hz": 0.05100000000000001,
+      "absolute_gap_Hz": 1.124100812432971e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray2_B4",
+      "linear_replay_Hz": 0.05099999999999876,
+      "claimed_probe_Hz": 0.051000000000000004,
+      "absolute_gap_Hz": 1.2420620087993939e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "positive_ray2_B8",
+      "linear_replay_Hz": 0.05099999999999877,
+      "claimed_probe_Hz": 0.051,
+      "absolute_gap_Hz": 1.2281842209915794e-15,
+      "method": "51-state A/B/C augmented matrix exponential",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray0_B0",
+      "linear_replay_Hz": 0.05100000000000002,
+      "claimed_probe_Hz": 0.051000000000000004,
+      "absolute_gap_Hz": 1.3877787807814457e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray0_B1",
+      "linear_replay_Hz": 0.05100000000000002,
+      "claimed_probe_Hz": 0.05100000000000001,
+      "absolute_gap_Hz": 6.938893903907228e-18,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray0_B2",
+      "linear_replay_Hz": 0.051000000000000004,
+      "claimed_probe_Hz": 0.051000000000000024,
+      "absolute_gap_Hz": 2.0816681711721685e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray0_B4",
+      "linear_replay_Hz": 0.05100000000000001,
+      "claimed_probe_Hz": 0.051,
+      "absolute_gap_Hz": 1.3877787807814457e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray0_B8",
+      "linear_replay_Hz": 0.05100000000000001,
+      "claimed_probe_Hz": 0.05099999999999999,
+      "absolute_gap_Hz": 2.0816681711721685e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray1_B0",
+      "linear_replay_Hz": 0.05099999999999998,
+      "claimed_probe_Hz": 0.051000000000000004,
+      "absolute_gap_Hz": 2.0816681711721685e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray1_B1",
+      "linear_replay_Hz": 0.050999999999999976,
+      "claimed_probe_Hz": 0.051000000000000004,
+      "absolute_gap_Hz": 2.7755575615628914e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray1_B2",
+      "linear_replay_Hz": 0.05100000000000003,
+      "claimed_probe_Hz": 0.051000000000000004,
+      "absolute_gap_Hz": 2.7755575615628914e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray1_B4",
+      "linear_replay_Hz": 0.05099999999999997,
+      "claimed_probe_Hz": 0.05100000000000003,
+      "absolute_gap_Hz": 6.245004513516506e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray1_B8",
+      "linear_replay_Hz": 0.05099999999999996,
+      "claimed_probe_Hz": 0.05100000000000001,
+      "absolute_gap_Hz": 4.85722573273506e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray2_B0",
+      "linear_replay_Hz": 0.051000000000000066,
+      "claimed_probe_Hz": 0.05100000000000001,
+      "absolute_gap_Hz": 5.551115123125783e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray2_B1",
+      "linear_replay_Hz": 0.05100000000000006,
+      "claimed_probe_Hz": 0.05099999999999998,
+      "absolute_gap_Hz": 7.632783294297951e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray2_B2",
+      "linear_replay_Hz": 0.05100000000000004,
+      "claimed_probe_Hz": 0.051,
+      "absolute_gap_Hz": 4.163336342344337e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray2_B4",
+      "linear_replay_Hz": 0.05100000000000001,
+      "claimed_probe_Hz": 0.05099999999999999,
+      "absolute_gap_Hz": 2.0816681711721685e-17,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    },
+    {
+      "id": "wecc_ray2_B8",
+      "linear_replay_Hz": 0.051000000000000004,
+      "claimed_probe_Hz": 0.051,
+      "absolute_gap_Hz": 6.938893903907228e-18,
+      "method": "modal-state recurrence across schedule segments",
+      "chronological_and_reversed_languages_valid": true
+    }
+  ],
+  "max_linear_replay_gap_Hz": 1.5126788710517758e-15,
+  "reconstructed_bound_components": [
+    {
+      "source": "positive",
+      "spectral_max_real": -0.14145252337530131,
+      "tail_max_gap": 0.0,
+      "global_L1_max_gap": 3.469446951953614e-18,
+      "global_L2_max_gap": 0.0
+    },
+    {
+      "source": "wecc",
+      "spectral_max_real": -0.03333333333333333,
+      "tail_max_gap": 5.854827030937197e-32,
+      "global_L1_max_gap": 3.469446951953614e-18,
+      "global_L2_max_gap": 2.7755575615628914e-17
+    }
+  ],
+  "all_30_actual_four_resolution_brackets_nested": true,
+  "recorded_primary_LP_cases": 84,
+  "recorded_primary_LP_max_gap": 9.836918606065392e-13,
+  "recorded_primary_LP_max_integrality_gap": 0.0,
+  "recorded_primary_inherited_endpoint_max_gap": 4.336808689942018e-19,
+  "mathematical_review": [
+    "The C++ target-state predecessors are the two possible old length-7 histories; popcount(parent)+newbit enforces the length-8 window. The zero start and arbitrary terminal state implement extendible startup/end words.",
+    "Reversal preserves every contiguous-window count. For nonnegative mismatch variables, every shorter subwindow is contained in a full window when n>=L. For n<L a single total-count constraint suffices.",
+    "The consecutive-ones window LP matrix is totally unimodular; adding 0/1 variable bounds and integer B gives the same finite binary-language optimum. This establishes same-information equivalence, not an optimization-method novelty claim.",
+    "All startup prefixes are bounded by the full finite support: append zero mismatch blocks on the older end and freely choose their common signs, adding nonnegative absolute rewards. Every legal finite word extends forever with zero mismatch bits.",
+    "The omitted modal tail begins after lag255, so the rr**256 geometric tail is correctly indexed. It is port-independent and remains valid for every mismatch restriction.",
+    "The inherited refined derivative bound uses sampled sum-absolute derivatives, both one-sided derivatives at template switches, analytic second derivatives, and the derivative tail. Its proof applies to every fixed signed-amplitude word and hence to their maximum. Phase nodes include all switches and both block endpoints.",
+    "The 514-second energy/work ledger includes completion of the current block after its frequency probe; the probe occurs earlier at 512+phase seconds. Exactly equal affine work is conditional on the specified affine work law and its nonnegativity condition."
+  ],
+  "claim_limits": [
+    "Conditional floating-point LTI numerical bounds only: no directed-rounding guarantee, model-error enclosure, arbitrary initial-state guarantee, or new nonlinear validation.",
+    "Retain previous voltage-qualification failures and WECC nonlinear frequency failure. Positive baseline nonnegativity alone does not establish operational hosting capability.",
+    "WECC uses zero-baseline signed incremental ports, so its nonzero amplitudes are not physical nonnegative compute demand.",
+    "Overlapping B=4 and independent-port brackets justify no resolved benefit, not exact continuous-time capacity equality or language equality.",
+    "The asymptotic-average-only comparator equals unrestricted finite-prefix worst case only when arbitrary finite mismatch bursts are allowed, including before an eventual zero-mismatch tail; it is distinct from a bound enforced on every finite prefix.",
+    "The C++ fixed array capacity supports at most 128 history states; L>8 can exceed it. Only L=8 was independently validated here. Other lengths require their own checks, and the target-state low-bit representation needs special handling at L=1.",
+    "Refined derivative sampling was reviewed in the inherited source and its analytic global bounds reconstructed; this audit does not independently regenerate the full 2049-phase derivative sampling pass."
+  ],
+  "new_nonlinear_integrations": 0,
+  "scope": "Frozen primary 30 source/ray/B cases only; subsequent secondary ablations are not covered",
+  "artifact_hashes_at_audit": {
+    "FROZEN_CONTRACT_PROTOCOL.json": "972a649fecebc4c6ec40b1b4a716da0f77b2f2d1e9692fd1d97208fc1b57f5f3",
+    "run_contracts.py": "cd14bac1aa773aafff97c8fd11bf18b30b2533bd5f71f878961fcfb650f54442",
+    "window_dp.cpp": "eb1c86d7576a8a1d00e1449e346952d39c1222f46cbe5dbe7a227cf4f7bb6dac",
+    "window_dp.so": "baa203b1083402579111caded28368b8da9826ba8262e2f0d8810d0722ef1859",
+    "SUMMARY.json": "77893cc6ff7397ce0e1e614528fc1bcf85e3aac185116586d1132d10e987d205",
+    "VALIDATION.json": "48acbe4bd15519b895a4dceda5cf470660b96422832d42b0d80874b048213ba2",
+    "SOURCE_PROVENANCE.json": "688d3028eeff29228c344adcac88dcbe7705a9255c004641c5283dd417208814",
+    "all_phase_support_arrays.npz": "3e655ffd2da69c4daaadb8b27808a3179c588b836a0ce0700d043da2a5b8f848",
+    "contract_amplitude_brackets.csv": "c9119bc0ba66d1b5af8fd2e53f3aef66b00369f85e93878c7422fd64ed799414",
+    "maximizing_words.json": "bb7e3e2891e0072f753c325bde8dca9daf2e15314c4989515328ec27dbe873c3",
+    "maximizing_word_schedules.csv": "9cff7e8b261d22403cc8a4a533620f6fb0d1656674ed4aea9c2e1cef5baa5b34",
+    "per_block_energy_work_ledger.csv": "e17e810f1ac40a8e5deb2a2bff770c88be6c89aa4b209a723378975a9834fbae",
+    "phase_convergence.csv": "2b5ffe8ea87c88be60499854e17da5c2ce8e48e3c390f2ea4821c6a79934b7b5",
+    "comparisons.csv": "9e08944ba78d6c1f2a6947ab4c6679bcfd9b99c641f540955a87e87ef005761a"
+  },
+  "existing_artifacts_unchanged_during_audit": true,
+  "audit_completed_utc": "2026-10-04T05:25:19.848790+00:00"
+}

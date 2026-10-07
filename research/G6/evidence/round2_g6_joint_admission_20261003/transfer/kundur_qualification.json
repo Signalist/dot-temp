@@ -1,0 +1,14 @@
+{
+  "source": "outputs/round2_20261003/grid_transfer/kundur_reduced51.npz",
+  "source_sha256": "31e798abc23bdcb6c3b46aeb488caf96636127390935eac4d9f0e2fdd5601828",
+  "state_dimension": 51,
+  "outputs": 4,
+  "ports": [
+    "P_MW@bus7",
+    "P_MW@bus8"
+  ],
+  "max_eigenvalue_real": -0.13953444562568046,
+  "eigenvector_condition": 12124.657834821308,
+  "max_resolvent_relative_error": 2.4367619778788402e-14,
+  "qualification_pass": true
+}

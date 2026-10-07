@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-10-04T05:10:00Z",
+  "status": "Written before any new contract numerical support outcomes",
+  "experiment": "Fixed-amplitude two-port shared sign with bounded sliding-window sign mismatches",
+  "block_seconds": 2.0,
+  "segment_seconds": 0.5,
+  "templates": [[1,1,-1,-1],[1,-1,-1,1]],
+  "window_blocks_L": 8,
+  "mismatch_budgets_B": [0,1,2,4,8],
+  "rays_in_order": [[0.5,0.5],[0.25,0.75],[0.75,0.25]],
+  "primary_ray": [0.5,0.5],
+  "sources": {
+    "positive": "round2_g6_joint_admission_20261003/positive_workpoint: actual constant-PQ compute P0=[50,50] MW, newly qualified Kundur workpoint",
+    "wecc": "round2_g6_joint_admission_20261003/transfer: old zero-baseline incremental ports, nonphysical compute realization"
+  },
+  "frequency_limit_Hz": 0.05,
+  "retained_past_blocks": 256,
+  "phase_intervals_final": 2048,
+  "phase_convergence_intervals": [256,512,1024,2048],
+  "language": "Every contiguous subword of length at most L contains at most B mismatches; equivalently extend startup/end with zero mismatches and enforce every L-block window. Common signs are arbitrary. This definition includes all extendible startup prefixes.",
+  "quantifiers": "Fixed allocation and amplitude forever; all legal mismatch words, all common signs, every zero-state startup time, every phase and generator output; electrical state carried",
+  "methods": ["Exact weighted binary-language DP", "Independent finite enumeration", "Same-information LP with consecutive-ones window matrix", "Inherited port-independent absolute derivative and modal-tail bounds"],
+  "scope": "Ordinary floating evaluation of analytic conditional LTI bounds, not interval rounding, uniform model-error enclosure or nonlinear certification",
+  "physical_scope": "Fluctuation amplitudes only, never extra average hosting or measured compute throughput",
+  "nonlinear_policy": "No new nonlinear integration; preserve known voltage qualification failures and prior WECC nonlinear frequency failure",
+  "ledger": "Every complete block has zero incremental energy. Under w_i=wbar_i+kappa_i*deltaP_i only, each block has exactly 2*wbar_i work; wbar_i>=abs(kappa_i)*rho*a_i required.",
+  "selection": "Export a maximizing finite word for every source/ray/B; direct sum and language verification; report nested phase refinement without post-outcome contract changes"
+}

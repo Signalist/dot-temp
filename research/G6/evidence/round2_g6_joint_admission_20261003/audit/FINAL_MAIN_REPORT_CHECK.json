@@ -1,0 +1,31 @@
+{
+  "main_report": "reports/G6_FULL_REPORT_ZH.md",
+  "main_report_sha256": "5751a29cfe2b7027ee113f01d6c8b2cddf4a8826a3e3ba10e0a035e6e5061594",
+  "table_rows_checked": 20,
+  "checked_rows": [
+    "旧Kundur：零基值探针",
+    "旧WECC：零基值探针",
+    "新Kundur：每PCC正50MW",
+    "committed_inner",
+    "committed_outer",
+    "dynamic_optional_inner",
+    "dynamic_optional_outer",
+    "independent_ports_inner",
+    "independent_ports_outer",
+    "reset_false_admission",
+    "kundur committed_inner",
+    "kundur committed_outer",
+    "kundur dynamic_optional_inner",
+    "kundur dynamic_optional_outer",
+    "kundur reset_inner_error",
+    "wecc committed_inner",
+    "wecc committed_outer",
+    "wecc dynamic_optional_inner",
+    "wecc dynamic_optional_outer",
+    "wecc reset_inner_error"
+  ],
+  "all_numeric_table_checks_passed": true,
+  "displayed_LTI_brackets_rounded_outward_from_numerical_endpoints": true,
+  "total_and_per_port_amplitude_columns_checked": true,
+  "scope": "Numeric tables checked against raw NPZ trajectories and audited capacity summaries; mathematical hypotheses separately reviewed in INDEPENDENT_PROOF_AUDIT.md"
+}

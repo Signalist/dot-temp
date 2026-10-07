@@ -1,0 +1,9 @@
+model,output,site,witness_f_Hz,witness_kappa,dominant_harmonic,dominant_fraction_of_harmonic_l1,fixed_point_template_over_l1,diagnostic_scope
+design4,flow_MW_0_1,0,0.51101806640625,1.1494140625,1,0.9950461916297537,0.9913823331459258,post-hoc marginal worst-point explanation; not an independent performance test
+design4,flow_MW_0_1,1,0.5141259765625001,1.1494140625,1,0.9998991769579247,0.999826556075874,post-hoc marginal worst-point explanation; not an independent performance test
+interior4,flow_MW_0_2,0,0.44885986328125005,1.148828125,1,0.9946314425123197,0.9904497646131585,post-hoc marginal worst-point explanation; not an independent performance test
+interior4,flow_MW_0_2,1,0.45245849609375,1.1494140625,1,0.9998899691335138,0.9998018532366669,post-hoc marginal worst-point explanation; not an independent performance test
+transfer8_cube,flow_MW_0_2,0,0.4506591796875,1.1494140625,1,0.988340186733283,0.9774747845184221,post-hoc marginal worst-point explanation; not an independent performance test
+transfer8_cube,flow_MW_0_2,1,0.45491210937500004,1.148828125,1,0.9999582063920615,0.9999880864299823,post-hoc marginal worst-point explanation; not an independent performance test
+transfer8_mesh,flow_MW_0_1,0,0.44656982421875,1.1494140625,1,0.9891933496194832,0.9790437901633459,post-hoc marginal worst-point explanation; not an independent performance test
+transfer8_mesh,flow_MW_0_1,1,0.4513134765625,1.1494140625,1,0.9999493645941521,0.9999081771894214,post-hoc marginal worst-point explanation; not an independent performance test

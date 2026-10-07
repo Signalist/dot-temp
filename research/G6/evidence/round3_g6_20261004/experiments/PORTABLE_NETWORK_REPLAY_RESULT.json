@@ -1,0 +1,39 @@
+{
+  "pass": true,
+  "primary_rows_replayed": 30,
+  "maximum_absolute_differences": {
+    "peak_lower_Hz_per_MW": 0.0,
+    "peak_upper_Hz_per_MW": 0.0,
+    "inner_amplitude_MW": 0.0,
+    "outer_amplitude_MW": 0.0
+  },
+  "kernel_fixtures": [
+    {
+      "fixture": "inputs/positive_workpoint/positive_kernel.npz",
+      "sha256": "e62815cf11269bdfa0dfe4520e5b3a335d301b12d488a7bc19e37e01c6f455e6"
+    },
+    {
+      "fixture": "inputs/positive_workpoint/positive_bound_components.npz",
+      "sha256": "716c79c27d3451cb370b61cfb75680239e67b854e272089aa6b5e7d735440f47"
+    },
+    {
+      "fixture": "inputs/positive_workpoint/positive_support_arrays.npz",
+      "sha256": "80bf351aa03305970a4e17a695c9c4a17c8751fc959b790aa83d512676112d05"
+    },
+    {
+      "fixture": "inputs/transfer/wecc_kernel.npz",
+      "sha256": "7c6aea92a8d8d914b511df10263ad7fa7b3c0cc6bf87e98b044b19257b5d45d3"
+    },
+    {
+      "fixture": "inputs/transfer/wecc_bound_components.npz",
+      "sha256": "5555525cedb79f8af09844c3077431c16a94897fae9c1da1d2bd265871db9d28"
+    },
+    {
+      "fixture": "inputs/transfer/wecc_support_arrays.npz",
+      "sha256": "279c81b7717ef6b169fdb4be2cbef05a7c40a5bcc88e61d539a985026cf38a4c"
+    }
+  ],
+  "generated_scratch_bytes": 292268506,
+  "scope": "regenerated numerical kernels, ordinary double; no simulator, no old-source-model qualification or nonlinear rerun",
+  "scratch": "/tmp/g6_round3_portable_replay_20261004"
+}

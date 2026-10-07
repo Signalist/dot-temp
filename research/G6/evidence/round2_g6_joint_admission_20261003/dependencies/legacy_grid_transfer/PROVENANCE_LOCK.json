@@ -1,0 +1,1042 @@
+{
+  "ANDES_version": "2.0.0",
+  "distribution": "official PyPI andes==2.0.0",
+  "official_project": "https://github.com/CURENT/andes",
+  "official_v2_case_root": "https://github.com/CURENT/andes/tree/v2.0.0/andes/cases",
+  "validation_scope": "Independent reproduction of public benchmark models, not a physical grid measurement; no measured compute workloads",
+  "cases": {
+    "kundur": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ],
+      "source_path_in_distribution": "kundur/kundur_full.xlsx",
+      "source_rechecked_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "source_sheets": {
+        "Bus": {
+          "rows": 10,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "Vn",
+            "vmax",
+            "vmin",
+            "v0",
+            "a0",
+            "xcoord",
+            "ycoord",
+            "area",
+            "zone",
+            "owner"
+          ],
+          "canonical_csv_sha256": "eb88b3611f05a40015b640ea57542c7b90d9b80203c7a1186dc3917a4e7da26b"
+        },
+        "PQ": {
+          "rows": 2,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "bus",
+            "Vn",
+            "p0",
+            "q0",
+            "vmax",
+            "vmin",
+            "owner"
+          ],
+          "canonical_csv_sha256": "b892cb373fc5c42233393c2685682fbb0b16d962a0b9fc4c086a2e42a8608cc2"
+        },
+        "PV": {
+          "rows": 3,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "Sn",
+            "Vn",
+            "bus",
+            "busr",
+            "p0",
+            "q0",
+            "pmax",
+            "pmin",
+            "qmax",
+            "qmin",
+            "v0",
+            "vmax",
+            "vmin",
+            "ra",
+            "xs"
+          ],
+          "canonical_csv_sha256": "b212bba8b2071b0340a5552963432492d34d18b780e3daeb23227db0afe59aa0"
+        },
+        "Slack": {
+          "rows": 1,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "Sn",
+            "Vn",
+            "bus",
+            "busr",
+            "p0",
+            "q0",
+            "pmax",
+            "pmin",
+            "qmax",
+            "qmin",
+            "v0",
+            "vmax",
+            "vmin",
+            "ra",
+            "xs",
+            "a0"
+          ],
+          "canonical_csv_sha256": "da0cf30ff33fa4a2bb69557e63f1cc0926e517345e1b51bab0db751f308ba484"
+        },
+        "Line": {
+          "rows": 15,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "bus1",
+            "bus2",
+            "Sn",
+            "fn",
+            "Vn1",
+            "Vn2",
+            "r",
+            "x",
+            "b",
+            "g",
+            "b1",
+            "g1",
+            "b2",
+            "g2",
+            "trans",
+            "tap",
+            "phi",
+            "owner",
+            "xcoord",
+            "ycoord"
+          ],
+          "canonical_csv_sha256": "649aa929749e54a6d9975a4e371d28b985fd39558261c3a854a4a412d52501f1"
+        },
+        "Area": {
+          "rows": 2,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name"
+          ],
+          "canonical_csv_sha256": "0b18d58b1842ff0488f21de7584d5e85d1c06d3518741ed9c3afaac15cf1a0e1"
+        },
+        "GENROU": {
+          "rows": 4,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "bus",
+            "gen",
+            "coi",
+            "Sn",
+            "Vn",
+            "fn",
+            "D",
+            "M",
+            "ra",
+            "xl",
+            "xq",
+            "kp",
+            "kw",
+            "S10",
+            "S12",
+            "xd",
+            "xd1",
+            "xd2",
+            "xq1",
+            "xq2",
+            "Td10",
+            "Td20",
+            "Tq10",
+            "Tq20"
+          ],
+          "canonical_csv_sha256": "aeb9ba4797c4e39e4ac9d4d7950da9a88f52f3e7c262801c44911ce2bba11bca"
+        },
+        "TGOV1": {
+          "rows": 4,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "syn",
+            "R",
+            "wref0",
+            "VMAX",
+            "VMIN",
+            "T1",
+            "T2",
+            "T3",
+            "Dt"
+          ],
+          "canonical_csv_sha256": "3ba7f7be812848f70c2f846918b38ba25432e81f11c66ffa66af6ebacbcce54b"
+        },
+        "EXDC2": {
+          "rows": 4,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "syn",
+            "TR",
+            "TA",
+            "TC",
+            "TB",
+            "TE",
+            "TF1",
+            "KF1",
+            "KA",
+            "KE",
+            "VRMAX",
+            "VRMIN",
+            "E1",
+            "SE1",
+            "E2",
+            "SE2"
+          ],
+          "canonical_csv_sha256": "0573d980792312e63792ce8782e76c579147737170fb6283824f860d7863dac4"
+        },
+        "Toggler": {
+          "rows": 1,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "model",
+            "dev",
+            "t"
+          ],
+          "canonical_csv_sha256": "d068ea889bfe7f60b597b3fc1a006f43960fe72566b0d4014d7f627ccc27cc34"
+        }
+      },
+      "system_config": {
+        "freq": 60,
+        "mva": 100,
+        "diag_eps": 1e-08,
+        "warn_abnormal": 1
+      },
+      "TDS_config": {
+        "linsolve": 0,
+        "method": "trapezoid",
+        "tol": 0.0001,
+        "t0": 0.0,
+        "tf": 20.0,
+        "fixt": 1,
+        "shrinkt": 1,
+        "honest": 0,
+        "tstep": 0.03333333333333333,
+        "max_iter": 15,
+        "refresh_event": 0,
+        "test_init": 1,
+        "check_conn": 1,
+        "criteria": 1,
+        "ddelta_limit": 180,
+        "g_scale": 1,
+        "reset_tiny": 1,
+        "qrt": 0,
+        "kqrt": 1.0,
+        "store_z": 0,
+        "store_f": 0,
+        "store_h": 0,
+        "store_i": 0,
+        "limit_store": 0,
+        "max_store": 900,
+        "save_every": 1,
+        "save_mode": "auto",
+        "no_tqdm": 0,
+        "chatter_iter": 4,
+        "linesearch": 1,
+        "dtmax": 0,
+        "dtmin_adapt": 0,
+        "abstol": 1e-06,
+        "reltol": 0.001
+      },
+      "PFlow_config": {
+        "linsolve": 0,
+        "tol": 1e-06,
+        "max_iter": 25,
+        "method": "NR",
+        "n_factorize": 4,
+        "report": 1,
+        "degree": 0,
+        "init_tds": 0,
+        "linesearch": 1
+      },
+      "active_model_config": {
+        "Toggle": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "Bus": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "flat_start": 0
+        },
+        "PQ": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "pq2z": 1,
+          "p2p": 0.0,
+          "p2i": 0.0,
+          "p2z": 1.0,
+          "q2q": 0.0,
+          "q2i": 0.0,
+          "q2z": 1.0
+        },
+        "PV": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "pv2pq": 0,
+          "npv2pq": 0,
+          "min_iter": 2,
+          "err_tol": 0.01,
+          "abs_violation": 1
+        },
+        "Slack": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "pv2pq": 0,
+          "npv2pq": 0,
+          "min_iter": 2,
+          "err_tol": 0.01,
+          "abs_violation": 1,
+          "av2pv": 0
+        },
+        "Line": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "Area": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "ZIP": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "GENROU": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "vf_lower": 1.0,
+          "vf_upper": 5.0
+        },
+        "TGOV1": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "EXDC2": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        }
+      },
+      "source_model_counts": {
+        "Bus": 10,
+        "PQ": 2,
+        "PV": 3,
+        "Slack": 1,
+        "Line": 15,
+        "Area": 2,
+        "GENROU": 4,
+        "TGOV1": 4,
+        "EXDC2": 4,
+        "Toggler": 1
+      },
+      "original_case_total_load_MW": 2734.0
+    },
+    "wecc": {
+      "andes_version": "2.0.0",
+      "source_case": "wecc/wecc_full.xlsx",
+      "source_sha256": "038cf6732389f7d691232b7548cfa3dea2dc6a01304cc5918ad63ad55fdf23ec",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {},
+      "port_buses": [
+        1,
+        4
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 4.440892098500626e-16,
+      "initial_g_max": 8.79296635503124e-13,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1750.0,
+        2350.0
+      ],
+      "source_path_in_distribution": "wecc/wecc_full.xlsx",
+      "source_rechecked_sha256": "038cf6732389f7d691232b7548cfa3dea2dc6a01304cc5918ad63ad55fdf23ec",
+      "source_sheets": {
+        "Bus": {
+          "rows": 179,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "Vn",
+            "vmax",
+            "vmin",
+            "v0",
+            "a0",
+            "xcoord",
+            "ycoord",
+            "area",
+            "zone",
+            "owner"
+          ],
+          "canonical_csv_sha256": "5f16e2a2061bfa2a7d0234c14ef98001b9c0b95f135763e71b04693d4bb28a9f"
+        },
+        "PQ": {
+          "rows": 104,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "bus",
+            "Vn",
+            "p0",
+            "q0",
+            "vmax",
+            "vmin",
+            "owner"
+          ],
+          "canonical_csv_sha256": "c84df5ea73bab8b48f668b042aa5461359839af91e196779c7567a0b2c8711b6"
+        },
+        "PV": {
+          "rows": 28,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "Sn",
+            "Vn",
+            "bus",
+            "busr",
+            "p0",
+            "q0",
+            "pmax",
+            "pmin",
+            "qmax",
+            "qmin",
+            "v0",
+            "vmax",
+            "vmin",
+            "ra",
+            "xs"
+          ],
+          "canonical_csv_sha256": "95e138c467ebe6ef0675158929ad42830ba2bb9e15c4b415b460ebca3ce3e41d"
+        },
+        "Slack": {
+          "rows": 1,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "Sn",
+            "Vn",
+            "bus",
+            "busr",
+            "p0",
+            "q0",
+            "pmax",
+            "pmin",
+            "qmax",
+            "qmin",
+            "v0",
+            "vmax",
+            "vmin",
+            "ra",
+            "xs",
+            "a0"
+          ],
+          "canonical_csv_sha256": "d75be5955b0abd18b9e01e119ae3c27fae6890d87d0115347c26999a294de4a8"
+        },
+        "Shunt": {
+          "rows": 40,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "bus",
+            "Sn",
+            "Vn",
+            "g",
+            "b",
+            "fn"
+          ],
+          "canonical_csv_sha256": "34401b2a063646e87e7dcc0533d0c8bbc0dd9120d253d0c6a7248abefb1dbef3"
+        },
+        "Line": {
+          "rows": 263,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "bus1",
+            "bus2",
+            "Sn",
+            "fn",
+            "Vn1",
+            "Vn2",
+            "r",
+            "x",
+            "b",
+            "g",
+            "b1",
+            "g1",
+            "b2",
+            "g2",
+            "trans",
+            "tap",
+            "phi",
+            "owner",
+            "xcoord",
+            "ycoord"
+          ],
+          "canonical_csv_sha256": "7b31dd71838aaa1518e515aa27f2f1dbb28071fcb02ab10e163c5de4417b87a9"
+        },
+        "GENROU": {
+          "rows": 29,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "bus",
+            "gen",
+            "coi",
+            "Sn",
+            "Vn",
+            "fn",
+            "D",
+            "M",
+            "ra",
+            "xl",
+            "xd1",
+            "kp",
+            "kw",
+            "S10",
+            "S12",
+            "xd",
+            "xq",
+            "xd2",
+            "xq1",
+            "xq2",
+            "Td10",
+            "Td20",
+            "Tq10",
+            "Tq20"
+          ],
+          "canonical_csv_sha256": "093c501983a5991b3e5e52d3d44038581ab7ec45d86d3ff5cf116fe2434f18ea"
+        },
+        "IEEEG1": {
+          "rows": 29,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "syn",
+            "Tn",
+            "wref0",
+            "syn2",
+            "K",
+            "T1",
+            "T2",
+            "T3",
+            "UO",
+            "UC",
+            "PMAX",
+            "PMIN",
+            "T4",
+            "K1",
+            "K2",
+            "T5",
+            "K3",
+            "K4",
+            "T6",
+            "K5",
+            "K6",
+            "T7",
+            "K7",
+            "K8"
+          ],
+          "canonical_csv_sha256": "59568b4ce30a165b12e88820692e3702d44697dc681f213655f4268d1fa1beb8"
+        },
+        "ESDC2A": {
+          "rows": 8,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "syn",
+            "TR",
+            "KA",
+            "TA",
+            "TB",
+            "TC",
+            "VRMAX",
+            "VRMIN",
+            "KE",
+            "TE",
+            "KF",
+            "TF1",
+            "Switch",
+            "E1",
+            "SE1",
+            "E2",
+            "SE2"
+          ],
+          "canonical_csv_sha256": "e99cb3e045ed12cef8cd528f52ae48a60217adec9a497bac81d3b267678276eb"
+        },
+        "EXST1": {
+          "rows": 17,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "syn",
+            "TR",
+            "VIMAX",
+            "VIMIN",
+            "TC",
+            "TB",
+            "KA",
+            "TA",
+            "VRMAX",
+            "VRMIN",
+            "KC",
+            "KF",
+            "TF"
+          ],
+          "canonical_csv_sha256": "8a4b8d31e8ec04811c4b120c389399adddd0a0c435da075f56480139814540f7"
+        },
+        "ESST3A": {
+          "rows": 4,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "syn",
+            "TR",
+            "VIMAX",
+            "VIMIN",
+            "KM",
+            "TC",
+            "TB",
+            "KA",
+            "TA",
+            "VRMAX",
+            "VRMIN",
+            "KG",
+            "KP",
+            "KI",
+            "VBMAX",
+            "KC",
+            "XL",
+            "VGMAX",
+            "THETAP",
+            "TM",
+            "VMMAX",
+            "VMMIN"
+          ],
+          "canonical_csv_sha256": "a096c507ec9234360b048d1bc2a6bad70f4ae401ddb057b7a4ea129556f43b02"
+        },
+        "IEEEST": {
+          "rows": 4,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "avr",
+            "MODE",
+            "busr",
+            "busf",
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5",
+            "T6",
+            "KS",
+            "LSMAX",
+            "LSMIN",
+            "VCU",
+            "VCL"
+          ],
+          "canonical_csv_sha256": "1c9a216be90c5a590b2588ce77c045bf9bee4ee553c20bb6503342cc71f3f882"
+        },
+        "ST2CUT": {
+          "rows": 25,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "avr",
+            "MODE",
+            "busr",
+            "busf",
+            "MODE2",
+            "busr2",
+            "busf2",
+            "K1",
+            "K2",
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "T5",
+            "T6",
+            "T7",
+            "T8",
+            "T9",
+            "T10",
+            "LSMAX",
+            "LSMIN",
+            "VCU",
+            "VCL"
+          ],
+          "canonical_csv_sha256": "de0db48ecc3272e049f3da6c3d56645b840efba1962404aa1b4a3d829a6968fd"
+        },
+        "BusFreq": {
+          "rows": 29,
+          "columns": [
+            "uid",
+            "idx",
+            "u",
+            "name",
+            "bus",
+            "Tf",
+            "Tw",
+            "fn"
+          ],
+          "canonical_csv_sha256": "872556f6ff5d25c63969496ba16b31ca6a06f3a73799103185563cfe02e3954b"
+        }
+      },
+      "system_config": {
+        "freq": 60,
+        "mva": 100,
+        "diag_eps": 1e-08,
+        "warn_abnormal": 1
+      },
+      "TDS_config": {
+        "linsolve": 0,
+        "method": "trapezoid",
+        "tol": 0.0001,
+        "t0": 0.0,
+        "tf": 20.0,
+        "fixt": 1,
+        "shrinkt": 1,
+        "honest": 0,
+        "tstep": 0.03333333333333333,
+        "max_iter": 15,
+        "refresh_event": 0,
+        "test_init": 1,
+        "check_conn": 1,
+        "criteria": 1,
+        "ddelta_limit": 180,
+        "g_scale": 1,
+        "reset_tiny": 1,
+        "qrt": 0,
+        "kqrt": 1.0,
+        "store_z": 0,
+        "store_f": 0,
+        "store_h": 0,
+        "store_i": 0,
+        "limit_store": 0,
+        "max_store": 900,
+        "save_every": 1,
+        "save_mode": "auto",
+        "no_tqdm": 0,
+        "chatter_iter": 4,
+        "linesearch": 1,
+        "dtmax": 0,
+        "dtmin_adapt": 0,
+        "abstol": 1e-06,
+        "reltol": 0.001
+      },
+      "PFlow_config": {
+        "linsolve": 0,
+        "tol": 1e-06,
+        "max_iter": 25,
+        "method": "NR",
+        "n_factorize": 4,
+        "report": 1,
+        "degree": 0,
+        "init_tds": 0,
+        "linesearch": 1
+      },
+      "active_model_config": {
+        "Bus": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "flat_start": 0
+        },
+        "PQ": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "pq2z": 1,
+          "p2p": 0.0,
+          "p2i": 0.0,
+          "p2z": 1.0,
+          "q2q": 0.0,
+          "q2i": 0.0,
+          "q2z": 1.0
+        },
+        "PV": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "pv2pq": 0,
+          "npv2pq": 0,
+          "min_iter": 2,
+          "err_tol": 0.01,
+          "abs_violation": 1
+        },
+        "Slack": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "pv2pq": 0,
+          "npv2pq": 0,
+          "min_iter": 2,
+          "err_tol": 0.01,
+          "abs_violation": 1,
+          "av2pv": 0
+        },
+        "Shunt": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "Line": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "ZIP": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "GENROU": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "vf_lower": 1.0,
+          "vf_upper": 5.0
+        },
+        "IEEEG1": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "ESDC2A": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "EXST1": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "ESST3A": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        },
+        "IEEEST": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "freq_model": "BusFreq"
+        },
+        "ST2CUT": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1,
+          "freq_model": "BusFreq"
+        },
+        "BusFreq": {
+          "allow_adjust": 1,
+          "adjust_lower": 0,
+          "adjust_upper": 1
+        }
+      },
+      "source_model_counts": {
+        "Bus": 179,
+        "PQ": 104,
+        "PV": 28,
+        "Slack": 1,
+        "Shunt": 40,
+        "Line": 263,
+        "GENROU": 29,
+        "IEEEG1": 29,
+        "ESDC2A": 8,
+        "EXST1": 17,
+        "ESST3A": 4,
+        "IEEEST": 4,
+        "ST2CUT": 25,
+        "BusFreq": 29
+      },
+      "original_case_total_load_MW": 60785.41
+    }
+  },
+  "sources": {
+    "models/exciter/esst3a.py": {
+      "installed_sha256": "b2a0f23f2f2534a878ce48ccbfbde90a76ab1b237c980607704dd8da22a702c5",
+      "official_version_url": "https://github.com/CURENT/andes/blob/v2.0.0/andes/models/exciter/esst3a.py"
+    },
+    "models/dynload/zip.py": {
+      "installed_sha256": "869d8f640c9dea22a0c5e28045c507d7e297124cadd1b9d14e1a61b10afc02e6",
+      "official_version_url": "https://github.com/CURENT/andes/blob/v2.0.0/andes/models/dynload/zip.py"
+    },
+    "models/static/pq.py": {
+      "installed_sha256": "958db0ff11cc5d3108bc084579090c43d33b5bbb37c0f8c3ea209b1af9bd0ae3",
+      "official_version_url": "https://github.com/CURENT/andes/blob/v2.0.0/andes/models/static/pq.py"
+    },
+    "routines/eig.py": {
+      "installed_sha256": "10a97879f0b3f15a59dc51f1ab6a6bd9a6f7ac6e7ada0337949af78e07ef5707",
+      "official_version_url": "https://github.com/CURENT/andes/blob/v2.0.0/andes/routines/eig.py"
+    },
+    "routines/tds.py": {
+      "installed_sha256": "224ff43d78de8e6808efa0a6b858d8dbe2ca511128a90a8260009c8146d6e8ba",
+      "official_version_url": "https://github.com/CURENT/andes/blob/v2.0.0/andes/routines/tds.py"
+    },
+    "routines/daeint.py": {
+      "installed_sha256": "f32dcce4716ae3b253fec9968ac54cb2d7d1f55b35b1acd7b3cbb843fa7f4a93",
+      "official_version_url": "https://github.com/CURENT/andes/blob/v2.0.0/andes/routines/daeint.py"
+    }
+  },
+  "license": {
+    "distribution_license": "GPL-3.0-or-later (verify bundled full license)",
+    "source_url": "https://github.com/CURENT/andes/blob/v2.0.0/LICENSE",
+    "copy_sha256": "1c58769980265b766285d56eeec473e30273aa3b5ea7fd95851395522533dec4",
+    "redistribution_note": "Do not redistribute the full virtualenv. Original benchmark files stay in the installed distribution; obtain via pinned dependency. Preserve upstream notices with any redistributed original code/case material."
+  },
+  "generated_matrix_sha256": {
+    "wecc_verified_descriptor_K.npz": "e03c0bf4806f86756de28d7015b815d1af9a1aa876590ff1003cb07caab35f21",
+    "wecc_descriptor_K.npz": "e6df5d78f338bedb5f64af420ab7ee1339354da6af6dc1c64a1a8a7399327e06",
+    "kundur_descriptor_K.npz": "3a28172d20269da7465afb401d20d5e8da003281c0b1fdb7c7814f3711fedd97",
+    "kundur_reduced51.npz": "31e798abc23bdcb6c3b46aeb488caf96636127390935eac4d9f0e2fdd5601828"
+  }
+}

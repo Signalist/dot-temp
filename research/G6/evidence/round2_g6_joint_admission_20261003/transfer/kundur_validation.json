@@ -1,0 +1,14 @@
+{
+  "network": "kundur",
+  "checks": {
+    "finite_common_sign_exhaustive_2power12_max_error": 2.168404344971009e-19,
+    "finite_dynamic_optional_exhaustive_7power4_max_error": 0.0,
+    "sampled_Nto2N_actual_tail_over_analytic_bound_max": 0.690446755811107,
+    "original_state_expm_replay_max_abs_error": 1.4181364416110398e-16,
+    "original_state_expm_replay_max_relative_error": 7.848951921484603e-14,
+    "invalid_reset_decisions": 41,
+    "invalid_periodic_decisions": 41
+  },
+  "pass": true,
+  "scope": "Floating arithmetic validation, no interval or nonlinear certificate. Exhaustive tests independently check finite support identities; tail ratio samples supplement the analytic bound, not replace it."
+}

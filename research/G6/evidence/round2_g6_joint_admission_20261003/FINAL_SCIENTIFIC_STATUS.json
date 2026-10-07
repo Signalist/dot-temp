@@ -1,0 +1,33 @@
+{
+  "route": "G6 original sequence6",
+  "as_of_utc": "2026-10-03T13:12:24.749646+00:00",
+  "research_status": "FINAL_SCIENTIFIC_SOURCE_FREEZE",
+  "paper_ready": false,
+  "narrow_theory_content_ready": true,
+  "standalone_high_innovation_established": false,
+  "external_peer_review": false,
+  "formal_proof_assistant_verification": false,
+  "narrow_theorem_candidates": [
+    "finite exponential type iff logarithmic direct-polyhedral approximation complexity",
+    "r=1/2 threshold for static optional-cohort masking"
+  ],
+  "originality_status": "not located in targeted primary audit; not certified original",
+  "same_information_solver_advantage": false,
+  "positive_workpoint_qualified": true,
+  "old_nonlinear_runs": 20,
+  "positive_nonlinear_runs": 10,
+  "new_independent_real_captures": 0,
+  "nonlinear_whole_family_certificate": false,
+  "calibrated_real_compute_to_grid_transfer": false,
+  "reports": {
+    "main": "reports/G6_FULL_REPORT_ZH.md",
+    "assumptions": "reports/ASSUMPTION_AND_HYPOTHESIS_LEDGER_ZH.md",
+    "baseline": "reports/BASELINES_ABLATIONS_AND_TRANSFER_ZH.md",
+    "failures": "reports/FAILURE_AND_REPAIR_LEDGER_ZH.md",
+    "next": "reports/NEXT_GATE_AND_POSITIONING_ZH.md"
+  },
+  "frozen_at_utc": "2026-10-03T13:14:41.202185+00:00",
+  "all_frozen_nonlinear_runs_completed_and_audited": true,
+  "source_freeze": "FINAL_SOURCE_FREEZE.json",
+  "amplitude_convention": "kappa=a1+a2 is total modulation amplitude; equal split a1=a2=kappa/2; fixed workpoint baseline is separate"
+}

@@ -1,0 +1,82 @@
+{
+  "network": "kundur",
+  "qualification": {
+    "source": "outputs/round2_20261003/grid_transfer/kundur_reduced51.npz",
+    "source_sha256": "31e798abc23bdcb6c3b46aeb488caf96636127390935eac4d9f0e2fdd5601828",
+    "state_dimension": 51,
+    "outputs": 4,
+    "ports": [
+      "P_MW@bus7",
+      "P_MW@bus8"
+    ],
+    "max_eigenvalue_real": -0.13953444562568046,
+    "eigenvector_condition": 12124.657834821308,
+    "max_resolvent_relative_error": 2.4367619778788402e-14,
+    "qualification_pass": true
+  },
+  "phase_refinements": [
+    {
+      "phase_intervals": 2048,
+      "max_relative_error_committed": 0.002538322899736135,
+      "max_modal_imaginary_residual": 3.484853157639721e-18,
+      "same_information_dynamic_baseline_max_abs_difference": 1.3010426069826053e-18
+    }
+  ],
+  "N_past_blocks": 256,
+  "frequency_limit_Hz": 0.05,
+  "all_time_interpretation": "Unrestricted-sign and optional supports are nondecreasing in available history, so infinite support dominates every zero-state startup prefix. Single-sign comparator explicitly maximizes every startup prefix.",
+  "float_numerical_bound_not_interval_proof": true,
+  "same_information_committed_baseline": "Identical classical support sum by derivation; no solver gain",
+  "same_information_dynamic_baseline_max_abs_gap": 1.3010426069826053e-18,
+  "equal_split": {
+    "ray_index": 20,
+    "a1_share": 0.5,
+    "a2_share": 0.5,
+    "tail_error_Hz_per_MW": 2.238009888846527e-34,
+    "phase_error_Hz_per_MW": 3.6769992985320327e-06,
+    "committed_peak_lower_Hz_per_MW": 0.0015204656502562134,
+    "committed_peak_upper_Hz_per_MW": 0.0015241426495547453,
+    "committed_capacity_lower_MW": 32.805328303493596,
+    "committed_capacity_upper_MW": 32.884662663424535,
+    "dynamic_optional_peak_lower_Hz_per_MW": 0.0016526859022095866,
+    "dynamic_optional_peak_upper_Hz_per_MW": 0.0016563629015081186,
+    "dynamic_optional_capacity_lower_MW": 30.18662151541489,
+    "dynamic_optional_capacity_upper_MW": 30.25378260512276,
+    "fixed_optional_peak_lower_Hz_per_MW": 0.0015204656502562134,
+    "fixed_optional_peak_upper_Hz_per_MW": 0.0015241426495547453,
+    "fixed_optional_capacity_lower_MW": 32.805328303493596,
+    "fixed_optional_capacity_upper_MW": 32.884662663424535,
+    "independent_ports_peak_lower_Hz_per_MW": 0.0019718826101641778,
+    "independent_ports_peak_upper_Hz_per_MW": 0.00197555960946271,
+    "independent_ports_capacity_lower_MW": 25.30928439744647,
+    "independent_ports_capacity_upper_MW": 25.356479002488406,
+    "reset_peak_lower_Hz_per_MW": 0.00041900504082529683,
+    "reset_peak_upper_Hz_per_MW": 0.00042268204012382886,
+    "reset_capacity_lower_MW": 118.29222738054357,
+    "reset_capacity_upper_MW": 119.33030662714005,
+    "single_sign_periodic_peak_lower_Hz_per_MW": 0.0005435283479983282,
+    "single_sign_periodic_peak_upper_Hz_per_MW": 0.0005472053472968603,
+    "single_sign_periodic_capacity_lower_MW": 91.37337609545486,
+    "single_sign_periodic_capacity_upper_MW": 91.99152203217521,
+    "common_vs_independent_capacity_gain_lower": 0.2937651280477145,
+    "dynamic_vs_independent_capacity_gain_lower": 0.1904894805170887,
+    "dynamic_loss_vs_committed_lower": 0.07777839242349882
+  },
+  "maximum_common_vs_independent_capacity_gain_lower": 0.4186934842969994,
+  "maximum_dynamic_vs_independent_capacity_gain_lower": 0.24275497321587536,
+  "maximum_dynamic_capacity_loss_vs_committed_lower": 0.14309549356002726,
+  "decision_counts": {
+    "common_information_vs_independent_relaxation": 39,
+    "dynamic_optional_vs_independent_relaxation": 39,
+    "fixed_cohort_not_optional_capacity": 39
+  },
+  "raw_coefficients_shape": [
+    4,
+    2049,
+    2,
+    257
+  ],
+  "raw_coefficients_file": "kundur_coefficients.npy",
+  "coefficient_order": "output,phase,port,[current,lag0,...,lag255]",
+  "phase_bound": "h/2 times min(global analytic first-derivative bound, maximum sampled sum-absolute first derivatives plus exact derivative modal tail plus h/2 global second-derivative bound). Each segment endpoint uses both one-sided derivatives."
+}

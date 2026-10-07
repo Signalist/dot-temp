@@ -1,0 +1,25 @@
+{
+  "model": "interior4",
+  "scenario_file_sha256": "64c5cbb2a3504b6a4ce885481c5e40939d06b3ac9eb82e015cb8f59c9e8f7d60",
+  "cases": 196,
+  "dt": 0.02,
+  "T_s": 90,
+  "raw_state_dtype": "float64",
+  "dt_half_checks": [
+    {
+      "case_id": 97,
+      "coarse_peak": 0.9658083947016035,
+      "fine_peak": 0.9658674736303696,
+      "abs_difference": 5.907892876610976e-05
+    },
+    {
+      "case_id": 99,
+      "coarse_peak": 1.145052653740559,
+      "fine_peak": 1.1450525948335821,
+      "abs_difference": 5.890697685195789e-08
+    }
+  ],
+  "seconds": 10.389081001281738,
+  "nonlinear_scope": "sin(angle) synthetic swing grid, no Q/voltage/converter physics, sample peaks only",
+  "linear_steady_initial_is_not_nonlinear_periodic_initial": true
+}

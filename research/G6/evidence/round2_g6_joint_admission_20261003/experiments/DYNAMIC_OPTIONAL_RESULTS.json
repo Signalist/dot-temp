@@ -1,0 +1,4126 @@
+{
+  "rows": [
+    {
+      "case": "development",
+      "ray": 0,
+      "a": [
+        0.0,
+        1.0
+      ],
+      "committed_support": 3.829171794592978,
+      "fixed_optional_support": 3.829171794592978,
+      "dynamic_optional_support": 3.829171794592978,
+      "independent_sign_support": 3.8291717945929786,
+      "tail_upper": 3.539066085681611e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.26115307790892545,
+      "coupling_information_capacity_gain_percent": 2.220446049250313e-14
+    },
+    {
+      "case": "development",
+      "ray": 1,
+      "a": [
+        0.025,
+        0.975
+      ],
+      "committed_support": 3.7456076333128245,
+      "fixed_optional_support": 3.7456076333128245,
+      "dynamic_optional_support": 3.7955405428812528,
+      "independent_sign_support": 3.8454734524496827,
+      "tail_upper": 3.4517235632114574e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.26346708425379767,
+      "coupling_information_capacity_gain_percent": 1.315567809230278
+    },
+    {
+      "case": "development",
+      "ray": 2,
+      "a": [
+        0.05,
+        0.95
+      ],
+      "committed_support": 3.6718172799712416,
+      "fixed_optional_support": 3.6718172799712416,
+      "dynamic_optional_support": 3.7667961951388147,
+      "independent_sign_support": 3.861775110306387,
+      "tail_upper": 3.366766226920677e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.265477596396252,
+      "coupling_information_capacity_gain_percent": 2.5214774107010562
+    },
+    {
+      "case": "development",
+      "ray": 3,
+      "a": [
+        0.07500000000000001,
+        0.925
+      ],
+      "committed_support": 3.5995375720586438,
+      "fixed_optional_support": 3.5995375720586438,
+      "dynamic_optional_support": 3.738807170110868,
+      "independent_sign_support": 3.8780767681630923,
+      "tail_upper": 3.28437917551175e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2674649840179767,
+      "coupling_information_capacity_gain_percent": 3.7249740817228094
+    },
+    {
+      "case": "development",
+      "ray": 4,
+      "a": [
+        0.1,
+        0.9
+      ],
+      "committed_support": 3.527373040644767,
+      "fixed_optional_support": 3.527373040644767,
+      "dynamic_optional_support": 3.710875733332283,
+      "independent_sign_support": 3.8943784260197973,
+      "tail_upper": 3.204760643516742e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2694781695376316,
+      "coupling_information_capacity_gain_percent": 4.944996973065785
+    },
+    {
+      "case": "development",
+      "ray": 5,
+      "a": [
+        0.125,
+        0.875
+      ],
+      "committed_support": 3.4552197940083267,
+      "fixed_optional_support": 3.4552197940083267,
+      "dynamic_optional_support": 3.682949938942414,
+      "independent_sign_support": 3.9106800838765015,
+      "tail_upper": 3.128122035315998e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27152147506168856,
+      "coupling_information_capacity_gain_percent": 6.183362486851562
+    },
+    {
+      "case": "development",
+      "ray": 6,
+      "a": [
+        0.15000000000000002,
+        0.85
+      ],
+      "committed_support": 3.3830674438354813,
+      "fixed_optional_support": 3.3830674438354813,
+      "dynamic_optional_support": 3.6550245927843443,
+      "independent_sign_support": 3.9269817417332065,
+      "tail_upper": 3.054687647750947e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27359597031827754,
+      "coupling_information_capacity_gain_percent": 7.440638005165634
+    },
+    {
+      "case": "development",
+      "ray": 7,
+      "a": [
+        0.17500000000000002,
+        0.825
+      ],
+      "committed_support": 3.3109151507428023,
+      "fixed_optional_support": 3.3109151507428023,
+      "dynamic_optional_support": 3.627099275166356,
+      "independent_sign_support": 3.943283399589911,
+      "tail_upper": 2.9846939968298214e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2757024068369717,
+      "coupling_information_capacity_gain_percent": 8.717272410721467
+    },
+    {
+      "case": "development",
+      "ray": 8,
+      "a": [
+        0.2,
+        0.8
+      ],
+      "committed_support": 3.2387628608536603,
+      "fixed_optional_support": 3.2387628608536603,
+      "dynamic_optional_support": 3.5991739591501384,
+      "independent_sign_support": 3.959585057446615,
+      "tail_upper": 2.9183886574613046e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27784153012602003,
+      "coupling_information_capacity_gain_percent": 10.013717102509245
+    },
+    {
+      "case": "development",
+      "ray": 9,
+      "a": [
+        0.225,
+        0.775
+      ],
+      "committed_support": 3.166610571126511,
+      "fixed_optional_support": 3.166610571126511,
+      "dynamic_optional_support": 3.5712486432149158,
+      "independent_sign_support": 3.97588671530332,
+      "tail_upper": 2.856028523874135e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.280014107082664,
+      "coupling_information_capacity_gain_percent": 11.330436844748526
+    },
+    {
+      "case": "development",
+      "ray": 10,
+      "a": [
+        0.25,
+        0.75
+      ],
+      "committed_support": 3.0944582814066353,
+      "fixed_optional_support": 3.0944582814066353,
+      "dynamic_optional_support": 3.5433233272833307,
+      "independent_sign_support": 3.992188373160025,
+      "tail_upper": 2.797877405152628e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.28222092866887794,
+      "coupling_information_capacity_gain_percent": 12.66791100943192
+    },
+    {
+      "case": "development",
+      "ray": 11,
+      "a": [
+        0.275,
+        0.725
+      ],
+      "committed_support": 3.025152582169834,
+      "fixed_optional_support": 3.025152582169834,
+      "dynamic_optional_support": 3.5168213065932816,
+      "independent_sign_support": 4.00849003101673,
+      "tail_upper": 2.7442028881337445e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.28434768582788544,
+      "coupling_information_capacity_gain_percent": 13.980486398375591
+    },
+    {
+      "case": "development",
+      "ray": 12,
+      "a": [
+        0.30000000000000004,
+        0.7
+      ],
+      "committed_support": 2.986667756948241,
+      "fixed_optional_support": 2.986667756948241,
+      "dynamic_optional_support": 3.5057297229108375,
+      "independent_sign_support": 4.024791688873433,
+      "tail_upper": 2.6952724315209065e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.28524731768816775,
+      "coupling_information_capacity_gain_percent": 14.806103350477763
+    },
+    {
+      "case": "development",
+      "ray": 13,
+      "a": [
+        0.325,
+        0.675
+      ],
+      "committed_support": 2.951668103814817,
+      "fixed_optional_support": 2.951668103814817,
+      "dynamic_optional_support": 3.4963807252724775,
+      "independent_sign_support": 4.041093346730139,
+      "tail_upper": 2.651348702243579e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.28601004254823215,
+      "coupling_information_capacity_gain_percent": 15.579328003966486
+    },
+    {
+      "case": "development",
+      "ray": 14,
+      "a": [
+        0.35000000000000003,
+        0.6499999999999999
+      ],
+      "committed_support": 2.9167629613024832,
+      "fixed_optional_support": 2.9167629613024832,
+      "dynamic_optional_support": 3.487078982944663,
+      "independent_sign_support": 4.057395004586843,
+      "tail_upper": 2.6126842276780903e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2867729709854608,
+      "coupling_information_capacity_gain_percent": 16.355121992693643
+    },
+    {
+      "case": "development",
+      "ray": 15,
+      "a": [
+        0.375,
+        0.625
+      ],
+      "committed_support": 2.8818598402772952,
+      "fixed_optional_support": 2.8818598402772952,
+      "dynamic_optional_support": 3.4777782513604216,
+      "independent_sign_support": 4.073696662443548,
+      "tail_upper": 2.5795155122859914e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2875398969468006,
+      "coupling_information_capacity_gain_percent": 17.135031851154324
+    },
+    {
+      "case": "development",
+      "ray": 16,
+      "a": [
+        0.4,
+        0.6
+      ],
+      "committed_support": 2.8469567519991963,
+      "fixed_optional_support": 2.8469567519991963,
+      "dynamic_optional_support": 3.468477536149724,
+      "independent_sign_support": 4.089998320300253,
+      "tail_upper": 2.5520568478361364e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2883109345750806,
+      "coupling_information_capacity_gain_percent": 17.919123813627568
+    },
+    {
+      "case": "development",
+      "ray": 17,
+      "a": [
+        0.42500000000000004,
+        0.575
+      ],
+      "committed_support": 2.812053664392608,
+      "fixed_optional_support": 2.812053664392608,
+      "dynamic_optional_support": 3.459176821274783,
+      "independent_sign_support": 4.106299978156957,
+      "tail_upper": 2.5304941222906696e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2890861183648536,
+      "coupling_information_capacity_gain_percent": 18.70743215270778
+    },
+    {
+      "case": "development",
+      "ray": 18,
+      "a": [
+        0.45,
+        0.55
+      ],
+      "committed_support": 2.77715057679727,
+      "fixed_optional_support": 2.77715057679727,
+      "dynamic_optional_support": 3.449876106405467,
+      "independent_sign_support": 4.122601636013662,
+      "tail_upper": 2.514978990609065e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2898654818772408,
+      "coupling_information_capacity_gain_percent": 19.499990981100133
+    },
+    {
+      "case": "development",
+      "ray": 19,
+      "a": [
+        0.47500000000000003,
+        0.5249999999999999
+      ],
+      "committed_support": 2.790201978953545,
+      "fixed_optional_support": 2.790201978953545,
+      "dynamic_optional_support": 3.4645526364119563,
+      "independent_sign_support": 4.138903293870366,
+      "tail_upper": 2.5056237976518753e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.28863755438152155,
+      "coupling_information_capacity_gain_percent": 19.46429245643666
+    },
+    {
+      "case": "development",
+      "ray": 20,
+      "a": [
+        0.5,
+        0.5
+      ],
+      "committed_support": 2.832878171551789,
+      "fixed_optional_support": 2.832878171551789,
+      "dynamic_optional_support": 3.49404156163943,
+      "independent_sign_support": 4.155204951727072,
+      "tail_upper": 2.502497628252799e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2862015183158819,
+      "coupling_information_capacity_gain_percent": 18.922596609795896
+    },
+    {
+      "case": "development",
+      "ray": 21,
+      "a": [
+        0.525,
+        0.475
+      ],
+      "committed_support": 2.8759351172905623,
+      "fixed_optional_support": 2.8759351172905623,
+      "dynamic_optional_support": 3.523720863437169,
+      "independent_sign_support": 4.171506609583776,
+      "tail_upper": 2.5056237976518753e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.28379092407012135,
+      "coupling_information_capacity_gain_percent": 18.38357154983987
+    },
+    {
+      "case": "development",
+      "ray": 22,
+      "a": [
+        0.55,
+        0.44999999999999996
+      ],
+      "committed_support": 2.918996902226825,
+      "fixed_optional_support": 2.918996902226825,
+      "dynamic_optional_support": 3.553402584833653,
+      "independent_sign_support": 4.18780826744048,
+      "tail_upper": 2.5149789906090643e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2814204065331971,
+      "coupling_information_capacity_gain_percent": 17.853470510618365
+    },
+    {
+      "case": "development",
+      "ray": 23,
+      "a": [
+        0.5750000000000001,
+        0.42499999999999993
+      ],
+      "committed_support": 2.962058748769758,
+      "fixed_optional_support": 2.962058748769758,
+      "dynamic_optional_support": 3.583084337033472,
+      "independent_sign_support": 4.204109925297185,
+      "tail_upper": 2.5304941222906696e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27908916060511313,
+      "coupling_information_capacity_gain_percent": 17.332151014281628
+    },
+    {
+      "case": "development",
+      "ray": 24,
+      "a": [
+        0.6000000000000001,
+        0.3999999999999999
+      ],
+      "committed_support": 3.005120596103911,
+      "fixed_optional_support": 3.005120596103911,
+      "dynamic_optional_support": 3.6127660896289004,
+      "independent_sign_support": 4.220411583153889,
+      "tail_upper": 2.5520568478361364e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27679622073255206,
+      "coupling_information_capacity_gain_percent": 16.819397615288324
+    },
+    {
+      "case": "development",
+      "ray": 25,
+      "a": [
+        0.625,
+        0.375
+      ],
+      "committed_support": 3.048182443450168,
+      "fixed_optional_support": 3.048182443450168,
+      "dynamic_optional_support": 3.6424478422303808,
+      "independent_sign_support": 4.2367132410105945,
+      "tail_upper": 2.5795155122859914e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2745406504949896,
+      "coupling_information_capacity_gain_percent": 16.315000914778423
+    },
+    {
+      "case": "development",
+      "ray": 26,
+      "a": [
+        0.65,
+        0.35
+      ],
+      "committed_support": 3.1017269539946253,
+      "fixed_optional_support": 3.1017269539946253,
+      "dynamic_optional_support": 3.6773709264309624,
+      "independent_sign_support": 4.253014898867298,
+      "tail_upper": 2.612684227678091e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27193340568734536,
+      "coupling_information_capacity_gain_percent": 15.65368258880051
+    },
+    {
+      "case": "development",
+      "ray": 27,
+      "a": [
+        0.675,
+        0.32499999999999996
+      ],
+      "committed_support": 3.1773921217838743,
+      "fixed_optional_support": 3.1773921217838743,
+      "dynamic_optional_support": 3.7233543392539397,
+      "independent_sign_support": 4.269316556724004,
+      "tail_upper": 2.651348702243579e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2685750290960417,
+      "coupling_information_capacity_gain_percent": 14.663181844236185
+    },
+    {
+      "case": "development",
+      "ray": 28,
+      "a": [
+        0.7000000000000001,
+        0.29999999999999993
+      ],
+      "committed_support": 3.2538082127338894,
+      "fixed_optional_support": 3.2538082127338894,
+      "dynamic_optional_support": 3.7697132136572993,
+      "independent_sign_support": 4.28561821458071,
+      "tail_upper": 2.695272431520907e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.26527216881568033,
+      "coupling_information_capacity_gain_percent": 13.685523849780878
+    },
+    {
+      "case": "development",
+      "ray": 29,
+      "a": [
+        0.7250000000000001,
+        0.2749999999999999
+      ],
+      "committed_support": 3.3302418270606102,
+      "fixed_optional_support": 3.3302418270606102,
+      "dynamic_optional_support": 3.816080849749012,
+      "independent_sign_support": 4.301919872437414,
+      "tail_upper": 2.7442028881337445e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2620489552955282,
+      "coupling_information_capacity_gain_percent": 12.73136083372961
+    },
+    {
+      "case": "development",
+      "ray": 30,
+      "a": [
+        0.75,
+        0.25
+      ],
+      "committed_support": 3.4066758308386795,
+      "fixed_optional_support": 3.4066758308386795,
+      "dynamic_optional_support": 3.862448680566399,
+      "independent_sign_support": 4.318221530294118,
+      "tail_upper": 2.797877405152628e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.25890311631360174,
+      "coupling_information_capacity_gain_percent": 11.800101112563755
+    },
+    {
+      "case": "development",
+      "ray": 31,
+      "a": [
+        0.775,
+        0.22499999999999998
+      ],
+      "committed_support": 3.483109843600073,
+      "fixed_optional_support": 3.483109843600073,
+      "dynamic_optional_support": 3.9088165158754475,
+      "independent_sign_support": 4.334523188150823,
+      "tail_upper": 2.856028523874135e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.25583191125460963,
+      "coupling_information_capacity_gain_percent": 10.890935160204895
+    },
+    {
+      "case": "development",
+      "ray": 32,
+      "a": [
+        0.8,
+        0.19999999999999996
+      ],
+      "committed_support": 3.5595438566400484,
+      "fixed_optional_support": 3.584990487088929,
+      "dynamic_optional_support": 3.955184351323787,
+      "independent_sign_support": 4.350824846007527,
+      "tail_upper": 2.918388657461305e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.25283271553835496,
+      "coupling_information_capacity_gain_percent": 10.003086064782817
+    },
+    {
+      "case": "development",
+      "ray": 33,
+      "a": [
+        0.8250000000000001,
+        0.17499999999999993
+      ],
+      "committed_support": 3.6359778696900706,
+      "fixed_optional_support": 3.697021439810458,
+      "dynamic_optional_support": 4.001552186777151,
+      "independent_sign_support": 4.367126503864232,
+      "tail_upper": 2.9846939968298224e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2499030259568849,
+      "coupling_information_capacity_gain_percent": 9.135812805218313
+    },
+    {
+      "case": "development",
+      "ray": 34,
+      "a": [
+        0.8500000000000001,
+        0.1499999999999999
+      ],
+      "committed_support": 3.7124118827404375,
+      "fixed_optional_support": 3.8090523925319872,
+      "dynamic_optional_support": 4.047920022230687,
+      "independent_sign_support": 4.383428161720936,
+      "tail_upper": 3.054687647750947e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.247040453988251,
+      "coupling_information_capacity_gain_percent": 8.288408309642437
+    },
+    {
+      "case": "development",
+      "ray": 35,
+      "a": [
+        0.875,
+        0.125
+      ],
+      "committed_support": 3.8293260644727245,
+      "fixed_optional_support": 3.921083345253516,
+      "dynamic_optional_support": 4.114527942025183,
+      "independent_sign_support": 4.399729819577641,
+      "tail_upper": 3.128122035315998e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.24304124655131082,
+      "coupling_information_capacity_gain_percent": 6.931581983912372
+    },
+    {
+      "case": "development",
+      "ray": 36,
+      "a": [
+        0.9,
+        0.09999999999999998
+      ],
+      "committed_support": 3.9590692774717486,
+      "fixed_optional_support": 4.033114297975045,
+      "dynamic_optional_support": 4.187550377453047,
+      "independent_sign_support": 4.416031477434345,
+      "tail_upper": 3.204760643516742e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.23880309724374474,
+      "coupling_information_capacity_gain_percent": 5.4561994337191555
+    },
+    {
+      "case": "development",
+      "ray": 37,
+      "a": [
+        0.925,
+        0.07499999999999996
+      ],
+      "committed_support": 4.089571017725208,
+      "fixed_optional_support": 4.145145250696574,
+      "dynamic_optional_support": 4.26095207650813,
+      "independent_sign_support": 4.43233313529105,
+      "tail_upper": 3.28437917551175e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2346893328167879,
+      "coupling_information_capacity_gain_percent": 4.02213063431982
+    },
+    {
+      "case": "development",
+      "ray": 38,
+      "a": [
+        0.9500000000000001,
+        0.04999999999999993
+      ],
+      "committed_support": 4.2201241448462286,
+      "fixed_optional_support": 4.257176203418103,
+      "dynamic_optional_support": 4.334379468996992,
+      "independent_sign_support": 4.448634793147756,
+      "tail_upper": 3.3667662269206775e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.23071353284889187,
+      "coupling_information_capacity_gain_percent": 2.636024948161819
+    },
+    {
+      "case": "development",
+      "ray": 39,
+      "a": [
+        0.9750000000000001,
+        0.02499999999999991
+      ],
+      "committed_support": 4.3506810062145345,
+      "fixed_optional_support": 4.369207156139632,
+      "dynamic_optional_support": 4.4078087286094965,
+      "independent_sign_support": 4.464936451004459,
+      "tail_upper": 3.4517235632114574e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.22687009840271896,
+      "coupling_information_capacity_gain_percent": 1.2960572001268433
+    },
+    {
+      "case": "development",
+      "ray": 40,
+      "a": [
+        1.0,
+        0.0
+      ],
+      "committed_support": 4.481238108861164,
+      "fixed_optional_support": 4.481238108861164,
+      "dynamic_optional_support": 4.481238108861164,
+      "independent_sign_support": 4.481238108861164,
+      "tail_upper": 3.539066085681611e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.22315261445773393,
+      "coupling_information_capacity_gain_percent": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 0,
+      "a": [
+        0.0,
+        1.0
+      ],
+      "committed_support": 1.0884075279470364,
+      "fixed_optional_support": 1.0884075279470364,
+      "dynamic_optional_support": 1.0884075279470364,
+      "independent_sign_support": 1.0884075279470362,
+      "tail_upper": 1.6781099077381363e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.918773505624505,
+      "coupling_information_capacity_gain_percent": -2.220446049250313e-14
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 1,
+      "a": [
+        0.025,
+        0.975
+      ],
+      "committed_support": 1.076868200838143,
+      "fixed_optional_support": 1.076868200838143,
+      "dynamic_optional_support": 1.0925838235670344,
+      "independent_sign_support": 1.108299446295926,
+      "tail_upper": 1.6366949274084381e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.9152615830749081,
+      "coupling_information_capacity_gain_percent": 1.4383905737853198
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 2,
+      "a": [
+        0.05,
+        0.95
+      ],
+      "committed_support": 1.065671430868253,
+      "fixed_optional_support": 1.065671430868253,
+      "dynamic_optional_support": 1.0969313977565343,
+      "independent_sign_support": 1.1281913646448158,
+      "tail_upper": 1.5964109247046173e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.9116340384140884,
+      "coupling_information_capacity_gain_percent": 2.8497649855054874
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 3,
+      "a": [
+        0.07500000000000001,
+        0.925
+      ],
+      "committed_support": 1.0544762943300932,
+      "fixed_optional_support": 1.0544762943300932,
+      "dynamic_optional_support": 1.1012797886618992,
+      "independent_sign_support": 1.148083282993705,
+      "tail_upper": 1.557345667404675e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.9080344616285401,
+      "coupling_information_capacity_gain_percent": 4.249918577791578
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 4,
+      "a": [
+        0.1,
+        0.9
+      ],
+      "committed_support": 1.0432811580849495,
+      "fixed_optional_support": 1.0432811580849495,
+      "dynamic_optional_support": 1.1056281797137724,
+      "independent_sign_support": 1.1679752013425952,
+      "tail_upper": 1.5195931518693073e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.904463198702915,
+      "coupling_information_capacity_gain_percent": 5.639058661200491
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 5,
+      "a": [
+        0.125,
+        0.875
+      ],
+      "committed_support": 1.0320860218404566,
+      "fixed_optional_support": 1.0320860218404566,
+      "dynamic_optional_support": 1.1099765707659708,
+      "independent_sign_support": 1.187867119691485,
+      "tail_upper": 1.48325361917246e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.9009199169942134,
+      "coupling_information_capacity_gain_percent": 7.017314687260789
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 6,
+      "a": [
+        0.15000000000000002,
+        0.85
+      ],
+      "committed_support": 1.0208908855959637,
+      "fixed_optional_support": 1.0208908855959637,
+      "dynamic_optional_support": 1.1143249618181692,
+      "independent_sign_support": 1.2077590380403747,
+      "tail_upper": 1.4484334235733541e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.897404288932348,
+      "coupling_information_capacity_gain_percent": 8.384814073423907
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 7,
+      "a": [
+        0.17500000000000002,
+        0.825
+      ],
+      "committed_support": 1.0096957493514709,
+      "fixed_optional_support": 1.0096957493514709,
+      "dynamic_optional_support": 1.1186733528703674,
+      "independent_sign_support": 1.2276509563892644,
+      "tail_upper": 1.41524471326226e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8939159920401543,
+      "coupling_information_capacity_gain_percent": 9.741682255975338
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 8,
+      "a": [
+        0.2,
+        0.8
+      ],
+      "committed_support": 0.9985006131069778,
+      "fixed_optional_support": 0.9985006131069778,
+      "dynamic_optional_support": 1.123021743922566,
+      "independent_sign_support": 1.2475428747381538,
+      "tail_upper": 1.3838048801999687e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8904547088350512,
+      "coupling_information_capacity_gain_percent": 11.088042728420566
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 9,
+      "a": [
+        0.225,
+        0.775
+      ],
+      "committed_support": 0.987305476862485,
+      "fixed_optional_support": 0.987305476862485,
+      "dynamic_optional_support": 1.1273701349747642,
+      "independent_sign_support": 1.2674347930870435,
+      "tail_upper": 1.354235735265409e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8870201267327209,
+      "coupling_information_capacity_gain_percent": 12.424017078952932
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 10,
+      "a": [
+        0.25,
+        0.75
+      ],
+      "committed_support": 0.9761103406179922,
+      "fixed_optional_support": 0.9761103406179922,
+      "dynamic_optional_support": 1.1317185260269627,
+      "independent_sign_support": 1.2873267114359335,
+      "tail_upper": 1.3266623681368822e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8836119379530025,
+      "coupling_information_capacity_gain_percent": 13.749725027057092
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 11,
+      "a": [
+        0.275,
+        0.725
+      ],
+      "committed_support": 0.9654140734870921,
+      "fixed_optional_support": 0.9654140734870921,
+      "dynamic_optional_support": 1.1363163516359576,
+      "independent_sign_support": 1.307218629784823,
+      "tail_upper": 1.301211659779991e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8800366188168439,
+      "coupling_information_capacity_gain_percent": 15.040026301022325
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 12,
+      "a": [
+        0.30000000000000004,
+        0.7
+      ],
+      "committed_support": 0.9592592894925044,
+      "fixed_optional_support": 0.9592592894925044,
+      "dynamic_optional_support": 1.1431849188131085,
+      "independent_sign_support": 1.3271105481337129,
+      "tail_upper": 1.278010430403586e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8747491184875255,
+      "coupling_information_capacity_gain_percent": 16.08887821154621
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 13,
+      "a": [
+        0.325,
+        0.675
+      ],
+      "committed_support": 0.9531202780469106,
+      "fixed_optional_support": 0.9531202780469106,
+      "dynamic_optional_support": 1.1500613722647566,
+      "independent_sign_support": 1.3470024664826028,
+      "tail_upper": 1.257183228113326e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8695188136183998,
+      "coupling_information_capacity_gain_percent": 17.12439865970112
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 14,
+      "a": [
+        0.35000000000000003,
+        0.6499999999999999
+      ],
+      "committed_support": 0.9469812671071575,
+      "fixed_optional_support": 0.9469812671071575,
+      "dynamic_optional_support": 1.1569378259693246,
+      "independent_sign_support": 1.366894384831492,
+      "tail_upper": 1.2388497931689088e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8643506829437128,
+      "coupling_information_capacity_gain_percent": 18.147609504102636
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 15,
+      "a": [
+        0.375,
+        0.625
+      ],
+      "committed_support": 0.9408422561674059,
+      "fixed_optional_support": 0.9408422561674059,
+      "dynamic_optional_support": 1.163814279673894,
+      "independent_sign_support": 1.386786303180382,
+      "tail_upper": 1.2231222682855448e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8592436245757394,
+      "coupling_information_capacity_gain_percent": 19.158728965670168
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 16,
+      "a": [
+        0.4,
+        0.6
+      ],
+      "committed_support": 0.9347032452276542,
+      "fixed_optional_support": 0.9347032452276542,
+      "dynamic_optional_support": 1.170690733378463,
+      "independent_sign_support": 1.406678221529272,
+      "tail_upper": 1.210102263642799e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8541965623270361,
+      "coupling_information_capacity_gain_percent": 20.157970113061307
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 17,
+      "a": [
+        0.42500000000000004,
+        0.575
+      ],
+      "committed_support": 0.9285642342879026,
+      "fixed_optional_support": 0.9285642342879026,
+      "dynamic_optional_support": 1.177567187083032,
+      "independent_sign_support": 1.4265701398781614,
+      "tail_upper": 1.1998779212599082e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8492084451479273,
+      "coupling_information_capacity_gain_percent": 21.14554103803945
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 18,
+      "a": [
+        0.45,
+        0.55
+      ],
+      "committed_support": 0.9224252233481511,
+      "fixed_optional_support": 0.9224252233481511,
+      "dynamic_optional_support": 1.1844436407876011,
+      "independent_sign_support": 1.4464620582270513,
+      "tail_upper": 1.1925211509808506e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8442782463968024,
+      "coupling_information_capacity_gain_percent": 22.121644999944444
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 19,
+      "a": [
+        0.47500000000000003,
+        0.5249999999999999
+      ],
+      "committed_support": 0.9465487290484599,
+      "fixed_optional_support": 0.9465487290484599,
+      "dynamic_optional_support": 1.2064513528122005,
+      "independent_sign_support": 1.4663539765759408,
+      "tail_upper": 1.1880852230806128e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8288771840398133,
+      "coupling_information_capacity_gain_percent": 21.54273549098482
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 20,
+      "a": [
+        0.5,
+        0.5
+      ],
+      "committed_support": 0.9831124031733192,
+      "fixed_optional_support": 0.9831124031733192,
+      "dynamic_optional_support": 1.234679149049075,
+      "independent_sign_support": 1.4862458949248305,
+      "tail_upper": 1.186602895337968e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.8099270168854636,
+      "coupling_information_capacity_gain_percent": 20.375070403473416
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 21,
+      "a": [
+        0.525,
+        0.475
+      ],
+      "committed_support": 1.0196760906277238,
+      "fixed_optional_support": 1.0196760906277238,
+      "dynamic_optional_support": 1.262906951950722,
+      "independent_sign_support": 1.5061378132737202,
+      "tail_upper": 1.1880852230806128e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.7918239728234702,
+      "coupling_information_capacity_gain_percent": 19.259602692605114
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 22,
+      "a": [
+        0.55,
+        0.44999999999999996
+      ],
+      "committed_support": 1.0562397780821424,
+      "fixed_optional_support": 1.0562397780821424,
+      "dynamic_optional_support": 1.2911347548523762,
+      "independent_sign_support": 1.5260297316226097,
+      "tail_upper": 1.1925211509808506e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.7745124947196829,
+      "coupling_information_capacity_gain_percent": 18.19290944554355
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 23,
+      "a": [
+        0.5750000000000001,
+        0.42499999999999993
+      ],
+      "committed_support": 1.0928034655365613,
+      "fixed_optional_support": 1.0928034655365613,
+      "dynamic_optional_support": 1.3193625577540304,
+      "independent_sign_support": 1.5459216499714996,
+      "tail_upper": 1.1998779212599082e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.7579417758393221,
+      "coupling_information_capacity_gain_percent": 17.17186006878533
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 24,
+      "a": [
+        0.6000000000000001,
+        0.3999999999999999
+      ],
+      "committed_support": 1.1293671529909801,
+      "fixed_optional_support": 1.1304505571415746,
+      "dynamic_optional_support": 1.3475903606556845,
+      "independent_sign_support": 1.5658135683203895,
+      "tail_upper": 1.210102263642799e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.7420652664163012,
+      "coupling_information_capacity_gain_percent": 16.193586273392913
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 25,
+      "a": [
+        0.625,
+        0.375
+      ],
+      "committed_support": 1.1659308404453985,
+      "fixed_optional_support": 1.17755266368914,
+      "dynamic_optional_support": 1.375818163557339,
+      "independent_sign_support": 1.585705486669279,
+      "tail_upper": 1.2231222682855448e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.7268402369499054,
+      "coupling_information_capacity_gain_percent": 15.255455166346387
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 26,
+      "a": [
+        0.65,
+        0.35
+      ],
+      "committed_support": 1.2037663855819887,
+      "fixed_optional_support": 1.2246547702367057,
+      "dynamic_optional_support": 1.4046818953000788,
+      "independent_sign_support": 1.6055974050181685,
+      "tail_upper": 1.238849793168909e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.7119049539585419,
+      "coupling_information_capacity_gain_percent": 14.303274669541356
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 27,
+      "a": [
+        0.675,
+        0.32499999999999996
+      ],
+      "committed_support": 1.243539040106709,
+      "fixed_optional_support": 1.2717568767842713,
+      "dynamic_optional_support": 1.4345141817368836,
+      "independent_sign_support": 1.6254893233670584,
+      "tail_upper": 1.257183228113326e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.697100114262529,
+      "coupling_information_capacity_gain_percent": 13.312879305169755
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 28,
+      "a": [
+        0.7000000000000001,
+        0.29999999999999993
+      ],
+      "committed_support": 1.2833118031262927,
+      "fixed_optional_support": 1.318858983331837,
+      "dynamic_optional_support": 1.4643465224211205,
+      "independent_sign_support": 1.645381241715948,
+      "tail_upper": 1.2780104304035865e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.6828984701972184,
+      "coupling_information_capacity_gain_percent": 12.362833285902042
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 29,
+      "a": [
+        0.7250000000000001,
+        0.2749999999999999
+      ],
+      "committed_support": 1.323084566148619,
+      "fixed_optional_support": 1.3659610898794026,
+      "dynamic_optional_support": 1.4941788631067285,
+      "independent_sign_support": 1.665273160064838,
+      "tail_upper": 1.301211659779991e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.6692639179226366,
+      "coupling_information_capacity_gain_percent": 11.450723951640352
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 30,
+      "a": [
+        0.75,
+        0.25
+      ],
+      "committed_support": 1.3628573291709445,
+      "fixed_optional_support": 1.413063196426968,
+      "dynamic_optional_support": 1.5240112037923361,
+      "independent_sign_support": 1.6851650784137275,
+      "tail_upper": 1.3266623681368822e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.6561631551734061,
+      "coupling_information_capacity_gain_percent": 10.574323483999159
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 31,
+      "a": [
+        0.775,
+        0.22499999999999998
+      ],
+      "committed_support": 1.4026300921932706,
+      "fixed_optional_support": 1.4601653029745336,
+      "dynamic_optional_support": 1.5538435444779437,
+      "independent_sign_support": 1.7050569967626175,
+      "tail_upper": 1.3542357352654093e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.643565437172748,
+      "coupling_information_capacity_gain_percent": 9.731575152598658
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 32,
+      "a": [
+        0.8,
+        0.19999999999999996
+      ],
+      "committed_support": 1.4424028552155963,
+      "fixed_optional_support": 1.5072674095220993,
+      "dynamic_optional_support": 1.5836758851635517,
+      "independent_sign_support": 1.724948915111507,
+      "tail_upper": 1.383804880199969e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.6314423357508702,
+      "coupling_information_capacity_gain_percent": 8.920577200893941
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 33,
+      "a": [
+        0.8250000000000001,
+        0.17499999999999993
+      ],
+      "committed_support": 1.482175618237922,
+      "fixed_optional_support": 1.554369516069665,
+      "dynamic_optional_support": 1.6135082258491593,
+      "independent_sign_support": 1.7448408334603969,
+      "tail_upper": 1.4152447132622608e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.6197675251848924,
+      "coupling_information_capacity_gain_percent": 8.139568519529528
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 34,
+      "a": [
+        0.8500000000000001,
+        0.1499999999999999
+      ],
+      "committed_support": 1.521948381260248,
+      "fixed_optional_support": 1.6014716226172305,
+      "dynamic_optional_support": 1.6433405665347673,
+      "independent_sign_support": 1.7647327518092866,
+      "tail_upper": 1.4484334235733544e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.6085165913652649,
+      "coupling_information_capacity_gain_percent": 7.386915880163114
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 35,
+      "a": [
+        0.875,
+        0.125
+      ],
+      "committed_support": 1.580187470043813,
+      "fixed_optional_support": 1.648573729164796,
+      "dynamic_optional_support": 1.6824060701009946,
+      "independent_sign_support": 1.784624670158176,
+      "tail_upper": 1.48325361917246e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.5943868235924578,
+      "coupling_information_capacity_gain_percent": 6.0757389000055895
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 36,
+      "a": [
+        0.9,
+        0.09999999999999998
+      ],
+      "committed_support": 1.6409665724613365,
+      "fixed_optional_support": 1.6956758357123616,
+      "dynamic_optional_support": 1.7227415804842012,
+      "independent_sign_support": 1.8045165885070658,
+      "tail_upper": 1.5195931518693073e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.5804701130618416,
+      "coupling_information_capacity_gain_percent": 4.74679481526652
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 37,
+      "a": [
+        0.925,
+        0.07499999999999996
+      ],
+      "committed_support": 1.70174599478452,
+      "fixed_optional_support": 1.7427779422599272,
+      "dynamic_optional_support": 1.7630772508202377,
+      "independent_sign_support": 1.824408506855956,
+      "tail_upper": 1.557345667404675e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.5671901214395281,
+      "coupling_information_capacity_gain_percent": 3.4786482558937903
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 38,
+      "a": [
+        0.9500000000000001,
+        0.04999999999999993
+      ],
+      "committed_support": 1.762525417157216,
+      "fixed_optional_support": 1.7898800488074929,
+      "dynamic_optional_support": 1.8034129211810306,
+      "independent_sign_support": 1.8443004252048456,
+      "tail_upper": 1.5964109247046173e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.5545041783027226,
+      "coupling_information_capacity_gain_percent": 2.267229182157471
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 39,
+      "a": [
+        0.9750000000000001,
+        0.02499999999999991
+      ],
+      "committed_support": 1.8233048395299207,
+      "fixed_optional_support": 1.8369821553550585,
+      "dynamic_optional_support": 1.8437485915418275,
+      "independent_sign_support": 1.8641923435537346,
+      "tail_upper": 1.6366949274084384e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.5423732956800547,
+      "coupling_information_capacity_gain_percent": 1.108814515476375
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 40,
+      "a": [
+        1.0,
+        0.0
+      ],
+      "committed_support": 1.884084261902625,
+      "fixed_optional_support": 1.884084261902625,
+      "dynamic_optional_support": 1.884084261902625,
+      "independent_sign_support": 1.884084261902625,
+      "tail_upper": 1.6781099077381363e-227,
+      "dynamic_optional_total_amplitude_capacity": 0.5307618243093646,
+      "coupling_information_capacity_gain_percent": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 0,
+      "a": [
+        0.0,
+        1.0
+      ],
+      "committed_support": 12.328761358425867,
+      "fixed_optional_support": 12.328761358425867,
+      "dynamic_optional_support": 12.328761358425867,
+      "independent_sign_support": 12.328761358425867,
+      "tail_upper": 3.090308322175449e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08111114903822583,
+      "coupling_information_capacity_gain_percent": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 1,
+      "a": [
+        0.025,
+        0.975
+      ],
+      "committed_support": 12.014508392474452,
+      "fixed_optional_support": 12.020542324465218,
+      "dynamic_optional_support": 12.17969455638242,
+      "independent_sign_support": 12.34488072029039,
+      "tail_upper": 3.0140409348097993e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08210386519717595,
+      "coupling_information_capacity_gain_percent": 1.3562422533938578
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 2,
+      "a": [
+        0.05,
+        0.95
+      ],
+      "committed_support": 11.736794465824058,
+      "fixed_optional_support": 11.736794465824058,
+      "dynamic_optional_support": 12.048897273989489,
+      "independent_sign_support": 12.36100008215492,
+      "tail_upper": 2.93985628919624e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08299514696326163,
+      "coupling_information_capacity_gain_percent": 2.590301843133669
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 3,
+      "a": [
+        0.07500000000000001,
+        0.925
+      ],
+      "committed_support": 11.481385297970858,
+      "fixed_optional_support": 11.481385297970858,
+      "dynamic_optional_support": 11.929252370995147,
+      "independent_sign_support": 12.377119444019442,
+      "tail_upper": 2.8679160133029556e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08382755003418368,
+      "coupling_information_capacity_gain_percent": 3.7543599472607436
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 4,
+      "a": [
+        0.1,
+        0.9
+      ],
+      "committed_support": 11.236278129692796,
+      "fixed_optional_support": 11.236278129692796,
+      "dynamic_optional_support": 11.814758467788382,
+      "independent_sign_support": 12.39323880588397,
+      "tail_upper": 2.798393205288994e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08463990209587341,
+      "coupling_information_capacity_gain_percent": 4.89625191807983
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 5,
+      "a": [
+        0.125,
+        0.875
+      ],
+      "committed_support": 10.99609468909517,
+      "fixed_optional_support": 10.99609468909517,
+      "dynamic_optional_support": 11.702726428421832,
+      "independent_sign_support": 12.409358167748495,
+      "tail_upper": 2.731472463209353e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08545017318112723,
+      "coupling_information_capacity_gain_percent": 6.0381804500744485
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 6,
+      "a": [
+        0.15000000000000002,
+        0.85
+      ],
+      "committed_support": 10.758234543894389,
+      "fixed_optional_support": 10.758234543894389,
+      "dynamic_optional_support": 11.591856036753706,
+      "independent_sign_support": 12.425477529613019,
+      "tail_upper": 2.667349642800807e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08626746198618677,
+      "coupling_information_capacity_gain_percent": 7.191441044610913
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 7,
+      "a": [
+        0.17500000000000002,
+        0.825
+      ],
+      "committed_support": 10.521395870977035,
+      "fixed_optional_support": 10.521395870977035,
+      "dynamic_optional_support": 11.48149638122729,
+      "independent_sign_support": 12.441596891477543,
+      "tail_upper": 2.606231269562141e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08709666116648701,
+      "coupling_information_capacity_gain_percent": 8.362154882703754
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 8,
+      "a": [
+        0.2,
+        0.8
+      ],
+      "committed_support": 10.28498402973856,
+      "fixed_optional_support": 10.28498402973856,
+      "dynamic_optional_support": 11.371350141540315,
+      "independent_sign_support": 12.45771625334207,
+      "tail_upper": 2.5483335256109337e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08794030502560396,
+      "coupling_information_capacity_gain_percent": 9.553536724132572
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 9,
+      "a": [
+        0.225,
+        0.775
+      ],
+      "committed_support": 10.04874322860691,
+      "fixed_optional_support": 10.04874322860691,
+      "dynamic_optional_support": 11.261289421906753,
+      "independent_sign_support": 12.473835615206594,
+      "tail_upper": 2.493880730684023e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08879977794147491,
+      "coupling_information_capacity_gain_percent": 10.767383270880671
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 10,
+      "a": [
+        0.25,
+        0.75
+      ],
+      "committed_support": 9.812568912598389,
+      "fixed_optional_support": 9.812568912598389,
+      "dynamic_optional_support": 11.151261944834756,
+      "independent_sign_support": 12.489954977071122,
+      "tail_upper": 2.4431032425619627e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08967594922861606,
+      "coupling_information_capacity_gain_percent": 12.004856839153044
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 11,
+      "a": [
+        0.275,
+        0.725
+      ],
+      "committed_support": 9.581382980010883,
+      "fixed_optional_support": 9.581382980010883,
+      "dynamic_optional_support": 11.043728659473263,
+      "independent_sign_support": 12.506074338935646,
+      "tail_upper": 2.3962347177544477e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09054912800145667,
+      "coupling_information_capacity_gain_percent": 13.241412611201643
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 12,
+      "a": [
+        0.30000000000000004,
+        0.7
+      ],
+      "committed_support": 9.423096562711466,
+      "fixed_optional_support": 9.423096562711466,
+      "dynamic_optional_support": 10.972645131755819,
+      "independent_sign_support": 12.522193700800171,
+      "tail_upper": 2.35350870088512e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09113572780239747,
+      "coupling_information_capacity_gain_percent": 14.121923660502066
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 13,
+      "a": [
+        0.325,
+        0.675
+      ],
+      "committed_support": 9.30496304305379,
+      "fixed_optional_support": 9.30496304305379,
+      "dynamic_optional_support": 10.921638052859244,
+      "independent_sign_support": 12.538313062664699,
+      "tail_upper": 2.3151545524062675e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09156135692834133,
+      "coupling_information_capacity_gain_percent": 14.802495760992706
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 14,
+      "a": [
+        0.35000000000000003,
+        0.6499999999999999
+      ],
+      "committed_support": 9.199579609694858,
+      "fixed_optional_support": 9.199579609694858,
+      "dynamic_optional_support": 10.877006017112043,
+      "independent_sign_support": 12.554432424529223,
+      "tail_upper": 2.2813927789243625e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09193706415412191,
+      "coupling_information_capacity_gain_percent": 15.421765923253151
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 15,
+      "a": [
+        0.375,
+        0.625
+      ],
+      "committed_support": 9.098191466911816,
+      "fixed_optional_support": 9.098191466911816,
+      "dynamic_optional_support": 10.834371626652782,
+      "independent_sign_support": 12.570551786393748,
+      "tail_upper": 2.252429895855642e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09229884615919755,
+      "coupling_information_capacity_gain_percent": 16.02474254685824
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 16,
+      "a": [
+        0.4,
+        0.6
+      ],
+      "committed_support": 8.997917581720419,
+      "fixed_optional_support": 8.997917581720419,
+      "dynamic_optional_support": 10.792294364989344,
+      "independent_sign_support": 12.586671148258272,
+      "tail_upper": 2.2284530225193346e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09265870316177087,
+      "coupling_information_capacity_gain_percent": 16.626462572128897
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 17,
+      "a": [
+        0.42500000000000004,
+        0.575
+      ],
+      "committed_support": 8.897962185480031,
+      "fixed_optional_support": 8.897962185480031,
+      "dynamic_optional_support": 10.750376347801415,
+      "independent_sign_support": 12.6027905101228,
+      "tail_upper": 2.2096244760642295e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.0930199992677012,
+      "coupling_information_capacity_gain_percent": 17.231156402261448
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 18,
+      "a": [
+        0.45,
+        0.55
+      ],
+      "committed_support": 8.798094827629125,
+      "fixed_optional_support": 8.798094827629125,
+      "dynamic_optional_support": 10.708502349808224,
+      "independent_sign_support": 12.618909871987327,
+      "tail_upper": 2.1960766814216564e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09338374007247696,
+      "coupling_information_capacity_gain_percent": 17.840099948367815
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 19,
+      "a": [
+        0.47500000000000003,
+        0.5249999999999999
+      ],
+      "committed_support": 8.762670575614209,
+      "fixed_optional_support": 8.762670575614209,
+      "dynamic_optional_support": 10.698849904733027,
+      "independent_sign_support": 12.63502923385185,
+      "tail_upper": 2.187907737991036e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.0934679903825563,
+      "coupling_information_capacity_gain_percent": 18.09707909129823
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 20,
+      "a": [
+        0.5,
+        0.5
+      ],
+      "committed_support": 8.814423697235751,
+      "fixed_optional_support": 8.814423697235751,
+      "dynamic_optional_support": 10.732786146476062,
+      "independent_sign_support": 12.651148595716375,
+      "tail_upper": 2.1851779705674823e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.093172451808176,
+      "coupling_information_capacity_gain_percent": 17.873853285245755
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 21,
+      "a": [
+        0.525,
+        0.475
+      ],
+      "committed_support": 8.888357459794891,
+      "fixed_optional_support": 8.888357459794891,
+      "dynamic_optional_support": 10.777812708687897,
+      "independent_sign_support": 12.667267957580904,
+      "tail_upper": 2.187907737991036e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09278320444313429,
+      "coupling_information_capacity_gain_percent": 17.530971264419314
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 22,
+      "a": [
+        0.55,
+        0.44999999999999996
+      ],
+      "committed_support": 8.967893286732167,
+      "fixed_optional_support": 8.967893286732167,
+      "dynamic_optional_support": 10.825640303088797,
+      "independent_sign_support": 12.683387319445426,
+      "tail_upper": 2.196076681421656e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09237328896976908,
+      "coupling_information_capacity_gain_percent": 17.16062019746374
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 23,
+      "a": [
+        0.5750000000000001,
+        0.42499999999999993
+      ],
+      "committed_support": 9.048844386340724,
+      "fixed_optional_support": 9.048844386340724,
+      "dynamic_optional_support": 10.874175533825337,
+      "independent_sign_support": 12.699506681309952,
+      "tail_upper": 2.2096244760642295e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09196099482571238,
+      "coupling_information_capacity_gain_percent": 16.78592682090443
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 24,
+      "a": [
+        0.6000000000000001,
+        0.3999999999999999
+      ],
+      "committed_support": 9.130150278231529,
+      "fixed_optional_support": 9.130150278231529,
+      "dynamic_optional_support": 10.922888160703003,
+      "independent_sign_support": 12.71562604317448,
+      "tail_upper": 2.2284530225193346e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09155087787108125,
+      "coupling_information_capacity_gain_percent": 16.41267269330069
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 25,
+      "a": [
+        0.625,
+        0.375
+      ],
+      "committed_support": 9.211547610933874,
+      "fixed_optional_support": 9.211547610933874,
+      "dynamic_optional_support": 10.971646507986438,
+      "independent_sign_support": 12.731745405039003,
+      "tail_upper": 2.252429895855642e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09114402284762674,
+      "coupling_information_capacity_gain_percent": 16.04224940870416
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 26,
+      "a": [
+        0.65,
+        0.35
+      ],
+      "committed_support": 9.314107035890691,
+      "fixed_optional_support": 9.314107035890691,
+      "dynamic_optional_support": 11.030985901397113,
+      "independent_sign_support": 12.747864766903527,
+      "tail_upper": 2.281392778924363e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.09065372841001877,
+      "coupling_information_capacity_gain_percent": 15.564147038651965
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 27,
+      "a": [
+        0.675,
+        0.32499999999999996
+      ],
+      "committed_support": 9.493766429417496,
+      "fixed_optional_support": 9.493766429417496,
+      "dynamic_optional_support": 11.128875279092775,
+      "independent_sign_support": 12.763984128768056,
+      "tail_upper": 2.3151545524062675e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08985633991951071,
+      "coupling_information_capacity_gain_percent": 14.692489660182218
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 28,
+      "a": [
+        0.7000000000000001,
+        0.29999999999999993
+      ],
+      "committed_support": 9.698842884411576,
+      "fixed_optional_support": 9.698842884411576,
+      "dynamic_optional_support": 11.239473187522078,
+      "independent_sign_support": 12.780103490632579,
+      "tail_upper": 2.3535087008851207e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08897214160448262,
+      "coupling_information_capacity_gain_percent": 13.707317748850434
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 29,
+      "a": [
+        0.7250000000000001,
+        0.2749999999999999
+      ],
+      "committed_support": 9.911230053784752,
+      "fixed_optional_support": 9.911230053784752,
+      "dynamic_optional_support": 11.35372645314093,
+      "independent_sign_support": 12.796222852497104,
+      "tail_upper": 2.3962347177544477e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.0880768093301523,
+      "coupling_information_capacity_gain_percent": 12.7050480325525
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 30,
+      "a": [
+        0.75,
+        0.25
+      ],
+      "committed_support": 10.125837953538795,
+      "fixed_optional_support": 10.125837953538795,
+      "dynamic_optional_support": 11.469090083950212,
+      "independent_sign_support": 12.81234221436163,
+      "tail_upper": 2.4431032425619627e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08719087501103466,
+      "coupling_information_capacity_gain_percent": 11.711932861100793
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 31,
+      "a": [
+        0.775,
+        0.22499999999999998
+      ],
+      "committed_support": 10.341091997584874,
+      "fixed_optional_support": 10.341091997584874,
+      "dynamic_optional_support": 11.584776786905515,
+      "independent_sign_support": 12.828461576226157,
+      "tail_upper": 2.4938807306840236e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08632017848892162,
+      "coupling_information_capacity_gain_percent": 10.735509299811486
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 32,
+      "a": [
+        0.8,
+        0.19999999999999996
+      ],
+      "committed_support": 10.55655595060833,
+      "fixed_optional_support": 10.55655595060833,
+      "dynamic_optional_support": 11.700568444349503,
+      "independent_sign_support": 12.844580938090681,
+      "tail_upper": 2.5483335256109337e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08546593310882472,
+      "coupling_information_capacity_gain_percent": 9.777409526574331
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 33,
+      "a": [
+        0.8250000000000001,
+        0.17499999999999993
+      ],
+      "committed_support": 10.77209140688518,
+      "fixed_optional_support": 10.77209140688518,
+      "dynamic_optional_support": 11.816395853420191,
+      "independent_sign_support": 12.860700299955207,
+      "tail_upper": 2.6062312695621413e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08462817363304187,
+      "coupling_information_capacity_gain_percent": 8.837757802712298
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 34,
+      "a": [
+        0.8500000000000001,
+        0.1499999999999999
+      ],
+      "committed_support": 10.987651102226796,
+      "fixed_optional_support": 11.02750545805585,
+      "dynamic_optional_support": 11.932235382023263,
+      "independent_sign_support": 12.876819661819733,
+      "tail_upper": 2.6673496428008076e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08380659348260672,
+      "coupling_information_capacity_gain_percent": 7.916239074696363
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 35,
+      "a": [
+        0.875,
+        0.125
+      ],
+      "committed_support": 11.261469891986037,
+      "fixed_optional_support": 11.351843853881022,
+      "dynamic_optional_support": 12.077204457835146,
+      "independent_sign_support": 12.892939023684258,
+      "tail_upper": 2.731472463209353e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08280061859441694,
+      "coupling_information_capacity_gain_percent": 6.75433266611547
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 36,
+      "a": [
+        0.9,
+        0.09999999999999998
+      ],
+      "committed_support": 11.582821345140461,
+      "fixed_optional_support": 11.676182249706194,
+      "dynamic_optional_support": 12.245939865344624,
+      "independent_sign_support": 12.909058385548784,
+      "tail_upper": 2.798393205288994e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08165971832263755,
+      "coupling_information_capacity_gain_percent": 5.415007157439589
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 37,
+      "a": [
+        0.925,
+        0.07499999999999996
+      ],
+      "committed_support": 11.922726642059168,
+      "fixed_optional_support": 12.000520645531365,
+      "dynamic_optional_support": 12.423952194736238,
+      "independent_sign_support": 12.92517774741331,
+      "tail_upper": 2.8679160133029556e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.08048968511193069,
+      "coupling_information_capacity_gain_percent": 4.034348690503098
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 38,
+      "a": [
+        0.9500000000000001,
+        0.04999999999999993
+      ],
+      "committed_support": 12.270257291920945,
+      "fixed_optional_support": 12.324859041356538,
+      "dynamic_optional_support": 12.605777200599388,
+      "independent_sign_support": 12.941297109277835,
+      "tail_upper": 2.9398562891962405e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.07932870651977345,
+      "coupling_information_capacity_gain_percent": 2.6616360367093694
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 39,
+      "a": [
+        0.9750000000000001,
+        0.02499999999999991
+      ],
+      "committed_support": 12.62124881433409,
+      "fixed_optional_support": 12.64919743718171,
+      "dynamic_optional_support": 12.789332642738225,
+      "independent_sign_support": 12.957416471142357,
+      "tail_upper": 3.0140409348097997e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.07819016268747997,
+      "coupling_information_capacity_gain_percent": 1.3142501888053548
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 40,
+      "a": [
+        1.0,
+        0.0
+      ],
+      "committed_support": 12.973535833006885,
+      "fixed_optional_support": 12.973535833006885,
+      "dynamic_optional_support": 12.973535833006885,
+      "independent_sign_support": 12.973535833006881,
+      "tail_upper": 3.090308322175449e-22,
+      "dynamic_optional_total_amplitude_capacity": 0.07707998905401175,
+      "coupling_information_capacity_gain_percent": -2.220446049250313e-14
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 0,
+      "a": [
+        0.0,
+        1.0
+      ],
+      "committed_support": 3.677438702921856,
+      "fixed_optional_support": 3.6774387029218567,
+      "dynamic_optional_support": 3.677438702921856,
+      "independent_sign_support": 3.6774387029218563,
+      "tail_upper": 3.539066085681611e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2719283938588737,
+      "coupling_information_capacity_gain_percent": 2.220446049250313e-14
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 1,
+      "a": [
+        0.025,
+        0.975
+      ],
+      "committed_support": 3.629081296155704,
+      "fixed_optional_support": 3.629081296155704,
+      "dynamic_optional_support": 3.6605168935881265,
+      "independent_sign_support": 3.69195249102055,
+      "tail_upper": 3.4517235632114574e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.273185462345941,
+      "coupling_information_capacity_gain_percent": 0.8587748218697566
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 2,
+      "a": [
+        0.05,
+        0.95
+      ],
+      "committed_support": 3.5807238893895517,
+      "fixed_optional_support": 3.5807238893895517,
+      "dynamic_optional_support": 3.6435950842543976,
+      "independent_sign_support": 3.706466279119244,
+      "tail_upper": 3.366766226920677e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.274454207143227,
+      "coupling_information_capacity_gain_percent": 1.725526393877863
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 3,
+      "a": [
+        0.07500000000000001,
+        0.925
+      ],
+      "committed_support": 3.5323664826234,
+      "fixed_optional_support": 3.5323664826234,
+      "dynamic_optional_support": 3.6266732749206683,
+      "independent_sign_support": 3.720980067217938,
+      "tail_upper": 3.28437917551175e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2757347916933252,
+      "coupling_information_capacity_gain_percent": 2.6003663729353255
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 4,
+      "a": [
+        0.1,
+        0.9
+      ],
+      "committed_support": 3.484009075857249,
+      "fixed_optional_support": 3.484009075857249,
+      "dynamic_optional_support": 3.6097514655869403,
+      "independent_sign_support": 3.735493855316631,
+      "tail_upper": 3.204760643516742e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2770273825035767,
+      "coupling_information_capacity_gain_percent": 3.483408509656072
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 5,
+      "a": [
+        0.125,
+        0.875
+      ],
+      "committed_support": 3.4356516690910968,
+      "fixed_optional_support": 3.4356516690910968,
+      "dynamic_optional_support": 3.5928296562532105,
+      "independent_sign_support": 3.750007643415324,
+      "tail_upper": 3.128122035315998e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27833214921824373,
+      "coupling_information_capacity_gain_percent": 4.3747686976628675
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 6,
+      "a": [
+        0.15000000000000002,
+        0.85
+      ],
+      "committed_support": 3.387294262324945,
+      "fixed_optional_support": 3.387294262324945,
+      "dynamic_optional_support": 3.5759078469194816,
+      "independent_sign_support": 3.7645214315140176,
+      "tail_upper": 3.054687647750947e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27964926469273105,
+      "coupling_information_capacity_gain_percent": 5.2745650242922215
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 7,
+      "a": [
+        0.17500000000000002,
+        0.825
+      ],
+      "committed_support": 3.3389368555587935,
+      "fixed_optional_support": 3.3389368555587935,
+      "dynamic_optional_support": 3.5589860375857527,
+      "independent_sign_support": 3.779035219612712,
+      "tail_upper": 2.9846939968298214e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2809789050699262,
+      "coupling_information_capacity_gain_percent": 6.182917822746781
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 8,
+      "a": [
+        0.2,
+        0.8
+      ],
+      "committed_support": 3.2905794487926414,
+      "fixed_optional_support": 3.2905794487926414,
+      "dynamic_optional_support": 3.5420642282520234,
+      "independent_sign_support": 3.7935490077114062,
+      "tail_upper": 2.9183886574613046e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2823212498587274,
+      "coupling_information_capacity_gain_percent": 7.09994972574195
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 9,
+      "a": [
+        0.225,
+        0.775
+      ],
+      "committed_support": 3.2422220420264893,
+      "fixed_optional_support": 3.2422220420264893,
+      "dynamic_optional_support": 3.5251424189182945,
+      "independent_sign_support": 3.808062795810099,
+      "tail_upper": 2.856028523874135e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.28367648201483286,
+      "coupling_information_capacity_gain_percent": 8.025785720697787
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 10,
+      "a": [
+        0.25,
+        0.75
+      ],
+      "committed_support": 3.193864635260338,
+      "fixed_optional_support": 3.193864635260338,
+      "dynamic_optional_support": 3.508220609584566,
+      "independent_sign_support": 3.822576583908794,
+      "tail_upper": 2.797877405152628e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2850447880238687,
+      "coupling_information_capacity_gain_percent": 8.96055320652862
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 11,
+      "a": [
+        0.275,
+        0.725
+      ],
+      "committed_support": 3.1455072284941856,
+      "fixed_optional_support": 3.1455072284941856,
+      "dynamic_optional_support": 3.4912988002508363,
+      "independent_sign_support": 3.837090372007487,
+      "tail_upper": 2.7442028881337445e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2864263579869342,
+      "coupling_information_capacity_gain_percent": 9.904382052083506
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 12,
+      "a": [
+        0.30000000000000004,
+        0.7
+      ],
+      "committed_support": 3.0971498217280335,
+      "fixed_optional_support": 3.0971498217280335,
+      "dynamic_optional_support": 3.474376990917107,
+      "independent_sign_support": 3.8516041601061803,
+      "tail_upper": 2.6952724315209065e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.28782138570864674,
+      "coupling_information_capacity_gain_percent": 10.857404656294921
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 13,
+      "a": [
+        0.325,
+        0.675
+      ],
+      "committed_support": 3.0487924149618824,
+      "fixed_optional_support": 3.0487924149618824,
+      "dynamic_optional_support": 3.457455181583379,
+      "independent_sign_support": 3.866117948204875,
+      "tail_upper": 2.651348702243579e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2892300687877722,
+      "coupling_information_capacity_gain_percent": 11.819756010093663
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 14,
+      "a": [
+        0.35000000000000003,
+        0.6499999999999999
+      ],
+      "committed_support": 3.0004350081957303,
+      "fixed_optional_support": 3.0004350081957303,
+      "dynamic_optional_support": 3.440533372249649,
+      "independent_sign_support": 3.880631736303568,
+      "tail_upper": 2.6126842276780903e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2906526087105307,
+      "coupling_information_capacity_gain_percent": 12.791573760150833
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 15,
+      "a": [
+        0.375,
+        0.625
+      ],
+      "committed_support": 2.9520776014295786,
+      "fixed_optional_support": 2.9520776014295786,
+      "dynamic_optional_support": 3.42361156291592,
+      "independent_sign_support": 3.8951455244022615,
+      "tail_upper": 2.5795155122859914e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.29208921094666807,
+      "coupling_information_capacity_gain_percent": 13.772998274510218
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 16,
+      "a": [
+        0.4,
+        0.6
+      ],
+      "committed_support": 2.903720194663426,
+      "fixed_optional_support": 2.903720194663426,
+      "dynamic_optional_support": 3.4066897535821914,
+      "independent_sign_support": 3.9096593125009558,
+      "tail_upper": 2.5520568478361364e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2935400850483914,
+      "coupling_information_capacity_gain_percent": 14.764172710176604
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 17,
+      "a": [
+        0.42500000000000004,
+        0.575
+      ],
+      "committed_support": 2.8553627878972745,
+      "fixed_optional_support": 2.8553627878972745,
+      "dynamic_optional_support": 3.3897679442484616,
+      "independent_sign_support": 3.9241731005996496,
+      "tail_upper": 2.5304941222906696e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2950054447522684,
+      "coupling_information_capacity_gain_percent": 15.765243082728775
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 18,
+      "a": [
+        0.45,
+        0.55
+      ],
+      "committed_support": 2.807005381131123,
+      "fixed_optional_support": 2.807005381131123,
+      "dynamic_optional_support": 3.372846134914733,
+      "independent_sign_support": 3.9386868886983435,
+      "tail_upper": 2.514978990609065e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2964855080841926,
+      "coupling_information_capacity_gain_percent": 16.77635833802762
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 19,
+      "a": [
+        0.47500000000000003,
+        0.5249999999999999
+      ],
+      "committed_support": 2.7586479743649712,
+      "fixed_optional_support": 2.7586479743649712,
+      "dynamic_optional_support": 3.3559243255810034,
+      "independent_sign_support": 3.953200676797037,
+      "tail_upper": 2.5056237976518753e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.29798049746752625,
+      "coupling_information_capacity_gain_percent": 17.797670426094257
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 20,
+      "a": [
+        0.5,
+        0.5
+      ],
+      "committed_support": 2.71029056759882,
+      "fixed_optional_support": 2.71029056759882,
+      "dynamic_optional_support": 3.3390025162472754,
+      "independent_sign_support": 3.967714464895731,
+      "tail_upper": 2.502497628252799e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.29949063983452934,
+      "coupling_information_capacity_gain_percent": 18.829334377233977
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 21,
+      "a": [
+        0.525,
+        0.475
+      ],
+      "committed_support": 2.7876755505623594,
+      "fixed_optional_support": 2.7876755505623594,
+      "dynamic_optional_support": 3.3849519017783916,
+      "independent_sign_support": 3.982228252994425,
+      "tail_upper": 2.5056237976518753e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2954251726515282,
+      "coupling_information_capacity_gain_percent": 17.64504691786715
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 22,
+      "a": [
+        0.55,
+        0.44999999999999996
+      ],
+      "committed_support": 2.865060533525898,
+      "fixed_optional_support": 2.865060533525898,
+      "dynamic_optional_support": 3.430901287309508,
+      "independent_sign_support": 3.9967420410931185,
+      "tail_upper": 2.5149789906090643e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.29146860147182896,
+      "coupling_information_capacity_gain_percent": 16.492481316107433
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 23,
+      "a": [
+        0.5750000000000001,
+        0.42499999999999993
+      ],
+      "committed_support": 2.942445516489437,
+      "fixed_optional_support": 2.942445516489437,
+      "dynamic_optional_support": 3.4768506728406243,
+      "independent_sign_support": 4.0112558291918115,
+      "tail_upper": 2.5304941222906696e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2876166088499249,
+      "coupling_information_capacity_gain_percent": 15.370379882164231
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 24,
+      "a": [
+        0.6000000000000001,
+        0.3999999999999999
+      ],
+      "committed_support": 3.019830499452977,
+      "fixed_optional_support": 3.019830499452977,
+      "dynamic_optional_support": 3.522800058371742,
+      "independent_sign_support": 4.025769617290506,
+      "tail_upper": 2.5520568478361364e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.28386510259745074,
+      "coupling_information_capacity_gain_percent": 14.277550544586969
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 25,
+      "a": [
+        0.625,
+        0.375
+      ],
+      "committed_support": 3.097215482416517,
+      "fixed_optional_support": 3.097215482416517,
+      "dynamic_optional_support": 3.5687494439028575,
+      "independent_sign_support": 4.040283405389199,
+      "tail_upper": 2.5795155122859914e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2802102012817071,
+      "coupling_information_capacity_gain_percent": 13.21286262592485
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 26,
+      "a": [
+        0.65,
+        0.35
+      ],
+      "committed_support": 3.174600465380055,
+      "fixed_optional_support": 3.174600465380055,
+      "dynamic_optional_support": 3.614698829433974,
+      "independent_sign_support": 4.054797193487894,
+      "tail_upper": 2.612684227678091e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2766482208302234,
+      "coupling_information_capacity_gain_percent": 12.175242940580876
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 27,
+      "a": [
+        0.675,
+        0.32499999999999996
+      ],
+      "committed_support": 3.2519854483435946,
+      "fixed_optional_support": 3.2519854483435946,
+      "dynamic_optional_support": 3.6606482149650907,
+      "independent_sign_support": 4.069310981586587,
+      "tail_upper": 2.651348702243579e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2731756621441802,
+      "coupling_information_capacity_gain_percent": 11.163672186549988
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 28,
+      "a": [
+        0.7000000000000001,
+        0.29999999999999993
+      ],
+      "committed_support": 3.3293704313071344,
+      "fixed_optional_support": 3.3293704313071344,
+      "dynamic_optional_support": 3.7065976004962073,
+      "independent_sign_support": 4.083824769685282,
+      "tail_upper": 2.695272431520907e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.26978919963314296,
+      "coupling_information_capacity_gain_percent": 10.177181605539666
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 29,
+      "a": [
+        0.7250000000000001,
+        0.2749999999999999
+      ],
+      "committed_support": 3.406755414270673,
+      "fixed_optional_support": 3.406755414270673,
+      "dynamic_optional_support": 3.7525469860273235,
+      "independent_sign_support": 4.098338557783975,
+      "tail_upper": 2.7442028881337445e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2664856705921386,
+      "coupling_information_capacity_gain_percent": 9.21484988846808
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 30,
+      "a": [
+        0.75,
+        0.25
+      ],
+      "committed_support": 3.4841403972342126,
+      "fixed_optional_support": 3.4841403972342126,
+      "dynamic_optional_support": 3.7984963715584406,
+      "independent_sign_support": 4.1128523458826685,
+      "tail_upper": 2.797877405152628e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.26326206534974833,
+      "coupling_information_capacity_gain_percent": 8.275800305562875
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 31,
+      "a": [
+        0.775,
+        0.22499999999999998
+      ],
+      "committed_support": 3.561525380197752,
+      "fixed_optional_support": 3.561525380197752,
+      "dynamic_optional_support": 3.844445757089557,
+      "independent_sign_support": 4.127366133981362,
+      "tail_upper": 2.856028523874135e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2601155181227089,
+      "coupling_information_capacity_gain_percent": 7.359198042268389
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 32,
+      "a": [
+        0.8,
+        0.19999999999999996
+      ],
+      "committed_support": 3.6389103631612914,
+      "fixed_optional_support": 3.6389103631612914,
+      "dynamic_optional_support": 3.890395142620673,
+      "independent_sign_support": 4.141879922080056,
+      "tail_upper": 2.918388657461305e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.257043298518611,
+      "coupling_information_capacity_gain_percent": 6.464247723946537
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 33,
+      "a": [
+        0.8250000000000001,
+        0.17499999999999993
+      ],
+      "committed_support": 3.71629534612483,
+      "fixed_optional_support": 3.71629534612483,
+      "dynamic_optional_support": 3.936344528151789,
+      "independent_sign_support": 4.15639371017875,
+      "tail_upper": 2.9846939968298224e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.254042803633737,
+      "coupling_information_capacity_gain_percent": 5.590191113943965
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 34,
+      "a": [
+        0.8500000000000001,
+        0.1499999999999999
+      ],
+      "committed_support": 3.7936803290883687,
+      "fixed_optional_support": 3.7936803290883687,
+      "dynamic_optional_support": 3.982293913682906,
+      "independent_sign_support": 4.170907498277443,
+      "tail_upper": 3.054687647750947e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.25111155069796937,
+      "coupling_information_capacity_gain_percent": 4.736304971023686
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 35,
+      "a": [
+        0.875,
+        0.125
+      ],
+      "committed_support": 3.871065312051909,
+      "fixed_optional_support": 3.871065312051909,
+      "dynamic_optional_support": 4.028243299214023,
+      "independent_sign_support": 4.185421286376138,
+      "tail_upper": 3.128122035315998e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2482471702230887,
+      "coupling_information_capacity_gain_percent": 3.901899053435587
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 36,
+      "a": [
+        0.9,
+        0.09999999999999998
+      ],
+      "committed_support": 3.9484502950154474,
+      "fixed_optional_support": 3.9484502950154474,
+      "dynamic_optional_support": 4.074192684745139,
+      "independent_sign_support": 4.199935074474832,
+      "tail_upper": 3.204760643516742e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2454473996147178,
+      "coupling_information_capacity_gain_percent": 3.0863142580493497
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 37,
+      "a": [
+        0.925,
+        0.07499999999999996
+      ],
+      "committed_support": 4.025835277978986,
+      "fixed_optional_support": 4.025835277978986,
+      "dynamic_optional_support": 4.120142070276255,
+      "independent_sign_support": 4.214448862573525,
+      "tail_upper": 3.28437917551175e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.24271007721171864,
+      "coupling_information_capacity_gain_percent": 2.288920884005985
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 38,
+      "a": [
+        0.9500000000000001,
+        0.04999999999999993
+      ],
+      "committed_support": 4.103220260942526,
+      "fixed_optional_support": 4.103220260942526,
+      "dynamic_optional_support": 4.166091455807371,
+      "independent_sign_support": 4.228962650672218,
+      "tail_upper": 3.3667662269206775e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2400331367200397,
+      "coupling_information_capacity_gain_percent": 1.5091170112746077
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 39,
+      "a": [
+        0.9750000000000001,
+        0.02499999999999991
+      ],
+      "committed_support": 4.180605243906066,
+      "fixed_optional_support": 4.180605243906066,
+      "dynamic_optional_support": 4.2120408413384895,
+      "independent_sign_support": 4.243476438770912,
+      "tail_upper": 3.4517235632114574e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.23741460201089196,
+      "coupling_information_capacity_gain_percent": 0.7463269853393184
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 40,
+      "a": [
+        1.0,
+        0.0
+      ],
+      "committed_support": 4.257990226869605,
+      "fixed_optional_support": 4.257990226869605,
+      "dynamic_optional_support": 4.257990226869605,
+      "independent_sign_support": 4.257990226869606,
+      "tail_upper": 3.539066085681611e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.23485258225573272,
+      "coupling_information_capacity_gain_percent": 2.220446049250313e-14
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 0,
+      "a": [
+        0.0,
+        1.0
+      ],
+      "committed_support": 3.8624512403636913,
+      "fixed_optional_support": 3.8624512403636926,
+      "dynamic_optional_support": 3.8624512403636913,
+      "independent_sign_support": 3.862451240363691,
+      "tail_upper": 3.539066085681611e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.25890294472839465,
+      "coupling_information_capacity_gain_percent": -1.1102230246251565e-14
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 1,
+      "a": [
+        0.025,
+        0.975
+      ],
+      "committed_support": 3.7933006200983557,
+      "fixed_optional_support": 3.7933006200983557,
+      "dynamic_optional_support": 3.835223260122979,
+      "independent_sign_support": 3.8771459001476027,
+      "tail_upper": 3.4517235632114574e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2607410135408738,
+      "coupling_information_capacity_gain_percent": 1.0930951650329535
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 2,
+      "a": [
+        0.05,
+        0.95
+      ],
+      "committed_support": 3.7242353018099217,
+      "fixed_optional_support": 3.7242353018099217,
+      "dynamic_optional_support": 3.808037930870719,
+      "independent_sign_support": 3.8918405599315156,
+      "tail_upper": 3.366766226920677e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.26260242627660674,
+      "coupling_information_capacity_gain_percent": 2.2006773719723594
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 3,
+      "a": [
+        0.07500000000000001,
+        0.925
+      ],
+      "committed_support": 3.6552919223474962,
+      "fixed_optional_support": 3.6552919223474962,
+      "dynamic_optional_support": 3.7809135710314616,
+      "independent_sign_support": 3.906535219715428,
+      "tail_upper": 3.28437917551175e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2644863420475365,
+      "coupling_information_capacity_gain_percent": 3.322521034240289
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 4,
+      "a": [
+        0.1,
+        0.9
+      ],
+      "committed_support": 3.5868869043743965,
+      "fixed_optional_support": 3.5868869043743965,
+      "dynamic_optional_support": 3.754058391936869,
+      "independent_sign_support": 3.9212298794993403,
+      "tail_upper": 3.204760643516742e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2663783818993982,
+      "coupling_information_capacity_gain_percent": 4.453087035660652
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 5,
+      "a": [
+        0.125,
+        0.875
+      ],
+      "committed_support": 3.524607140878444,
+      "fixed_optional_support": 3.524607140878444,
+      "dynamic_optional_support": 3.7302658400808486,
+      "independent_sign_support": 3.9359245392832527,
+      "tail_upper": 3.128122035315998e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2680774086541581,
+      "coupling_information_capacity_gain_percent": 5.513245114936538
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 6,
+      "a": [
+        0.15000000000000002,
+        0.85
+      ],
+      "committed_support": 3.46234827778793,
+      "fixed_optional_support": 3.46234827778793,
+      "dynamic_optional_support": 3.7064837384275475,
+      "independent_sign_support": 3.9506191990671646,
+      "tail_upper": 3.054687647750947e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2697974874764306,
+      "coupling_information_capacity_gain_percent": 6.586713388446963
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 7,
+      "a": [
+        0.17500000000000002,
+        0.825
+      ],
+      "committed_support": 3.400095973399525,
+      "fixed_optional_support": 3.400095973399525,
+      "dynamic_optional_support": 3.6827049161253007,
+      "independent_sign_support": 3.9653138588510766,
+      "tail_upper": 2.9846939968298214e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27153954030401495,
+      "coupling_information_capacity_gain_percent": 7.6739502393560866
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 8,
+      "a": [
+        0.2,
+        0.8
+      ],
+      "committed_support": 3.338532518104427,
+      "fixed_optional_support": 3.338532518104427,
+      "dynamic_optional_support": 3.659270518369708,
+      "independent_sign_support": 3.980008518634989,
+      "tail_upper": 2.9183886574613046e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27327851138087594,
+      "coupling_information_capacity_gain_percent": 8.7650803255775
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 9,
+      "a": [
+        0.225,
+        0.775
+      ],
+      "committed_support": 3.277153399224908,
+      "fixed_optional_support": 3.277153399224908,
+      "dynamic_optional_support": 3.6359282888219053,
+      "independent_sign_support": 3.9947031784189018,
+      "tail_upper": 2.856028523874135e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2750329270998947,
+      "coupling_information_capacity_gain_percent": 9.86749080558036
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 10,
+      "a": [
+        0.25,
+        0.75
+      ],
+      "committed_support": 3.2427601871923413,
+      "fixed_optional_support": 3.2427601871923413,
+      "dynamic_optional_support": 3.6260790126975775,
+      "independent_sign_support": 4.009397838202815,
+      "tail_upper": 2.797877405152628e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27577998066182846,
+      "coupling_information_capacity_gain_percent": 10.571165828514918
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 11,
+      "a": [
+        0.275,
+        0.725
+      ],
+      "committed_support": 3.20898819417291,
+      "fixed_optional_support": 3.20898819417291,
+      "dynamic_optional_support": 3.6165403460798182,
+      "independent_sign_support": 4.024092497986727,
+      "tail_upper": 2.7442028881337445e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.276507353521981,
+      "coupling_information_capacity_gain_percent": 11.269116694596782
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 12,
+      "a": [
+        0.30000000000000004,
+        0.7
+      ],
+      "committed_support": 3.176320508980612,
+      "fixed_optional_support": 3.176320508980612,
+      "dynamic_optional_support": 3.6075538333756247,
+      "independent_sign_support": 4.0387871577706385,
+      "tail_upper": 2.6952724315209065e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2771961407057618,
+      "coupling_information_capacity_gain_percent": 11.953621326601361
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 13,
+      "a": [
+        0.325,
+        0.675
+      ],
+      "committed_support": 3.1460648970792833,
+      "fixed_optional_support": 3.1460648970792833,
+      "dynamic_optional_support": 3.5997733573169173,
+      "independent_sign_support": 4.053481817554551,
+      "tail_upper": 2.651348702243579e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27779526674016713,
+      "coupling_information_capacity_gain_percent": 12.603806273398387
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 14,
+      "a": [
+        0.35000000000000003,
+        0.6499999999999999
+      ],
+      "committed_support": 3.1158183955991903,
+      "fixed_optional_support": 3.1158183955991903,
+      "dynamic_optional_support": 3.591997436468827,
+      "independent_sign_support": 4.068176477338461,
+      "tail_upper": 2.6126842276780903e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27839663521115054,
+      "coupling_information_capacity_gain_percent": 13.256664273617913
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 15,
+      "a": [
+        0.375,
+        0.625
+      ],
+      "committed_support": 3.0859569993545652,
+      "fixed_optional_support": 3.0859569993545652,
+      "dynamic_optional_support": 3.5844140682384693,
+      "independent_sign_support": 4.082871137122375,
+      "tail_upper": 2.5795155122859914e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2789856252549086,
+      "coupling_information_capacity_gain_percent": 13.906235702530534
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 16,
+      "a": [
+        0.4,
+        0.6
+      ],
+      "committed_support": 3.062241766255859,
+      "fixed_optional_support": 3.062241766255859,
+      "dynamic_optional_support": 3.5799037815810735,
+      "independent_sign_support": 4.097565796906288,
+      "tail_upper": 2.5520568478361364e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27933711658539256,
+      "coupling_information_capacity_gain_percent": 14.460221472672874
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 17,
+      "a": [
+        0.42500000000000004,
+        0.575
+      ],
+      "committed_support": 3.0460583116447912,
+      "fixed_optional_support": 3.0460583116447912,
+      "dynamic_optional_support": 3.579159384167496,
+      "independent_sign_support": 4.1122604566902,
+      "tail_upper": 2.5304941222906696e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2793952134189737,
+      "coupling_information_capacity_gain_percent": 14.894588793136476
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 18,
+      "a": [
+        0.45,
+        0.55
+      ],
+      "committed_support": 3.03026871272344,
+      "fixed_optional_support": 3.03026871272344,
+      "dynamic_optional_support": 3.578611914598776,
+      "independent_sign_support": 4.126955116474112,
+      "tail_upper": 2.514978990609065e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2794379563541238,
+      "coupling_information_capacity_gain_percent": 15.322790371272067
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 19,
+      "a": [
+        0.47500000000000003,
+        0.5249999999999999
+      ],
+      "committed_support": 3.01578340907086,
+      "fixed_optional_support": 3.01578340907086,
+      "dynamic_optional_support": 3.578716592664443,
+      "independent_sign_support": 4.141649776258024,
+      "tail_upper": 2.5056237976518753e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2794297827466341,
+      "coupling_information_capacity_gain_percent": 15.730029719242555
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 20,
+      "a": [
+        0.5,
+        0.5
+      ],
+      "committed_support": 3.0460194148206625,
+      "fixed_optional_support": 3.0460194148206625,
+      "dynamic_optional_support": 3.6011819254312987,
+      "independent_sign_support": 4.156344436041937,
+      "tail_upper": 2.502497628252799e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2776866097594428,
+      "coupling_information_capacity_gain_percent": 15.41611954370088
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 21,
+      "a": [
+        0.525,
+        0.475
+      ],
+      "committed_support": 3.082781445772955,
+      "fixed_optional_support": 3.082781445772955,
+      "dynamic_optional_support": 3.6269102707994025,
+      "independent_sign_support": 4.17103909582585,
+      "tail_upper": 2.5056237976518753e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27571677415101625,
+      "coupling_information_capacity_gain_percent": 15.002544435887488
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 22,
+      "a": [
+        0.55,
+        0.44999999999999996
+      ],
+      "committed_support": 3.1239177724424634,
+      "fixed_optional_support": 3.1239177724424634,
+      "dynamic_optional_support": 3.654825764026112,
+      "independent_sign_support": 4.1857337556097605,
+      "tail_upper": 2.5149789906090643e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27361085440593264,
+      "coupling_information_capacity_gain_percent": 14.526218918813981
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 23,
+      "a": [
+        0.5750000000000001,
+        0.42499999999999993
+      ],
+      "committed_support": 3.1668659517864666,
+      "fixed_optional_support": 3.1668659517864666,
+      "dynamic_optional_support": 3.6836471835900704,
+      "independent_sign_support": 4.200428415393672,
+      "tail_upper": 2.5304941222906696e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.27147008118877536,
+      "coupling_information_capacity_gain_percent": 14.029064295455896
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 24,
+      "a": [
+        0.6000000000000001,
+        0.3999999999999999
+      ],
+      "committed_support": 3.210194344569312,
+      "fixed_optional_support": 3.210194344569312,
+      "dynamic_optional_support": 3.712658709873449,
+      "independent_sign_support": 4.215123075177585,
+      "tail_upper": 2.5520568478361364e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.26934875466484404,
+      "coupling_information_capacity_gain_percent": 13.53381510581304
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 25,
+      "a": [
+        0.625,
+        0.375
+      ],
+      "committed_support": 3.2564395431524793,
+      "fixed_optional_support": 3.2564395431524793,
+      "dynamic_optional_support": 3.7431286390569882,
+      "independent_sign_support": 4.229817734961498,
+      "tail_upper": 2.5795155122859914e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.26715619376948035,
+      "coupling_information_capacity_gain_percent": 13.002200641095829
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 26,
+      "a": [
+        0.65,
+        0.35
+      ],
+      "committed_support": 3.3221706352555573,
+      "fixed_optional_support": 3.3221706352555573,
+      "dynamic_optional_support": 3.7833415150004837,
+      "independent_sign_support": 4.24451239474541,
+      "tail_upper": 2.612684227678091e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.26431660901748444,
+      "coupling_information_capacity_gain_percent": 12.189512311178907
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 27,
+      "a": [
+        0.675,
+        0.32499999999999996
+      ],
+      "committed_support": 3.387968577314877,
+      "fixed_optional_support": 3.387968577314877,
+      "dynamic_optional_support": 3.8235878159220995,
+      "independent_sign_support": 4.2592070545293215,
+      "tail_upper": 2.651348702243579e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2615344666168833,
+      "coupling_information_capacity_gain_percent": 11.392944521719262
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 28,
+      "a": [
+        0.7000000000000001,
+        0.29999999999999993
+      ],
+      "committed_support": 3.455702549924218,
+      "fixed_optional_support": 3.455702549924218,
+      "dynamic_optional_support": 3.8648021321187267,
+      "independent_sign_support": 4.273901714313233,
+      "tail_upper": 2.695272431520907e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2587454585810294,
+      "coupling_information_capacity_gain_percent": 10.585265900022511
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 29,
+      "a": [
+        0.7250000000000001,
+        0.2749999999999999
+      ],
+      "committed_support": 3.5240855137798617,
+      "fixed_optional_support": 3.5240855137798617,
+      "dynamic_optional_support": 3.906340943938505,
+      "independent_sign_support": 4.288596374097147,
+      "tail_upper": 2.7442028881337445e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2559940400368039,
+      "coupling_information_capacity_gain_percent": 9.785511189231721
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 30,
+      "a": [
+        0.75,
+        0.25
+      ],
+      "committed_support": 3.5925278262724953,
+      "fixed_optional_support": 3.5925278262724953,
+      "dynamic_optional_support": 3.947909430076777,
+      "independent_sign_support": 4.3032910338810595,
+      "tail_upper": 2.797877405152628e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2532986173344287,
+      "coupling_information_capacity_gain_percent": 9.001766886971652
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 31,
+      "a": [
+        0.775,
+        0.22499999999999998
+      ],
+      "committed_support": 3.661210526527148,
+      "fixed_optional_support": 3.661210526527148,
+      "dynamic_optional_support": 3.9895981100960607,
+      "independent_sign_support": 4.317985693664973,
+      "tail_upper": 2.856028523874135e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2506518131411292,
+      "coupling_information_capacity_gain_percent": 8.231094323458187
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 32,
+      "a": [
+        0.8,
+        0.19999999999999996
+      ],
+      "committed_support": 3.7340307307537954,
+      "fixed_optional_support": 3.7340307307537954,
+      "dynamic_optional_support": 4.03335554210134,
+      "independent_sign_support": 4.3326803534488825,
+      "tail_upper": 2.918388657461305e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.24793251910517403,
+      "coupling_information_capacity_gain_percent": 7.421235450807706
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 33,
+      "a": [
+        0.8250000000000001,
+        0.17499999999999993
+      ],
+      "committed_support": 3.8114407222212328,
+      "fixed_optional_support": 3.8114407222212328,
+      "dynamic_optional_support": 4.0794078677270145,
+      "independent_sign_support": 4.347375013232796,
+      "tail_upper": 2.9846939968298224e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2451336155698462,
+      "coupling_information_capacity_gain_percent": 6.568775523176318
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 34,
+      "a": [
+        0.8500000000000001,
+        0.1499999999999999
+      ],
+      "committed_support": 3.8888728747110797,
+      "fixed_optional_support": 3.8888728747110797,
+      "dynamic_optional_support": 4.125471273863893,
+      "independent_sign_support": 4.36206967301671,
+      "tail_upper": 3.054687647750947e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.24239654905254152,
+      "coupling_information_capacity_gain_percent": 5.735063546599872
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 35,
+      "a": [
+        0.875,
+        0.125
+      ],
+      "committed_support": 3.9666855479226513,
+      "fixed_optional_support": 3.9666855479226513,
+      "dynamic_optional_support": 4.171724940361637,
+      "independent_sign_support": 4.37676433280062,
+      "tail_upper": 3.128122035315998e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.2397089967089998,
+      "coupling_information_capacity_gain_percent": 4.9149787047371385
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 36,
+      "a": [
+        0.9,
+        0.09999999999999998
+      ],
+      "committed_support": 4.045100020887281,
+      "fixed_optional_support": 4.045100020887281,
+      "dynamic_optional_support": 4.2182795067359065,
+      "independent_sign_support": 4.391458992584532,
+      "tail_upper": 3.204760643516742e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.23706347538212263,
+      "coupling_information_capacity_gain_percent": 4.105453078016419
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 37,
+      "a": [
+        0.925,
+        0.07499999999999996
+      ],
+      "committed_support": 4.12994488988705,
+      "fixed_optional_support": 4.12994488988705,
+      "dynamic_optional_support": 4.268049271127748,
+      "independent_sign_support": 4.406153652368445,
+      "tail_upper": 3.28437917551175e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.23429907587167326,
+      "coupling_information_capacity_gain_percent": 3.235772889852462
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 38,
+      "a": [
+        0.9500000000000001,
+        0.04999999999999993
+      ],
+      "committed_support": 4.2366450762352255,
+      "fixed_optional_support": 4.2366450762352255,
+      "dynamic_optional_support": 4.328746694193791,
+      "independent_sign_support": 4.420848312152356,
+      "tail_upper": 3.3667662269206775e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.23101374846934658,
+      "coupling_information_capacity_gain_percent": 2.1276740004699812
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 39,
+      "a": [
+        0.9750000000000001,
+        0.02499999999999991
+      ],
+      "committed_support": 4.343428703043125,
+      "fixed_optional_support": 4.343428703043125,
+      "dynamic_optional_support": 4.389485837489698,
+      "independent_sign_support": 4.435542971936269,
+      "tail_upper": 3.4517235632114574e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.22781711503866928,
+      "coupling_information_capacity_gain_percent": 1.0492603496566
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 40,
+      "a": [
+        1.0,
+        0.0
+      ],
+      "committed_support": 4.4502376317201815,
+      "fixed_optional_support": 4.4502376317201815,
+      "dynamic_optional_support": 4.4502376317201815,
+      "independent_sign_support": 4.4502376317201815,
+      "tail_upper": 3.539066085681611e-72,
+      "dynamic_optional_total_amplitude_capacity": 0.22470710167750368,
+      "coupling_information_capacity_gain_percent": 0.0
+    }
+  ],
+  "checks": [
+    {
+      "case": "development",
+      "ray": 0,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 1,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 2,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 3,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "ray": 4,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 5,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 6,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 7,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 8,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 9,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "ray": 10,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 11,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "ray": 12,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "ray": 13,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 14,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 15,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "ray": 16,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 17,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 18,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 19,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 20,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 21,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 22,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "ray": 23,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 24,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 25,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 26,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 27,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 28,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 29,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "ray": 30,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "ray": 31,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "development",
+      "ray": 32,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 33,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "ray": 34,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 35,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "ray": 36,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 37,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 38,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 39,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "development",
+      "ray": 40,
+      "identity_error": 0.0
+    },
+    {
+      "case": "development",
+      "enumeration_N6_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 0,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 1,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 2,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 3,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 4,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 5,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 6,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 7,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 8,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 9,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 10,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 11,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 12,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 13,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 14,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 15,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 16,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 17,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 18,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 19,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 20,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 21,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 22,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 23,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 24,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 25,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 26,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 27,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 28,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 29,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 30,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 31,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 32,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 33,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 34,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 35,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 36,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 37,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 38,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 39,
+      "identity_error": 2.220446049250313e-16
+    },
+    {
+      "case": "holdout_low_memory",
+      "ray": 40,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_low_memory",
+      "enumeration_N6_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 0,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 1,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 2,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 3,
+      "identity_error": 3.552713678800501e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 4,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 5,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 6,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 7,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 8,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 9,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 10,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 11,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 12,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 13,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 14,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 15,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 16,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 17,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 18,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 19,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 20,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 21,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 22,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 23,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 24,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 25,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 26,
+      "identity_error": 3.552713678800501e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 27,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 28,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 29,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 30,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 31,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 32,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 33,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 34,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 35,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 36,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 37,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 38,
+      "identity_error": 3.552713678800501e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 39,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "ray": 40,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_high_memory",
+      "enumeration_N6_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 0,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 1,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 2,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 3,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 4,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 5,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 6,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 7,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 8,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 9,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 10,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 11,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 12,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 13,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 14,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 15,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 16,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 17,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 18,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 19,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 20,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 21,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 22,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 23,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 24,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 25,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 26,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 27,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 28,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 29,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 30,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 31,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 32,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 33,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 34,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 35,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 36,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 37,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 38,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 39,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_rational",
+      "ray": 40,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_rational",
+      "enumeration_N6_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 0,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 1,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 2,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 3,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 4,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 5,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 6,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 7,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 8,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 9,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 10,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 11,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 12,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 13,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 14,
+      "identity_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 15,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 16,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 17,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 18,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 19,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 20,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 21,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 22,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 23,
+      "identity_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 24,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 25,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 26,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 27,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 28,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 29,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 30,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 31,
+      "identity_error": 4.440892098500626e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 32,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 33,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 34,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 35,
+      "identity_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 36,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 37,
+      "identity_error": 8.881784197001252e-16
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 38,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 39,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "ray": 40,
+      "identity_error": 0.0
+    },
+    {
+      "case": "holdout_irrational",
+      "enumeration_N6_error": 0.0
+    }
+  ]
+}

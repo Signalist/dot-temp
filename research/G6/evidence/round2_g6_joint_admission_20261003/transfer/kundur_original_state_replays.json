@@ -1,0 +1,986 @@
+[
+  {
+    "contract": "committed",
+    "ray_index": 0,
+    "Hz_per_MW_state_replay": 0.0023540930762518297,
+    "Hz_per_MW_modal_witness": 0.002354093076251688,
+    "absolute_error": 1.4181364416110398e-16,
+    "relative_error": 6.024130719032878e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 1,
+    "Hz_per_MW_state_replay": 0.002308516137312917,
+    "Hz_per_MW_modal_witness": 0.0023085161373127857,
+    "absolute_error": 1.3140530330524314e-16,
+    "relative_error": 5.692197736083608e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 2,
+    "Hz_per_MW_state_replay": 0.0022631058654117757,
+    "Hz_per_MW_modal_witness": 0.002263105865411646,
+    "absolute_error": 1.2967057982926633e-16,
+    "relative_error": 5.729761997045595e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 3,
+    "Hz_per_MW_state_replay": 0.00221787346252816,
+    "Hz_per_MW_modal_witness": 0.002217873462528033,
+    "absolute_error": 1.2663481374630692e-16,
+    "relative_error": 5.709740248299052e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 4,
+    "Hz_per_MW_state_replay": 0.0021728433172974577,
+    "Hz_per_MW_modal_witness": 0.0021728433172973323,
+    "absolute_error": 1.2533377113932431e-16,
+    "relative_error": 5.768191849894606e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 5,
+    "Hz_per_MW_state_replay": 0.0021280178671968233,
+    "Hz_per_MW_modal_witness": 0.002128017867196702,
+    "absolute_error": 1.214306433183765e-16,
+    "relative_error": 5.706279312322716e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 6,
+    "Hz_per_MW_state_replay": 0.002083782811701079,
+    "Hz_per_MW_modal_witness": 0.002083782811700965,
+    "absolute_error": 1.1405806854547507e-16,
+    "relative_error": 5.4736063617095945e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 7,
+    "Hz_per_MW_state_replay": 0.0020398761204495496,
+    "Hz_per_MW_modal_witness": 0.002039876120449438,
+    "absolute_error": 1.1145598333150986e-16,
+    "relative_error": 5.463860389078587e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 8,
+    "Hz_per_MW_state_replay": 0.001996236318550596,
+    "Hz_per_MW_modal_witness": 0.001996236318550488,
+    "absolute_error": 1.0798653637955624e-16,
+    "relative_error": 5.4095066488905333e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 9,
+    "Hz_per_MW_state_replay": 0.0019528919141725367,
+    "Hz_per_MW_modal_witness": 0.0019528919141724324,
+    "absolute_error": 1.0430024899310553e-16,
+    "relative_error": 5.340810120426165e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 10,
+    "Hz_per_MW_state_replay": 0.0019098692163721045,
+    "Hz_per_MW_modal_witness": 0.0019098692163719976,
+    "absolute_error": 1.0690233420707074e-16,
+    "relative_error": 5.597364117431205e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 11,
+    "Hz_per_MW_state_replay": 0.0018671968225711523,
+    "Hz_per_MW_modal_witness": 0.0018671968225710519,
+    "absolute_error": 1.0039712117215771e-16,
+    "relative_error": 5.376890103846421e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 12,
+    "Hz_per_MW_state_replay": 0.001824910236083979,
+    "Hz_per_MW_modal_witness": 0.0018249102360838822,
+    "absolute_error": 9.69276742202041e-17,
+    "relative_error": 5.31136668005126e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 13,
+    "Hz_per_MW_state_replay": 0.0017830457033226371,
+    "Hz_per_MW_modal_witness": 0.0017830457033225432,
+    "absolute_error": 9.389190813724468e-17,
+    "relative_error": 5.2658161236296787e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 14,
+    "Hz_per_MW_state_replay": 0.0017416473034752153,
+    "Hz_per_MW_modal_witness": 0.0017416473034751244,
+    "absolute_error": 9.085614205428527e-17,
+    "relative_error": 5.2166785934786685e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 15,
+    "Hz_per_MW_state_replay": 0.0017007675094544053,
+    "Hz_per_MW_modal_witness": 0.0017007675094543177,
+    "absolute_error": 8.760353553682876e-17,
+    "relative_error": 5.150823675185087e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 16,
+    "Hz_per_MW_state_replay": 0.0016604590334218495,
+    "Hz_per_MW_modal_witness": 0.0016604590334217645,
+    "absolute_error": 8.500145032286355e-17,
+    "relative_error": 5.119153716650158e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 17,
+    "Hz_per_MW_state_replay": 0.0016207884495661848,
+    "Hz_per_MW_modal_witness": 0.0016207884495661022,
+    "absolute_error": 8.261620554339544e-17,
+    "relative_error": 5.097284939654675e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 18,
+    "Hz_per_MW_state_replay": 0.0015824328315970047,
+    "Hz_per_MW_modal_witness": 0.0015824328315969243,
+    "absolute_error": 8.044780119842443e-17,
+    "relative_error": 5.083805112741494e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 19,
+    "Hz_per_MW_state_replay": 0.0015510935033923921,
+    "Hz_per_MW_modal_witness": 0.0015510935033923139,
+    "absolute_error": 7.827939685345342e-17,
+    "relative_error": 5.046723275047747e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 20,
+    "Hz_per_MW_state_replay": 0.001520465650256287,
+    "Hz_per_MW_modal_witness": 0.0015204656502562134,
+    "absolute_error": 7.37257477290143e-17,
+    "relative_error": 4.848892687354745e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 21,
+    "Hz_per_MW_state_replay": 0.0014906272806293175,
+    "Hz_per_MW_modal_witness": 0.001490627280629242,
+    "absolute_error": 7.546047120499111e-17,
+    "relative_error": 5.062329945627776e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 22,
+    "Hz_per_MW_state_replay": 0.0014617009528354876,
+    "Hz_per_MW_modal_witness": 0.001461700952835415,
+    "absolute_error": 7.26415455565288e-17,
+    "relative_error": 4.9696584937991836e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 23,
+    "Hz_per_MW_state_replay": 0.0014337566471311436,
+    "Hz_per_MW_modal_witness": 0.0014337566471310714,
+    "absolute_error": 7.22078646875346e-17,
+    "relative_error": 5.0362706134281296e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 24,
+    "Hz_per_MW_state_replay": 0.0014069034356600316,
+    "Hz_per_MW_modal_witness": 0.0014069034356599616,
+    "absolute_error": 7.003946034256359e-17,
+    "relative_error": 4.9782706166830073e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 25,
+    "Hz_per_MW_state_replay": 0.0013812659445253436,
+    "Hz_per_MW_modal_witness": 0.0013812659445252733,
+    "absolute_error": 7.025630077706069e-17,
+    "relative_error": 5.086370300775572e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 26,
+    "Hz_per_MW_state_replay": 0.0013569830915587241,
+    "Hz_per_MW_modal_witness": 0.001356983091558657,
+    "absolute_error": 6.722053469410127e-17,
+    "relative_error": 4.953675186688618e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 27,
+    "Hz_per_MW_state_replay": 0.001357370286405041,
+    "Hz_per_MW_modal_witness": 0.0013573702864049391,
+    "absolute_error": 1.0191500421363742e-16,
+    "relative_error": 7.508268394732895e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 28,
+    "Hz_per_MW_state_replay": 0.00137095829074763,
+    "Hz_per_MW_modal_witness": 0.0013709582907475276,
+    "absolute_error": 1.0234868508263162e-16,
+    "relative_error": 7.465484965762529e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 29,
+    "Hz_per_MW_state_replay": 0.001390453188386284,
+    "Hz_per_MW_modal_witness": 0.0013904531883861893,
+    "absolute_error": 9.475926987523309e-17,
+    "relative_error": 6.814991735551641e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 30,
+    "Hz_per_MW_state_replay": 0.0014200110339118637,
+    "Hz_per_MW_modal_witness": 0.0014200110339117522,
+    "absolute_error": 1.1145598333150986e-16,
+    "relative_error": 7.848951921484603e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 31,
+    "Hz_per_MW_state_replay": 0.0014530037529853278,
+    "Hz_per_MW_modal_witness": 0.0014530037529852198,
+    "absolute_error": 1.0798653637955624e-16,
+    "relative_error": 7.431951648968294e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 32,
+    "Hz_per_MW_state_replay": 0.0014894048553771573,
+    "Hz_per_MW_modal_witness": 0.0014894048553770588,
+    "absolute_error": 9.84455572616838e-17,
+    "relative_error": 6.609724475267758e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 33,
+    "Hz_per_MW_state_replay": 0.0015291461849906531,
+    "Hz_per_MW_modal_witness": 0.0015291461849905423,
+    "absolute_error": 1.1080546202801855e-16,
+    "relative_error": 7.246230812700479e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 34,
+    "Hz_per_MW_state_replay": 0.0015721377564113831,
+    "Hz_per_MW_modal_witness": 0.0015721377564112734,
+    "absolute_error": 1.0972125985553305e-16,
+    "relative_error": 6.979112320665482e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 35,
+    "Hz_per_MW_state_replay": 0.0016182600526324852,
+    "Hz_per_MW_modal_witness": 0.0016182600526323688,
+    "absolute_error": 1.1644331332494318e-16,
+    "relative_error": 7.195587207107337e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 36,
+    "Hz_per_MW_state_replay": 0.0016673629374414096,
+    "Hz_per_MW_modal_witness": 0.0016673629374413098,
+    "absolute_error": 9.974659986866641e-17,
+    "relative_error": 5.982296813058281e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 37,
+    "Hz_per_MW_state_replay": 0.001719287742724267,
+    "Hz_per_MW_modal_witness": 0.0017192877427241648,
+    "absolute_error": 1.0213184464813452e-16,
+    "relative_error": 5.940357865072043e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 38,
+    "Hz_per_MW_state_replay": 0.0017738538465415835,
+    "Hz_per_MW_modal_witness": 0.0017738538465414762,
+    "absolute_error": 1.0733601507606494e-16,
+    "relative_error": 6.051006698513547e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 39,
+    "Hz_per_MW_state_replay": 0.00183087869633157,
+    "Hz_per_MW_modal_witness": 0.0018308786963314666,
+    "absolute_error": 1.0343288725511712e-16,
+    "relative_error": 5.6493577352975756e-14
+  },
+  {
+    "contract": "committed",
+    "ray_index": 40,
+    "Hz_per_MW_state_replay": 0.0018901731086998737,
+    "Hz_per_MW_modal_witness": 0.001890173108699753,
+    "absolute_error": 1.207801220148852e-16,
+    "relative_error": 6.389897383418476e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 0,
+    "Hz_per_MW_state_replay": 0.0023540930762518297,
+    "Hz_per_MW_modal_witness": 0.002354093076251688,
+    "absolute_error": 1.4181364416110398e-16,
+    "relative_error": 6.024130719032878e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 1,
+    "Hz_per_MW_state_replay": 0.002317012101676504,
+    "Hz_per_MW_modal_witness": 0.002317012101676372,
+    "absolute_error": 1.3183898417423734e-16,
+    "relative_error": 5.690042968651353e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 2,
+    "Hz_per_MW_state_replay": 0.0022799886968673405,
+    "Hz_per_MW_modal_witness": 0.0022799886968672134,
+    "absolute_error": 1.2706849461530112e-16,
+    "relative_error": 5.5732072176453245e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 3,
+    "Hz_per_MW_state_replay": 0.0022430379958756144,
+    "Hz_per_MW_modal_witness": 0.0022430379958754843,
+    "absolute_error": 1.3010426069826053e-16,
+    "relative_error": 5.800359197548025e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 4,
+    "Hz_per_MW_state_replay": 0.002206151237596992,
+    "Hz_per_MW_modal_witness": 0.0022061512375968657,
+    "absolute_error": 1.2620113287731272e-16,
+    "relative_error": 5.720420736648233e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 5,
+    "Hz_per_MW_state_replay": 0.002169629030461104,
+    "Hz_per_MW_modal_witness": 0.002169629030460983,
+    "absolute_error": 1.209969624493823e-16,
+    "relative_error": 5.576850270282103e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 6,
+    "Hz_per_MW_state_replay": 0.002133233384937335,
+    "Hz_per_MW_modal_witness": 0.002133233384937213,
+    "absolute_error": 1.218643241873707e-16,
+    "relative_error": 5.712657838933901e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 7,
+    "Hz_per_MW_state_replay": 0.002096919204824237,
+    "Hz_per_MW_modal_witness": 0.002096919204824118,
+    "absolute_error": 1.1882855810441129e-16,
+    "relative_error": 5.6668162431359956e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 8,
+    "Hz_per_MW_state_replay": 0.002060700670253212,
+    "Hz_per_MW_modal_witness": 0.0020607006702530947,
+    "absolute_error": 1.1709383462843448e-16,
+    "relative_error": 5.6822340245103646e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 9,
+    "Hz_per_MW_state_replay": 0.0020245839063993817,
+    "Hz_per_MW_modal_witness": 0.0020245839063992685,
+    "absolute_error": 1.1319070680748666e-16,
+    "relative_error": 5.590813324639967e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 10,
+    "Hz_per_MW_state_replay": 0.001988573106655521,
+    "Hz_per_MW_modal_witness": 0.0019885731066554098,
+    "absolute_error": 1.1145598333150986e-16,
+    "relative_error": 5.604822018284668e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 11,
+    "Hz_per_MW_state_replay": 0.0019526776407899245,
+    "Hz_per_MW_modal_witness": 0.0019526776407898143,
+    "absolute_error": 1.1015494072452725e-16,
+    "relative_error": 5.641225075940955e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 12,
+    "Hz_per_MW_state_replay": 0.0019169068376312113,
+    "Hz_per_MW_modal_witness": 0.0019169068376311057,
+    "absolute_error": 1.0560129160008813e-16,
+    "relative_error": 5.508942298447282e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 13,
+    "Hz_per_MW_state_replay": 0.0018812699676227305,
+    "Hz_per_MW_modal_witness": 0.0018812699676226234,
+    "absolute_error": 1.0711917464156784e-16,
+    "relative_error": 5.693982069832074e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 14,
+    "Hz_per_MW_state_replay": 0.0018457850473242161,
+    "Hz_per_MW_modal_witness": 0.0018457850473241099,
+    "absolute_error": 1.0625181290357943e-16,
+    "relative_error": 5.756456476750415e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 15,
+    "Hz_per_MW_state_replay": 0.0018104566055214273,
+    "Hz_per_MW_modal_witness": 0.0018104566055213264,
+    "absolute_error": 1.0083080204115191e-16,
+    "relative_error": 5.5693575716562056e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 16,
+    "Hz_per_MW_state_replay": 0.0017753048766950994,
+    "Hz_per_MW_modal_witness": 0.001775304876695001,
+    "absolute_error": 9.84455572616838e-17,
+    "relative_error": 5.545276113078398e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 17,
+    "Hz_per_MW_state_replay": 0.0017418220458790177,
+    "Hz_per_MW_modal_witness": 0.0017418220458789212,
+    "absolute_error": 9.64939933512099e-17,
+    "relative_error": 5.539830752487643e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 18,
+    "Hz_per_MW_state_replay": 0.0017118901250177156,
+    "Hz_per_MW_modal_witness": 0.0017118901250176197,
+    "absolute_error": 9.584347204771859e-17,
+    "relative_error": 5.598692967910666e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 19,
+    "Hz_per_MW_state_replay": 0.0016821717493928617,
+    "Hz_per_MW_modal_witness": 0.0016821717493927676,
+    "absolute_error": 9.410874857174178e-17,
+    "relative_error": 5.59447919665238e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 20,
+    "Hz_per_MW_state_replay": 0.001652685902209677,
+    "Hz_per_MW_modal_witness": 0.0016526859022095866,
+    "absolute_error": 9.042246118529107e-17,
+    "relative_error": 5.471242966639893e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 21,
+    "Hz_per_MW_state_replay": 0.0016234746803568685,
+    "Hz_per_MW_modal_witness": 0.0016234746803567759,
+    "absolute_error": 9.259086553026208e-17,
+    "relative_error": 5.70325282251487e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 22,
+    "Hz_per_MW_state_replay": 0.001594557750494304,
+    "Hz_per_MW_modal_witness": 0.0015945577504942125,
+    "absolute_error": 9.150666335777657e-17,
+    "relative_error": 5.738686060722183e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 23,
+    "Hz_per_MW_state_replay": 0.0015661479395451077,
+    "Hz_per_MW_modal_witness": 0.0015661479395450097,
+    "absolute_error": 9.80118763926896e-17,
+    "relative_error": 6.258149304922214e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 24,
+    "Hz_per_MW_state_replay": 0.0015690132854488986,
+    "Hz_per_MW_modal_witness": 0.001569013285448797,
+    "absolute_error": 1.0169816377914032e-16,
+    "relative_error": 6.481663649524218e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 25,
+    "Hz_per_MW_state_replay": 0.0015721077776545728,
+    "Hz_per_MW_modal_witness": 0.0015721077776544637,
+    "absolute_error": 1.0907073855204175e-16,
+    "relative_error": 6.937866481060982e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 26,
+    "Hz_per_MW_state_replay": 0.0015755382593232502,
+    "Hz_per_MW_modal_witness": 0.001575538259323147,
+    "absolute_error": 1.0321604682062002e-16,
+    "relative_error": 6.551160926105454e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 27,
+    "Hz_per_MW_state_replay": 0.0015880136421725023,
+    "Hz_per_MW_modal_witness": 0.001588013642172396,
+    "absolute_error": 1.0625181290357943e-16,
+    "relative_error": 6.690862728246301e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 28,
+    "Hz_per_MW_state_replay": 0.0016015606737703816,
+    "Hz_per_MW_modal_witness": 0.0016015606737702763,
+    "absolute_error": 1.0538445116559103e-16,
+    "relative_error": 6.58010981984858e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 29,
+    "Hz_per_MW_state_replay": 0.0016158714301340886,
+    "Hz_per_MW_modal_witness": 0.0016158714301339804,
+    "absolute_error": 1.0820337681405334e-16,
+    "relative_error": 6.696286276011553e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 30,
+    "Hz_per_MW_state_replay": 0.0016308916290455452,
+    "Hz_per_MW_modal_witness": 0.0016308916290454357,
+    "absolute_error": 1.0950441942103595e-16,
+    "relative_error": 6.714389691553516e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 31,
+    "Hz_per_MW_state_replay": 0.001647458335270456,
+    "Hz_per_MW_modal_witness": 0.0016474583352703504,
+    "absolute_error": 1.0560129160008813e-16,
+    "relative_error": 6.409952187516706e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 32,
+    "Hz_per_MW_state_replay": 0.0016657244710668257,
+    "Hz_per_MW_modal_witness": 0.0016657244710667162,
+    "absolute_error": 1.0950441942103595e-16,
+    "relative_error": 6.573981551157151e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 33,
+    "Hz_per_MW_state_replay": 0.001684730152030549,
+    "Hz_per_MW_modal_witness": 0.0016847301520304405,
+    "absolute_error": 1.0842021724855044e-16,
+    "relative_error": 6.435464879516886e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 34,
+    "Hz_per_MW_state_replay": 0.001705981507730591,
+    "Hz_per_MW_modal_witness": 0.0017059815077304994,
+    "absolute_error": 9.150666335777657e-17,
+    "relative_error": 5.363871937833e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 35,
+    "Hz_per_MW_state_replay": 0.0017353094325554777,
+    "Hz_per_MW_modal_witness": 0.0017353094325553708,
+    "absolute_error": 1.0690233420707074e-16,
+    "relative_error": 6.160419127650864e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 36,
+    "Hz_per_MW_state_replay": 0.00176538655075548,
+    "Hz_per_MW_modal_witness": 0.0017653865507553683,
+    "absolute_error": 1.1167282376600696e-16,
+    "relative_error": 6.325686786172962e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 37,
+    "Hz_per_MW_state_replay": 0.0017959386043634212,
+    "Hz_per_MW_modal_witness": 0.001795938604363306,
+    "absolute_error": 1.1514227071796057e-16,
+    "relative_error": 6.411258738924467e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 38,
+    "Hz_per_MW_state_replay": 0.001826969892671441,
+    "Hz_per_MW_modal_witness": 0.0018269698926713354,
+    "absolute_error": 1.0560129160008813e-16,
+    "relative_error": 5.780133105843435e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 39,
+    "Hz_per_MW_state_replay": 0.0018583894857269684,
+    "Hz_per_MW_modal_witness": 0.0018583894857268583,
+    "absolute_error": 1.1015494072452725e-16,
+    "relative_error": 5.927441021947192e-14
+  },
+  {
+    "contract": "dynamic_optional",
+    "ray_index": 40,
+    "Hz_per_MW_state_replay": 0.0018901731086998737,
+    "Hz_per_MW_modal_witness": 0.001890173108699753,
+    "absolute_error": 1.207801220148852e-16,
+    "relative_error": 6.389897383418476e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 0,
+    "Hz_per_MW_state_replay": 0.0023540930762518297,
+    "Hz_per_MW_modal_witness": 0.002354093076251688,
+    "absolute_error": 1.4181364416110398e-16,
+    "relative_error": 6.024130719032878e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 1,
+    "Hz_per_MW_state_replay": 0.0023255317254653523,
+    "Hz_per_MW_modal_witness": 0.0023255317254652127,
+    "absolute_error": 1.3964523981613297e-16,
+    "relative_error": 6.004873564483303e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 2,
+    "Hz_per_MW_state_replay": 0.0022969828480034564,
+    "Hz_per_MW_modal_witness": 0.002296982848003325,
+    "absolute_error": 1.3140530330524314e-16,
+    "relative_error": 5.720778603961649e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 3,
+    "Hz_per_MW_state_replay": 0.002268438099546951,
+    "Hz_per_MW_modal_witness": 0.0022684380995468224,
+    "absolute_error": 1.2880321809127793e-16,
+    "relative_error": 5.678057431543299e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 4,
+    "Hz_per_MW_state_replay": 0.0022399033216576806,
+    "Hz_per_MW_modal_witness": 0.0022399033216575523,
+    "absolute_error": 1.2836953722228372e-16,
+    "relative_error": 5.731030262827992e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 5,
+    "Hz_per_MW_state_replay": 0.0022113758434527298,
+    "Hz_per_MW_modal_witness": 0.002211375843452603,
+    "absolute_error": 1.2663481374630692e-16,
+    "relative_error": 5.726517006199769e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 6,
+    "Hz_per_MW_state_replay": 0.0021828585331156074,
+    "Hz_per_MW_modal_witness": 0.0021828585331154825,
+    "absolute_error": 1.249000902703301e-16,
+    "relative_error": 5.721859129921103e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 7,
+    "Hz_per_MW_state_replay": 0.0021543489915684614,
+    "Hz_per_MW_modal_witness": 0.0021543489915683387,
+    "absolute_error": 1.227316859253591e-16,
+    "relative_error": 5.696926839880849e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 8,
+    "Hz_per_MW_state_replay": 0.002125852507205548,
+    "Hz_per_MW_modal_witness": 0.0021258525072054228,
+    "absolute_error": 1.2533377113932431e-16,
+    "relative_error": 5.895694584385069e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 9,
+    "Hz_per_MW_state_replay": 0.002097361567180188,
+    "Hz_per_MW_modal_witness": 0.0020973615671800636,
+    "absolute_error": 1.244664094013359e-16,
+    "relative_error": 5.934427871141121e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 10,
+    "Hz_per_MW_state_replay": 0.0020688892574282714,
+    "Hz_per_MW_modal_witness": 0.0020688892574281486,
+    "absolute_error": 1.227316859253591e-16,
+    "relative_error": 5.93225014266485e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 11,
+    "Hz_per_MW_state_replay": 0.0020404245343837455,
+    "Hz_per_MW_modal_witness": 0.0020404245343836245,
+    "absolute_error": 1.209969624493823e-16,
+    "relative_error": 5.929989588462448e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 12,
+    "Hz_per_MW_state_replay": 0.0020296768644514733,
+    "Hz_per_MW_modal_witness": 0.002029676864451347,
+    "absolute_error": 1.2620113287731272e-16,
+    "relative_error": 6.217794324192922e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 13,
+    "Hz_per_MW_state_replay": 0.002022352735662824,
+    "Hz_per_MW_modal_witness": 0.0020223527356626986,
+    "absolute_error": 1.2533377113932431e-16,
+    "relative_error": 6.197423868208336e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 14,
+    "Hz_per_MW_state_replay": 0.0020150541341234477,
+    "Hz_per_MW_modal_witness": 0.0020150541341233193,
+    "absolute_error": 1.2836953722228372e-16,
+    "relative_error": 6.370525488543905e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 15,
+    "Hz_per_MW_state_replay": 0.00200778255738515,
+    "Hz_per_MW_modal_witness": 0.0020077825573850227,
+    "absolute_error": 1.2706849461530112e-16,
+    "relative_error": 6.32879761545482e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 16,
+    "Hz_per_MW_state_replay": 0.0020005395051905426,
+    "Hz_per_MW_modal_witness": 0.002000539505190418,
+    "absolute_error": 1.244664094013359e-16,
+    "relative_error": 6.22164216594607e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 17,
+    "Hz_per_MW_state_replay": 0.001993326479413142,
+    "Hz_per_MW_modal_witness": 0.0019933264794130172,
+    "absolute_error": 1.249000902703301e-16,
+    "relative_error": 6.265912361085473e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 18,
+    "Hz_per_MW_state_replay": 0.0019861449839974777,
+    "Hz_per_MW_modal_witness": 0.001986144983997352,
+    "absolute_error": 1.2576745200831851e-16,
+    "relative_error": 6.332239238406283e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 19,
+    "Hz_per_MW_state_replay": 0.0019789965249334225,
+    "Hz_per_MW_modal_witness": 0.001978996524933295,
+    "absolute_error": 1.2750217548429532e-16,
+    "relative_error": 6.442769043699709e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 20,
+    "Hz_per_MW_state_replay": 0.0019718826101643005,
+    "Hz_per_MW_modal_witness": 0.001971882610164178,
+    "absolute_error": 1.222980050563649e-16,
+    "relative_error": 6.202093594515874e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 21,
+    "Hz_per_MW_state_replay": 0.0019648047494168746,
+    "Hz_per_MW_modal_witness": 0.00196480474941675,
+    "absolute_error": 1.244664094013359e-16,
+    "relative_error": 6.334797869268364e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 22,
+    "Hz_per_MW_state_replay": 0.001957764454314072,
+    "Hz_per_MW_modal_witness": 0.00195776445431395,
+    "absolute_error": 1.218643241873707e-16,
+    "relative_error": 6.224667319852583e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 23,
+    "Hz_per_MW_state_replay": 0.0019507632382588143,
+    "Hz_per_MW_modal_witness": 0.001950763238258692,
+    "absolute_error": 1.222980050563649e-16,
+    "relative_error": 6.269238760390608e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 24,
+    "Hz_per_MW_state_replay": 0.0019438054749109242,
+    "Hz_per_MW_modal_witness": 0.0019438054749108021,
+    "absolute_error": 1.220811646218678e-16,
+    "relative_error": 6.28052375598283e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 25,
+    "Hz_per_MW_state_replay": 0.0019368952677036324,
+    "Hz_per_MW_modal_witness": 0.0019368952677035142,
+    "absolute_error": 1.1817803680091998e-16,
+    "relative_error": 6.10141595012714e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 26,
+    "Hz_per_MW_state_replay": 0.001930029705036185,
+    "Hz_per_MW_modal_witness": 0.0019300297050360645,
+    "absolute_error": 1.205632815803881e-16,
+    "relative_error": 6.24670601005777e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 27,
+    "Hz_per_MW_state_replay": 0.001923215651376518,
+    "Hz_per_MW_modal_witness": 0.0019232156513763951,
+    "absolute_error": 1.229485263598562e-16,
+    "relative_error": 6.39286219784376e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 28,
+    "Hz_per_MW_state_replay": 0.0019164558173408765,
+    "Hz_per_MW_modal_witness": 0.0019164558173407553,
+    "absolute_error": 1.212138028838794e-16,
+    "relative_error": 6.324894202469735e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 29,
+    "Hz_per_MW_state_replay": 0.0019097518563935868,
+    "Hz_per_MW_modal_witness": 0.001909751856393467,
+    "absolute_error": 1.196959198423997e-16,
+    "relative_error": 6.267616362915511e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 30,
+    "Hz_per_MW_state_replay": 0.0019031084333598026,
+    "Hz_per_MW_modal_witness": 0.001903108433359684,
+    "absolute_error": 1.1861171766991419e-16,
+    "relative_error": 6.232525461542988e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 31,
+    "Hz_per_MW_state_replay": 0.0018965314235958796,
+    "Hz_per_MW_modal_witness": 0.0018965314235957623,
+    "absolute_error": 1.1731067506293158e-16,
+    "relative_error": 6.185538167383186e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 32,
+    "Hz_per_MW_state_replay": 0.0018900218666099819,
+    "Hz_per_MW_modal_witness": 0.0018900218666098652,
+    "absolute_error": 1.1666015375944028e-16,
+    "relative_error": 6.172423495220918e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 33,
+    "Hz_per_MW_state_replay": 0.0018835862408747113,
+    "Hz_per_MW_modal_witness": 0.0018835862408745948,
+    "absolute_error": 1.1644331332494318e-16,
+    "relative_error": 6.182000632520851e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 34,
+    "Hz_per_MW_state_replay": 0.0018772297086176786,
+    "Hz_per_MW_modal_witness": 0.001877229708617561,
+    "absolute_error": 1.1774435593192578e-16,
+    "relative_error": 6.272240173454089e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 35,
+    "Hz_per_MW_state_replay": 0.0018730965953638093,
+    "Hz_per_MW_modal_witness": 0.001873096595363696,
+    "absolute_error": 1.1340754724198376e-16,
+    "relative_error": 6.054548789565421e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 36,
+    "Hz_per_MW_state_replay": 0.0018763996145020995,
+    "Hz_per_MW_modal_witness": 0.001876399614501981,
+    "absolute_error": 1.1861171766991419e-16,
+    "relative_error": 6.321239716380733e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 37,
+    "Hz_per_MW_state_replay": 0.0018797589573969749,
+    "Hz_per_MW_modal_witness": 0.0018797589573968535,
+    "absolute_error": 1.214306433183765e-16,
+    "relative_error": 6.459905023489676e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 38,
+    "Hz_per_MW_state_replay": 0.001883172921348962,
+    "Hz_per_MW_modal_witness": 0.0018831729213488397,
+    "absolute_error": 1.222980050563649e-16,
+    "relative_error": 6.494252528268505e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 39,
+    "Hz_per_MW_state_replay": 0.0018866433764257592,
+    "Hz_per_MW_modal_witness": 0.0018866433764256438,
+    "absolute_error": 1.1535911115245767e-16,
+    "relative_error": 6.114516002012646e-14
+  },
+  {
+    "contract": "independent_ports",
+    "ray_index": 40,
+    "Hz_per_MW_state_replay": 0.0018901731086998737,
+    "Hz_per_MW_modal_witness": 0.001890173108699753,
+    "absolute_error": 1.207801220148852e-16,
+    "relative_error": 6.389897383418476e-14
+  }
+]

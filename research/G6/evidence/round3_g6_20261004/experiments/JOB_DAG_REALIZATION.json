@@ -1,0 +1,2873 @@
+{
+  "scope": "analytical conditional job catalog; no measured GPU/PCC trace or enforcement-cost evidence; extension added after primary protocol to remove reliance on affine work accounting",
+  "ledgers": [
+    {
+      "plan": "port1_plus",
+      "order": [
+        "H1",
+        "H2",
+        "L1",
+        "L2"
+      ],
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "legal": true,
+      "duration_s": 2.0,
+      "power_MW": [
+        60,
+        60,
+        40,
+        40
+      ],
+      "energy_MJ": 100.0,
+      "actual_completed_job_ids": [
+        "H1",
+        "H2",
+        "L1",
+        "L2"
+      ],
+      "completed_work_units": 8,
+      "incremental_energy_MJ": 0.0,
+      "task_service_model": "each labeled job requires one nonpreemptive .5s slot with fixed declared power; work attached to job identity, not inferred from power"
+    },
+    {
+      "plan": "port1_minus",
+      "order": [
+        "L1",
+        "L2",
+        "H1",
+        "H2"
+      ],
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "legal": true,
+      "duration_s": 2.0,
+      "power_MW": [
+        40,
+        40,
+        60,
+        60
+      ],
+      "energy_MJ": 100.0,
+      "actual_completed_job_ids": [
+        "H1",
+        "H2",
+        "L1",
+        "L2"
+      ],
+      "completed_work_units": 8,
+      "incremental_energy_MJ": 0.0,
+      "task_service_model": "each labeled job requires one nonpreemptive .5s slot with fixed declared power; work attached to job identity, not inferred from power"
+    },
+    {
+      "plan": "port2_plus",
+      "order": [
+        "H1",
+        "L1",
+        "L2",
+        "H2"
+      ],
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "legal": true,
+      "duration_s": 2.0,
+      "power_MW": [
+        60,
+        40,
+        40,
+        60
+      ],
+      "energy_MJ": 100.0,
+      "actual_completed_job_ids": [
+        "H1",
+        "H2",
+        "L1",
+        "L2"
+      ],
+      "completed_work_units": 8,
+      "incremental_energy_MJ": 0.0,
+      "task_service_model": "each labeled job requires one nonpreemptive .5s slot with fixed declared power; work attached to job identity, not inferred from power"
+    },
+    {
+      "plan": "port2_minus",
+      "order": [
+        "L1",
+        "H1",
+        "H2",
+        "L2"
+      ],
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "legal": true,
+      "duration_s": 2.0,
+      "power_MW": [
+        40,
+        60,
+        60,
+        40
+      ],
+      "energy_MJ": 100.0,
+      "actual_completed_job_ids": [
+        "H1",
+        "H2",
+        "L1",
+        "L2"
+      ],
+      "completed_work_units": 8,
+      "incremental_energy_MJ": 0.0,
+      "task_service_model": "each labeled job requires one nonpreemptive .5s slot with fixed declared power; work attached to job identity, not inferred from power"
+    }
+  ],
+  "DAG_checks": [
+    {
+      "port": "port1",
+      "mask": 0,
+      "edges": [],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 1,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 2,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 3,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 4,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 5,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 6,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 7,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 8,
+      "edges": [
+        [
+          "H2",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 9,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H2",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 10,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 11,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 12,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 13,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 14,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 15,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 16,
+      "edges": [
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 17,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 18,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 19,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 20,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 21,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 22,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 23,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 24,
+      "edges": [
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 25,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 26,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 27,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 28,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 29,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 30,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 31,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 32,
+      "edges": [
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 33,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 34,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 35,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 36,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 37,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 38,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 39,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 40,
+      "edges": [
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 41,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 42,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 43,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 44,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 45,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 46,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 47,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 48,
+      "edges": [
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 49,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 50,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 51,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 52,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 53,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 54,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 55,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 56,
+      "edges": [
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 57,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 58,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 59,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 60,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 61,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 62,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port1",
+      "mask": 63,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H2",
+          "L1"
+        ],
+        [
+          "H2",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 0,
+      "edges": [],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 1,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 2,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 3,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 4,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 5,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 6,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 7,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 8,
+      "edges": [
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 9,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 10,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 11,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 12,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 13,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 14,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 15,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 16,
+      "edges": [
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 17,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 18,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 19,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 20,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 21,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 22,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 23,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 24,
+      "edges": [
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 25,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 26,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 27,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 28,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 29,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 30,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": true,
+      "intersection_test": true,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 31,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 32,
+      "edges": [
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 33,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 34,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 35,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 36,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 37,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 38,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 39,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 40,
+      "edges": [
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 41,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 42,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 43,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 44,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 45,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 46,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 47,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 48,
+      "edges": [
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 49,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 50,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 51,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 52,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 53,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 54,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 55,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 56,
+      "edges": [
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 57,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 58,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 59,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 60,
+      "edges": [
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 61,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 62,
+      "edges": [
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    },
+    {
+      "port": "port2",
+      "mask": 63,
+      "edges": [
+        [
+          "H1",
+          "L1"
+        ],
+        [
+          "H1",
+          "L2"
+        ],
+        [
+          "H1",
+          "H2"
+        ],
+        [
+          "L1",
+          "L2"
+        ],
+        [
+          "L1",
+          "H2"
+        ],
+        [
+          "L2",
+          "H2"
+        ]
+      ],
+      "both_plans_feasible": false,
+      "intersection_test": false,
+      "same_result": true
+    }
+  ],
+  "checks_count": 128,
+  "all_checks_pass": true,
+  "both_feasible_counts": {
+    "port1": 4,
+    "port2": 16
+  },
+  "counterexample": {
+    "port": "port1",
+    "added_edge": [
+      "H2",
+      "L1"
+    ],
+    "plus_feasible": true,
+    "minus_feasible": false,
+    "interpretation": "same job energy and total work do not authorize an illegal task order"
+  }
+}

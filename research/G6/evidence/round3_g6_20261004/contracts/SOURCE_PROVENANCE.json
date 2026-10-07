@@ -1,0 +1,40 @@
+[
+  {
+    "source": "positive",
+    "hashes": {
+      "outputs/round2_g6_joint_admission_20261003/positive_workpoint/positive_coefficients.npy": "716dbdc85b2784cd75885d0b3a7088ea0b6422c7d88837693b18d27a75bab08b",
+      "outputs/round2_g6_joint_admission_20261003/positive_workpoint/positive_kernel.npz": "e62815cf11269bdfa0dfe4520e5b3a335d301b12d488a7bc19e37e01c6f455e6",
+      "outputs/round2_g6_joint_admission_20261003/positive_workpoint/positive_support_arrays.npz": "80bf351aa03305970a4e17a695c9c4a17c8751fc959b790aa83d512676112d05",
+      "outputs/round2_g6_joint_admission_20261003/positive_workpoint/positive_bound_components.npz": "716c79c27d3451cb370b61cfb75680239e67b854e272089aa6b5e7d735440f47"
+    },
+    "coefficient_shape": [
+      4,
+      2049,
+      2,
+      257
+    ],
+    "P0_MW": [
+      50,
+      50
+    ]
+  },
+  {
+    "source": "wecc",
+    "hashes": {
+      "outputs/round2_g6_joint_admission_20261003/transfer/wecc_coefficients.npy": "66b252220a769775f70e9f418d0f15291e98b194ab2dac7fa544750a829e2c19",
+      "outputs/round2_g6_joint_admission_20261003/transfer/wecc_kernel.npz": "7c6aea92a8d8d914b511df10263ad7fa7b3c0cc6bf87e98b044b19257b5d45d3",
+      "outputs/round2_g6_joint_admission_20261003/transfer/wecc_support_arrays.npz": "279c81b7717ef6b169fdb4be2cbef05a7c40a5bcc88e61d539a985026cf38a4c",
+      "outputs/round2_g6_joint_admission_20261003/transfer/wecc_bound_components.npz": "5555525cedb79f8af09844c3077431c16a94897fae9c1da1d2bd265871db9d28"
+    },
+    "coefficient_shape": [
+      29,
+      2049,
+      2,
+      257
+    ],
+    "P0_MW": [
+      0,
+      0
+    ]
+  }
+]

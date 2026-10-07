@@ -1,0 +1,17 @@
+{
+  "frozen_at_utc":"2026-10-04T05:09:00Z",
+  "route":"G6 round 3, sequential after G1 G2 G3 G4; no W6 work",
+  "main_question":"Does exact-angle direct-representation structure yield a useful finite-uncertainty or enforceable workload-contract contribution?",
+  "mathematical_targets":[
+    "Finite fixed-angle uncertainty: uniform Lipschitz continuity and kink-safe second-order one-sided interpolation",
+    "Fixed common port-orientation uncertainty: circular robust boundary arc where maximal norm direction is alignable, loss of logarithmic direct-polygon accuracy order",
+    "Finite sign-mismatch window contracts versus unbounded temporal burst allowances"
+  ],
+  "synthetic_parameters":{"r":[0.6,0.85,0.95],"theta_center":0.7,"halfwidths":[0.001,0.01,0.1],"angle_intervals":[8,16,32,64,128],"tail_N":512,"rays":[[0.25,0.75],[0.5,0.5],[0.75,0.25]],"test_precision":1e-8},
+  "exact_rational_certificate":{"r":"17/20","theta_interval":["11/20","17/20"],"a":["1/2","1/2"],"tail_N":512,"angle_intervals":[8,16,32,64,128],"integer_interval_scale_digits":120,"base_trig_taylor_degree":160},
+  "strong_baselines":["classical same-information support/Minkowski calculation","uniform first-order Lipschitz parameter grid","finite-state max-plus dynamic programming","independent exhaustive small-word enumeration"],
+  "novelty_policy":"All elementary robustness and DP consequences must be explicitly reduced to direct prior tools; do not call better error bookkeeping a new solver",
+  "transfer":"Frozen prior positive Kundur and zero-baseline WECC kernels; no new physical calibration; no new nonlinear-family guarantee",
+  "historical_caveats":["Kundur positive baseline V7=.945044pu V8=.948743pu","amplitude capacity is not average hosting","WECC old dynamic optional inner nonlinear peak about .05310Hz exceeds .05Hz","rational/irrational arithmetic type cannot be estimated from floating eigenvalues"],
+  "stop":"Independent skeptical review after proofs and experiments; retain only supported narrow result, or reasoned rejection after examining creative alternatives"
+}

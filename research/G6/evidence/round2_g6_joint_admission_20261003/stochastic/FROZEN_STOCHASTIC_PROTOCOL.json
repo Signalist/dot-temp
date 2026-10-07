@@ -1,0 +1,20 @@
+{
+  "frozen_at_utc": "2026-10-03T12:26:08Z",
+  "scope": "C2 all-time chance admission audit; deterministic exact verification, no Monte Carlo, no data calibration",
+  "seed": 20261003,
+  "seed_usage": "Reserved; all experiments deterministic and exhaustive",
+  "scalar_model": "x[k+1]=x[k]/2 + g_L*s[k]/2, x[0]=0, g_L=2^(L-1)/(2^(L-1)-1), safety |x[k]|<=1",
+  "run_lengths_L": [2,3,4],
+  "mission_lengths_exhaustive": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
+  "mission_lengths_dynamic": [20,50,100,1000],
+  "sign_order": [-1,1],
+  "cases": [
+    {"name":"iid_fair","initial":["1/2","1/2"],"transition":[["1/2","1/2"],["1/2","1/2"]]},
+    {"name":"iid_biased","initial":["3/10","7/10"],"transition":[["3/10","7/10"],["3/10","7/10"]]},
+    {"name":"markov_persistent","initial":["2/5","3/5"],"transition":[["4/5","1/5"],["3/10","7/10"]]}
+  ],
+  "independent_checks": ["finite-prefix direct integer state enumeration, without pattern logic", "exact rational finite-state run avoidance recurrence", "every enumerated path safety classification compared with direct forbidden-run classification"],
+  "outputs": ["RESULTS.json", "FINITE_MISSION_SUMMARY.csv", "THEOREMS_AND_AUDIT.md", "verify_stochastic.py"],
+  "acceptance": "All exact rational survival probabilities and all path classifications agree; no post-outcome case selection",
+  "novelty_rule": "Support attractors, full-support recurrence, Bernoulli endpoint exponent, and pattern avoidance are classical ingredients; do not claim theorem novelty solely from application"
+}

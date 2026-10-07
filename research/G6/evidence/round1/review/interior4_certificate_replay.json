@@ -1,0 +1,22 @@
+{
+  "model": "interior4",
+  "artifact_sha256": "07ea763b6e593288cb02302a947364bdb233b490cdd5bd7944988d079a7bfb43",
+  "model_source_sha256": "c9cefdd319c40411658d005d28edd9d4a4480d069e25dbdb7d69fc132f82d6c6",
+  "leaf_count": 14740,
+  "finite_arrays": true,
+  "exact_binary_endpoint_partition_check": true,
+  "upper_equals_leaf_max": true,
+  "witness_lower_match": true,
+  "witness_nominal_domain_feasible": true,
+  "replay_upper_mismatch_count": 0,
+  "max_replay_minus_saved": 0.0,
+  "replay_seconds": 118.74043297767639,
+  "source_changed_during_replay": false,
+  "reported_tightness": {
+    "relative_tolerance": 0.02,
+    "max_relative_gap": 0.01999933326588847,
+    "tolerance_met": true,
+    "evaluated_boxes": 29479,
+    "maxboxes": 60000
+  }
+}

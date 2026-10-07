@@ -1,0 +1,137 @@
+[
+  {
+    "id": "T1",
+    "claim": "Finite exponential return type iff logarithmic direct-polyhedral gauge approximation complexity",
+    "status": "proved; independently checked",
+    "novelty": "narrow candidate, targeted audit did not locate complete prior statement",
+    "scope": [
+      "fixed 2D contraction rotation",
+      "known exact angle",
+      "compact interior slope interval",
+      "direct original-plane polyhedra",
+      "sampled-state outputs"
+    ],
+    "not": [
+      "arbitrary algorithm lower bound",
+      "lifted formulation lower bound",
+      "continuous uncertain grid family theorem"
+    ],
+    "evidence": [
+      "theory_review/G6_STRUCTURAL_AND_COMPLEXITY_PROOFS.md sections5-8",
+      "audit/INDEPENDENT_PROOF_AUDIT.md",
+      "literature/G6_NARROW_THEOREM_AUDIT_ZH.md"
+    ]
+  },
+  {
+    "id": "T2",
+    "claim": "r=1/2 sharp existence threshold for rectangular static optional-cohort core",
+    "status": "proved; exact rational arithmetic example",
+    "novelty": "narrow candidate",
+    "scope": [
+      "B=I,C=(1,0)",
+      "fixed amplitude chosen once",
+      "not block-varying amplitude"
+    ],
+    "evidence": [
+      "theory_review/G6_STRUCTURAL_AND_COMPLEXITY_PROOFS.md sections3-4",
+      "theory_review/THEORY_CHECK_RESULTS.json"
+    ]
+  },
+  {
+    "id": "C1",
+    "claim": "Exact support F and rational folding",
+    "status": "correct but classical",
+    "novelty": "explicit Duda0710.3863 Eq14-15 prior art",
+    "evidence": [
+      "literature/G6_DYNAMIC_NOVELTY_AUDIT_ZH.md"
+    ]
+  },
+  {
+    "id": "C2",
+    "claim": "Dynamic optional H=(F+L)/2",
+    "status": "proved and independently enumerated",
+    "novelty": "elementary symmetrized-box hexagon support identity",
+    "effect": "preserves proper dynamic hosting semantics without extra solver advantage",
+    "evidence": [
+      "experiments/DYNAMIC_OPTIONAL_RESULTS.json",
+      "audit/INDEPENDENT_CHECK_RESULTS.json"
+    ]
+  },
+  {
+    "id": "C3",
+    "claim": "Lifetime chance-to-robust collapse under full-support repeated exogenous blocks",
+    "status": "proved with explicit startup assumptions and counterexample",
+    "novelty": "classical recurrence/support corollary; no new stochastic principle",
+    "evidence": [
+      "stochastic/THEOREMS_AND_AUDIT.md",
+      "stochastic/RESULTS.json"
+    ]
+  },
+  {
+    "id": "E1",
+    "claim": "Guaranteed common phase information expands conditional LTI amplitude domain versus independent signs",
+    "status": "same-information mature support exactly matches",
+    "novelty": "contract information effect",
+    "scope": [
+      "synthetic templates",
+      "fixed workpoint",
+      "no learned future dependence",
+      "not a new solver"
+    ],
+    "evidence": [
+      "transfer/REPORT.md",
+      "positive_workpoint/positive_summary.json"
+    ]
+  },
+  {
+    "id": "E2",
+    "claim": "Old public-network coefficients are physically embedded positive compute loads",
+    "status": "rejected",
+    "reason": "Both supplemental PCC probe baselines are zero; native background load has a different dynamic law",
+    "evidence": [
+      "transfer/BASELINE_SCOPE_AUDIT.json"
+    ]
+  },
+  {
+    "id": "E3",
+    "claim": "Positive50MWx2 Kundur working point supports conditional frequency-modulation analysis",
+    "status": "fresh qualification passed; finite nonlinear validation separately tracked",
+    "scope": [
+      "new powerflow and initialized states",
+      "new A/B/C",
+      "actual compute positive",
+      "fixed block energy under explicit affine work model",
+      "frequency-only"
+    ],
+    "not": [
+      "all voltage constraints passed",
+      "real device calibration",
+      "new average-capacity optimum"
+    ],
+    "evidence": [
+      "positive_workpoint/QUALIFICATION.json",
+      "positive_workpoint/POWER_BALANCE_AND_PHYSICAL_SCOPE.json",
+      "positive_workpoint/POSITIVE_NONLINEAR_SUMMARY.json"
+    ]
+  },
+  {
+    "id": "E4",
+    "claim": "LTI inner admission implies nonlinear whole-family safety",
+    "status": "rejected / not established",
+    "reason": "No nonlinear family proof; original signed-port WECC dynamic-optional inner has a failing nonlinear witness, with the scheduled refinement recorded separately.",
+    "evidence": [
+      "nonlinear/wecc_dynamic_optional_inner_dt64.json",
+      "nonlinear/wecc_dynamic_optional_inner_dt128.json"
+    ]
+  },
+  {
+    "id": "E5",
+    "claim": "Electrical reset or one repeated sign suffices for all repeated task words",
+    "status": "rejected by stored finite words",
+    "evidence": [
+      "transfer/kundur_decisions.json",
+      "transfer/wecc_decisions.json",
+      "positive_workpoint/reset_false_admission_input.npz"
+    ]
+  }
+]

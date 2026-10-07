@@ -1,0 +1,11 @@
+{
+  "source_files": {
+    "nonlinear/kundur_committed_inner_dt128.json": "f2a872e43e8852d101550aa9fd417579760d499d8f929b3b08b0e559279c5e18",
+    "nonlinear/kundur_dynamic_optional_inner_dt128.json": "f0655445ecb728c13dd4107410c2922fcb9c00061a76188d7c64c31d0bda84fd",
+    "nonlinear/wecc_committed_inner_dt128.json": "d9d1dae0d84b4b8cc7ae9d5fd822acd95a194f00dd50cc62eeab123db6df7bac",
+    "nonlinear/wecc_dynamic_optional_inner_dt128.json": "3b301cbf2aa7767d95c99941df42029752bbcfb2608b447ffbed48566d2dcbf6",
+    "positive_workpoint/committed_inner_dt128.json": "cec7a0685c365e61624665f15ee72530cece5a667f24ba357c66836356762519",
+    "positive_workpoint/dynamic_optional_inner_dt256.json": "6f41f79ab443ecab806a452445b69e0b8c5f53eb1b65d998b1e2eb21563a0329"
+  },
+  "scope": "Finest predeclared completed nonlinear traces, no new data or re-selection"
+}

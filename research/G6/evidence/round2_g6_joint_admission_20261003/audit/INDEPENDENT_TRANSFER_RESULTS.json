@@ -1,0 +1,258 @@
+{
+  "scope": "Independent frozen-data checks; no source solver/code imports; no validated-rounding, uniform descriptor-transfer or nonlinear guarantee",
+  "networks": {
+    "kundur": {
+      "original_matrix_impulse_checks": [
+        {
+          "t": 0.0,
+          "absolute_error": 2.1830062280769838e-17
+        },
+        {
+          "t": 0.123,
+          "absolute_error": 2.065523315078479e-17
+        },
+        {
+          "t": 0.7,
+          "absolute_error": 9.874315403766349e-18
+        },
+        {
+          "t": 2.0,
+          "absolute_error": 2.0884428166162812e-17
+        },
+        {
+          "t": 17.0,
+          "absolute_error": 4.962708691476451e-18
+        }
+      ],
+      "new_original_source_resolvent_checks": [
+        {
+          "s": [
+            0.0,
+            0.004
+          ],
+          "absolute_error": 1.0081806301076644e-17,
+          "relative_error": 1.071532069524612e-14
+        },
+        {
+          "s": [
+            0.023,
+            0.031
+          ],
+          "absolute_error": 9.643468281713822e-18,
+          "relative_error": 9.62487126914967e-15
+        },
+        {
+          "s": [
+            0.27,
+            1.13
+          ],
+          "absolute_error": 1.2543520991235403e-17,
+          "relative_error": 1.5378099858847068e-14
+        },
+        {
+          "s": [
+            7.0,
+            23.0
+          ],
+          "absolute_error": 1.7164010295415802e-18,
+          "relative_error": 2.8368798112211638e-14
+        }
+      ],
+      "independent_support_maxima": [
+        {
+          "ray": 0,
+          "peaks": {
+            "committed": 0.002354093076251688,
+            "dynamic_optional": 0.002354093076251688,
+            "fixed_optional": 0.002354093076251688,
+            "independent_ports": 0.002354093076251688
+          },
+          "differences_from_recorded": {
+            "committed": 0.0,
+            "dynamic_optional": 0.0,
+            "fixed_optional": 0.0,
+            "independent_ports": 0.0
+          }
+        },
+        {
+          "ray": 10,
+          "peaks": {
+            "committed": 0.0019098692163719978,
+            "dynamic_optional": 0.0019885731066554098,
+            "fixed_optional": 0.0019098692163719978,
+            "independent_ports": 0.002068889257428149
+          },
+          "differences_from_recorded": {
+            "committed": 0.0,
+            "dynamic_optional": 4.336808689942018e-19,
+            "fixed_optional": 0.0,
+            "independent_ports": 0.0
+          }
+        },
+        {
+          "ray": 20,
+          "peaks": {
+            "committed": 0.0015204656502562134,
+            "dynamic_optional": 0.0016526859022095864,
+            "fixed_optional": 0.0015204656502562134,
+            "independent_ports": 0.0019718826101641778
+          },
+          "differences_from_recorded": {
+            "committed": 0.0,
+            "dynamic_optional": 2.168404344971009e-19,
+            "fixed_optional": 0.0,
+            "independent_ports": 0.0
+          }
+        },
+        {
+          "ray": 30,
+          "peaks": {
+            "committed": 0.001420011033911752,
+            "dynamic_optional": 0.001630891629045436,
+            "fixed_optional": 0.001420011033911752,
+            "independent_ports": 0.0019031084333596838
+          },
+          "differences_from_recorded": {
+            "committed": 0.0,
+            "dynamic_optional": 2.168404344971009e-19,
+            "fixed_optional": 0.0,
+            "independent_ports": 4.336808689942018e-19
+          }
+        },
+        {
+          "ray": 40,
+          "peaks": {
+            "committed": 0.0018901731086997532,
+            "dynamic_optional": 0.0018901731086997532,
+            "fixed_optional": 0.0018901731086997532,
+            "independent_ports": 0.0018901731086997532
+          },
+          "differences_from_recorded": {
+            "committed": 0.0,
+            "dynamic_optional": 0.0,
+            "fixed_optional": 0.0,
+            "independent_ports": 0.0
+          }
+        }
+      ],
+      "witness_contracts_checked": 123,
+      "max_witness_projection_error": 0.0
+    },
+    "wecc": {
+      "new_original_source_resolvent_checks": [
+        {
+          "s": [
+            0.0,
+            0.004
+          ],
+          "absolute_error": 6.004050057514803e-15,
+          "relative_error": 1.1427696725418e-10
+        },
+        {
+          "s": [
+            0.023,
+            0.031
+          ],
+          "absolute_error": 5.876267723929125e-15,
+          "relative_error": 9.130196044963137e-11
+        },
+        {
+          "s": [
+            0.27,
+            1.13
+          ],
+          "absolute_error": 5.664403278110738e-15,
+          "relative_error": 1.5985544368525297e-11
+        },
+        {
+          "s": [
+            7.0,
+            23.0
+          ],
+          "absolute_error": 1.4988635957049693e-15,
+          "relative_error": 1.3403411534225386e-11
+        }
+      ],
+      "independent_support_maxima": [
+        {
+          "ray": 0,
+          "peaks": {
+            "committed": 0.001469796839139883,
+            "dynamic_optional": 0.001469796839139883,
+            "fixed_optional": 0.001469796839139883,
+            "independent_ports": 0.001469796839139883
+          },
+          "differences_from_recorded": {
+            "committed": 0.0,
+            "dynamic_optional": 0.0,
+            "fixed_optional": 0.0,
+            "independent_ports": 0.0
+          }
+        },
+        {
+          "ray": 10,
+          "peaks": {
+            "committed": 0.0010521468251175827,
+            "dynamic_optional": 0.0011143591699415891,
+            "fixed_optional": 0.0011023476293549122,
+            "independent_ports": 0.0011766473552996552
+          },
+          "differences_from_recorded": {
+            "committed": 0.0,
+            "dynamic_optional": 4.336808689942018e-19,
+            "fixed_optional": 0.0,
+            "independent_ports": 0.0
+          }
+        },
+        {
+          "ray": 20,
+          "peaks": {
+            "committed": 0.0006722510175538862,
+            "dynamic_optional": 0.0007590588696005308,
+            "fixed_optional": 0.0007348984195699415,
+            "independent_ports": 0.0008836511258086661
+          },
+          "differences_from_recorded": {
+            "committed": 0.0,
+            "dynamic_optional": 1.0842021724855044e-19,
+            "fixed_optional": 0.0,
+            "independent_ports": 0.0
+          }
+        },
+        {
+          "ray": 30,
+          "peaks": {
+            "committed": 0.0007099060785202389,
+            "dynamic_optional": 0.0007652344890953345,
+            "fixed_optional": 0.0007099060785202389,
+            "independent_ports": 0.0008239460700879055
+          },
+          "differences_from_recorded": {
+            "committed": 0.0,
+            "dynamic_optional": 1.0842021724855044e-19,
+            "fixed_optional": 0.0,
+            "independent_ports": 1.0842021724855044e-19
+          }
+        },
+        {
+          "ray": 40,
+          "peaks": {
+            "committed": 0.0009374226893534673,
+            "dynamic_optional": 0.0009374226893534673,
+            "fixed_optional": 0.0009374226893534673,
+            "independent_ports": 0.0009374226893534673
+          },
+          "differences_from_recorded": {
+            "committed": 0.0,
+            "dynamic_optional": 0.0,
+            "fixed_optional": 0.0,
+            "independent_ports": 0.0
+          }
+        }
+      ],
+      "witness_contracts_checked": 123,
+      "max_witness_projection_error": 0.0
+    }
+  },
+  "all_checks_passed": true
+}

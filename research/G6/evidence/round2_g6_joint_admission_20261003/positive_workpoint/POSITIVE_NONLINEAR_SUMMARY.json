@@ -1,0 +1,310 @@
+{
+  "results": [
+    {
+      "label": "committed_inner_dt128",
+      "complete": true,
+      "dt_s": 0.0078125,
+      "total_amplitude_MW": 28.49806062265547,
+      "min_compute_MW": [
+        35.750969688672264,
+        35.750969688672264
+      ],
+      "metrics": {
+        "nonlinear_peak_Hz": 0.04977960360025069,
+        "nonlinear_peak_time_s": 363.3751,
+        "nonlinear_peak_generator": "4",
+        "exact_LTI_peak_Hz": 0.04888965768459423,
+        "exact_LTI_peak_time_s": 513.3759765625,
+        "exact_LTI_peak_generator": "4",
+        "nonlinear_target_Hz": 0.04977787432169034,
+        "exact_LTI_target_Hz": 0.04888965768459423,
+        "analytic_witness_target_error_Hz": 1.0061396160665481e-15,
+        "target_time_error_s": 0.0,
+        "max_NL_LTI_difference_Hz": 0.0017077127981486792,
+        "rms_NL_LTI_difference_Hz": 0.0007008303674064878,
+        "frequency_limit_margin_Hz": 0.0002203963997493147,
+        "ringdown_peak_Hz": 0.037609275370891204,
+        "min_bus_voltage_pu": 0.9297527429726173,
+        "max_bus_voltage_pu": 1.010891444867072
+      }
+    },
+    {
+      "label": "committed_outer_dt128",
+      "complete": true,
+      "dt_s": 0.0078125,
+      "total_amplitude_MW": 29.728191208288717,
+      "min_compute_MW": [
+        35.13590439585564,
+        35.13590439585564
+      ],
+      "metrics": {
+        "nonlinear_peak_Hz": 0.05197413696165665,
+        "nonlinear_peak_time_s": 205.3751,
+        "nonlinear_peak_generator": "4",
+        "exact_LTI_peak_Hz": 0.050999999999998616,
+        "exact_LTI_peak_time_s": 513.3759765625,
+        "exact_LTI_peak_generator": "4",
+        "nonlinear_target_Hz": 0.051972234050774446,
+        "exact_LTI_target_Hz": 0.050999999999998616,
+        "analytic_witness_target_error_Hz": 1.3877787807814457e-15,
+        "target_time_error_s": 0.0,
+        "max_NL_LTI_difference_Hz": 0.0018618609896321244,
+        "rms_NL_LTI_difference_Hz": 0.0007641120300636504,
+        "frequency_limit_margin_Hz": -0.0019741369616566445,
+        "ringdown_peak_Hz": 0.03922269646718268,
+        "min_bus_voltage_pu": 0.9290666643552997,
+        "max_bus_voltage_pu": 1.0113488283205472
+      }
+    },
+    {
+      "label": "dynamic_optional_inner_dt128",
+      "complete": true,
+      "dt_s": 0.0078125,
+      "total_amplitude_MW": 27.00624013645386,
+      "min_compute_MW": [
+        36.496879931773066,
+        36.496879931773066
+      ],
+      "metrics": {
+        "nonlinear_peak_Hz": 0.04973948794249505,
+        "nonlinear_peak_time_s": 513.3974609375,
+        "nonlinear_peak_generator": "4",
+        "exact_LTI_peak_Hz": 0.048895433899642377,
+        "exact_LTI_peak_time_s": 513.3974609375,
+        "exact_LTI_peak_generator": "4",
+        "nonlinear_target_Hz": 0.04973948794249505,
+        "exact_LTI_target_Hz": 0.048895433899642377,
+        "analytic_witness_target_error_Hz": 1.1587952819525071e-15,
+        "target_time_error_s": 0.0,
+        "max_NL_LTI_difference_Hz": 0.0018316824325384472,
+        "rms_NL_LTI_difference_Hz": 0.0007084983299162638,
+        "frequency_limit_margin_Hz": 0.00026051205750494966,
+        "ringdown_peak_Hz": 0.03716640445116104,
+        "min_bus_voltage_pu": 0.9290308410101433,
+        "max_bus_voltage_pu": 1.0114141050726044
+      }
+    },
+    {
+      "label": "dynamic_optional_inner_dt256",
+      "complete": true,
+      "dt_s": 0.00390625,
+      "total_amplitude_MW": 27.00624013645386,
+      "min_compute_MW": [
+        36.496879931773066,
+        36.496879931773066
+      ],
+      "metrics": {
+        "nonlinear_peak_Hz": 0.049720880386558974,
+        "nonlinear_peak_time_s": 513.39463125,
+        "nonlinear_peak_generator": "4",
+        "exact_LTI_peak_Hz": 0.048895433899637686,
+        "exact_LTI_peak_time_s": 513.3974609375,
+        "exact_LTI_peak_generator": "4",
+        "nonlinear_target_Hz": 0.04971939115683277,
+        "exact_LTI_target_Hz": 0.048895433899637686,
+        "analytic_witness_target_error_Hz": 5.8494875609937935e-15,
+        "target_time_error_s": 0.0,
+        "max_NL_LTI_difference_Hz": 0.0017828750860469506,
+        "rms_NL_LTI_difference_Hz": 0.0007008039524991609,
+        "frequency_limit_margin_Hz": 0.0002791196134410284,
+        "ringdown_peak_Hz": 0.037173700189487846,
+        "min_bus_voltage_pu": 0.929033388699901,
+        "max_bus_voltage_pu": 1.0114125595664747
+      }
+    },
+    {
+      "label": "dynamic_optional_outer_dt128",
+      "complete": true,
+      "dt_s": 0.0078125,
+      "total_amplitude_MW": 28.168647603906184,
+      "min_compute_MW": [
+        35.91567619804691,
+        35.91567619804691
+      ],
+      "metrics": {
+        "nonlinear_peak_Hz": 0.051922926445095996,
+        "nonlinear_peak_time_s": 513.3974609375,
+        "nonlinear_peak_generator": "4",
+        "exact_LTI_peak_Hz": 0.05099999999999856,
+        "exact_LTI_peak_time_s": 513.3974609375,
+        "exact_LTI_peak_generator": "4",
+        "nonlinear_target_Hz": 0.051922926445095996,
+        "exact_LTI_target_Hz": 0.05099999999999856,
+        "analytic_witness_target_error_Hz": 1.4502288259166107e-15,
+        "target_time_error_s": 0.0,
+        "max_NL_LTI_difference_Hz": 0.0020066475149346855,
+        "rms_NL_LTI_difference_Hz": 0.0007725662008549782,
+        "frequency_limit_margin_Hz": -0.0019229264450959932,
+        "ringdown_peak_Hz": 0.038757379855867136,
+        "min_bus_voltage_pu": 0.9283117266657288,
+        "max_bus_voltage_pu": 1.0118902616900147
+      }
+    },
+    {
+      "label": "dynamic_optional_outer_dt256",
+      "complete": true,
+      "dt_s": 0.00390625,
+      "total_amplitude_MW": 28.168647603906184,
+      "min_compute_MW": [
+        35.91567619804691,
+        35.91567619804691
+      ],
+      "metrics": {
+        "nonlinear_peak_Hz": 0.05190353545505566,
+        "nonlinear_peak_time_s": 513.39463125,
+        "nonlinear_peak_generator": "4",
+        "exact_LTI_peak_Hz": 0.05099999999999374,
+        "exact_LTI_peak_time_s": 513.3974609375,
+        "exact_LTI_peak_generator": "4",
+        "nonlinear_target_Hz": 0.051901957356697004,
+        "exact_LTI_target_Hz": 0.05099999999999374,
+        "analytic_witness_target_error_Hz": 6.2727600891321345e-15,
+        "target_time_error_s": 0.0,
+        "max_NL_LTI_difference_Hz": 0.001955509352048454,
+        "rms_NL_LTI_difference_Hz": 0.0007642909986965124,
+        "frequency_limit_margin_Hz": -0.0019035354550556577,
+        "ringdown_peak_Hz": 0.038764296477089566,
+        "min_bus_voltage_pu": 0.928314378515007,
+        "max_bus_voltage_pu": 1.0118886864643364
+      }
+    },
+    {
+      "label": "independent_ports_inner_dt128",
+      "complete": true,
+      "dt_s": 0.0078125,
+      "total_amplitude_MW": 23.8157748958336,
+      "min_compute_MW": [
+        38.0921125520832,
+        38.0921125520832
+      ],
+      "metrics": {
+        "nonlinear_peak_Hz": 0.049173098286359185,
+        "nonlinear_peak_time_s": 514.1640625,
+        "nonlinear_peak_generator": "4",
+        "exact_LTI_peak_Hz": 0.048907802899107976,
+        "exact_LTI_peak_time_s": 360.1641625,
+        "exact_LTI_peak_generator": "4",
+        "nonlinear_target_Hz": 0.049173098286359185,
+        "exact_LTI_target_Hz": 0.0489077871375174,
+        "analytic_witness_target_error_Hz": 1.85268467234323e-15,
+        "target_time_error_s": 0.0,
+        "max_NL_LTI_difference_Hz": 0.001728712387871957,
+        "rms_NL_LTI_difference_Hz": 0.0007550943212715851,
+        "frequency_limit_margin_Hz": 0.000826901713640818,
+        "ringdown_peak_Hz": 0.0466936552867514,
+        "min_bus_voltage_pu": 0.9291657352788127,
+        "max_bus_voltage_pu": 1.0113780937260584
+      }
+    },
+    {
+      "label": "independent_ports_outer_dt128",
+      "complete": true,
+      "dt_s": 0.0078125,
+      "total_amplitude_MW": 24.83458342272326,
+      "min_compute_MW": [
+        37.58270828863837,
+        37.58270828863837
+      ],
+      "metrics": {
+        "nonlinear_peak_Hz": 0.05128518059988263,
+        "nonlinear_peak_time_s": 514.1640625,
+        "nonlinear_peak_generator": "4",
+        "exact_LTI_peak_Hz": 0.051000016435849574,
+        "exact_LTI_peak_time_s": 360.1641625,
+        "exact_LTI_peak_generator": "4",
+        "nonlinear_target_Hz": 0.05128518059988263,
+        "exact_LTI_target_Hz": 0.050999999999998255,
+        "analytic_witness_target_error_Hz": 1.7416623698807143e-15,
+        "target_time_error_s": 0.0,
+        "max_NL_LTI_difference_Hz": 0.0018955802369260543,
+        "rms_NL_LTI_difference_Hz": 0.0008232525491934856,
+        "frequency_limit_margin_Hz": -0.0012851805998826266,
+        "ringdown_peak_Hz": 0.04865991945239179,
+        "min_bus_voltage_pu": 0.9284563825204671,
+        "max_bus_voltage_pu": 1.0118499148361655
+      }
+    },
+    {
+      "label": "reset_false_admission_dt128",
+      "complete": true,
+      "dt_s": 0.0078125,
+      "total_amplitude_MW": 98.0,
+      "min_compute_MW": [
+        1.0,
+        1.0
+      ],
+      "metrics": {
+        "nonlinear_peak_Hz": 0.18263230297515864,
+        "nonlinear_peak_time_s": 459.3829125,
+        "nonlinear_peak_generator": "4",
+        "exact_LTI_peak_Hz": 0.16812324587734453,
+        "exact_LTI_peak_time_s": 513.3759765625,
+        "exact_LTI_peak_generator": "4",
+        "nonlinear_target_Hz": 0.18254700749493313,
+        "exact_LTI_target_Hz": 0.16812324587734453,
+        "analytic_witness_target_error_Hz": 5.523359547510154e-15,
+        "target_time_error_s": 0.0,
+        "max_NL_LTI_difference_Hz": 0.027957866618234836,
+        "rms_NL_LTI_difference_Hz": 0.010073719549861021,
+        "frequency_limit_margin_Hz": -0.13263230297515866,
+        "ringdown_peak_Hz": 0.13652776174982062,
+        "min_bus_voltage_pu": 0.8874865268647646,
+        "max_bus_voltage_pu": 1.0349698981809856
+      }
+    },
+    {
+      "label": "reset_false_admission_dt256",
+      "complete": true,
+      "dt_s": 0.00390625,
+      "total_amplitude_MW": 98.0,
+      "min_compute_MW": [
+        1.0,
+        1.0
+      ],
+      "metrics": {
+        "nonlinear_peak_Hz": 0.1825539297790657,
+        "nonlinear_peak_time_s": 459.3829125,
+        "nonlinear_peak_generator": "4",
+        "exact_LTI_peak_Hz": 0.1681232458773276,
+        "exact_LTI_peak_time_s": 513.3759765625,
+        "exact_LTI_peak_generator": "4",
+        "nonlinear_target_Hz": 0.1824739516728746,
+        "exact_LTI_target_Hz": 0.1681232458773276,
+        "analytic_witness_target_error_Hz": 2.245426067304379e-14,
+        "target_time_error_s": 0.0,
+        "max_NL_LTI_difference_Hz": 0.027774307205902782,
+        "rms_NL_LTI_difference_Hz": 0.010017725295464564,
+        "frequency_limit_margin_Hz": -0.13255392977906572,
+        "ringdown_peak_Hz": 0.13646793738725016,
+        "min_bus_voltage_pu": 0.8874880045653906,
+        "max_bus_voltage_pu": 1.0349707574603688
+      }
+    }
+  ],
+  "all_complete": true,
+  "all_compute_nonnegative": true,
+  "count": 10,
+  "refinements": [
+    {
+      "label": "dynamic_optional_inner",
+      "coarse_peak_Hz": 0.04973948794249505,
+      "fine_peak_Hz": 0.049720880386558974,
+      "absolute_peak_change_Hz": 1.8607555936078768e-05,
+      "classifications_same": true
+    },
+    {
+      "label": "dynamic_optional_outer",
+      "coarse_peak_Hz": 0.051922926445095996,
+      "fine_peak_Hz": 0.05190353545505566,
+      "absolute_peak_change_Hz": 1.939099004033551e-05,
+      "classifications_same": true
+    },
+    {
+      "label": "reset_false_admission",
+      "coarse_peak_Hz": 0.18263230297515864,
+      "fine_peak_Hz": 0.1825539297790657,
+      "absolute_peak_change_Hz": 7.837319609294013e-05,
+      "classifications_same": true
+    }
+  ]
+}

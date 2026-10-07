@@ -1,0 +1,1382 @@
+[
+  {
+    "name": "kundur_committed_inner_dt64",
+    "case": {
+      "network": "kundur",
+      "label": "committed_inner",
+      "contract": "committed",
+      "capacity_key": "committed_capacity_lower_MW",
+      "capacity_MW": 32.805328303493596,
+      "factor": 0.98,
+      "total_amplitude_MW": 32.14922173742372,
+      "allocation_MW": [
+        16.07461086871186,
+        16.07461086871186
+      ],
+      "full_word_sha256": "b46fe65fdd8103ba8a88c3eb6a74602091048e9f26ce3a1399b2e7ba2f5b3044",
+      "trim_word_sha256": "a14e379f0f1a890810f1492d368377aa25cdb949e1743651164419538dd38374",
+      "actual_schedule_sha256": "76b06cec50449cb50690a2a86c2727f104abf821d7104a6bf6babb5c41ab26eb",
+      "full_schedule_sha256": "3bfb6acec91b47126907746958b4373cfb20bbc4cd114d08ac628ea267e5b292",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5556640625,
+      "target_trim_time_s": 129.5556640625,
+      "target_full_time_s": 513.5556640625,
+      "full_LTI_target_Hz": 0.04888178733422315,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.3398738153440699e-09,
+      "contract_LTI_upper_Hz": 0.049,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    "dt_s": 0.015625,
+    "event_epsilon_s": 0.0001,
+    "complete": true,
+    "tds_return": true,
+    "busted": false,
+    "error": "",
+    "metadata": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ]
+    },
+    "initial_state_max_difference": 0.0,
+    "initial_state_sha256": "293aa0c4e506050be9e56d9359fd543a3759b3444c0389ece6d6b616e4ea9f6a",
+    "samples": 10188,
+    "end_time_s": 151.0,
+    "actual_max_dt_s": 0.015625,
+    "actual_input_sha256": "76b06cec50449cb50690a2a86c2727f104abf821d7104a6bf6babb5c41ab26eb",
+    "state_reset_between_blocks": false,
+    "metrics": {
+      "nonlinear_peak_any_generator_Hz": 0.049623395515863145,
+      "nonlinear_peak_time_s": 129.5556640625,
+      "nonlinear_peak_generator": "4",
+      "exact_LTI_peak_any_generator_Hz": 0.048881786733763075,
+      "exact_LTI_peak_time_s": 129.5556640625,
+      "exact_LTI_peak_generator": "4",
+      "max_linear_nonlinear_error_Hz": 0.00219272272516988,
+      "rms_linear_nonlinear_error_Hz": 0.0007757964694910582,
+      "nonlinear_target_Hz": 0.049623395515863145,
+      "exact_LTI_target_Hz": 0.048881786733763075,
+      "target_observation_time_error_s": 0.0,
+      "full_vs_trimmed_LTI_target_error_Hz": 6.004600774933699e-10,
+      "tail_after_word_peak_Hz": 0.03085426446171935,
+      "minimum_bus_voltage_pu": 0.9424826566033496,
+      "maximum_bus_voltage_pu": 1.0094023719334018,
+      "nonlinear_frequency_margin_Hz": 0.0003766044841368582,
+      "LTI_frequency_margin_Hz": 0.0011182132662369282
+    },
+    "physical_ledger": [
+      {
+        "bus": 7,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1159.0,
+        "native_dynamic_load_min_MW": 1125.9425931478495,
+        "probe_input_min_MW": -16.07461086871186,
+        "probe_input_max_MW": 16.07461086871186,
+        "total_native_plus_probe_min_MW": 1118.8122947154923,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      },
+      {
+        "bus": 8,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1575.0,
+        "native_dynamic_load_min_MW": 1557.7827456479838,
+        "probe_input_min_MW": -16.07461086871186,
+        "probe_input_max_MW": 16.07461086871186,
+        "total_native_plus_probe_min_MW": 1555.891257370241,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      }
+    ],
+    "elapsed_s": 25.89999130999786,
+    "scope": "Finite signed-injection nonlinear stress replay at unchanged original workpoint. Native aggregate nonnegativity does not change zero probe baseline or establish positive compute/work realization."
+  },
+  {
+    "name": "kundur_committed_outer_dt64",
+    "case": {
+      "network": "kundur",
+      "label": "committed_outer",
+      "contract": "committed",
+      "capacity_key": "committed_capacity_upper_MW",
+      "capacity_MW": 32.884662663424535,
+      "factor": 1.02,
+      "total_amplitude_MW": 33.542355916693026,
+      "allocation_MW": [
+        16.771177958346513,
+        16.771177958346513
+      ],
+      "full_word_sha256": "b46fe65fdd8103ba8a88c3eb6a74602091048e9f26ce3a1399b2e7ba2f5b3044",
+      "trim_word_sha256": "a14e379f0f1a890810f1492d368377aa25cdb949e1743651164419538dd38374",
+      "actual_schedule_sha256": "be8065a76b23a2ea27f0bba85d360c62fa7126dc2657883c33936d25b73921f6",
+      "full_schedule_sha256": "4447f38b22ce2c778d30540eafe7fe565f0f7ba61e84c779ae43b793e6cdb689",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5556640625,
+      "target_trim_time_s": 129.5556640625,
+      "target_full_time_s": 513.5556640625,
+      "full_LTI_target_Hz": 0.05100000000000001,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.3979350655761688e-09,
+      "contract_LTI_upper_Hz": 0.051123335219176794,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    "dt_s": 0.015625,
+    "event_epsilon_s": 0.0001,
+    "complete": true,
+    "tds_return": true,
+    "busted": false,
+    "error": "",
+    "metadata": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ]
+    },
+    "initial_state_max_difference": 0.0,
+    "initial_state_sha256": "293aa0c4e506050be9e56d9359fd543a3759b3444c0389ece6d6b616e4ea9f6a",
+    "samples": 10188,
+    "end_time_s": 151.0,
+    "actual_max_dt_s": 0.015625,
+    "actual_input_sha256": "be8065a76b23a2ea27f0bba85d360c62fa7126dc2657883c33936d25b73921f6",
+    "state_reset_between_blocks": false,
+    "metrics": {
+      "nonlinear_peak_any_generator_Hz": 0.05180412140518342,
+      "nonlinear_peak_time_s": 129.5556640625,
+      "nonlinear_peak_generator": "4",
+      "exact_LTI_peak_any_generator_Hz": 0.050999999373520344,
+      "exact_LTI_peak_time_s": 129.5556640625,
+      "exact_LTI_peak_generator": "4",
+      "max_linear_nonlinear_error_Hz": 0.002388218753775706,
+      "rms_linear_nonlinear_error_Hz": 0.0008444996456318394,
+      "nonlinear_target_Hz": 0.05180412140518342,
+      "exact_LTI_target_Hz": 0.050999999373520344,
+      "target_observation_time_error_s": 0.0,
+      "full_vs_trimmed_LTI_target_error_Hz": 6.264796667543315e-10,
+      "tail_after_word_peak_Hz": 0.032208143773480025,
+      "minimum_bus_voltage_pu": 0.9418568331920795,
+      "maximum_bus_voltage_pu": 1.009791621509785,
+      "nonlinear_frequency_margin_Hz": -0.0018041214051834203,
+      "LTI_frequency_margin_Hz": -0.000999999373520341
+    },
+    "physical_ledger": [
+      {
+        "bus": 7,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1159.0,
+        "native_dynamic_load_min_MW": 1124.4478021654738,
+        "probe_input_min_MW": -16.771177958346513,
+        "probe_input_max_MW": 16.771177958346513,
+        "total_native_plus_probe_min_MW": 1117.0108669235324,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      },
+      {
+        "bus": 8,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1575.0,
+        "native_dynamic_load_min_MW": 1556.9830965401063,
+        "probe_input_min_MW": -16.771177958346513,
+        "probe_input_max_MW": 16.771177958346513,
+        "total_native_plus_probe_min_MW": 1555.0318951657403,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      }
+    ],
+    "elapsed_s": 25.69242405899422,
+    "scope": "Finite signed-injection nonlinear stress replay at unchanged original workpoint. Native aggregate nonnegativity does not change zero probe baseline or establish positive compute/work realization."
+  },
+  {
+    "name": "kundur_dynamic_optional_inner_dt64",
+    "case": {
+      "network": "kundur",
+      "label": "dynamic_optional_inner",
+      "contract": "dynamic_optional",
+      "capacity_key": "dynamic_optional_capacity_lower_MW",
+      "capacity_MW": 30.18662151541489,
+      "factor": 0.98,
+      "total_amplitude_MW": 29.58288908510659,
+      "allocation_MW": [
+        14.791444542553295,
+        14.791444542553295
+      ],
+      "full_word_sha256": "9b6b92b30c3dd3e284ab8d38d3c3863f57260714c5814adfc72f15cf6d140ad9",
+      "trim_word_sha256": "ef31414de2581e538c3c7e682d67fc32a0b2e2b274434c619733dd27b7d7ebe3",
+      "actual_schedule_sha256": "5bbca0ecdce01a03c3894db449c469932704d8218dbee1bb111475af9755b5fe",
+      "full_schedule_sha256": "b7367cbae1c3089a9287f3ce1d6a8613c35aa674355fb82c4ed1651edb0c5e3f",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5576171875,
+      "target_trim_time_s": 129.5576171875,
+      "target_full_time_s": 513.5576171875,
+      "full_LTI_target_Hz": 0.04889122373758552,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.2329175116927277e-09,
+      "contract_LTI_upper_Hz": 0.049,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    "dt_s": 0.015625,
+    "event_epsilon_s": 0.0001,
+    "complete": true,
+    "tds_return": true,
+    "busted": false,
+    "error": "",
+    "metadata": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ]
+    },
+    "initial_state_max_difference": 0.0,
+    "initial_state_sha256": "293aa0c4e506050be9e56d9359fd543a3759b3444c0389ece6d6b616e4ea9f6a",
+    "samples": 10188,
+    "end_time_s": 151.0,
+    "actual_max_dt_s": 0.015625,
+    "actual_input_sha256": "5bbca0ecdce01a03c3894db449c469932704d8218dbee1bb111475af9755b5fe",
+    "state_reset_between_blocks": false,
+    "metrics": {
+      "nonlinear_peak_any_generator_Hz": 0.049353136796419506,
+      "nonlinear_peak_time_s": 129.5576171875,
+      "nonlinear_peak_generator": "4",
+      "exact_LTI_peak_any_generator_Hz": 0.048891223096789914,
+      "exact_LTI_peak_time_s": 129.5576171875,
+      "exact_LTI_peak_generator": "4",
+      "max_linear_nonlinear_error_Hz": 0.002140579273794997,
+      "rms_linear_nonlinear_error_Hz": 0.0007651013250285584,
+      "nonlinear_target_Hz": 0.049353136796419506,
+      "exact_LTI_target_Hz": 0.048891223096789914,
+      "target_observation_time_error_s": 0.0,
+      "full_vs_trimmed_LTI_target_error_Hz": 6.407956040788143e-10,
+      "tail_after_word_peak_Hz": 0.03147650865313212,
+      "minimum_bus_voltage_pu": 0.9423256171405615,
+      "maximum_bus_voltage_pu": 1.009599277282128,
+      "nonlinear_frequency_margin_Hz": 0.0006468632035804972,
+      "LTI_frequency_margin_Hz": 0.0011087769032100889
+    },
+    "physical_ledger": [
+      {
+        "bus": 7,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1159.0,
+        "native_dynamic_load_min_MW": 1125.5674081239586,
+        "probe_input_min_MW": -14.791444542553295,
+        "probe_input_max_MW": 14.791444542553295,
+        "total_native_plus_probe_min_MW": 1120.0189994990953,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      },
+      {
+        "bus": 8,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1575.0,
+        "native_dynamic_load_min_MW": 1558.7857871865544,
+        "probe_input_min_MW": -14.791444542553295,
+        "probe_input_max_MW": 14.791444542553295,
+        "total_native_plus_probe_min_MW": 1556.7242587984567,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      }
+    ],
+    "elapsed_s": 26.428941504003888,
+    "scope": "Finite signed-injection nonlinear stress replay at unchanged original workpoint. Native aggregate nonnegativity does not change zero probe baseline or establish positive compute/work realization."
+  },
+  {
+    "name": "kundur_dynamic_optional_outer_dt64",
+    "case": {
+      "network": "kundur",
+      "label": "dynamic_optional_outer",
+      "contract": "dynamic_optional",
+      "capacity_key": "dynamic_optional_capacity_upper_MW",
+      "capacity_MW": 30.25378260512276,
+      "factor": 1.02,
+      "total_amplitude_MW": 30.858858257225215,
+      "allocation_MW": [
+        15.429429128612608,
+        15.429429128612608
+      ],
+      "full_word_sha256": "9b6b92b30c3dd3e284ab8d38d3c3863f57260714c5814adfc72f15cf6d140ad9",
+      "trim_word_sha256": "ef31414de2581e538c3c7e682d67fc32a0b2e2b274434c619733dd27b7d7ebe3",
+      "actual_schedule_sha256": "4af38eec8b00be698fa7e6b429161f94a15f2338b56ca5e12afeebc765acd7de",
+      "full_schedule_sha256": "e458f646496992fc280255a108634d1a3ac12bbb7eab1105760bae6fb57f19a1",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5576171875,
+      "target_trim_time_s": 129.5576171875,
+      "target_full_time_s": 513.5576171875,
+      "full_LTI_target_Hz": 0.051000000000000004,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.286095709811218e-09,
+      "contract_LTI_upper_Hz": 0.05111346800016532,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    "dt_s": 0.015625,
+    "event_epsilon_s": 0.0001,
+    "complete": true,
+    "tds_return": true,
+    "busted": false,
+    "error": "",
+    "metadata": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ]
+    },
+    "initial_state_max_difference": 0.0,
+    "initial_state_sha256": "293aa0c4e506050be9e56d9359fd543a3759b3444c0389ece6d6b616e4ea9f6a",
+    "samples": 10188,
+    "end_time_s": 151.0,
+    "actual_max_dt_s": 0.015625,
+    "actual_input_sha256": "4af38eec8b00be698fa7e6b429161f94a15f2338b56ca5e12afeebc765acd7de",
+    "state_reset_between_blocks": false,
+    "metrics": {
+      "nonlinear_peak_any_generator_Hz": 0.051498750690255335,
+      "nonlinear_peak_time_s": 129.5576171875,
+      "nonlinear_peak_generator": "4",
+      "exact_LTI_peak_any_generator_Hz": 0.05099999933156553,
+      "exact_LTI_peak_time_s": 129.5576171875,
+      "exact_LTI_peak_generator": "4",
+      "max_linear_nonlinear_error_Hz": 0.002332231038081469,
+      "rms_linear_nonlinear_error_Hz": 0.000832670511110065,
+      "nonlinear_target_Hz": 0.051498750690255335,
+      "exact_LTI_target_Hz": 0.05099999933156553,
+      "target_observation_time_error_s": 0.0,
+      "full_vs_trimmed_LTI_target_error_Hz": 6.684344744378734e-10,
+      "tail_after_word_peak_Hz": 0.03284905938370386,
+      "minimum_bus_voltage_pu": 0.941692365444913,
+      "maximum_bus_voltage_pu": 1.009995637444905,
+      "nonlinear_frequency_margin_Hz": -0.0014987506902553321,
+      "LTI_frequency_margin_Hz": -0.0009999993315655265
+    },
+    "physical_ledger": [
+      {
+        "bus": 7,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1159.0,
+        "native_dynamic_load_min_MW": 1124.0551326141517,
+        "probe_input_min_MW": -15.429429128612608,
+        "probe_input_max_MW": 15.429429128612608,
+        "total_native_plus_probe_min_MW": 1118.2815565633828,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      },
+      {
+        "bus": 8,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1575.0,
+        "native_dynamic_load_min_MW": 1558.0327153296,
+        "probe_input_min_MW": -15.429429128612608,
+        "probe_input_max_MW": 15.429429128612608,
+        "total_native_plus_probe_min_MW": 1555.9322278096856,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      }
+    ],
+    "elapsed_s": 25.921241056996223,
+    "scope": "Finite signed-injection nonlinear stress replay at unchanged original workpoint. Native aggregate nonnegativity does not change zero probe baseline or establish positive compute/work realization."
+  },
+  {
+    "name": "kundur_reset_inner_error_dt64",
+    "case": {
+      "network": "kundur",
+      "label": "reset_inner_error",
+      "contract": "committed",
+      "capacity_key": "reset_capacity_lower_MW",
+      "capacity_MW": 118.29222738054357,
+      "factor": 0.98,
+      "total_amplitude_MW": 115.92638283293269,
+      "allocation_MW": [
+        57.963191416466344,
+        57.963191416466344
+      ],
+      "full_word_sha256": "b46fe65fdd8103ba8a88c3eb6a74602091048e9f26ce3a1399b2e7ba2f5b3044",
+      "trim_word_sha256": "a14e379f0f1a890810f1492d368377aa25cdb949e1743651164419538dd38374",
+      "actual_schedule_sha256": "5dda8b7870d60690bb5ab051ea295cdc46ae918714f785dba812598d340e063b",
+      "full_schedule_sha256": "944b00e0b3a302b46db4f5e712798bb5f265f439f1d70d521184ca111c1516a9",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5556640625,
+      "target_trim_time_s": 129.5556640625,
+      "target_full_time_s": 513.5556640625,
+      "full_LTI_target_Hz": 0.17626208305592572,
+      "LTI_trim_vs_full_tail_upper_Hz": 4.831430326183875e-09,
+      "contract_LTI_upper_Hz": 0.17668834428428376,
+      "invalid_reset_predicted_upper_Hz": 0.049,
+      "tf_s": 151.0
+    },
+    "dt_s": 0.015625,
+    "event_epsilon_s": 0.0001,
+    "complete": true,
+    "tds_return": true,
+    "busted": false,
+    "error": "",
+    "metadata": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ]
+    },
+    "initial_state_max_difference": 0.0,
+    "initial_state_sha256": "293aa0c4e506050be9e56d9359fd543a3759b3444c0389ece6d6b616e4ea9f6a",
+    "samples": 10188,
+    "end_time_s": 151.0,
+    "actual_max_dt_s": 0.015625,
+    "actual_input_sha256": "5dda8b7870d60690bb5ab051ea295cdc46ae918714f785dba812598d340e063b",
+    "state_reset_between_blocks": false,
+    "metrics": {
+      "nonlinear_peak_any_generator_Hz": 0.19113292900508227,
+      "nonlinear_peak_time_s": 89.390725,
+      "nonlinear_peak_generator": "4",
+      "exact_LTI_peak_any_generator_Hz": 0.17626208089073767,
+      "exact_LTI_peak_time_s": 129.5556640625,
+      "exact_LTI_peak_generator": "4",
+      "max_linear_nonlinear_error_Hz": 0.03710297199549092,
+      "rms_linear_nonlinear_error_Hz": 0.011936847286333959,
+      "nonlinear_target_Hz": 0.1813895363453133,
+      "exact_LTI_target_Hz": 0.17626208089073767,
+      "target_observation_time_error_s": 0.0,
+      "full_vs_trimmed_LTI_target_error_Hz": 2.1651880566242454e-09,
+      "tail_after_word_peak_Hz": 0.11048036156867669,
+      "minimum_bus_voltage_pu": 0.9006032201101033,
+      "maximum_bus_voltage_pu": 1.0306575138800147,
+      "nonlinear_frequency_margin_Hz": -0.14113292900508229,
+      "LTI_frequency_margin_Hz": -0.12626208089073765
+    },
+    "physical_ledger": [
+      {
+        "bus": 7,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1159.0,
+        "native_dynamic_load_min_MW": 1028.1027124084662,
+        "probe_input_min_MW": -57.963191416466344,
+        "probe_input_max_MW": 57.963191416466344,
+        "total_native_plus_probe_min_MW": 1001.9964274473166,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      },
+      {
+        "bus": 8,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1575.0,
+        "native_dynamic_load_min_MW": 1498.1465203156051,
+        "probe_input_min_MW": -57.963191416466344,
+        "probe_input_max_MW": 57.963191416466344,
+        "total_native_plus_probe_min_MW": 1497.8476562454714,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      }
+    ],
+    "elapsed_s": 29.264583102005417,
+    "scope": "Finite signed-injection nonlinear stress replay at unchanged original workpoint. Native aggregate nonnegativity does not change zero probe baseline or establish positive compute/work realization."
+  },
+  {
+    "name": "kundur_committed_inner_dt128",
+    "case": {
+      "network": "kundur",
+      "label": "committed_inner",
+      "contract": "committed",
+      "capacity_key": "committed_capacity_lower_MW",
+      "capacity_MW": 32.805328303493596,
+      "factor": 0.98,
+      "total_amplitude_MW": 32.14922173742372,
+      "allocation_MW": [
+        16.07461086871186,
+        16.07461086871186
+      ],
+      "full_word_sha256": "b46fe65fdd8103ba8a88c3eb6a74602091048e9f26ce3a1399b2e7ba2f5b3044",
+      "trim_word_sha256": "a14e379f0f1a890810f1492d368377aa25cdb949e1743651164419538dd38374",
+      "actual_schedule_sha256": "76b06cec50449cb50690a2a86c2727f104abf821d7104a6bf6babb5c41ab26eb",
+      "full_schedule_sha256": "3bfb6acec91b47126907746958b4373cfb20bbc4cd114d08ac628ea267e5b292",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5556640625,
+      "target_trim_time_s": 129.5556640625,
+      "target_full_time_s": 513.5556640625,
+      "full_LTI_target_Hz": 0.04888178733422315,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.3398738153440699e-09,
+      "contract_LTI_upper_Hz": 0.049,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    "dt_s": 0.0078125,
+    "event_epsilon_s": 0.0001,
+    "complete": true,
+    "tds_return": true,
+    "busted": false,
+    "error": "",
+    "metadata": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ]
+    },
+    "initial_state_max_difference": 0.0,
+    "initial_state_sha256": "293aa0c4e506050be9e56d9359fd543a3759b3444c0389ece6d6b616e4ea9f6a",
+    "samples": 19852,
+    "end_time_s": 151.0,
+    "actual_max_dt_s": 0.0078125,
+    "actual_input_sha256": "76b06cec50449cb50690a2a86c2727f104abf821d7104a6bf6babb5c41ab26eb",
+    "state_reset_between_blocks": false,
+    "metrics": {
+      "nonlinear_peak_any_generator_Hz": 0.049645737273267265,
+      "nonlinear_peak_time_s": 129.546975,
+      "nonlinear_peak_generator": "4",
+      "exact_LTI_peak_any_generator_Hz": 0.04888178673376428,
+      "exact_LTI_peak_time_s": 129.5556640625,
+      "exact_LTI_peak_generator": "4",
+      "max_linear_nonlinear_error_Hz": 0.002014412887697114,
+      "rms_linear_nonlinear_error_Hz": 0.0007336028499247281,
+      "nonlinear_target_Hz": 0.04964105393974627,
+      "exact_LTI_target_Hz": 0.04888178673376428,
+      "target_observation_time_error_s": 0.0,
+      "full_vs_trimmed_LTI_target_error_Hz": 6.004588701258307e-10,
+      "tail_after_word_peak_Hz": 0.030954840025210206,
+      "minimum_bus_voltage_pu": 0.94248435509489,
+      "maximum_bus_voltage_pu": 1.009397806772448,
+      "nonlinear_frequency_margin_Hz": 0.0003542627267327375,
+      "LTI_frequency_margin_Hz": 0.0011182132662357208
+    },
+    "physical_ledger": [
+      {
+        "bus": 7,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1159.0,
+        "native_dynamic_load_min_MW": 1125.9466513778432,
+        "probe_input_min_MW": -16.07461086871186,
+        "probe_input_max_MW": 16.07461086871186,
+        "total_native_plus_probe_min_MW": 1118.8280138318967,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      },
+      {
+        "bus": 8,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1575.0,
+        "native_dynamic_load_min_MW": 1557.7871125659494,
+        "probe_input_min_MW": -16.07461086871186,
+        "probe_input_max_MW": 16.07461086871186,
+        "total_native_plus_probe_min_MW": 1555.885899600266,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      }
+    ],
+    "elapsed_s": 48.242076053000346,
+    "scope": "Finite signed-injection nonlinear stress replay at unchanged original workpoint. Native aggregate nonnegativity does not change zero probe baseline or establish positive compute/work realization."
+  },
+  {
+    "name": "kundur_committed_outer_dt128",
+    "case": {
+      "network": "kundur",
+      "label": "committed_outer",
+      "contract": "committed",
+      "capacity_key": "committed_capacity_upper_MW",
+      "capacity_MW": 32.884662663424535,
+      "factor": 1.02,
+      "total_amplitude_MW": 33.542355916693026,
+      "allocation_MW": [
+        16.771177958346513,
+        16.771177958346513
+      ],
+      "full_word_sha256": "b46fe65fdd8103ba8a88c3eb6a74602091048e9f26ce3a1399b2e7ba2f5b3044",
+      "trim_word_sha256": "a14e379f0f1a890810f1492d368377aa25cdb949e1743651164419538dd38374",
+      "actual_schedule_sha256": "be8065a76b23a2ea27f0bba85d360c62fa7126dc2657883c33936d25b73921f6",
+      "full_schedule_sha256": "4447f38b22ce2c778d30540eafe7fe565f0f7ba61e84c779ae43b793e6cdb689",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5556640625,
+      "target_trim_time_s": 129.5556640625,
+      "target_full_time_s": 513.5556640625,
+      "full_LTI_target_Hz": 0.05100000000000001,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.3979350655761688e-09,
+      "contract_LTI_upper_Hz": 0.051123335219176794,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    "dt_s": 0.0078125,
+    "event_epsilon_s": 0.0001,
+    "complete": true,
+    "tds_return": true,
+    "busted": false,
+    "error": "",
+    "metadata": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ]
+    },
+    "initial_state_max_difference": 0.0,
+    "initial_state_sha256": "293aa0c4e506050be9e56d9359fd543a3759b3444c0389ece6d6b616e4ea9f6a",
+    "samples": 19852,
+    "end_time_s": 151.0,
+    "actual_max_dt_s": 0.0078125,
+    "actual_input_sha256": "be8065a76b23a2ea27f0bba85d360c62fa7126dc2657883c33936d25b73921f6",
+    "state_reset_between_blocks": false,
+    "metrics": {
+      "nonlinear_peak_any_generator_Hz": 0.05182883401392946,
+      "nonlinear_peak_time_s": 129.546975,
+      "nonlinear_peak_generator": "4",
+      "exact_LTI_peak_any_generator_Hz": 0.05099999937352068,
+      "exact_LTI_peak_time_s": 129.5556640625,
+      "exact_LTI_peak_generator": "4",
+      "max_linear_nonlinear_error_Hz": 0.002198119701522592,
+      "rms_linear_nonlinear_error_Hz": 0.0008000242995706049,
+      "nonlinear_target_Hz": 0.051823021341732556,
+      "exact_LTI_target_Hz": 0.05099999937352068,
+      "target_observation_time_error_s": 0.0,
+      "full_vs_trimmed_LTI_target_error_Hz": 6.264793336874241e-10,
+      "tail_after_word_peak_Hz": 0.03231317463144423,
+      "minimum_bus_voltage_pu": 0.9418582906548711,
+      "maximum_bus_voltage_pu": 1.009787106803815,
+      "nonlinear_frequency_margin_Hz": -0.0018288340139294562,
+      "LTI_frequency_margin_Hz": -0.0009999993735206741
+    },
+    "physical_ledger": [
+      {
+        "bus": 7,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1159.0,
+        "native_dynamic_load_min_MW": 1124.4512821892802,
+        "probe_input_min_MW": -16.771177958346513,
+        "probe_input_max_MW": 16.771177958346513,
+        "total_native_plus_probe_min_MW": 1117.0267905114054,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      },
+      {
+        "bus": 8,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1575.0,
+        "native_dynamic_load_min_MW": 1556.987173027255,
+        "probe_input_min_MW": -16.771177958346513,
+        "probe_input_max_MW": 16.771177958346513,
+        "total_native_plus_probe_min_MW": 1555.0267953937919,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      }
+    ],
+    "elapsed_s": 47.53359343200282,
+    "scope": "Finite signed-injection nonlinear stress replay at unchanged original workpoint. Native aggregate nonnegativity does not change zero probe baseline or establish positive compute/work realization."
+  },
+  {
+    "name": "kundur_dynamic_optional_inner_dt128",
+    "case": {
+      "network": "kundur",
+      "label": "dynamic_optional_inner",
+      "contract": "dynamic_optional",
+      "capacity_key": "dynamic_optional_capacity_lower_MW",
+      "capacity_MW": 30.18662151541489,
+      "factor": 0.98,
+      "total_amplitude_MW": 29.58288908510659,
+      "allocation_MW": [
+        14.791444542553295,
+        14.791444542553295
+      ],
+      "full_word_sha256": "9b6b92b30c3dd3e284ab8d38d3c3863f57260714c5814adfc72f15cf6d140ad9",
+      "trim_word_sha256": "ef31414de2581e538c3c7e682d67fc32a0b2e2b274434c619733dd27b7d7ebe3",
+      "actual_schedule_sha256": "5bbca0ecdce01a03c3894db449c469932704d8218dbee1bb111475af9755b5fe",
+      "full_schedule_sha256": "b7367cbae1c3089a9287f3ce1d6a8613c35aa674355fb82c4ed1651edb0c5e3f",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5576171875,
+      "target_trim_time_s": 129.5576171875,
+      "target_full_time_s": 513.5576171875,
+      "full_LTI_target_Hz": 0.04889122373758552,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.2329175116927277e-09,
+      "contract_LTI_upper_Hz": 0.049,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    "dt_s": 0.0078125,
+    "event_epsilon_s": 0.0001,
+    "complete": true,
+    "tds_return": true,
+    "busted": false,
+    "error": "",
+    "metadata": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ]
+    },
+    "initial_state_max_difference": 0.0,
+    "initial_state_sha256": "293aa0c4e506050be9e56d9359fd543a3759b3444c0389ece6d6b616e4ea9f6a",
+    "samples": 19852,
+    "end_time_s": 151.0,
+    "actual_max_dt_s": 0.0078125,
+    "actual_input_sha256": "5bbca0ecdce01a03c3894db449c469932704d8218dbee1bb111475af9755b5fe",
+    "state_reset_between_blocks": false,
+    "metrics": {
+      "nonlinear_peak_any_generator_Hz": 0.049369371939782525,
+      "nonlinear_peak_time_s": 129.5547875,
+      "nonlinear_peak_generator": "4",
+      "exact_LTI_peak_any_generator_Hz": 0.04889122309679117,
+      "exact_LTI_peak_time_s": 129.5576171875,
+      "exact_LTI_peak_generator": "4",
+      "max_linear_nonlinear_error_Hz": 0.0019167620585856075,
+      "rms_linear_nonlinear_error_Hz": 0.0007133637472024332,
+      "nonlinear_target_Hz": 0.04936379919207923,
+      "exact_LTI_target_Hz": 0.04889122309679117,
+      "target_observation_time_error_s": 0.0,
+      "full_vs_trimmed_LTI_target_error_Hz": 6.407943481390177e-10,
+      "tail_after_word_peak_Hz": 0.03156758856738939,
+      "minimum_bus_voltage_pu": 0.9423336061260896,
+      "maximum_bus_voltage_pu": 1.009594061949766,
+      "nonlinear_frequency_margin_Hz": 0.000630628060217478,
+      "LTI_frequency_margin_Hz": 0.001108776903208833
+    },
+    "physical_ledger": [
+      {
+        "bus": 7,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1159.0,
+        "native_dynamic_load_min_MW": 1125.586493203868,
+        "probe_input_min_MW": -14.791444542553295,
+        "probe_input_max_MW": 14.791444542553295,
+        "total_native_plus_probe_min_MW": 1119.985430044996,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      },
+      {
+        "bus": 8,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1575.0,
+        "native_dynamic_load_min_MW": 1558.7826934227514,
+        "probe_input_min_MW": -14.791444542553295,
+        "probe_input_max_MW": 14.791444542553295,
+        "total_native_plus_probe_min_MW": 1556.7310334447025,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      }
+    ],
+    "elapsed_s": 47.32546698600345,
+    "scope": "Finite signed-injection nonlinear stress replay at unchanged original workpoint. Native aggregate nonnegativity does not change zero probe baseline or establish positive compute/work realization."
+  },
+  {
+    "name": "kundur_dynamic_optional_outer_dt128",
+    "case": {
+      "network": "kundur",
+      "label": "dynamic_optional_outer",
+      "contract": "dynamic_optional",
+      "capacity_key": "dynamic_optional_capacity_upper_MW",
+      "capacity_MW": 30.25378260512276,
+      "factor": 1.02,
+      "total_amplitude_MW": 30.858858257225215,
+      "allocation_MW": [
+        15.429429128612608,
+        15.429429128612608
+      ],
+      "full_word_sha256": "9b6b92b30c3dd3e284ab8d38d3c3863f57260714c5814adfc72f15cf6d140ad9",
+      "trim_word_sha256": "ef31414de2581e538c3c7e682d67fc32a0b2e2b274434c619733dd27b7d7ebe3",
+      "actual_schedule_sha256": "4af38eec8b00be698fa7e6b429161f94a15f2338b56ca5e12afeebc765acd7de",
+      "full_schedule_sha256": "e458f646496992fc280255a108634d1a3ac12bbb7eab1105760bae6fb57f19a1",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5576171875,
+      "target_trim_time_s": 129.5576171875,
+      "target_full_time_s": 513.5576171875,
+      "full_LTI_target_Hz": 0.051000000000000004,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.286095709811218e-09,
+      "contract_LTI_upper_Hz": 0.05111346800016532,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    "dt_s": 0.0078125,
+    "event_epsilon_s": 0.0001,
+    "complete": true,
+    "tds_return": true,
+    "busted": false,
+    "error": "",
+    "metadata": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ]
+    },
+    "initial_state_max_difference": 0.0,
+    "initial_state_sha256": "293aa0c4e506050be9e56d9359fd543a3759b3444c0389ece6d6b616e4ea9f6a",
+    "samples": 19852,
+    "end_time_s": 151.0,
+    "actual_max_dt_s": 0.0078125,
+    "actual_input_sha256": "4af38eec8b00be698fa7e6b429161f94a15f2338b56ca5e12afeebc765acd7de",
+    "state_reset_between_blocks": false,
+    "metrics": {
+      "nonlinear_peak_any_generator_Hz": 0.051516438289040956,
+      "nonlinear_peak_time_s": 129.5547875,
+      "nonlinear_peak_generator": "4",
+      "exact_LTI_peak_any_generator_Hz": 0.050999999331566806,
+      "exact_LTI_peak_time_s": 129.5576171875,
+      "exact_LTI_peak_generator": "4",
+      "max_linear_nonlinear_error_Hz": 0.0020983922075571773,
+      "rms_linear_nonlinear_error_Hz": 0.0007781479689376943,
+      "nonlinear_target_Hz": 0.05151045547955313,
+      "exact_LTI_target_Hz": 0.050999999331566806,
+      "target_observation_time_error_s": 0.0,
+      "full_vs_trimmed_LTI_target_error_Hz": 6.684331976813951e-10,
+      "tail_after_word_peak_Hz": 0.03294423394288426,
+      "minimum_bus_voltage_pu": 0.9417008035110868,
+      "maximum_bus_voltage_pu": 1.009990574318892,
+      "nonlinear_frequency_margin_Hz": -0.0015164382890409528,
+      "LTI_frequency_margin_Hz": -0.0009999993315668032
+    },
+    "physical_ledger": [
+      {
+        "bus": 7,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1159.0,
+        "native_dynamic_load_min_MW": 1124.0752769721921,
+        "probe_input_min_MW": -15.429429128612608,
+        "probe_input_max_MW": 15.429429128612608,
+        "total_native_plus_probe_min_MW": 1118.2461827075845,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      },
+      {
+        "bus": 8,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1575.0,
+        "native_dynamic_load_min_MW": 1558.0301533235702,
+        "probe_input_min_MW": -15.429429128612608,
+        "probe_input_max_MW": 15.429429128612608,
+        "total_native_plus_probe_min_MW": 1555.9398655800092,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      }
+    ],
+    "elapsed_s": 49.57063753699913,
+    "scope": "Finite signed-injection nonlinear stress replay at unchanged original workpoint. Native aggregate nonnegativity does not change zero probe baseline or establish positive compute/work realization."
+  },
+  {
+    "name": "kundur_reset_inner_error_dt128",
+    "case": {
+      "network": "kundur",
+      "label": "reset_inner_error",
+      "contract": "committed",
+      "capacity_key": "reset_capacity_lower_MW",
+      "capacity_MW": 118.29222738054357,
+      "factor": 0.98,
+      "total_amplitude_MW": 115.92638283293269,
+      "allocation_MW": [
+        57.963191416466344,
+        57.963191416466344
+      ],
+      "full_word_sha256": "b46fe65fdd8103ba8a88c3eb6a74602091048e9f26ce3a1399b2e7ba2f5b3044",
+      "trim_word_sha256": "a14e379f0f1a890810f1492d368377aa25cdb949e1743651164419538dd38374",
+      "actual_schedule_sha256": "5dda8b7870d60690bb5ab051ea295cdc46ae918714f785dba812598d340e063b",
+      "full_schedule_sha256": "944b00e0b3a302b46db4f5e712798bb5f265f439f1d70d521184ca111c1516a9",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5556640625,
+      "target_trim_time_s": 129.5556640625,
+      "target_full_time_s": 513.5556640625,
+      "full_LTI_target_Hz": 0.17626208305592572,
+      "LTI_trim_vs_full_tail_upper_Hz": 4.831430326183875e-09,
+      "contract_LTI_upper_Hz": 0.17668834428428376,
+      "invalid_reset_predicted_upper_Hz": 0.049,
+      "tf_s": 151.0
+    },
+    "dt_s": 0.0078125,
+    "event_epsilon_s": 0.0001,
+    "complete": true,
+    "tds_return": true,
+    "busted": false,
+    "error": "",
+    "metadata": {
+      "andes_version": "2.0.0",
+      "source_case": "kundur/kundur_full.xlsx",
+      "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "disabled_original_events": {
+        "Toggle": [
+          {
+            "idx": 1,
+            "u": 1,
+            "name": "Toggler_1",
+            "model": "Line",
+            "dev": "Line_8",
+            "t": 2
+          }
+        ]
+      },
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0,
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      },
+      "port_original_PQ_status_after_dynamic_replacement": [
+        0.0,
+        0.0
+      ],
+      "initial_f_max": 2.220446049250313e-16,
+      "initial_g_max": 2.842170943040401e-14,
+      "original_model_parameters_modified": false,
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ]
+    },
+    "initial_state_max_difference": 0.0,
+    "initial_state_sha256": "293aa0c4e506050be9e56d9359fd543a3759b3444c0389ece6d6b616e4ea9f6a",
+    "samples": 19852,
+    "end_time_s": 151.0,
+    "actual_max_dt_s": 0.0078125,
+    "actual_input_sha256": "5dda8b7870d60690bb5ab051ea295cdc46ae918714f785dba812598d340e063b",
+    "state_reset_between_blocks": false,
+    "metrics": {
+      "nonlinear_peak_any_generator_Hz": 0.1910995268507465,
+      "nonlinear_peak_time_s": 89.3829125,
+      "nonlinear_peak_generator": "4",
+      "exact_LTI_peak_any_generator_Hz": 0.1762620808907385,
+      "exact_LTI_peak_time_s": 129.5556640625,
+      "exact_LTI_peak_generator": "4",
+      "max_linear_nonlinear_error_Hz": 0.036223103739932414,
+      "rms_linear_nonlinear_error_Hz": 0.011651509102582686,
+      "nonlinear_target_Hz": 0.18168144141606835,
+      "exact_LTI_target_Hz": 0.1762620808907385,
+      "target_observation_time_error_s": 0.0,
+      "full_vs_trimmed_LTI_target_error_Hz": 2.165187223956977e-09,
+      "tail_after_word_peak_Hz": 0.11088513483757945,
+      "minimum_bus_voltage_pu": 0.900587796474173,
+      "maximum_bus_voltage_pu": 1.0306492277470967,
+      "nonlinear_frequency_margin_Hz": -0.1410995268507465,
+      "LTI_frequency_margin_Hz": -0.12626208089073848
+    },
+    "physical_ledger": [
+      {
+        "bus": 7,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1159.0,
+        "native_dynamic_load_min_MW": 1028.0674983523807,
+        "probe_input_min_MW": -57.963191416466344,
+        "probe_input_max_MW": 57.963191416466344,
+        "total_native_plus_probe_min_MW": 1002.1187332973325,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      },
+      {
+        "bus": 8,
+        "supplemental_port_baseline_MW": 0.0,
+        "native_original_P_MW": 1575.0,
+        "native_dynamic_load_min_MW": 1498.1176558081852,
+        "probe_input_min_MW": -57.963191416466344,
+        "probe_input_max_MW": 57.963191416466344,
+        "total_native_plus_probe_min_MW": 1497.8899636875399,
+        "total_native_plus_probe_nonnegative": true,
+        "positive_compute_probe_contract_embedded": false
+      }
+    ],
+    "elapsed_s": 52.8127232370025,
+    "scope": "Finite signed-injection nonlinear stress replay at unchanged original workpoint. Native aggregate nonnegativity does not change zero probe baseline or establish positive compute/work realization."
+  }
+]

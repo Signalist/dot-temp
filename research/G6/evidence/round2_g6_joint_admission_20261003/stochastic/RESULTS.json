@@ -1,0 +1,2369 @@
+{
+  "protocol_sha256": "13b2e5c1cbf13ddbf1a965b2bc2a0d0c5f7a7cb902a3e616a26ad0c64e8c96e7",
+  "source_sha256": "98d8824aa7bee66f42c1f847e63fd829ea3a663f892d83552af621cd21e63d4b",
+  "method": "exact integer state tree and independent integer weighted run automaton",
+  "all_checks_passed": true,
+  "random_draws": 0,
+  "total_path_prefixes_checked": 1179630,
+  "total_boundary_equalities_checked": 18,
+  "records": [
+    {
+      "case": "iid_fair",
+      "L": 2,
+      "word_probability_lower": "1/2",
+      "path_prefixes_checked": 131070,
+      "boundary_equalities_checked": 2,
+      "path_classification_mismatches": 0,
+      "missions": [
+        {
+          "N": 0,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 1,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 2,
+          "survival": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "disjoint_word_upper": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 3,
+          "survival": {
+            "exact": "1/4",
+            "decimal": 0.25
+          },
+          "disjoint_word_upper": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 4,
+          "survival": {
+            "exact": "1/8",
+            "decimal": 0.125
+          },
+          "disjoint_word_upper": {
+            "exact": "1/4",
+            "decimal": 0.25
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 5,
+          "survival": {
+            "exact": "1/16",
+            "decimal": 0.0625
+          },
+          "disjoint_word_upper": {
+            "exact": "1/4",
+            "decimal": 0.25
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 6,
+          "survival": {
+            "exact": "1/32",
+            "decimal": 0.03125
+          },
+          "disjoint_word_upper": {
+            "exact": "1/8",
+            "decimal": 0.125
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 7,
+          "survival": {
+            "exact": "1/64",
+            "decimal": 0.015625
+          },
+          "disjoint_word_upper": {
+            "exact": "1/8",
+            "decimal": 0.125
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 8,
+          "survival": {
+            "exact": "1/128",
+            "decimal": 0.0078125
+          },
+          "disjoint_word_upper": {
+            "exact": "1/16",
+            "decimal": 0.0625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 9,
+          "survival": {
+            "exact": "1/256",
+            "decimal": 0.00390625
+          },
+          "disjoint_word_upper": {
+            "exact": "1/16",
+            "decimal": 0.0625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 10,
+          "survival": {
+            "exact": "1/512",
+            "decimal": 0.001953125
+          },
+          "disjoint_word_upper": {
+            "exact": "1/32",
+            "decimal": 0.03125
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 11,
+          "survival": {
+            "exact": "1/1024",
+            "decimal": 0.0009765625
+          },
+          "disjoint_word_upper": {
+            "exact": "1/32",
+            "decimal": 0.03125
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 12,
+          "survival": {
+            "exact": "1/2048",
+            "decimal": 0.00048828125
+          },
+          "disjoint_word_upper": {
+            "exact": "1/64",
+            "decimal": 0.015625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 13,
+          "survival": {
+            "exact": "1/4096",
+            "decimal": 0.000244140625
+          },
+          "disjoint_word_upper": {
+            "exact": "1/64",
+            "decimal": 0.015625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 14,
+          "survival": {
+            "exact": "1/8192",
+            "decimal": 0.0001220703125
+          },
+          "disjoint_word_upper": {
+            "exact": "1/128",
+            "decimal": 0.0078125
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 15,
+          "survival": {
+            "exact": "1/16384",
+            "decimal": 6.103515625e-05
+          },
+          "disjoint_word_upper": {
+            "exact": "1/128",
+            "decimal": 0.0078125
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 16,
+          "survival": {
+            "exact": "1/32768",
+            "decimal": 3.0517578125e-05
+          },
+          "disjoint_word_upper": {
+            "exact": "1/256",
+            "decimal": 0.00390625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 20,
+          "survival": {
+            "exact": "1/524288",
+            "decimal": 1.9073486328125e-06
+          },
+          "disjoint_word_upper": {
+            "exact": "1/1024",
+            "decimal": 0.0009765625
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 50,
+          "survival": {
+            "exact": "1/562949953421312",
+            "decimal": 1.7763568394002505e-15
+          },
+          "disjoint_word_upper": {
+            "exact": "1/33554432",
+            "decimal": 2.9802322387695312e-08
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 100,
+          "survival": {
+            "exact": "1/633825300114114700748351602688",
+            "decimal": 1.5777218104420236e-30
+          },
+          "disjoint_word_upper": {
+            "exact": "1/1125899906842624",
+            "decimal": 8.881784197001252e-16
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 1000,
+          "survival": {
+            "exact": "1/5357543035931336604742125245300009052807024058527668037218751941851755255624680612465991894078479290637973364587765734125935726428461570217992288787349287401967283887412115492710537302531185570938977091076523237491790970633699383779582771973038531457285598238843271083830214915826312193418602834034688",
+            "decimal": 1.8665272370064378e-301
+          },
+          "disjoint_word_upper": {
+            "exact": "1/3273390607896141870013189696827599152216642046043064789483291368096133796404674554883270092325904157150886684127560071009217256545885393053328527589376",
+            "decimal": 3.054936363499605e-151
+          },
+          "independently_enumerated": false
+        }
+      ]
+    },
+    {
+      "case": "iid_fair",
+      "L": 3,
+      "word_probability_lower": "1/4",
+      "path_prefixes_checked": 131070,
+      "boundary_equalities_checked": 2,
+      "path_classification_mismatches": 0,
+      "missions": [
+        {
+          "N": 0,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 1,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 2,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 3,
+          "survival": {
+            "exact": "3/4",
+            "decimal": 0.75
+          },
+          "disjoint_word_upper": {
+            "exact": "3/4",
+            "decimal": 0.75
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 4,
+          "survival": {
+            "exact": "5/8",
+            "decimal": 0.625
+          },
+          "disjoint_word_upper": {
+            "exact": "3/4",
+            "decimal": 0.75
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 5,
+          "survival": {
+            "exact": "1/2",
+            "decimal": 0.5
+          },
+          "disjoint_word_upper": {
+            "exact": "3/4",
+            "decimal": 0.75
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 6,
+          "survival": {
+            "exact": "13/32",
+            "decimal": 0.40625
+          },
+          "disjoint_word_upper": {
+            "exact": "9/16",
+            "decimal": 0.5625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 7,
+          "survival": {
+            "exact": "21/64",
+            "decimal": 0.328125
+          },
+          "disjoint_word_upper": {
+            "exact": "9/16",
+            "decimal": 0.5625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 8,
+          "survival": {
+            "exact": "17/64",
+            "decimal": 0.265625
+          },
+          "disjoint_word_upper": {
+            "exact": "9/16",
+            "decimal": 0.5625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 9,
+          "survival": {
+            "exact": "55/256",
+            "decimal": 0.21484375
+          },
+          "disjoint_word_upper": {
+            "exact": "27/64",
+            "decimal": 0.421875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 10,
+          "survival": {
+            "exact": "89/512",
+            "decimal": 0.173828125
+          },
+          "disjoint_word_upper": {
+            "exact": "27/64",
+            "decimal": 0.421875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 11,
+          "survival": {
+            "exact": "9/64",
+            "decimal": 0.140625
+          },
+          "disjoint_word_upper": {
+            "exact": "27/64",
+            "decimal": 0.421875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 12,
+          "survival": {
+            "exact": "233/2048",
+            "decimal": 0.11376953125
+          },
+          "disjoint_word_upper": {
+            "exact": "81/256",
+            "decimal": 0.31640625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 13,
+          "survival": {
+            "exact": "377/4096",
+            "decimal": 0.092041015625
+          },
+          "disjoint_word_upper": {
+            "exact": "81/256",
+            "decimal": 0.31640625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 14,
+          "survival": {
+            "exact": "305/4096",
+            "decimal": 0.074462890625
+          },
+          "disjoint_word_upper": {
+            "exact": "81/256",
+            "decimal": 0.31640625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 15,
+          "survival": {
+            "exact": "987/16384",
+            "decimal": 0.06024169921875
+          },
+          "disjoint_word_upper": {
+            "exact": "243/1024",
+            "decimal": 0.2373046875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 16,
+          "survival": {
+            "exact": "1597/32768",
+            "decimal": 0.048736572265625
+          },
+          "disjoint_word_upper": {
+            "exact": "243/1024",
+            "decimal": 0.2373046875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 20,
+          "survival": {
+            "exact": "5473/262144",
+            "decimal": 0.020877838134765625
+          },
+          "disjoint_word_upper": {
+            "exact": "729/4096",
+            "decimal": 0.177978515625
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 50,
+          "survival": {
+            "exact": "10182505537/281474976710656",
+            "decimal": 3.617552670576174e-05
+          },
+          "disjoint_word_upper": {
+            "exact": "43046721/4294967296",
+            "decimal": 0.010022595757618546
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 100,
+          "survival": {
+            "exact": "573147844013817084101/633825300114114700748351602688",
+            "decimal": 9.04267854108422e-10
+          },
+          "disjoint_word_upper": {
+            "exact": "5559060566555523/73786976294838206464",
+            "decimal": 7.533931929047496e-05
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 1000,
+          "survival": {
+            "exact": "70330367711422815821835254877183549770181269836358732742604905087154537118196933579742249494562611733487750449241765991088186363265450223647106012053374121273867339111198139373125598767690091902245245323403501/5357543035931336604742125245300009052807024058527668037218751941851755255624680612465991894078479290637973364587765734125935726428461570217992288787349287401967283887412115492710537302531185570938977091076523237491790970633699383779582771973038531457285598238843271083830214915826312193418602834034688",
+            "decimal": 1.3127354692204882e-92
+          },
+          "disjoint_word_upper": {
+            "exact": "760988023132059809720425867265032780727896356372077865117010037035791631439306199613044145649378522557935351570949952010001833769302566531786879537190794573523/306180206916083902309240650087602475282639486413866622577088471913520022894784390350900738050555138105234536857820245071373614031482942161565170086143298589738273508330367307539078392896587187265470464",
+            "decimal": 2.4854252689842456e-42
+          },
+          "independently_enumerated": false
+        }
+      ]
+    },
+    {
+      "case": "iid_fair",
+      "L": 4,
+      "word_probability_lower": "1/8",
+      "path_prefixes_checked": 131070,
+      "boundary_equalities_checked": 2,
+      "path_classification_mismatches": 0,
+      "missions": [
+        {
+          "N": 0,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 1,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 2,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 3,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 4,
+          "survival": {
+            "exact": "7/8",
+            "decimal": 0.875
+          },
+          "disjoint_word_upper": {
+            "exact": "7/8",
+            "decimal": 0.875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 5,
+          "survival": {
+            "exact": "13/16",
+            "decimal": 0.8125
+          },
+          "disjoint_word_upper": {
+            "exact": "7/8",
+            "decimal": 0.875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 6,
+          "survival": {
+            "exact": "3/4",
+            "decimal": 0.75
+          },
+          "disjoint_word_upper": {
+            "exact": "7/8",
+            "decimal": 0.875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 7,
+          "survival": {
+            "exact": "11/16",
+            "decimal": 0.6875
+          },
+          "disjoint_word_upper": {
+            "exact": "7/8",
+            "decimal": 0.875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 8,
+          "survival": {
+            "exact": "81/128",
+            "decimal": 0.6328125
+          },
+          "disjoint_word_upper": {
+            "exact": "49/64",
+            "decimal": 0.765625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 9,
+          "survival": {
+            "exact": "149/256",
+            "decimal": 0.58203125
+          },
+          "disjoint_word_upper": {
+            "exact": "49/64",
+            "decimal": 0.765625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 10,
+          "survival": {
+            "exact": "137/256",
+            "decimal": 0.53515625
+          },
+          "disjoint_word_upper": {
+            "exact": "49/64",
+            "decimal": 0.765625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 11,
+          "survival": {
+            "exact": "63/128",
+            "decimal": 0.4921875
+          },
+          "disjoint_word_upper": {
+            "exact": "49/64",
+            "decimal": 0.765625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 12,
+          "survival": {
+            "exact": "927/2048",
+            "decimal": 0.45263671875
+          },
+          "disjoint_word_upper": {
+            "exact": "343/512",
+            "decimal": 0.669921875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 13,
+          "survival": {
+            "exact": "1705/4096",
+            "decimal": 0.416259765625
+          },
+          "disjoint_word_upper": {
+            "exact": "343/512",
+            "decimal": 0.669921875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 14,
+          "survival": {
+            "exact": "49/128",
+            "decimal": 0.3828125
+          },
+          "disjoint_word_upper": {
+            "exact": "343/512",
+            "decimal": 0.669921875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 15,
+          "survival": {
+            "exact": "721/2048",
+            "decimal": 0.35205078125
+          },
+          "disjoint_word_upper": {
+            "exact": "343/512",
+            "decimal": 0.669921875
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 16,
+          "survival": {
+            "exact": "10609/32768",
+            "decimal": 0.323760986328125
+          },
+          "disjoint_word_upper": {
+            "exact": "2401/4096",
+            "decimal": 0.586181640625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 20,
+          "survival": {
+            "exact": "121415/524288",
+            "decimal": 0.2315807342529297
+          },
+          "disjoint_word_upper": {
+            "exact": "16807/32768",
+            "decimal": 0.512908935546875
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 50,
+          "survival": {
+            "exact": "5281115313321/281474976710656",
+            "decimal": 0.01876229061295831
+          },
+          "disjoint_word_upper": {
+            "exact": "13841287201/68719476736",
+            "decimal": 0.2014172380004311
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 100,
+          "survival": {
+            "exact": "180396380815100901214157639/633825300114114700748351602688",
+            "decimal": 0.0002846153045367897
+          },
+          "disjoint_word_upper": {
+            "exact": "1341068619663964900807/37778931862957161709568",
+            "decimal": 0.03549779079325702
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 1000,
+          "survival": {
+            "exact": "2758842807766486252615892411656158645133100149652696210351601845036392978912293462801016485671033253921841350537004356434253826361707295202024537559785200706502368152965047761644352316799391470273906561574500883480570560512982435681502330814068718832813973880527601/5357543035931336604742125245300009052807024058527668037218751941851755255624680612465991894078479290637973364587765734125935726428461570217992288787349287401967283887412115492710537302531185570938977091076523237491790970633699383779582771973038531457285598238843271083830214915826312193418602834034688",
+            "decimal": 5.1494552433154625e-37
+          },
+          "disjoint_word_upper": {
+            "exact": "18815250448759004797747440398770460753278965824274520564699796772813240860593715176907610212053994345747048043436940455072863886866361465162101062196720299016151483118251038883996011300645825474625761742043131249/5922386521532855740161817506647119732883018558947359509044845726112560091729648156474603305162988578607512400425457279991804428268870599332596921062626576000993556884845161077691136496092218188572933193945756793025561702170624",
+            "decimal": 3.176971036988171e-15
+          },
+          "independently_enumerated": false
+        }
+      ]
+    },
+    {
+      "case": "iid_biased",
+      "L": 2,
+      "word_probability_lower": "29/50",
+      "path_prefixes_checked": 131070,
+      "boundary_equalities_checked": 2,
+      "path_classification_mismatches": 0,
+      "missions": [
+        {
+          "N": 0,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 1,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 2,
+          "survival": {
+            "exact": "21/50",
+            "decimal": 0.42
+          },
+          "disjoint_word_upper": {
+            "exact": "21/50",
+            "decimal": 0.42
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 3,
+          "survival": {
+            "exact": "21/100",
+            "decimal": 0.21
+          },
+          "disjoint_word_upper": {
+            "exact": "21/50",
+            "decimal": 0.42
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 4,
+          "survival": {
+            "exact": "441/5000",
+            "decimal": 0.0882
+          },
+          "disjoint_word_upper": {
+            "exact": "441/2500",
+            "decimal": 0.1764
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 5,
+          "survival": {
+            "exact": "441/10000",
+            "decimal": 0.0441
+          },
+          "disjoint_word_upper": {
+            "exact": "441/2500",
+            "decimal": 0.1764
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 6,
+          "survival": {
+            "exact": "9261/500000",
+            "decimal": 0.018522
+          },
+          "disjoint_word_upper": {
+            "exact": "9261/125000",
+            "decimal": 0.074088
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 7,
+          "survival": {
+            "exact": "9261/1000000",
+            "decimal": 0.009261
+          },
+          "disjoint_word_upper": {
+            "exact": "9261/125000",
+            "decimal": 0.074088
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 8,
+          "survival": {
+            "exact": "194481/50000000",
+            "decimal": 0.00388962
+          },
+          "disjoint_word_upper": {
+            "exact": "194481/6250000",
+            "decimal": 0.03111696
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 9,
+          "survival": {
+            "exact": "194481/100000000",
+            "decimal": 0.00194481
+          },
+          "disjoint_word_upper": {
+            "exact": "194481/6250000",
+            "decimal": 0.03111696
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 10,
+          "survival": {
+            "exact": "4084101/5000000000",
+            "decimal": 0.0008168202
+          },
+          "disjoint_word_upper": {
+            "exact": "4084101/312500000",
+            "decimal": 0.0130691232
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 11,
+          "survival": {
+            "exact": "4084101/10000000000",
+            "decimal": 0.0004084101
+          },
+          "disjoint_word_upper": {
+            "exact": "4084101/312500000",
+            "decimal": 0.0130691232
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 12,
+          "survival": {
+            "exact": "85766121/500000000000",
+            "decimal": 0.000171532242
+          },
+          "disjoint_word_upper": {
+            "exact": "85766121/15625000000",
+            "decimal": 0.005489031744
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 13,
+          "survival": {
+            "exact": "85766121/1000000000000",
+            "decimal": 8.5766121e-05
+          },
+          "disjoint_word_upper": {
+            "exact": "85766121/15625000000",
+            "decimal": 0.005489031744
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 14,
+          "survival": {
+            "exact": "1801088541/50000000000000",
+            "decimal": 3.602177082e-05
+          },
+          "disjoint_word_upper": {
+            "exact": "1801088541/781250000000",
+            "decimal": 0.00230539333248
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 15,
+          "survival": {
+            "exact": "1801088541/100000000000000",
+            "decimal": 1.801088541e-05
+          },
+          "disjoint_word_upper": {
+            "exact": "1801088541/781250000000",
+            "decimal": 0.00230539333248
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 16,
+          "survival": {
+            "exact": "37822859361/5000000000000000",
+            "decimal": 7.5645718722e-06
+          },
+          "disjoint_word_upper": {
+            "exact": "37822859361/39062500000000",
+            "decimal": 0.0009682651996416
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 20,
+          "survival": {
+            "exact": "16679880978201/50000000000000000000",
+            "decimal": 3.3359761956402e-07
+          },
+          "disjoint_word_upper": {
+            "exact": "16679880978201/97656250000000000",
+            "decimal": 0.00017080198121677823
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 50,
+          "survival": {
+            "exact": "1136272165922724266740722458520501/50000000000000000000000000000000000000000000000000",
+            "decimal": 2.2725443318454485e-17
+          },
+          "disjoint_word_upper": {
+            "exact": "1136272165922724266740722458520501/2980232238769531250000000000000000000000000",
+            "decimal": 3.812696712494677e-10
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 100,
+          "survival": {
+            "exact": "1291114435050719026386456475646628666554089222911187324493837291001/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 2.5822288701014382e-34
+          },
+          "disjoint_word_upper": {
+            "exact": "1291114435050719026386456475646628666554089222911187324493837291001/8881784197001252323389053344726562500000000000000000000000000000000000000000000000000",
+            "decimal": 1.4536656221467718e-19
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 1000,
+          "survival": {
+            "exact": "12872039593705573507442086510373789814349856904751088405129415467253387104577178394953952040290921434332393296276800137342525357427915798832789597192312358556978704975021628350696636627942776975316353440974894352502278442674368981861793810922235609845767624520732216014460456982555612092540331384271497112916236011057904045766508584547941818501903868124821567487122609275188687423152731444938011273539489638107327193861790298940859696289747060514217624552616932388366967866209205043524385416480012044077243794984821856642995997089688725252226456713080636826015474050135542747446800886805895157165284637718276485433241531535300215412769398475803340235299017910001/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 0.0
+          },
+          "disjoint_word_upper": {
+            "exact": "12872039593705573507442086510373789814349856904751088405129415467253387104577178394953952040290921434332393296276800137342525357427915798832789597192312358556978704975021628350696636627942776975316353440974894352502278442674368981861793810922235609845767624520732216014460456982555612092540331384271497112916236011057904045766508584547941818501903868124821567487122609275188687423152731444938011273539489638107327193861790298940859696289747060514217624552616932388366967866209205043524385416480012044077243794984821856642995997089688725252226456713080636826015474050135542747446800886805895157165284637718276485433241531535300215412769398475803340235299017910001/3054936363499604682051979393213617699789402740572326663893613909281291626524720457701857235108015228256875152693590467155317853427804283969735133114200917889630724420533772852222035588819531883700816508667930179487913663389937052516364978922702120035245082091219087448202119601494637211093403079855076782836518362040933993739599827677011489868164062500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 4.2135213510503094e-189
+          },
+          "independently_enumerated": false
+        }
+      ]
+    },
+    {
+      "case": "iid_biased",
+      "L": 3,
+      "word_probability_lower": "37/100",
+      "path_prefixes_checked": 131070,
+      "boundary_equalities_checked": 2,
+      "path_classification_mismatches": 0,
+      "missions": [
+        {
+          "N": 0,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 1,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 2,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 3,
+          "survival": {
+            "exact": "63/100",
+            "decimal": 0.63
+          },
+          "disjoint_word_upper": {
+            "exact": "63/100",
+            "decimal": 0.63
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 4,
+          "survival": {
+            "exact": "2541/5000",
+            "decimal": 0.5082
+          },
+          "disjoint_word_upper": {
+            "exact": "63/100",
+            "decimal": 0.63
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 5,
+          "survival": {
+            "exact": "483/1250",
+            "decimal": 0.3864
+          },
+          "disjoint_word_upper": {
+            "exact": "63/100",
+            "decimal": 0.63
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 6,
+          "survival": {
+            "exact": "141561/500000",
+            "decimal": 0.283122
+          },
+          "disjoint_word_upper": {
+            "exact": "3969/10000",
+            "decimal": 0.3969
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 7,
+          "survival": {
+            "exact": "215649/1000000",
+            "decimal": 0.215649
+          },
+          "disjoint_word_upper": {
+            "exact": "3969/10000",
+            "decimal": 0.3969
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 8,
+          "survival": {
+            "exact": "4075281/25000000",
+            "decimal": 0.16301124
+          },
+          "disjoint_word_upper": {
+            "exact": "3969/10000",
+            "decimal": 0.3969
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 9,
+          "survival": {
+            "exact": "2435643/20000000",
+            "decimal": 0.12178215
+          },
+          "disjoint_word_upper": {
+            "exact": "250047/1000000",
+            "decimal": 0.250047
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 10,
+          "survival": {
+            "exact": "460021653/5000000000",
+            "decimal": 0.0920043306
+          },
+          "disjoint_word_upper": {
+            "exact": "250047/1000000",
+            "decimal": 0.250047
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 11,
+          "survival": {
+            "exact": "21661479/312500000",
+            "decimal": 0.0693167328
+          },
+          "disjoint_word_upper": {
+            "exact": "250047/1000000",
+            "decimal": 0.250047
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 12,
+          "survival": {
+            "exact": "5208395661/100000000000",
+            "decimal": 0.05208395661
+          },
+          "disjoint_word_upper": {
+            "exact": "15752961/100000000",
+            "decimal": 0.15752961
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 13,
+          "survival": {
+            "exact": "39248016129/1000000000000",
+            "decimal": 0.039248016129
+          },
+          "disjoint_word_upper": {
+            "exact": "15752961/100000000",
+            "decimal": 0.15752961
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 14,
+          "survival": {
+            "exact": "738788393889/25000000000000",
+            "decimal": 0.02955153575556
+          },
+          "disjoint_word_upper": {
+            "exact": "15752961/100000000",
+            "decimal": 0.15752961
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 15,
+          "survival": {
+            "exact": "2223658219167/100000000000000",
+            "decimal": 0.02223658219167
+          },
+          "disjoint_word_upper": {
+            "exact": "992436543/10000000000",
+            "decimal": 0.0992436543
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 16,
+          "survival": {
+            "exact": "83724041911293/5000000000000000",
+            "decimal": 0.0167448083822586
+          },
+          "disjoint_word_upper": {
+            "exact": "992436543/10000000000",
+            "decimal": 0.0992436543
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 20,
+          "survival": {
+            "exact": "134463350636090217/25000000000000000000",
+            "decimal": 0.005378534025443609
+          },
+          "disjoint_word_upper": {
+            "exact": "62523502209/1000000000000",
+            "decimal": 0.062523502209
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 50,
+          "survival": {
+            "exact": "26887817957138476619507191756747581720274809/25000000000000000000000000000000000000000000000000",
+            "decimal": 1.0755127182855391e-06
+          },
+          "disjoint_word_upper": {
+            "exact": "61581291280182164914327485441/100000000000000000000000000000000",
+            "decimal": 0.0006158129128018216
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 100,
+          "survival": {
+            "exact": "3677188793909788477048176396664404344250989054879650313410651801208331098387597553021549/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 7.354377587819577e-13
+          },
+          "disjoint_word_upper": {
+            "exact": "238912092451282316201126928503303464291441454694310218762303/1000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 2.389120924512823e-07
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 1000,
+          "survival": {
+            "exact": "3928824644489981156199319349423334028452294578835617100171144624297510332547425566976155489646247536108719007710519216547556687877600502847103999846215728630782910063324426416723183058975074605041874245195749515145306135387029468775000471693928462384537885619871360723440476660911703865951838132835169483605892644142319395230393322811737208678371843855625446985164132875399342962965097970300449787405478449263964267734010962348838893341792716524569316482610813206270751396676430963341575345652176236687038010517677971329835189927860008620668763774446033718563971954541474972176981731808225282968885091640454339808281718210360878870657498169375773815185012293011547409026462249183950455606791204718389771235903267234885076965778015032738016658047287144903203187971470004721149145231640958130236960481856231930213547485366584146956123000342540161784297746833376431194183742409501/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 7.857649288979963e-124
+          },
+          "disjoint_word_upper": {
+            "exact": "151496628554345952532214750723424710190502054399245519875632340988161526621692233679993862004641163722024228909455755683765126667973378026247873558522856067206334758992725637580924877716425073078402458087205708352850540326543791837334036331081568730833078700439247802091925396323940467585213759353610499211672687855572749351834469351331996593777855133759073630430434610759856698620917657225251681506678377974819321781411725603205793102707891948180635483985859104706699163905041589277811987468814617513146372068469832599048803565420119029640699140645967008156345701221816526942615000114018956504298303/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 1.5149662855434597e-67
+          },
+          "independently_enumerated": false
+        }
+      ]
+    },
+    {
+      "case": "iid_biased",
+      "L": 4,
+      "word_probability_lower": "1241/5000",
+      "path_prefixes_checked": 131070,
+      "boundary_equalities_checked": 2,
+      "path_classification_mismatches": 0,
+      "missions": [
+        {
+          "N": 0,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 1,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 2,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 3,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 4,
+          "survival": {
+            "exact": "3759/5000",
+            "decimal": 0.7518
+          },
+          "disjoint_word_upper": {
+            "exact": "3759/5000",
+            "decimal": 0.7518
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 5,
+          "survival": {
+            "exact": "6741/10000",
+            "decimal": 0.6741
+          },
+          "disjoint_word_upper": {
+            "exact": "3759/5000",
+            "decimal": 0.7518
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 6,
+          "survival": {
+            "exact": "1491/2500",
+            "decimal": 0.5964
+          },
+          "disjoint_word_upper": {
+            "exact": "3759/5000",
+            "decimal": 0.7518
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 7,
+          "survival": {
+            "exact": "5187/10000",
+            "decimal": 0.5187
+          },
+          "disjoint_word_upper": {
+            "exact": "3759/5000",
+            "decimal": 0.7518
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 8,
+          "survival": {
+            "exact": "22244481/50000000",
+            "decimal": 0.44488962
+          },
+          "disjoint_word_upper": {
+            "exact": "14130081/25000000",
+            "decimal": 0.56520324
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 9,
+          "survival": {
+            "exact": "38841957/100000000",
+            "decimal": 0.38841957
+          },
+          "disjoint_word_upper": {
+            "exact": "14130081/25000000",
+            "decimal": 0.56520324
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 10,
+          "survival": {
+            "exact": "33798681/100000000",
+            "decimal": 0.33798681
+          },
+          "disjoint_word_upper": {
+            "exact": "14130081/25000000",
+            "decimal": 0.56520324
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 11,
+          "survival": {
+            "exact": "14679567/50000000",
+            "decimal": 0.29359134
+          },
+          "disjoint_word_upper": {
+            "exact": "14130081/25000000",
+            "decimal": 0.56520324
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 12,
+          "survival": {
+            "exact": "127375229079/500000000000",
+            "decimal": 0.254750458158
+          },
+          "disjoint_word_upper": {
+            "exact": "53114974479/125000000000",
+            "decimal": 0.424919795832
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 13,
+          "survival": {
+            "exact": "44298706221/200000000000",
+            "decimal": 0.221493531105
+          },
+          "disjoint_word_upper": {
+            "exact": "53114974479/125000000000",
+            "decimal": 0.424919795832
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 14,
+          "survival": {
+            "exact": "240591519/1250000000",
+            "decimal": 0.1924732152
+          },
+          "disjoint_word_upper": {
+            "exact": "53114974479/125000000000",
+            "decimal": 0.424919795832
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 15,
+          "survival": {
+            "exact": "16722041301/100000000000",
+            "decimal": 0.16722041301
+          },
+          "disjoint_word_upper": {
+            "exact": "53114974479/125000000000",
+            "decimal": 0.424919795832
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 16,
+          "survival": {
+            "exact": "726367958369361/5000000000000000",
+            "decimal": 0.1452735916738722
+          },
+          "disjoint_word_upper": {
+            "exact": "199659189066561/625000000000000",
+            "decimal": 0.3194547025064976
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 20,
+          "survival": {
+            "exact": "4140019090029177999/50000000000000000000",
+            "decimal": 0.08280038180058356
+          },
+          "disjoint_word_upper": {
+            "exact": "750518891701202799/3125000000000000000",
+            "decimal": 0.2401660453443849
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 50,
+          "survival": {
+            "exact": "1220801315966099325455603318482513059421857801/1000000000000000000000000000000000000000000000000",
+            "decimal": 0.0012208013159660993
+          },
+          "disjoint_word_upper": {
+            "exact": "7959172339656827922264075822200237446316481/244140625000000000000000000000000000000000000",
+            "decimal": 0.032600769903234364
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 100,
+          "survival": {
+            "exact": "5411230906429692702068894797791706420287611961672317560454159278123467201099781566609478625199/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 1.0822461812859385e-06
+          },
+          "disjoint_word_upper": {
+            "exact": "238126727065335015780760385126857003933029817525803042277390020554544580025475602747613999/298023223876953125000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 0.0007990207070696343
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 1000,
+          "survival": {
+            "exact": "618807239763226744242517560815588381594458995035162125562095852557283527569540404834123646565565704078039031135605983322356845348937421426119979291432410120681931746514650516711374802102228102208628302094422518559662476369764643414927099356549951876970406239698075625091390101298932078395516239307742834591946355237647421133706736492722320859823764335279392967254179522689062450327786913860960121243268307621137312146075536764192653447301789281185058984781223111118392373896484440726963915411739841491958104881115566976161486471890917052939129015265745149975547749353976059250074742500030246987607803363973866589095605590690924812003955785477892923264710615622480680204781471196010268828269574133860647032377673433547365467638588702160390832016005981199497122498505262353678840231788449597087919938187361981571497503005390613213711550856979265428922653883503666755339399415795657972198854718866426827742981457740359353135249414173981660001/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 1.2376144795264535e-61
+          },
+          "disjoint_word_upper": {
+            "exact": "586248073344895707022583557720829271433017328682784742460809531708553610139852419560586797890583483391157984859647015095762692300925953598042189393873878124184862978321380442862247957679573046855647973740912065795553315954657820546604259327520554147747491828211818336810293849738730357128257825280926141849246530432922483359617831404389168622805000889501036457620202614339185337457723830025821048108676788486155348293816276896742072934035699666652826623869071459610155833402559972936820170641277812880847685761633280609425685616032050445249762501167011033005895541378428733501665329664153109875923774689281168634701980947639625247002762671092991035840258123751700026155932109365696931883209939434896815996864449430144881639176507759880802129036443091907057068084994529565817242111357234060053010958930144447610480317305019946715691129336863852823159294753701988812962832439915217439877343860001/5527147875260444560247265192192255725514240233239220086415170220907898754023953317101764802222264464998750268125535784702076863325972445883937922417317167855799198150634765625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 1.0606701441243258e-31
+          },
+          "independently_enumerated": false
+        }
+      ]
+    },
+    {
+      "case": "markov_persistent",
+      "L": 2,
+      "word_probability_lower": "73/100",
+      "path_prefixes_checked": 131070,
+      "boundary_equalities_checked": 2,
+      "path_classification_mismatches": 0,
+      "missions": [
+        {
+          "N": 0,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 1,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 2,
+          "survival": {
+            "exact": "13/50",
+            "decimal": 0.26
+          },
+          "disjoint_word_upper": {
+            "exact": "27/100",
+            "decimal": 0.27
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 3,
+          "survival": {
+            "exact": "3/50",
+            "decimal": 0.06
+          },
+          "disjoint_word_upper": {
+            "exact": "27/100",
+            "decimal": 0.27
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 4,
+          "survival": {
+            "exact": "39/2500",
+            "decimal": 0.0156
+          },
+          "disjoint_word_upper": {
+            "exact": "729/10000",
+            "decimal": 0.0729
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 5,
+          "survival": {
+            "exact": "9/2500",
+            "decimal": 0.0036
+          },
+          "disjoint_word_upper": {
+            "exact": "729/10000",
+            "decimal": 0.0729
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 6,
+          "survival": {
+            "exact": "117/125000",
+            "decimal": 0.000936
+          },
+          "disjoint_word_upper": {
+            "exact": "19683/1000000",
+            "decimal": 0.019683
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 7,
+          "survival": {
+            "exact": "27/125000",
+            "decimal": 0.000216
+          },
+          "disjoint_word_upper": {
+            "exact": "19683/1000000",
+            "decimal": 0.019683
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 8,
+          "survival": {
+            "exact": "351/6250000",
+            "decimal": 5.616e-05
+          },
+          "disjoint_word_upper": {
+            "exact": "531441/100000000",
+            "decimal": 0.00531441
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 9,
+          "survival": {
+            "exact": "81/6250000",
+            "decimal": 1.296e-05
+          },
+          "disjoint_word_upper": {
+            "exact": "531441/100000000",
+            "decimal": 0.00531441
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 10,
+          "survival": {
+            "exact": "1053/312500000",
+            "decimal": 3.3696e-06
+          },
+          "disjoint_word_upper": {
+            "exact": "14348907/10000000000",
+            "decimal": 0.0014348907
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 11,
+          "survival": {
+            "exact": "243/312500000",
+            "decimal": 7.776e-07
+          },
+          "disjoint_word_upper": {
+            "exact": "14348907/10000000000",
+            "decimal": 0.0014348907
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 12,
+          "survival": {
+            "exact": "3159/15625000000",
+            "decimal": 2.02176e-07
+          },
+          "disjoint_word_upper": {
+            "exact": "387420489/1000000000000",
+            "decimal": 0.000387420489
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 13,
+          "survival": {
+            "exact": "729/15625000000",
+            "decimal": 4.6656e-08
+          },
+          "disjoint_word_upper": {
+            "exact": "387420489/1000000000000",
+            "decimal": 0.000387420489
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 14,
+          "survival": {
+            "exact": "9477/781250000000",
+            "decimal": 1.213056e-08
+          },
+          "disjoint_word_upper": {
+            "exact": "10460353203/100000000000000",
+            "decimal": 0.00010460353203
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 15,
+          "survival": {
+            "exact": "2187/781250000000",
+            "decimal": 2.79936e-09
+          },
+          "disjoint_word_upper": {
+            "exact": "10460353203/100000000000000",
+            "decimal": 0.00010460353203
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 16,
+          "survival": {
+            "exact": "28431/39062500000000",
+            "decimal": 7.278336e-10
+          },
+          "disjoint_word_upper": {
+            "exact": "282429536481/10000000000000000",
+            "decimal": 2.82429536481e-05
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 20,
+          "survival": {
+            "exact": "255879/97656250000000000",
+            "decimal": 2.62020096e-12
+          },
+          "disjoint_word_upper": {
+            "exact": "205891132094649/100000000000000000000",
+            "decimal": 2.05891132094649e-06
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 50,
+          "survival": {
+            "exact": "3671583974253/2980232238769531250000000000000000000000000",
+            "decimal": 1.2319791479636204e-30
+          },
+          "disjoint_word_upper": {
+            "exact": "608266787713357709119683992618861307/100000000000000000000000000000000000000000000000000",
+            "decimal": 6.082667877133577e-15
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 100,
+          "survival": {
+            "exact": "3110891279998027884671079/8881784197001252323389053344726562500000000000000000000000000000000000000000000000000",
+            "decimal": 3.5025522023473106e-61
+          },
+          "disjoint_word_upper": {
+            "exact": "369988485035126972924700782451696644186473100389722973815184405301748249/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 3.69988485035127e-29
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 1000,
+          "survival": {
+            "exact": "157561264448769726317002824011354382844768001779340366508166155274515934163530213764860202472910684727668778710982416708262375703240389953286300533971768778380094342074006454950543152291785190576547891610223994507821369672623939113302976671/3054936363499604682051979393213617699789402740572326663893613909281291626524720457701857235108015228256875152693590467155317853427804283969735133114200917889630724420533772852222035588819531883700816508667930179487913663389937052516364978922702120035245082091219087448202119601494637211093403079855076782836518362040933993739599827677011489868164062500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 0.0
+          },
+          "disjoint_word_upper": {
+            "exact": "48070880771127017833418400063860424893242447244924514895934503717501143296921795358699176265818477116722784375947578590606979154024171864166329574817483293881028710535973176979596219731991520830514694374771774636807890694422882343405923800484901643617730596619404600897026159986915501340493142975234272618070552045897911225971238672179839452802948951292415324993705491602964046899687216179315011278589147831368447276641586915959626203950458493082639154256082431390089707830063939127099439149976981589631028284734703098118977079002245835870735258166305134365786114813430895809196712363741859052802752740452546018161315848383393769720388551835786294645941781480734757813395139416102084849079404619569979968322432830001/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 4.807088077112702e-285
+          },
+          "independently_enumerated": false
+        }
+      ]
+    },
+    {
+      "case": "markov_persistent",
+      "L": 3,
+      "word_probability_lower": "107/200",
+      "path_prefixes_checked": 131070,
+      "boundary_equalities_checked": 2,
+      "path_classification_mismatches": 0,
+      "missions": [
+        {
+          "N": 0,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 1,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 2,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 3,
+          "survival": {
+            "exact": "9/20",
+            "decimal": 0.45
+          },
+          "disjoint_word_upper": {
+            "exact": "93/200",
+            "decimal": 0.465
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 4,
+          "survival": {
+            "exact": "739/2500",
+            "decimal": 0.2956
+          },
+          "disjoint_word_upper": {
+            "exact": "93/200",
+            "decimal": 0.465
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 5,
+          "survival": {
+            "exact": "753/5000",
+            "decimal": 0.1506
+          },
+          "disjoint_word_upper": {
+            "exact": "93/200",
+            "decimal": 0.465
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 6,
+          "survival": {
+            "exact": "22959/250000",
+            "decimal": 0.091836
+          },
+          "disjoint_word_upper": {
+            "exact": "8649/40000",
+            "decimal": 0.216225
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 7,
+          "survival": {
+            "exact": "1269/25000",
+            "decimal": 0.05076
+          },
+          "disjoint_word_upper": {
+            "exact": "8649/40000",
+            "decimal": 0.216225
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 8,
+          "survival": {
+            "exact": "181227/6250000",
+            "decimal": 0.02899632
+          },
+          "disjoint_word_upper": {
+            "exact": "8649/40000",
+            "decimal": 0.216225
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 9,
+          "survival": {
+            "exact": "16371/1000000",
+            "decimal": 0.016371
+          },
+          "disjoint_word_upper": {
+            "exact": "804357/8000000",
+            "decimal": 0.100544625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 10,
+          "survival": {
+            "exact": "91737/9765625",
+            "decimal": 0.0093938688
+          },
+          "disjoint_word_upper": {
+            "exact": "804357/8000000",
+            "decimal": 0.100544625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 11,
+          "survival": {
+            "exact": "6621831/1250000000",
+            "decimal": 0.0052974648
+          },
+          "disjoint_word_upper": {
+            "exact": "804357/8000000",
+            "decimal": 0.100544625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 12,
+          "survival": {
+            "exact": "37641231/12500000000",
+            "decimal": 0.00301129848
+          },
+          "disjoint_word_upper": {
+            "exact": "74805201/1600000000",
+            "decimal": 0.046753250625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 13,
+          "survival": {
+            "exact": "21417021/12500000000",
+            "decimal": 0.00171336168
+          },
+          "disjoint_word_upper": {
+            "exact": "74805201/1600000000",
+            "decimal": 0.046753250625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 14,
+          "survival": {
+            "exact": "380110833/390625000000",
+            "decimal": 0.00097308373248
+          },
+          "disjoint_word_upper": {
+            "exact": "74805201/1600000000",
+            "decimal": 0.046753250625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 15,
+          "survival": {
+            "exact": "3448833633/6250000000000",
+            "decimal": 0.00055181338128
+          },
+          "disjoint_word_upper": {
+            "exact": "6956883693/320000000000",
+            "decimal": 0.021740261540625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 16,
+          "survival": {
+            "exact": "49026125637/156250000000000",
+            "decimal": 0.0003137672040768
+          },
+          "disjoint_word_upper": {
+            "exact": "6956883693/320000000000",
+            "decimal": 0.021740261540625
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 20,
+          "survival": {
+            "exact": "3189125514411/97656250000000000",
+            "decimal": 3.265664526756864e-05
+          },
+          "disjoint_word_upper": {
+            "exact": "646990183449/64000000000000",
+            "decimal": 0.010109221616390624
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 50,
+          "survival": {
+            "exact": "531425278238089366243305187357437/381469726562500000000000000000000000000000000",
+            "decimal": 1.393099481384457e-12
+          },
+          "disjoint_word_upper": {
+            "exact": "31313180170800116587336013460801/6553600000000000000000000000000000000",
+            "decimal": 4.778012111022967e-06
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 100,
+          "survival": {
+            "exact": "422467602024140931289341243102756246890893111414653139705678105731/582076609134674072265625000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 7.257938137252915e-25
+          },
+          "disjoint_word_upper": {
+            "exact": "91187918474036034531023549497394603112415360888813852260211228893/8589934592000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 1.06156708758832e-11
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 1000,
+          "survival": {
+            "exact": "1658651979269302862086881464343477322335664223254135208463602150592608278854243363324004620183253737490559844921619829037528336409009440192806938325076716489188446758074757763126345146663781485711694969800929654980819332849599446214568793388561021442106295297669512538332635485191399605622067079164457867586277404545392267713246815121938523536222397827463836798609402064920422156628784877418052794669323386946048075957529753372480716587834940617117736207534417960414065958909360585460082486217554349900900200307389763666458083568232207725053924596258914893381039917409366237428279992919729553093674136800380970236621317978610882811938169194637042902581469/285746847820568745553945887076335239862977498705699665303781460806908158976684548918862005465043007412295763588343507058055135340570979687781510573352510310491378504344021315252113959925738006541406921456882628262974321842193603515625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 5.804620390111296e-246
+          },
+          "disjoint_word_upper": {
+            "exact": "31975833102321572388456237947879576592353350160213085414232654143508060200966158313804079409939758758934514735723494954021328822030575884848218826230633478985705816790717322713188832408757336075184461884799258625261563878099893277135460663605010784852966191242979831326027982233365151149013635141728594149259772058264682294208659229123357443751511213371946948459723805783642458965107823817504601752569024061073799154231882492441771398250174183341325161204748449235285785486724094676705409758061795135405121263814319072533899444152905341461054451188220270646106718092919560299649883779061753647920636818060812509948626289830366511330152246271826001957498893/17498005798264095394980017816940970922825355447145699491406164851279623993595007385788105416184430592000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 1.8273987030849973e-111
+          },
+          "independently_enumerated": false
+        }
+      ]
+    },
+    {
+      "case": "markov_persistent",
+      "L": 4,
+      "word_probability_lower": "3937/10000",
+      "path_prefixes_checked": 131070,
+      "boundary_equalities_checked": 2,
+      "path_classification_mismatches": 0,
+      "missions": [
+        {
+          "N": 0,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 1,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 2,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 3,
+          "survival": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "disjoint_word_upper": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 4,
+          "survival": {
+            "exact": "2947/5000",
+            "decimal": 0.5894
+          },
+          "disjoint_word_upper": {
+            "exact": "6063/10000",
+            "decimal": 0.6063
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 5,
+          "survival": {
+            "exact": "2349/5000",
+            "decimal": 0.4698
+          },
+          "disjoint_word_upper": {
+            "exact": "6063/10000",
+            "decimal": 0.6063
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 6,
+          "survival": {
+            "exact": "3587/10000",
+            "decimal": 0.3587
+          },
+          "disjoint_word_upper": {
+            "exact": "6063/10000",
+            "decimal": 0.6063
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 7,
+          "survival": {
+            "exact": "5037/20000",
+            "decimal": 0.25185
+          },
+          "disjoint_word_upper": {
+            "exact": "6063/10000",
+            "decimal": 0.6063
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 8,
+          "survival": {
+            "exact": "4819629/25000000",
+            "decimal": 0.19278516
+          },
+          "disjoint_word_upper": {
+            "exact": "36759969/100000000",
+            "decimal": 0.36759969
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 9,
+          "survival": {
+            "exact": "3588837/25000000",
+            "decimal": 0.14355348
+          },
+          "disjoint_word_upper": {
+            "exact": "36759969/100000000",
+            "decimal": 0.36759969
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 10,
+          "survival": {
+            "exact": "5268693/50000000",
+            "decimal": 0.10537386
+          },
+          "disjoint_word_upper": {
+            "exact": "36759969/100000000",
+            "decimal": 0.36759969
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 11,
+          "survival": {
+            "exact": "784197/10000000",
+            "decimal": 0.0784197
+          },
+          "disjoint_word_upper": {
+            "exact": "36759969/100000000",
+            "decimal": 0.36759969
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 12,
+          "survival": {
+            "exact": "7279149903/125000000000",
+            "decimal": 0.058233199224
+          },
+          "disjoint_word_upper": {
+            "exact": "222875692047/1000000000000",
+            "decimal": 0.222875692047
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 13,
+          "survival": {
+            "exact": "2700020871/62500000000",
+            "decimal": 0.043200333936
+          },
+          "disjoint_word_upper": {
+            "exact": "222875692047/1000000000000",
+            "decimal": 0.222875692047
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 14,
+          "survival": {
+            "exact": "802480383/25000000000",
+            "decimal": 0.03209921532
+          },
+          "disjoint_word_upper": {
+            "exact": "222875692047/1000000000000",
+            "decimal": 0.222875692047
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 15,
+          "survival": {
+            "exact": "2379671037/100000000000",
+            "decimal": 0.02379671037
+          },
+          "disjoint_word_upper": {
+            "exact": "222875692047/1000000000000",
+            "decimal": 0.222875692047
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 16,
+          "survival": {
+            "exact": "11033685502821/625000000000000",
+            "decimal": 0.0176538968045136
+          },
+          "disjoint_word_upper": {
+            "exact": "1351295320880961/10000000000000000",
+            "decimal": 0.1351295320880961
+          },
+          "independently_enumerated": true
+        },
+        {
+          "N": 20,
+          "survival": {
+            "exact": "16740199384513497/3125000000000000000",
+            "decimal": 0.005356863803044319
+          },
+          "disjoint_word_upper": {
+            "exact": "8192903530501266543/100000000000000000000",
+            "decimal": 0.08192903530501267
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 50,
+          "survival": {
+            "exact": "170122392569077391047475697418094144751/244140625000000000000000000000000000000000000",
+            "decimal": 6.96821319962941e-07
+          },
+          "disjoint_word_upper": {
+            "exact": "2467463964407564265734924749133028299342943681/1000000000000000000000000000000000000000000000000",
+            "decimal": 0.0024674639644075643
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 100,
+          "survival": {
+            "exact": "69346047808697228670500996790772615219002666501716015497540613957864340938103747/298023223876953125000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 2.3268672456656803e-13
+          },
+          "disjoint_word_upper": {
+            "exact": "36913838334085304736713774060945419465969264686893406294943570949057718281136379897226261840943/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 3.6913838334085304e-06
+          },
+          "independently_enumerated": false
+        },
+        {
+          "N": 1000,
+          "survival": {
+            "exact": "3427487664372146863035467253615553684269903038977092735204070744214745645630575574615525587277371698859576954457735687501167634972851076042710293838595394577539589710399153212228032592643923523254199727199038091849736487023383614569488923658143732691655916018285293976412599225626605437819185242661308469191228142287986508084415668297073343551503687053567633089035053620855691621959366056791659870199874773036160741713630707752965588179260463281301662102815669434591561901903467829662570175483328721159416220730708766340121806431984568229158561248639438781973805295460788162100821016122834454568746779504366748883786183335437190782757045545156220533002098041829094096369772041276125187738379947786927791830235662775475742415756668281252281141701033173424547678777663856009932359541092401362870829/5527147875260444560247265192192255725514240233239220086415170220907898754023953317101764802222264464998750268125535784702076863325972445883937922417317167855799198150634765625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 6.201186835824689e-130
+          },
+          "disjoint_word_upper": {
+            "exact": "4697773337880438777517811980777630761363074473789481063478830211322359376302662193138244081918107764118096151449293918923185445598537370957043756048447315698659233431809759452498474630585876978841901027487457384955826569463125745110970936496099040075747586517419415102003954821974614029414303348304993425449969811789943446534232012726058933145879033897074117690821601582738337968499723745736013957002051892396009639593905119878840175288038562024704334378288960501949942708959590019244082755454036216459873429431334003534664332696809530017597774425553702448062383700219777543013935812533724167713089706707281105113291697924948423076211983456671860746300791877795612877087097305415446660348491943679088290909326684019684122528561353349774623794650418360262541248382097322967231671321063136667079192232574346378490127470646194735527514791334052787018574577487096006888570141702906350830208110867283022084400063015227315306869892364410926140412521249/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "decimal": 4.6977733378804386e-55
+          },
+          "independently_enumerated": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-03T13:14:41.202185+00:00",
+  "main_numeric_rows_checked": 20,
+  "main_report_hash_matches_independent_audit": true,
+  "original_nonlinear_audited": 20,
+  "positive_nonlinear_audited": 10,
+  "same_information_solver_advantage": false,
+  "narrow_theory_core_accepted": true,
+  "confirmed_failed_nonlinear_transfer": "original WECC dynamic-optional inner, refined peak0.053099550Hz vs LTI0.048831578Hz",
+  "positive_reset_counterexample": "Total amplitude98MW, port amplitudes49MW each, compute1..99MW, no unilateral clipping, NL0.182553930Hz",
+  "external_peer_review": false,
+  "directed_rounding_network_certificate": false,
+  "new_real_captures": 0,
+  "original_source_copies_exact": true,
+  "figures_visually_reviewed": 4
+}

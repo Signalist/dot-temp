@@ -1,0 +1,329 @@
+{
+  "frozen_at_utc": "2026-10-03T12:40:08Z",
+  "operating_point": "Exact original public workpoint; original PQ load law preserved, supplemental ZIP port baselines zero; no increased P0",
+  "networks": {
+    "kundur": [
+      7,
+      8
+    ],
+    "wecc": [
+      1,
+      4
+    ]
+  },
+  "allocation": [
+    0.5,
+    0.5
+  ],
+  "T_s": 2.0,
+  "q_columns": [
+    [
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      1.0
+    ]
+  ],
+  "full_past_blocks": 256,
+  "trimmed_past_blocks": 64,
+  "start_s": 1.0,
+  "ringdown_s": 20.0,
+  "dt_s": [
+    0.015625,
+    0.0078125
+  ],
+  "event_epsilon_s": 0.0001,
+  "limit_Hz": 0.05,
+  "selection": "All equal-split committed and dynamic-optional inner .98*capacity_lower, outer 1.02*capacity_upper; reset error .98*reset capacity_lower with committed violating word. No nonlinear-outcome selection.",
+  "input_order": "Stored word current block then most recent past to oldest; replay reverses order and never resets electrical state between blocks. Entire final block retained.",
+  "claim_scope": "Finite signed constant-P injection nonlinear stress replay only. Zero-baseline probes cannot themselves realize positive compute loads. Original native total selected-bus demand audited separately. No family-wide nonlinear certificate or compute calibration.",
+  "trim_scope": "Full257-block and trimmed65-block input arrays exported; nonlinear uses trimmed word. Modal bound controls only LTI tail difference at aligned times, not nonlinear history equivalence.",
+  "cases": [
+    {
+      "network": "kundur",
+      "label": "committed_inner",
+      "contract": "committed",
+      "capacity_key": "committed_capacity_lower_MW",
+      "capacity_MW": 32.805328303493596,
+      "factor": 0.98,
+      "total_amplitude_MW": 32.14922173742372,
+      "allocation_MW": [
+        16.07461086871186,
+        16.07461086871186
+      ],
+      "full_word_sha256": "b46fe65fdd8103ba8a88c3eb6a74602091048e9f26ce3a1399b2e7ba2f5b3044",
+      "trim_word_sha256": "a14e379f0f1a890810f1492d368377aa25cdb949e1743651164419538dd38374",
+      "actual_schedule_sha256": "76b06cec50449cb50690a2a86c2727f104abf821d7104a6bf6babb5c41ab26eb",
+      "full_schedule_sha256": "3bfb6acec91b47126907746958b4373cfb20bbc4cd114d08ac628ea267e5b292",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5556640625,
+      "target_trim_time_s": 129.5556640625,
+      "target_full_time_s": 513.5556640625,
+      "full_LTI_target_Hz": 0.04888178733422315,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.3398738153440699e-09,
+      "contract_LTI_upper_Hz": 0.049,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    {
+      "network": "kundur",
+      "label": "committed_outer",
+      "contract": "committed",
+      "capacity_key": "committed_capacity_upper_MW",
+      "capacity_MW": 32.884662663424535,
+      "factor": 1.02,
+      "total_amplitude_MW": 33.542355916693026,
+      "allocation_MW": [
+        16.771177958346513,
+        16.771177958346513
+      ],
+      "full_word_sha256": "b46fe65fdd8103ba8a88c3eb6a74602091048e9f26ce3a1399b2e7ba2f5b3044",
+      "trim_word_sha256": "a14e379f0f1a890810f1492d368377aa25cdb949e1743651164419538dd38374",
+      "actual_schedule_sha256": "be8065a76b23a2ea27f0bba85d360c62fa7126dc2657883c33936d25b73921f6",
+      "full_schedule_sha256": "4447f38b22ce2c778d30540eafe7fe565f0f7ba61e84c779ae43b793e6cdb689",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5556640625,
+      "target_trim_time_s": 129.5556640625,
+      "target_full_time_s": 513.5556640625,
+      "full_LTI_target_Hz": 0.05100000000000001,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.3979350655761688e-09,
+      "contract_LTI_upper_Hz": 0.051123335219176794,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    {
+      "network": "kundur",
+      "label": "dynamic_optional_inner",
+      "contract": "dynamic_optional",
+      "capacity_key": "dynamic_optional_capacity_lower_MW",
+      "capacity_MW": 30.18662151541489,
+      "factor": 0.98,
+      "total_amplitude_MW": 29.58288908510659,
+      "allocation_MW": [
+        14.791444542553295,
+        14.791444542553295
+      ],
+      "full_word_sha256": "9b6b92b30c3dd3e284ab8d38d3c3863f57260714c5814adfc72f15cf6d140ad9",
+      "trim_word_sha256": "ef31414de2581e538c3c7e682d67fc32a0b2e2b274434c619733dd27b7d7ebe3",
+      "actual_schedule_sha256": "5bbca0ecdce01a03c3894db449c469932704d8218dbee1bb111475af9755b5fe",
+      "full_schedule_sha256": "b7367cbae1c3089a9287f3ce1d6a8613c35aa674355fb82c4ed1651edb0c5e3f",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5576171875,
+      "target_trim_time_s": 129.5576171875,
+      "target_full_time_s": 513.5576171875,
+      "full_LTI_target_Hz": 0.04889122373758552,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.2329175116927277e-09,
+      "contract_LTI_upper_Hz": 0.049,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    {
+      "network": "kundur",
+      "label": "dynamic_optional_outer",
+      "contract": "dynamic_optional",
+      "capacity_key": "dynamic_optional_capacity_upper_MW",
+      "capacity_MW": 30.25378260512276,
+      "factor": 1.02,
+      "total_amplitude_MW": 30.858858257225215,
+      "allocation_MW": [
+        15.429429128612608,
+        15.429429128612608
+      ],
+      "full_word_sha256": "9b6b92b30c3dd3e284ab8d38d3c3863f57260714c5814adfc72f15cf6d140ad9",
+      "trim_word_sha256": "ef31414de2581e538c3c7e682d67fc32a0b2e2b274434c619733dd27b7d7ebe3",
+      "actual_schedule_sha256": "4af38eec8b00be698fa7e6b429161f94a15f2338b56ca5e12afeebc765acd7de",
+      "full_schedule_sha256": "e458f646496992fc280255a108634d1a3ac12bbb7eab1105760bae6fb57f19a1",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5576171875,
+      "target_trim_time_s": 129.5576171875,
+      "target_full_time_s": 513.5576171875,
+      "full_LTI_target_Hz": 0.051000000000000004,
+      "LTI_trim_vs_full_tail_upper_Hz": 1.286095709811218e-09,
+      "contract_LTI_upper_Hz": 0.05111346800016532,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    {
+      "network": "kundur",
+      "label": "reset_inner_error",
+      "contract": "committed",
+      "capacity_key": "reset_capacity_lower_MW",
+      "capacity_MW": 118.29222738054357,
+      "factor": 0.98,
+      "total_amplitude_MW": 115.92638283293269,
+      "allocation_MW": [
+        57.963191416466344,
+        57.963191416466344
+      ],
+      "full_word_sha256": "b46fe65fdd8103ba8a88c3eb6a74602091048e9f26ce3a1399b2e7ba2f5b3044",
+      "trim_word_sha256": "a14e379f0f1a890810f1492d368377aa25cdb949e1743651164419538dd38374",
+      "actual_schedule_sha256": "5dda8b7870d60690bb5ab051ea295cdc46ae918714f785dba812598d340e063b",
+      "full_schedule_sha256": "944b00e0b3a302b46db4f5e712798bb5f265f439f1d70d521184ca111c1516a9",
+      "target_output_zero_based": 3,
+      "target_phase_s": 0.5556640625,
+      "target_trim_time_s": 129.5556640625,
+      "target_full_time_s": 513.5556640625,
+      "full_LTI_target_Hz": 0.17626208305592572,
+      "LTI_trim_vs_full_tail_upper_Hz": 4.831430326183875e-09,
+      "contract_LTI_upper_Hz": 0.17668834428428376,
+      "invalid_reset_predicted_upper_Hz": 0.049,
+      "tf_s": 151.0
+    },
+    {
+      "network": "wecc",
+      "label": "committed_inner",
+      "contract": "committed",
+      "capacity_key": "committed_capacity_lower_MW",
+      "capacity_MW": 74.08844937338772,
+      "factor": 0.98,
+      "total_amplitude_MW": 72.60668038591996,
+      "allocation_MW": [
+        36.30334019295998,
+        36.30334019295998
+      ],
+      "full_word_sha256": "521c1147d04fe1a2e8b67c50151ae37368c6ff4af2c5d33130069df30f664768",
+      "trim_word_sha256": "ddb2b2f4336d445a10b1b64d62992aff360c285b9afcccab88de914a2ad2eb9d",
+      "actual_schedule_sha256": "e940a0c6b800a7176f83aa98741dfe7e7a483438b5a3e9e020653471c47b341f",
+      "full_schedule_sha256": "1a1eef541766d3bf55cc9a9b9cf0606d8c3cb2f657a553e0fc1e72082cf7f235",
+      "target_output_zero_based": 0,
+      "target_phase_s": 0.2275390625,
+      "target_trim_time_s": 129.2275390625,
+      "target_full_time_s": 513.2275390625,
+      "full_LTI_target_Hz": 0.04880991477064448,
+      "LTI_trim_vs_full_tail_upper_Hz": 3.6645276302190324e-09,
+      "contract_LTI_upper_Hz": 0.049,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    {
+      "network": "wecc",
+      "label": "committed_outer",
+      "contract": "committed",
+      "capacity_key": "committed_capacity_upper_MW",
+      "capacity_MW": 74.37697927469794,
+      "factor": 1.02,
+      "total_amplitude_MW": 75.86451886019191,
+      "allocation_MW": [
+        37.932259430095954,
+        37.932259430095954
+      ],
+      "full_word_sha256": "521c1147d04fe1a2e8b67c50151ae37368c6ff4af2c5d33130069df30f664768",
+      "trim_word_sha256": "ddb2b2f4336d445a10b1b64d62992aff360c285b9afcccab88de914a2ad2eb9d",
+      "actual_schedule_sha256": "ab585f7792bc2013f36af292740af90ff666b8895dfab5edee5f860b20511783",
+      "full_schedule_sha256": "d817168138c77988e5e0802ee1e0089503138c27f0a110591e725ee6b8dfea62",
+      "target_output_zero_based": 0,
+      "target_phase_s": 0.2275390625,
+      "target_trim_time_s": 129.2275390625,
+      "target_full_time_s": 513.2275390625,
+      "full_LTI_target_Hz": 0.051000000000000004,
+      "LTI_trim_vs_full_tail_upper_Hz": 3.828953810293715e-09,
+      "contract_LTI_upper_Hz": 0.05119861429266338,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    {
+      "network": "wecc",
+      "label": "dynamic_optional_inner",
+      "contract": "dynamic_optional",
+      "capacity_key": "dynamic_optional_capacity_lower_MW",
+      "capacity_MW": 65.64463376216457,
+      "factor": 0.98,
+      "total_amplitude_MW": 64.33174108692128,
+      "allocation_MW": [
+        32.16587054346064,
+        32.16587054346064
+      ],
+      "full_word_sha256": "748173bab699cab3458267dbc42aa7034d89274b1d771d55c5d65e8530545078",
+      "trim_word_sha256": "19b73cde881f01994d4eef24e375f8292da77000baca371bab5a5f3d797aa835",
+      "actual_schedule_sha256": "54b37081d00967a2a6cd15827d3eea9b69fa671e1a06cea535ea5ea5e82c08f0",
+      "full_schedule_sha256": "8c4f7971f783c72b8ebb608ac1b64365a8d80a7d92c814bb77f915dfa01e8b66",
+      "target_output_zero_based": 3,
+      "target_phase_s": 1.955078125,
+      "target_trim_time_s": 130.955078125,
+      "target_full_time_s": 514.955078125,
+      "full_LTI_target_Hz": 0.04883157866887247,
+      "LTI_trim_vs_full_tail_upper_Hz": 3.24688364018411e-09,
+      "contract_LTI_upper_Hz": 0.04900000000000001,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    {
+      "network": "wecc",
+      "label": "dynamic_optional_outer",
+      "contract": "dynamic_optional",
+      "capacity_key": "dynamic_optional_capacity_upper_MW",
+      "capacity_MW": 65.87104373908899,
+      "factor": 1.02,
+      "total_amplitude_MW": 67.18846461387076,
+      "allocation_MW": [
+        33.59423230693538,
+        33.59423230693538
+      ],
+      "full_word_sha256": "748173bab699cab3458267dbc42aa7034d89274b1d771d55c5d65e8530545078",
+      "trim_word_sha256": "19b73cde881f01994d4eef24e375f8292da77000baca371bab5a5f3d797aa835",
+      "actual_schedule_sha256": "86ca4bb07bbe74e86daa9e25a52f2cad42e8f242399d17491252e59d114b76bc",
+      "full_schedule_sha256": "8af436717916a775247f940b100760f02e09067235d17247a2c01f5952d2c46b",
+      "target_output_zero_based": 3,
+      "target_phase_s": 1.955078125,
+      "target_trim_time_s": 130.955078125,
+      "target_full_time_s": 514.955078125,
+      "full_LTI_target_Hz": 0.05099999999999999,
+      "LTI_trim_vs_full_tail_upper_Hz": 3.3910651705992263e-09,
+      "contract_LTI_upper_Hz": 0.05117590027030969,
+      "invalid_reset_predicted_upper_Hz": null,
+      "tf_s": 151.0
+    },
+    {
+      "network": "wecc",
+      "label": "reset_inner_error",
+      "contract": "committed",
+      "capacity_key": "reset_capacity_lower_MW",
+      "capacity_MW": 100.9547877207146,
+      "factor": 0.98,
+      "total_amplitude_MW": 98.93569196630031,
+      "allocation_MW": [
+        49.467845983150156,
+        49.467845983150156
+      ],
+      "full_word_sha256": "521c1147d04fe1a2e8b67c50151ae37368c6ff4af2c5d33130069df30f664768",
+      "trim_word_sha256": "ddb2b2f4336d445a10b1b64d62992aff360c285b9afcccab88de914a2ad2eb9d",
+      "actual_schedule_sha256": "919ce11194771737d7d8edaee1dffc6e63c90975a45e3711aca2f266f8ade26b",
+      "full_schedule_sha256": "9b4855dac4756cf0c300c2b097ee91f41857ba1088f65632aefba0d4ddff7d5b",
+      "target_output_zero_based": 0,
+      "target_phase_s": 0.2275390625,
+      "target_trim_time_s": 129.2275390625,
+      "target_full_time_s": 513.2275390625,
+      "full_LTI_target_Hz": 0.06650961959674323,
+      "LTI_trim_vs_full_tail_upper_Hz": 4.993377674041873e-09,
+      "contract_LTI_upper_Hz": 0.06676863451932201,
+      "invalid_reset_predicted_upper_Hz": 0.049,
+      "tf_s": 151.0
+    }
+  ],
+  "source_hashes": {
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_summary.json": "393992e446096dc6ebacd1755574002216abbc6dfd58f0017d141b0993ae376a",
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_witnesses.npz": "30e55fd26816eea1c6a4022f815a692915bfce7e087224e593592fafc61da395",
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_kernel.npz": "875ac6b67c2e7b7e8a75d83d7df498a9a8d5f5f0fd405255e667c76fe8b474bf",
+    "outputs/round2_g6_joint_admission_20261003/transfer/kundur_bound_components.npz": "6a109ef5d45102aeb04104abc7536be388b6f65cf73ed31a04d25d2fd515dcd5",
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_summary.json": "6451bde50e87077d9b840b8ce31f8e15d6b3b2e59621d38655859a80c7de76ab",
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_witnesses.npz": "e2bab77bd59a193644b1bcfff80af8c0598bfe1661ea05182a90af70c980adc9",
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_kernel.npz": "7c6aea92a8d8d914b511df10263ad7fa7b3c0cc6bf87e98b044b19257b5d45d3",
+    "outputs/round2_g6_joint_admission_20261003/transfer/wecc_bound_components.npz": "5555525cedb79f8af09844c3077431c16a94897fae9c1da1d2bd265871db9d28",
+    "outputs/round2_20261003/grid_transfer/grid_adapter.py": "fdd72007f45f33a198b5023c75ffd6f2a0ca803c31c299e0efad25bff3beec98",
+    "outputs/round2_20261003/grid_transfer/PROVENANCE_LOCK.json": "9748efcc004bb329824b342011fed9aba96223183e0856f1e062c86757e2185e",
+    "outputs/round2_20261003/grid_transfer/chainrule_audit.json": "5edae810a6fa0676df0d8ddb3fe828ba492f39b7fbc57d3f5bf22d57a1bdf650",
+    "outputs/round2_20261003/grid_transfer/kundur_reduced51.npz": "31e798abc23bdcb6c3b46aeb488caf96636127390935eac4d9f0e2fdd5601828",
+    "outputs/round2_20261003/grid_transfer/wecc_verified_descriptor_K.npz": "e03c0bf4806f86756de28d7015b815d1af9a1aa876590ff1003cb07caab35f21",
+    "outputs/round2_20261003/grid_transfer/wecc_descriptor_aux.npz": "f136d2b50eb0dc14f9e2bea308b83390217085ab65881408d47a02bd34821569"
+  }
+}

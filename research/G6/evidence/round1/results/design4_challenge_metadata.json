@@ -1,0 +1,25 @@
+{
+  "model": "design4",
+  "scenario_file_sha256": "aed4f0125245e69ff0e97e35128954e0f8c837d25405422edcaf388f9c4bfd68",
+  "cases": 196,
+  "dt": 0.02,
+  "T_s": 90,
+  "raw_state_dtype": "float64",
+  "dt_half_checks": [
+    {
+      "case_id": 111,
+      "coarse_peak": 1.3120886480917087,
+      "fine_peak": 1.3122187161466565,
+      "abs_difference": 0.00013006805494786278
+    },
+    {
+      "case_id": 141,
+      "coarse_peak": 0.9664791379808811,
+      "fine_peak": 0.96647905509586,
+      "abs_difference": 8.288502117981267e-08
+    }
+  ],
+  "seconds": 7.999043226242065,
+  "nonlinear_scope": "sin(angle) synthetic swing grid, no Q/voltage/converter physics, sample peaks only",
+  "linear_steady_initial_is_not_nonlinear_periodic_initial": true
+}

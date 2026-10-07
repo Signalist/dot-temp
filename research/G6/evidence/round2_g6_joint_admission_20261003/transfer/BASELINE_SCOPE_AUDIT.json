@@ -1,0 +1,59 @@
+{
+  "source_file": "outputs/round2_20261003/grid_transfer/port_qualification.json",
+  "source_sha256": "35697f9486eb911b3d00265127f5b3c31757bbd040fb6f6dccf82a9d1f09303f",
+  "exact_metadata": {
+    "kundur": {
+      "port_buses": [
+        7,
+        8
+      ],
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "local_original_P_MW": [
+        1159.0,
+        1575.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      }
+    },
+    "wecc": {
+      "port_buses": [
+        1,
+        4
+      ],
+      "baseline_port_MW": [
+        0.0,
+        0.0
+      ],
+      "baseline_port_Mvar": [
+        0.0,
+        0.0
+      ],
+      "local_original_P_MW": [
+        1750.0,
+        2350.0
+      ],
+      "original_PQ_TDS_conversion": {
+        "p2p": 0.0,
+        "p2i": 0.0,
+        "p2z": 1.0,
+        "q2q": 0.0,
+        "q2i": 0.0,
+        "q2z": 1.0
+      }
+    }
+  },
+  "conclusion": "Both supplemental two-port interfaces have zero steady power. The study is a signed incremental active-power injection kernel transfer only. Existing constant-impedance background load does not establish controllable compute baseline. Nonnegative compute/equal-work physical realization remains separate and requires a valid positive baseline, recomputed operating point if changed, and requalification."
+}

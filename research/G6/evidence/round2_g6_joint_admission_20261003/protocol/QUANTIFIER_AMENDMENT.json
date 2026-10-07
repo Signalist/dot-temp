@@ -1,0 +1,17 @@
+{
+  "time_utc": "2026-10-03T12:22:12.071047+00:00",
+  "reason": "Independent theory audit found fixed adoption versus independently varying block amplitudes are distinct contracts; no outcomes selected",
+  "contracts": {
+    "committed_cohort": "a fixed forever; s_k common and varying",
+    "fixed_optional_adoption": "for every b in [0,a], b remains fixed forever",
+    "dynamic_optional_use": "each block chooses b_k independently in [0,a], s_k common",
+    "independent_ports": "each block/port may have independent signed amplitude"
+  },
+  "dynamic_optional_support": "sum over k max{a1|g_k1|,a2|g_k2|,|a1g_k1+a2g_k2|}; includes zero; cannot commute max and sum",
+  "primary_interpretation": "dynamic_optional_use is closer to standard robust capacity; fixed_cohort threshold will not be generalized to dynamic optional use",
+  "future_checks": [
+    "add dynamic-optional exact support with same-information Minkowski baseline",
+    "extend approximation-complexity proof if valid",
+    "check fixed-only benefit disappears or changes when amplitudes vary"
+  ]
+}

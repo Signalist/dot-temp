@@ -1,0 +1,34 @@
+{
+  "powerflow_method": "NR",
+  "powerflow_tol": 1e-11,
+  "powerflow_converged": true,
+  "powerflow_iterations": 5,
+  "powerflow_mismatch_history": [
+    14.928283196396492,
+    3.587665885158593,
+    0.14086436353371345,
+    0.0017314924905711404,
+    3.02487440984045e-07,
+    2.842170943040401e-14
+  ],
+  "powerflow_initialization": "Fresh load of original case with additions, original model PFlow.init(), not old solved state or Jacobian",
+  "added_port_actual_initialized_pp0_pu": [
+    0.5,
+    0.5
+  ],
+  "added_port_actual_initialized_qp0_pu": [
+    0.0,
+    0.0
+  ],
+  "base_MVA": 100.0,
+  "actual_added_P_MW": [
+    50.0,
+    50.0
+  ],
+  "actual_added_Q_Mvar": [
+    0.0,
+    0.0
+  ],
+  "base_P_input_sign": "positive consumption",
+  "fresh_initial_state_matches_saved": true
+}

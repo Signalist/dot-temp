@@ -1,0 +1,127 @@
+{
+  "label": "committed_outer_dt128",
+  "case": {
+    "label": "committed_outer",
+    "contract": "committed",
+    "side": "outer",
+    "factor": 1.02,
+    "nominal_total_amplitude_MW": 29.728191208288717,
+    "total_amplitude_MW": 29.728191208288717,
+    "physical_cap_applied": false,
+    "claimed_outside_uncapped_test": true,
+    "source_capacity_key": "committed_capacity_upper_MW",
+    "target_output_zero_based": 3,
+    "target_phase_s": 0.3759765625,
+    "target_time_s": 513.3759765625,
+    "full_LTI_target_Hz": 0.051000000000000004,
+    "proper_contract_upper_Hz": 0.051115105287133485,
+    "reset_screen_upper_Hz": null,
+    "tf_s": 535.0,
+    "baseline_MW": [
+      50.0,
+      50.0
+    ],
+    "per_port_amplitude_MW": [
+      14.864095604144358,
+      14.864095604144358
+    ],
+    "schedule_sha256": "e17e858a55cab8109927a47b6bb4484c6eeaf22b1402f97e148ead4598d89b23",
+    "word_sha256": "26d5426d339c3df05608b4b5466ae79831394b3aa9e28ee15cd6a43b77fe9969",
+    "actual_compute_min_MW": [
+      35.13590439585564,
+      35.13590439585564
+    ],
+    "zero_block_integral_max_MWs": 0.0
+  },
+  "dt_s": 0.0078125,
+  "event_epsilon_s": 0.0001,
+  "complete": true,
+  "tds_return": true,
+  "busted": false,
+  "err_msg": "",
+  "end_time_s": 535.0,
+  "samples": 70540,
+  "initial_x_sha256": "8cc0f0a20c0b580c5e7dbdd6128b6cf724e38033d4d944aa8b819ef56af4b5cd",
+  "initial_y_sha256": "3f978603ec5b10c4cb849a602ccf6c72b89e63ece50559c66d0a1b11321c6efa",
+  "metadata": {
+    "andes_version": "2.0.0",
+    "source_case": "kundur/kundur_full.xlsx",
+    "source_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+    "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+    "disabled_original_events": {
+      "Toggle": [
+        {
+          "idx": 1,
+          "u": 1,
+          "name": "Toggler_1",
+          "model": "Line",
+          "dev": "Line_8",
+          "t": 2
+        }
+      ]
+    },
+    "port_buses": [
+      7,
+      8
+    ],
+    "base_MVA": 100.0,
+    "frequency_Hz": 60.0,
+    "baseline_port_MW": [
+      50,
+      50
+    ],
+    "baseline_port_Mvar": [
+      0,
+      0
+    ],
+    "original_PQ_TDS_conversion": {
+      "p2p": 0.0,
+      "p2i": 0.0,
+      "p2z": 1.0,
+      "q2q": 0.0,
+      "q2i": 0.0,
+      "q2z": 1.0
+    },
+    "port_original_PQ_status_after_dynamic_replacement": [
+      0.0,
+      0.0
+    ],
+    "initial_f_max": 2.220446049250313e-16,
+    "initial_g_max": 2.7977620220553945e-14,
+    "original_model_parameters_modified": false,
+    "local_original_P_MW": [
+      1159.0,
+      1575.0
+    ]
+  },
+  "no_state_reset": true,
+  "actual_compute_min_MW": [
+    35.13590439585564,
+    35.13590439585564
+  ],
+  "actual_compute_max_MW": [
+    64.86409560414435,
+    64.86409560414435
+  ],
+  "actual_compute_nonnegative": true,
+  "metrics": {
+    "nonlinear_peak_Hz": 0.05197413696165665,
+    "nonlinear_peak_time_s": 205.3751,
+    "nonlinear_peak_generator": "4",
+    "exact_LTI_peak_Hz": 0.050999999999998616,
+    "exact_LTI_peak_time_s": 513.3759765625,
+    "exact_LTI_peak_generator": "4",
+    "nonlinear_target_Hz": 0.051972234050774446,
+    "exact_LTI_target_Hz": 0.050999999999998616,
+    "analytic_witness_target_error_Hz": 1.3877787807814457e-15,
+    "target_time_error_s": 0.0,
+    "max_NL_LTI_difference_Hz": 0.0018618609896321244,
+    "rms_NL_LTI_difference_Hz": 0.0007641120300636504,
+    "frequency_limit_margin_Hz": -0.0019741369616566445,
+    "ringdown_peak_Hz": 0.03922269646718268,
+    "min_bus_voltage_pu": 0.9290666643552997,
+    "max_bus_voltage_pu": 1.0113488283205472
+  },
+  "elapsed_s": 174.0268955720021,
+  "scope": "Full finite nonlinear witness replay, not whole-family proof. Positive compute contract only under explicitly assumed affine power-work law."
+}

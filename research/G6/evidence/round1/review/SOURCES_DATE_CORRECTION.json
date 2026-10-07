@@ -1,0 +1,107 @@
+{
+  "audit_date_utc": "2026-10-02",
+  "status": "CORRECTION_TO_G6_AUDIT_NO_G5_FILES_MODIFIED",
+  "headline": "September 22, 2026 is the official webpage publication date for BOTH PNNL-39459 and PNNL-38817 Beta. It is not the verified V032 package availability date.",
+  "page_number_convention": "PDF pages are one-based physical pages; printed report labels are given separately.",
+  "dml_four_date_distinction": [
+    {
+      "meaning": "report cover date",
+      "value": "August 2026",
+      "pdf_pages": [
+        1,
+        4
+      ],
+      "printed_page": "unnumbered cover/title",
+      "official_url": "https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-38817beta.pdf"
+    },
+    {
+      "meaning": "beta completion",
+      "value": "July 2026",
+      "pdf_pages": [
+        5,
+        16
+      ],
+      "printed_pages": [
+        "iv (Abstract)",
+        "1 (Introduction)"
+      ],
+      "official_url": "https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-38817beta.pdf"
+    },
+    {
+      "meaning": "V032 / 0.3.2 package availability announcement",
+      "value": "2026-08-14",
+      "location": "IEEE DataPort Abstract update; current package label is DML V032",
+      "official_url": "https://ieee-dataport.org/open-access/data-center-model-library-electromagnetic-transient-analysis-pscad"
+    },
+    {
+      "meaning": "beta report webpage publication",
+      "value": "2026-09-22",
+      "location": "PNNL report webpage date and Published field",
+      "official_url": "https://www.pnnl.gov/publications/electromagnetic-transient-modeling-large-data-centers-grid-level-studies-beta-release"
+    }
+  ],
+  "ratlle_separate_dates": [
+    {
+      "meaning": "PNNL-39459 cover date",
+      "value": "June 2026",
+      "pdf_pages": [
+        1,
+        3
+      ],
+      "printed_page": "unnumbered cover/title",
+      "official_url": "https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-39459.pdf"
+    },
+    {
+      "meaning": "PNNL-39459 webpage publication",
+      "value": "2026-09-22",
+      "location": "PNNL report webpage date and Published field",
+      "official_url": "https://www.pnnl.gov/publications/methodology-evaluate-grid-reliability-impact-oscillations-induced-large-loads"
+    }
+  ],
+  "documents": [
+    {
+      "local_file": "outputs/ai_grid_deep_recovery_20261002/G6/review/PNNL-39459.pdf",
+      "official_url": "https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-39459.pdf",
+      "bytes": 10642202,
+      "sha256": "05a3621fb116b845ab2b4a49b56133b9e28e16f908165e40a149f827e9666b92"
+    },
+    {
+      "local_file": "outputs/ai_grid_deep_recovery_20261002/G6/review/DML_V032_manual.pdf",
+      "official_url": "https://ieee-dataport.org/open-access/data-center-model-library-electromagnetic-transient-analysis-pscad",
+      "bytes": 11504324,
+      "sha256": "959aa037ea3a84d457001b41348a0a88c97474cfcbb1ee2d588c89aa8920df29"
+    },
+    {
+      "local_file": "outputs/ai_grid_deep_recovery_20261002/G5/next_gate/sources_static/PNNL-38817beta.pdf",
+      "official_url": "https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-38817beta.pdf",
+      "bytes": 11504503,
+      "sha256": "8540ff906bc4e24c7b1a0c5f32132f59d1ec9f720d8e54ce5d429421d0374e0e"
+    }
+  ],
+  "document_identity_note": "DataPort manual and PNNL beta PDF have different byte hashes. The cited date statements occur at the same physical pages in both copies. Do not call these copies byte-identical.",
+  "g5_wording_review": {
+    "read_only_files": [
+      "G5/next_gate/sources_reference_audit.md",
+      "G5/next_gate/G5_BOUNDED_CLOSURE_ZH.md"
+    ],
+    "finding": "Detailed source audit already distinguishes all four DML dates. The closure states a beta-report publication date, not explicitly a V032 package release date; no factual retraction is justified.",
+    "optional_clarification_zh": "该 beta 报告在 PNNL 官网的发布日期为 2026-09-22；报告封面为 2026 年 8 月，正文称 beta 于 7 月完成，DataPort 的 V032 可用公告为 2026-08-14。",
+    "modifications_made": false
+  },
+  "redistribution_recommendation": {
+    "preferred_user_bundle": "Original audit, this date note, verified URLs, minimal necessary excerpts, and hashes; exclude raw source PDFs/text by default.",
+    "DML_V032_manual.pdf": {
+      "permission_evidence": "DataPort says its files are CC BY 4.0; DataCite rightsList independently gives cc-by-4.0. This documentation was obtained from that dataset current-manual link.",
+      "status": "Potentially redistributable under that dataset license with attribution and license notice; no need to bundle it. Do not imply the separate PSCAD runtime is CC-licensed.",
+      "attribution": "Brett A. Ross, Sameer Nekkalapu, Xue Lyu, Jim Follum. Electromagnetic Transient Modeling of Large Data Centers for Grid-Level Studies: Beta Release. PNNL-38817 Beta, August 2026. Current DataPort manual for DOI 10.21227/ev1a-g183. Unmodified PDF.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "rights_metadata_url": "https://api.datacite.org/dois/10.21227/ev1a-g183"
+    },
+    "PNNL-39459.pdf": {
+      "status": "Exclude from redistribution bundle unless an applicable redistribution grant is separately established. Public download and a DOE contractor disclaimer alone do not establish a blanket license. Link the official report instead."
+    },
+    "full_extracted_source_text": "Apply the same caution as to the corresponding PDF; full text is not a licensing workaround.",
+    "arxiv_pdf_artifacts": "This reviewer downloaded no arXiv PDFs into G6/review. If other workers have them, inspect each exact version license; standard arXiv non-exclusive distribution permission is granted to arXiv, not a blanket third-party republication license.",
+    "arxiv_license_source": "https://info.arxiv.org/help/license/index.html"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "random_seed": 64020261004,
+  "enumeration": [
+    {
+      "B": 0,
+      "case": 0,
+      "length": 12,
+      "legal_words": 1,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 0,
+      "case": 1,
+      "length": 12,
+      "legal_words": 1,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 0,
+      "case": 2,
+      "length": 12,
+      "legal_words": 1,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 0,
+      "case": 3,
+      "length": 12,
+      "legal_words": 1,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 1,
+      "case": 0,
+      "length": 12,
+      "legal_words": 23,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 1,
+      "case": 1,
+      "length": 12,
+      "legal_words": 23,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 1,
+      "case": 2,
+      "length": 12,
+      "legal_words": 23,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 1,
+      "case": 3,
+      "length": 12,
+      "legal_words": 23,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 2,
+      "case": 0,
+      "length": 12,
+      "legal_words": 179,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 2,
+      "case": 1,
+      "length": 12,
+      "legal_words": 179,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 2,
+      "case": 2,
+      "length": 12,
+      "legal_words": 179,
+      "enumerated_words": 4096,
+      "max_gap": 4.440892098500626e-16,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 2,
+      "case": 3,
+      "length": 12,
+      "legal_words": 179,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 4,
+      "case": 0,
+      "length": 12,
+      "legal_words": 1747,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 4,
+      "case": 1,
+      "length": 12,
+      "legal_words": 1747,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 4,
+      "case": 2,
+      "length": 12,
+      "legal_words": 1747,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 4,
+      "case": 3,
+      "length": 12,
+      "legal_words": 1747,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 8,
+      "case": 0,
+      "length": 12,
+      "legal_words": 4096,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 8,
+      "case": 1,
+      "length": 12,
+      "legal_words": 4096,
+      "enumerated_words": 4096,
+      "max_gap": 8.881784197001252e-16,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 8,
+      "case": 2,
+      "length": 12,
+      "legal_words": 4096,
+      "enumerated_words": 4096,
+      "max_gap": 8.881784197001252e-16,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 8,
+      "case": 3,
+      "length": 12,
+      "legal_words": 4096,
+      "enumerated_words": 4096,
+      "max_gap": 0.0,
+      "LP_integrality_gap": 0.0
+    },
+    {
+      "B": 0,
+      "case": "full_two_port_signs",
+      "length": 5,
+      "enumerated_words": 1024,
+      "max_gap": 0.0
+    },
+    {
+      "B": 1,
+      "case": "full_two_port_signs",
+      "length": 5,
+      "enumerated_words": 1024,
+      "max_gap": 0.0
+    },
+    {
+      "B": 2,
+      "case": "full_two_port_signs",
+      "length": 5,
+      "enumerated_words": 1024,
+      "max_gap": 8.881784197001252e-16
+    },
+    {
+      "B": 4,
+      "case": "full_two_port_signs",
+      "length": 5,
+      "enumerated_words": 1024,
+      "max_gap": 1.7763568394002505e-15
+    },
+    {
+      "B": 8,
+      "case": "full_two_port_signs",
+      "length": 5,
+      "enumerated_words": 1024,
+      "max_gap": 0.0
+    }
+  ],
+  "LP": [],
+  "witnesses": []
+}

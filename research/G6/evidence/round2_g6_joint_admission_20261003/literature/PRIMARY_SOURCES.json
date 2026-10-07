@@ -1,0 +1,327 @@
+{
+  "audit_date": "2026-10-03",
+  "scope": "Original G6 joint dynamic admission; targeted primary-source audit",
+  "novelty_policy": "Unlocated in reviewed sources is not established novelty; full-text gaps are explicit",
+  "sources": [
+    {
+      "id": "T01",
+      "authors": "Athanasopoulos, Smpoukis, Jungers",
+      "title": "Invariance in Constrained Switching",
+      "date": "2017 preprint",
+      "url": "https://arxiv.org/html/1702.00598",
+      "read_level": "full_text_selected_sections",
+      "location": "Sections 2–4; assumptions; minimal and maximal invariant multi-sets",
+      "relevance_caveat": "Direct automaton-constrained reachability neighbor; some disturbance-set theorems require C-sets"
+    },
+    {
+      "id": "T02",
+      "authors": "Mauldin, Williams",
+      "title": "Hausdorff Dimension in Graph Directed Constructions",
+      "date": "1988",
+      "url": "https://www.ams.org/tran/1988-309-02/S0002-9947-1988-0961615-4/S0002-9947-1988-0961615-4.pdf",
+      "read_level": "primary_full_text_selected",
+      "location": "Theorem 1",
+      "relevance_caveat": "Graph-directed fixed set; do not import dimensional separation assumptions into general existence claim"
+    },
+    {
+      "id": "T03",
+      "authors": "Chatterjee, Doyen, Henzinger",
+      "title": "Quantitative Languages",
+      "date": "2010",
+      "url": "https://research-explorer.ista.ac.at/record/3862",
+      "read_level": "author_repository_abstract_metadata",
+      "location": "Discounted-sum weighted infinite-word automata",
+      "relevance_caveat": "Direct formal-languages neighbor; not claimed a proof of every current support theorem"
+    },
+    {
+      "id": "T04",
+      "authors": "Lawlor, Hart",
+      "title": "Bounding Recursive Procedural Models Using Convex Optimization",
+      "date": "2003",
+      "url": "https://www.cs.uaf.edu/~olawlor/academic/thesis/self/lawlor2003ifsbound.pdf",
+      "read_level": "author_full_text_selected",
+      "location": "Fixed face normals; recursive polyhedral bounding; RIFS extension",
+      "relevance_caveat": "Earlier fixed-template convex certificate"
+    },
+    {
+      "id": "T05",
+      "authors": "Trodden",
+      "title": "A one-step approach to computing a polytopic robust positively invariant set",
+      "date": "2016",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/96290/",
+      "read_level": "author_repository_abstract_metadata",
+      "location": "Single LP; predefined normal vectors",
+      "relevance_caveat": "Strong fixed-template baseline; not exact in arbitrary normal directions"
+    },
+    {
+      "id": "T06",
+      "authors": "Duda",
+      "title": "Analysis of the convex hull of the attractor of an IFS",
+      "date": "2007 preprint; v2 2008-02-20",
+      "url": "https://arxiv.org/pdf/0710.3863",
+      "read_level": "full_text",
+      "location": "Section 3 Eq. 8–9; Section 5 Eq. 12–15",
+      "relevance_caveat": "Exact geometric absolute-cosine support-family prior art; finite rational folding"
+    },
+    {
+      "id": "T07",
+      "authors": "Kirat, Kocyigit",
+      "title": "On the Convex Hulls of Self-Affine Fractals",
+      "date": "2015 preprint; v3 2019-02-09",
+      "url": "https://arxiv.org/pdf/1504.07396",
+      "read_level": "full_text",
+      "location": "Propositions 2.1–2.2; Theorem 3.1",
+      "relevance_caveat": "Single-matrix polytope criterion; cites 1999 and 2010 predecessors"
+    },
+    {
+      "id": "T08",
+      "authors": "Vass",
+      "title": "On the Exact Convex Hull of IFS Fractals",
+      "date": "2015 preprint; later journal version 2018",
+      "url": "https://arxiv.org/pdf/1502.03788",
+      "read_level": "full_text_selected_sections",
+      "location": "Sections 2.2–2.3 and 3; angular continuity and roots of unity",
+      "relevance_caveat": "Irrationality uses special definition; do not claim any irrational matrix forces every admissible set nonpolyhedral"
+    },
+    {
+      "id": "T09",
+      "authors": "Strichartz, Wang",
+      "title": "Geometry of Self-Affine Tiles I",
+      "date": "1999",
+      "url": "https://www.math.hkust.edu.hk/~yangwang/Reprints/boundaryI.pdf",
+      "read_level": "author_manuscript_search_extraction",
+      "location": "Introduction and indexed original text",
+      "relevance_caveat": "Direct support digit-series/Gauss-map neighbor; direct open errored so not treated as full-text review"
+    },
+    {
+      "id": "T10",
+      "authors": "Zaitseva, Protasov",
+      "title": "Self-affine 2-attractors and tiles",
+      "date": "2022",
+      "url": "https://www.mathnet.ru/eng/sm9682",
+      "read_level": "publisher_full_text_selected",
+      "location": "Section 7; Lemma 4",
+      "relevance_caveat": "Infinite nonparallel segment directions imply nonpolytope"
+    },
+    {
+      "id": "T11",
+      "authors": "Mishkinis, Gentil, Lanquetin, Sokolov",
+      "title": "Approximate convex hull of affine iterated function system attractors",
+      "date": "2012",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0960077912001713",
+      "read_level": "publisher_abstract_and_section_snippets",
+      "location": "Abstract complexity statement; related work",
+      "relevance_caveat": "Logarithmic accuracy iterations already advertised; full text not retrieved, so no absence-of-theorem assertion"
+    },
+    {
+      "id": "T12",
+      "authors": "Martyn",
+      "title": "The attractor-wrapping approach to approximating convex hulls of 2D affine IFS attractors",
+      "date": "2009",
+      "url": "https://doi.org/10.1016/j.cag.2008.08.003",
+      "read_level": "primary_citation_in_T11_and_publisher_related_abstract",
+      "location": "Approximation algorithm",
+      "relevance_caveat": "Lead only: direct DOI open failed; no detailed exclusion based on this source"
+    },
+    {
+      "id": "T13",
+      "authors": "Bourgain, Lindenstrauss, Milman",
+      "title": "Approximation of zonoids by zonotopes",
+      "date": "1989",
+      "url": "https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/6427-11511_2006_Article_BF02392835.pdf",
+      "read_level": "primary_full_text_selected",
+      "location": "General approximation; generating measure Eq. 1.8",
+      "relevance_caveat": "General-class rates differ from instance-specific weighted rotation lower bound"
+    },
+    {
+      "id": "T14",
+      "authors": "Wiesemann, Kuhn, Rustem",
+      "title": "Robust Markov Decision Processes",
+      "date": "online 2012; volume 2013",
+      "url": "https://pubsonline.informs.org/doi/10.1287/moor.1120.0566",
+      "read_level": "publisher_abstract_metadata",
+      "location": "Uncertain transition parameters",
+      "relevance_caveat": "Neighbor for coupled uncertainty semantics, not identical deterministic dynamics"
+    },
+    {
+      "id": "T15",
+      "authors": "Goyal, Grand-Clément",
+      "title": "Robust Markov Decision Process: Beyond Rectangularity",
+      "date": "2018 preprint",
+      "url": "https://arxiv.org/abs/1811.00215",
+      "read_level": "primary_abstract",
+      "location": "Coupled factors and rectangularity",
+      "relevance_caveat": "Do not replace shared constant grid parameter by stagewise uncertainty"
+    },
+    {
+      "id": "T16",
+      "authors": "Elton",
+      "title": "An ergodic theorem for iterated maps",
+      "date": "1987",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0D52C4D7055811300AA7BE4D6B78BA09/S0143385700004168a.pdf/an-ergodic-theorem-for-iterated-maps.pdf",
+      "read_level": "publisher_full_text_selected",
+      "location": "Almost-sure time averages from any starting point",
+      "relevance_caveat": "Classical recurrence foundation"
+    },
+    {
+      "id": "T17",
+      "authors": "Diaconis, Freedman",
+      "title": "Iterated Random Functions",
+      "date": "1999",
+      "url": "https://epubs.siam.org/doi/10.1137/S0036144598338446",
+      "read_level": "publisher_abstract_metadata",
+      "location": "Random Lipschitz maps contracting on average",
+      "relevance_caveat": "Classical stationary-distribution neighbor"
+    },
+    {
+      "id": "T18",
+      "authors": "Tkachev, Mereacre, Katoen, Abate",
+      "title": "Quantitative model-checking of controlled discrete-time Markov processes",
+      "date": "2014 preprint; 2017 journal",
+      "url": "https://arxiv.org/abs/1407.5449",
+      "read_level": "primary_abstract_and_publisher_sections",
+      "location": "Reachability/repeated reachability",
+      "relevance_caveat": "General stochastic safety already developed"
+    },
+    {
+      "id": "T19",
+      "authors": "Zhao, Xu, Zhang",
+      "title": "Waiting times and stopping probabilities for patterns in Markov chains",
+      "date": "2016 preprint; v2 2017-02-20",
+      "url": "https://arxiv.org/html/1602.06512",
+      "read_level": "full_text_selected_sections",
+      "location": "Theorem 2.1; generating functions; pattern correlations",
+      "relevance_caveat": "Quantitative rare-word first-passage baseline"
+    },
+    {
+      "id": "T20",
+      "authors": "Soudjani, Abate",
+      "title": "Adaptive Gridding for Abstraction and Verification of Stochastic Hybrid Systems",
+      "date": "2011",
+      "url": "https://www.cs.ox.ac.uk/people/sadegh.soudjani/papers/SoudjaniAbateQEST11.pdf",
+      "read_level": "author_full_text_selected",
+      "location": "Explicit abstraction errors for finite-horizon safety",
+      "relevance_caveat": "Baseline for any proposed finite-memory probabilistic certificates"
+    },
+    {
+      "id": "T21",
+      "authors": "Cordiano, He, De Schutter",
+      "title": "Learning-Based Stochastic Optimal Control with Infinite-Horizon Probabilistic Constraints",
+      "date": "2026 preprint",
+      "url": "https://arxiv.org/html/2608.01151",
+      "read_level": "primary_full_text_selected",
+      "location": "State augmentation; joint chance constraints",
+      "relevance_caveat": "Prevents overgeneralizing open-loop recurrence collapse to all controlled stochastic safety"
+    },
+    {
+      "id": "T22",
+      "authors": "Bouyer, Fahrenberg, Larsen, Markey, Srba",
+      "title": "Infinite Runs in Weighted Timed Automata with Energy Constraints",
+      "date": "2008",
+      "url": "https://homes.cs.aau.dk/~srba/files/BFLMS%3AFORMATS%3A08.pdf",
+      "read_level": "author_full_text_selected",
+      "location": "Infinite schedules with interval-bounded accumulated energy",
+      "relevance_caveat": "Direct energy-memory neighbor"
+    },
+    {
+      "id": "T23",
+      "authors": "Fahrenberg, Juhl, Larsen, Srba",
+      "title": "Energy Games in Multiweighted Automata",
+      "date": "2011",
+      "url": "https://homes.cs.aau.dk/~srba/files/FJLS%3AICTAC%3A11.pdf",
+      "read_level": "author_full_text_selected",
+      "location": "Multidimensional and parameterized energy constraints",
+      "relevance_caveat": "Separates universal verification from controller synthesis"
+    },
+    {
+      "id": "T24",
+      "authors": "Pinsky",
+      "title": "Computation and interpretation of mean absolute deviations by cumulative distribution functions",
+      "date": "2025-02-12",
+      "url": "https://www.frontiersin.org/journals/applied-mathematics-and-statistics/articles/10.3389/fams.2025.1487331/pdf",
+      "read_level": "publisher_full_text_selected",
+      "location": "Eq. 64 geometric mean absolute deviation",
+      "relevance_caveat": "Known ingredient for small-angle threshold limit; independently prove formula rather than copy intermediate display"
+    },
+    {
+      "id": "D01",
+      "authors": "Jiménez-Ruiz, Milano",
+      "title": "Data Center Model for Transient Stability Analysis of Power Systems",
+      "date": "2025-05-22 v1",
+      "url": "https://arxiv.org/html/2505.16575v1",
+      "read_level": "primary_full_text_selected",
+      "location": "Model, UPS, cooling, periodic loads and reconnection",
+      "relevance_caveat": "Preprint; dynamic DC modeling is not new alone"
+    },
+    {
+      "id": "D02",
+      "authors": "Choukse et al.",
+      "title": "Power Stabilization for AI Training Datacenters",
+      "date": "2025-08-21 v2",
+      "url": "https://arxiv.org/html/2508.14318",
+      "read_level": "primary_full_text_selected",
+      "location": "Production waveforms; mitigation; storage; costs and telemetry",
+      "relevance_caveat": "Preprint; no independent execution of in-house simulator"
+    },
+    {
+      "id": "D03",
+      "authors": "Ko, Zhu",
+      "title": "Wide-Area Power System Oscillations from Large-Scale AI Workloads",
+      "date": "2025-08-22 initial submission",
+      "url": "https://arxiv.org/html/2508.16457",
+      "read_level": "primary_full_text_selected",
+      "location": "Periodic stochastic power profiling; factors affecting oscillations",
+      "relevance_caveat": "Preprint; stochastic variability is not novel alone"
+    },
+    {
+      "id": "D04",
+      "authors": "Ruan, Ilic, Xie",
+      "title": "Data Center Control Against Sub-Synchronous Resonance: A Data-Driven Approach",
+      "date": "2025-11-18 initial submission",
+      "url": "https://arxiv.org/abs/2511.14141",
+      "read_level": "primary_abstract",
+      "location": "Workload-dependent PFC impedance and preventive control",
+      "relevance_caveat": "HTML open failed; no full-text exclusion claims"
+    },
+    {
+      "id": "D05",
+      "authors": "Liang",
+      "title": "Inference as Flexibility: Ramp Management for Transmission-Connected AI Data Centres",
+      "date": "2026 preprint",
+      "url": "https://arxiv.org/html/2606.21833",
+      "read_level": "primary_full_text_selected",
+      "location": "Inference flexibility offsets training ramps",
+      "relevance_caveat": "Proof-of-concept scope"
+    },
+    {
+      "id": "D06",
+      "authors": "Ren, Sun, Teng",
+      "title": "Hosting Capacity Assessment of Data Centers with Voltage Ride-Through Capability in Power Systems",
+      "date": "2026-09-02 v1",
+      "url": "https://arxiv.org/html/2609.03030v1",
+      "read_level": "primary_full_text_selected",
+      "location": "VRT-aware joint network/facility planning; current/DC-link limits",
+      "relevance_caveat": "Preprint; not claimed equivalent to infinite word certificate"
+    },
+    {
+      "id": "D07",
+      "authors": "Krajacic, Pierrou, Desai, Hug, Valverde",
+      "title": "Forced Oscillations in Power Systems Induced by Data Centers Hosting AI Workloads",
+      "date": "2026-09-23 v1",
+      "url": "https://arxiv.org/html/2609.27698v1",
+      "read_level": "primary_full_text_selected",
+      "location": "Eq. 11–12; two-DC interaction; periodic response failures",
+      "relevance_caveat": "Direct cancellation/synchronization neighbor"
+    },
+    {
+      "id": "D08",
+      "authors": "Su, Du, Wang",
+      "title": "Grid Demand Flexibility Assessment of AI Data Centers via Batch Workload Temporal Shifting",
+      "date": "2026-09-29 initial submission",
+      "url": "https://arxiv.org/abs/2609.38020",
+      "read_level": "primary_abstract",
+      "location": "Execution continuity, delay and resource-constrained batch shifting",
+      "relevance_caveat": "Latest relevant lead; not full-text audited"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "seed": 6022027,
+  "source_sha256": "c9cefdd319c40411658d005d28edd9d4a4480d069e25dbdb7d69fc132f82d6c6",
+  "models": [
+    {
+      "name": "design4",
+      "box_harmonic_evaluations": 60,
+      "refinement_changed_enclosure": 59,
+      "empty_intervals": 0,
+      "scalar_components_checked": 12000,
+      "containment_failures": [],
+      "enlarged_vs_original": 0,
+      "max_width_ratio_refined_original": 1.0
+    },
+    {
+      "name": "interior4",
+      "box_harmonic_evaluations": 60,
+      "refinement_changed_enclosure": 59,
+      "empty_intervals": 0,
+      "scalar_components_checked": 12000,
+      "containment_failures": [],
+      "enlarged_vs_original": 0,
+      "max_width_ratio_refined_original": 1.0
+    },
+    {
+      "name": "transfer8_cube",
+      "box_harmonic_evaluations": 60,
+      "refinement_changed_enclosure": 53,
+      "empty_intervals": 0,
+      "scalar_components_checked": 24000,
+      "containment_failures": [],
+      "enlarged_vs_original": 0,
+      "max_width_ratio_refined_original": 1.0
+    },
+    {
+      "name": "transfer8_mesh",
+      "box_harmonic_evaluations": 60,
+      "refinement_changed_enclosure": 55,
+      "empty_intervals": 0,
+      "scalar_components_checked": 38400,
+      "containment_failures": [],
+      "enlarged_vs_original": 0,
+      "max_width_ratio_refined_original": 1.0
+    }
+  ],
+  "source_changed_during_audit": false
+}

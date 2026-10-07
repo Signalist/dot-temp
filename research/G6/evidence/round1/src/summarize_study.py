@@ -1,0 +1,21 @@
+from g6_model import *
+import pandas as pd
+import json,hashlib
+ROOT=Path(__file__).resolve().parents[1]
+rows=[];trials=[];dominance=[];convergence=[]
+for cfg in MODELS:
+ name=cfg['name'];meta=json.loads((ROOT/'results'/f'{name}_certificate.json').read_text());d=pd.read_csv(ROOT/'results'/f'{name}_envelope_summary.csv').set_index('method');a=d.area_MW2
+ row={'model':name,'nodes':cfg['n'],'evaluated_boxes':meta['evaluated_boxes'],'leaves':meta['leaf_count'],'support_gap_pct':100*meta['max_relative_gap'],'tolerance_met':meta['tolerance_met'],'certificate_seconds':meta['seconds'],'candidate_area':a['candidate_independent_grid_template_safe'],'classic_shared_template_inner_area':a['classic_shared_grid_template_safe'],'classic_shared_template_outer_area':a['classic_shared_grid_template_sample_outer'],'phase_free_inner_area':a['phase_free_harmonic_shared_grid_safe'],'phase_free_outer_area':a['phase_free_harmonic_shared_grid_sample_outer'],'candidate_area_advantage_pct':100*(a['candidate_independent_grid_template_safe']/a['classic_shared_grid_template_safe']-1),'template_inner_vs_phasefree_inner_pct':100*(a['classic_shared_grid_template_safe']/a['phase_free_harmonic_shared_grid_safe']-1),'exact_information_gain_lower_pct':100*max(0,a['classic_shared_grid_template_safe']/a['phase_free_harmonic_shared_grid_sample_outer']-1),'exact_information_gain_upper_pct':100*(a['classic_shared_grid_template_sample_outer']/a['phase_free_harmonic_shared_grid_safe']-1),'balanced_total_fundamental_MW':d.loc['classic_shared_grid_template_safe','balanced_total_fundamental_MW'],'shared_inner_outer_area_gap_pct':100*(a['classic_shared_grid_template_sample_outer']/a['classic_shared_grid_template_safe']-1)}
+ assert row['candidate_area_advantage_pct']<=1e-8
+ rows.append(row);trials.append(pd.read_csv(ROOT/'results'/f'{name}_challenge_trials.csv'))
+ conv=json.loads((ROOT/'results'/f'{name}_challenge_metadata.json').read_text())['dt_half_checks'];convergence.extend([{'model':name,**v} for v in conv])
+ r=np.load(ROOT/'raw'/f'{name}_certificate.npz');m=Model(cfg);j=int(np.argmax(r['upper'][0].sum(axis=1)))
+ for si in range(2):
+  f,k=r['witness'][0,j,si];parts=np.array([abs(m.transfer(float(h*f),float(k))[j,si])/h for h in m.hs]);p,_=m.peak_root(float(f),float(k))
+  dominance.append({'model':name,'output':m.labels[j],'site':si,'witness_f_Hz':f,'witness_kappa':k,'dominant_harmonic':int(m.hs[parts.argmax()]),'dominant_fraction_of_harmonic_l1':float(parts.max()/sum(parts)),'fixed_point_template_over_l1':float(p[j,si]/sum(parts)),'diagnostic_scope':'post-hoc marginal worst-point explanation; not an independent performance test'})
+summary=pd.DataFrame(rows);summary.to_csv(ROOT/'results'/'all_models_summary.csv',index=False);pd.DataFrame(dominance).to_csv(ROOT/'results'/'active_output_harmonic_dominance.csv',index=False);pd.DataFrame(convergence).to_csv(ROOT/'results'/'all_dt_half_checks.csv',index=False)
+t=pd.concat(trials);t.to_csv(ROOT/'results'/'all_nonlinear_trials.csv',index=False)
+s=t.groupby(['model','method','condition']).agg(n=('id','size'),violations=('sampled_violation','sum'),worst=('peak_ratio','max')).reset_index();s.to_csv(ROOT/'results'/'all_nonlinear_summary.csv',index=False)
+audit_complete=all((ROOT/'review'/f"{cfg['name']}_certificate_replay.json").exists() for cfg in MODELS)
+status={'route':'G6','paper_ready':False,'numerical_study_complete':True,'study_complete':audit_complete,'all_independent_replays_complete':audit_complete,'conditional_linear_continuous_inner_certificates':True,'all_support_tolerance_targets_met':bool(summary.tolerance_met.all()),'novel_same_information_method_advantage':False,'real_joint_data_available':False,'IEEE_or_user_model_validated':False,'rated_data_center_MW_claim':False,'full_nonlinear_safety_certified':False,'phase_control_assumed':False,'mean_load_scheduling_control_used':False,'model_count':4,'paired_base_scenarios':160,'method_runs_fixed_template':640,'contract_break_variants':144,'total_nonlinear_runs':784,'same_point_independent_root_checks':512,'source_pdf_redistribution':False,'source_date_correction':'DML Beta is supported; Sep22 is report webpage publication, not V032 availability. No G5 science retraction.'}
+(ROOT/'G6_STATUS.json').write_text(json.dumps(status,indent=2));print(summary.to_string(index=False));print(json.dumps(status,indent=2))

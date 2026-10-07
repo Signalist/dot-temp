@@ -1,0 +1,8 @@
+method,condition,n,sampled_violations,worst_ratio
+candidate_independent_grid_template_safe,fixed_template,40,0,0.9661505858119868
+classic_shared_grid_template_safe,fixed_template,40,0,0.9664791379808811
+classic_shared_grid_template_safe,frequency_drift,12,0,0.9665822675476281
+classic_shared_grid_template_safe,harmonic_phase_breach,12,0,0.9711269721290592
+classic_shared_grid_template_safe,zero_state_start,12,0,0.9152880315952966
+phase_free_harmonic_shared_grid_safe,fixed_template,40,0,0.9596254102738145
+sparse_3x9_template_UNCERTIFIED,fixed_template,40,20,1.3120886480917087

@@ -1,0 +1,312 @@
+{
+  "scope": "Original scientific arrays and redundant replay outputs intentionally omitted. Files remain unchanged in the full source record; no public download location is claimed.",
+  "files": [
+    {
+      "original_relative_path": "nonlinear/kundur_committed_inner_dt128.npz",
+      "bytes": 3016429,
+      "sha256": "0c203df2ed65becb3c88348bc844e12dd40a6c0d9f100ec86ea60781f0b77a7e",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/kundur_committed_inner_dt64.npz",
+      "bytes": 1567657,
+      "sha256": "6bc8c8e286d592b22d26aa41d23e0d9a01aada6809b3a6be586854fec4202c3e",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/kundur_committed_outer_dt128.npz",
+      "bytes": 3019669,
+      "sha256": "a9ed55e62b1d90b45c8277fe69bc2f64e7cfadb6359e4f6681aeee3679d0c34a",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/kundur_committed_outer_dt64.npz",
+      "bytes": 1569617,
+      "sha256": "5b75e479ca97ac297bb9ebef20027f1d98bdcaed3b75e61ed69de258bfc65f02",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/kundur_dynamic_optional_inner_dt128.npz",
+      "bytes": 3014478,
+      "sha256": "31f36cf60a314b5a3f25821d6ca60911c7f38637b63d8ca19947a7057845aae6",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/kundur_dynamic_optional_inner_dt64.npz",
+      "bytes": 1569292,
+      "sha256": "4321962a8a99f746f7c38f0a0f05e7004ccd3b6227069582cbae0525c8d0bf58",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/kundur_dynamic_optional_outer_dt128.npz",
+      "bytes": 3017544,
+      "sha256": "08c2ae79a289ed7944187d71d8cf04273d5eedbc80fa661004cef58979a1a271",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/kundur_dynamic_optional_outer_dt64.npz",
+      "bytes": 1570981,
+      "sha256": "bdd8a8c5891cfd80e8dce134c7d4039c5d5345e59a64a4da3af97f25a100dd91",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/kundur_reset_inner_error_dt128.npz",
+      "bytes": 3129743,
+      "sha256": "32bdff0fbd2a62740a320b504549943ddfd6e5e77502250cf648511823f463fe",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/kundur_reset_inner_error_dt64.npz",
+      "bytes": 1620791,
+      "sha256": "3e569ff2a85c6eb789dc64998c92c1bb1d712b9d365b86f2bf1d1ddcbaf90dd6",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/wecc_committed_inner_dt128.npz",
+      "bytes": 31365526,
+      "sha256": "e811a129592b522067bec8eabd1c8f24517271158b3973e7b69f4c1a05f33d2a",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/wecc_committed_inner_dt64.npz",
+      "bytes": 16363561,
+      "sha256": "eb59422fc3bf7cc9adddf752537a33dd2a50748ec921cce163e8518c2eb703e5",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/wecc_committed_outer_dt128.npz",
+      "bytes": 31405250,
+      "sha256": "7978edf25640e731cfef6890fc0e97563988bd13b2d8ba631f466fa37ea6e667",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/wecc_committed_outer_dt64.npz",
+      "bytes": 16394228,
+      "sha256": "49c9828c4b5d082be3d91d30a34d048731286d72e535589d282decb55edf95a7",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/wecc_dynamic_optional_inner_dt128.npz",
+      "bytes": 31064565,
+      "sha256": "4fd80d8587db889ba9349ae1ed0b2fdd730e996b814f71045a9a01edbcd650ea",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/wecc_dynamic_optional_inner_dt64.npz",
+      "bytes": 16127295,
+      "sha256": "166d9cb213cf1bcb4ea40afaba0f8b415df25ee018b74d9118964f4107a74b06",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/wecc_dynamic_optional_outer_dt128.npz",
+      "bytes": 31108817,
+      "sha256": "a621811959fc1646fbcf673656bee05b26662e7ac7b65602a7e9afd25a548f3f",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/wecc_dynamic_optional_outer_dt64.npz",
+      "bytes": 16162021,
+      "sha256": "0618d2ccd9874e49645aa9b8cc61e3bb22782af388d8f22c02bb0b11d8a2b97a",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/wecc_reset_inner_error_dt128.npz",
+      "bytes": 31605185,
+      "sha256": "b6b91cdb27c42f74f38644560ad7a7d36ce9583128ff19a2dce2e7a0684e4a04",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "nonlinear/wecc_reset_inner_error_dt64.npz",
+      "bytes": 16543014,
+      "sha256": "866af2ae3bb08562eb43836ed0a82b367f2861e11e1628ecde1ff815ce25b43c",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/committed_inner_dt128.npz",
+      "bytes": 8239397,
+      "sha256": "e0b69d3976f10fcdc5706d9e64493e462e80c2756a411e33a52bc4b55e795f63",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/committed_outer_dt128.npz",
+      "bytes": 8248425,
+      "sha256": "d2314880dd8f01378c869d2cb33a0ba3eb1c004f4a8384f97c78458dccba3a1a",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/dynamic_optional_inner_dt128.npz",
+      "bytes": 8699346,
+      "sha256": "27e0057f486ad17611211d301124b2a075ff890366edc93c048277d05bf7d7f9",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/dynamic_optional_inner_dt256.npz",
+      "bytes": 16981962,
+      "sha256": "07c36f6fb021786b2285da05225e151dd04bef126958b252e6c7ada3bf633629",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/dynamic_optional_outer_dt128.npz",
+      "bytes": 8705510,
+      "sha256": "b6ae4513a4128205b18c8b102abb56e4e29fbebfb78d4e080946e336c9256e42",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/dynamic_optional_outer_dt256.npz",
+      "bytes": 16996789,
+      "sha256": "e6fae48fa21c1a5ce8885b76e4ba6d00c77a735f8d8a64a90023c58b24d31ea2",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/independent_ports_inner_dt128.npz",
+      "bytes": 8395353,
+      "sha256": "8199faf3f7e6ddf9ed52bd93fb8b494d5e534c920f0961c8df9ffffe521a2ac0",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/independent_ports_outer_dt128.npz",
+      "bytes": 8403545,
+      "sha256": "90b9be0121a1fdd0155888288e3510b833219d321f705fc2dae4c7b5abca28b8",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/positive_coefficients.npy",
+      "bytes": 33702080,
+      "sha256": "716dbdc85b2784cd75885d0b3a7088ea0b6422c7d88837693b18d27a75bab08b",
+      "reason": "Large derived coefficient tensor; rebuild from included kernels and support implementation",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/reset_false_admission_dt128.npz",
+      "bytes": 8564108,
+      "sha256": "3d747a44f4cd60fcf16012fbce4c668b87e48c87bbaba2637c688e6bdc06a7d4",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "positive_workpoint/reset_false_admission_dt256.npz",
+      "bytes": 16918074,
+      "sha256": "47990a0ce09513133d0937e8133dd4fd25ad32995d55c2a8295e9cbaf936356c",
+      "reason": "Full nonlinear raw trajectory; needed for direct raw-trace audit, excluded from mobile core",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "replay_validation/local_transfer/kundur_bound_components.npz",
+      "bytes": 2131,
+      "sha256": "6a109ef5d45102aeb04104abc7536be388b6f65cf73ed31a04d25d2fd515dcd5",
+      "reason": "Redundant isolated replay-validation copy; not a new dataset",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "replay_validation/local_transfer/kundur_coefficients.npy",
+      "bytes": 33702080,
+      "sha256": "4931bea584a0399f4670c6e9fd5de422317f74727aeade360ee79571fe9f6a53",
+      "reason": "Redundant isolated replay-validation copy; not a new dataset",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "replay_validation/local_transfer/kundur_decisions.json",
+      "bytes": 52318,
+      "sha256": "ac6ccbcb793c5b112f755fee939f042b3f32e8ac530def97c24f9aa43a42c0d0",
+      "reason": "Redundant isolated replay-validation copy; not a new dataset",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "replay_validation/local_transfer/kundur_kernel.npz",
+      "bytes": 11180,
+      "sha256": "875ac6b67c2e7b7e8a75d83d7df498a9a8d5f5f0fd405255e667c76fe8b474bf",
+      "reason": "Redundant isolated replay-validation copy; not a new dataset",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "replay_validation/local_transfer/kundur_qualification.json",
+      "bytes": 481,
+      "sha256": "f1341d32192f5ffda91993305e8e1c6149ff9e5b50aba93163f151ab1387eade",
+      "reason": "Redundant isolated replay-validation copy; not a new dataset",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "replay_validation/local_transfer/kundur_rays.csv",
+      "bytes": 25833,
+      "sha256": "4764476f078d31ea5d4c7b336bf57a3fcc8b9c116f39700f35c4e1bde2b9a944",
+      "reason": "Redundant isolated replay-validation copy; not a new dataset",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "replay_validation/local_transfer/kundur_summary.json",
+      "bytes": 4096,
+      "sha256": "37e19bfed985a667bf1ee8e67bdcd62456e65556da205f5e7652501eb1834274",
+      "reason": "Redundant isolated replay-validation copy; not a new dataset",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "replay_validation/local_transfer/kundur_support_arrays.npz",
+      "bytes": 9829,
+      "sha256": "5479c04fd49fdc128d873506357a33db638257cab6dac6233335e29820ad1bc8",
+      "reason": "Redundant isolated replay-validation copy; not a new dataset",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "replay_validation/local_transfer/kundur_witness_metadata.json",
+      "bytes": 32244,
+      "sha256": "161a1895db182dfb3ff5645c3a6cbf2dcfbd8c7b294e0ed282c00b43960e389c",
+      "reason": "Redundant isolated replay-validation copy; not a new dataset",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "replay_validation/local_transfer/kundur_witnesses.npz",
+      "bytes": 15168,
+      "sha256": "30e55fd26816eea1c6a4022f815a692915bfce7e087224e593592fafc61da395",
+      "reason": "Redundant isolated replay-validation copy; not a new dataset",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "transfer/kundur_coefficients.npy",
+      "bytes": 33702080,
+      "sha256": "4931bea584a0399f4670c6e9fd5de422317f74727aeade360ee79571fe9f6a53",
+      "reason": "Large derived coefficient tensor; rebuild from included kernels and support implementation",
+      "present_in_core": false
+    },
+    {
+      "original_relative_path": "transfer/wecc_coefficients.npy",
+      "bytes": 244339280,
+      "sha256": "66b252220a769775f70e9f418d0f15291e98b194ab2dac7fa544750a829e2c19",
+      "reason": "Large derived coefficient tensor; rebuild from included kernels and support implementation",
+      "present_in_core": false
+    }
+  ],
+  "omitted_total_bytes": 716986972,
+  "omitted_nonlinear_trace_count": 30,
+  "exclusion_categories_without_content_or_individual_hashes": {
+    "logs or interim output": 22,
+    "generated cache": 425
+  }
+}

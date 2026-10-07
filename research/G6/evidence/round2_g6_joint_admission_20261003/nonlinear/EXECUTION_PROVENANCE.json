@@ -1,0 +1,21 @@
+{
+  "files": {
+    "run_g6_nonlinear.py": {
+      "sha256": "892a4ada2473613da40f023f179edb013393103bf27b1be8c180462103852c5c",
+      "mtime_utc_epoch": 1791031207.9380715
+    },
+    "NONLINEAR_FREEZE.json": {
+      "sha256": "98eccf9d54184fc8d6a6b341ac40f66f7118f75ef24c260b98ecddc57234f94a",
+      "mtime_utc_epoch": 1791031208.0767403
+    },
+    "audit_nonlinear.py": {
+      "sha256": "c6a9b9918224f1717856adfb30f61b18631cb8d01f2c7a66862c10e764d36e25",
+      "mtime_utc_epoch": 1791032559.5536509
+    },
+    "summarize_nonlinear.py": {
+      "sha256": "ec9a2248a4794f95709cd47cb580314d2312e58501ee78fb013b827180f4cf1e",
+      "mtime_utc_epoch": 1791032727.1633925
+    }
+  },
+  "note": "Freeze creation precedes all result-file creation. Audit and summary are post-outcome reports; no prospective claim for those scripts."
+}

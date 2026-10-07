@@ -1,0 +1,15 @@
+{
+  "model": "design4",
+  "artifact_sha256": "de748090b289f8e861f1aec6ec576984e00763a4481392f27a38f84a51a08719",
+  "model_source_sha256": "c8e399945e2a63bf6923fef0ec8179c7ee1917338f1bb676d96675f2a90774ed",
+  "leaf_count": 8001,
+  "finite_arrays": true,
+  "exact_binary_endpoint_partition_check": true,
+  "upper_equals_leaf_max": true,
+  "witness_lower_match": true,
+  "witness_nominal_domain_feasible": true,
+  "replay_upper_mismatch_count": 0,
+  "max_replay_minus_saved": 0.0,
+  "replay_seconds": 24.27902054786682,
+  "source_changed_during_replay": false
+}
