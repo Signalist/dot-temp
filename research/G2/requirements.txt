@@ -1,0 +1,7 @@
+# Tested reference environment: CPython 3.12.14, Linux x86_64
+# Only packages imported by portable round-3 computations; ANDES is not needed.
+numpy==2.3.5
+scipy==1.17.0
+sympy==1.14.0
+# SymPy transitive dependency pinned to the tested environment:
+mpmath==1.3.0

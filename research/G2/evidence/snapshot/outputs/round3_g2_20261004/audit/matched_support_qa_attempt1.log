@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "outputs/round3_g2_20261004/audit/verify_matched_support.py", line 31, in <module>
+    assert row['F_second_derivative_error']<1e-7
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

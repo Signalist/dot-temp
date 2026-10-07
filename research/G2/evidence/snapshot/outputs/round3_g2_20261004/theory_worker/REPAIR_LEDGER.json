@@ -1,0 +1,14 @@
+[
+  {
+    "stage": "First diagnostic run",
+    "failure": "JSON serialization rejected numpy.bool_ after all mathematical assertions passed",
+    "repair": "Added explicit conversion of NumPy scalar values during JSON serialization",
+    "scope": "Artifact serialization only; no formulas, protocol probes, thresholds, or test assertions changed"
+  },
+  {
+    "stage": "Independent mathematical review",
+    "failure": "General finite-value upper hypothesis initially allowed nonintegrable h=1, making both peak values infinite",
+    "repair": "Added local absolute continuity, integrability of h and h', and bounded common additive response to full-future value-gap statements",
+    "scope": "Main fixed stable fourth-order example unaffected; output-difference estimate does not itself require h in L1"
+  }
+]

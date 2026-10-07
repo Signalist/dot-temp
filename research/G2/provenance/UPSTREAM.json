@@ -1,0 +1,25 @@
+{
+  "source_project": "https://github.com/CURENT/andes",
+  "official_license": "https://github.com/CURENT/andes/blob/v2.0.0/LICENSE",
+  "official_package": "https://pypi.org/project/andes/2.0.0/",
+  "license_notice": "ANDES GPL-3.0-or-later metadata; preserve full upstream GPL license. No blanket license for unrelated original research code is invented.",
+  "license_checked_utc": "2026-10-07",
+  "cases": [
+    {
+      "name": "kundur",
+      "upstream_version": "andes==2.0.0",
+      "case_path": "andes/cases/kundur/kundur_full.xlsx",
+      "case_sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "official_case_url": "https://github.com/CURENT/andes/blob/v2.0.0/andes/cases/kundur/kundur_full.xlsx",
+      "raw_case_distributed": false,
+      "variant": "original-parameters_no-demo-events_supplemental-ZIP-constant-PQ-ports",
+      "port_buses": [
+        7,
+        8
+      ],
+      "base_MVA": 100.0,
+      "frequency_Hz": 60.0
+    }
+  ],
+  "scope": "public ANDES benchmark-derived reduced matrices/modal kernels only; no original workbook, simulator environment or third-party paper PDFs bundled"
+}

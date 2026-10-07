@@ -1,0 +1,177 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "N": 8,
+      "epsilon": 0.0,
+      "power_vs_energy_identity_error": -3.834941668693845e-19,
+      "port_total_energy": [
+        0.9999999999999999,
+        1.0
+      ],
+      "phase_endpoints": [
+        0.0,
+        1.0
+      ],
+      "speed_endpoints": [
+        1.0,
+        1.0
+      ],
+      "dual_sign_mismatch": 0.0,
+      "F_second_derivative_error": 6.238542668568492e-13
+    },
+    {
+      "N": 8,
+      "epsilon": 0.0025,
+      "power_vs_energy_identity_error": 8.673617379884035e-19,
+      "port_total_energy": [
+        0.9999999999999999,
+        1.0
+      ],
+      "phase_endpoints": [
+        0.0,
+        1.0
+      ],
+      "speed_endpoints": [
+        1.0,
+        0.9999999999999998
+      ],
+      "dual_sign_mismatch": 9.215718466126788e-19,
+      "F_second_derivative_error": 2.525276480980221e-10
+    },
+    {
+      "N": 8,
+      "epsilon": 0.01,
+      "power_vs_energy_identity_error": 0.0,
+      "port_total_energy": [
+        1.0000000000000004,
+        1.0000000000000004
+      ],
+      "phase_endpoints": [
+        0.0,
+        1.0000000000000004
+      ],
+      "speed_endpoints": [
+        1.0,
+        1.0000000000000002
+      ],
+      "dual_sign_mismatch": 0.0,
+      "F_second_derivative_error": 1.0157200289184765e-09
+    },
+    {
+      "N": 2,
+      "epsilon": 0.0,
+      "power_vs_energy_identity_error": 1.4060746924421386e-18,
+      "port_total_energy": [
+        1.0,
+        1.0
+      ],
+      "phase_endpoints": [
+        0.0,
+        1.0
+      ],
+      "speed_endpoints": [
+        1.0,
+        1.0000000000000002
+      ],
+      "dual_sign_mismatch": 0.0,
+      "F_second_derivative_error": 2.4127681189783923e-12
+    },
+    {
+      "N": 2,
+      "epsilon": 0.0025,
+      "power_vs_energy_identity_error": -1.5178830414797062e-18,
+      "port_total_energy": [
+        1.0000000000000013,
+        1.0000000000000016
+      ],
+      "phase_endpoints": [
+        0.0,
+        1.0000000000000016
+      ],
+      "speed_endpoints": [
+        1.0,
+        1.0000000000000033
+      ],
+      "dual_sign_mismatch": 0.0,
+      "F_second_derivative_error": 2.55352638122916e-10
+    },
+    {
+      "N": 2,
+      "epsilon": 0.01,
+      "power_vs_energy_identity_error": 8.673617379884035e-19,
+      "port_total_energy": [
+        0.9999999999999998,
+        0.9999999999999999
+      ],
+      "phase_endpoints": [
+        0.0,
+        0.9999999999999999
+      ],
+      "speed_endpoints": [
+        1.0,
+        0.9999999999999994
+      ],
+      "dual_sign_mismatch": 2.3852447794681098e-18,
+      "F_second_derivative_error": 1.0247001250990317e-09
+    },
+    {
+      "N": 32,
+      "epsilon": 0.0,
+      "power_vs_energy_identity_error": -4.932775777674223e-19,
+      "port_total_energy": [
+        1.0,
+        1.0
+      ],
+      "phase_endpoints": [
+        0.0,
+        1.0
+      ],
+      "speed_endpoints": [
+        1.0,
+        1.0
+      ],
+      "dual_sign_mismatch": 0.0,
+      "F_second_derivative_error": 1.3377999229235993e-10
+    },
+    {
+      "N": 32,
+      "epsilon": 0.0025,
+      "power_vs_energy_identity_error": 6.505213034913027e-19,
+      "port_total_energy": [
+        1.0000000000000002,
+        1.0
+      ],
+      "phase_endpoints": [
+        0.0,
+        1.0
+      ],
+      "speed_endpoints": [
+        1.0,
+        1.0
+      ],
+      "dual_sign_mismatch": 8.402566836762659e-19,
+      "F_second_derivative_error": 3.4050132678709044e-10
+    },
+    {
+      "N": 32,
+      "epsilon": 0.01,
+      "power_vs_energy_identity_error": 8.673617379884035e-19,
+      "port_total_energy": [
+        1.0000000000000002,
+        1.0
+      ],
+      "phase_endpoints": [
+        0.0,
+        1.0000000000000002
+      ],
+      "speed_endpoints": [
+        1.0,
+        1.0000000000000002
+      ],
+      "dual_sign_mismatch": 8.673617379884035e-19,
+      "F_second_derivative_error": 1.007639870848065e-09
+    }
+  ],
+  "limit": "Floating point diagnostics; no interval root isolation"
+}

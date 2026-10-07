@@ -1,0 +1,14 @@
+{
+  "frozen_before_run_utc": "2026-10-04T03:45:00Z",
+  "purpose": "Finite deterministic proof-identity and witness-asymptotic diagnostics; not a search or physical validation",
+  "J": 0.25,
+  "A": 0.01,
+  "witness_N": [4, 8, 16, 32, 64, 128],
+  "identity_N": [3, 8, 17],
+  "identity_clocks": ["nominal", "universal_plus_one_cell", "universal_minus_two_cells"],
+  "observation_times": [0.37, 0.83, 1.0, 1.4, 3.17],
+  "quadrature_orders": [16, 32],
+  "panels_per_nominal_workload_cycle": 8,
+  "checks": ["symbolic F second/third derivative recurrence", "exact universal jerk moments", "exact witness Fourier mean", "power convolution versus primitive identity versus BV identity including upper boundary and jerk atoms", "N^3 witness scaling", "all-time finite-jerk-arc bound", "displayed analytic constants"],
+  "interpretation": "Ordinary floating point diagnostics complement the analytic proof. They are not outward-rounded interval certificates. No compression diagnostic is included because parent owns independent compression checks."
+}

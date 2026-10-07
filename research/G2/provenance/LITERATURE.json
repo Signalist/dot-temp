@@ -1,0 +1,124 @@
+{
+  "scope": "Bibliographic/analysis metadata from prior scientific dossiers; full text and verbatim excerpts omitted; historic read levels not re-performed by packaging",
+  "sources": [
+    {
+      "id": "GOODMAN_LEE_1978",
+      "authors": "T. N. T. Goodman and S. L. Lee",
+      "title": "Another extremal property of perfect splines",
+      "journal": "Proceedings of the American Mathematical Society 70(2), 129–135 (1978)",
+      "doi": "10.1090/S0002-9939-1978-0481760-9",
+      "publisher_url": "https://doi.org/10.1090/S0002-9939-1978-0481760-9",
+      "verified_full_text_url": "https://www.researchgate.net/publication/243060150_Another_extremal_property_of_perfect_splines",
+      "provenance": "Original article text, uploaded by author Tim N. T. Goodman; publisher direct PDF was inaccessible through the research tool",
+      "inspected": [
+        "Theorem 1, pp.129–130",
+        "Corollary 6, p.134",
+        "Equations (3.10)–(3.12), pp.134–135"
+      ],
+      "reduction": "k=2, 2M+2 Hermite data yields n=2M; Theorem 1 if rho exceeds minimum derivative norm, Corollary 6 at equality. Clamped k=n=2 special case yields A Delta²/16, hence rho Delta²/8 for a difference bounded by 2rho.",
+      "obstruction": "No additional first-derivative speed-band constraint is imposed by this theorem. No objective-value lower is supplied."
+    },
+    {
+      "id": "SCARINCI_VELIOV_2018",
+      "authors": "T. Scarinci and V. M. Veliov",
+      "title": "Higher-order numerical scheme for linear quadratic problems with bang–bang controls",
+      "journal": "Computational Optimization and Applications 69, 403–422 (2018); online 2017",
+      "doi": "10.1007/s10589-017-9948-z",
+      "publisher_url": "https://doi.org/10.1007/s10589-017-9948-z",
+      "verified_full_text_url": "https://www.wu.ac.at/fileadmin/wu/d/i/statmath/Research_Seminar/WS_2017-18/veliov_paper1.pdf",
+      "provenance": "Institution-hosted original primary PDF",
+      "inspected": [
+        "Section 2, equations (2.3), (2.6)",
+        "Section 3.2, equation (3.6)",
+        "Section 3.3, equations (3.14)–(3.15), Theorem 3.1"
+      ],
+      "reduction": "Take normalized input u=-a with alpha=-A0/Delta, beta=-A1/Delta²; their interval length and midpoint become the candidate negative interval exactly.",
+      "obstruction": "Theorem 3.1 is a conditional optimizer/discretization convergence result and is not itself a theorem about arbitrary nonlinear workload values. Moment reconstruction is usable independently of those extra assumptions."
+    },
+    {
+      "id": "DEVORE_HOWARD_MICCHELLI_1989",
+      "authors": "R. A. DeVore, R. Howard and C. Micchelli",
+      "title": "Optimal nonlinear approximation",
+      "journal": "Manuscripta Mathematica 63, 469–478 (1989)",
+      "doi": "10.1007/BF01171759",
+      "publisher_url": "https://doi.org/10.1007/BF01171759",
+      "verified_full_text_url": "https://gwern.net/doc/cs/algorithm/1989-devore.pdf",
+      "author_institution_record": "https://research.ibm.com/publications/optimal-nonlinear-approximation",
+      "provenance": "Original primary article scan on a third-party host; authorship and publication independently verified through author institution",
+      "inspected": [
+        "Definitions (1.1)–(1.4)",
+        "Section 2 continuous-selection caveat",
+        "Theorem 3.1",
+        "Theorems 4.2 and 5.1"
+      ],
+      "reduction": "Supplies classical second-order Sobolev approximation scale, not the physical workload value-gap claim.",
+      "obstruction": "Continuous encoding requirement; norm error versus maximized scalar value; fixed nonlinear representation class versus infimum over encoders. Even unrestricted linear-functional gaps measure distance to closed convex hull, not distance to the representation set."
+    },
+    {
+      "id": "ALDAZ_KOUNCHEV_RENDER_2009",
+      "authors": "J. M. Aldaz, O. Kounchev and H. Render",
+      "title": "Bernstein operators for exponential polynomials",
+      "journal": "Constructive Approximation 29(3), 345–367 (2009)",
+      "doi": "10.1007/s00365-008-9010-6",
+      "publisher_url": "https://doi.org/10.1007/s00365-008-9010-6",
+      "verified_full_text_url": "https://arxiv.org/pdf/0805.1618",
+      "version": "arXiv:0805.1618v1, 12 May 2008",
+      "provenance": "Author primary preprint; journal metadata cross-checked in author institution repository",
+      "inspected": [
+        "Section 1, extended Chebyshev zero-count definition",
+        "Section 2, repeated-eigenvalue basis",
+        "Theorem 9, PDF page 7"
+      ],
+      "reduction": "For switching S''=q and P(D)q=0, S lies in ker D²P(D). Dimension d=D_q+2 and maximum imaginary frequency Omega yield at most (d−1)(floor(T Omega/pi)+1) zeros by partitioning into short intervals. L1 best-affine duality produces exact feasible sign(S) optimizer for the central endpoint moments.",
+      "obstruction": "Finite dictionary must be fixed in physical time. Nonlinear e(theta(t)) or active-band multiplier terms need not remain in that space. Global dimension-minus-one zero counting fails on long oscillatory intervals."
+    },
+    {
+      "id": "CERF_MARICONDA_1995",
+      "authors": "R. Cerf and C. Mariconda",
+      "title": "On Bang-Bang Constrained Solutions of a Control System",
+      "journal": "SIAM Journal on Control and Optimization 33(2), 554–567 (1995)",
+      "doi": "10.1137/S0363012992242034",
+      "publisher_url": "https://doi.org/10.1137/S0363012992242034",
+      "verified_full_text_url": "https://www.imo.universite-paris-saclay.fr/~raphael.cerf/papers/eq2siam.pdf",
+      "provenance": "Author-hosted primary full text",
+      "inspected": [
+        "Theorem 3.1",
+        "Corollary 1",
+        "Remark 3.2"
+      ],
+      "reduction": "Direct ordered upper/lower bang envelopes for the double-integrator specialization with fixed endpoint position and velocity.",
+      "obstruction": "Not a lower bound on all scalar objective approximations. This pass does not assert complete K+2 subsumption for all sign-changing nonlinear objectives."
+    },
+    {
+      "id": "CAPONIGRO_ET_AL_2018",
+      "authors": "M. Caponigro, R. Ghezzi, B. Piccoli and E. Trélat",
+      "title": "Regularization of chattering phenomena via bounded variation controls",
+      "journal": "IEEE Transactions on Automatic Control 63(7), 2046–2060 (2018)",
+      "doi": "10.1109/TAC.2018.2810540",
+      "publisher_url": "https://doi.org/10.1109/TAC.2018.2810540",
+      "verified_full_text_url": "https://arxiv.org/pdf/1303.5796",
+      "version": "arXiv:1303.5796v4, 31 August 2016",
+      "provenance": "Primary author preprint",
+      "inspected": [
+        "Introduction",
+        "Theorem 1 and Theorem 2 setting"
+      ],
+      "reduction": "Precedent for quantitative value-versus-variation regularization; not a direct matching lower for the fixed workload family.",
+      "obstruction": "Additional controllability/regularity hypotheses and regularization/convergence quantifiers differ from a workload-indexed m-jump value lower."
+    },
+    {
+      "id": "ARONSSON_1979",
+      "authors": "G. Aronsson",
+      "title": "Perfect splines and nonlinear optimal control theory",
+      "journal": "Journal of Approximation Theory 25(2), 142–152 (1979)",
+      "doi": "10.1016/0021-9045(79)90004-2",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/0021904579900042",
+      "provenance": "Official publisher abstract only",
+      "inspected": [
+        "Abstract"
+      ],
+      "reduction": "Adjacent perfect-spline method lead only",
+      "obstruction": "Full theorem assumptions not inspected; no claim of complete subsumption or exclusion is based on this abstract."
+    }
+  ]
+}

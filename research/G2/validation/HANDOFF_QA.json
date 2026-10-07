@@ -1,0 +1,284 @@
+{
+  "date_utc": "2026-10-07",
+  "status": "passed",
+  "paper_ready": false,
+  "python": "3.12.14",
+  "platform": "Linux x86_64",
+  "syntax_compile": {
+    "pass": true,
+    "source_files": 13,
+    "files": [
+      "evidence/snapshot/outputs/round2_20261003/grid_transfer/grid_adapter.py",
+      "evidence/snapshot/outputs/round2_20261003/grid_transfer/qualify_ports.py",
+      "evidence/snapshot/outputs/round3_g2_20261004/audit/verify_jerk_audit.py",
+      "evidence/snapshot/outputs/round3_g2_20261004/audit/verify_matched_support.py",
+      "evidence/snapshot/outputs/round3_g2_20261004/experiments/jerk_compression.py",
+      "evidence/snapshot/outputs/round3_g2_20261004/experiments/matched_arc_budget.py",
+      "evidence/snapshot/outputs/round3_g2_20261004/experiments/matched_support_baselines.py",
+      "evidence/snapshot/outputs/round3_g2_20261004/experiments/network_structure_transfer.py",
+      "evidence/snapshot/outputs/round3_g2_20261004/literature/verify_reductions.py",
+      "evidence/snapshot/outputs/round3_g2_20261004/theory_worker/verify_theory.py",
+      "provenance/fetch_upstream_cases.py",
+      "replay.py",
+      "verify.py"
+    ]
+  },
+  "binary_fixture_scan": {
+    "pass": true,
+    "npz_files": 2,
+    "all_loaded_with_allow_pickle_false": true,
+    "private_path_strings": []
+  },
+  "publication_scan": {
+    "text_files_scanned": 68,
+    "private_absolute_path_hits": [],
+    "credential_pattern_hits": [],
+    "forbidden_raw_documents_or_build_artifacts": []
+  },
+  "fresh_dependency_install_tested": false,
+  "new_nonlinear_integrations": 0,
+  "source_model_requalification": false,
+  "physical_measurement": false,
+  "executed_replay": {
+    "mode": "full",
+    "status": "passed",
+    "dependencies": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "sympy": "1.14.0",
+      "mpmath": "1.3.0"
+    },
+    "stages": [
+      {
+        "name": "prior_art",
+        "command": [
+          "python3",
+          "outputs/round3_g2_20261004/literature/verify_reductions.py"
+        ],
+        "cwd": "replay work directory",
+        "exit_code": 0,
+        "seconds": 0.3200783890024468,
+        "log": "logs/prior_art.log",
+        "source_sha256": "221dca6039e93cbdc56c020a4062b126b9fb6d415d3b309f227e19e90836b288",
+        "comparison_to_archived": {
+          "status": "passed",
+          "numeric_values_checked": 123,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-07,
+          "atol": 1e-12,
+          "ignored_wall_time_fields": 0,
+          "mismatches": [],
+          "scope": "Regression comparison, not a guarantee of relative accuracy near zero; script assertions remain essential"
+        }
+      },
+      {
+        "name": "matched_support",
+        "command": [
+          "python3",
+          "outputs/round3_g2_20261004/experiments/matched_support_baselines.py"
+        ],
+        "cwd": "replay work directory",
+        "exit_code": 0,
+        "seconds": 2.227561550000246,
+        "log": "logs/matched_support.log",
+        "source_sha256": "20aa149b0f2ed2e2a9cce8103964290d9a840027fc6a38005ede372664b0c73c",
+        "comparison_to_archived": {
+          "status": "passed",
+          "numeric_values_checked": 867,
+          "max_absolute_difference": 2.168404344971009e-19,
+          "rtol": 1e-07,
+          "atol": 1e-12,
+          "ignored_wall_time_fields": 9,
+          "mismatches": [],
+          "scope": "Regression comparison, not a guarantee of relative accuracy near zero; script assertions remain essential"
+        }
+      },
+      {
+        "name": "matched_arc_budget",
+        "command": [
+          "python3",
+          "outputs/round3_g2_20261004/experiments/matched_arc_budget.py"
+        ],
+        "cwd": "replay work directory",
+        "exit_code": 0,
+        "seconds": 1.0393593090011564,
+        "log": "logs/matched_arc_budget.log",
+        "source_sha256": "b47aa8fe90dc55363bcb066466cb6c1576da7c13ad68eb6063cc47c3d2b671f4",
+        "comparison_to_archived": {
+          "status": "passed",
+          "numeric_values_checked": 18,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-07,
+          "atol": 1e-12,
+          "ignored_wall_time_fields": 0,
+          "mismatches": [],
+          "scope": "Regression comparison, not a guarantee of relative accuracy near zero; script assertions remain essential"
+        }
+      },
+      {
+        "name": "matched_audit",
+        "command": [
+          "python3",
+          "outputs/round3_g2_20261004/audit/verify_matched_support.py"
+        ],
+        "cwd": "replay work directory",
+        "exit_code": 0,
+        "seconds": 4.343201601997862,
+        "log": "logs/matched_audit.log",
+        "source_sha256": "8de8413779b3d157d28a93843205f1aa5e8271d802c523e6121badaf97607000",
+        "comparison_to_archived": {
+          "status": "passed",
+          "numeric_values_checked": 99,
+          "max_absolute_difference": 4.440892098500626e-16,
+          "rtol": 1e-07,
+          "atol": 1e-12,
+          "ignored_wall_time_fields": 0,
+          "mismatches": [],
+          "scope": "Regression comparison, not a guarantee of relative accuracy near zero; script assertions remain essential"
+        }
+      },
+      {
+        "name": "jerk_compression",
+        "command": [
+          "python3",
+          "outputs/round3_g2_20261004/experiments/jerk_compression.py"
+        ],
+        "cwd": "replay work directory",
+        "exit_code": 0,
+        "seconds": 3.6762007270008326,
+        "log": "logs/jerk_compression.log",
+        "source_sha256": "9ff3baf1b2a99965c6553358426a32da552d5b698c214f0e8165fba4f921e82a",
+        "comparison_to_archived": {
+          "status": "passed",
+          "numeric_values_checked": 6416,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-07,
+          "atol": 1e-12,
+          "ignored_wall_time_fields": 0,
+          "mismatches": [],
+          "scope": "Regression comparison, not a guarantee of relative accuracy near zero; script assertions remain essential"
+        }
+      },
+      {
+        "name": "theory_diagnostics",
+        "command": [
+          "python3",
+          "outputs/round3_g2_20261004/theory_worker/verify_theory.py"
+        ],
+        "cwd": "replay work directory",
+        "exit_code": 0,
+        "seconds": 1.531616842999938,
+        "log": "logs/theory_diagnostics.log",
+        "source_sha256": "4c2cb1c3337c20c668ba0a0b819b2b0d8d8e52a2dafc612ef1ce71f2e24b877a",
+        "comparison_to_archived": {
+          "status": "passed",
+          "numeric_values_checked": 785,
+          "max_absolute_difference": 1.7984391753600448e-11,
+          "rtol": 1e-07,
+          "atol": 1e-12,
+          "ignored_wall_time_fields": 0,
+          "mismatches": [],
+          "scope": "Regression comparison, not a guarantee of relative accuracy near zero; script assertions remain essential"
+        }
+      },
+      {
+        "name": "jerk_audit",
+        "command": [
+          "python3",
+          "outputs/round3_g2_20261004/audit/verify_jerk_audit.py"
+        ],
+        "cwd": "replay work directory",
+        "exit_code": 0,
+        "seconds": 5.361054036999121,
+        "log": "logs/jerk_audit.log",
+        "source_sha256": "f246604742886a82e5dcf3af8d9c8db32193ec4999d301a5d33338c697198175",
+        "comparison_to_archived": {
+          "status": "passed",
+          "numeric_values_checked": 295,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-07,
+          "atol": 1e-12,
+          "ignored_wall_time_fields": 0,
+          "mismatches": [],
+          "scope": "Regression comparison, not a guarantee of relative accuracy near zero; script assertions remain essential"
+        }
+      },
+      {
+        "name": "network_structure",
+        "command": [
+          "python3",
+          "outputs/round3_g2_20261004/experiments/network_structure_transfer.py"
+        ],
+        "cwd": "replay work directory",
+        "exit_code": 0,
+        "seconds": 0.7319742779982334,
+        "log": "logs/network_structure.log",
+        "source_sha256": "a3a7eb0d1c2a8b0540ca93e6a3dfd1d1d86fa3ca395e142c470b733e77be2238",
+        "comparison_to_archived": {
+          "status": "passed",
+          "numeric_values_checked": 190,
+          "max_absolute_difference": 0.0,
+          "rtol": 1e-07,
+          "atol": 1e-12,
+          "ignored_wall_time_fields": 0,
+          "mismatches": [],
+          "scope": "Regression comparison, not a guarantee of relative accuracy near zero; script assertions remain essential"
+        },
+        "array_regression": {
+          "status": "passed",
+          "arrays": [
+            {
+              "name": "t",
+              "shape": [
+                9601
+              ],
+              "max_absolute_difference": 0.0
+            },
+            {
+              "name": "h",
+              "shape": [
+                9601,
+                4,
+                2
+              ],
+              "max_absolute_difference": 0.0
+            },
+            {
+              "name": "hp",
+              "shape": [
+                9601,
+                4,
+                2
+              ],
+              "max_absolute_difference": 0.0
+            }
+          ],
+          "rtol": 1e-07,
+          "atol": 1e-12
+        }
+      }
+    ],
+    "result_assertions": {
+      "status": "passed",
+      "matched_cases": 9,
+      "matched_grid_witnesses": 54,
+      "same_arc_cases": 3,
+      "compression_cases": 10,
+      "compression_observations": 2570,
+      "theory_formula_cases": 45,
+      "independent_jerk_identity_cases": 28,
+      "independent_jerk_witness_cases": 9,
+      "independent_phase_LP_cases": 9,
+      "prior_corpus_entries": 896,
+      "included_prior_files_checked": 0,
+      "omitted_prior_files_not_checked": 896,
+      "full_historical_verifier_executed": false,
+      "scope": "Assertions on stored or freshly regenerated results; this is not a proof or interval certificate"
+    }
+  },
+  "scope": "Eight round3 source computations and numerical archived regression reproduced. Prior 896-file historical corpus, original ANDES model regeneration and nonlinear grid simulation not rerun.",
+  "initial_packaging_failure": {
+    "cause": "First handoff wrapper pointed copy-on-run at the old snapshot directory name",
+    "resolution": "Corrected only handoff layout reference; final full eight-stage run passed. No scientific formula or result changed."
+  }
+}

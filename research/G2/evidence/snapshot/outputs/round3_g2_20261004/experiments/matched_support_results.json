@@ -1,0 +1,1243 @@
+{
+  "status": "passed",
+  "arithmetic": "ordinary float; exact supporting proofs separate",
+  "scope": "linearized endpoint global support and nonlinear endpoint witnesses/remainder, not full-future peak",
+  "rows": [
+    {
+      "N": 8,
+      "epsilon": 0.0,
+      "nominal_endpoint": -1.4472022258271594e-06,
+      "continuous_linearized_support": {
+        "value": 9.384650157832897e-07,
+        "dual": 9.384650157832892e-07,
+        "primal_dual_gap": -5.293955920339377e-22,
+        "moment_residual": [
+          2.220446049250313e-16,
+          1.3877787807814457e-16
+        ],
+        "switches": 16,
+        "lambda_": [
+          7.934095737624087e-06,
+          -8.095766275683586e-06
+        ],
+        "root_status": true,
+        "quadrature_refinement": 4.658681209898652e-21,
+        "exact_nonlinear_endpoint": -1.4002718419127383e-06,
+        "nonlinear_quadrature_change": -1.6940658945086007e-21,
+        "nonlinear_remainder_observed": 7.13312525662567e-12,
+        "knot_times": [
+          0.0,
+          0.029716675939806043,
+          0.09369036174159227,
+          0.15529616459534165,
+          0.21856987080818863,
+          0.28083181454658057,
+          0.3435375906769528,
+          0.4063919031042108,
+          0.4685978004622824,
+          0.5320746974275679,
+          0.593786548236682,
+          0.6580865826371185,
+          0.7192274561018932,
+          0.7850790040679734,
+          0.8454646969123232,
+          0.91748791917278,
+          0.9820904365514643,
+          1.0
+        ],
+        "arc_accelerations": [
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05
+        ]
+      },
+      "uniform_remainder": 4.0964150955957604e-07,
+      "nonlinear_global_max_interval": [
+        -1.4002718419127383e-06,
+        -9.90637465478419e-07
+      ],
+      "uniform_methods": [
+        {
+          "method": "uniform_PWC_LP",
+          "M": 4,
+          "linear_value": 1.403718194430947e-09,
+          "linear_loss": 9.370612975888588e-07,
+          "exact_nonlinear_endpoint": -1.4470353850345585e-06,
+          "nonlinear_remainder_observed": 9.665488287937466e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 8,
+          "linear_value": 1.4037181944311124e-09,
+          "linear_loss": 9.370612975888586e-07,
+          "exact_nonlinear_endpoint": -1.4470353850345585e-06,
+          "nonlinear_remainder_observed": 9.665488287936639e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 16,
+          "linear_value": 8.11964817848314e-08,
+          "linear_loss": 8.572685339984583e-07,
+          "exact_nonlinear_endpoint": -1.4428326798898022e-06,
+          "nonlinear_remainder_observed": 3.0972184811565755e-10,
+          "speed_min": 0.9958333333333333,
+          "speed_max": 1.003125,
+          "switches": 14
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 32,
+          "linear_value": 9.309318908571266e-07,
+          "linear_loss": 7.533124926163101e-09,
+          "exact_nonlinear_endpoint": -1.4006547555241788e-06,
+          "nonlinear_remainder_observed": 8.757601243205248e-13,
+          "speed_min": 0.9984375,
+          "speed_max": 1.0015625,
+          "switches": 16
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 64,
+          "linear_value": 9.351795191095604e-07,
+          "linear_loss": 3.28549667372931e-09,
+          "exact_nonlinear_endpoint": -1.400440278339171e-06,
+          "nonlinear_remainder_observed": 2.9715325104141972e-12,
+          "speed_min": 0.9983350409836066,
+          "speed_max": 1.0022412909836065,
+          "switches": 18
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 128,
+          "linear_value": 9.359079451856149e-07,
+          "linear_loss": 2.5570705976748155e-09,
+          "exact_nonlinear_endpoint": -1.400405805917191e-06,
+          "nonlinear_remainder_observed": 1.0226506877536123e-12,
+          "speed_min": 0.9983826754385965,
+          "speed_max": 1.0018983004385964,
+          "switches": 18
+        }
+      ],
+      "envelope": {
+        "linear_value": -1.4037181944309735e-09,
+        "exact_nonlinear_endpoint": -1.4472143837789978e-06,
+        "linear_loss": 9.398687339777207e-07,
+        "nonlinear_exact_max_proven": false
+      },
+      "ablations": {
+        "no_endpoint_moments": 3.915946972976699e-06,
+        "independent_port_clocks": 0.026449185195104623,
+        "correct_shared_clock": 9.384650157832897e-07
+      },
+      "seconds": 0.09169880300760269
+    },
+    {
+      "N": 8,
+      "epsilon": 0.0025,
+      "nominal_endpoint": 0.0008585312391165762,
+      "continuous_linearized_support": {
+        "value": 7.194675866562184e-05,
+        "dual": 7.194675866562193e-05,
+        "primal_dual_gap": 9.486769009248164e-20,
+        "moment_residual": [
+          -3.774758283725532e-15,
+          -2.886579864025407e-15
+        ],
+        "switches": 2,
+        "lambda_": [
+          0.00063921092006734,
+          -0.0008185127271371638
+        ],
+        "root_status": true,
+        "quadrature_refinement": 1.8973538018496328e-19,
+        "exact_nonlinear_endpoint": 0.0008621286350778152,
+        "nonlinear_quadrature_change": 0.0,
+        "nonlinear_remainder_observed": 5.8027957896965326e-11,
+        "knot_times": [
+          0.0,
+          0.25,
+          0.7500000000000019,
+          1.0
+        ],
+        "arc_accelerations": [
+          0.05,
+          -0.05,
+          0.05
+        ]
+      },
+      "uniform_remainder": 4.0964150955957604e-07,
+      "nonlinear_global_max_interval": [
+        0.0008621286350778152,
+        0.0008625382185594169
+      ],
+      "uniform_methods": [
+        {
+          "method": "uniform_PWC_LP",
+          "M": 4,
+          "linear_value": 7.194675866562185e-05,
+          "linear_loss": -1.3552527156068805e-20,
+          "exact_nonlinear_endpoint": 0.0008621286350778152,
+          "nonlinear_remainder_observed": 5.802795789654181e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 8,
+          "linear_value": 7.194675866562198e-05,
+          "linear_loss": -1.3552527156068805e-19,
+          "exact_nonlinear_endpoint": 0.0008621286350778152,
+          "nonlinear_remainder_observed": 5.802795789018906e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 16,
+          "linear_value": 7.194675866562206e-05,
+          "linear_loss": -2.168404344971009e-19,
+          "exact_nonlinear_endpoint": 0.0008621286350778152,
+          "nonlinear_remainder_observed": 5.8027957886377414e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 32,
+          "linear_value": 7.194675866562192e-05,
+          "linear_loss": -8.131516293641283e-20,
+          "exact_nonlinear_endpoint": 0.0008621286350778152,
+          "nonlinear_remainder_observed": 5.802795789315368e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 64,
+          "linear_value": 7.194675866562199e-05,
+          "linear_loss": -1.4907779871675686e-19,
+          "exact_nonlinear_endpoint": 0.0008621286350778152,
+          "nonlinear_remainder_observed": 5.8027957889765546e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 128,
+          "linear_value": 7.194675866562198e-05,
+          "linear_loss": -1.3552527156068805e-19,
+          "exact_nonlinear_endpoint": 0.0008621286350778152,
+          "nonlinear_remainder_observed": 5.802795789018906e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        }
+      ],
+      "envelope": {
+        "linear_value": 7.194675866562187e-05,
+        "exact_nonlinear_endpoint": 0.0008621286350778152,
+        "linear_loss": -2.710505431213761e-20,
+        "nonlinear_exact_max_proven": false
+      },
+      "ablations": {
+        "no_endpoint_moments": 0.00025032544337985006,
+        "independent_port_clocks": 0.02644918519239231,
+        "correct_shared_clock": 7.194675866562184e-05
+      },
+      "seconds": 0.06381517299450934
+    },
+    {
+      "N": 8,
+      "epsilon": 0.01,
+      "nominal_endpoint": 0.003438466563143786,
+      "continuous_linearized_support": {
+        "value": 0.00028779124581710194,
+        "dual": 0.0002877912458170706,
+        "primal_dual_gap": -3.133344278483108e-17,
+        "moment_residual": [
+          3.1086244689504383e-15,
+          -7.216449660063518e-15
+        ],
+        "switches": 2,
+        "lambda_": [
+          0.002527377342630524,
+          -0.0032480076538247363
+        ],
+        "root_status": true,
+        "quadrature_refinement": 1.0842021724855044e-19,
+        "exact_nonlinear_endpoint": 0.0034528561834625995,
+        "nonlinear_quadrature_change": 0.0,
+        "nonlinear_remainder_observed": 5.802795821333213e-11,
+        "knot_times": [
+          0.0,
+          0.25000000000000955,
+          0.750000000000008,
+          1.0
+        ],
+        "arc_accelerations": [
+          0.05,
+          -0.05,
+          0.05
+        ]
+      },
+      "uniform_remainder": 4.0964150955957604e-07,
+      "nonlinear_global_max_interval": [
+        0.0034528561834625995,
+        0.0034532657669441996
+      ],
+      "uniform_methods": [
+        {
+          "method": "uniform_PWC_LP",
+          "M": 4,
+          "linear_value": 0.0002877912458170706,
+          "linear_loss": 3.133344278483108e-17,
+          "exact_nonlinear_endpoint": 0.0034528561834625982,
+          "nonlinear_remainder_observed": 5.802795847930048e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 8,
+          "linear_value": 0.00028779124581707115,
+          "linear_loss": 3.0791341698588326e-17,
+          "exact_nonlinear_endpoint": 0.0034528561834625982,
+          "nonlinear_remainder_observed": 5.802795845219542e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 16,
+          "linear_value": 0.0002877912458170715,
+          "linear_loss": 3.0466081046842675e-17,
+          "exact_nonlinear_endpoint": 0.0034528561834625982,
+          "nonlinear_remainder_observed": 5.8027958435254764e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 32,
+          "linear_value": 0.0002877912458170711,
+          "linear_loss": 3.08455518072126e-17,
+          "exact_nonlinear_endpoint": 0.0034528561834625982,
+          "nonlinear_remainder_observed": 5.8027958455583555e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 64,
+          "linear_value": 0.00028779124581707126,
+          "linear_loss": 3.0682921481339775e-17,
+          "exact_nonlinear_endpoint": 0.003452856183462598,
+          "nonlinear_remainder_observed": 5.8027958013432356e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 128,
+          "linear_value": 0.0002877912458170712,
+          "linear_loss": 3.073713158996405e-17,
+          "exact_nonlinear_endpoint": 0.0034528561834625974,
+          "nonlinear_remainder_observed": 5.802795758144555e-11,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        }
+      ],
+      "envelope": {
+        "linear_value": 0.00028779124581707077,
+        "exact_nonlinear_endpoint": 0.0034528561834625982,
+        "linear_loss": 3.117081245895825e-17,
+        "nonlinear_exact_max_proven": true
+      },
+      "ablations": {
+        "no_endpoint_moments": 0.0009895715626020323,
+        "independent_port_clocks": 0.026449185184258105,
+        "correct_shared_clock": 0.00028779124581710194
+      },
+      "seconds": 0.0643795750074787
+    },
+    {
+      "N": 2,
+      "epsilon": 0.0,
+      "nominal_endpoint": -2.1077687471340175e-05,
+      "continuous_linearized_support": {
+        "value": 1.6230444659361027e-05,
+        "dual": 1.6230444659361173e-05,
+        "primal_dual_gap": 1.4568966692773966e-19,
+        "moment_residual": [
+          3.552713678800501e-15,
+          4.1772141301521515e-15
+        ],
+        "switches": 4,
+        "lambda_": [
+          0.00011751721407819588,
+          -0.00013417937160789471
+        ],
+        "root_status": true,
+        "quadrature_refinement": 7.453889935837843e-20,
+        "exact_nonlinear_endpoint": -2.02659172815506e-05,
+        "nonlinear_quadrature_change": 3.3881317890172014e-21,
+        "nonlinear_remainder_observed": 2.479568215244599e-10,
+        "knot_times": [
+          0.0,
+          0.1109943520332098,
+          0.36691801683126307,
+          0.6516765696253656,
+          0.8957529048273105,
+          1.0
+        ],
+        "arc_accelerations": [
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05
+        ]
+      },
+      "uniform_remainder": 1.0241037738989401e-07,
+      "nonlinear_global_max_interval": [
+        -2.02659172815506e-05,
+        -2.0163754860982224e-05
+      ],
+      "uniform_methods": [
+        {
+          "method": "uniform_PWC_LP",
+          "M": 4,
+          "linear_value": 4.853126475580244e-06,
+          "linear_loss": 1.1377318183780784e-05,
+          "exact_nonlinear_endpoint": -2.0837596209984253e-05,
+          "nonlinear_remainder_observed": -2.5650624230898172e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 8,
+          "linear_value": 1.5827408697616514e-05,
+          "linear_loss": 4.030359617445137e-07,
+          "exact_nonlinear_endpoint": -2.0286122540843594e-05,
+          "nonlinear_remainder_observed": 1.9449561575563415e-10,
+          "speed_min": 0.99375,
+          "speed_max": 1.00625,
+          "switches": 4
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 16,
+          "linear_value": 1.5827408697616517e-05,
+          "linear_loss": 4.030359617445103e-07,
+          "exact_nonlinear_endpoint": -2.0286122540843604e-05,
+          "nonlinear_remainder_observed": 1.94495615745258e-10,
+          "speed_min": 0.99375,
+          "speed_max": 1.00625,
+          "switches": 4
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 32,
+          "linear_value": 1.6085947837599643e-05,
+          "linear_loss": 1.4449682176138464e-07,
+          "exact_nonlinear_endpoint": -2.02731815408998e-05,
+          "nonlinear_remainder_observed": 2.0853856039346788e-10,
+          "speed_min": 0.99275,
+          "speed_max": 1.0068125,
+          "switches": 6
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 64,
+          "linear_value": 1.618607486282378e-05,
+          "linear_loss": 4.436979653724851e-08,
+          "exact_nonlinear_endpoint": -2.026806325139572e-05,
+          "nonlinear_remainder_observed": 3.204768032642916e-10,
+          "speed_min": 0.99296875,
+          "speed_max": 1.007077205882353,
+          "switches": 6
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 128,
+          "linear_value": 1.62210564686793e-05,
+          "linear_loss": 9.38819068172685e-09,
+          "exact_nonlinear_endpoint": -2.0266333036379692e-05,
+          "nonlinear_remainder_observed": 3.016115265178407e-10,
+          "speed_min": 0.9926347373188406,
+          "speed_max": 1.00703125,
+          "switches": 6
+        }
+      ],
+      "envelope": {
+        "linear_value": -4.8531264755801834e-06,
+        "exact_nonlinear_endpoint": -2.1322201204116614e-05,
+        "linear_loss": 2.1083571134941212e-05,
+        "nonlinear_exact_max_proven": false
+      },
+      "ablations": {
+        "no_endpoint_moments": 5.310987868980979e-05,
+        "independent_port_clocks": 0.026449185195104363,
+        "correct_shared_clock": 1.6230444659361027e-05
+      },
+      "seconds": 0.06508495200250763
+    },
+    {
+      "N": 2,
+      "epsilon": 0.0025,
+      "nominal_endpoint": 0.0008389007538710632,
+      "continuous_linearized_support": {
+        "value": 6.709503590825092e-05,
+        "dual": 6.709503590823618e-05,
+        "primal_dual_gap": -1.474514954580286e-17,
+        "moment_residual": [
+          6.52811138479592e-14,
+          3.4361402612148595e-14
+        ],
+        "switches": 2,
+        "lambda_": [
+          0.0007134667519621002,
+          -0.0009248308200078016
+        ],
+        "root_status": true,
+        "quadrature_refinement": -6.776263578034403e-20,
+        "exact_nonlinear_endpoint": 0.0008422536482574784,
+        "nonlinear_quadrature_change": 0.0,
+        "nonlinear_remainder_observed": -1.8574089973796136e-09,
+        "knot_times": [
+          0.0,
+          0.25000000000001454,
+          0.7499999999999819,
+          1.0
+        ],
+        "arc_accelerations": [
+          0.05,
+          -0.05,
+          0.05
+        ]
+      },
+      "uniform_remainder": 1.0241037738989401e-07,
+      "nonlinear_global_max_interval": [
+        0.0008422536482574784,
+        0.000842357916043865
+      ],
+      "uniform_methods": [
+        {
+          "method": "uniform_PWC_LP",
+          "M": 4,
+          "linear_value": 6.709503590823605e-05,
+          "linear_loss": 1.486712229020748e-17,
+          "exact_nonlinear_endpoint": 0.0008422536482574775,
+          "nonlinear_remainder_observed": -1.857408997503704e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 8,
+          "linear_value": 6.709503590823618e-05,
+          "linear_loss": 1.474514954580286e-17,
+          "exact_nonlinear_endpoint": 0.0008422536482574775,
+          "nonlinear_remainder_observed": -1.8574089975096332e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 16,
+          "linear_value": 6.709503590823624e-05,
+          "linear_loss": 1.4677386910022516e-17,
+          "exact_nonlinear_endpoint": 0.0008422536482574776,
+          "nonlinear_remainder_observed": -1.857408997404601e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 32,
+          "linear_value": 6.709503590823612e-05,
+          "linear_loss": 1.4799359654427136e-17,
+          "exact_nonlinear_endpoint": 0.0008422536482574775,
+          "nonlinear_remainder_observed": -1.857408997507092e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 64,
+          "linear_value": 6.709503590823616e-05,
+          "linear_loss": 1.475870207295893e-17,
+          "exact_nonlinear_endpoint": 0.0008422536482574776,
+          "nonlinear_remainder_observed": -1.857408997400366e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 128,
+          "linear_value": 6.709503590823616e-05,
+          "linear_loss": 1.475870207295893e-17,
+          "exact_nonlinear_endpoint": 0.0008422536482574775,
+          "nonlinear_remainder_observed": -1.8574089975087861e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        }
+      ],
+      "envelope": {
+        "linear_value": 6.709503590823611e-05,
+        "exact_nonlinear_endpoint": 0.0008422536482574775,
+        "linear_loss": 1.4812912181583204e-17,
+        "nonlinear_exact_max_proven": false
+      },
+      "ablations": {
+        "no_endpoint_moments": 0.00029795499965651687,
+        "independent_port_clocks": 0.026449172803995974,
+        "correct_shared_clock": 6.709503590825092e-05
+      },
+      "seconds": 0.06273230700753629
+    },
+    {
+      "N": 2,
+      "epsilon": 0.01,
+      "nominal_endpoint": 0.0034188360778982735,
+      "continuous_linearized_support": {
+        "value": 0.0002829395230596846,
+        "dual": 0.0002829395230596854,
+        "primal_dual_gap": 8.131516293641283e-19,
+        "moment_residual": [
+          -1.1102230246251565e-14,
+          -8.326672684688674e-15
+        ],
+        "switches": 2,
+        "lambda_": [
+          0.0026016331745253255,
+          -0.0033543257466954156
+        ],
+        "root_status": true,
+        "quadrature_refinement": 2.168404344971009e-19,
+        "exact_nonlinear_endpoint": 0.0034329811966422596,
+        "nonlinear_quadrature_change": 4.336808689942018e-19,
+        "nonlinear_remainder_observed": -1.8574089981034033e-09,
+        "knot_times": [
+          0.0,
+          0.25,
+          0.7500000000000056,
+          1.0
+        ],
+        "arc_accelerations": [
+          0.05,
+          -0.05,
+          0.05
+        ]
+      },
+      "uniform_remainder": 1.0241037738989401e-07,
+      "nonlinear_global_max_interval": [
+        0.0034329811966422596,
+        0.0034330854644286477
+      ],
+      "uniform_methods": [
+        {
+          "method": "uniform_PWC_LP",
+          "M": 4,
+          "linear_value": 0.00028293952305968477,
+          "linear_loss": -1.6263032587282567e-19,
+          "exact_nonlinear_endpoint": 0.0034329811966422596,
+          "nonlinear_remainder_observed": -1.8574089981118736e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 8,
+          "linear_value": 0.00028293952305968536,
+          "linear_loss": -7.589415207398531e-19,
+          "exact_nonlinear_endpoint": 0.0034329811966422596,
+          "nonlinear_remainder_observed": -1.8574089981406727e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 16,
+          "linear_value": 0.0002829395230596857,
+          "linear_loss": -1.0842021724855044e-18,
+          "exact_nonlinear_endpoint": 0.00343298119664226,
+          "nonlinear_remainder_observed": -1.8574089977239325e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 32,
+          "linear_value": 0.00028293952305968526,
+          "linear_loss": -6.505213034913027e-19,
+          "exact_nonlinear_endpoint": 0.00343298119664226,
+          "nonlinear_remainder_observed": -1.8574089977019096e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 64,
+          "linear_value": 0.0002829395230596853,
+          "linear_loss": -7.047314121155779e-19,
+          "exact_nonlinear_endpoint": 0.0034329811966422596,
+          "nonlinear_remainder_observed": -1.8574089981389787e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 128,
+          "linear_value": 0.00028293952305968536,
+          "linear_loss": -7.589415207398531e-19,
+          "exact_nonlinear_endpoint": 0.00343298119664226,
+          "nonlinear_remainder_observed": -1.8574089977069918e-09,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        }
+      ],
+      "envelope": {
+        "linear_value": 0.00028293952305968515,
+        "exact_nonlinear_endpoint": 0.0034329811966422596,
+        "linear_loss": -5.421010862427522e-19,
+        "nonlinear_exact_max_proven": true
+      },
+      "ablations": {
+        "no_endpoint_moments": 0.001037052339133939,
+        "independent_port_clocks": 0.026449135630672825,
+        "correct_shared_clock": 0.0002829395230596846
+      },
+      "seconds": 0.06231877701065969
+    },
+    {
+      "N": 32,
+      "epsilon": 0.0,
+      "nominal_endpoint": -9.096646820909098e-08,
+      "continuous_linearized_support": {
+        "value": 5.8002880842933316e-08,
+        "dual": 5.800288084293329e-08,
+        "primal_dual_gap": -2.6469779601696886e-23,
+        "moment_residual": [
+          8.881784197001252e-16,
+          9.71445146547012e-16
+        ],
+        "switches": 64,
+        "lambda_": [
+          4.954632906447056e-07,
+          -4.972438552404449e-07
+        ],
+        "root_status": true,
+        "quadrature_refinement": 3.1763735522036263e-22,
+        "exact_nonlinear_endpoint": -8.806621220512078e-08,
+        "nonlinear_quadrature_change": -2.2631661559450837e-21,
+        "nonlinear_remainder_observed": 1.1196182353119633e-13,
+        "knot_times": [
+          0.0,
+          0.0077152699752921945,
+          0.02343594881319331,
+          0.03897404612948731,
+          0.05468356808907077,
+          0.07023247964909023,
+          0.08593156310551063,
+          0.10149063059621667,
+          0.1171799135974032,
+          0.13274855617660797,
+          0.14842860365269303,
+          0.1640063118323116,
+          0.17967762151331673,
+          0.19526395232266341,
+          0.21092695949511378,
+          0.2265215328398175,
+          0.24217661403054427,
+          0.25777911021035943,
+          0.2734265858455888,
+          0.2890367442442718,
+          0.30467688029143414,
+          0.32029449930815873,
+          0.3359275078635369,
+          0.3515524462235688,
+          0.3671784849570661,
+          0.38281066462732477,
+          0.3984298349310494,
+          0.414069245985168,
+          0.4296815895877652,
+          0.44532829753284364,
+          0.4609337912254849,
+          0.47658794754681744,
+          0.4921864955023149,
+          0.507848352548643,
+          0.523439775475263,
+          0.5391097073726419,
+          0.5546937273844076,
+          0.570372259565892,
+          0.5859484790973876,
+          0.601636330510384,
+          0.6172042027282046,
+          0.6329023472845747,
+          0.6484611340219016,
+          0.664170892273695,
+          0.6797196031203288,
+          0.6954427832974394,
+          0.7109800853167512,
+          0.7267192087200098,
+          0.7422432887556997,
+          0.7580019673244418,
+          0.7735103147495043,
+          0.7892939219266597,
+          0.8047829720588808,
+          0.8205999279907565,
+          0.8360644505151019,
+          0.8519289412613915,
+          0.8673609463364319,
+          0.8832995244395849,
+          0.8986862922071859,
+          0.9147575338603574,
+          0.9300789722186511,
+          0.9464562541047626,
+          0.9617015782175559,
+          0.979459210746168,
+          0.9966531137230594,
+          1.0
+        ],
+        "arc_accelerations": [
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05,
+          -0.05,
+          0.05
+        ]
+      },
+      "uniform_remainder": 1.6385660382383042e-06,
+      "nonlinear_global_max_interval": [
+        -8.806621220512078e-08,
+        1.5504997140713598e-06
+      ],
+      "uniform_methods": [
+        {
+          "method": "uniform_PWC_LP",
+          "M": 4,
+          "linear_value": 5.4988486820565185e-12,
+          "linear_loss": 5.799738199425126e-08,
+          "exact_nonlinear_endpoint": -9.09610415864946e-08,
+          "nonlinear_remainder_observed": 5.1516801622739e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 8,
+          "linear_value": 5.498848682046592e-12,
+          "linear_loss": 5.799738199425127e-08,
+          "exact_nonlinear_endpoint": -9.096104158649454e-08,
+          "nonlinear_remainder_observed": 5.1516801623405704e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 16,
+          "linear_value": 5.498848682055691e-12,
+          "linear_loss": 5.799738199425126e-08,
+          "exact_nonlinear_endpoint": -9.096104158649443e-08,
+          "nonlinear_remainder_observed": 5.151680162445995e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 32,
+          "linear_value": 5.498848682055278e-12,
+          "linear_loss": 5.799738199425126e-08,
+          "exact_nonlinear_endpoint": -9.096104158649447e-08,
+          "nonlinear_remainder_observed": 5.15168016240631e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 64,
+          "linear_value": 1.2987999270004702e-09,
+          "linear_loss": 5.6704080915932846e-08,
+          "exact_nonlinear_endpoint": -9.089043708422142e-08,
+          "nonlinear_remainder_observed": 1.1091128519533973e-11,
+          "speed_min": 0.9990384615384615,
+          "speed_max": 1.00078125,
+          "switches": 62
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 128,
+          "linear_value": 5.794865888857228e-08,
+          "linear_loss": 5.422195436103727e-11,
+          "exact_nonlinear_endpoint": -8.806903181484588e-08,
+          "nonlinear_remainder_observed": 3.449816488185734e-15,
+          "speed_min": 0.999609375,
+          "speed_max": 1.000390625,
+          "switches": 64
+        }
+      ],
+      "envelope": {
+        "linear_value": -5.498844117425744e-12,
+        "exact_nonlinear_endpoint": -9.0964010186752e-08,
+        "linear_loss": 5.800837968705074e-08,
+        "nonlinear_exact_max_proven": false
+      },
+      "ablations": {
+        "no_endpoint_moments": 2.4720195289309055e-07,
+        "independent_port_clocks": 0.026449185195106747,
+        "correct_shared_clock": 5.8002880842933316e-08
+      },
+      "seconds": 0.2627331980038434
+    },
+    {
+      "N": 32,
+      "epsilon": 0.0025,
+      "nominal_endpoint": 0.0008598874748741944,
+      "continuous_linearized_support": {
+        "value": 7.194815688497216e-05,
+        "dual": 7.19481568849722e-05,
+        "primal_dual_gap": 4.0657581468206416e-20,
+        "moment_residual": [
+          0.0,
+          0.0
+        ],
+        "switches": 2,
+        "lambda_": [
+          0.0006300055253665874,
+          -0.0008103767276988399
+        ],
+        "root_status": true,
+        "quadrature_refinement": -4.4181238528784306e-18,
+        "exact_nonlinear_endpoint": 0.0008634848854514074,
+        "nonlinear_quadrature_change": 1.0842021724855044e-19,
+        "nonlinear_remainder_observed": 2.732964393766695e-12,
+        "knot_times": [
+          0.0,
+          0.25,
+          0.75,
+          1.0
+        ],
+        "arc_accelerations": [
+          0.05,
+          -0.05,
+          0.05
+        ]
+      },
+      "uniform_remainder": 1.6385660382383042e-06,
+      "nonlinear_global_max_interval": [
+        0.0008634848854514074,
+        0.0008651234487566813
+      ],
+      "uniform_methods": [
+        {
+          "method": "uniform_PWC_LP",
+          "M": 4,
+          "linear_value": 7.19481568849676e-05,
+          "linear_loss": 4.553649124439119e-18,
+          "exact_nonlinear_endpoint": 0.0008634848854514074,
+          "nonlinear_remainder_observed": 2.732964621618558e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 8,
+          "linear_value": 7.19481568849677e-05,
+          "linear_loss": 4.458781434346637e-18,
+          "exact_nonlinear_endpoint": 0.0008634848854514074,
+          "nonlinear_remainder_observed": 2.7329646165363602e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 16,
+          "linear_value": 7.194815688496781e-05,
+          "linear_loss": 4.3503612170980865e-18,
+          "exact_nonlinear_endpoint": 0.0008634848854514074,
+          "nonlinear_remainder_observed": 2.7329646114541625e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 32,
+          "linear_value": 7.194815688496769e-05,
+          "linear_loss": 4.472333961502706e-18,
+          "exact_nonlinear_endpoint": 0.0008634848854514074,
+          "nonlinear_remainder_observed": 2.732964617383393e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 64,
+          "linear_value": 7.194815688496773e-05,
+          "linear_loss": 4.431676380034499e-18,
+          "exact_nonlinear_endpoint": 0.0008634848854514074,
+          "nonlinear_remainder_observed": 2.7329646152658108e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 128,
+          "linear_value": 7.194815688496773e-05,
+          "linear_loss": 4.431676380034499e-18,
+          "exact_nonlinear_endpoint": 0.0008634848854514074,
+          "nonlinear_remainder_observed": 2.7329646152658108e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        }
+      ],
+      "envelope": {
+        "linear_value": 7.194815688497216e-05,
+        "exact_nonlinear_endpoint": 0.0008634848854514074,
+        "linear_loss": 0.0,
+        "nonlinear_exact_max_proven": false
+      },
+      "ablations": {
+        "no_endpoint_moments": 0.0002466627513718672,
+        "independent_port_clocks": 0.026449185195095704,
+        "correct_shared_clock": 7.194815688497216e-05
+      },
+      "seconds": 0.1473202999914065
+    },
+    {
+      "N": 32,
+      "epsilon": 0.01,
+      "nominal_endpoint": 0.0034398227989014046,
+      "continuous_linearized_support": {
+        "value": 0.00028779264403642856,
+        "dual": 0.0002877926440364216,
+        "primal_dual_gap": -6.938893903907228e-18,
+        "moment_residual": [
+          3.9968028886505635e-15,
+          9.992007221626409e-16
+        ],
+        "switches": 2,
+        "lambda_": [
+          0.0025181719479298046,
+          -0.0032398716543864704
+        ],
+        "root_status": true,
+        "quadrature_refinement": -4.607859233063394e-18,
+        "exact_nonlinear_endpoint": 0.00345421243383619,
+        "nonlinear_quadrature_change": 4.336808689942018e-19,
+        "nonlinear_remainder_observed": 2.7329639439922e-12,
+        "knot_times": [
+          0.0,
+          0.250000000000002,
+          0.75,
+          1.0
+        ],
+        "arc_accelerations": [
+          0.05,
+          -0.05,
+          0.05
+        ]
+      },
+      "uniform_remainder": 1.6385660382383042e-06,
+      "nonlinear_global_max_interval": [
+        0.00345421243383619,
+        0.003455850997141464
+      ],
+      "uniform_methods": [
+        {
+          "method": "uniform_PWC_LP",
+          "M": 4,
+          "linear_value": 0.00028779264403641647,
+          "linear_loss": 1.2088854223213374e-17,
+          "exact_nonlinear_endpoint": 0.00345421243383619,
+          "nonlinear_remainder_observed": 2.7329645487737244e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 8,
+          "linear_value": 0.0002877926440364168,
+          "linear_loss": 1.1763593571467723e-17,
+          "exact_nonlinear_endpoint": 0.00345421243383619,
+          "nonlinear_remainder_observed": 2.7329645318330655e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 16,
+          "linear_value": 0.00028779264403641733,
+          "linear_loss": 1.1221492485224971e-17,
+          "exact_nonlinear_endpoint": 0.00345421243383619,
+          "nonlinear_remainder_observed": 2.732964504728011e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 32,
+          "linear_value": 0.0002877926440364168,
+          "linear_loss": 1.1763593571467723e-17,
+          "exact_nonlinear_endpoint": 0.00345421243383619,
+          "nonlinear_remainder_observed": 2.7329645318330655e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 64,
+          "linear_value": 0.000287792644036417,
+          "linear_loss": 1.1546753136970622e-17,
+          "exact_nonlinear_endpoint": 0.00345421243383619,
+          "nonlinear_remainder_observed": 2.73296452166867e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        },
+        {
+          "method": "uniform_PWC_LP",
+          "M": 128,
+          "linear_value": 0.0002877926440364169,
+          "linear_loss": 1.1655173354219173e-17,
+          "exact_nonlinear_endpoint": 0.00345421243383619,
+          "nonlinear_remainder_observed": 2.732964526750868e-12,
+          "speed_min": 0.9875,
+          "speed_max": 1.0125,
+          "switches": 2
+        }
+      ],
+      "envelope": {
+        "linear_value": 0.0002877926440364212,
+        "exact_nonlinear_endpoint": 0.00345421243383619,
+        "linear_loss": 7.37257477290143e-18,
+        "nonlinear_exact_max_proven": true
+      },
+      "ablations": {
+        "no_endpoint_moments": 0.0009859094683992021,
+        "independent_port_clocks": 0.026449185195064742,
+        "correct_shared_clock": 0.00028779264403642856
+      },
+      "seconds": 0.1509245860070223
+    }
+  ]
+}

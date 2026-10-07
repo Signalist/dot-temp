@@ -1,0 +1,26 @@
+[
+  {
+    "N": 2,
+    "arcs": 5,
+    "free_knot_support": 1.6230444659361027e-05,
+    "uniform_support": 1.0632886594835053e-05,
+    "uniform_fraction": 0.6551198576498924,
+    "exact_nonlinear_endpoint": -2.0546111001075196e-05
+  },
+  {
+    "N": 8,
+    "arcs": 17,
+    "free_knot_support": 9.384650157832897e-07,
+    "uniform_support": 6.679967847333455e-07,
+    "uniform_fraction": 0.7117972151319909,
+    "exact_nonlinear_endpoint": -1.4138537555979623e-06
+  },
+  {
+    "N": 32,
+    "arcs": 65,
+    "free_knot_support": 5.8002880842933316e-08,
+    "uniform_support": 4.0710307684325284e-08,
+    "uniform_fraction": 0.701866995099178,
+    "exact_nonlinear_endpoint": -8.893232048399513e-08
+  }
+]

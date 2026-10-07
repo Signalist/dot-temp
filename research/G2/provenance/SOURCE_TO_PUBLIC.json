@@ -1,0 +1,525 @@
+{
+  "scope": "Only listed public copies, not full private source corpus. Sanitized historical hashes are not this handoff integrity manifest.",
+  "files": [
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/README.md",
+      "public_path": "evidence/README.md",
+      "original_sha256": "263138d410bdbce8abbf0b857b1ce4baa922ebc431bb0769ae56131d2f0cc34f",
+      "public_sha256": "4b525c4c589fa575481828b6fe99b36ee281252338315391765f228f36d51634",
+      "bytes": 331,
+      "changed": true,
+      "change_scope": "portable path redaction; route-only provenance filtering or historical entry-page notice where applicable; no numerical formula change"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/requirements.txt",
+      "public_path": "evidence/requirements.txt",
+      "original_sha256": "70728ff680462f95daf4c3e93889f1acb3fc64cb795d2e7b9a366bd53481cfff",
+      "public_sha256": "70728ff680462f95daf4c3e93889f1acb3fc64cb795d2e7b9a366bd53481cfff",
+      "bytes": 261,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_20261003/grid_transfer/ANDES_LICENSE_GPL3.txt",
+      "public_path": "evidence/snapshot/outputs/round2_20261003/grid_transfer/ANDES_LICENSE_GPL3.txt",
+      "original_sha256": "1c58769980265b766285d56eeec473e30273aa3b5ea7fd95851395522533dec4",
+      "public_sha256": "1c58769980265b766285d56eeec473e30273aa3b5ea7fd95851395522533dec4",
+      "bytes": 35915,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_20261003/grid_transfer/ORIGINAL_SOURCE_INTEGRITY_CHECK.json",
+      "public_path": "evidence/snapshot/outputs/round2_20261003/grid_transfer/ORIGINAL_SOURCE_INTEGRITY_CHECK.json",
+      "original_sha256": "d3c6ca2a1bd32c52440085856d200b0872e1973d7a1d956c547c4a997884cd56",
+      "public_sha256": "d3c6ca2a1bd32c52440085856d200b0872e1973d7a1d956c547c4a997884cd56",
+      "bytes": 1411,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_20261003/grid_transfer/PROVENANCE_LOCK.json",
+      "public_path": "evidence/snapshot/outputs/round2_20261003/grid_transfer/PROVENANCE_LOCK.json",
+      "original_sha256": "9748efcc004bb329824b342011fed9aba96223183e0856f1e062c86757e2185e",
+      "public_sha256": "dccb1832726d4c0f01fa45b899b41159ffd58e81cb2723ff819300b86eb1d1fd",
+      "bytes": 12353,
+      "changed": true,
+      "change_scope": "portable path redaction; route-only provenance filtering or historical entry-page notice where applicable; no numerical formula change"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_20261003/grid_transfer/README_qualification.md",
+      "public_path": "evidence/snapshot/outputs/round2_20261003/grid_transfer/README_qualification.md",
+      "original_sha256": "f4e0add589b5415c63529533543647ef0459348d1dcd92f5303c5293c00ca002",
+      "public_sha256": "f4e0add589b5415c63529533543647ef0459348d1dcd92f5303c5293c00ca002",
+      "bytes": 22299,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_20261003/grid_transfer/grid_adapter.py",
+      "public_path": "evidence/snapshot/outputs/round2_20261003/grid_transfer/grid_adapter.py",
+      "original_sha256": "fdd72007f45f33a198b5023c75ffd6f2a0ca803c31c299e0efad25bff3beec98",
+      "public_sha256": "fdd72007f45f33a198b5023c75ffd6f2a0ca803c31c299e0efad25bff3beec98",
+      "bytes": 10715,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_20261003/grid_transfer/kundur_reduced51.npz",
+      "public_path": "evidence/snapshot/outputs/round2_20261003/grid_transfer/kundur_reduced51.npz",
+      "original_sha256": "31e798abc23bdcb6c3b46aeb488caf96636127390935eac4d9f0e2fdd5601828",
+      "public_sha256": "31e798abc23bdcb6c3b46aeb488caf96636127390935eac4d9f0e2fdd5601828",
+      "bytes": 15314,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_20261003/grid_transfer/qualify_ports.py",
+      "public_path": "evidence/snapshot/outputs/round2_20261003/grid_transfer/qualify_ports.py",
+      "original_sha256": "b78eb583becf4f4d0db9028ac070e61e4ebd6ed0b62e7380edc4dce95539bf94",
+      "public_sha256": "b78eb583becf4f4d0db9028ac070e61e4ebd6ed0b62e7380edc4dce95539bf94",
+      "bytes": 2340,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_g2_drift_20261003/phase2_peak_active/theory_active/ACTIVE_SPEED_BAND_THEOREM.md",
+      "public_path": "evidence/snapshot/outputs/round2_g2_drift_20261003/phase2_peak_active/theory_active/ACTIVE_SPEED_BAND_THEOREM.md",
+      "original_sha256": "062388fbc6f2fbcb9fa960d64acbfbb5d08551cc7cd5fbafa670f1b115aba078",
+      "public_sha256": "062388fbc6f2fbcb9fa960d64acbfbb5d08551cc7cd5fbafa670f1b115aba078",
+      "bytes": 22298,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_g2_drift_20261003/phase2_peak_active/theory_peak/FULL_PEAK_MATCHING_LOWER_ADDENDUM.md",
+      "public_path": "evidence/snapshot/outputs/round2_g2_drift_20261003/phase2_peak_active/theory_peak/FULL_PEAK_MATCHING_LOWER_ADDENDUM.md",
+      "original_sha256": "a942017cd4ebd2f80d7cf156606b2903c0d31f11ee325fbecd3ea89f062c9c12",
+      "public_sha256": "a942017cd4ebd2f80d7cf156606b2903c0d31f11ee325fbecd3ea89f062c9c12",
+      "bytes": 18952,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_g2_drift_20261003/theory/APPROXIMATION_COMPLEXITY_THEOREM.md",
+      "public_path": "evidence/snapshot/outputs/round2_g2_drift_20261003/theory/APPROXIMATION_COMPLEXITY_THEOREM.md",
+      "original_sha256": "92bb6c535bd7b4c47f19a6b89a833bf6354fab621310528634d02595672b7bd6",
+      "public_sha256": "92bb6c535bd7b4c47f19a6b89a833bf6354fab621310528634d02595672b7bd6",
+      "bytes": 9543,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round2_g2_drift_20261003/theory/CLOCK_DRIFT_THEOREMS.md",
+      "public_path": "evidence/snapshot/outputs/round2_g2_drift_20261003/theory/CLOCK_DRIFT_THEOREMS.md",
+      "original_sha256": "a84679415eaaea139d11ec3caac3103b5b052840e86d236d91e857a58611a219",
+      "public_sha256": "a84679415eaaea139d11ec3caac3103b5b052840e86d236d91e857a58611a219",
+      "bytes": 24179,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/README.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/README.md",
+      "original_sha256": "c6a0b7192d5baa6d44035e73aa849a7182bbbd41b59f99b3e4f49fe5cd0d325b",
+      "public_sha256": "d66edfbf5b0953a5f0bf2430bd97026a0aaa9bcfdcc7471e7d75c2bb9f179f6c",
+      "bytes": 3913,
+      "changed": true,
+      "change_scope": "portable path redaction; route-only provenance filtering or historical entry-page notice where applicable; no numerical formula change"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/JERK_AUDIT_DIAGNOSTICS.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/audit/JERK_AUDIT_DIAGNOSTICS.json",
+      "original_sha256": "bdaa095d2e2d334e14f7914ac61dcc97cd26c4f17f3d5b80a4b3797323590831",
+      "public_sha256": "bdaa095d2e2d334e14f7914ac61dcc97cd26c4f17f3d5b80a4b3797323590831",
+      "bytes": 10583,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/MATCHED_SUPPORT_QA.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/audit/MATCHED_SUPPORT_QA.json",
+      "original_sha256": "258bf6afd94d588df7afdbed645e501ddfaf1a459d640276ba2e1d23af3d5db7",
+      "public_sha256": "258bf6afd94d588df7afdbed645e501ddfaf1a459d640276ba2e1d23af3d5db7",
+      "bytes": 3973,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/SKEPTICAL_THEORY_AUDIT.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/audit/SKEPTICAL_THEORY_AUDIT.md",
+      "original_sha256": "7144f6d9298311a2e1e1df9380c0cde7daa4f80dae11b39b53e96f2d694463ed",
+      "public_sha256": "7144f6d9298311a2e1e1df9380c0cde7daa4f80dae11b39b53e96f2d694463ed",
+      "bytes": 27075,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/matched_support_qa_attempt1.log",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/audit/matched_support_qa_attempt1.log",
+      "original_sha256": "78471c2eda101f41b5f89b693a82f394b67ac65bfe20537fc7723b51e0f48c4e",
+      "public_sha256": "3d603fb8c2960fa587bc33080061a1f4aa6d120ca85952603aea79dc1e55d98d",
+      "bytes": 238,
+      "changed": true,
+      "change_scope": "portable path redaction; route-only provenance filtering or historical entry-page notice where applicable; no numerical formula change"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/verify_jerk_audit.py",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/audit/verify_jerk_audit.py",
+      "original_sha256": "f246604742886a82e5dcf3af8d9c8db32193ec4999d301a5d33338c697198175",
+      "public_sha256": "f246604742886a82e5dcf3af8d9c8db32193ec4999d301a5d33338c697198175",
+      "bytes": 4921,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/verify_matched_support.py",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/audit/verify_matched_support.py",
+      "original_sha256": "8de8413779b3d157d28a93843205f1aa5e8271d802c523e6121badaf97607000",
+      "public_sha256": "8de8413779b3d157d28a93843205f1aa5e8271d802c523e6121badaf97607000",
+      "bytes": 2151,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/jerk_compression.py",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/experiments/jerk_compression.py",
+      "original_sha256": "9ff3baf1b2a99965c6553358426a32da552d5b698c214f0e8165fba4f921e82a",
+      "public_sha256": "9ff3baf1b2a99965c6553358426a32da552d5b698c214f0e8165fba4f921e82a",
+      "bytes": 4200,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/jerk_compression_results.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/experiments/jerk_compression_results.json",
+      "original_sha256": "8c9800dbb467e18a40d1c185df447ca300652d5fff76ec2d3bae9a8c7664418f",
+      "public_sha256": "8c9800dbb467e18a40d1c185df447ca300652d5fff76ec2d3bae9a8c7664418f",
+      "bytes": 216824,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/matched_arc_budget.py",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/experiments/matched_arc_budget.py",
+      "original_sha256": "b47aa8fe90dc55363bcb066466cb6c1576da7c13ad68eb6063cc47c3d2b671f4",
+      "public_sha256": "b47aa8fe90dc55363bcb066466cb6c1576da7c13ad68eb6063cc47c3d2b671f4",
+      "bytes": 629,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/matched_arc_budget_results.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/experiments/matched_arc_budget_results.json",
+      "original_sha256": "286bbaae7aaa23d15d119ab918fdf1aa703b6b00bd3d55959006898d662b0cd5",
+      "public_sha256": "286bbaae7aaa23d15d119ab918fdf1aa703b6b00bd3d55959006898d662b0cd5",
+      "bytes": 697,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/matched_support_baselines.py",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/experiments/matched_support_baselines.py",
+      "original_sha256": "20aa149b0f2ed2e2a9cce8103964290d9a840027fc6a38005ede372664b0c73c",
+      "public_sha256": "20aa149b0f2ed2e2a9cce8103964290d9a840027fc6a38005ede372664b0c73c",
+      "bytes": 6848,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/matched_support_results.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/experiments/matched_support_results.json",
+      "original_sha256": "dbf7a3a1daab154ac6b8ade015eb91a29e657c60ca7b1f595fd7857eef2d4982",
+      "public_sha256": "dbf7a3a1daab154ac6b8ade015eb91a29e657c60ca7b1f595fd7857eef2d4982",
+      "bytes": 39618,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/network_structure_kernels.npz",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/experiments/network_structure_kernels.npz",
+      "original_sha256": "77db97cc50b60cf145e6e075af402558bcaf53b13bf9511a91267b3ff102fffc",
+      "public_sha256": "77db97cc50b60cf145e6e075af402558bcaf53b13bf9511a91267b3ff102fffc",
+      "bytes": 1201188,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/network_structure_results.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/experiments/network_structure_results.json",
+      "original_sha256": "f0577ea9286d72c2c60b9545f8039c877e505b6e6f1a993e5ebdee43dbd718b4",
+      "public_sha256": "f0577ea9286d72c2c60b9545f8039c877e505b6e6f1a993e5ebdee43dbd718b4",
+      "bytes": 8670,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/network_structure_transfer.py",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/experiments/network_structure_transfer.py",
+      "original_sha256": "a3a7eb0d1c2a8b0540ca93e6a3dfd1d1d86fa3ca395e142c470b733e77be2238",
+      "public_sha256": "a3a7eb0d1c2a8b0540ca93e6a3dfd1d1d86fa3ca395e142c470b733e77be2238",
+      "bytes": 1950,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/literature/EXACT_PRIOR_ART_REDUCTION.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/literature/EXACT_PRIOR_ART_REDUCTION.md",
+      "original_sha256": "da7d42298db88c11b2b354b3f4a98b78daf6d53074c2d5a13f15e95daffe5e5d",
+      "public_sha256": "da7d42298db88c11b2b354b3f4a98b78daf6d53074c2d5a13f15e95daffe5e5d",
+      "bytes": 17464,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/literature/FINITE_JERK_PRIOR_ART_REDUCTION.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/literature/FINITE_JERK_PRIOR_ART_REDUCTION.md",
+      "original_sha256": "c352bb0aaa7a79da959c0a2369d3ddd4bf606a91d0c79c0cd8a7a87ee9f0c862",
+      "public_sha256": "c352bb0aaa7a79da959c0a2369d3ddd4bf606a91d0c79c0cd8a7a87ee9f0c862",
+      "bytes": 9227,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/literature/FIXED_BAND_LINEARIZED_SWITCH_BOUND.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/literature/FIXED_BAND_LINEARIZED_SWITCH_BOUND.md",
+      "original_sha256": "504beadb6b2f45ad94c0bb44a8773a3c6cb5aa5e24e083467334d27aa3852df7",
+      "public_sha256": "504beadb6b2f45ad94c0bb44a8773a3c6cb5aa5e24e083467334d27aa3852df7",
+      "bytes": 9061,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/literature/REDUCTION_DIAGNOSTICS.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/literature/REDUCTION_DIAGNOSTICS.json",
+      "original_sha256": "0bfc36e862d528473247928ef3f954bc72d4a72c0387c687751da472f99e400d",
+      "public_sha256": "0bfc36e862d528473247928ef3f954bc72d4a72c0387c687751da472f99e400d",
+      "bytes": 4505,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/literature/verify_reductions.py",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/literature/verify_reductions.py",
+      "original_sha256": "221dca6039e93cbdc56c020a4062b126b9fb6d415d3b309f227e19e90836b288",
+      "public_sha256": "221dca6039e93cbdc56c020a4062b126b9fb6d415d3b309f227e19e90836b288",
+      "bytes": 3893,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/protocol/CONFIRMATION_PROTOCOL.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/protocol/CONFIRMATION_PROTOCOL.json",
+      "original_sha256": "e6ea2b294ed4f658a9dd260d2539136dce5cfce6cb4ed0a4166086d1346aeb5e",
+      "public_sha256": "4b4e86bc98ad438988f8c0d56a6063c5e3cbbb401115dee4bfe11771cf6b4f85",
+      "bytes": 2219,
+      "changed": true,
+      "change_scope": "portable path redaction; route-only provenance filtering or historical entry-page notice where applicable; no numerical formula change"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/protocol/DEVIATIONS_AND_POSTHOC.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/protocol/DEVIATIONS_AND_POSTHOC.md",
+      "original_sha256": "0a191cd16e602aae07bed8bf001e73c368eb86b9fdf0cd8b8eef237523ee6089",
+      "public_sha256": "0a191cd16e602aae07bed8bf001e73c368eb86b9fdf0cd8b8eef237523ee6089",
+      "bytes": 1137,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/protocol/EXPERIMENT_CODE_SHA256.txt",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/protocol/EXPERIMENT_CODE_SHA256.txt",
+      "original_sha256": "055b56badf6f90fbedf4234147f389a270b9fd3c7f6cd6fa88c39992338862ad",
+      "public_sha256": "055b56badf6f90fbedf4234147f389a270b9fd3c7f6cd6fa88c39992338862ad",
+      "bytes": 134,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/protocol/JERK_COMPRESSION_CODE_SHA256.txt",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/protocol/JERK_COMPRESSION_CODE_SHA256.txt",
+      "original_sha256": "80aaf4509337a79b04ea5a2a3a2cc52fc75a5da07a5c012982c626eb6cd5f643",
+      "public_sha256": "80aaf4509337a79b04ea5a2a3a2cc52fc75a5da07a5c012982c626eb6cd5f643",
+      "bytes": 125,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/protocol/JERK_COMPRESSION_CONFIRMATION.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/protocol/JERK_COMPRESSION_CONFIRMATION.json",
+      "original_sha256": "370d40a1a1884a6dd3f2d25ee41c6f4bc8e06559c4d028aab908f26958ef8f74",
+      "public_sha256": "370d40a1a1884a6dd3f2d25ee41c6f4bc8e06559c4d028aab908f26958ef8f74",
+      "bytes": 924,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/protocol/MATCHED_ARC_BUDGET_EXTENSION.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/protocol/MATCHED_ARC_BUDGET_EXTENSION.json",
+      "original_sha256": "d1b35757e0b9857bd4ab83cedf77827e6fb7391677bab827bca36b89da442baf",
+      "public_sha256": "d1b35757e0b9857bd4ab83cedf77827e6fb7391677bab827bca36b89da442baf",
+      "bytes": 704,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/protocol/NETWORK_STRUCTURE_CONFIRMATION.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/protocol/NETWORK_STRUCTURE_CONFIRMATION.json",
+      "original_sha256": "d94b83cd61be813a16c7783c438503aa1d03914ee71a0e29f96d1507e8eadaaa",
+      "public_sha256": "d94b83cd61be813a16c7783c438503aa1d03914ee71a0e29f96d1507e8eadaaa",
+      "bytes": 729,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/report/CLAIM_LEDGER.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/report/CLAIM_LEDGER.json",
+      "original_sha256": "fe0d4b1c5c7135fd2040e955564aed0bd074fc16fc93f318c7fe443deb053563",
+      "public_sha256": "fe0d4b1c5c7135fd2040e955564aed0bd074fc16fc93f318c7fe443deb053563",
+      "bytes": 4309,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/report/G2_ROUND3_RESEARCH_DOSSIER_ZH.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/report/G2_ROUND3_RESEARCH_DOSSIER_ZH.md",
+      "original_sha256": "b57d2b22af1d458ce4fb7359a59d84e35eccf0c0f526d17bd077606b5c5a36a1",
+      "public_sha256": "b57d2b22af1d458ce4fb7359a59d84e35eccf0c0f526d17bd077606b5c5a36a1",
+      "bytes": 16716,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory/NONCANCELLING_KERNEL_BOUNDARY.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/theory/NONCANCELLING_KERNEL_BOUNDARY.md",
+      "original_sha256": "25b5bb10e02bd705b70fc443173647a4881dd4b502ad650cb9e6925b4ba1a546",
+      "public_sha256": "25b5bb10e02bd705b70fc443173647a4881dd4b502ad650cb9e6925b4ba1a546",
+      "bytes": 5244,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/COHERENT_KERNEL_EXACT_BOUNDARY.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/theory_worker/COHERENT_KERNEL_EXACT_BOUNDARY.md",
+      "original_sha256": "bb0a1babb5d9e0e272c200cdaead0cc930435cbc6fa1ddcd355b1e7cb0ab7c51",
+      "public_sha256": "bb0a1babb5d9e0e272c200cdaead0cc930435cbc6fa1ddcd355b1e7cb0ab7c51",
+      "bytes": 8562,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/CONSTRUCTIVE_THREE_MOMENT_LEMMA.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/theory_worker/CONSTRUCTIVE_THREE_MOMENT_LEMMA.md",
+      "original_sha256": "a85a1909a89b5c0236f533555c41b0f3d14bd5f510c12757404d0006605b99f4",
+      "public_sha256": "a85a1909a89b5c0236f533555c41b0f3d14bd5f510c12757404d0006605b99f4",
+      "bytes": 2375,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/DIAGNOSTIC_PROTOCOL.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/theory_worker/DIAGNOSTIC_PROTOCOL.json",
+      "original_sha256": "9013ad049e806642a68b12b51107f914eb0b3f15e74d1e6b8bd37f3fdb4da9b0",
+      "public_sha256": "9013ad049e806642a68b12b51107f914eb0b3f15e74d1e6b8bd37f3fdb4da9b0",
+      "bytes": 1042,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/FINITE_JERK_AND_BANDWIDTH_THEOREMS.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/theory_worker/FINITE_JERK_AND_BANDWIDTH_THEOREMS.md",
+      "original_sha256": "ac8fecdb538edf32d01a7d081457f266ac1caaaf65384aabb1eaba92abf52834",
+      "public_sha256": "ac8fecdb538edf32d01a7d081457f266ac1caaaf65384aabb1eaba92abf52834",
+      "bytes": 21476,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/README.md",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/theory_worker/README.md",
+      "original_sha256": "c3eea2a2edb39e0c8e8df0467cfc2bbc83611bb932417ccbec26a36e43c1702d",
+      "public_sha256": "08dfa3823e3f3cbfd56e1723ed14b5bcde2b140ed317068600b90b95e4606622",
+      "bytes": 3583,
+      "changed": true,
+      "change_scope": "portable path redaction; route-only provenance filtering or historical entry-page notice where applicable; no numerical formula change"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/REPAIR_LEDGER.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/theory_worker/REPAIR_LEDGER.json",
+      "original_sha256": "4d12c58fd89666537b2ed9648c89ca94d6818cc1f6bfc35e2c6405e041c1ebbb",
+      "public_sha256": "4d12c58fd89666537b2ed9648c89ca94d6818cc1f6bfc35e2c6405e041c1ebbb",
+      "bytes": 811,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/THEORY_DIAGNOSTICS.json",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/theory_worker/THEORY_DIAGNOSTICS.json",
+      "original_sha256": "b0bdfcf3d1574ce2b8186cb1db4a75455c2663b2a9d29211db3b0e4bde841050",
+      "public_sha256": "b0bdfcf3d1574ce2b8186cb1db4a75455c2663b2a9d29211db3b0e4bde841050",
+      "bytes": 38279,
+      "changed": false,
+      "change_scope": "unchanged"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "source_path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/verify_theory.py",
+      "public_path": "evidence/snapshot/outputs/round3_g2_20261004/theory_worker/verify_theory.py",
+      "original_sha256": "4c2cb1c3337c20c668ba0a0b819b2b0d8d8e52a2dafc612ef1ce71f2e24b877a",
+      "public_sha256": "4c2cb1c3337c20c668ba0a0b819b2b0d8d8e52a2dafc612ef1ce71f2e24b877a",
+      "bytes": 8391,
+      "changed": false,
+      "change_scope": "unchanged"
+    }
+  ]
+}

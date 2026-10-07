@@ -1,0 +1,42 @@
+{
+  "case_files": {
+    "kundur": {
+      "sha256": "f725e03ba12d8207616f68acdd606bbd35e7c4a68f13e66d7db43925adac2ed8",
+      "matches_source_lock": true
+    },
+    "npcc": {
+      "sha256": "f85a46d5f4b4910b09c7b141b85504fc060b812f5f940f266db8c9784f755b21",
+      "matches_source_lock": true
+    },
+    "wecc": {
+      "sha256": "038cf6732389f7d691232b7548cfa3dea2dc6a01304cc5918ad63ad55fdf23ec",
+      "matches_source_lock": true
+    }
+  },
+  "installed_model_and_solver_sources": {
+    "models/exciter/esst3a.py": {
+      "sha256": "b2a0f23f2f2534a878ce48ccbfbde90a76ab1b237c980607704dd8da22a702c5",
+      "matches_source_lock": true
+    },
+    "models/dynload/zip.py": {
+      "sha256": "869d8f640c9dea22a0c5e28045c507d7e297124cadd1b9d14e1a61b10afc02e6",
+      "matches_source_lock": true
+    },
+    "models/static/pq.py": {
+      "sha256": "958db0ff11cc5d3108bc084579090c43d33b5bbb37c0f8c3ea209b1af9bd0ae3",
+      "matches_source_lock": true
+    },
+    "routines/eig.py": {
+      "sha256": "10a97879f0b3f15a59dc51f1ab6a6bd9a6f7ac6e7ada0337949af78e07ef5707",
+      "matches_source_lock": true
+    },
+    "routines/tds.py": {
+      "sha256": "224ff43d78de8e6808efa0a6b858d8dbe2ca511128a90a8260009c8146d6e8ba",
+      "matches_source_lock": true
+    },
+    "routines/daeint.py": {
+      "sha256": "f32dcce4716ae3b253fec9968ac54cb2d7d1f55b35b1acd7b3cbb843fa7f4a93",
+      "matches_source_lock": true
+    }
+  }
+}

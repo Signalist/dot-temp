@@ -1,0 +1,215 @@
+{
+  "status": "passed",
+  "scope": "Exact rational mapping and witness geometry; floating-point cosine normalizations; not a proof assistant or outward-rounded certificate",
+  "checks": [
+    {
+      "name": "exact_rational_moment_mapping",
+      "cases": 1875,
+      "passed": true
+    },
+    {
+      "name": "oscillatory_linear_witness",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "name": "strict_short_interval_partition",
+      "cases": 12,
+      "passed": true
+    },
+    {
+      "name": "third_order_linear_baseline",
+      "passed": true,
+      "moment_residuals": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_cosine_correlation": 0.015092678218196239
+    }
+  ],
+  "oscillatory_witnesses": [
+    {
+      "N": 1,
+      "switches": 2,
+      "speed_deviation": "1/4",
+      "phase_deviation": "1/16",
+      "linear_optimum": 0.016125767216599748,
+      "m_equals_N_gap_lower": 0.008062883608299874,
+      "active_band_feasible": false
+    },
+    {
+      "N": 2,
+      "switches": 4,
+      "speed_deviation": "1/8",
+      "phase_deviation": "1/64",
+      "linear_optimum": 0.004031441804149937,
+      "m_equals_N_gap_lower": 0.0020157209020749685,
+      "active_band_feasible": false
+    },
+    {
+      "N": 3,
+      "switches": 6,
+      "speed_deviation": "1/12",
+      "phase_deviation": "1/144",
+      "linear_optimum": 0.0017917519129555274,
+      "m_equals_N_gap_lower": 0.0008958759564777637,
+      "active_band_feasible": true
+    },
+    {
+      "N": 4,
+      "switches": 8,
+      "speed_deviation": "1/16",
+      "phase_deviation": "1/256",
+      "linear_optimum": 0.0010078604510374842,
+      "m_equals_N_gap_lower": 0.0005039302255187421,
+      "active_band_feasible": true
+    },
+    {
+      "N": 8,
+      "switches": 16,
+      "speed_deviation": "1/32",
+      "phase_deviation": "1/1024",
+      "linear_optimum": 0.00025196511275937106,
+      "m_equals_N_gap_lower": 0.00012598255637968553,
+      "active_band_feasible": true
+    },
+    {
+      "N": 16,
+      "switches": 32,
+      "speed_deviation": "1/64",
+      "phase_deviation": "1/4096",
+      "linear_optimum": 6.299127818984276e-05,
+      "m_equals_N_gap_lower": 3.149563909492138e-05,
+      "active_band_feasible": true
+    },
+    {
+      "N": 32,
+      "switches": 64,
+      "speed_deviation": "1/128",
+      "phase_deviation": "1/16384",
+      "linear_optimum": 1.574781954746069e-05,
+      "m_equals_N_gap_lower": 7.873909773730346e-06,
+      "active_band_feasible": true
+    },
+    {
+      "N": 64,
+      "switches": 128,
+      "speed_deviation": "1/256",
+      "phase_deviation": "1/65536",
+      "linear_optimum": 3.936954886865173e-06,
+      "m_equals_N_gap_lower": 1.9684774434325864e-06,
+      "active_band_feasible": true
+    }
+  ],
+  "illustrative_zero_bound_partitions": [
+    {
+      "B": 0,
+      "r": 0.5,
+      "Dq": 3,
+      "d": 5,
+      "Omega": 0.0,
+      "K": 1,
+      "switch_bound": 4
+    },
+    {
+      "B": 0,
+      "r": 1,
+      "Dq": 3,
+      "d": 5,
+      "Omega": 0.0,
+      "K": 1,
+      "switch_bound": 4
+    },
+    {
+      "B": 0,
+      "r": 2,
+      "Dq": 3,
+      "d": 5,
+      "Omega": 0.0,
+      "K": 1,
+      "switch_bound": 4
+    },
+    {
+      "B": 1,
+      "r": 0.5,
+      "Dq": 9,
+      "d": 11,
+      "Omega": 3.141592653589793,
+      "K": 2,
+      "switch_bound": 20
+    },
+    {
+      "B": 1,
+      "r": 1,
+      "Dq": 9,
+      "d": 11,
+      "Omega": 6.283185307179586,
+      "K": 3,
+      "switch_bound": 30
+    },
+    {
+      "B": 1,
+      "r": 2,
+      "Dq": 9,
+      "d": 11,
+      "Omega": 12.566370614359172,
+      "K": 5,
+      "switch_bound": 50
+    },
+    {
+      "B": 2,
+      "r": 0.5,
+      "Dq": 15,
+      "d": 17,
+      "Omega": 6.283185307179586,
+      "K": 3,
+      "switch_bound": 48
+    },
+    {
+      "B": 2,
+      "r": 1,
+      "Dq": 15,
+      "d": 17,
+      "Omega": 12.566370614359172,
+      "K": 5,
+      "switch_bound": 80
+    },
+    {
+      "B": 2,
+      "r": 2,
+      "Dq": 15,
+      "d": 17,
+      "Omega": 25.132741228718345,
+      "K": 9,
+      "switch_bound": 144
+    },
+    {
+      "B": 8,
+      "r": 0.5,
+      "Dq": 51,
+      "d": 53,
+      "Omega": 25.132741228718345,
+      "K": 9,
+      "switch_bound": 468
+    },
+    {
+      "B": 8,
+      "r": 1,
+      "Dq": 51,
+      "d": 53,
+      "Omega": 50.26548245743669,
+      "K": 17,
+      "switch_bound": 884
+    },
+    {
+      "B": 8,
+      "r": 2,
+      "Dq": 51,
+      "d": 53,
+      "Omega": 100.53096491487338,
+      "K": 33,
+      "switch_bound": 1716
+    }
+  ]
+}

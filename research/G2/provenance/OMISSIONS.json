@@ -1,0 +1,180 @@
+{
+  "scope": "Scientific scripts needing omitted historical data are reference-only; see REPRODUCE.md. No raw third-party papers/workbooks, installed software, secrets or unrelated project files.",
+  "files": [
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/HISTORICAL_HASH_AUDIT.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/QA/CLEAN_REPLAY_CONSOLE.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/QA/CLEAN_REPLAY_REPORT.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/QA/logs/jerk_audit.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/QA/logs/jerk_compression.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/QA/logs/matched_arc_budget.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/QA/logs/matched_audit.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/QA/logs/matched_support.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/QA/logs/network_structure.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/QA/logs/prior_art.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/QA/logs/theory_diagnostics.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/SOURCE_PROVENANCE.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/replay.py",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round2_20261003/grid_transfer/requirements_environment_freeze.txt",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/FINAL_VERIFICATION.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/THEORY_AUDIT_INPUT_SHA256.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/final_verification.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/final_verification.py",
+      "reason": "Superseded verifier requiring unavailable 896-file history; included scientific saved-result assertions are checked by handoff replay.py; no new full historical verification claimed"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/jerk_audit_diagnostics.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/audit/matched_support_qa.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/deliverables/BUNDLE_VERIFICATION.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/jerk_compression.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/matched_arc_budget.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/matched_support.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/experiments/network_structure.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/literature/DELIVERY_MANIFEST.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/literature/PRIMARY_SOURCE_EXCERPTS.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/protocol/PRIOR_SOURCE_SHA256.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/protocol/RUNTIME.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/ENVIRONMENT.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/INPUT_SOURCE_HASHES.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/MANIFEST_SHA256.json",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    },
+    {
+      "archive": "G2_round3_code_evidence.zip",
+      "path": "g2_round3_replay/snapshot/outputs/round3_g2_20261004/theory_worker/THEORY_DIAGNOSTICS.log",
+      "reason": "packaging/history duplication, nonessential visual or private runtime metadata; not an omitted successful scientific test"
+    }
+  ]
+}

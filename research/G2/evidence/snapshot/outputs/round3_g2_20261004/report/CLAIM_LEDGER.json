@@ -1,0 +1,86 @@
+[
+  {
+    "id": "C1",
+    "kind": "Classical inclusion",
+    "claim": "Inactive acceleration compression and 1/8 phase constant directly reduce to Goodman–Lee; local two-moment formula to Scarinci–Veliov.",
+    "evidence": "literature/EXACT_PRIOR_ART_REDUCTION.md",
+    "limit": "Do not claim new approximation exponent, count, or constant"
+  },
+  {
+    "id": "C2",
+    "kind": "Theorem",
+    "claim": "Fixed J=.25 inactive-band positive equal-energy shared-clock full-future finite-jerk-arc value gap Theta(m^-3).",
+    "evidence": "theory_worker/FINITE_JERK_AND_BANDWIDTH_THEOREMS.md",
+    "limit": "Synthetic fourth-order opposite kernels, unbounded profile bandwidth, common zero state and nominal tail; representation not runtime"
+  },
+  {
+    "id": "C3",
+    "kind": "Theorem/corollary",
+    "claim": "Uniform profile slope gives Theta(m^-4) for a constructed family with growing Fourier degree.",
+    "evidence": "theory_worker/FINITE_JERK_AND_BANDWIDTH_THEOREMS.md",
+    "limit": "Fixed Fourier cutoff sharpness remains unresolved; exact cancellation and diminishing amplitude"
+  },
+  {
+    "id": "C4",
+    "kind": "Classical corollary",
+    "claim": "Fixed exponential-polynomial dictionary gives finite exact switch bound for linearized endpoint support.",
+    "evidence": "literature/FIXED_BAND_LINEARIZED_SWITCH_BOUND.md",
+    "limit": "Inactive constraints; no nonlinear phase-composition or general full-peak extension"
+  },
+  {
+    "id": "C5",
+    "kind": "Theorem",
+    "claim": "Same-sign derivative finite-jerk class reduces all post-service absolute peaks to two universal clocks with three jerk switches.",
+    "evidence": "theory_worker/COHERENT_KERNEL_EXACT_BOUNDARY.md",
+    "limit": "Bounded positive loads; relevant coherent kernels; not within-service full peak"
+  },
+  {
+    "id": "C6",
+    "kind": "Theorem",
+    "claim": "A nonproportional common-mode-dominated pair has an exact two-acceleration-switch nonlinear terminal maximum independently of bandwidth.",
+    "evidence": "theory/NONCANCELLING_KERNEL_BOUNDARY.md",
+    "limit": "Separate acceleration-only class; not jerk-feasible or full-future peak result"
+  },
+  {
+    "id": "C7",
+    "kind": "Executed matched baseline",
+    "claim": "Classical free-knot support attains all nine linearized reference optima; same-arc uniform meshes attain 65.5-71.2 percent in cancellation tests.",
+    "evidence": "experiments/matched_support_results.json",
+    "limit": "Signed linearized endpoint; nonlinear global Taylor bounds can be loose"
+  },
+  {
+    "id": "C8",
+    "kind": "Executed compression confirmation",
+    "claim": "Three/four-moment finite-jerk compression respects endpoint work, speed, acceleration and analytical output bounds.",
+    "evidence": "experiments/jerk_compression_results.json",
+    "limit": "Supplied-clock compression, sampled diagnostic not optimizer or proof of sharp rate"
+  },
+  {
+    "id": "C9",
+    "kind": "Executed network nontransfer evidence",
+    "claim": "Existing Kundur raw-frequency kernels have nonzero CB and observed derivative sign changes, excluding direct use of the new lower or simplest coherence proof.",
+    "evidence": "experiments/network_structure_results.json",
+    "limit": "Linear transfer qualification only; no new nonlinear/hardware validation"
+  },
+  {
+    "id": "C10",
+    "kind": "Sufficient sensitivity bound",
+    "claim": "Generic kernel-norm perturbation estimate retains a finite-instance gap if output uncertainty scales sufficiently below that gap.",
+    "evidence": "theory_worker/FINITE_JERK_AND_BANDWIDTH_THEOREMS.md",
+    "limit": "No fixed-radius asymptotic robustness proof; not a necessity result for all structured perturbations"
+  },
+  {
+    "id": "C11",
+    "kind": "Open",
+    "claim": "Historical novelty of the constrained nonlinear full-future response-value embedding remains unconfirmed.",
+    "evidence": "literature/FINITE_JERK_PRIOR_ART_REDUCTION.md",
+    "limit": "No paper-ready or first-ever claim"
+  },
+  {
+    "id": "C12",
+    "kind": "Open",
+    "claim": "Fixed Fourier cutoff, active finite-jerk constraints, and robust actual-grid value-gap relevance remain unproved.",
+    "evidence": "report/G2_ROUND3_RESEARCH_DOSSIER_ZH.md",
+    "limit": "Do not infer these from finite smoothness or prior Kundur admission examples"
+  }
+]
